@@ -1,0 +1,191 @@
+/* ============================================================
+   Audio UI — Phase 6
+   ============================================================ */
+
+/* ─── Inline play button next to words/sentences ─────── */
+.audio-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px; height: 28px;
+  flex: 0 0 auto;
+  padding: 0;
+  border-radius: var(--r-full);
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease;
+  vertical-align: middle;
+}
+.audio-btn:hover { color: var(--primary); border-color: var(--primary); }
+.audio-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.audio-btn.is-playing {
+  color: var(--bg);
+  background: var(--primary);
+  border-color: var(--primary);
+  animation: audio-pulse 1.2s ease-in-out infinite;
+}
+@keyframes audio-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.6; }
+}
+
+/* ─── Rows that hold a word + play button ────────────── */
+.lesson-vocab__jp-row,
+.lesson-example__jp-row,
+.lesson-sentence__jp-row,
+.lesson-practice__stem-row {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  flex-wrap: wrap;
+}
+.lesson-vocab__jp-row > .lesson-vocab__jp,
+.lesson-example__jp-row > .lesson-example__jp,
+.lesson-sentence__jp-row > .lesson-sentence__jp,
+.lesson-practice__stem-row > .lesson-practice__stem {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* ─── Play-all row at top of each panel ──────────────── */
+.audio-playall {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: var(--s-3);
+}
+.audio-playall__btn {
+  display: inline-flex; align-items: center; gap: var(--s-2);
+  font-weight: 500;
+}
+
+/* ─── Control bar ────────────────────────────────────── */
+.audio-bar {
+  position: fixed;
+  left: 50%;
+  bottom: calc(var(--audio-bar-offset, var(--s-4)) + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%);
+  z-index: 950;
+  display: flex;
+  align-items: center;
+  gap: var(--s-1);
+  padding: var(--s-2);
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  box-shadow: var(--shadow-lg);
+  max-width: calc(100vw - var(--s-4) * 2);
+  width: max-content;
+  font-family: var(--font-en);
+}
+html[lang="bn"] .audio-bar { font-family: var(--font-bn); }
+html[data-theme="dark"] .audio-bar {
+  background: color-mix(in srgb, var(--surface) 90%, var(--bg));
+}
+
+/* Mobile: sit above the bottom nav */
+@media (max-width: 767px) {
+  .audio-bar {
+    --audio-bar-offset: calc(var(--shell-bottomnav-height, 68px) + var(--s-3));
+  }
+}
+
+/* ─── Bar: icon buttons ──────────────────────────────── */
+.audio-bar__icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px; height: 36px;
+  flex: 0 0 auto;
+  border-radius: var(--r-full);
+  border: none;
+  background: transparent;
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+.audio-bar__icon-btn:hover { background: var(--bg); color: var(--ink); }
+.audio-bar__icon-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.audio-bar__icon-btn[hidden] { display: none; }
+
+.audio-bar__play {
+  color: var(--bg);
+  background: var(--primary);
+  width: 40px; height: 40px;
+}
+.audio-bar__play:hover { background: var(--primary); color: var(--bg); }
+.audio-bar__play:focus-visible { outline-offset: 3px; }
+
+/* ─── Bar: info (label + counter) ────────────────────── */
+.audio-bar__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 0 var(--s-2);
+  min-width: 0;
+  max-width: 40vw;
+}
+@media (max-width: 480px) {
+  .audio-bar__info { max-width: 30vw; }
+}
+.audio-bar__label {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+html[lang="bn"] .audio-bar__label { line-height: var(--lh-bn); }
+.audio-bar__counter {
+  font-size: var(--fs-xs);
+  color: var(--ink-subtle);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ─── Bar: chips (rate, loop) ────────────────────────── */
+.audio-bar__chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-1);
+  padding: var(--s-1) var(--s-3);
+  min-height: 32px;
+  border-radius: var(--r-full);
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--ink-muted);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+  transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease;
+}
+.audio-bar__chip:hover { color: var(--ink); border-color: var(--ink-muted); }
+.audio-bar__chip:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.audio-bar__chip.is-active,
+.audio-bar__loop[aria-pressed="true"] {
+  color: var(--bg);
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+/* ─── Toast when TTS is used (only if no ja voice) ───── */
+.audio-toast {
+  position: fixed;
+  bottom: calc(var(--audio-bar-offset, var(--s-4)) + env(safe-area-inset-bottom, 0px) + 72px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink); color: var(--bg);
+  padding: var(--s-2) var(--s-4);
+  border-radius: var(--r-full);
+  font-size: var(--fs-sm);
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  transition: opacity 200ms ease;
+  pointer-events: none;
+  z-index: 940;
+}
+.audio-toast.is-visible { opacity: 1; }
