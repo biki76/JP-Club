@@ -1,0 +1,15 @@
+{
+  "slug": "minna-001",
+  "courseId": "minna-beginner",
+  "lessonNumber": 1,
+  "title":    { "en": "Introductions", "bn": "পরিচিতি" },
+  "subtitle": { "en": "はじめまして", "bn": "প্রথম পরিচয়" },
+  "jlpt": "N5",
+  "durationMin": 45,
+  "dataFiles": {
+    "vocabulary": "vocabulary.json",
+    "grammar":    "grammar.json",
+    "kanji":      "kanji.json"
+  },
+  "tags": ["n5", "greetings", "self-introduction"]
+}
