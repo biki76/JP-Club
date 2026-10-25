@@ -1,0 +1,5 @@
+[
+  { "id": "minna-002-v001", "kanji": "本",   "furigana": "ほん",   "romaji": "hon",   "english_meaning": "book",           "bengali_meaning": "বই",   "tags": ["noun", "n5"] },
+  { "id": "minna-002-v002", "kanji": "時計", "furigana": "とけい", "romaji": "tokei", "english_meaning": "watch; clock",   "bengali_meaning": "ঘড়ি",  "tags": ["noun", "n5"] },
+  { "id": "minna-002-v003", "kanji": "傘",   "furigana": "かさ",   "romaji": "kasa",  "english_meaning": "umbrella",       "bengali_meaning": "ছাতা",  "tags": ["noun", "n5"] }
+]
