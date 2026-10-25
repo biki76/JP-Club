@@ -1,0 +1,13 @@
+[
+  {
+    "id": "minna-001-l001",
+    "title": { "en": "Greeting Dialogue", "bn": "শুভেচ্ছা সংলাপ" },
+    "audio_url": "",
+    "transcript": [
+      { "jp": "田中：はじめまして。田中です。",       "furigana": "たなか：はじめまして。たなかです。",       "romaji": "Tanaka: Hajimemashite. Tanaka desu.",      "en": "Tanaka: How do you do? I'm Tanaka.",         "bn": "তানাকা: প্রথম পরিচয়ে শুভেচ্ছা। আমি তানাকা।" },
+      { "jp": "佐藤：私は佐藤です。学生です。",       "furigana": "さとう：わたしはさとうです。がくせいです。", "romaji": "Satou: Watashi wa Satou desu. Gakusei desu.", "en": "Sato: I'm Sato. I'm a student.",             "bn": "সাতো: আমি সাতো। আমি ছাত্র।" },
+      { "jp": "田中：どうぞよろしく。",               "furigana": "たなか：どうぞよろしく。",                   "romaji": "Tanaka: Douzo yoroshiku.",                 "en": "Tanaka: Pleased to meet you.",               "bn": "তানাকা: আপনার সাথে পরিচিত হয়ে আনন্দিত।" },
+      { "jp": "佐藤：こちらこそ。",                   "furigana": "さとう：こちらこそ。",                       "romaji": "Satou: Kochira koso.",                     "en": "Sato: Likewise.",                            "bn": "সাতো: আমিও।" }
+    ]
+  }
+]
