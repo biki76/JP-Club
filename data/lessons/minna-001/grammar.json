@@ -1,0 +1,89 @@
+[
+  {
+    "id": "minna-001-g001",
+    "pattern": "N は N です",
+    "meaning_en": "A is B (polite copula)",
+    "meaning_bn": "A হলো B (ভদ্র সহায়ক ক্রিয়া)",
+    "examples": [
+      {
+        "jp": "私は学生です。",
+        "furigana": "わたしはがくせいです。",
+        "romaji": "Watashi wa gakusei desu.",
+        "en": "I am a student.",
+        "bn": "আমি একজন ছাত্র।"
+      },
+      {
+        "jp": "田中さんは先生です。",
+        "furigana": "たなかさんはせんせいです。",
+        "romaji": "Tanaka-san wa sensei desu.",
+        "en": "Tanaka-san is a teacher.",
+        "bn": "তানাকা-সান একজন শিক্ষক।"
+      }
+    ],
+    "tags": ["copula", "n5"]
+  },
+  {
+    "id": "minna-001-g002",
+    "pattern": "N は N じゃありません",
+    "meaning_en": "A is not B (polite negative)",
+    "meaning_bn": "A নয় B (ভদ্র নেতিবাচক)",
+    "examples": [
+      {
+        "jp": "私は先生じゃありません。",
+        "furigana": "わたしはせんせいじゃありません。",
+        "romaji": "Watashi wa sensei ja arimasen.",
+        "en": "I am not a teacher.",
+        "bn": "আমি শিক্ষক নই।"
+      }
+    ],
+    "tags": ["negative", "n5"]
+  },
+  {
+    "id": "minna-001-g003",
+    "pattern": "N は N ですか",
+    "meaning_en": "Is A B? (polite question)",
+    "meaning_bn": "A কি B? (ভদ্র প্রশ্ন)",
+    "examples": [
+      {
+        "jp": "あなたは学生ですか。",
+        "furigana": "あなたはがくせいですか。",
+        "romaji": "Anata wa gakusei desu ka.",
+        "en": "Are you a student?",
+        "bn": "আপনি কি ছাত্র?"
+      }
+    ],
+    "tags": ["question", "n5"]
+  },
+  {
+    "id": "minna-001-g004",
+    "pattern": "N も",
+    "meaning_en": "also / too (replaces は)",
+    "meaning_bn": "ও / -ও (は-এর পরিবর্তে)",
+    "examples": [
+      {
+        "jp": "私も学生です。",
+        "furigana": "わたしもがくせいです。",
+        "romaji": "Watashi mo gakusei desu.",
+        "en": "I am a student too.",
+        "bn": "আমিও ছাত্র।"
+      }
+    ],
+    "tags": ["particle", "n5"]
+  },
+  {
+    "id": "minna-001-g005",
+    "pattern": "N の N",
+    "meaning_en": "possessive / attributive (N's N; N of N)",
+    "meaning_bn": "অধিকার/সম্পর্ক প্রকাশ (N-এর N)",
+    "examples": [
+      {
+        "jp": "私の大学",
+        "furigana": "わたしのだいがく",
+        "romaji": "Watashi no daigaku",
+        "en": "my university",
+        "bn": "আমার বিশ্ববিদ্যালয়"
+      }
+    ],
+    "tags": ["particle", "n5"]
+  }
+]
