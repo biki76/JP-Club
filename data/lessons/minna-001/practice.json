@@ -1,0 +1,29 @@
+[
+  {
+    "id": "minna-001-p001",
+    "type": "multiple-choice",
+    "prompt": { "en": "Choose the correct particle.", "bn": "সঠিক পার্টিকেল নির্বাচন করুন।" },
+    "stem":   { "jp": "私＿＿学生です。", "furigana": "わたし＿＿がくせいです。", "romaji": "Watashi __ gakusei desu." },
+    "options": ["は", "も", "の", "か"],
+    "correctIndex": 0,
+    "explanation": { "en": "は marks the topic.", "bn": "は টপিক চিহ্নিত করে।" }
+  },
+  {
+    "id": "minna-001-p002",
+    "type": "multiple-choice",
+    "prompt": { "en": "Choose the correct negative form.", "bn": "সঠিক নেতিবাচক রূপ নির্বাচন করুন।" },
+    "stem":   { "jp": "私は先生＿＿。", "furigana": "わたしはせんせい＿＿。", "romaji": "Watashi wa sensei __." },
+    "options": ["です", "じゃありません", "ですか", "ですね"],
+    "correctIndex": 1,
+    "explanation": { "en": "じゃありません is the polite negative.", "bn": "じゃありません ভদ্র নেতিবাচক রূপ।" }
+  },
+  {
+    "id": "minna-001-p003",
+    "type": "multiple-choice",
+    "prompt": { "en": "Choose the correct possessive particle.", "bn": "সঠিক অধিকারবাচক পার্টিকেল নির্বাচন করুন।" },
+    "stem":   { "jp": "私＿＿大学", "furigana": "わたし＿＿だいがく", "romaji": "Watashi __ daigaku" },
+    "options": ["は", "も", "の", "を"],
+    "correctIndex": 2,
+    "explanation": { "en": "の links two nouns as possession.", "bn": "の দুটি বিশেষ্যের মধ্যে অধিকার সম্পর্ক তৈরি করে।" }
+  }
+]
