@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-furigana="on">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanji — Nihongo</title>
+
+  <!-- Pre-paint: apply saved prefs before any CSS loads (FOUC-free) -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('nihongo_theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+        var f = localStorage.getItem('nihongo_furigana');
+        if (f === 'on' || f === 'off') document.documentElement.setAttribute('data-furigana', f);
+        var l = localStorage.getItem('nihongo_lang');
+        if (l === 'en' || l === 'bn') document.documentElement.setAttribute('lang', l);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/shell.css" />
+  <link rel="stylesheet" href="css/kanji.css" />
+</head>
+<body class="shell-body">
+  <header data-shell-header></header>
+
+  <div class="shell-frame">
+    <aside class="shell-sidebar" data-shell-sidebar></aside>
+    <main class="shell-main" id="kanji-main"></main>
+  </div>
+
+  <nav class="shell-bottomnav" data-shell-bottomnav></nav>
+  <footer class="shell-footer" data-shell-footer></footer>
+  <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
+
+  <script>
+    window.SHELL_CONFIG = {
+      navGroups: [
+        {
+          title: { en: 'Learn', bn: 'শেখা' },
+          items: [
+            { key: 'home',   icon: 'home',     href: 'home.html',       label: { en: 'Home',       bn: 'হোম' } },
+            { key: 'lesson', icon: 'book',     href: 'lesson.html',     label: { en: 'Lessons',    bn: 'পাঠ' } },
+            { key: 'kanji',  icon: 'kanji',    href: 'kanji.html',      label: { en: 'Kanji',      bn: 'কাঞ্জি' } },
+            { key: 'cards',  icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
+            { key: 'quiz',   icon: 'practice', href: 'quiz.html',       label: { en: 'Quiz',       bn: 'কুইজ' } }
+          ]
+        }
+      ],
+      bottomNav: [
+        { href: 'home.html',       icon: 'home',     label: { en: 'Home',  bn: 'হোম' } },
+        { href: 'lesson.html',     icon: 'book',     label: { en: 'Lesson', bn: 'পাঠ' } },
+        { href: 'kanji.html',      icon: 'kanji',    label: { en: 'Kanji', bn: 'কাঞ্জি' } },
+        { href: 'flashcards.html', icon: 'practice', label: { en: 'Cards', bn: 'কার্ড' } }
+      ]
+    };
+  </script>
+
+  <script src="js/data-schemas.js"></script>
+  <script src="js/data-loader.js" defer></script>
+  <script src="js/shell.js" defer></script>
+  <script src="js/kanji.js" defer></script>
+</body>
+</html>
