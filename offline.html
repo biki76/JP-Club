@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-furigana="on">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Offline · Nihongo · Bengali</title>
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('nihongo_theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+        var l = localStorage.getItem('nihongo_lang');
+        if (l) document.documentElement.setAttribute('lang', l === 'bn' ? 'bn' : 'en');
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/a11y.css" />
+
+  <style>
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--s-5);
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-en);
+      line-height: var(--lh-en);
+    }
+    html[lang="bn"] body { font-family: var(--font-bn); line-height: var(--lh-bn); }
+    .offline-card {
+      max-width: 460px;
+      width: 100%;
+      text-align: center;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      padding: var(--s-7) var(--s-5);
+      box-shadow: var(--shadow-md);
+    }
+    .offline-icon {
+      display: inline-flex;
+      width: 64px;
+      height: 64px;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--r-full);
+      background: color-mix(in srgb, var(--primary) 12%, var(--surface));
+      color: var(--primary);
+      margin-bottom: var(--s-4);
+    }
+    .offline-card h1 { font-size: var(--fs-2xl); margin: 0 0 var(--s-3); }
+    .offline-card p { color: var(--ink-muted); margin: 0 0 var(--s-5); }
+    .offline-actions { display: flex; gap: var(--s-2); justify-content: center; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <main class="offline-card">
+    <div class="offline-icon" aria-hidden="true">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round">
+        <line x1="2" y1="2" x2="22" y2="22"></line>
+        <path d="M8.5 16.5a5 5 0 0 1 7 0"></path>
+        <path d="M2 8.82a15 15 0 0 1 4.17-2.65"></path>
+        <path d="M10.66 5c4.01-.36 8.14.9 11.34 3.76"></path>
+        <path d="M16.85 11.25a10 10 0 0 1 2.22 1.68"></path>
+        <line x1="5" y1="12.5" x2="5" y2="12.5"></line>
+      </svg>
+    </div>
+    <h1>
+      <span data-en="You're offline" data-bn="আপনি অফলাইনে আছেন">You're offline</span>
+    </h1>
+    <p>
+      <span data-en="We couldn't reach the network. Lessons you've already opened are still available."
+            data-bn="নেটওয়ার্কে পৌঁছানো যায়নি। আপনি আগে খোলা লেসন এখনও ব্যবহার করতে পারবেন।">
+        We couldn't reach the network. Lessons you've already opened are still available.
+      </span>
+    </p>
+    <div class="offline-actions">
+      <button class="btn btn--primary" type="button" onclick="location.reload()">
+        <span data-en="Try again" data-bn="আবার চেষ্টা করুন">Try again</span>
+      </button>
+      <a class="btn btn--secondary" href="home.html">
+        <span data-en="Go to home" data-bn="হোমে যান">Go to home</span>
+      </a>
+    </div>
+  </main>
+
+  <script>
+    // Auto-recover when the connection returns.
+    window.addEventListener('online', function () {
+      var target = document.referrer && document.referrer.indexOf(location.origin) === 0
+        ? document.referrer
+        : 'home.html';
+      location.replace(target);
+    });
+  </script>
+</body>
+</html>
