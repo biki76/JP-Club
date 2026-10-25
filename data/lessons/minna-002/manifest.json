@@ -1,0 +1,13 @@
+{
+  "slug": "minna-002",
+  "courseId": "minna-beginner",
+  "lessonNumber": 2,
+  "title":    { "en": "This and That", "bn": "এটা এবং ওটা" },
+  "subtitle": { "en": "これ・それ・あれ", "bn": "এটি সেটি ওটি" },
+  "jlpt": "N5",
+  "durationMin": 40,
+  "dataFiles": {
+    "vocabulary": "vocabulary.json"
+  },
+  "tags": ["n5", "demonstratives"]
+}
