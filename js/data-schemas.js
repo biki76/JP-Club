@@ -252,3 +252,31 @@
     validateCollection
   };
 });
+/* ── PHASE 6: sentences may carry an optional audio_url ── */
+const sentencePair = {
+  type: 'object',
+  required: ['jp', 'en', 'bn'],
+  properties: {
+    jp:        nonEmptyString,
+    furigana:  { type: 'string' },
+    romaji:    { type: 'string' },
+    audio_url: { type: 'string' },        // ← added
+    en:        nonEmptyString,
+    bn:        nonEmptyString
+  },
+  additionalProperties: false
+};
+
+const grammarExample = {
+  type: 'object',
+  required: ['jp', 'en', 'bn'],
+  properties: {
+    jp:        nonEmptyString,
+    furigana:  { type: 'string' },
+    romaji:    { type: 'string' },
+    audio_url: { type: 'string' },        // ← added
+    en:        nonEmptyString,
+    bn:        nonEmptyString
+  },
+  additionalProperties: false
+};
