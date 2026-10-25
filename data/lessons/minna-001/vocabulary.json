@@ -1,0 +1,136 @@
+[
+  {
+    "id": "minna-001-v001",
+    "kanji": "私",
+    "furigana": "わたし",
+    "romaji": "watashi",
+    "english_meaning": "I; me",
+    "bengali_meaning": "আমি",
+    "tags": ["pronoun", "n5"]
+  },
+  {
+    "id": "minna-001-v002",
+    "furigana": "あなた",
+    "romaji": "anata",
+    "english_meaning": "you",
+    "bengali_meaning": "আপনি; তুমি",
+    "tags": ["pronoun", "n5"]
+  },
+  {
+    "id": "minna-001-v003",
+    "kanji": "学生",
+    "furigana": "がくせい",
+    "romaji": "gakusei",
+    "english_meaning": "student",
+    "bengali_meaning": "ছাত্র-ছাত্রী",
+    "tags": ["noun", "n5", "people"]
+  },
+  {
+    "id": "minna-001-v004",
+    "kanji": "先生",
+    "furigana": "せんせい",
+    "romaji": "sensei",
+    "english_meaning": "teacher; instructor",
+    "bengali_meaning": "শিক্ষক",
+    "tags": ["noun", "n5", "people"]
+  },
+  {
+    "id": "minna-001-v005",
+    "kanji": "会社員",
+    "furigana": "かいしゃいん",
+    "romaji": "kaishain",
+    "english_meaning": "company employee",
+    "bengali_meaning": "কোম্পানির কর্মচারী",
+    "tags": ["noun", "n5", "occupation"]
+  },
+  {
+    "id": "minna-001-v006",
+    "kanji": "銀行員",
+    "furigana": "ぎんこういん",
+    "romaji": "ginkouin",
+    "english_meaning": "bank employee",
+    "bengali_meaning": "ব্যাংক কর্মচারী",
+    "tags": ["noun", "n5", "occupation"]
+  },
+  {
+    "id": "minna-001-v007",
+    "kanji": "医者",
+    "furigana": "いしゃ",
+    "romaji": "isha",
+    "english_meaning": "doctor",
+    "bengali_meaning": "ডাক্তার",
+    "tags": ["noun", "n5", "occupation"]
+  },
+  {
+    "id": "minna-001-v008",
+    "kanji": "研究者",
+    "furigana": "けんきゅうしゃ",
+    "romaji": "kenkyuusha",
+    "english_meaning": "researcher",
+    "bengali_meaning": "গবেষক",
+    "tags": ["noun", "n5", "occupation"]
+  },
+  {
+    "id": "minna-001-v009",
+    "kanji": "大学",
+    "furigana": "だいがく",
+    "romaji": "daigaku",
+    "english_meaning": "university",
+    "bengali_meaning": "বিশ্ববিদ্যালয়",
+    "tags": ["noun", "n5", "place"]
+  },
+  {
+    "id": "minna-001-v010",
+    "kanji": "病院",
+    "furigana": "びょういん",
+    "romaji": "byouin",
+    "english_meaning": "hospital",
+    "bengali_meaning": "হাসপাতাল",
+    "tags": ["noun", "n5", "place"]
+  },
+  {
+    "id": "minna-001-v011",
+    "kanji": "電気",
+    "furigana": "でんき",
+    "romaji": "denki",
+    "english_meaning": "electricity; light",
+    "bengali_meaning": "বিদ্যুৎ; বাতি",
+    "tags": ["noun", "n5"]
+  },
+  {
+    "id": "minna-001-v012",
+    "kanji": "誰",
+    "furigana": "だれ",
+    "romaji": "dare",
+    "english_meaning": "who",
+    "bengali_meaning": "কে",
+    "tags": ["pronoun", "n5", "question"]
+  },
+  {
+    "id": "minna-001-v013",
+    "kanji": "初めまして",
+    "furigana": "はじめまして",
+    "romaji": "hajimemashite",
+    "english_meaning": "how do you do (said at first meeting)",
+    "bengali_meaning": "প্রথম সাক্ষাতে শুভেচ্ছা",
+    "tags": ["expression", "n5", "greeting"]
+  },
+  {
+    "id": "minna-001-v014",
+    "kanji": "どうぞよろしく",
+    "furigana": "どうぞよろしく",
+    "romaji": "douzo yoroshiku",
+    "english_meaning": "pleased to meet you",
+    "bengali_meaning": "আপনার সাথে পরিচিত হয়ে আনন্দিত",
+    "tags": ["expression", "n5", "greeting"]
+  },
+  {
+    "id": "minna-001-v015",
+    "kanji": "歳",
+    "furigana": "さい",
+    "romaji": "sai",
+    "english_meaning": "… years old (counter suffix)",
+    "bengali_meaning": "… বছর বয়স",
+    "tags": ["suffix", "n5", "counter"]
+  }
+]
