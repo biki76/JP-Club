@@ -1,1 +1,12 @@
-
+[
+  {
+    "id": "minna-001-r001",
+    "title": { "en": "Self-Introduction", "bn": "আত্মপরিচয়" },
+    "passage": [
+      { "jp": "はじめまして。",       "furigana": "はじめまして。",       "romaji": "Hajimemashite.",     "en": "How do you do?",          "bn": "প্রথম পরিচয়ে শুভেচ্ছা।" },
+      { "jp": "私は田中です。",         "furigana": "わたしはたなかです。", "romaji": "Watashi wa Tanaka desu.", "en": "I am Tanaka.",            "bn": "আমি তানাকা।" },
+      { "jp": "学生です。",             "furigana": "がくせいです。",       "romaji": "Gakusei desu.",      "en": "I am a student.",          "bn": "আমি ছাত্র।" },
+      { "jp": "どうぞよろしく。",       "furigana": "どうぞよろしく。",     "romaji": "Douzo yoroshiku.",   "en": "Pleased to meet you.",     "bn": "আপনার সাথে পরিচিত হয়ে আনন্দিত।" }
+    ]
+  }
+]
