@@ -1,0 +1,50 @@
+{
+  "name": "Nihongo · Bengali — Japanese for Bengali speakers",
+  "short_name": "Nihongo",
+  "description": "Learn Japanese from Bengali with Minna no Nihongo, spaced-repetition flashcards, quizzes, and stroke-order kanji.",
+  "start_url": "home.html",
+  "scope": "./",
+  "id": "nihongo-bn-v11",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#fbfaf7",
+  "theme_color": "#3556c9",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Continue lesson",
+      "short_name": "Continue",
+      "url": "lesson.html?lesson=minna-001",
+      "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Flashcards",
+      "short_name": "Cards",
+      "url": "flashcards.html",
+      "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Take a quiz",
+      "short_name": "Quiz",
+      "url": "quiz.html",
+      "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
