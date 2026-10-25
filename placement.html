@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-furigana="on">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Placement · Nihongo · Bengali</title>
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('nihongo_theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+        var f = localStorage.getItem('nihongo_furigana');
+        if (f) document.documentElement.setAttribute('data-furigana', f);
+        var l = localStorage.getItem('nihongo_lang');
+        if (l) document.documentElement.setAttribute('lang', l === 'bn' ? 'bn' : 'en');
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/shell.css" />
+  <link rel="stylesheet" href="css/placement.css" />
+
+  <script>
+    window.SHELL_CONFIG = {
+      navGroups: [
+        {
+          title: { en: 'Learn', bn: 'শিখুন' },
+          items: [
+            { key: 'home',       icon: 'home',     href: 'home.html',       label: { en: 'Home',       bn: 'হোম' } },
+            { key: 'lesson',     icon: 'book',     href: 'lesson.html?lesson=minna-001', label: { en: 'Lessons', bn: 'পাঠ' } },
+            { key: 'flashcards', icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
+            { key: 'quiz',       icon: 'practice', href: 'quiz.html',       label: { en: 'Quiz',       bn: 'কুইজ' } },
+            { key: 'kanji',      icon: 'kanji',    href: 'kanji.html',      label: { en: 'Kanji',      bn: 'কাঞ্জি' } }
+          ]
+        },
+        {
+          title: { en: 'Explore', bn: 'অন্বেষণ' },
+          items: [
+            { key: 'search',    icon: 'search',   href: 'search.html',    label: { en: 'Search',    bn: 'অনুসন্ধান' } },
+            { key: 'progress',  icon: 'practice', href: 'progress.html',  label: { en: 'Progress',  bn: 'অগ্রগতি' } },
+            { key: 'placement', icon: 'book',     href: 'placement.html', label: { en: 'Placement', bn: 'প্লেসমেন্ট' } }
+          ]
+        }
+      ],
+      bottomNav: [
+        { href: 'home.html',       icon: 'home',     label: { en: 'Home',     bn: 'হোম' } },
+        { href: 'flashcards.html', icon: 'practice', label: { en: 'Cards',    bn: 'কার্ড' } },
+        { href: 'search.html',     icon: 'search',   label: { en: 'Search',   bn: 'অনুসন্ধান' } },
+        { href: 'progress.html',   icon: 'practice', label: { en: 'Progress', bn: 'অগ্রগতি' } }
+      ],
+      searchEnabled: true
+    };
+  </script>
+</head>
+<body class="shell-body">
+  <header data-shell-header></header>
+
+  <div class="shell-frame">
+    <aside class="shell-sidebar" data-shell-sidebar></aside>
+
+    <main class="shell-main">
+      <div class="placement-page">
+        <nav class="phase-tabs" aria-label="Section">
+          <a class="phase-tab" href="search.html"><span data-en="Search" data-bn="অনুসন্ধান">Search</span></a>
+          <a class="phase-tab" href="progress.html"><span data-en="Progress" data-bn="অগ্রগতি">Progress</span></a>
+          <a class="phase-tab is-active" href="placement.html"><span data-en="Placement" data-bn="প্লেসমেন্ট">Placement</span></a>
+        </nav>
+
+        <div id="placement-stage"></div>
+      </div>
+    </main>
+  </div>
+
+  <nav class="shell-bottomnav" data-shell-bottomnav></nav>
+  <footer class="shell-footer" data-shell-footer></footer>
+  <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
+
+  <script src="js/data-schemas.js"></script>
+  <script src="js/data-loader.js" defer></script>
+  <script src="js/shell.js" defer></script>
+  <script src="js/placement.js" defer></script>
+</body>
+</html>
