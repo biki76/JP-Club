@@ -1,456 +1,293 @@
-/* ==========================================================================
-   home.js — Home page (Phase 3)
-
-   Renders:
-     - continue-learning card (reads localStorage "nihongo_progress")
-     - 6 textbook cards
-     - JLPT N5–N1 strip
-     - 3 "choose your path" cards
-
-   Progress shape stored under localStorage['nihongo_progress']:
-     {
-       courseId: "minna-beginner",
-       totalLessons: 50,
-       completedLessons: 11,
-       currentLesson: 12,
-       currentLessonTitle: { en: "…", bn: "…" },
-       currentLessonProgress: 0.34,   // 0..1
-       updatedAt: 1729000000
-     }
-
-   Console helpers:
-     Home.seedDemoProgress()  → writes a sample progress record
-     Home.clearProgress()     → removes it
-   ========================================================================== */
-
+/* Phase 3 — home page.
+ * Renders: continue card · six textbook cards · JLPT strip · three paths.
+ * Reads nihongo_progress; reacts to storage events.
+ * Dev helpers: Home.seedDemoProgress() · Home.clearProgress() · Home.readProgress()
+ */
 (function () {
   'use strict';
 
-  const PROGRESS_KEY = 'nihongo_progress';
+  var COURSE_ID = 'minna-beginner';
 
-  /* -------------------------------------------------------------- Data -- */
-  const BOOKS = [
-    {
-      id: 'minna-beginner',
-      icon: '初',
-      tone: 'primary',
-      title: { en: 'Minna no Nihongo — Beginner', bn: 'মিন্না নো নিহোঙ্গো — বিগিনার' },
-      subtitle: { en: 'Lessons 1–25 · N5', bn: 'লেসন ১–২৫ · N5' },
-      desc: {
-        en: 'The classic N5 course: grammar, vocabulary, reading and listening, explained in Bengali.',
-        bn: 'ক্লাসিক N5 কোর্স: গ্রামার, শব্দভান্ডার, রিডিং ও লিসেনিং — বাংলায় ব্যাখ্যা।',
-      },
-      levels: ['N5'],
-      href: '#lessons-n5',
-    },
-    {
-      id: 'minna-intermediate',
-      icon: '中',
-      tone: 'primary',
-      title: { en: 'Minna no Nihongo — Intermediate', bn: 'মিন্না নো নিহোঙ্গো — ইন্টারমিডিয়েট' },
-      subtitle: { en: 'Lessons 26–50 · N4', bn: 'লেসন ২৬–৫০ · N4' },
-      desc: {
-        en: 'Continue after N5 with longer passages, more kanji, and natural spoken Japanese.',
-        bn: 'N5-এর পরে আরও দীর্ঘ পাঠ, বেশি কাঞ্জি এবং স্বাভাবিক কথ্য জাপানিজ।',
-      },
-      levels: ['N4'],
-      href: '#lessons-n4',
-    },
-    {
-      id: 'temabetsu',
-      icon: '別',
-      tone: 'accent',
-      title: { en: 'Temabetsu — Thematic Reader', bn: 'তেমাবেতসু — থিমেটিক রিডার' },
-      subtitle: { en: 'Reading by topic · N4 → N3', bn: 'বিষয়ভিত্তিক রিডিং · N4 → N3' },
-      desc: {
-        en: 'Build reading speed on real-life topics: work, travel, health, news and daily life.',
-        bn: 'বাস্তব জীবনের বিষয় — কাজ, ভ্রমণ, স্বাস্থ্য, সংবাদ, দৈনন্দিন — নিয়ে রিডিং গতি গড়ুন।',
-      },
-      levels: ['N4', 'N3'],
-      href: '#temabetsu',
-    },
-    {
-      id: 'mimikara',
-      icon: '耳',
-      tone: 'success',
-      title: { en: 'Mimikara Oboeru — Vocabulary', bn: 'মিমিকারা ওবোয়েরু — শব্দভান্ডার' },
-      subtitle: { en: 'Learn words by sound · N5 → N3', bn: 'শব্দ শিখুন শোনার মাধ্যমে · N5 → N3' },
-      desc: {
-        en: 'Vocabulary grouped by sound and use — designed for memory retention, not rote lists.',
-        bn: 'শব্দ ও প্রয়োগ অনুযায়ী গোষ্ঠীবদ্ধ শব্দভান্ডার — মুখস্থ নয়, মনে রাখার জন্য।',
-      },
-      levels: ['N5', 'N4', 'N3'],
-      href: '#mimikara',
-    },
-    {
-      id: 'shin-kanzen',
-      icon: '全',
-      tone: 'warn',
-      title: { en: 'Shin Kanzen Master', bn: 'শিন কানজেন মাস্টার' },
-      subtitle: { en: 'Grammar, reading, listening · N3', bn: 'গ্রামার, রিডিং, লিসেনিং · N3' },
-      desc: {
-        en: 'The gold-standard exam prep. Full JLPT-format practice with Bengali explanations.',
-        bn: 'সেরা পরীক্ষা-প্রস্তুতি। JLPT ফরম্যাটে পূর্ণ অনুশীলন — বাংলা ব্যাখ্যাসহ।',
-      },
-      levels: ['N3'],
-      href: '#shin-kanzen',
-    },
-    {
-      id: 'kanji-look-learn',
-      icon: '漢',
-      tone: 'primary',
-      title: { en: 'Kanji Look and Learn', bn: 'কাঞ্জি লুক অ্যান্ড লার্ন' },
-      subtitle: { en: '512 kanji with pictures · N5 → N3', bn: 'ছবিসহ ৫১২ কাঞ্জি · N5 → N3' },
-      desc: {
-        en: 'Every kanji drawn, dissected, and remembered through a picture — with readings and Bengali meanings.',
-        bn: 'প্রতিটি কাঞ্জি আঁকা, বিশ্লেষণ করা এবং ছবির মাধ্যমে মনে রাখা — রিডিং ও বাংলা অর্থসহ।',
-      },
-      levels: ['N5', 'N4', 'N3'],
-      href: '#kanji',
-    },
-  ];
-
-  const JLPT = [
-    {
-      level: 'N5',
-      label: { en: 'Beginner · 105 kanji', bn: 'বিগিনার · ১০৫ কাঞ্জি' },
-      href: '#jlpt-n5',
-      status: 'available',
-    },
-    {
-      level: 'N4',
-      label: { en: 'Elementary · 300 kanji', bn: 'এলিমেন্টারি · ৩০০ কাঞ্জি' },
-      href: '#jlpt-n4',
-      status: 'available',
-    },
-    {
-      level: 'N3',
-      label: { en: 'Intermediate · 650 kanji', bn: 'ইন্টারমিডিয়েট · ৬৫০ কাঞ্জি' },
-      href: '#jlpt-n3',
-      status: 'available',
-    },
-    {
-      level: 'N2',
-      label: { en: 'Upper-int. · 1000+ kanji', bn: 'আপার-ইন্টারমিডিয়েট · ১০০০+ কাঞ্জি' },
-      href: null,
-      status: 'soon',
-    },
-    {
-      level: 'N1',
-      label: { en: 'Advanced · 2000+ kanji', bn: 'অ্যাডভান্সড · ২০০০+ কাঞ্জি' },
-      href: null,
-      status: 'soon',
-    },
-  ];
-
-  const PATHS = [
-    {
-      id: 'beginner',
-      tone: 'primary',
-      icon: 'あ',
-      level: { en: 'N5 → N4', bn: 'N5 → N4' },
-      title: { en: 'Start from zero', bn: 'শূন্য থেকে শুরু' },
-      desc: {
-        en: 'Learn hiragana and katakana, then your first 500 words with Minna Beginner and Kanji Look and Learn.',
-        bn: 'হিরাগানা ও কাতাকানা শিখুন, তারপর Minna Beginner ও Kanji Look and Learn দিয়ে প্রথম ৫০০ শব্দ।',
-      },
-      cta: { en: 'Begin path', bn: 'পথ শুরু করুন' },
-      href: '#lessons-n5',
-    },
-    {
-      id: 'intermediate',
-      tone: 'accent',
-      icon: '中',
-      level: { en: 'N4 → N3', bn: 'N4 → N3' },
-      title: { en: 'Bridge to N3', bn: 'N3-এর সেতু' },
-      desc: {
-        en: 'Move past N5 with Minna Intermediate, thematic reading, and structured grammar from Shin Kanzen Master.',
-        bn: 'Minna Intermediate, থিমেটিক রিডিং এবং Shin Kanzen Master-এর গঠনমূলক গ্রামার দিয়ে N5 পেরিয়ে এগিয়ে যান।',
-      },
-      cta: { en: 'Take the bridge', bn: 'সেতু পার হোন' },
-      href: '#lessons-n4',
-    },
-    {
-      id: 'jlpt',
-      tone: 'success',
-      icon: '受',
-      level: { en: 'N5 → N3', bn: 'N5 → N3' },
-      title: { en: 'JLPT-focused', bn: 'JLPT-কেন্দ্রিক' },
-      desc: {
-        en: 'Aim at a specific JLPT level. Vocabulary from Mimikara Oboeru, exam format from Shin Kanzen Master, mock tests weekly.',
-        bn: 'নির্দিষ্ট JLPT লেভেলকে লক্ষ্য করুন। Mimikara Oboeru থেকে শব্দভান্ডার, Shin Kanzen Master থেকে পরীক্ষার ফরম্যাট, সাপ্তাহিক মক টেস্ট।',
-      },
-      cta: { en: 'Plan for JLPT', bn: 'JLPT-এর পরিকল্পনা' },
-      href: '#jlpt',
-    },
-  ];
-
-  /* ------------------------------------------------------------- Utils -- */
-  const pick = (obj, lang) => (obj && (obj[lang] ?? obj.en)) || '';
-  const getLang = () =>
-    document.documentElement.lang === 'en' ? 'en' : 'bn';
-
-  function esc(str) {
-    return String(str).replace(/[&<>"']/g, (c) => ({
-      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
-    }[c]));
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
   }
-
-  function txt(en, bn, lang) {
-    // Renders a leaf span carrying data-en/data-bn so the shell's language
-    // toggle updates it live without a re-render.
-    return `<span data-en="${esc(en)}" data-bn="${esc(bn)}">${esc(pick({ en, bn }, lang))}</span>`;
+  function txt(en, bn) {
+    return '<span data-en="' + esc(en) + '" data-bn="' + esc(bn) + '">' + esc(en) + '</span>';
   }
-
-  /* ------------------------------------------------------ Progress read -- */
+  function ruby(base, furi) {
+    if (!base) return esc(furi || '');
+    if (!furi) return esc(base);
+    return '<ruby>' + esc(base) + '<rt>' + esc(furi) + '</rt></ruby>';
+  }
   function readProgress() {
     try {
-      const raw = localStorage.getItem(PROGRESS_KEY);
-      if (!raw) return null;
-      const p = JSON.parse(raw);
-      if (!p || typeof p !== 'object') return null;
-      if (typeof p.courseId !== 'string') return null;
-      if (typeof p.totalLessons !== 'number' || p.totalLessons <= 0) return null;
-      if (typeof p.completedLessons !== 'number') return null;
-      if (typeof p.currentLesson !== 'number') return null;
-      return p;
-    } catch (_) {
-      return null;
+      var raw = localStorage.getItem('nihongo_progress');
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+  }
+  function slugForLesson(n) {
+    return 'minna-' + String(n).padStart(3, '0');
+  }
+
+  /* ---------- continue card ---------- */
+  function renderContinue(host) {
+    var p = readProgress();
+
+    if (!p || !p.currentLesson) {
+      host.innerHTML =
+        '<div class="continue continue--empty">' +
+          '<div class="continue__body">' +
+            '<p class="continue__kicker">' + txt('Start here', 'এখান থেকে শুরু করুন') + '</p>' +
+            '<h2 class="continue__title">' + txt('Lesson 1 — Introduction', 'পাঠ ১ — ভূমিকা') + '</h2>' +
+            '<p class="continue__lead">' +
+              txt(
+                'Begin with greetings, basic particles, and your first 15 words.',
+                'সম্বোধন, মৌলিক পার্টিকেল এবং প্রথম ১৫টি শব্দ দিয়ে শুরু করুন।'
+              ) +
+            '</p>' +
+          '</div>' +
+          '<div class="continue__actions">' +
+            '<a class="btn btn--primary" href="lesson.html?lesson=minna-001">' +
+              txt('Start Lesson 1 →', 'পাঠ ১ শুরু করুন →') +
+            '</a>' +
+          '</div>' +
+        '</div>';
+      return;
     }
+
+    var lang = document.documentElement.getAttribute('lang') || 'en';
+    var title = p.currentLessonTitle
+      ? (p.currentLessonTitle[lang] || p.currentLessonTitle.en || '')
+      : '';
+    var pct = Math.round((p.currentLessonProgress || 0) * 100);
+    var totalPct = p.totalLessons
+      ? Math.round(((p.completedLessons || 0) / p.totalLessons) * 100)
+      : 0;
+
+    host.innerHTML =
+      '<div class="continue">' +
+        '<div class="continue__body">' +
+          '<p class="continue__kicker">' + txt('Continue learning', 'শেখা চালিয়ে যান') + '</p>' +
+          '<h2 class="continue__title">' +
+            txt('Lesson ' + p.currentLesson, 'পাঠ ' + p.currentLesson) +
+            (title ? ' · ' + esc(title) : '') +
+          '</h2>' +
+          '<div class="continue__bars">' +
+            '<div class="continue__bar">' +
+              '<div class="continue__bar-label">' +
+                txt('This lesson', 'এই পাঠ') + ' · ' + pct + '%' +
+              '</div>' +
+              '<div class="progress"><div class="progress__bar" style="width:' + pct + '%"></div></div>' +
+            '</div>' +
+            '<div class="continue__bar">' +
+              '<div class="continue__bar-label">' +
+                txt('Course', 'কোর্স') + ' · ' + (p.completedLessons || 0) + ' / ' + (p.totalLessons || 50) +
+              '</div>' +
+              '<div class="progress"><div class="progress__bar" style="width:' + totalPct + '%"></div></div>' +
+            '</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="continue__actions">' +
+          '<span class="badge badge--outline">' + txt('Course', 'কোর্স') + ' · ' + esc(p.courseId || COURSE_ID) + '</span>' +
+          '<a class="btn btn--primary" href="lesson.html?lesson=' +
+            encodeURIComponent(slugForLesson(p.currentLesson)) + '">' +
+            txt('Resume lesson →', 'পাঠ চালিয়ে যান →') +
+          '</a>' +
+        '</div>' +
+      '</div>';
   }
 
-  /* -------------------------------------------------- Continue-learning -- */
-  function renderContinue() {
-    const slot = document.querySelector('[data-continue-body]');
-    if (!slot) return;
+  /* ---------- textbook cards ---------- */
+  var BOOKS = [
+    {
+      key: 'minna-beginner', icon: 'book',
+      title: { en: 'Minna Beginner', bn: 'মিন্না বিগিনার' },
+      subtitle: { en: 'Lessons 1–25', bn: 'পাঠ ১–২৫' },
+      desc: { en: 'The core N5 → N4 course. Vocabulary, grammar, reading, listening.',
+              bn: 'মূল N5 → N4 কোর্স। শব্দভাণ্ডার, ব্যাকরণ, পড়া, শোনা।' },
+      levels: ['N5', 'N4'], href: 'lesson.html?lesson=minna-001'
+    },
+    {
+      key: 'minna-intermediate', icon: 'book',
+      title: { en: 'Minna Intermediate', bn: 'মিন্না ইন্টারমিডিয়েট' },
+      subtitle: { en: 'Lessons 26–50', bn: 'পাঠ ২৬–৫০' },
+      desc: { en: 'Continuing N4 → N3. Keigo, conditionals, longer passages.',
+              bn: 'N4 → N3 চলমান। কেইগো, শর্তসাপেক্ষ, দীর্ঘ অনুচ্ছেদ।' },
+      levels: ['N4', 'N3'], href: 'lesson.html?lesson=minna-026', soon: true
+    },
+    {
+      key: 'temabetsu', icon: 'book',
+      title: { en: 'Temabetsu', bn: 'তেমাবেতসু' },
+      subtitle: { en: 'Themed readings', bn: 'বিষয়ভিত্তিক পড়া' },
+      desc: { en: 'Short bilingual essays with grammar notes.',
+              bn: 'ব্যাকরণ নোটসহ সংক্ষিপ্ত দ্বিভাষিক রচনা।' },
+      levels: ['N4', 'N3'], soon: true
+    },
+    {
+      key: 'mimikara', icon: 'practice',
+      title: { en: 'Mimikara Oboeru', bn: 'মিমিকারা ওবোয়ারু' },
+      subtitle: { en: 'Vocabulary by theme', bn: 'বিষয়ভিত্তিক শব্দভাণ্ডার' },
+      desc: { en: 'Grouped vocabulary for memory efficiency.',
+              bn: 'স্মৃতি-দক্ষতার জন্য দলবদ্ধ শব্দভাণ্ডার।' },
+      levels: ['N3'], soon: true
+    },
+    {
+      key: 'shinkanzen', icon: 'practice',
+      title: { en: 'Shin Kanzen Master', bn: 'শিন কানজেন মাস্টার' },
+      subtitle: { en: 'Grammar · Reading · Listening', bn: 'ব্যাকরণ · পড়া · শোনা' },
+      desc: { en: 'JLPT-focused skill drills for N3 and beyond.',
+              bn: 'N3 এবং তার উপরে JLPT-কেন্দ্রিক দক্ষতা অনুশীলন।' },
+      levels: ['N3'], soon: true
+    },
+    {
+      key: 'kanji', icon: 'kanji',
+      title: { en: 'Kanji Look and Learn', bn: 'কাঞ্জি লুক অ্যান্ড লার্ন' },
+      subtitle: { en: 'Stroke order & examples', bn: 'স্ট্রোক অর্ডার ও উদাহরণ' },
+      desc: { en: 'Every kanji with stroke animation, readings, and example words.',
+              bn: 'স্ট্রোক অ্যানিমেশন, পাঠ এবং উদাহরণ শব্দসহ প্রতিটি কাঞ্জি।' },
+      levels: ['N5', 'N4', 'N3'], href: 'kanji.html'
+    }
+  ];
 
-    const lang = getLang();
-    const p = readProgress();
-    slot.innerHTML = p ? withProgressHTML(p, lang) : emptyProgressHTML(lang);
+  function renderBooks(host) {
+    var html = '';
+    BOOKS.forEach(function (b) {
+      var levels = b.levels.map(function (l) {
+        return '<span class="badge badge--primary">' + esc(l) + '</span>';
+      }).join(' ');
+      var wrap = b.soon ? 'div' : 'a';
+      var attrs = b.soon
+        ? ' class="book book--soon" aria-disabled="true"'
+        : ' class="book book--link" href="' + esc(b.href) + '"';
+      html += '<' + wrap + attrs + '>';
+      html += '<div class="book__icon" aria-hidden="true">' + esc(b.icon === 'kanji' ? '字' : '本') + '</div>';
+      html += '<div class="book__body">';
+      html += '<h3 class="book__title">' + txt(b.title.en, b.title.bn) + '</h3>';
+      html += '<p class="book__subtitle">' + txt(b.subtitle.en, b.subtitle.bn) + '</p>';
+      html += '<p class="book__desc">' + txt(b.desc.en, b.desc.bn) + '</p>';
+      html += '<div class="book__levels">' + levels + '</div>';
+      html += '</div>';
+      html += b.soon
+        ? '<span class="book__soon">' + txt('Coming soon', 'শীঘ্রই আসছে') + '</span>'
+        : '<span class="book__arrow" aria-hidden="true">→</span>';
+      html += '</' + wrap + '>';
+    });
+    host.innerHTML = html;
   }
 
-  function emptyProgressHTML(lang) {
-    return `
-      <div class="continue__body">
-        <h2 class="continue__title">
-          ${txt('You haven’t started yet', 'আপনি এখনো শুরু করেননি', lang)}
-        </h2>
-        <p class="continue__meta">
-          ${txt(
-            'Begin with N5 — Minna no Nihongo Lesson 1.',
-            'N5 দিয়ে শুরু করুন — Minna no Nihongo লেসন ১।',
-            lang
-          )}
-        </p>
-        <a class="btn btn--primary continue__cta" href="#textbooks">
-          ${txt('Start Lesson 1', 'লেসন ১ শুরু করুন', lang)}
-          <span aria-hidden="true">→</span>
-        </a>
-      </div>
-    `;
-  }
+  /* ---------- JLPT strip ---------- */
+  var JLPT = [
+    { level: 'N5', state: 'ready', href: 'lesson.html?lesson=minna-001' },
+    { level: 'N4', state: 'ready', href: 'lesson.html?lesson=minna-026' },
+    { level: 'N3', state: 'ready', href: 'lesson.html?lesson=minna-050' },
+    { level: 'N2', state: 'soon', href: null },
+    { level: 'N1', state: 'soon', href: null }
+  ];
 
-  function withProgressHTML(p, lang) {
-    const totalLessons = Math.max(1, p.totalLessons);
-    const completed = Math.max(0, Math.min(totalLessons, p.completedLessons));
-    const currentP = Math.max(0, Math.min(1, p.currentLessonProgress ?? 0));
-    const overallPct = Math.round(((completed + currentP) / totalLessons) * 100);
-    const lessonPct = Math.round(currentP * 100);
-
-    const book = BOOKS.find((b) => b.id === p.courseId);
-    const courseLabel = book
-      ? pick(book.title, lang)
-      : (p.courseLabel ? pick(p.courseLabel, lang) : p.courseId);
-
-    const lessonTitleEn = (p.currentLessonTitle && p.currentLessonTitle.en) || `Lesson ${p.currentLesson}`;
-    const lessonTitleBn = (p.currentLessonTitle && p.currentLessonTitle.bn) || `লেসন ${p.currentLesson}`;
-    const lessonTitle = lang === 'en' ? lessonTitleEn : lessonTitleBn;
-
-    const lessonOfEn = `Lesson ${p.currentLesson} of ${totalLessons}`;
-    const lessonOfBn = `লেসন ${p.currentLesson} / ${totalLessons}`;
-
-    const overallEn = `${overallPct}% complete`;
-    const overallBn = `${overallPct}% সম্পন্ন`;
-
-    const lessonPctEn = `This lesson ${lessonPct}%`;
-    const lessonPctBn = `এই লেসন ${lessonPct}%`;
-
-    const progressAria = lang === 'en' ? 'Course progress' : 'কোর্সের অগ্রগতি';
-    const resumeEn = 'Resume lesson';
-    const resumeBn = 'লেসন চালিয়ে যান';
-
-    return `
-      <div class="continue__body">
-        <div class="continue__head">
-          <span class="badge badge--primary">${esc(courseLabel)}</span>
-          <span class="continue__meta">${txt(lessonOfEn, lessonOfBn, lang)}</span>
-        </div>
-
-        <h2 class="continue__title">
-          <span data-en="${esc(lessonTitleEn)}" data-bn="${esc(lessonTitleBn)}">${esc(lessonTitle)}</span>
-        </h2>
-
-        <div class="continue__progress">
-          <div
-            class="progress"
-            role="progressbar"
-            aria-valuenow="${overallPct}"
-            aria-valuemin="0"
-            aria-valuemax="100"
-            aria-label="${esc(progressAria)}"
-          >
-            <div class="progress__bar" style="width:${overallPct}%"></div>
-          </div>
-          <div class="continue__progress-row">
-            <span>${txt(overallEn, overallBn, lang)}</span>
-            <span>${txt(lessonPctEn, lessonPctBn, lang)}</span>
-          </div>
-        </div>
-
-        <a class="btn btn--primary continue__cta" href="#">
-          ${txt(resumeEn, resumeBn, lang)}
-          <span aria-hidden="true">→</span>
-        </a>
-      </div>
-    `;
-  }
-
-  /* --------------------------------------------------- Textbook cards -- */
-  function renderBooks() {
-    const host = document.querySelector('[data-books]');
-    if (!host) return;
-
-    const lang = getLang();
-    host.innerHTML = BOOKS.map((b) => {
-      const title = pick(b.title, lang);
-      const subtitle = pick(b.subtitle, lang);
-      const desc = pick(b.desc, lang);
-      const levels = b.levels
-        .map((l) => `<span class="badge badge--neutral">${esc(l)}</span>`)
-        .join('');
-
-      return `
-        <a class="book-card" href="${esc(b.href)}" aria-label="${esc(title)}">
-          <span class="book-card__icon book-card__icon--${esc(b.tone)}" aria-hidden="true">${esc(b.icon)}</span>
-          <h3 class="book-card__title">${txt(b.title.en, b.title.bn, lang)}</h3>
-          <p class="book-card__sub">${txt(b.subtitle.en, b.subtitle.bn, lang)}</p>
-          <p class="book-card__desc">${txt(b.desc.en, b.desc.bn, lang)}</p>
-          <div class="book-card__foot">
-            ${levels}
-            <span class="book-card__arrow" aria-hidden="true">→</span>
-          </div>
-        </a>
-      `;
-    }).join('');
-  }
-
-  /* ------------------------------------------------------- JLPT strip -- */
-  function renderJlpt() {
-    const host = document.querySelector('[data-jlpt]');
-    if (!host) return;
-
-    const lang = getLang();
-    host.innerHTML = JLPT.map((j) => {
-      const soon = j.status === 'soon';
-      const metaLabel = pick(j.label, lang);
-      const soonEn = 'Coming soon';
-      const soonBn = 'শীঘ্রই আসছে';
-      const startEn = 'Start';
-      const startBn = 'শুরু';
-
-      const inner = `
-        <span class="jlpt-chip__level" aria-hidden="true">${esc(j.level)}</span>
-        <p class="jlpt-chip__meta">${txt(j.label.en, j.label.bn, lang)}</p>
-        <div class="jlpt-chip__foot">
-          <span class="badge ${soon ? 'badge--outline' : 'badge--primary'}">
-            ${soon ? txt(soonEn, soonBn, lang) : txt(startEn, startBn, lang)}
-          </span>
-        </div>
-      `;
-
-      if (soon) {
-        return `<div class="jlpt-chip jlpt-chip--soon" aria-disabled="true">${inner}</div>`;
+  function renderJLPT(host) {
+    var html = '<div class="jlpt-strip">';
+    JLPT.forEach(function (l) {
+      if (l.state === 'ready') {
+        html += '<a class="jlpt-card jlpt-card--ready" href="' + esc(l.href) + '">' +
+          '<span class="jlpt-card__level">' + esc(l.level) + '</span>' +
+          '<span class="jlpt-card__tag badge badge--primary">' + txt('Start', 'শুরু') + '</span>' +
+        '</a>';
+      } else {
+        html += '<div class="jlpt-card jlpt-card--soon" aria-disabled="true">' +
+          '<span class="jlpt-card__level">' + esc(l.level) + '</span>' +
+          '<span class="jlpt-card__tag badge badge--outline">' + txt('Coming soon', 'শীঘ্রই') + '</span>' +
+        '</div>';
       }
-      const ariaLabel = `${j.level} — ${metaLabel}`;
-      return `<a class="jlpt-chip" href="${esc(j.href)}" aria-label="${esc(ariaLabel)}">${inner}</a>`;
-    }).join('');
+    });
+    html += '</div>';
+    host.innerHTML = html;
   }
 
-  /* ------------------------------------------------------ Path cards -- */
-  function renderPaths() {
-    const host = document.querySelector('[data-paths]');
-    if (!host) return;
+  /* ---------- paths ---------- */
+  var PATHS = [
+    {
+      color: 'primary',
+      title: { en: 'Beginner', bn: 'বিগিনার' },
+      range: { en: 'N5 → N4', bn: 'N5 → N4' },
+      desc: { en: 'Start from zero. Hiragana, katakana, and the first 25 lessons.',
+              bn: 'শূন্য থেকে শুরু। হিরাগানা, কাতাকানা, প্রথম ২৫ পাঠ।' },
+      href: 'lesson.html?lesson=minna-001'
+    },
+    {
+      color: 'accent',
+      title: { en: 'Intermediate', bn: 'ইন্টারমিডিয়েট' },
+      range: { en: 'N4 → N3', bn: 'N4 → N3' },
+      desc: { en: 'Already know the basics. Continue into keigo and complexity.',
+              bn: 'মৌলিক জানা আছে। কেইগো এবং জটিলতায় এগিয়ে যান।' },
+      href: 'lesson.html?lesson=minna-026'
+    },
+    {
+      color: 'warn',
+      title: { en: 'JLPT-focused', bn: 'JLPT-কেন্দ্রিক' },
+      range: { en: 'N5 → N3', bn: 'N5 → N3' },
+      desc: { en: 'Target the exam. Practice-heavy, drill-oriented, timed.',
+              bn: 'পরীক্ষার জন্য প্রস্তুতি। অনুশীলন-ভারী, ড্রিল-কেন্দ্রিক, সময়বদ্ধ।' },
+      href: 'placement.html'
+    }
+  ];
 
-    const lang = getLang();
-    host.innerHTML = PATHS.map((p) => {
-      const title = pick(p.title, lang);
-      const level = pick(p.level, lang);
-      return `
-        <a class="path-card path-card--${esc(p.tone)}" href="${esc(p.href)}" aria-label="${esc(title)}">
-          <div class="path-card__head">
-            <span class="path-card__icon" aria-hidden="true">${esc(p.icon)}</span>
-            <span class="badge badge--neutral">${esc(level)}</span>
-          </div>
-          <h3 class="path-card__title">${txt(p.title.en, p.title.bn, lang)}</h3>
-          <p class="path-card__desc">${txt(p.desc.en, p.desc.bn, lang)}</p>
-          <span class="path-card__cta">
-            ${txt(p.cta.en, p.cta.bn, lang)}
-            <span aria-hidden="true">→</span>
-          </span>
-        </a>
-      `;
-    }).join('');
+  function renderPaths(host) {
+    var html = '';
+    PATHS.forEach(function (p) {
+      html += '<a class="path path--' + p.color + '" href="' + esc(p.href) + '">';
+      html += '<div class="path__head">';
+      html += '<h3 class="path__title">' + txt(p.title.en, p.title.bn) + '</h3>';
+      html += '<span class="path__range">' + txt(p.range.en, p.range.bn) + '</span>';
+      html += '</div>';
+      html += '<p class="path__desc">' + txt(p.desc.en, p.desc.bn) + '</p>';
+      html += '<span class="path__cta">' + txt('Start this path →', 'এই পথ শুরু করুন →') + '</span>';
+      html += '</a>';
+    });
+    host.innerHTML = html;
   }
 
-  /* -------------------------------------------------------------- Boot -- */
-  function renderAll() {
-    renderContinue();
-    renderBooks();
-    renderJlpt();
-    renderPaths();
-  }
+  /* ---------- dev helpers ---------- */
+  window.Home = {
+    readProgress: readProgress,
+    seedDemoProgress: function () {
+      var data = {
+        courseId: COURSE_ID,
+        totalLessons: 50,
+        completedLessons: 11,
+        currentLesson: 12,
+        currentLessonTitle: { en: 'Time and dates', bn: 'সময় ও তারিখ' },
+        currentLessonProgress: 0.34,
+        updatedAt: Date.now()
+      };
+      localStorage.setItem('nihongo_progress', JSON.stringify(data));
+      renderContinue(document.querySelector('[data-slot="continue"]'));
+      return data;
+    },
+    clearProgress: function () {
+      localStorage.removeItem('nihongo_progress');
+      renderContinue(document.querySelector('[data-slot="continue"]'));
+    }
+  };
 
+  /* ---------- init ---------- */
   function init() {
-    renderAll();
+    var slot;
+    if ((slot = document.querySelector('[data-slot="continue"]'))) renderContinue(slot);
+    if ((slot = document.querySelector('[data-slot="books"]')))    renderBooks(slot);
+    if ((slot = document.querySelector('[data-slot="jlpt"]')))     renderJLPT(slot);
+    if ((slot = document.querySelector('[data-slot="paths"]')))    renderPaths(slot);
 
-    // Re-render the continue card if progress changes in another tab.
-    window.addEventListener('storage', (e) => {
-      if (e.key === PROGRESS_KEY || e.key === null) renderContinue();
+    window.addEventListener('storage', function (e) {
+      if (e.key === 'nihongo_progress') renderContinue(document.querySelector('[data-slot="continue"]'));
+    });
+    document.addEventListener('shell:langchange', function () {
+      renderContinue(document.querySelector('[data-slot="continue"]'));
     });
   }
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
-
-  /* ------------------------------------------------------ Dev helpers -- */
-  window.Home = {
-    readProgress,
-    seedDemoProgress() {
-      const now = Date.now();
-      const payload = {
-        courseId: 'minna-beginner',
-        totalLessons: 50,
-        completedLessons: 11,
-        currentLesson: 12,
-        currentLessonTitle: {
-          en: 'Lesson 12 — 〜てください (Please do 〜)',
-          bn: 'লেসন ১২ — 〜てください (অনুগ্রহ করে করুন)',
-        },
-        currentLessonProgress: 0.34,
-        updatedAt: now,
-      };
-      try { localStorage.setItem(PROGRESS_KEY, JSON.stringify(payload)); } catch (_) {}
-      renderContinue();
-      console.info('[Home] demo progress seeded:', payload);
-      return payload;
-    },
-    clearProgress() {
-      try { localStorage.removeItem(PROGRESS_KEY); } catch (_) {}
-      renderContinue();
-      console.info('[Home] progress cleared');
-    },
-  };
+  } else { init(); }
 })();
