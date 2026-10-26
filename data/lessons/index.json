@@ -1,6 +1,8 @@
 {
   "courseId": "minna-beginner",
+  "totalLessons": 50,
   "manifests": [
-    "minna-001/manifest.json"
+    "minna-001/manifest.json",
+    "minna-002/manifest.json"
   ]
 }
