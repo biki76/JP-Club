@@ -1,0 +1,47 @@
+/* Phase 12 — account chip injected into the shell header. */
+
+.cloud-chip { position: relative; display: inline-flex; }
+
+.cloud-chip__btn {
+  display: inline-flex; align-items: center; gap: var(--s-2);
+  padding: var(--s-1) var(--s-3);
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit; font-size: var(--fs-xs); font-weight: 600;
+  text-decoration: none; cursor: pointer;
+  white-space: nowrap;
+  transition: border-color .15s;
+}
+.cloud-chip__btn:hover { border-color: var(--primary); }
+.cloud-chip__btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.cloud-chip__avatar {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: var(--r-full);
+  background: var(--primary); color: var(--on-primary);
+  font-size: 11px; font-weight: 700;
+}
+.cloud-chip__email { max-width: 130px; overflow: hidden; text-overflow: ellipsis; }
+
+.cloud-chip__menu {
+  position: absolute; right: 0; top: calc(100% + var(--s-1));
+  min-width: 176px; z-index: 800;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-md);
+  padding: var(--s-1);
+}
+.cloud-chip__menu[hidden] { display: none; }
+.cloud-chip__menu button {
+  display: block; width: 100%; text-align: left;
+  padding: var(--s-2) var(--s-3);
+  background: none; border: none; border-radius: var(--r-sm);
+  font: inherit; font-size: var(--fs-sm); color: var(--ink); cursor: pointer;
+}
+.cloud-chip__menu button:hover { background: var(--bg); }
+.cloud-chip__menu button:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+
+@media (max-width: 640px) { .cloud-chip__email { display: none; } }
