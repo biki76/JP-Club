@@ -1,0 +1,97 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify critical files exist
+        run: |
+          missing=0
+          for f in \
+            home.html lesson.html flashcards.html quiz.html kanji.html \
+            search.html progress.html placement.html \
+            auth.html auth-callback.html offline.html \
+            css/tokens.css css/design-system.css css/shell.css \
+            css/cloud.css css/auth.css \
+            js/shell.js js/theme.js js/i18n.js js/main.js \
+            js/cloud.js js/auth-ui.js \
+            sw.js manifest.webmanifest; do
+            if [ ! -s "$f" ]; then
+              echo "::error file=$f::Missing or empty"
+              missing=1
+            fi
+          done
+          exit $missing
+
+      - name: Validate lesson data
+        run: node tools/validate-data.mjs
+
+      - name: Generate Supabase config
+        run: node scripts/gen-config.mjs
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+          SUPABASE_JWKS_URL: ${{ secrets.SUPABASE_JWKS_URL }}
+
+      - name: Stamp service worker version
+        run: |
+          VERSION="v$(git rev-parse --short HEAD)"
+          sed -i "s/const VERSION *= *'[^']*'/const VERSION = '$VERSION'/" sw.js
+          echo "SW version stamped: $VERSION"
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          rsync -a \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='_site' \
+            --exclude='node_modules' \
+            --exclude='.env' \
+            --exclude='.env.local' \
+            --exclude='.env.example' \
+            --exclude='.gitignore' \
+            --exclude='scripts' \
+            --exclude='tools' \
+            --exclude='sql' \
+            --exclude='docs' \
+            --exclude='*.md' \
+            ./ _site/
+          touch _site/.nojekyll
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy
+        id: deploy
+        uses: actions/deploy-pages@v4
