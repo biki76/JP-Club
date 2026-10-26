@@ -18,7 +18,6 @@
     })();
   </script>
 
-  <!-- Phase 11 — PWA -->
   <link rel="manifest" href="manifest.webmanifest" />
   <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#15161a" media="(prefers-color-scheme: dark)" />
@@ -27,11 +26,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <!-- Phase 11 — SEO -->
   <link rel="canonical" href="./home.html" />
   <meta name="description" content="Learn Japanese from Bengali with Minna no Nihongo, spaced-repetition flashcards, kanji stroke order, and quizzes. JLPT N5–N3." />
   <meta property="og:type" content="website" />
@@ -40,42 +38,11 @@
   <meta property="og:description" content="Learn Japanese from Bengali with Minna no Nihongo, spaced-repetition flashcards, kanji stroke order, and quizzes. JLPT N5–N3." />
   <meta property="og:url" content="./home.html" />
   <meta property="og:image" content="og.svg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:locale:alternate" content="bn_BD" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Nihongo · Bengali — Japanese for Bengali speakers" />
-  <meta name="twitter:description" content="Learn Japanese from Bengali with Minna no Nihongo, spaced-repetition flashcards, kanji stroke order, and quizzes. JLPT N5–N3." />
-  <meta name="twitter:image" content="og.svg" />
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Nihongo · Bengali",
-    "alternateName": "Japanese for Bengali speakers",
-    "url": "./home.html",
-    "inLanguage": ["en", "bn"],
-    "description": "Learn Japanese from Bengali with Minna no Nihongo, spaced-repetition flashcards, kanji stroke order, and quizzes.",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "./search.html?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Nihongo · Bengali",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "icons/icon.svg"
-      }
-    }
-  }
-  </script>
 
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <link rel="stylesheet" href="css/cloud.css" />
   <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/design-system.css" />
   <link rel="stylesheet" href="css/shell.css" />
@@ -84,18 +51,95 @@
   <link rel="stylesheet" href="css/home.css" />
 
   <script>
-    window.SHELL_CONFIG = { /* unchanged from Phase 3 */ };
+    window.SHELL_CONFIG = {
+      navGroups: [
+        { title: { en: 'Learn', bn: 'শিখুন' }, items: [
+          { key: 'home',       icon: 'home',     href: 'home.html',       label: { en: 'Home',       bn: 'হোম' } },
+          { key: 'lesson',     icon: 'book',     href: 'lesson.html?lesson=minna-001', label: { en: 'Lessons', bn: 'পাঠ' } },
+          { key: 'flashcards', icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
+          { key: 'quiz',       icon: 'practice', href: 'quiz.html',       label: { en: 'Quiz',       bn: 'কুইজ' } },
+          { key: 'kanji',      icon: 'kanji',    href: 'kanji.html',      label: { en: 'Kanji',      bn: 'কাঞ্জি' } }
+        ]},
+        { title: { en: 'Explore', bn: 'অন্বেষণ' }, items: [
+          { key: 'search',    icon: 'search',   href: 'search.html',    label: { en: 'Search',    bn: 'অনুসন্ধান' } },
+          { key: 'progress',  icon: 'practice', href: 'progress.html',  label: { en: 'Progress',  bn: 'অগ্রগতি' } },
+          { key: 'placement', icon: 'book',     href: 'placement.html', label: { en: 'Placement', bn: 'প্লেসমেন্ট' } }
+        ]}
+      ],
+      bottomNav: [
+        { href: 'home.html',       icon: 'home',     label: { en: 'Home',     bn: 'হোম' } },
+        { href: 'flashcards.html', icon: 'practice', label: { en: 'Cards',    bn: 'কার্ড' } },
+        { href: 'search.html',     icon: 'search',   label: { en: 'Search',   bn: 'অনুসন্ধান' } },
+        { href: 'progress.html',   icon: 'practice', label: { en: 'Progress', bn: 'অগ্রগতি' } }
+      ],
+      searchEnabled: true
+    };
   </script>
 </head>
 <body class="shell-body">
-  <!-- body unchanged from Phase 3 -->
-
   <header data-shell-header></header>
 
   <div class="shell-frame">
     <aside class="shell-sidebar" data-shell-sidebar></aside>
     <main class="shell-main">
-      <!-- Phase 3 content unchanged -->
+      <div class="home-page">
+
+        <section class="hero">
+          <div class="hero__text">
+            <p class="hero__kicker">
+              <span data-en="Japanese for Bengali speakers" data-bn="বাংলাভাষীদের জন্য জাপানিজ">Japanese for Bengali speakers</span>
+            </p>
+            <h1 class="hero__title">
+              <span data-en="Learn Japanese, one lesson at a time." data-bn="প্রতি পাঠে এক ধাপ এগিয়ে জাপানিজ শিখুন।">Learn Japanese, one lesson at a time.</span>
+            </h1>
+            <p class="hero__lead">
+              <span data-en="Minna no Nihongo from Lesson 1 to N3 — vocabulary, grammar, kanji, audio, flashcards, and quizzes. All bilingual."
+                    data-bn="মিন্না নো নিহোঙ্গো পাঠ ১ থেকে N3 — শব্দভাণ্ডার, ব্যাকরণ, কাঞ্জি, অডিও, ফ্ল্যাশকার্ড এবং কুইজ। সবই দ্বিভাষিক।">Minna no Nihongo from Lesson 1 to N3 — vocabulary, grammar, kanji, audio, flashcards, and quizzes. All bilingual.</span>
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary btn--lg" href="lesson.html?lesson=minna-001">
+                <span data-en="Browse textbooks" data-bn="পাঠ্যপুস্তক দেখুন">Browse textbooks</span>
+              </a>
+              <a class="btn btn--secondary btn--lg" href="#paths">
+                <span data-en="Choose a path" data-bn="একটি পথ বেছে নিন">Choose a path</span>
+              </a>
+            </div>
+          </div>
+          <div class="hero__phrase">
+            <div class="phrase-card">
+              <p class="phrase-card__label">
+                <span data-en="Today's phrase" data-bn="আজকের বাক্যাংশ">Today's phrase</span>
+              </p>
+              <p class="phrase-card__jp">
+                <ruby>毎日<rt>まいにち</rt></ruby>、<ruby>少<rt>すこ</rt></ruby>しずつ。
+              </p>
+              <p class="phrase-card__romaji">mainichi, sukoshi zutsu.</p>
+              <p class="phrase-card__en">
+                <span data-en="Every day, a little at a time." data-bn="প্রতিদিন, অল্প অল্প করে।">Every day, a little at a time.</span>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" data-slot="continue" aria-label="Continue learning"></section>
+
+        <section class="section">
+          <h2 class="section__title">
+            <span data-en="Textbooks &amp; tracks" data-bn="পাঠ্যপুস্তক ও ট্র্যাক">Textbooks &amp; tracks</span>
+          </h2>
+          <div class="books" data-slot="books"></div>
+        </section>
+
+        <section class="section" data-slot="jlpt" aria-label="JLPT levels"></section>
+
+        <section class="section" id="paths">
+          <h2 class="section__title">
+            <span data-en="Choose your path" data-bn="আপনার পথ বেছে নিন">Choose your path</span>
+          </h2>
+          <div class="paths" data-slot="paths"></div>
+        </section>
+
+      </div>
     </main>
   </div>
 
@@ -106,6 +150,9 @@
   <script src="js/data-schemas.js" defer></script>
   <script src="js/data-loader.js" defer></script>
   <script src="js/shell.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="js/supabase-config.js" defer></script>
+  <script src="js/cloud.js" defer></script>
   <script src="js/a11y.js" defer></script>
   <script src="js/pwa.js" defer></script>
   <script src="js/home.js" defer></script>
