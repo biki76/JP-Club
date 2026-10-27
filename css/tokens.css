@@ -42,6 +42,8 @@
 
   --header-h: 60px;
   --sidebar-w: 260px;
+  --ease: cubic-bezier(.4, 0, .2, 1);
+  --dur: 200ms;
 }
 
 html[data-theme="dark"] {
