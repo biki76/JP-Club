@@ -1,626 +1,355 @@
-/* js/lesson.js
- * Phase 5 — Lesson page template.
- * Renders lesson data loaded via DataLoader into a single-page tab UI.
- */
+/* Lessons catalog — Phase 13.
+   - Reads course manifests via DataLoader.loadCourse().
+   - Renders 50 lesson cards (Book I 1–25, Book II 26–50).
+   - Reads nihongo_progress from localStorage (local authority).
+   - No Supabase calls — cloud sync happens in cloud.js only.
+   - Filters (?filter=) and book scope (?book=) live in the URL. */
+
 (function () {
   'use strict';
 
-  const KEY = {
-    progress:  'nihongo_progress',
-    bookmarks: 'nihongo_bookmarks',
-    furigana:  'nihongo_furigana'
-  };
+  const TOTAL_LESSONS = 50;
+  const BOOK_I_END = 25;
 
-  const state = {
-    slug: null,
-    lesson: null,
-    sortedLessons: [],
-    currentIdx: -1,
-    courseId: null,
-    totalLessons: null
-  };
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
-  /* ─── Utilities ─────────────────────────────────────── */
   function esc(s) {
-    return String(s == null ? '' : s)
-      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    return String(s ?? '').replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
   }
-  function getLang() { return document.documentElement.lang === 'bn' ? 'bn' : 'en'; }
+
+  function currentLang() {
+    try { return localStorage.getItem('nihongo_lang') === 'en' ? 'en' : 'bn'; }
+    catch { return 'bn'; }
+  }
+
   function txt(en, bn) {
-    const l = getLang();
+    const l = currentLang();
     return `<span data-en="${esc(en)}" data-bn="${esc(bn)}">${esc(l === 'en' ? en : bn)}</span>`;
   }
-  function ruby(base, furigana) {
-    base = base == null ? '' : String(base);
-    furigana = furigana == null ? '' : String(furigana);
-    if (!base && !furigana) return '';
-    if (!furigana) return esc(base);
-    if (!base) return esc(furigana);
-    return `<ruby>${esc(base)}<rt>${esc(furigana)}</rt></ruby>`;
-  }
-  function readJson(key, fallback) {
-    try { const raw = localStorage.getItem(key); return raw ? JSON.parse(raw) : fallback; }
-    catch (e) { return fallback; }
-  }
-  function writeJson(key, value) {
-    try { localStorage.setItem(key, JSON.stringify(value)); return true; }
-    catch (e) { return false; }
-  }
 
-  /* ─── Bootstrap ─────────────────────────────────────── */
-  async function init() {
+  function readJSON(key, fallback) {
     try {
-      const params = new URLSearchParams(location.search);
-      let slug = params.get('lesson');
+      const raw = localStorage.getItem(key);
+      return raw ? JSON.parse(raw) : fallback;
+    } catch { return fallback; }
+  }
 
-      const index = await DataLoader.loadIndex();
-      state.courseId = index.courseId;
-      state.totalLessons = index.totalLessons || null;
+  function readProgress() {
+    return readJSON('nihongo_progress', null);
+  }
 
-      const course = await DataLoader.loadCourse();
-      state.sortedLessons = course.lessons.slice().sort((a, b) => a.lessonNumber - b.lessonNumber);
+  function slugFor(n) {
+    return 'minna-' + String(n).padStart(3, '0');
+  }
 
-      if (!slug) slug = state.sortedLessons[0] ? state.sortedLessons[0].slug : null;
-      if (!slug || !state.sortedLessons.some(l => l.slug === slug)) {
-        renderError(getLang() === 'en'
-          ? 'Lesson not found: ' + (slug || '(none)')
-          : 'পাঠ পাওয়া যায়নি: ' + (slug || '(কোনো নয়)'));
-        return;
-      }
+  function lessonHref(slug) {
+    return 'lesson.html?lesson=' + encodeURIComponent(slug);
+  }
 
-      state.slug = slug;
-      state.lesson = await DataLoader.loadLesson(slug);
-      state.currentIdx = state.sortedLessons.findIndex(l => l.slug === slug);
+  function hasAnyData(manifest) {
+    if (!manifest || typeof manifest !== 'object') return false;
+    const df = manifest.dataFiles;
+    if (!df || typeof df !== 'object') return false;
+    return Object.keys(df).some(k => df[k] !== null && df[k] !== undefined && df[k] !== '');
+  }
 
-      render();
-    } catch (e) {
-      console.error(e);
-      renderError(e.message || String(e));
+  // ─── State ────────────────────────────────────────────────────────────
+  const state = {
+    ready: false,
+    byNumber: new Map(),
+    filter: 'all',
+    book: 'all'
+  };
+
+  const FILTER_IDS = ['all', 'in-progress', 'completed', 'locked'];
+  const BOOK_IDS = ['all', '1', '2'];
+
+  function readURL() {
+    const params = new URLSearchParams(location.search);
+    const f = params.get('filter');
+    const b = params.get('book');
+    state.filter = FILTER_IDS.includes(f) ? f : 'all';
+    state.book = BOOK_IDS.includes(b) ? b : 'all';
+  }
+
+  function writeURL(push) {
+    const params = new URLSearchParams(location.search);
+    if (state.filter === 'all') params.delete('filter');
+    else params.set('filter', state.filter);
+    if (state.book === 'all') params.delete('book');
+    else params.set('book', state.book);
+    const qs = params.toString();
+    const url = location.pathname + (qs ? '?' + qs : '') + location.hash;
+    if (push) history.pushState({ filter: state.filter, book: state.book }, '', url);
+    else history.replaceState({ filter: state.filter, book: state.book }, '', url);
+  }
+
+  // ─── Status resolution ────────────────────────────────────────────────
+  function statusOf(n) {
+    const manifest = state.byNumber.get(n);
+    if (!hasAnyData(manifest)) {
+      return { key: 'coming', percent: 0, manifest: manifest || null };
+    }
+    const progress = readProgress() || {};
+    const completed = Number(progress.completedLessons) || 0;
+    const current = Number(progress.currentLesson) || 1;
+    const currentPct = Math.round((Number(progress.currentLessonProgress) || 0) * 100);
+
+    if (n <= completed) return { key: 'completed', percent: 100, manifest };
+    if (n === current) return { key: 'in-progress', percent: currentPct, manifest };
+    if (n > current) return { key: 'locked', percent: 0, manifest };
+    return { key: 'locked', percent: 0, manifest };
+  }
+
+  function statusText(status) {
+    switch (status.key) {
+      case 'completed':   return txt('Completed', 'সম্পন্ন');
+      case 'in-progress': return txt('In progress ' + status.percent + '%', 'চলমান ' + status.percent + '%');
+      case 'coming':      return txt('Coming soon', 'শীঘ্রই আসছে');
+      case 'locked':      return txt('Locked', 'লকড');
+      default:            return txt('Not started', 'শুরু হয়নি');
     }
   }
 
-  /* ─── Render root ───────────────────────────────────── */
-  function render() {
-    const root = document.getElementById('lesson-page');
-    if (!root) return;
-    root.innerHTML = `
-      ${renderHeader()}
-      ${renderTabs()}
-      <div class="lesson-panels">
-        ${renderVocabPanel()}
-        ${renderGrammarPanel()}
-        ${renderKanjiPanel()}
-        ${renderReadingPanel()}
-        ${renderListeningPanel()}
-        ${renderPracticePanel()}
-      </div>
-      ${renderPager()}
-    `;
+  // ─── Render: continue card ────────────────────────────────────────────
+  function renderContinue() {
+    const el = $('#continue-card');
+    if (!el) return;
+    el.setAttribute('aria-busy', 'false');
 
-    setupTabs();
-    setupFuriganaToggle();
-    setupBookmark();
-    setupMarkComplete();
-    setupPractice();
-  }
-
-  /* ─── Header ────────────────────────────────────────── */
-  function renderHeader() {
-    const m = state.lesson.manifest;
-    const isComplete   = isLessonComplete();
-    const isBookmarked = isLessonBookmarked();
-    return `
-      <header class="lesson-header">
-        <nav class="lesson-header__crumb" aria-label="Breadcrumb">
-          <a href="home.html">${txt('Home', 'হোম')}</a>
-          <span class="lesson-header__sep" aria-hidden="true">/</span>
-          <a href="#">${txt('Minna Beginner', 'মিন্না বিগিনার')}</a>
-          <span class="lesson-header__sep" aria-hidden="true">/</span>
-          <span aria-current="page">${txt('Lesson', 'পাঠ')} ${m.lessonNumber}</span>
-        </nav>
-
-        <div class="lesson-header__row">
-          <div class="lesson-header__main">
-            <div class="lesson-header__eyebrow">
-              <span class="badge badge--primary">${esc(m.jlpt || 'N5')}</span>
-              <span class="badge badge--neutral">${txt('Lesson', 'পাঠ')} ${m.lessonNumber}</span>
-              ${m.durationMin ? `<span class="badge badge--neutral">${m.durationMin} ${txt('min', 'মিনিট')}</span>` : ''}
-            </div>
-            <h1 class="lesson-header__title">${txt(m.title.en, m.title.bn)}</h1>
-            ${m.subtitle ? `<p class="lesson-header__subtitle">${txt(m.subtitle.en, m.subtitle.bn)}</p>` : ''}
-          </div>
-
-          <div class="lesson-header__actions">
-            <button type="button" class="btn btn--ghost lesson-furigana-btn" id="lesson-furigana-btn" aria-pressed="true">
-              <span class="lesson-furigana-label">Furigana: on</span>
-            </button>
-            <button type="button" class="btn btn--secondary" id="lesson-bookmark-btn" aria-pressed="${isBookmarked}">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
-              </svg>
-              <span class="lesson-bookmark-label">${isBookmarked ? txt('Bookmarked', 'বুকমার্ক করা') : txt('Bookmark', 'বুকমার্ক')}</span>
-            </button>
-            <button type="button" class="btn btn--primary" id="lesson-complete-btn">
-              <span class="lesson-complete-label">${isComplete ? txt('Completed ✓', 'সম্পন্ন ✓') : txt('Mark lesson complete', 'পাঠ সম্পন্ন করুন')}</span>
-            </button>
-          </div>
+    const progress = readProgress();
+    if (!progress || !Number(progress.currentLesson)) {
+      el.innerHTML = `
+        <div class="lp-continue__inner">
+          <p class="lp-continue__empty">${txt('Start your first lesson.', 'প্রথম পাঠ শুরু করুন।')}</p>
+          <a class="lp-btn lp-btn--primary" href="lesson.html?lesson=minna-001">
+            ${txt('Start Lesson 1', 'পাঠ ১ শুরু করুন')}
+          </a>
         </div>
-      </header>
-    `;
-  }
+      `;
+      return;
+    }
 
-  /* ─── Tabs ──────────────────────────────────────────── */
-  function renderTabs() {
-    const tabs = [
-      { key: 'vocabulary', en: 'Vocabulary', bn: 'শব্দভাণ্ডার' },
-      { key: 'grammar',    en: 'Grammar',    bn: 'ব্যাকরণ' },
-      { key: 'kanji',      en: 'Kanji',      bn: 'কাঞ্জি' },
-      { key: 'reading',    en: 'Reading',    bn: 'পঠন' },
-      { key: 'listening',  en: 'Listening',  bn: 'শ্রবণ' },
-      { key: 'practice',   en: 'Practice',   bn: 'অনুশীলন' }
-    ];
-    return `
-      <div class="lesson-tabs" role="tablist" aria-label="Lesson sections">
-        ${tabs.map((t, i) => `
-          <button type="button" role="tab" class="lesson-tab" data-tab="${t.key}"
-                  aria-selected="${i === 0 ? 'true' : 'false'}"
-                  aria-controls="panel-${t.key}" id="tab-${t.key}"
-                  tabindex="${i === 0 ? '0' : '-1'}">
-            ${txt(t.en, t.bn)}
-          </button>
-        `).join('')}
+    const n = Number(progress.currentLesson);
+    const pct = Math.round((Number(progress.currentLessonProgress) || 0) * 100);
+    const manifest = state.byNumber.get(n);
+    const slug = (manifest && manifest.slug) || slugFor(n);
+    const titleEn = (manifest && manifest.title && manifest.title.en)
+      || (progress.currentLessonTitle && progress.currentLessonTitle.en)
+      || ('Lesson ' + n);
+    const titleBn = (manifest && manifest.title && manifest.title.bn)
+      || (progress.currentLessonTitle && progress.currentLessonTitle.bn)
+      || ('পাঠ ' + n);
+
+    el.innerHTML = `
+      <div class="lp-continue__inner">
+        <div class="lp-continue__meta">
+          <span class="lp-continue__eyebrow">${txt('Continue learning', 'শেখা চালিয়ে যান')}</span>
+          <h2 class="lp-continue__title">
+            ${txt('Lesson ' + n + ' — ' + titleEn, 'পাঠ ' + n + ' — ' + titleBn)}
+          </h2>
+          <div class="lp-continue__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}">
+            <span style="width:${pct}%"></span>
+          </div>
+          <p class="lp-continue__pct">${txt(pct + '% complete', pct + '% সম্পন্ন')}</p>
+        </div>
+        <a class="lp-btn lp-btn--primary" href="${esc(lessonHref(slug))}">
+          ${txt('Continue', 'চালিয়ে যান')}
+        </a>
       </div>
     `;
   }
 
-  /* ─── Panels ────────────────────────────────────────── */
-  function panelAttrs(key) {
-    return `id="panel-${key}" class="lesson-panel" role="tabpanel" aria-labelledby="tab-${key}" data-tab-panel="${key}"${key === 'vocabulary' ? '' : ' hidden'}`;
-  }
+  // ─── Render: filters ──────────────────────────────────────────────────
+  const FILTERS = [
+    { id: 'all',         en: 'All',         bn: 'সব' },
+    { id: 'in-progress', en: 'In progress', bn: 'চলমান' },
+    { id: 'completed',   en: 'Completed',   bn: 'সম্পন্ন' },
+    { id: 'locked',      en: 'Locked',      bn: 'লকড' }
+  ];
 
-  function renderVocabPanel() {
-    const items = state.lesson.vocabulary || [];
-    if (!items.length) return emptyPanel('vocabulary', 'Vocabulary', 'শব্দভাণ্ডার');
-    return `
-      <section ${panelAttrs('vocabulary')}>
-        <div class="lesson-vocab-grid">
-          ${items.map(v => `
-            <article class="lesson-vocab">
-              <div class="lesson-vocab__jp" lang="ja">${ruby(v.kanji, v.furigana)}</div>
-              ${v.romaji ? `<div class="lesson-vocab__romaji">${esc(v.romaji)}</div>` : ''}
-              <div class="lesson-vocab__meaning">${txt(v.english_meaning, v.bengali_meaning)}</div>
-              ${v.tags && v.tags.length
-                ? `<div class="lesson-vocab__tags">${v.tags.map(t => `<span class="badge badge--neutral">${esc(t)}</span>`).join('')}</div>`
-                : ''}
-            </article>
-          `).join('')}
-        </div>
-      </section>
-    `;
-  }
-
-  function renderGrammarPanel() {
-    const items = state.lesson.grammar || [];
-    if (!items.length) return emptyPanel('grammar', 'Grammar', 'ব্যাকরণ');
-    return `
-      <section ${panelAttrs('grammar')}>
-        <div class="lesson-grammar-list">
-          ${items.map(g => `
-            <article class="lesson-grammar">
-              <header class="lesson-grammar__head">
-                <h3 class="lesson-grammar__pattern" lang="ja">${esc(g.pattern)}</h3>
-                <p class="lesson-grammar__meaning">${txt(g.meaning_en, g.meaning_bn)}</p>
-              </header>
-              <ul class="lesson-grammar__examples">
-                ${(g.examples || []).map(ex => `
-                  <li class="lesson-example">
-                    <p class="lesson-example__jp" lang="ja">${ruby(ex.jp, ex.furigana)}</p>
-                    ${ex.romaji ? `<p class="lesson-example__romaji">${esc(ex.romaji)}</p>` : ''}
-                    <p class="lesson-example__tr">${txt(ex.en, ex.bn)}</p>
-                  </li>
-                `).join('')}
-              </ul>
-            </article>
-          `).join('')}
-        </div>
-      </section>
-    `;
-  }
-
-  function renderKanjiPanel() {
-    const items = state.lesson.kanji || [];
-    if (!items.length) return emptyPanel('kanji', 'Kanji', 'কাঞ্জি');
-    return `
-      <section ${panelAttrs('kanji')}>
-        <div class="lesson-kanji-grid">
-          ${items.map(k => `
-            <article class="lesson-kanji">
-              <div class="lesson-kanji__char" lang="ja">${esc(k.character)}</div>
-              <dl class="lesson-kanji__details">
-                <div><dt>${txt("On’yomi", 'অন-ইওমি')}</dt><dd lang="ja">${esc((k.onyomi || []).join('、')) || '—'}</dd></div>
-                <div><dt>${txt("Kun’yomi", 'কুন-ইওমি')}</dt><dd lang="ja">${esc((k.kunyomi || []).join('、')) || '—'}</dd></div>
-                <div><dt>${txt('Meaning', 'অর্থ')}</dt><dd>${txt((k.meanings.en || []).join('; '), (k.meanings.bn || []).join('; '))}</dd></div>
-                <div><dt>${txt('Radicals', 'রেডিক্যাল')}</dt><dd lang="ja">${esc((k.radicals || []).join('、'))}</dd></div>
-                <div><dt>${txt('Strokes', 'স্ট্রোক')}</dt><dd>${k.strokes}</dd></div>
-              </dl>
-            </article>
-          `).join('')}
-        </div>
-      </section>
-    `;
-  }
-
-  function renderReadingPanel() {
-    const items = state.lesson.reading || [];
-    if (!items.length) return emptyPanel('reading', 'Reading', 'পঠন');
-    return `
-      <section ${panelAttrs('reading')}>
-        <div class="lesson-reading-list">
-          ${items.map(r => `
-            <article class="lesson-reading">
-              <h3 class="lesson-reading__title">${txt(r.title.en, r.title.bn)}</h3>
-              <div class="lesson-reading__passage">
-                ${(r.passage || []).map(p => sentenceHtml(p)).join('')}
-              </div>
-            </article>
-          `).join('')}
-        </div>
-      </section>
-    `;
-  }
-
-  function renderListeningPanel() {
-    const items = state.lesson.listening || [];
-    if (!items.length) return emptyPanel('listening', 'Listening', 'শ্রবণ');
-    return `
-      <section ${panelAttrs('listening')}>
-        <div class="lesson-listening-list">
-          ${items.map(l => `
-            <article class="lesson-listening">
-              <h3 class="lesson-listening__title">${txt(l.title.en, l.title.bn)}</h3>
-              ${l.audio_url
-                ? `<audio class="lesson-listening__audio" controls preload="none" src="${esc(l.audio_url)}"></audio>`
-                : `<p class="lesson-listening__noaudio">${txt('Audio coming soon', 'অডিও শীঘ্রই আসছে')}</p>`}
-              <details class="lesson-listening__transcript">
-                <summary>${txt('Show transcript', 'ট্রান্সক্রিপ্ট দেখান')}</summary>
-                <div class="lesson-transcript">
-                  ${(l.transcript || []).map(p => sentenceHtml(p)).join('')}
-                </div>
-              </details>
-            </article>
-          `).join('')}
-        </div>
-      </section>
-    `;
-  }
-
-  function sentenceHtml(p) {
-    return `
-      <p class="lesson-sentence">
-        <span class="lesson-sentence__jp" lang="ja">${ruby(p.jp, p.furigana)}</span>
-        ${p.romaji ? `<span class="lesson-sentence__romaji">${esc(p.romaji)}</span>` : ''}
-        <span class="lesson-sentence__tr">${txt(p.en, p.bn)}</span>
-      </p>
-    `;
-  }
-
-  function renderPracticePanel() {
-    const items = state.lesson.practice || [];
-    if (!items.length) return emptyPanel('practice', 'Practice', 'অনুশীলন');
-    return `
-      <section ${panelAttrs('practice')}>
-        <div class="lesson-practice-list">
-          ${items.map(q => `
-            <article class="lesson-practice" data-qid="${esc(q.id)}" data-correct="${q.correctIndex}" data-answered="false">
-              <p class="lesson-practice__prompt">${txt(q.prompt.en, q.prompt.bn)}</p>
-              <p class="lesson-practice__stem" lang="ja">${ruby(q.stem.jp, q.stem.furigana)}</p>
-              ${q.stem.romaji ? `<p class="lesson-practice__romaji">${esc(q.stem.romaji)}</p>` : ''}
-              <ul class="lesson-practice__options">
-                ${(q.options || []).map((opt, i) => `
-                  <li><button type="button" class="lesson-practice__option" data-index="${i}" lang="ja">${esc(opt)}</button></li>
-                `).join('')}
-              </ul>
-              <p class="lesson-practice__feedback" hidden></p>
-              <button type="button" class="btn btn--ghost btn--sm lesson-practice__reset" hidden>
-                ${txt('Try again', 'আবার চেষ্টা করুন')}
-              </button>
-            </article>
-          `).join('')}
-        </div>
-      </section>
-    `;
-  }
-
-  function emptyPanel(key, en, bn) {
-    return `
-      <section ${panelAttrs(key)}>
-        <div class="lesson-empty">
-          <p class="lesson-empty__title">${txt('Nothing here yet', 'এখনো কিছু নেই')}</p>
-          <p class="lesson-empty__hint">${txt(en + ' content is coming soon for this lesson.', 'এই পাঠে ' + bn + ' বিষয়বস্তু শীঘ্রই আসছে।')}</p>
-        </div>
-      </section>
-    `;
-  }
-
-  function renderPager() {
-    const prev = state.sortedLessons[state.currentIdx - 1];
-    const next = state.sortedLessons[state.currentIdx + 1];
-    return `
-      <nav class="lesson-pager" aria-label="Lesson navigation">
-        ${prev ? `
-          <a class="lesson-pager__link" href="lesson.html?lesson=${encodeURIComponent(prev.slug)}">
-            <span class="lesson-pager__dir">← ${txt('Previous', 'আগের')}</span>
-            <span class="lesson-pager__title">${txt(prev.title.en, prev.title.bn)}</span>
-            <span class="lesson-pager__num">${txt('Lesson', 'পাঠ')} ${prev.lessonNumber}</span>
-          </a>` : `
-          <span class="lesson-pager__link lesson-pager__link--disabled" aria-disabled="true">
-            <span class="lesson-pager__dir">← ${txt('Previous', 'আগের')}</span>
-            <span class="lesson-pager__title">${txt('No previous lesson', 'পূর্ববর্তী পাঠ নেই')}</span>
-          </span>`}
-        ${next ? `
-          <a class="lesson-pager__link lesson-pager__link--next" href="lesson.html?lesson=${encodeURIComponent(next.slug)}">
-            <span class="lesson-pager__dir">${txt('Next', 'পরের')} →</span>
-            <span class="lesson-pager__title">${txt(next.title.en, next.title.bn)}</span>
-            <span class="lesson-pager__num">${txt('Lesson', 'পাঠ')} ${next.lessonNumber}</span>
-          </a>` : `
-          <span class="lesson-pager__link lesson-pager__link--next lesson-pager__link--disabled" aria-disabled="true">
-            <span class="lesson-pager__dir">${txt('Next', 'পরের')} →</span>
-            <span class="lesson-pager__title">${txt('No next lesson', 'পরবর্তী পাঠ নেই')}</span>
-          </span>`}
-      </nav>
-    `;
-  }
-
-  /* ─── Tabs interaction ──────────────────────────────── */
-  function setupTabs() {
-    const tabs = Array.from(document.querySelectorAll('.lesson-tab'));
-    const panels = Array.from(document.querySelectorAll('[data-tab-panel]'));
-    if (!tabs.length) return;
-
-    function activate(name, focus) {
-      tabs.forEach(t => {
-        const on = t.dataset.tab === name;
-        t.setAttribute('aria-selected', on ? 'true' : 'false');
-        t.tabIndex = on ? 0 : -1;
-        if (on && focus) t.focus();
-      });
-      panels.forEach(p => { p.hidden = p.dataset.tabPanel !== name; });
-      try { history.replaceState(null, '', '#' + name); } catch (e) {}
-    }
-
-    tabs.forEach(t => {
-      t.addEventListener('click', () => activate(t.dataset.tab, false));
-      t.addEventListener('keydown', e => {
-        const i = tabs.indexOf(t);
-        let ni = -1;
-        if (e.key === 'ArrowRight') ni = (i + 1) % tabs.length;
-        else if (e.key === 'ArrowLeft') ni = (i - 1 + tabs.length) % tabs.length;
-        else if (e.key === 'Home') ni = 0;
-        else if (e.key === 'End')  ni = tabs.length - 1;
-        if (ni >= 0) { e.preventDefault(); activate(tabs[ni].dataset.tab, true); }
+  function renderFilters() {
+    const el = $('#filters');
+    if (!el) return;
+    el.innerHTML = FILTERS.map(f => `
+      <button type="button" class="lp-filter" data-filter="${f.id}"
+              aria-pressed="${state.filter === f.id}">
+        ${txt(f.en, f.bn)}
+      </button>
+    `).join('');
+    $$('.lp-filter', el).forEach(btn => {
+      btn.addEventListener('click', () => {
+        state.filter = btn.dataset.filter;
+        writeURL(true);
+        renderFilters();
+        applyFilters();
       });
     });
-
-    const hash = location.hash.slice(1);
-    if (hash && tabs.some(t => t.dataset.tab === hash)) activate(hash, false);
   }
 
-  /* ─── Furigana toggle (syncs with shell's control) ───── */
-  function setupFuriganaToggle() {
-    const btn = document.getElementById('lesson-furigana-btn');
-    if (!btn) return;
-    const label = btn.querySelector('.lesson-furigana-label');
+  // ─── Render: book tabs ────────────────────────────────────────────────
+  const BOOKS = [
+    { id: 'all', en: 'All lessons', bn: 'সব পাঠ' },
+    { id: '1',   en: 'Book I (N5)', bn: 'বই I (N5)' },
+    { id: '2',   en: 'Book II (N4)', bn: 'বই II (N4)' }
+  ];
 
-    function reflect() {
-      const on = document.documentElement.getAttribute('data-furigana') === 'on';
-      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
-      const lang = getLang();
-      if (label) {
-        label.textContent = on
-          ? (lang === 'en' ? 'Furigana: on'  : 'ফুরিগানা: চালু')
-          : (lang === 'en' ? 'Furigana: off' : 'ফুরিগানা: বন্ধ');
-      }
+  function renderBookTabs() {
+    const el = $('#book-tabs');
+    if (!el) return;
+    el.innerHTML = BOOKS.map(b => `
+      <button type="button" class="lp-booktab" data-book="${b.id}"
+              aria-pressed="${state.book === b.id}">
+        ${txt(b.en, b.bn)}
+      </button>
+    `).join('');
+    $$('.lp-booktab', el).forEach(btn => {
+      btn.addEventListener('click', () => {
+        state.book = btn.dataset.book;
+        writeURL(true);
+        renderBookTabs();
+        applyFilters();
+      });
+    });
+  }
+
+  // ─── Render: scrubber ─────────────────────────────────────────────────
+  function renderScrubber() {
+    const el = $('#scrubber');
+    if (!el) return;
+    const items = [];
+    for (let n = 1; n <= TOTAL_LESSONS; n++) {
+      const status = statusOf(n);
+      items.push(
+        '<a class="lp-chip lp-chip--' + status.key + '" href="#lesson-' + n + '"' +
+        ' aria-label="' + esc('Lesson ' + n) + '">' + n + '</a>'
+      );
+    }
+    el.innerHTML = items.join('');
+  }
+
+  // ─── Render: card grid ────────────────────────────────────────────────
+  function renderCard(n, status) {
+    const manifest = status.manifest;
+    const titleEn = (manifest && manifest.title && manifest.title.en) || ('Lesson ' + n);
+    const titleBn = (manifest && manifest.title && manifest.title.bn) || ('পাঠ ' + n);
+    const isComing = status.key === 'coming';
+
+    const inner = `
+      <div class="lp-card__num" aria-hidden="true">${n}</div>
+      <div class="lp-card__body">
+        <h3 class="lp-card__title">${txt(titleEn, titleBn)}</h3>
+        <p class="lp-card__status">${statusText(status)}</p>
+      </div>
+      ${manifest && manifest.jlpt ? '<span class="lp-card__jlpt">' + esc(manifest.jlpt) + '</span>' : ''}
+    `;
+
+    if (isComing) {
+      return '<div class="lp-card lp-card--coming" id="lesson-' + n +
+             '" role="listitem" aria-disabled="true">' + inner + '</div>';
     }
 
-    btn.addEventListener('click', () => {
-      const on = document.documentElement.getAttribute('data-furigana') === 'on';
-      const next = on ? 'off' : 'on';
-      document.documentElement.setAttribute('data-furigana', next);
-      try { localStorage.setItem(KEY.furigana, next); } catch (e) {}
-      reflect();
+    const slug = (manifest && manifest.slug) || slugFor(n);
+    return '<a class="lp-card lp-card--' + status.key + '" id="lesson-' + n +
+           '" role="listitem" href="' + esc(lessonHref(slug)) + '">' + inner + '</a>';
+  }
+
+  function renderGrid() {
+    const book1 = $('#book-1-grid');
+    const book2 = $('#book-2-grid');
+    if (!book1 || !book2) return;
+
+    const cards1 = [];
+    const cards2 = [];
+    for (let n = 1; n <= TOTAL_LESSONS; n++) {
+      const html = renderCard(n, statusOf(n));
+      if (n <= BOOK_I_END) cards1.push(html);
+      else cards2.push(html);
+    }
+    book1.innerHTML = cards1.join('');
+    book2.innerHTML = cards2.join('');
+    book1.setAttribute('aria-busy', 'false');
+    book2.setAttribute('aria-busy', 'false');
+  }
+
+  // ─── Filter application ───────────────────────────────────────────────
+  function applyFilters() {
+    $$('.lp-card').forEach(card => {
+      const n = Number(card.id.replace('lesson-', ''));
+      const status = statusOf(n);
+      const matchesFilter = state.filter === 'all' || state.filter === status.key;
+      const bookOf = n <= BOOK_I_END ? '1' : '2';
+      const matchesBook = state.book === 'all' || state.book === bookOf;
+      card.hidden = !(matchesFilter && matchesBook);
     });
 
+    ['book-1', 'book-2'].forEach(id => {
+      const sec = document.getElementById(id);
+      if (!sec) return;
+      const anyVisible = $$('.lp-card', sec).some(c => !c.hidden);
+      sec.hidden = !anyVisible;
+    });
+  }
+
+  // ─── Boot ─────────────────────────────────────────────────────────────
+  async function boot() {
+    readURL();
+
+    // Load course manifests (may fail if offline first visit — degrade gracefully)
     try {
-      new MutationObserver(reflect).observe(document.documentElement, {
-        attributes: true, attributeFilter: ['data-furigana', 'lang']
-      });
-    } catch (e) {}
-
-    reflect();
-  }
-
-  /* ─── Bookmark ──────────────────────────────────────── */
-  function setupBookmark() {
-    const btn = document.getElementById('lesson-bookmark-btn');
-    if (!btn) return;
-    const label = btn.querySelector('.lesson-bookmark-label');
-
-    function reflect() {
-      const on = isLessonBookmarked();
-      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
-      if (label) label.innerHTML = on ? txt('Bookmarked', 'বুকমার্ক করা') : txt('Bookmark', 'বুকমার্ক');
-    }
-
-    btn.addEventListener('click', () => {
-      const bm = readBookmarks();
-      if (bm[state.slug]) delete bm[state.slug];
-      else bm[state.slug] = Date.now();
-      writeJson(KEY.bookmarks, bm);
-      reflect();
-      const l = getLang();
-      const added = !!bm[state.slug];
-      showToast(added
-        ? (l === 'en' ? 'Bookmarked'        : 'বুকমার্ক করা হয়েছে')
-        : (l === 'en' ? 'Bookmark removed'  : 'বুকমার্ক সরানো হয়েছে'));
-    });
-
-    reflect();
-  }
-
-  /* ─── Mark complete ─────────────────────────────────── */
-  function setupMarkComplete() {
-    const btn = document.getElementById('lesson-complete-btn');
-    if (!btn) return;
-    const label = btn.querySelector('.lesson-complete-label');
-
-    function reflect() {
-      const complete = isLessonComplete();
-      if (label) label.innerHTML = complete ? txt('Completed ✓', 'সম্পন্ন ✓') : txt('Mark lesson complete', 'পাঠ সম্পন্ন করুন');
-      btn.disabled = complete;
-      btn.classList.toggle('btn--primary', !complete);
-      btn.classList.toggle('btn--secondary', complete);
-    }
-
-    btn.addEventListener('click', () => {
-      markLessonComplete();
-      reflect();
-    });
-
-    reflect();
-    try {
-      new MutationObserver(reflect).observe(document.documentElement, {
-        attributes: true, attributeFilter: ['lang']
-      });
-    } catch (e) {}
-  }
-
-  /* ─── Practice ──────────────────────────────────────── */
-  function setupPractice() {
-    document.querySelectorAll('.lesson-practice').forEach(card => {
-      const correct  = Number(card.dataset.correct);
-      const options  = Array.from(card.querySelectorAll('.lesson-practice__option'));
-      const feedback = card.querySelector('.lesson-practice__feedback');
-      const reset    = card.querySelector('.lesson-practice__reset');
-
-      options.forEach(opt => {
-        opt.addEventListener('click', () => {
-          if (card.dataset.answered === 'true') return;
-          card.dataset.answered = 'true';
-          const chosen = Number(opt.dataset.index);
-          const isCorrect = chosen === correct;
-          opt.classList.add(isCorrect ? 'is-correct' : 'is-wrong');
-          if (!isCorrect && options[correct]) options[correct].classList.add('is-correct');
-          options.forEach(o => { o.disabled = true; });
-          if (feedback) {
-            feedback.hidden = false;
-            feedback.classList.add(isCorrect ? 'is-correct' : 'is-wrong');
-            const lang = getLang();
-            feedback.textContent = isCorrect
-              ? (lang === 'en' ? '✓ Correct!'  : '✓ সঠিক!')
-              : (lang === 'en' ? '✗ Not quite' : '✗ ঠিক নয়');
-          }
-          if (reset) reset.hidden = false;
-        });
-      });
-
-      if (reset) {
-        reset.addEventListener('click', () => {
-          card.dataset.answered = 'false';
-          options.forEach(o => {
-            o.disabled = false;
-            o.classList.remove('is-correct', 'is-wrong');
-          });
-          if (feedback) { feedback.hidden = true; feedback.textContent = ''; }
-          reset.hidden = true;
+      if (window.DataLoader && typeof window.DataLoader.loadCourse === 'function') {
+        const course = await window.DataLoader.loadCourse();
+        (course && course.lessons ? course.lessons : []).forEach(m => {
+          if (m && m.lessonNumber) state.byNumber.set(Number(m.lessonNumber), m);
         });
       }
-    });
-  }
-
-  /* ─── Progress helpers ──────────────────────────────── */
-  function isLessonBookmarked() {
-    return !!readBookmarks()[state.slug];
-  }
-
-  function isLessonComplete() {
-    const p = readJson(KEY.progress, null);
-    if (!p || !state.lesson) return false;
-    if (p.courseId !== state.lesson.manifest.courseId) return false;
-    return (p.completedLessons || 0) >= state.lesson.manifest.lessonNumber;
-  }
-
-  function markLessonComplete() {
-    if (!state.lesson) return;
-    const m = state.lesson.manifest;
-    const total = state.totalLessons || state.sortedLessons.length || m.lessonNumber;
-    const next = state.sortedLessons.find(l => l.lessonNumber === m.lessonNumber + 1);
-    const p = readJson(KEY.progress, null) || {};
-
-    p.courseId = m.courseId;
-    p.totalLessons = total;
-    p.completedLessons = Math.max(p.completedLessons || 0, m.lessonNumber);
-
-    if (next) {
-      p.currentLesson = next.lessonNumber;
-      p.currentLessonTitle = next.title;
-      p.currentLessonProgress = 0;
-    } else {
-      p.currentLesson = m.lessonNumber;
-      p.currentLessonTitle = m.title;
-      p.currentLessonProgress = 1;
+    } catch (err) {
+      console.error('[lessons] course load failed:', err);
     }
-    p.updatedAt = Date.now();
 
-    writeJson(KEY.progress, p);
-
-    showToast(getLang() === 'en'
-      ? 'Lesson marked complete ✓'
-      : 'পাঠ সম্পন্ন হয়েছে ✓');
+    state.ready = true;
+    renderContinue();
+    renderFilters();
+    renderBookTabs();
+    renderScrubber();
+    renderGrid();
+    applyFilters();
   }
 
-  function readBookmarks() {
-    const raw = readJson(KEY.bookmarks, {});
-    if (Array.isArray(raw)) {
-      const obj = {};
-      raw.forEach(s => { obj[s] = Date.now(); });
-      return obj;
+  // ─── Popstate ─────────────────────────────────────────────────────────
+  window.addEventListener('popstate', () => {
+    readURL();
+    if (!state.ready) return;
+    renderFilters();
+    renderBookTabs();
+    applyFilters();
+  });
+
+  // ─── React to language toggle / storage events from other tabs ────────
+  window.addEventListener('storage', (e) => {
+    if (!state.ready) return;
+    if (e.key === 'nihongo_progress' || e.key === 'nihongo_lang' || e.key === null) {
+      renderContinue();
+      renderFilters();
+      renderBookTabs();
+      renderScrubber();
+      renderGrid();
+      applyFilters();
     }
-    return raw && typeof raw === 'object' ? raw : {};
-  }
+  });
 
-  /* ─── Toast ─────────────────────────────────────────── */
-  function showToast(msg) {
-    const t = document.createElement('div');
-    t.className = 'lesson-toast';
-    t.setAttribute('role', 'status');
-    t.setAttribute('aria-live', 'polite');
-    t.textContent = msg;
-    document.body.appendChild(t);
-    requestAnimationFrame(() => t.classList.add('lesson-toast--in'));
-    setTimeout(() => {
-      t.classList.remove('lesson-toast--in');
-      setTimeout(() => t.remove(), 300);
-    }, 2200);
-  }
+  // Expose minimal API (page code, not shell)
+  window.Lessons = {
+    reload: () => boot(),
+    readURL
+  };
 
-  /* ─── Error ─────────────────────────────────────────── */
-  function renderError(msg) {
-    const root = document.getElementById('lesson-page');
-    if (!root) return;
-    root.innerHTML = `
-      <div class="lesson-error" role="alert">
-        <h2>${txt('Could not load lesson', 'পাঠ লোড করা যায়নি')}</h2>
-        <p>${esc(msg)}</p>
-        <p><a href="home.html" class="btn btn--primary">${txt('Back to home', 'হোমে ফিরে যান')}</a></p>
-      </div>
-    `;
-  }
-
-  /* ─── Boot ──────────────────────────────────────────── */
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', boot, { once: true });
   } else {
-    init();
+    boot();
   }
 })();
