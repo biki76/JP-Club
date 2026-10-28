@@ -1,81 +1,130 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="page-title">Lesson | JP-Club</title>
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson | JP-Club</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8fafc;--surface:#fff;--ink:#0f172a;--muted:#64748b;--border:#e2e8f0;--primary:#2563eb;--soft:#eff6ff;--font-en:'Inter',system-ui,sans-serif;--font-bn:'Hind Siliguri',sans-serif;--font-jp:'Noto Sans JP',sans-serif}
+html[data-theme="dark"]{--bg:#0b1220;--surface:#151e2e;--ink:#e2e8f0;--muted:#94a3b8;--border:#243244;--primary:#60a5fa;--soft:#12233d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-en);line-height:1.6}
+html[lang="bn"] body{font-family:var(--font-bn)}
+header{position:sticky;top:0;z-index:50;background:var(--surface);border-bottom:1px solid var(--border);backdrop-filter:blur(8px)}
+.bar{max-width:900px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 16px;flex-wrap:wrap}
+.bar a.back{color:var(--primary);font-weight:700;text-decoration:none}
+.bar select{background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:8px;padding:6px 8px;font:inherit;font-size:.85rem}
+.spacer{flex:1}
+.iconbtn{min-width:38px;height:38px;border:1px solid var(--border);background:var(--surface);color:var(--ink);border-radius:10px;cursor:pointer;font-size:1rem}
+.langseg{display:flex;border:1px solid var(--border);border-radius:999px;overflow:hidden}
+.langseg button{border:0;background:var(--surface);color:var(--muted);padding:6px 12px;font:inherit;font-size:.8rem;font-weight:600;cursor:pointer}
+.langseg button[aria-pressed="true"]{background:var(--primary);color:#fff}
+main{max-width:900px;margin:0 auto;padding:16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;margin-bottom:16px;box-shadow:0 1px 3px rgba(15,23,42,.06)}
+h1{margin:0 0 4px;font-size:1.6rem}h2{margin:0 0 12px;font-size:1.15rem;border-bottom:1px solid var(--border);padding-bottom:8px}
+.muted{color:var(--muted)}.small{font-size:.8rem}.jp{font-family:var(--font-jp);font-weight:600;font-size:1.15rem}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.badge{background:var(--soft);color:var(--primary);border-radius:999px;padding:2px 10px;font-size:.75rem;font-weight:600}
+.row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)}
+.row:last-child{border-bottom:0}.mean{text-align:right}
+.g-card{border-left:3px solid var(--primary);background:var(--soft);border-radius:0 10px 10px 0;padding:12px 14px;margin-bottom:12px}
+.g-card h3{margin:0 0 4px;font-size:1.05rem;font-family:var(--font-jp)}
+.g-card ul{margin:8px 0 0;padding-left:18px}
+.k-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.k-card{border:1px solid var(--border);border-radius:12px;padding:12px;background:var(--bg)}
+.k-char{font-family:var(--font-jp);font-size:2.2rem;line-height:1.2;margin:0}
+.navbtns{display:flex;justify-content:space-between;gap:10px;margin:8px 0 24px}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--primary);color:#fff;text-decoration:none;border-radius:10px;padding:10px 18px;font-weight:600;font-size:.9rem}
+.btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
+</style>
 </head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans">
-
-  <!-- Simple Header -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
-    <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
-      <a href="home.html" class="text-blue-600 font-bold text-lg hover:underline">← JP-Club</a>
-      <span id="header-lesson-badge" class="text-xs bg-slate-100 px-2.5 py-1 rounded font-medium text-slate-600">Loading...</span>
-    </div>
-  </header>
-
-  <!-- Main Content Container -->
-  <main class="flex-grow max-w-4xl w-full mx-auto px-4 py-6">
-    
-    <!-- Lesson Header Info -->
-    <div class="bg-white border border-slate-200 rounded-lg p-6 mb-6 shadow-sm">
-      <h1 id="lesson-title" class="text-2xl font-bold text-slate-900 mb-2">Lesson Loading...</h1>
-      <p id="lesson-subtitle" class="text-slate-600 text-sm">Minna no Nihongo Vocabulary & Grammar (Bengali / English)</p>
-    </div>
-
-    <!-- Lesson Content Tabs / Sections -->
-    <div class="space-y-6">
-      <section class="bg-white border border-slate-200 rounded-lg p-6 shadow-sm">
-        <h2 class="text-lg font-semibold text-slate-900 mb-4 border-b pb-2">Vocabulary (शब्दकोश / 語彙)</h2>
-        <div id="vocab-container" class="divide-y divide-slate-100">
-          <p class="text-slate-500 italic py-2">Fetching vocabulary data...</p>
-        </div>
-      </section>
-
-      <section class="bg-white border border-slate-200 rounded-lg p-6 shadow-sm">
-        <h2 class="text-lg font-semibold text-slate-900 mb-4 border-b pb-2">Grammar Points (व्याकरण / 文法)</h2>
-        <div id="grammar-container" class="space-y-4">
-          <p class="text-slate-500 italic py-2">Fetching grammar rules...</p>
-        </div>
-      </section>
-    </div>
-
-  </main>
-
-  <!-- Router Script -->
-  <script>
-    // 1. Extract query parameter (?id=1 or ?lesson=minna-001)
-    const urlParams = new URLSearchParams(window.location.search);
-    const lessonParam = urlParams.get('id') || urlParams.get('lesson') || '1';
-    
-    // Normalize lesson number (e.g. "minna-001" -> 1, "1" -> 1)
-    const lessonId = parseInt(lessonParam.toString().replace(/\D/g, '')) || 1;
-
-    // 2. Update UI with current lesson data
-    document.getElementById('page-title').innerText = `Lesson ${lessonId} | JP-Club`;
-    document.getElementById('header-lesson-badge').innerText = `Lesson ${lessonId} of 50`;
-    document.getElementById('lesson-title').innerText = `Minna no Nihongo - Lesson ${lessonId}`;
-
-    // Test render placeholder for Lesson 1 data
-    if (lessonId === 1) {
-      document.getElementById('vocab-container').innerHTML = `
-        <div class="py-2 flex justify-between items-center"><div><span class="font-bold text-slate-900">わたし</span> <span class="text-xs text-slate-500 ml-2">(Watashi)</span></div><div class="text-slate-600 text-sm">আমি (I)</div></div>
-        <div class="py-2 flex justify-between items-center"><div><span class="font-bold text-slate-900">あなた</span> <span class="text-xs text-slate-500 ml-2">(Anata)</span></div><div class="text-slate-600 text-sm">আপনি (You)</div></div>
-      `;
-      document.getElementById('grammar-container').innerHTML = `
-        <div>
-          <h3 class="font-semibold text-blue-600 mb-1">1. [Noun 1] は [Noun 2] です</h3>
-          <p class="text-sm text-slate-600">Meaning: Noun 1 is Noun 2. (은/는 equivalent structure in Japanese introduction)</p>
-        </div>
-      `;
-    } else {
-      document.getElementById('vocab-container').innerHTML = `<p class="text-slate-500 py-2">Data file for Lesson ${lessonId} will load here.</p>`;
-      document.getElementById('grammar-container').innerHTML = `<p class="text-slate-500 py-2">Grammar points for Lesson ${lessonId} will load here.</p>`;
-    }
-  </script>
+<body>
+<header><div class="bar">
+  <a class="back" href="lessons.html">← <span id="lbl-back">Lessons</span></a>
+  <select id="jump" aria-label="Jump to lesson"></select>
+  <span class="spacer"></span>
+  <span class="badge" id="badge">Lesson – of 50</span>
+  <div class="langseg"><button id="lang-en" aria-pressed="true">EN</button><button id="lang-bn" aria-pressed="false">বাং</button></div>
+  <button class="iconbtn" id="theme-btn" aria-label="Toggle dark mode">🌙</button>
+</div></header>
+<main>
+  <div class="card"><h1 id="title">Loading…</h1><p class="muted" id="subtitle"></p><div class="badges" id="head-badges"></div></div>
+  <div class="card"><h2>Vocabulary (শব্দভাণ্ডার / 語彙)</h2><div id="vocab"></div></div>
+  <div class="card"><h2>Grammar (ব্যাকরণ / 文法)</h2><div id="grammar"></div></div>
+  <div class="card"><h2>Kanji (কাঞ্জি / 漢字)</h2><div id="kanji"></div></div>
+  <div class="navbtns" id="nav"></div>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let lang=(localStorage.getItem('nihongo_lang')==='bn')?'bn':'en';
+let theme=localStorage.getItem('nihongo_theme')||'light';
+const state={n:1,data:{}};
+const slug=n=>'minna-'+String(n).padStart(3,'0');
+function numFromURL(){const p=new URLSearchParams(location.search);const v=p.get('lesson')||p.get('id')||'1';const n=parseInt(String(v).replace(/\D/g,''),10);return(n>=1&&n<=50)?n:1;}
+async function j(url){const r=await fetch(url,{cache:'no-cache'});if(!r.ok)throw new Error(url);return r.json();}
+const L=(en,bn)=>lang==='bn'?bn:en;
+const empty=()=>'<p class="muted">'+esc(L('No data for this section yet.','এই অংশের ডেটা এখনো যোগ করা হয়নি।'))+'</p>';
+function applyTheme(){document.documentElement.setAttribute('data-theme',theme);$('#theme-btn').textContent=theme==='dark'?'☀️':'';}
+function applyLang(){document.documentElement.lang=lang;$('#lang-en').setAttribute('aria-pressed',lang==='en');$('#lang-bn').setAttribute('aria-pressed',lang==='bn');$('#lbl-back').textContent=L('Lessons','পাঠ');}
+function renderHead(m){
+  const t=(m&&m.title)?m.title:null;
+  $('#badge').textContent='Lesson '+state.n+' of 50';
+  $('#title').textContent=t?L(t.en||'',t.bn||''):'Lesson '+state.n;
+  $('#subtitle').textContent=(m&&m.subtitle)?L(m.subtitle.en||'',m.subtitle.bn||''):'';
+  const b=[];
+  if(m&&m.jlpt)b.push(m.jlpt);
+  if(m&&m.durationMin)b.push(m.durationMin+' '+L('min','মিনিট'));
+  const c=state.data;
+  if((c.vocabulary||[]).length)b.push(c.vocabulary.length+' '+L('words','শব্দ'));
+  if((c.grammar||[]).length)b.push(c.grammar.length+' '+L('grammar','ব্যাকরণ'));
+  if((c.kanji||[]).length)b.push(c.kanji.length+' '+L('kanji','কাঞ্জি'));
+  $('#head-badges').innerHTML=b.map(x=>'<span class="badge">'+esc(x)+'</span>').join('');
+}
+function renderVocab(list){return list.map(v=>{
+  const main=v.kanji||v.furigana||'';const read=v.kanji&&v.furigana?' <span class="muted small">'+esc(v.furigana)+'</span>':'';
+  const mean=lang==='bn'?(esc(v.bengali_meaning||'')+(v.english_meaning?' <span class="muted small">('+esc(v.english_meaning)+')</span>':'')):esc(v.english_meaning||'');
+  return '<div class="row"><div><span class="jp">'+esc(main)+'</span>'+read+' <span class="muted small">('+esc(v.romaji||'')+')</span></div><div class="mean">'+mean+'</div></div>';
+}).join('');}
+function renderGrammar(list){return list.map(g=>{
+  const ex=(g.examples||[]).map(x=>'<li><span class="jp">'+esc(x.jp||'')+'</span>'+(x.furigana?' <span class="muted small">'+esc(x.furigana)+'</span>':'')+(x.romaji?' <span class="muted small">('+esc(x.romaji)+')</span>':'')+'<br><span class="small">'+esc(lang==='bn'?(x.bn||''):(x.en||''))+'</span></li>').join('');
+  return '<div class="g-card"><h3>'+esc(g.pattern||'')+'</h3><p class="muted small" style="margin:0">'+esc(lang==='bn'?(g.meaning_bn||''):(g.meaning_en||''))+'</p>'+(ex?'<ul>'+ex+'</ul>':'')+'</div>';
+}).join('');}
+function renderKanji(list){return '<div class="k-grid">'+list.map(k=>{
+  const m=k.meanings||{};
+  return '<div class="k-card"><p class="k-char">'+esc(k.character||'')+'</p>'
+   +'<p class="small muted" style="margin:4px 0">'+esc(L('On: ','অন: ')+(k.onyomi||[]).join('・'))+'</p>'
+   +'<p class="small muted" style="margin:0 0 4px">'+esc(L('Kun: ','কুন: ')+(k.kunyomi||[]).join('・'))+'</p>'
+   +'<p class="small" style="margin:0">'+esc(lang==='bn'?(m.bn||[]).join(', '):(m.en||[]).join(', '))+'</p>'
+   +'<p class="small muted" style="margin:4px 0 0">'+esc((k.strokes||'')+' '+L('strokes','স্ট্রোক'))+(k.jlpt?' · '+esc(k.jlpt):'')+'</p></div>';
+}).join('')+'</div>';}
+function renderNav(){
+  const prev=state.n>1?state.n-1:null,next=state.n<50?state.n+1:null;
+  $('#nav').innerHTML=(prev?'<a class="btn ghost" href="lesson.html?lesson='+slug(prev)+'">← '+esc(L('Previous','পূর্ববর্তী'))+'</a>':'<span></span>')
+   +(next?'<a class="btn" href="lesson.html?lesson='+slug(next)+'">'+esc(L('Next','পরবর্তী'))+' →</a>':'<span></span>');
+}
+function renderAll(){renderHead(state.data.manifest);
+  $('#vocab').innerHTML=(state.data.vocabulary||[]).length?renderVocab(state.data.vocabulary):empty();
+  $('#grammar').innerHTML=(state.data.grammar||[]).length?renderGrammar(state.data.grammar):empty();
+  $('#kanji').innerHTML=(state.data.kanji||[]).length?renderKanji(state.data.kanji):empty();
+  renderNav();}
+function buildJump(){const s=$('#jump');s.innerHTML=Array.from({length:50},(_,i)=>'<option value="'+slug(i+1)+'">'+L('Lesson ','পাঠ ')+(i+1)+'</option>').join('');s.value=slug(state.n);s.onchange=()=>{location.href='lesson.html?lesson='+s.value;};}
+async function load(){
+  state.n=numFromURL();state.data={};
+  applyTheme();applyLang();buildJump();
+  ['#vocab','#grammar','#kanji'].forEach(sel=>{$(sel).innerHTML='<p class="muted">'+esc(L('Loading…','লোড হচ্ছে…'))+'</p>';});
+  let m=null;
+  try{m=await j('data/lessons/'+slug(state.n)+'.json');}catch(e){try{m=await j('data/lessons/'+slug(state.n)+'/manifest.json');}catch(e2){}}
+  state.data.manifest=m;
+  for(const f of ['vocabulary','grammar','kanji']){
+    try{state.data[f]=await j('data/lessons/'+slug(state.n)+'/'+f+'.json');}catch(e){state.data[f]=[];}
+  }
+  renderAll();
+}
+$('#theme-btn').onclick=()=>{theme=theme==='dark'?'light':'dark';localStorage.setItem('nihongo_theme',theme);applyTheme();};
+$('#lang-en').onclick=()=>{lang='en';localStorage.setItem('nihongo_lang','en');applyLang();buildJump();renderAll();};
+$('#lang-bn').onclick=()=>{lang='bn';localStorage.setItem('nihongo_lang','bn');applyLang();buildJump();renderAll();};
+load();
+</script>
 </body>
 </html>
-
