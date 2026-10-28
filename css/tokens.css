@@ -1,68 +1,40 @@
-/* Phase 1 — design tokens. Single source of truth. No raw hex outside this file. */
 :root {
-  /* ---- color (light) ---- */
-  --bg: #fbfaf7;
+  /* --- Premium Light Theme --- */
+  --bg: #fcfbfa;
   --surface: #ffffff;
-  --ink: #1b1a17;
-  --ink-muted: #59564f;
-  --ink-subtle: #6b6660;
-  --primary: #3556c9;
+  --surface-glass: rgba(255, 255, 255, 0.8); /* For glassmorphism */
+  
+  --ink: #0f172a; /* Slate 900 - very rich black */
+  --ink-muted: #475569; /* Slate 600 */
+  --ink-subtle: #94a3b8; /* Slate 400 */
+  
+  --primary: #2563eb; /* Royal Blue */
+  --primary-glow: rgba(37, 99, 235, 0.2);
   --on-primary: #ffffff;
-  --accent: #a8385f;
-  --success: #1a9d5f;
-  --warn: #b06e10;
-  --danger: #d9465a;
-  --border: #e5e0d7;
-  --focus: #3556c9;
-
-  /* ---- spacing (4px base) ---- */
-  --s-1: 4px;  --s-2: 8px;  --s-3: 12px; --s-4: 16px;
-  --s-5: 24px; --s-6: 32px; --s-7: 40px; --s-8: 48px; --s-9: 64px;
-
-  /* ---- radii ---- */
-  --r-xs: 4px; --r-sm: 6px; --r-md: 10px; --r-lg: 16px; --r-full: 999px;
-
-  /* ---- shadows ---- */
-  --shadow-xs: 0 1px 2px rgba(0,0,0,.05);
-  --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
-  --shadow-md: 0 4px 12px rgba(0,0,0,.10);
-  --shadow-lg: 0 12px 32px rgba(0,0,0,.16);
-
-  /* ---- type ---- */
-  --fs-xs: .75rem;  --fs-sm: .875rem; --fs-md: 1rem;
-  --fs-lg: 1.125rem; --fs-xl: 1.25rem; --fs-2xl: 1.5rem;
-  --fs-3xl: 2rem;   --fs-4xl: 2.5rem;  --fs-5xl: 3.5rem;
-
-  --lh-en: 1.6; --lh-bn: 1.85; --lh-jp: 1.95;
-
-  --font-bn: 'Hind Siliguri', 'Noto Sans Bengali', system-ui, sans-serif;
-  --font-en: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-jp: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif;
-  --font-mono: ui-monospace, 'SF Mono', Menlo, monospace;
-
-  --header-h: 60px;
-  --sidebar-w: 260px;
-  --ease: cubic-bezier(.4, 0, .2, 1);
-  --dur: 200ms;
+  
+  --accent: #db2777; /* Pink 600 */
+  --success: #059669;
+  --border: #e2e8f0;
+  
+  /* Premium Shadows */
+  --shadow-sm: 0 2px 4px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.12);
 }
 
 html[data-theme="dark"] {
-  --bg: #15161a;
-  --surface: #1c1e23;
-  --ink: #ecebe6;
-  --ink-muted: #a9a59d;
-  --ink-subtle: #948f87;
-  --primary: #8ea6ff;
-  --on-primary: #101114;
-  --accent: #ef9fc0;
-  --success: #4ecb8d;
-  --warn: #e0a44a;
-  --danger: #ff8090;
-  --border: #31343b;
-  --focus: #8ea6ff;
-
-  --shadow-xs: 0 1px 2px rgba(0,0,0,.4);
-  --shadow-sm: 0 1px 3px rgba(0,0,0,.5);
-  --shadow-md: 0 4px 12px rgba(0,0,0,.55);
-  --shadow-lg: 0 12px 32px rgba(0,0,0,.65);
+  /* --- Premium Dark Theme (Midnight Slate) --- */
+  --bg: #0b0f19; 
+  --surface: #1e293b; 
+  --surface-glass: rgba(30, 41, 59, 0.7);
+  
+  --ink: #f8fafc; 
+  --ink-muted: #cbd5e1; 
+  --ink-subtle: #64748b; 
+  
+  --primary: #3b82f6; 
+  --primary-glow: rgba(59, 130, 246, 0.25);
+  --accent: #f472b6; 
+  --success: #10b981;
+  --border: #334155; 
 }
