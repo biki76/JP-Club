@@ -1,136 +1,547 @@
 [
   {
     "id": "minna-001-v001",
-    "kanji": "私",
     "furigana": "わたし",
     "romaji": "watashi",
-    "english_meaning": "I; me",
-    "bengali_meaning": "আমি",
-    "tags": ["pronoun", "n5"]
+    "english_meaning": "I",
+    "bengali_meaning": "I",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
     "id": "minna-001-v002",
     "furigana": "あなた",
     "romaji": "anata",
     "english_meaning": "you",
-    "bengali_meaning": "আপনি; তুমি",
-    "tags": ["pronoun", "n5"]
+    "bengali_meaning": "you",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
     "id": "minna-001-v003",
+    "kanji": "あの 人（あの 方）",
+    "furigana": "あの ひと（あの かた）",
+    "romaji": "ano hito (ano kata)",
+    "english_meaning": "that person, he, she (あの かた is the polite equivalent of あの ひと)",
+    "bengali_meaning": "that person, he, she (あの かた is the polite equivalent of あの ひと)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v004",
+    "furigana": "～さん",
+    "romaji": "~san",
+    "english_meaning": "Mr., Ms. (suffix added to a name for expressing politeness)",
+    "bengali_meaning": "Mr., Ms. (suffix added to a name for expressing politeness)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v005",
+    "furigana": "～ちゃん",
+    "romaji": "~chan",
+    "english_meaning": "(suffix often added to a child's name instead of ～さん)",
+    "bengali_meaning": "(suffix often added to a child's name instead of ～さん)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v006",
+    "kanji": "～人",
+    "furigana": "～じん",
+    "romaji": "~jin",
+    "english_meaning": "(suffix meaning 'a national of'; e.g. アメリカじん, an American)",
+    "bengali_meaning": "(suffix meaning 'a national of'; e.g. アメリカじん, an American)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v007",
+    "kanji": "先生",
+    "furigana": "せんせい",
+    "romaji": "sensei",
+    "english_meaning": "teacher, instructor (not used when referring to one's own job)",
+    "bengali_meaning": "teacher, instructor (not used when referring to one's own job)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v008",
+    "kanji": "教師",
+    "furigana": "きょうし",
+    "romaji": "kyōshi",
+    "english_meaning": "teacher, instructor",
+    "bengali_meaning": "teacher, instructor",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v009",
     "kanji": "学生",
     "furigana": "がくせい",
     "romaji": "gakusei",
     "english_meaning": "student",
-    "bengali_meaning": "ছাত্র-ছাত্রী",
-    "tags": ["noun", "n5", "people"]
+    "bengali_meaning": "student",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
-    "id": "minna-001-v004",
-    "kanji": "先生",
-    "furigana": "せんせい",
-    "romaji": "sensei",
-    "english_meaning": "teacher; instructor",
-    "bengali_meaning": "শিক্ষক",
-    "tags": ["noun", "n5", "people"]
-  },
-  {
-    "id": "minna-001-v005",
+    "id": "minna-001-v010",
     "kanji": "会社員",
     "furigana": "かいしゃいん",
     "romaji": "kaishain",
     "english_meaning": "company employee",
-    "bengali_meaning": "কোম্পানির কর্মচারী",
-    "tags": ["noun", "n5", "occupation"]
+    "bengali_meaning": "company employee",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
-    "id": "minna-001-v006",
+    "id": "minna-001-v011",
+    "kanji": "社員",
+    "furigana": "しゃいん",
+    "romaji": "shain",
+    "english_meaning": "employee of ～ company (used with a company's name, e.g. IMC の しゃいん)",
+    "bengali_meaning": "employee of ～ company (used with a company's name, e.g. IMC の しゃいん)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v012",
     "kanji": "銀行員",
     "furigana": "ぎんこういん",
-    "romaji": "ginkouin",
+    "romaji": "ginkōin",
     "english_meaning": "bank employee",
-    "bengali_meaning": "ব্যাংক কর্মচারী",
-    "tags": ["noun", "n5", "occupation"]
+    "bengali_meaning": "bank employee",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
-    "id": "minna-001-v007",
+    "id": "minna-001-v013",
     "kanji": "医者",
     "furigana": "いしゃ",
     "romaji": "isha",
-    "english_meaning": "doctor",
-    "bengali_meaning": "ডাক্তার",
-    "tags": ["noun", "n5", "occupation"]
+    "english_meaning": "[medical] doctor",
+    "bengali_meaning": "[medical] doctor",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
-    "id": "minna-001-v008",
+    "id": "minna-001-v014",
     "kanji": "研究者",
     "furigana": "けんきゅうしゃ",
-    "romaji": "kenkyuusha",
-    "english_meaning": "researcher",
-    "bengali_meaning": "গবেষক",
-    "tags": ["noun", "n5", "occupation"]
+    "romaji": "kenkyūsha",
+    "english_meaning": "researcher, scholar",
+    "bengali_meaning": "researcher, scholar",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
-    "id": "minna-001-v009",
+    "id": "minna-001-v015",
     "kanji": "大学",
     "furigana": "だいがく",
     "romaji": "daigaku",
     "english_meaning": "university",
-    "bengali_meaning": "বিশ্ববিদ্যালয়",
-    "tags": ["noun", "n5", "place"]
+    "bengali_meaning": "university",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
-    "id": "minna-001-v010",
+    "id": "minna-001-v016",
     "kanji": "病院",
     "furigana": "びょういん",
-    "romaji": "byouin",
+    "romaji": "byōin",
     "english_meaning": "hospital",
-    "bengali_meaning": "হাসপাতাল",
-    "tags": ["noun", "n5", "place"]
+    "bengali_meaning": "hospital",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
-    "id": "minna-001-v011",
+    "id": "minna-001-v017",
+    "furigana": "だれ（どなた）",
+    "romaji": "dare (donata)",
+    "english_meaning": "who (どなた is the polite equivalent of だれ)",
+    "bengali_meaning": "who (どなた is the polite equivalent of だれ)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v018",
+    "kanji": "－歳",
+    "furigana": "－さい",
+    "romaji": "-sai",
+    "english_meaning": "－ years old",
+    "bengali_meaning": "－ years old",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v019",
+    "kanji": "何歳",
+    "furigana": "なんさい（おいくつ）",
+    "romaji": "nansai (oikutsu)",
+    "english_meaning": "how old (おいくつ is the polite equivalent of なんさい)",
+    "bengali_meaning": "how old (おいくつ is the polite equivalent of なんさい)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v020",
+    "furigana": "はい",
+    "romaji": "hai",
+    "english_meaning": "yes",
+    "bengali_meaning": "yes",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v021",
+    "furigana": "いいえ",
+    "romaji": "iie",
+    "english_meaning": "no",
+    "bengali_meaning": "no",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v022",
+    "kanji": "初めまして。",
+    "furigana": "はじめまして。",
+    "romaji": "hajimemashite.",
+    "english_meaning": "How do you do? (lit. I am meeting you for the first time. Usually used as the first phrase when introducing oneself.)",
+    "bengali_meaning": "How do you do? (lit. I am meeting you for the first time. Usually used as the first phrase when introducing oneself.)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v023",
+    "kanji": "～から 来ました。",
+    "furigana": "～から きました。",
+    "romaji": "~kara kimashita.",
+    "english_meaning": "I'm from ～ (country)",
+    "bengali_meaning": "I'm from ～ (country)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v024",
+    "kanji": "［どうぞ］よろしく［お願いします］。",
+    "furigana": "［どうぞ］よろしく［おねがいします］。",
+    "romaji": "[dōzo] yoroshiku [onegaishimasu].",
+    "english_meaning": "Pleased to meet you. (lit. Please be nice to me. Usually used at the end of a self-introduction.)",
+    "bengali_meaning": "Pleased to meet you. (lit. Please be nice to me. Usually used at the end of a self-introduction.)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v025",
+    "kanji": "失礼ですが",
+    "furigana": "しつれいですが",
+    "romaji": "shitsureidesuga",
+    "english_meaning": "Excuse me, but (used when asking someone for personal information such as their name or address)",
+    "bengali_meaning": "Excuse me, but (used when asking someone for personal information such as their name or address)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v026",
+    "kanji": "お名前は？",
+    "furigana": "おなまえは？",
+    "romaji": "onamaewa？",
+    "english_meaning": "May I have your name?",
+    "bengali_meaning": "May I have your name?",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v027",
+    "furigana": "こちらは ～さんです。",
+    "romaji": "kochirawa ~sandesu.",
+    "english_meaning": "This is Mr./Ms. ～.",
+    "bengali_meaning": "This is Mr./Ms. ～.",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v028",
+    "furigana": "アメリカ",
+    "romaji": "amerika",
+    "english_meaning": "U.S.A.",
+    "bengali_meaning": "U.S.A.",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v029",
+    "furigana": "イギリス",
+    "romaji": "igirisu",
+    "english_meaning": "U.K.",
+    "bengali_meaning": "U.K.",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v030",
+    "furigana": "インド",
+    "romaji": "indo",
+    "english_meaning": "India",
+    "bengali_meaning": "India",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v031",
+    "furigana": "インドネシア",
+    "romaji": "indoneshia",
+    "english_meaning": "Indonesia",
+    "bengali_meaning": "Indonesia",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v032",
+    "kanji": "韓国",
+    "furigana": "かんこく",
+    "romaji": "kankoku",
+    "english_meaning": "South Korea",
+    "bengali_meaning": "South Korea",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v033",
+    "furigana": "タイ",
+    "romaji": "tai",
+    "english_meaning": "Thailand",
+    "bengali_meaning": "Thailand",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v034",
+    "kanji": "中国",
+    "furigana": "ちゅうごく",
+    "romaji": "chūgoku",
+    "english_meaning": "China",
+    "bengali_meaning": "China",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v035",
+    "furigana": "ドイツ",
+    "romaji": "doitsu",
+    "english_meaning": "Germany",
+    "bengali_meaning": "Germany",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v036",
+    "kanji": "日本",
+    "furigana": "にほん",
+    "romaji": "nihon",
+    "english_meaning": "Japan",
+    "bengali_meaning": "Japan",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v037",
+    "furigana": "ブラジル",
+    "romaji": "burajiru",
+    "english_meaning": "Brazil",
+    "bengali_meaning": "Brazil",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v038",
+    "kanji": "IMC／パワー電気／ブラジルエアー",
+    "furigana": "IMC／パワーでんき／ブラジルエアー",
+    "romaji": "IMC/pawādenki/burajirueā",
+    "english_meaning": "fictitious companies",
+    "bengali_meaning": "fictitious companies",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v039",
+    "furigana": "AKC",
+    "romaji": "AKC",
+    "english_meaning": "a fictitious institute",
+    "bengali_meaning": "a fictitious institute",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v040",
+    "kanji": "神戸病院",
+    "furigana": "こうべびょういん",
+    "romaji": "kōbebyōin",
+    "english_meaning": "a fictitious hospital",
+    "bengali_meaning": "a fictitious hospital",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v041",
+    "kanji": "さくら大学／富士大学",
+    "furigana": "さくらだいがく／ふじだいがく",
+    "romaji": "sakuradaigaku/fujidaigaku",
+    "english_meaning": "fictitious universities",
+    "bengali_meaning": "fictitious universities",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v042",
+    "furigana": "わたしたち",
+    "romaji": "watashitachi",
+    "english_meaning": "we",
+    "bengali_meaning": "we",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v043",
+    "kanji": "皆さん",
+    "furigana": "みなさん",
+    "romaji": "minasan",
+    "english_meaning": "ladies and gentlemen, all of you",
+    "bengali_meaning": "ladies and gentlemen, all of you",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v044",
+    "kanji": "～君",
+    "furigana": "～くん",
+    "romaji": "~kun",
+    "english_meaning": "(suffix often added to a boy's name)",
+    "bengali_meaning": "(suffix often added to a boy's name)",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v045",
+    "furigana": "エンジニア",
+    "romaji": "enjinia",
+    "english_meaning": "engineer",
+    "bengali_meaning": "engineer",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
+  },
+  {
+    "id": "minna-001-v046",
     "kanji": "電気",
     "furigana": "でんき",
     "romaji": "denki",
-    "english_meaning": "electricity; light",
-    "bengali_meaning": "বিদ্যুৎ; বাতি",
-    "tags": ["noun", "n5"]
+    "english_meaning": "electricity, light",
+    "bengali_meaning": "electricity, light",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   },
   {
-    "id": "minna-001-v012",
-    "kanji": "誰",
-    "furigana": "だれ",
-    "romaji": "dare",
-    "english_meaning": "who",
-    "bengali_meaning": "কে",
-    "tags": ["pronoun", "n5", "question"]
-  },
-  {
-    "id": "minna-001-v013",
-    "kanji": "初めまして",
-    "furigana": "はじめまして",
-    "romaji": "hajimemashite",
-    "english_meaning": "how do you do (said at first meeting)",
-    "bengali_meaning": "প্রথম সাক্ষাতে শুভেচ্ছা",
-    "tags": ["expression", "n5", "greeting"]
-  },
-  {
-    "id": "minna-001-v014",
-    "kanji": "どうぞよろしく",
-    "furigana": "どうぞよろしく",
-    "romaji": "douzo yoroshiku",
-    "english_meaning": "pleased to meet you",
-    "bengali_meaning": "আপনার সাথে পরিচিত হয়ে আনন্দিত",
-    "tags": ["expression", "n5", "greeting"]
-  },
-  {
-    "id": "minna-001-v015",
-    "kanji": "歳",
-    "furigana": "さい",
-    "romaji": "sai",
-    "english_meaning": "… years old (counter suffix)",
-    "bengali_meaning": "… বছর বয়স",
-    "tags": ["suffix", "n5", "counter"]
+    "id": "minna-001-v047",
+    "furigana": "フランス",
+    "romaji": "furansu",
+    "english_meaning": "France",
+    "bengali_meaning": "France",
+    "tags": [
+      "vocabulary",
+      "lesson-1"
+    ]
   }
 ]

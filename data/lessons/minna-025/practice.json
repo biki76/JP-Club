@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-025-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜25-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜25-A"
+    },
+    "stem": {
+      "jp": "これは レッスン25の 文法です。",
+      "furigana": "これは レッスン25の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 25-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜25-A means \"Grammar pattern 25-A\".",
+      "bn": "〜25-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 25-A\"।"
+    }
+  },
+  {
+    "id": "minna-025-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜25-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜25-B"
+    },
+    "stem": {
+      "jp": "これは レッスン25の 文法です。",
+      "furigana": "これは レッスン25の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 25-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜25-B means \"Grammar pattern 25-B\".",
+      "bn": "〜25-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 25-B\"।"
+    }
+  }
+]

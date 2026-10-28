@@ -1,0 +1,455 @@
+[
+  {
+    "id": "minna-023-v001",
+    "kanji": "聞きます［先生に～］",
+    "furigana": "ききます［せんせいに～］",
+    "romaji": "kikimasu [senseini~]",
+    "english_meaning": "ask [the teacher]",
+    "bengali_meaning": "ask [the teacher]",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v002",
+    "kanji": "回します",
+    "furigana": "まわします",
+    "romaji": "mawashimasu",
+    "english_meaning": "turn",
+    "bengali_meaning": "turn",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v003",
+    "kanji": "引きます",
+    "furigana": "ひきます",
+    "romaji": "hikimasu",
+    "english_meaning": "pull",
+    "bengali_meaning": "pull",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v004",
+    "kanji": "変えます",
+    "furigana": "かえます",
+    "romaji": "kaemasu",
+    "english_meaning": "change",
+    "bengali_meaning": "change",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v005",
+    "kanji": "触ります［ドアに～］",
+    "furigana": "さわります［ドアに～］",
+    "romaji": "sawarimasu [doani~]",
+    "english_meaning": "touch [a door]",
+    "bengali_meaning": "touch [a door]",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v006",
+    "kanji": "出ます［お釣りが～］",
+    "furigana": "でます［おつりが～］",
+    "romaji": "demasu [otsuriga~]",
+    "english_meaning": "[change] come out",
+    "bengali_meaning": "[change] come out",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v007",
+    "kanji": "歩きます",
+    "furigana": "あるきます",
+    "romaji": "arukimasu",
+    "english_meaning": "walk",
+    "bengali_meaning": "walk",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v008",
+    "kanji": "渡ります［橋を～］",
+    "furigana": "わたります［はしを～］",
+    "romaji": "watarimasu [hashiwo~]",
+    "english_meaning": "cross [a bridge]",
+    "bengali_meaning": "cross [a bridge]",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v009",
+    "kanji": "曲がります［右へ～］",
+    "furigana": "まがります［みぎへ～］",
+    "romaji": "magarimasu [migihe~]",
+    "english_meaning": "turn [to the right]",
+    "bengali_meaning": "turn [to the right]",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v010",
+    "kanji": "寂しい",
+    "furigana": "さびしい",
+    "romaji": "sabishii",
+    "english_meaning": "lonely",
+    "bengali_meaning": "lonely",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v011",
+    "kanji": "［お］湯",
+    "furigana": "［お］ゆ",
+    "romaji": "[o] yu",
+    "english_meaning": "hot water",
+    "bengali_meaning": "hot water",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v012",
+    "kanji": "音",
+    "furigana": "おと",
+    "romaji": "oto",
+    "english_meaning": "sound",
+    "bengali_meaning": "sound",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v013",
+    "furigana": "サイズ",
+    "romaji": "saizu",
+    "english_meaning": "size",
+    "bengali_meaning": "size",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v014",
+    "kanji": "故障",
+    "furigana": "こしょう",
+    "romaji": "koshō",
+    "english_meaning": "breakdown (～します : break down)",
+    "bengali_meaning": "breakdown (～します : break down)",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v015",
+    "kanji": "道",
+    "furigana": "みち",
+    "romaji": "michi",
+    "english_meaning": "road, way",
+    "bengali_meaning": "road, way",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v016",
+    "kanji": "交差点",
+    "furigana": "こうさてん",
+    "romaji": "kōsaten",
+    "english_meaning": "crossroads",
+    "bengali_meaning": "crossroads",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v017",
+    "kanji": "信号",
+    "furigana": "しんごう",
+    "romaji": "shingō",
+    "english_meaning": "traffic light",
+    "bengali_meaning": "traffic light",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v018",
+    "kanji": "角",
+    "furigana": "かど",
+    "romaji": "kado",
+    "english_meaning": "corner",
+    "bengali_meaning": "corner",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v019",
+    "kanji": "橋",
+    "furigana": "はし",
+    "romaji": "hashi",
+    "english_meaning": "bridge",
+    "bengali_meaning": "bridge",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v020",
+    "kanji": "駐車場",
+    "furigana": "ちゅうしゃじょう",
+    "romaji": "chūshajō",
+    "english_meaning": "car park, parking lot",
+    "bengali_meaning": "car park, parking lot",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v021",
+    "kanji": "建物",
+    "furigana": "たてもの",
+    "romaji": "tatemono",
+    "english_meaning": "building",
+    "bengali_meaning": "building",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v022",
+    "kanji": "何回も",
+    "furigana": "なんかいも",
+    "romaji": "nankaimo",
+    "english_meaning": "many times",
+    "bengali_meaning": "many times",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v023",
+    "kanji": "－目",
+    "furigana": "－め",
+    "romaji": "-me",
+    "english_meaning": "the -th (indicating order)",
+    "bengali_meaning": "the -th (indicating order)",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v024",
+    "kanji": "聖徳太子",
+    "furigana": "しょうとくたいし",
+    "romaji": "shōtokutaishi",
+    "english_meaning": "Prince Shotoku (574-622)",
+    "bengali_meaning": "Prince Shotoku (574-622)",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v025",
+    "kanji": "法隆寺",
+    "furigana": "ほうりゅうじ",
+    "romaji": "hōryūji",
+    "english_meaning": "Horyuji Temple, a temple in Nara Prefecture built by Prince Shotoku at the beginning of the 7th century",
+    "bengali_meaning": "Horyuji Temple, a temple in Nara Prefecture built by Prince Shotoku at the beginning of the 7th century",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v026",
+    "kanji": "元気茶",
+    "furigana": "げんきちゃ",
+    "romaji": "genkicha",
+    "english_meaning": "a fictitious tea",
+    "bengali_meaning": "a fictitious tea",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v027",
+    "kanji": "本田駅",
+    "furigana": "ほんだえき",
+    "romaji": "hondaeki",
+    "english_meaning": "a fictitious station",
+    "bengali_meaning": "a fictitious station",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v028",
+    "kanji": "図書館前",
+    "furigana": "としょかんまえ",
+    "romaji": "toshokanmae",
+    "english_meaning": "a fictitious bus stop",
+    "bengali_meaning": "a fictitious bus stop",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v029",
+    "kanji": "動きます［時計が～］",
+    "furigana": "うごきます［とけいが～］",
+    "romaji": "ugokimasu [tokeiga~]",
+    "english_meaning": "[a watch] move, work",
+    "bengali_meaning": "[a watch] move, work",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v030",
+    "kanji": "気を つけます［車に～］",
+    "furigana": "きを つけます［くるまに～］",
+    "romaji": "kiwo tsukemasu [kurumani~]",
+    "english_meaning": "pay attention [to cars], take care",
+    "bengali_meaning": "pay attention [to cars], take care",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v031",
+    "kanji": "引っ越しします",
+    "furigana": "ひっこしします",
+    "romaji": "hikkoshishimasu",
+    "english_meaning": "move (house)",
+    "bengali_meaning": "move (house)",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v032",
+    "kanji": "電気屋",
+    "furigana": "でんきや",
+    "romaji": "denkiya",
+    "english_meaning": "electrician",
+    "bengali_meaning": "electrician",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v033",
+    "kanji": "～屋",
+    "furigana": "～や",
+    "romaji": "~ya",
+    "english_meaning": "person of ～ shop",
+    "bengali_meaning": "person of ～ shop",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v034",
+    "kanji": "機械",
+    "furigana": "きかい",
+    "romaji": "kikai",
+    "english_meaning": "machine",
+    "bengali_meaning": "machine",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v035",
+    "furigana": "つまみ",
+    "romaji": "tsumami",
+    "english_meaning": "knob",
+    "bengali_meaning": "knob",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v036",
+    "kanji": "［お］正月",
+    "furigana": "［お］しょうがつ",
+    "romaji": "[o] shōgatsu",
+    "english_meaning": "New Year's Day",
+    "bengali_meaning": "New Year's Day",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v037",
+    "furigana": "ごちそうさま［でした］。",
+    "romaji": "gochisōsama [deshita].",
+    "english_meaning": "That was delicious. (said after eating or drinking)",
+    "bengali_meaning": "That was delicious. (said after eating or drinking)",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  },
+  {
+    "id": "minna-023-v038",
+    "kanji": "外国人登録証",
+    "furigana": "がいこくじんとうろくしょう",
+    "romaji": "gaikokujintōrokushō",
+    "english_meaning": "alien registration card",
+    "bengali_meaning": "alien registration card",
+    "tags": [
+      "vocabulary",
+      "lesson-23"
+    ]
+  }
+]

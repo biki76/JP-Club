@@ -1,0 +1,388 @@
+[
+  {
+    "id": "minna-018-v001",
+    "furigana": "できます",
+    "romaji": "dekimasu",
+    "english_meaning": "be able to, can",
+    "bengali_meaning": "be able to, can",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v002",
+    "kanji": "洗います",
+    "furigana": "あらいます",
+    "romaji": "araimasu",
+    "english_meaning": "wash",
+    "bengali_meaning": "wash",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v003",
+    "kanji": "弾きます",
+    "furigana": "ひきます",
+    "romaji": "hikimasu",
+    "english_meaning": "play (stringed instrument, piano, etc.)",
+    "bengali_meaning": "play (stringed instrument, piano, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v004",
+    "kanji": "歌います",
+    "furigana": "うたいます",
+    "romaji": "utaimasu",
+    "english_meaning": "sing",
+    "bengali_meaning": "sing",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v005",
+    "kanji": "集めます",
+    "furigana": "あつめます",
+    "romaji": "atsumemasu",
+    "english_meaning": "collect, gather",
+    "bengali_meaning": "collect, gather",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v006",
+    "kanji": "捨てます",
+    "furigana": "すてます",
+    "romaji": "sutemasu",
+    "english_meaning": "throw away",
+    "bengali_meaning": "throw away",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v007",
+    "kanji": "換えます",
+    "furigana": "かえます",
+    "romaji": "kaemasu",
+    "english_meaning": "exchange, change",
+    "bengali_meaning": "exchange, change",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v008",
+    "kanji": "運転します",
+    "furigana": "うんてんします",
+    "romaji": "untenshimasu",
+    "english_meaning": "drive",
+    "bengali_meaning": "drive",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v009",
+    "kanji": "予約します",
+    "furigana": "よやくします",
+    "romaji": "yoyakushimasu",
+    "english_meaning": "reserve, book",
+    "bengali_meaning": "reserve, book",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v010",
+    "furigana": "ピアノ",
+    "romaji": "piano",
+    "english_meaning": "piano",
+    "bengali_meaning": "piano",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v011",
+    "furigana": "－メートル",
+    "romaji": "-mētoru",
+    "english_meaning": "－ meter",
+    "bengali_meaning": "－ meter",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v012",
+    "kanji": "現金",
+    "furigana": "げんきん",
+    "romaji": "genkin",
+    "english_meaning": "cash",
+    "bengali_meaning": "cash",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v013",
+    "kanji": "趣味",
+    "furigana": "しゅみ",
+    "romaji": "shumi",
+    "english_meaning": "hobby",
+    "bengali_meaning": "hobby",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v014",
+    "kanji": "日記",
+    "furigana": "にっき",
+    "romaji": "nikki",
+    "english_meaning": "diary",
+    "bengali_meaning": "diary",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v015",
+    "kanji": "お祈り",
+    "furigana": "おいのり",
+    "romaji": "oinori",
+    "english_meaning": "prayer (～を します : pray)",
+    "bengali_meaning": "prayer (～を します : pray)",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v016",
+    "kanji": "課長",
+    "furigana": "かちょう",
+    "romaji": "kachō",
+    "english_meaning": "section head",
+    "bengali_meaning": "section head",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v017",
+    "kanji": "部長",
+    "furigana": "ぶちょう",
+    "romaji": "buchō",
+    "english_meaning": "department head",
+    "bengali_meaning": "department head",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v018",
+    "kanji": "社長",
+    "furigana": "しゃちょう",
+    "romaji": "shachō",
+    "english_meaning": "company president",
+    "bengali_meaning": "company president",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v019",
+    "kanji": "動物",
+    "furigana": "どうぶつ",
+    "romaji": "dōbutsu",
+    "english_meaning": "animal",
+    "bengali_meaning": "animal",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v020",
+    "kanji": "馬",
+    "furigana": "うま",
+    "romaji": "uma",
+    "english_meaning": "horse",
+    "bengali_meaning": "horse",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v021",
+    "furigana": "インターネット",
+    "romaji": "intānetto",
+    "english_meaning": "Internet",
+    "bengali_meaning": "Internet",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v022",
+    "kanji": "特に",
+    "furigana": "とくに",
+    "romaji": "tokuni",
+    "english_meaning": "especially",
+    "bengali_meaning": "especially",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v023",
+    "furigana": "へえ",
+    "romaji": "hē",
+    "english_meaning": "What! Really! (used when expressing surprise)",
+    "bengali_meaning": "What! Really! (used when expressing surprise)",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v024",
+    "furigana": "それは おもしろいですね。",
+    "romaji": "sorewa omoshiroidesune.",
+    "english_meaning": "That's interesting, isn't it?",
+    "bengali_meaning": "That's interesting, isn't it?",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v025",
+    "furigana": "なかなか",
+    "romaji": "nakanaka",
+    "english_meaning": "not easily (used with negatives)",
+    "bengali_meaning": "not easily (used with negatives)",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v026",
+    "furigana": "ほんとうですか。",
+    "romaji": "hontōdesuka.",
+    "english_meaning": "Really?",
+    "bengali_meaning": "Really?",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v027",
+    "furigana": "ぜひ",
+    "romaji": "zehi",
+    "english_meaning": "by all means, really",
+    "bengali_meaning": "by all means, really",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v028",
+    "kanji": "故郷",
+    "furigana": "ふるさと",
+    "romaji": "furusato",
+    "english_meaning": "Furusato (a song title meaning 'Home Town')",
+    "bengali_meaning": "Furusato (a song title meaning 'Home Town')",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v029",
+    "furigana": "ビートルズ",
+    "romaji": "biitoruzu",
+    "english_meaning": "the Beatles (a famous British pop group)",
+    "bengali_meaning": "the Beatles (a famous British pop group)",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v030",
+    "kanji": "秋葉原",
+    "furigana": "あきはばら",
+    "romaji": "akihabara",
+    "english_meaning": "a district in Tokyo",
+    "bengali_meaning": "a district in Tokyo",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v031",
+    "kanji": "見学します",
+    "furigana": "けんがくします",
+    "romaji": "kengakushimasu",
+    "english_meaning": "visit some place for study",
+    "bengali_meaning": "visit some place for study",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v032",
+    "kanji": "国際～",
+    "furigana": "こくさい～",
+    "romaji": "kokusai~",
+    "english_meaning": "international ～",
+    "bengali_meaning": "international ～",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  },
+  {
+    "id": "minna-018-v033",
+    "kanji": "牧場",
+    "furigana": "ぼくじょう",
+    "romaji": "bokujō",
+    "english_meaning": "ranch, stock farm",
+    "bengali_meaning": "ranch, stock farm",
+    "tags": [
+      "vocabulary",
+      "lesson-18"
+    ]
+  }
+]

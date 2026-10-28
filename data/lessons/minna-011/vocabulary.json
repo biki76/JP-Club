@@ -1,0 +1,776 @@
+[
+  {
+    "id": "minna-011-v001",
+    "kanji": "います［子どもが～］",
+    "furigana": "います［こどもが～］",
+    "romaji": "imasu [kodomoga~]",
+    "english_meaning": "have [a child]",
+    "bengali_meaning": "have [a child]",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v002",
+    "kanji": "います［日本に～］",
+    "furigana": "います［にほんに～］",
+    "romaji": "imasu [nihonni~]",
+    "english_meaning": "stay, be [in Japan]",
+    "bengali_meaning": "stay, be [in Japan]",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v003",
+    "furigana": "かかります",
+    "romaji": "kakarimasu",
+    "english_meaning": "take, cost (referring to time or money)",
+    "bengali_meaning": "take, cost (referring to time or money)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v004",
+    "kanji": "休みます［会社を～］",
+    "furigana": "やすみます［かいしゃを～］",
+    "romaji": "yasumimasu [kaishawo~]",
+    "english_meaning": "take a day off [work]",
+    "bengali_meaning": "take a day off [work]",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v005",
+    "kanji": "１つ",
+    "furigana": "ひとつ",
+    "romaji": "hitotsu",
+    "english_meaning": "one (used when counting things)",
+    "bengali_meaning": "one (used when counting things)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v006",
+    "kanji": "２つ",
+    "furigana": "ふたつ",
+    "romaji": "futatsu",
+    "english_meaning": "two",
+    "bengali_meaning": "two",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v007",
+    "kanji": "３つ",
+    "furigana": "みっつ",
+    "romaji": "mittsu",
+    "english_meaning": "three",
+    "bengali_meaning": "three",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v008",
+    "kanji": "４つ",
+    "furigana": "よっつ",
+    "romaji": "yottsu",
+    "english_meaning": "four",
+    "bengali_meaning": "four",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v009",
+    "kanji": "５つ",
+    "furigana": "いつつ",
+    "romaji": "itsutsu",
+    "english_meaning": "five",
+    "bengali_meaning": "five",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v010",
+    "kanji": "６つ",
+    "furigana": "むっつ",
+    "romaji": "muttsu",
+    "english_meaning": "six",
+    "bengali_meaning": "six",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v011",
+    "kanji": "７つ",
+    "furigana": "ななつ",
+    "romaji": "nanatsu",
+    "english_meaning": "seven",
+    "bengali_meaning": "seven",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v012",
+    "kanji": "８つ",
+    "furigana": "やっつ",
+    "romaji": "yattsu",
+    "english_meaning": "eight",
+    "bengali_meaning": "eight",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v013",
+    "kanji": "９つ",
+    "furigana": "ここのつ",
+    "romaji": "kokonotsu",
+    "english_meaning": "nine",
+    "bengali_meaning": "nine",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v014",
+    "kanji": "１０",
+    "furigana": "とお",
+    "romaji": "too",
+    "english_meaning": "ten",
+    "bengali_meaning": "ten",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v015",
+    "furigana": "いくつ",
+    "romaji": "ikutsu",
+    "english_meaning": "how many",
+    "bengali_meaning": "how many",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v016",
+    "kanji": "１人",
+    "furigana": "ひとり",
+    "romaji": "hitori",
+    "english_meaning": "one person",
+    "bengali_meaning": "one person",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v017",
+    "kanji": "２人",
+    "furigana": "ふたり",
+    "romaji": "futari",
+    "english_meaning": "two people",
+    "bengali_meaning": "two people",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v018",
+    "kanji": "－人",
+    "furigana": "－にん",
+    "romaji": "-nin",
+    "english_meaning": "－ people",
+    "bengali_meaning": "－ people",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v019",
+    "kanji": "－台",
+    "furigana": "－だい",
+    "romaji": "-dai",
+    "english_meaning": "(counter for machines, cars, etc.)",
+    "bengali_meaning": "(counter for machines, cars, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v020",
+    "kanji": "－枚",
+    "furigana": "－まい",
+    "romaji": "-mai",
+    "english_meaning": "(counter for paper, stamps, etc.)",
+    "bengali_meaning": "(counter for paper, stamps, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v021",
+    "kanji": "－回",
+    "furigana": "－かい",
+    "romaji": "-kai",
+    "english_meaning": "－ times",
+    "bengali_meaning": "－ times",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v022",
+    "furigana": "りんご",
+    "romaji": "ringo",
+    "english_meaning": "apple",
+    "bengali_meaning": "apple",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v023",
+    "furigana": "みかん",
+    "romaji": "mikan",
+    "english_meaning": "mandarin orange",
+    "bengali_meaning": "mandarin orange",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v024",
+    "furigana": "サンドイッチ",
+    "romaji": "sandoitchi",
+    "english_meaning": "sandwich",
+    "bengali_meaning": "sandwich",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v025",
+    "furigana": "カレー［ライス］",
+    "romaji": "karē [raisu]",
+    "english_meaning": "curry [with rice]",
+    "bengali_meaning": "curry [with rice]",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v026",
+    "furigana": "アイスクリーム",
+    "romaji": "aisukuriimu",
+    "english_meaning": "ice cream",
+    "bengali_meaning": "ice cream",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v027",
+    "kanji": "切手",
+    "furigana": "きって",
+    "romaji": "kitte",
+    "english_meaning": "postage stamp",
+    "bengali_meaning": "postage stamp",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v028",
+    "furigana": "はがき",
+    "romaji": "hagaki",
+    "english_meaning": "postcard",
+    "bengali_meaning": "postcard",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v029",
+    "kanji": "封筒",
+    "furigana": "ふうとう",
+    "romaji": "fūtō",
+    "english_meaning": "envelope",
+    "bengali_meaning": "envelope",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v030",
+    "kanji": "両親",
+    "furigana": "りょうしん",
+    "romaji": "ryōshin",
+    "english_meaning": "parents",
+    "bengali_meaning": "parents",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v031",
+    "kanji": "兄弟",
+    "furigana": "きょうだい",
+    "romaji": "kyōdai",
+    "english_meaning": "brothers and sisters",
+    "bengali_meaning": "brothers and sisters",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v032",
+    "kanji": "兄",
+    "furigana": "あに",
+    "romaji": "ani",
+    "english_meaning": "(my) elder brother",
+    "bengali_meaning": "(my) elder brother",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v033",
+    "kanji": "お兄さん",
+    "furigana": "おにいさん",
+    "romaji": "oniisan",
+    "english_meaning": "(someone else's) elder brother",
+    "bengali_meaning": "(someone else's) elder brother",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v034",
+    "kanji": "姉",
+    "furigana": "あね",
+    "romaji": "ane",
+    "english_meaning": "(my) elder sister",
+    "bengali_meaning": "(my) elder sister",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v035",
+    "kanji": "お姉さん",
+    "furigana": "おねえさん",
+    "romaji": "onēsan",
+    "english_meaning": "(someone else's) elder sister",
+    "bengali_meaning": "(someone else's) elder sister",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v036",
+    "kanji": "弟",
+    "furigana": "おとうと",
+    "romaji": "otōto",
+    "english_meaning": "(my) younger brother",
+    "bengali_meaning": "(my) younger brother",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v037",
+    "kanji": "弟さん",
+    "furigana": "おとうとさん",
+    "romaji": "otōtosan",
+    "english_meaning": "(someone else's) younger brother",
+    "bengali_meaning": "(someone else's) younger brother",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v038",
+    "kanji": "妹",
+    "furigana": "いもうと",
+    "romaji": "imōto",
+    "english_meaning": "(my) younger sister",
+    "bengali_meaning": "(my) younger sister",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v039",
+    "kanji": "妹さん",
+    "furigana": "いもうとさん",
+    "romaji": "imōtosan",
+    "english_meaning": "(someone else's) younger sister",
+    "bengali_meaning": "(someone else's) younger sister",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v040",
+    "kanji": "外国",
+    "furigana": "がいこく",
+    "romaji": "gaikoku",
+    "english_meaning": "foreign country",
+    "bengali_meaning": "foreign country",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v041",
+    "kanji": "留学生",
+    "furigana": "りゅうがくせい",
+    "romaji": "ryūgakusei",
+    "english_meaning": "foreign student",
+    "bengali_meaning": "foreign student",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v042",
+    "furigana": "クラス",
+    "romaji": "kurasu",
+    "english_meaning": "class",
+    "bengali_meaning": "class",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v043",
+    "kanji": "－時間",
+    "furigana": "－じかん",
+    "romaji": "-jikan",
+    "english_meaning": "－ hour(s)",
+    "bengali_meaning": "－ hour(s)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v044",
+    "kanji": "－週間",
+    "furigana": "－しゅうかん",
+    "romaji": "-shūkan",
+    "english_meaning": "－ week(s)",
+    "bengali_meaning": "－ week(s)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v045",
+    "kanji": "－か月",
+    "furigana": "－かげつ",
+    "romaji": "-kagetsu",
+    "english_meaning": "－ month(s)",
+    "bengali_meaning": "－ month(s)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v046",
+    "kanji": "－年",
+    "furigana": "－ねん",
+    "romaji": "-nen",
+    "english_meaning": "－ year(s)",
+    "bengali_meaning": "－ year(s)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v047",
+    "furigana": "～ぐらい",
+    "romaji": "~gurai",
+    "english_meaning": "about ～",
+    "bengali_meaning": "about ～",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v048",
+    "furigana": "どのくらい",
+    "romaji": "donokurai",
+    "english_meaning": "how long",
+    "bengali_meaning": "how long",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v049",
+    "kanji": "全部で",
+    "furigana": "ぜんぶで",
+    "romaji": "zenbude",
+    "english_meaning": "in total",
+    "bengali_meaning": "in total",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v050",
+    "furigana": "みんな",
+    "romaji": "minna",
+    "english_meaning": "all, everything, everyone",
+    "bengali_meaning": "all, everything, everyone",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v051",
+    "furigana": "～だけ",
+    "romaji": "~dake",
+    "english_meaning": "only ～",
+    "bengali_meaning": "only ～",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v052",
+    "furigana": "かしこまりました。",
+    "romaji": "kashikomarimashita.",
+    "english_meaning": "Certainly, (Sir/Madam)",
+    "bengali_meaning": "Certainly, (Sir/Madam)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v053",
+    "kanji": "いい［お］天気ですね。",
+    "furigana": "いい［お］てんきですね。",
+    "romaji": "ii [o] tenkidesune.",
+    "english_meaning": "Nice weather, isn't it?",
+    "bengali_meaning": "Nice weather, isn't it?",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v054",
+    "kanji": "お出かけですか。",
+    "furigana": "おでかけですか。",
+    "romaji": "odekakedesuka.",
+    "english_meaning": "Are you going out?",
+    "bengali_meaning": "Are you going out?",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v055",
+    "furigana": "ちょっと ～まで。",
+    "romaji": "chotto ~made.",
+    "english_meaning": "I'm just going to ～.",
+    "bengali_meaning": "I'm just going to ～.",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v056",
+    "kanji": "行ってらっしゃい。",
+    "furigana": "いってらっしゃい。",
+    "romaji": "itterasshai.",
+    "english_meaning": "See you later./So long. (lit. Go and come back.)",
+    "bengali_meaning": "See you later./So long. (lit. Go and come back.)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v057",
+    "kanji": "行って きます。",
+    "furigana": "いって きます。",
+    "romaji": "itte kimasu.",
+    "english_meaning": "See you later./So long. (lit. I'm going and coming back.)",
+    "bengali_meaning": "See you later./So long. (lit. I'm going and coming back.)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v058",
+    "kanji": "船便",
+    "furigana": "ふなびん",
+    "romaji": "funabin",
+    "english_meaning": "sea mail",
+    "bengali_meaning": "sea mail",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v059",
+    "kanji": "航空便（エアメール）",
+    "furigana": "こうくうびん（エアメール）",
+    "romaji": "kōkūbin (eamēru)",
+    "english_meaning": "airmail",
+    "bengali_meaning": "airmail",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v060",
+    "kanji": "お願いします。",
+    "furigana": "おねがいします。",
+    "romaji": "onegaishimasu.",
+    "english_meaning": "Please. (lit. ask for a favour)",
+    "bengali_meaning": "Please. (lit. ask for a favour)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v061",
+    "furigana": "オーストラリア",
+    "romaji": "ōsutoraria",
+    "english_meaning": "Australia",
+    "bengali_meaning": "Australia",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v062",
+    "kanji": "速達",
+    "furigana": "そくたつ",
+    "romaji": "sokutatsu",
+    "english_meaning": "special delivery",
+    "bengali_meaning": "special delivery",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v063",
+    "kanji": "書留",
+    "furigana": "かきとめ",
+    "romaji": "kakitome",
+    "english_meaning": "registered mail",
+    "bengali_meaning": "registered mail",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v064",
+    "furigana": "いらっしゃいませ。",
+    "romaji": "irasshaimase.",
+    "english_meaning": "Welcome./May I help you? (a greeting to a customer or a guest entering a shop, etc.)",
+    "bengali_meaning": "Welcome./May I help you? (a greeting to a customer or a guest entering a shop, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v065",
+    "kanji": "行って まいります。",
+    "furigana": "いって まいります。",
+    "romaji": "itte mairimasu.",
+    "english_meaning": "So long. (lit. I'm going and coming back)",
+    "bengali_meaning": "So long. (lit. I'm going and coming back)",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  },
+  {
+    "id": "minna-011-v066",
+    "furigana": "それから",
+    "romaji": "sorekara",
+    "english_meaning": "and, furthermore",
+    "bengali_meaning": "and, furthermore",
+    "tags": [
+      "vocabulary",
+      "lesson-11"
+    ]
+  }
+]

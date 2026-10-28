@@ -1,0 +1,404 @@
+[
+  {
+    "id": "minna-015-v001",
+    "kanji": "置きます",
+    "furigana": "おきます",
+    "romaji": "okimasu",
+    "english_meaning": "put",
+    "bengali_meaning": "put",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v002",
+    "kanji": "作ります、造ります",
+    "furigana": "つくります",
+    "romaji": "tsukurimasu",
+    "english_meaning": "make, produce",
+    "bengali_meaning": "make, produce",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v003",
+    "kanji": "売ります",
+    "furigana": "うります",
+    "romaji": "urimasu",
+    "english_meaning": "sell",
+    "bengali_meaning": "sell",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v004",
+    "kanji": "知ります",
+    "furigana": "しります",
+    "romaji": "shirimasu",
+    "english_meaning": "get to know",
+    "bengali_meaning": "get to know",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v005",
+    "kanji": "住みます",
+    "furigana": "すみます",
+    "romaji": "sumimasu",
+    "english_meaning": "be going to live",
+    "bengali_meaning": "be going to live",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v006",
+    "kanji": "研究します",
+    "furigana": "けんきゅうします",
+    "romaji": "kenkyūshimasu",
+    "english_meaning": "do research",
+    "bengali_meaning": "do research",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v007",
+    "kanji": "資料",
+    "furigana": "しりょう",
+    "romaji": "shiryō",
+    "english_meaning": "materials, data",
+    "bengali_meaning": "materials, data",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v008",
+    "furigana": "カタログ",
+    "romaji": "katarogu",
+    "english_meaning": "catalog",
+    "bengali_meaning": "catalog",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v009",
+    "kanji": "時刻表",
+    "furigana": "じこくひょう",
+    "romaji": "jikokuhyō",
+    "english_meaning": "timetable",
+    "bengali_meaning": "timetable",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v010",
+    "kanji": "服",
+    "furigana": "ふく",
+    "romaji": "fuku",
+    "english_meaning": "clothes",
+    "bengali_meaning": "clothes",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v011",
+    "kanji": "製品",
+    "furigana": "せいひん",
+    "romaji": "seihin",
+    "english_meaning": "products",
+    "bengali_meaning": "products",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v012",
+    "furigana": "ソフト",
+    "romaji": "sofuto",
+    "english_meaning": "software",
+    "bengali_meaning": "software",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v013",
+    "kanji": "電子辞書",
+    "furigana": "でんしじしょ",
+    "romaji": "denshijisho",
+    "english_meaning": "electronic dictionary",
+    "bengali_meaning": "electronic dictionary",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v014",
+    "kanji": "経済",
+    "furigana": "けいざい",
+    "romaji": "keizai",
+    "english_meaning": "economy",
+    "bengali_meaning": "economy",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v015",
+    "kanji": "市役所",
+    "furigana": "しやくしょ",
+    "romaji": "shiyakusho",
+    "english_meaning": "municipal office, city hall",
+    "bengali_meaning": "municipal office, city hall",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v016",
+    "kanji": "高校",
+    "furigana": "こうこう",
+    "romaji": "kōkō",
+    "english_meaning": "senior high school",
+    "bengali_meaning": "senior high school",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v017",
+    "kanji": "歯医者",
+    "furigana": "はいしゃ",
+    "romaji": "haisha",
+    "english_meaning": "dentist, dentist's",
+    "bengali_meaning": "dentist, dentist's",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v018",
+    "kanji": "独身",
+    "furigana": "どくしん",
+    "romaji": "dokushin",
+    "english_meaning": "single, unmarried",
+    "bengali_meaning": "single, unmarried",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v019",
+    "furigana": "すみません",
+    "romaji": "sumimasen",
+    "english_meaning": "I'm sorry.",
+    "bengali_meaning": "I'm sorry.",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v020",
+    "kanji": "皆さん",
+    "furigana": "みなさん",
+    "romaji": "minasan",
+    "english_meaning": "Ladies and Gentlemen, everybody",
+    "bengali_meaning": "Ladies and Gentlemen, everybody",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v021",
+    "kanji": "思い出します",
+    "furigana": "おもいだします",
+    "romaji": "omoidashimasu",
+    "english_meaning": "remember, recollect",
+    "bengali_meaning": "remember, recollect",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v022",
+    "furigana": "いらっしゃいます",
+    "romaji": "irasshaimasu",
+    "english_meaning": "be (honorific equivalent of います)",
+    "bengali_meaning": "be (honorific equivalent of います)",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v023",
+    "kanji": "日本橋",
+    "furigana": "にっぽんばし",
+    "romaji": "nipponbashi",
+    "english_meaning": "a shopping district in Osaka",
+    "bengali_meaning": "a shopping district in Osaka",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v024",
+    "furigana": "みんなの インタビュー",
+    "romaji": "minnano intabyū",
+    "english_meaning": "a fictitious TV programme",
+    "bengali_meaning": "a fictitious TV programme",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v025",
+    "kanji": "立ちます",
+    "furigana": "たちます",
+    "romaji": "tachimasu",
+    "english_meaning": "stand up",
+    "bengali_meaning": "stand up",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v026",
+    "kanji": "座ります",
+    "furigana": "すわります",
+    "romaji": "suwarimasu",
+    "english_meaning": "sit down",
+    "bengali_meaning": "sit down",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v027",
+    "kanji": "使います",
+    "furigana": "つかいます",
+    "romaji": "tsukaimasu",
+    "english_meaning": "use",
+    "bengali_meaning": "use",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v028",
+    "kanji": "知って います",
+    "furigana": "しって います",
+    "romaji": "shitte imasu",
+    "english_meaning": "know",
+    "bengali_meaning": "know",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v029",
+    "kanji": "住んで います［大阪に～］",
+    "furigana": "すんで います［おおさかに～］",
+    "romaji": "sunde imasu [ōsakani~]",
+    "english_meaning": "live [in Osaka]",
+    "bengali_meaning": "live [in Osaka]",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v030",
+    "kanji": "専門",
+    "furigana": "せんもん",
+    "romaji": "senmon",
+    "english_meaning": "specialty, field of study",
+    "bengali_meaning": "specialty, field of study",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v031",
+    "kanji": "床屋",
+    "furigana": "とこや",
+    "romaji": "tokoya",
+    "english_meaning": "barber, barber's",
+    "bengali_meaning": "barber, barber's",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v032",
+    "furigana": "プレイガイド",
+    "romaji": "pureigaido",
+    "english_meaning": "(theater) ticket agency",
+    "bengali_meaning": "(theater) ticket agency",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v033",
+    "kanji": "特に",
+    "furigana": "とくに",
+    "romaji": "tokuni",
+    "english_meaning": "especially",
+    "bengali_meaning": "especially",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  },
+  {
+    "id": "minna-015-v034",
+    "kanji": "ご家族",
+    "furigana": "ごかぞく",
+    "romaji": "gokazoku",
+    "english_meaning": "your family",
+    "bengali_meaning": "your family",
+    "tags": [
+      "vocabulary",
+      "lesson-15"
+    ]
+  }
+]

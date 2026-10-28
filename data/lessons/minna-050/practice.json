@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-050-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜50-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜50-A"
+    },
+    "stem": {
+      "jp": "これは レッスン50の 文法です。",
+      "furigana": "これは レッスン50の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 50-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜50-A means \"Grammar pattern 50-A\".",
+      "bn": "〜50-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 50-A\"।"
+    }
+  },
+  {
+    "id": "minna-050-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜50-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜50-B"
+    },
+    "stem": {
+      "jp": "これは レッスン50の 文法です。",
+      "furigana": "これは レッスン50の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 50-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜50-B means \"Grammar pattern 50-B\".",
+      "bn": "〜50-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 50-B\"।"
+    }
+  }
+]

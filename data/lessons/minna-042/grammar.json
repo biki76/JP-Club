@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-042-g1",
+    "pattern": "〜42-A",
+    "meaning_en": "Grammar pattern 42-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 42-A",
+    "examples": [
+      {
+        "jp": "これは レッスン42の 文法です。",
+        "en": "This is lesson 42 grammar.",
+        "bn": "This is lesson 42 grammar.",
+        "furigana": "これは レッスン42の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-042-g2",
+    "pattern": "〜42-B",
+    "meaning_en": "Grammar pattern 42-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 42-B",
+    "examples": [
+      {
+        "jp": "これは レッスン42の 文法です。",
+        "en": "This is lesson 42 grammar.",
+        "bn": "This is lesson 42 grammar.",
+        "furigana": "これは レッスン42の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

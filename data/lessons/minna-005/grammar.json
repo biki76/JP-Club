@@ -1,0 +1,74 @@
+[
+  {
+    "id": "minna-005-g1",
+    "pattern": "N へ 行きます",
+    "meaning_en": "go to N",
+    "meaning_bn": "N-তে যাই",
+    "examples": [
+      {
+        "jp": "日本へ 行きます。",
+        "en": "I will go to Japan.",
+        "bn": "I will go to Japan.",
+        "furigana": "日本へ 行きます。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-005-g2",
+    "pattern": "N で 行きます",
+    "meaning_en": "go by N",
+    "meaning_bn": "N দিয়ে যাই",
+    "examples": [
+      {
+        "jp": "電車で 行きます。",
+        "en": "I will go by train.",
+        "bn": "I will go by train.",
+        "furigana": "電車で 行きます。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-005-g3",
+    "pattern": "N と 行きます",
+    "meaning_en": "go with N",
+    "meaning_bn": "N-এর সাথে যাই",
+    "examples": [
+      {
+        "jp": "友達と 行きます。",
+        "en": "I will go with a friend.",
+        "bn": "I will go with a friend.",
+        "furigana": "友達と 行きます。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-005-g4",
+    "pattern": "いつ",
+    "meaning_en": "when",
+    "meaning_bn": "কখন",
+    "examples": [
+      {
+        "jp": "いつ 日本へ 行きますか。",
+        "en": "When will you go to Japan?",
+        "bn": "When will you go to Japan?",
+        "furigana": "いつ 日本へ 行きますか。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

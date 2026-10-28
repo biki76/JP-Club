@@ -1,0 +1,750 @@
+[
+  {
+    "id": "minna-005-v001",
+    "kanji": "行きます",
+    "furigana": "いきます",
+    "romaji": "ikimasu",
+    "english_meaning": "go",
+    "bengali_meaning": "go",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v002",
+    "kanji": "来ます",
+    "furigana": "きます",
+    "romaji": "kimasu",
+    "english_meaning": "come",
+    "bengali_meaning": "come",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v003",
+    "kanji": "帰ります",
+    "furigana": "かえります",
+    "romaji": "kaerimasu",
+    "english_meaning": "go home, return",
+    "bengali_meaning": "go home, return",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v004",
+    "kanji": "学校",
+    "furigana": "がっこう",
+    "romaji": "gakkō",
+    "english_meaning": "school",
+    "bengali_meaning": "school",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v005",
+    "furigana": "スーパー",
+    "romaji": "sūpā",
+    "english_meaning": "supermarket",
+    "bengali_meaning": "supermarket",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v006",
+    "kanji": "駅",
+    "furigana": "えき",
+    "romaji": "eki",
+    "english_meaning": "station",
+    "bengali_meaning": "station",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v007",
+    "kanji": "飛行機",
+    "furigana": "ひこうき",
+    "romaji": "hikōki",
+    "english_meaning": "aeroplane, airplane",
+    "bengali_meaning": "aeroplane, airplane",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v008",
+    "kanji": "船",
+    "furigana": "ふね",
+    "romaji": "fune",
+    "english_meaning": "ship",
+    "bengali_meaning": "ship",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v009",
+    "kanji": "電車",
+    "furigana": "でんしゃ",
+    "romaji": "densha",
+    "english_meaning": "electric train",
+    "bengali_meaning": "electric train",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v010",
+    "kanji": "地下鉄",
+    "furigana": "ちかてつ",
+    "romaji": "chikatetsu",
+    "english_meaning": "underground, subway",
+    "bengali_meaning": "underground, subway",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v011",
+    "kanji": "新幹線",
+    "furigana": "しんかんせん",
+    "romaji": "shinkansen",
+    "english_meaning": "the Shinkansen, the bullet train",
+    "bengali_meaning": "the Shinkansen, the bullet train",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v012",
+    "furigana": "バス",
+    "romaji": "basu",
+    "english_meaning": "bus",
+    "bengali_meaning": "bus",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v013",
+    "furigana": "タクシー",
+    "romaji": "takushii",
+    "english_meaning": "taxi",
+    "bengali_meaning": "taxi",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v014",
+    "kanji": "自転車",
+    "furigana": "じてんしゃ",
+    "romaji": "jitensha",
+    "english_meaning": "bicycle",
+    "bengali_meaning": "bicycle",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v015",
+    "kanji": "歩いて",
+    "furigana": "あるいて",
+    "romaji": "aruite",
+    "english_meaning": "on foot",
+    "bengali_meaning": "on foot",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v016",
+    "kanji": "人",
+    "furigana": "ひと",
+    "romaji": "hito",
+    "english_meaning": "person, people",
+    "bengali_meaning": "person, people",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v017",
+    "kanji": "友達",
+    "furigana": "ともだち",
+    "romaji": "tomodachi",
+    "english_meaning": "friend",
+    "bengali_meaning": "friend",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v018",
+    "kanji": "彼",
+    "furigana": "かれ",
+    "romaji": "kare",
+    "english_meaning": "he, boyfriend, lover",
+    "bengali_meaning": "he, boyfriend, lover",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v019",
+    "kanji": "彼女",
+    "furigana": "かのじょ",
+    "romaji": "kanojo",
+    "english_meaning": "she, girlfriend, lover",
+    "bengali_meaning": "she, girlfriend, lover",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v020",
+    "kanji": "家族",
+    "furigana": "かぞく",
+    "romaji": "kazoku",
+    "english_meaning": "family",
+    "bengali_meaning": "family",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v021",
+    "kanji": "一人で",
+    "furigana": "ひとりで",
+    "romaji": "hitoride",
+    "english_meaning": "alone, by oneself",
+    "bengali_meaning": "alone, by oneself",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v022",
+    "kanji": "先週",
+    "furigana": "せんしゅう",
+    "romaji": "senshū",
+    "english_meaning": "last week",
+    "bengali_meaning": "last week",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v023",
+    "kanji": "今週",
+    "furigana": "こんしゅう",
+    "romaji": "konshū",
+    "english_meaning": "this week",
+    "bengali_meaning": "this week",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v024",
+    "kanji": "来週",
+    "furigana": "らいしゅう",
+    "romaji": "raishū",
+    "english_meaning": "next week",
+    "bengali_meaning": "next week",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v025",
+    "kanji": "先月",
+    "furigana": "せんげつ",
+    "romaji": "sengetsu",
+    "english_meaning": "last month",
+    "bengali_meaning": "last month",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v026",
+    "kanji": "今月",
+    "furigana": "こんげつ",
+    "romaji": "kongetsu",
+    "english_meaning": "this month",
+    "bengali_meaning": "this month",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v027",
+    "kanji": "来月",
+    "furigana": "らいげつ",
+    "romaji": "raigetsu",
+    "english_meaning": "next month",
+    "bengali_meaning": "next month",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v028",
+    "kanji": "去年",
+    "furigana": "きょねん",
+    "romaji": "kyonen",
+    "english_meaning": "last year",
+    "bengali_meaning": "last year",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v029",
+    "furigana": "ことし",
+    "romaji": "kotoshi",
+    "english_meaning": "this year",
+    "bengali_meaning": "this year",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v030",
+    "kanji": "来年",
+    "furigana": "らいねん",
+    "romaji": "rainen",
+    "english_meaning": "next year",
+    "bengali_meaning": "next year",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v031",
+    "kanji": "－年",
+    "furigana": "－ねん",
+    "romaji": "-nen",
+    "english_meaning": "-th year",
+    "bengali_meaning": "-th year",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v032",
+    "kanji": "何年",
+    "furigana": "なんねん",
+    "romaji": "nannen",
+    "english_meaning": "what year",
+    "bengali_meaning": "what year",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v033",
+    "kanji": "－月",
+    "furigana": "－がつ",
+    "romaji": "-gatsu",
+    "english_meaning": "-th month of the year",
+    "bengali_meaning": "-th month of the year",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v034",
+    "kanji": "何月",
+    "furigana": "なんがつ",
+    "romaji": "nangatsu",
+    "english_meaning": "what month",
+    "bengali_meaning": "what month",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v035",
+    "kanji": "１日",
+    "furigana": "ついたち",
+    "romaji": "tsuitachi",
+    "english_meaning": "first day of the month",
+    "bengali_meaning": "first day of the month",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v036",
+    "kanji": "２日",
+    "furigana": "ふつか",
+    "romaji": "futsuka",
+    "english_meaning": "second, two days",
+    "bengali_meaning": "second, two days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v037",
+    "kanji": "３日",
+    "furigana": "みっか",
+    "romaji": "mikka",
+    "english_meaning": "third, three days",
+    "bengali_meaning": "third, three days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v038",
+    "kanji": "４日",
+    "furigana": "よっか",
+    "romaji": "yokka",
+    "english_meaning": "fourth, four days",
+    "bengali_meaning": "fourth, four days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v039",
+    "kanji": "５日",
+    "furigana": "いつか",
+    "romaji": "itsuka",
+    "english_meaning": "fifth, five days",
+    "bengali_meaning": "fifth, five days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v040",
+    "kanji": "６日",
+    "furigana": "むいか",
+    "romaji": "muika",
+    "english_meaning": "sixth, six days",
+    "bengali_meaning": "sixth, six days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v041",
+    "kanji": "７日",
+    "furigana": "なのか",
+    "romaji": "nanoka",
+    "english_meaning": "seventh, seven days",
+    "bengali_meaning": "seventh, seven days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v042",
+    "kanji": "８日",
+    "furigana": "ようか",
+    "romaji": "youka",
+    "english_meaning": "eighth, eight days",
+    "bengali_meaning": "eighth, eight days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v043",
+    "kanji": "９日",
+    "furigana": "ここのか",
+    "romaji": "kokonoka",
+    "english_meaning": "ninth, nine days",
+    "bengali_meaning": "ninth, nine days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v044",
+    "kanji": "１０日",
+    "furigana": "とおか",
+    "romaji": "tooka",
+    "english_meaning": "tenth, ten days",
+    "bengali_meaning": "tenth, ten days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v045",
+    "kanji": "１４日",
+    "furigana": "じゅうよっか",
+    "romaji": "juuyokka",
+    "english_meaning": "fourteenth, fourteen days",
+    "bengali_meaning": "fourteenth, fourteen days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v046",
+    "kanji": "２０日",
+    "furigana": "はつか",
+    "romaji": "hatsuka",
+    "english_meaning": "twentieth, twenty days",
+    "bengali_meaning": "twentieth, twenty days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v047",
+    "kanji": "２４日",
+    "furigana": "にじゅうよっか",
+    "romaji": "nijuuyokka",
+    "english_meaning": "twenty-fourth, twenty-four days",
+    "bengali_meaning": "twenty-fourth, twenty-four days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v048",
+    "kanji": "－日",
+    "furigana": "－にち",
+    "romaji": "-nichi",
+    "english_meaning": "-th day of the month, － day(s)",
+    "bengali_meaning": "-th day of the month, － day(s)",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v049",
+    "kanji": "何日",
+    "furigana": "なんにち",
+    "romaji": "nannichi",
+    "english_meaning": "which day of the month, how many days",
+    "bengali_meaning": "which day of the month, how many days",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v050",
+    "furigana": "いつ",
+    "romaji": "itsu",
+    "english_meaning": "when",
+    "bengali_meaning": "when",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v051",
+    "kanji": "誕生日",
+    "furigana": "たんじょうび",
+    "romaji": "tanjōbi",
+    "english_meaning": "birthday",
+    "bengali_meaning": "birthday",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v052",
+    "furigana": "そうですね。",
+    "romaji": "sōdesune.",
+    "english_meaning": "Yes, it is.",
+    "bengali_meaning": "Yes, it is.",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v053",
+    "furigana": "［どうも］ありがとう ございました。",
+    "romaji": "[dōmo] arigatō gozaimashita.",
+    "english_meaning": "Thank you very much.",
+    "bengali_meaning": "Thank you very much.",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v054",
+    "furigana": "どう いたしまして。",
+    "romaji": "dō itashimashite.",
+    "english_meaning": "You're welcome./Don't mention it.",
+    "bengali_meaning": "You're welcome./Don't mention it.",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v055",
+    "kanji": "－番線",
+    "furigana": "－ばんせん",
+    "romaji": "-bansen",
+    "english_meaning": "platform －, -th platform",
+    "bengali_meaning": "platform －, -th platform",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v056",
+    "kanji": "次の",
+    "furigana": "つぎの",
+    "romaji": "tsugino",
+    "english_meaning": "next",
+    "bengali_meaning": "next",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v057",
+    "kanji": "普通",
+    "furigana": "ふつう",
+    "romaji": "futsū",
+    "english_meaning": "local (train)",
+    "bengali_meaning": "local (train)",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v058",
+    "kanji": "急行",
+    "furigana": "きゅうこう",
+    "romaji": "kyūkō",
+    "english_meaning": "rapid",
+    "bengali_meaning": "rapid",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v059",
+    "kanji": "特急",
+    "furigana": "とっきゅう",
+    "romaji": "tokkyū",
+    "english_meaning": "express",
+    "bengali_meaning": "express",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v060",
+    "kanji": "甲子園",
+    "furigana": "こうしえん",
+    "romaji": "kōshien",
+    "english_meaning": "name of a town near Osaka",
+    "bengali_meaning": "name of a town near Osaka",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v061",
+    "kanji": "大阪城",
+    "furigana": "おおさかじょう",
+    "romaji": "ōsakajō",
+    "english_meaning": "Osaka Castle, a famous castle in Osaka",
+    "bengali_meaning": "Osaka Castle, a famous castle in Osaka",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v062",
+    "kanji": "博多",
+    "furigana": "はかた",
+    "romaji": "hakata",
+    "english_meaning": "name of a town in Kyushu",
+    "bengali_meaning": "name of a town in Kyushu",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  },
+  {
+    "id": "minna-005-v063",
+    "kanji": "伏見",
+    "furigana": "ふしみ",
+    "romaji": "fushimi",
+    "english_meaning": "name of a town in Kyoto",
+    "bengali_meaning": "name of a town in Kyoto",
+    "tags": [
+      "vocabulary",
+      "lesson-5"
+    ]
+  }
+]

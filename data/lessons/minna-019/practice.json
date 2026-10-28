@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-019-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜19-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜19-A"
+    },
+    "stem": {
+      "jp": "これは レッスン19の 文法です。",
+      "furigana": "これは レッスン19の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 19-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜19-A means \"Grammar pattern 19-A\".",
+      "bn": "〜19-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 19-A\"।"
+    }
+  },
+  {
+    "id": "minna-019-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜19-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜19-B"
+    },
+    "stem": {
+      "jp": "これは レッスン19の 文法です。",
+      "furigana": "これは レッスン19の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 19-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜19-B means \"Grammar pattern 19-B\".",
+      "bn": "〜19-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 19-B\"।"
+    }
+  }
+]

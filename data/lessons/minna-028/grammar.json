@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-028-g1",
+    "pattern": "〜28-A",
+    "meaning_en": "Grammar pattern 28-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 28-A",
+    "examples": [
+      {
+        "jp": "これは レッスン28の 文法です。",
+        "en": "This is lesson 28 grammar.",
+        "bn": "This is lesson 28 grammar.",
+        "furigana": "これは レッスン28の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-028-g2",
+    "pattern": "〜28-B",
+    "meaning_en": "Grammar pattern 28-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 28-B",
+    "examples": [
+      {
+        "jp": "これは レッスン28の 文法です。",
+        "en": "This is lesson 28 grammar.",
+        "bn": "This is lesson 28 grammar.",
+        "furigana": "これは レッスン28の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

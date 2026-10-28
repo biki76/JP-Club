@@ -1,89 +1,92 @@
 [
   {
-    "id": "minna-001-g001",
+    "id": "minna-001-g1",
     "pattern": "N は N です",
-    "meaning_en": "A is B (polite copula)",
-    "meaning_bn": "A হলো B (ভদ্র সহায়ক ক্রিয়া)",
+    "meaning_en": "A is B",
+    "meaning_bn": "A হলো B",
     "examples": [
       {
-        "jp": "私は学生です。",
-        "furigana": "わたしはがくせいです。",
-        "romaji": "Watashi wa gakusei desu.",
+        "jp": "わたしは 学生です。",
         "en": "I am a student.",
-        "bn": "আমি একজন ছাত্র।"
-      },
-      {
-        "jp": "田中さんは先生です。",
-        "furigana": "たなかさんはせんせいです。",
-        "romaji": "Tanaka-san wa sensei desu.",
-        "en": "Tanaka-san is a teacher.",
-        "bn": "তানাকা-সান একজন শিক্ষক।"
+        "bn": "I am a student.",
+        "furigana": "わたしは 学生です。",
+        "romaji": ""
       }
     ],
-    "tags": ["copula", "n5"]
+    "tags": [
+      "grammar"
+    ]
   },
   {
-    "id": "minna-001-g002",
+    "id": "minna-001-g2",
     "pattern": "N は N じゃありません",
-    "meaning_en": "A is not B (polite negative)",
-    "meaning_bn": "A নয় B (ভদ্র নেতিবাচক)",
+    "meaning_en": "A is not B",
+    "meaning_bn": "A নয় B",
     "examples": [
       {
-        "jp": "私は先生じゃありません。",
-        "furigana": "わたしはせんせいじゃありません。",
-        "romaji": "Watashi wa sensei ja arimasen.",
+        "jp": "わたしは 先生じゃありません。",
         "en": "I am not a teacher.",
-        "bn": "আমি শিক্ষক নই।"
+        "bn": "I am not a teacher.",
+        "furigana": "わたしは 先生じゃありません。",
+        "romaji": ""
       }
     ],
-    "tags": ["negative", "n5"]
+    "tags": [
+      "grammar"
+    ]
   },
   {
-    "id": "minna-001-g003",
+    "id": "minna-001-g3",
     "pattern": "N は N ですか",
-    "meaning_en": "Is A B? (polite question)",
-    "meaning_bn": "A কি B? (ভদ্র প্রশ্ন)",
+    "meaning_en": "Is A B?",
+    "meaning_bn": "A কি B?",
     "examples": [
       {
-        "jp": "あなたは学生ですか。",
-        "furigana": "あなたはがくせいですか。",
-        "romaji": "Anata wa gakusei desu ka.",
+        "jp": "あなたは 学生ですか。",
         "en": "Are you a student?",
-        "bn": "আপনি কি ছাত্র?"
+        "bn": "Are you a student?",
+        "furigana": "あなたは 学生ですか。",
+        "romaji": ""
       }
     ],
-    "tags": ["question", "n5"]
+    "tags": [
+      "grammar"
+    ]
   },
   {
-    "id": "minna-001-g004",
+    "id": "minna-001-g4",
     "pattern": "N も",
-    "meaning_en": "also / too (replaces は)",
-    "meaning_bn": "ও / -ও (は-এর পরিবর্তে)",
+    "meaning_en": "also / too",
+    "meaning_bn": "ও / -ও",
     "examples": [
       {
-        "jp": "私も学生です。",
-        "furigana": "わたしもがくせいです。",
-        "romaji": "Watashi mo gakusei desu.",
-        "en": "I am a student too.",
-        "bn": "আমিও ছাত্র।"
+        "jp": "わたしも 学生です。",
+        "en": "I am also a student.",
+        "bn": "I am also a student.",
+        "furigana": "わたしも 学生です。",
+        "romaji": ""
       }
     ],
-    "tags": ["particle", "n5"]
+    "tags": [
+      "grammar"
+    ]
   },
   {
-    "id": "minna-001-g005",
+    "id": "minna-001-g5",
     "pattern": "N の N",
-    "meaning_en": "possessive / attributive (N's N; N of N)",
-    "meaning_bn": "অধিকার/সম্পর্ক প্রকাশ (N-এর N)",
+    "meaning_en": "N's N",
+    "meaning_bn": "N-এর N",
     "examples": [
       {
-        "jp": "私の大学",
-        "furigana": "わたしのだいがく",
-        "romaji": "Watashi no daigaku",
-        "en": "my university",
-        "bn": "আমার বিশ্ববিদ্যালয়"
+        "jp": "わたしの 本です。",
+        "en": "It is my book.",
+        "bn": "It is my book.",
+        "furigana": "わたしの 本です。",
+        "romaji": ""
       }
     ],
-    "tags": ["particle", "n5"]
+    "tags": [
+      "grammar"
+    ]
   }
 ]

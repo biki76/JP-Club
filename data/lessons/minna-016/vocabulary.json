@@ -1,0 +1,763 @@
+[
+  {
+    "id": "minna-016-v001",
+    "kanji": "乗ります［電車に～］",
+    "furigana": "のります［でんしゃに～］",
+    "romaji": "norimasu [denshani~]",
+    "english_meaning": "ride, get on [a train]",
+    "bengali_meaning": "ride, get on [a train]",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v002",
+    "kanji": "降ります［電車を～］",
+    "furigana": "おります［でんしゃを～］",
+    "romaji": "orimasu [denshawo~]",
+    "english_meaning": "get off",
+    "bengali_meaning": "get off",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v003",
+    "kanji": "乗り換えます",
+    "furigana": "のりかえます",
+    "romaji": "norikaemasu",
+    "english_meaning": "change (trains, etc.)",
+    "bengali_meaning": "change (trains, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v004",
+    "kanji": "浴びます［シャワーを～］",
+    "furigana": "あびます［シャワーを～］",
+    "romaji": "abimasu [shawāwo~]",
+    "english_meaning": "take [a shower]",
+    "bengali_meaning": "take [a shower]",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v005",
+    "kanji": "入れます",
+    "furigana": "いれます",
+    "romaji": "iremasu",
+    "english_meaning": "put in, insert",
+    "bengali_meaning": "put in, insert",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v006",
+    "kanji": "出します",
+    "furigana": "だします",
+    "romaji": "dashimasu",
+    "english_meaning": "take out, hand in, send",
+    "bengali_meaning": "take out, hand in, send",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v007",
+    "kanji": "下ろします［お金を～］",
+    "furigana": "おろします［おかねを～］",
+    "romaji": "oroshimasu [okanewo~]",
+    "english_meaning": "withdraw",
+    "bengali_meaning": "withdraw",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v008",
+    "kanji": "入ります［大学に～］",
+    "furigana": "はいります［だいがくに～］",
+    "romaji": "hairimasu [daigakuni~]",
+    "english_meaning": "enter [university]",
+    "bengali_meaning": "enter [university]",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v009",
+    "kanji": "出ます［大学を～］",
+    "furigana": "でます［だいがくを～］",
+    "romaji": "demasu [daigakuwo~]",
+    "english_meaning": "graduate from [university]",
+    "bengali_meaning": "graduate from [university]",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v010",
+    "kanji": "押します",
+    "furigana": "おします",
+    "romaji": "oshimasu",
+    "english_meaning": "push, press",
+    "bengali_meaning": "push, press",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v011",
+    "kanji": "飲みます",
+    "furigana": "のみます",
+    "romaji": "nomimasu",
+    "english_meaning": "drink alcohol",
+    "bengali_meaning": "drink alcohol",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v012",
+    "kanji": "始めます",
+    "furigana": "はじめます",
+    "romaji": "hajimemasu",
+    "english_meaning": "start, begin",
+    "bengali_meaning": "start, begin",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v013",
+    "kanji": "見学します",
+    "furigana": "けんがくします",
+    "romaji": "kengakushimasu",
+    "english_meaning": "tour, visit a place to study it",
+    "bengali_meaning": "tour, visit a place to study it",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v014",
+    "kanji": "電話します",
+    "furigana": "でんわします",
+    "romaji": "denwashimasu",
+    "english_meaning": "phone",
+    "bengali_meaning": "phone",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v015",
+    "kanji": "若い",
+    "furigana": "わかい",
+    "romaji": "wakai",
+    "english_meaning": "young",
+    "bengali_meaning": "young",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v016",
+    "kanji": "長い",
+    "furigana": "ながい",
+    "romaji": "nagai",
+    "english_meaning": "long",
+    "bengali_meaning": "long",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v017",
+    "kanji": "短い",
+    "furigana": "みじかい",
+    "romaji": "mijikai",
+    "english_meaning": "short",
+    "bengali_meaning": "short",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v018",
+    "kanji": "明るい",
+    "furigana": "あかるい",
+    "romaji": "akarui",
+    "english_meaning": "bright, light",
+    "bengali_meaning": "bright, light",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v019",
+    "kanji": "暗い",
+    "furigana": "くらい",
+    "romaji": "kurai",
+    "english_meaning": "dark",
+    "bengali_meaning": "dark",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v020",
+    "kanji": "体",
+    "furigana": "からだ",
+    "romaji": "karada",
+    "english_meaning": "body, health",
+    "bengali_meaning": "body, health",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v021",
+    "kanji": "頭",
+    "furigana": "あたま",
+    "romaji": "atama",
+    "english_meaning": "head, brain",
+    "bengali_meaning": "head, brain",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v022",
+    "kanji": "髪",
+    "furigana": "かみ",
+    "romaji": "kami",
+    "english_meaning": "hair",
+    "bengali_meaning": "hair",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v023",
+    "kanji": "顔",
+    "furigana": "かお",
+    "romaji": "kao",
+    "english_meaning": "face",
+    "bengali_meaning": "face",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v024",
+    "kanji": "目",
+    "furigana": "め",
+    "romaji": "me",
+    "english_meaning": "eye",
+    "bengali_meaning": "eye",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v025",
+    "kanji": "耳",
+    "furigana": "みみ",
+    "romaji": "mimi",
+    "english_meaning": "ear",
+    "bengali_meaning": "ear",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v026",
+    "kanji": "鼻",
+    "furigana": "はな",
+    "romaji": "hana",
+    "english_meaning": "nose",
+    "bengali_meaning": "nose",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v027",
+    "kanji": "口",
+    "furigana": "くち",
+    "romaji": "kuchi",
+    "english_meaning": "mouth",
+    "bengali_meaning": "mouth",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v028",
+    "kanji": "歯",
+    "furigana": "は",
+    "romaji": "ha",
+    "english_meaning": "tooth",
+    "bengali_meaning": "tooth",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v029",
+    "furigana": "おなか",
+    "romaji": "onaka",
+    "english_meaning": "stomach",
+    "bengali_meaning": "stomach",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v030",
+    "kanji": "足",
+    "furigana": "あし",
+    "romaji": "ashi",
+    "english_meaning": "leg, foot",
+    "bengali_meaning": "leg, foot",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v031",
+    "kanji": "背",
+    "furigana": "せ",
+    "romaji": "se",
+    "english_meaning": "height",
+    "bengali_meaning": "height",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v032",
+    "furigana": "サービス",
+    "romaji": "sābisu",
+    "english_meaning": "service",
+    "bengali_meaning": "service",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v033",
+    "furigana": "ジョギング",
+    "romaji": "jogingu",
+    "english_meaning": "jogging (～を します : jog)",
+    "bengali_meaning": "jogging (～を します : jog)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v034",
+    "furigana": "シャワー",
+    "romaji": "shawā",
+    "english_meaning": "shower",
+    "bengali_meaning": "shower",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v035",
+    "kanji": "緑",
+    "furigana": "みどり",
+    "romaji": "midori",
+    "english_meaning": "green, greenery",
+    "bengali_meaning": "green, greenery",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v036",
+    "kanji": "［お］寺",
+    "furigana": "［お］てら",
+    "romaji": "[o] tera",
+    "english_meaning": "Buddhist temple",
+    "bengali_meaning": "Buddhist temple",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v037",
+    "kanji": "神社",
+    "furigana": "じんじゃ",
+    "romaji": "jinja",
+    "english_meaning": "Shinto shrine",
+    "bengali_meaning": "Shinto shrine",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v038",
+    "kanji": "－番",
+    "furigana": "－ばん",
+    "romaji": "-ban",
+    "english_meaning": "number －",
+    "bengali_meaning": "number －",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v039",
+    "furigana": "どうやって",
+    "romaji": "dōyatte",
+    "english_meaning": "in what way, how",
+    "bengali_meaning": "in what way, how",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v040",
+    "furigana": "どの ～",
+    "romaji": "dono ~",
+    "english_meaning": "which ～ (used for three or more)",
+    "bengali_meaning": "which ～ (used for three or more)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v041",
+    "furigana": "どれ",
+    "romaji": "dore",
+    "english_meaning": "which one (of three or more things)",
+    "bengali_meaning": "which one (of three or more things)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v042",
+    "furigana": "すごいですね。",
+    "romaji": "sugoidesune.",
+    "english_meaning": "That's amazing!",
+    "bengali_meaning": "That's amazing!",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v043",
+    "furigana": "［いいえ、］まだまだです。",
+    "romaji": "[iie,] madamadadesu.",
+    "english_meaning": "[No,] I still have a long way to go.",
+    "bengali_meaning": "[No,] I still have a long way to go.",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v044",
+    "kanji": "お引き出しですか。",
+    "furigana": "おひきだしですか。",
+    "romaji": "ohikidashidesuka.",
+    "english_meaning": "Are you making a withdrawal?",
+    "bengali_meaning": "Are you making a withdrawal?",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v045",
+    "furigana": "まず",
+    "romaji": "mazu",
+    "english_meaning": "first of all",
+    "bengali_meaning": "first of all",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v046",
+    "kanji": "次に",
+    "furigana": "つぎに",
+    "romaji": "tsugini",
+    "english_meaning": "next, as a next step",
+    "bengali_meaning": "next, as a next step",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v047",
+    "furigana": "キャッシュカード",
+    "romaji": "kyasshukādo",
+    "english_meaning": "cash dispensing card",
+    "bengali_meaning": "cash dispensing card",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v048",
+    "kanji": "暗証番号",
+    "furigana": "あんしょうばんごう",
+    "romaji": "anshōbangō",
+    "english_meaning": "personal identification number, PIN",
+    "bengali_meaning": "personal identification number, PIN",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v049",
+    "kanji": "金額",
+    "furigana": "きんがく",
+    "romaji": "kingaku",
+    "english_meaning": "amount of money",
+    "bengali_meaning": "amount of money",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v050",
+    "kanji": "確認",
+    "furigana": "かくにん",
+    "romaji": "kakunin",
+    "english_meaning": "confirmation (～します : confirm)",
+    "bengali_meaning": "confirmation (～します : confirm)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v051",
+    "furigana": "ボタン",
+    "romaji": "botan",
+    "english_meaning": "button",
+    "bengali_meaning": "button",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v052",
+    "furigana": "JR",
+    "romaji": "JR",
+    "english_meaning": "Japan Railways",
+    "bengali_meaning": "Japan Railways",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v053",
+    "kanji": "雪祭り",
+    "furigana": "ゆきまつり",
+    "romaji": "yukimatsuri",
+    "english_meaning": "Snow Festival",
+    "bengali_meaning": "Snow Festival",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v054",
+    "furigana": "バンドン",
+    "romaji": "bandon",
+    "english_meaning": "Bandung (in Indonesia)",
+    "bengali_meaning": "Bandung (in Indonesia)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v055",
+    "furigana": "フランケン",
+    "romaji": "furanken",
+    "english_meaning": "Franken (in Germany)",
+    "bengali_meaning": "Franken (in Germany)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v056",
+    "furigana": "ベラクルス",
+    "romaji": "berakurusu",
+    "english_meaning": "Veracruz (in Mexico)",
+    "bengali_meaning": "Veracruz (in Mexico)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v057",
+    "kanji": "梅田",
+    "furigana": "うめだ",
+    "romaji": "umeda",
+    "english_meaning": "a district in Osaka",
+    "bengali_meaning": "a district in Osaka",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v058",
+    "kanji": "大学前",
+    "furigana": "だいがくまえ",
+    "romaji": "daigakumae",
+    "english_meaning": "a fictitious bus stop",
+    "bengali_meaning": "a fictitious bus stop",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v059",
+    "kanji": "やめます［会社を～］",
+    "furigana": "やめます［かいしゃを～］",
+    "romaji": "yamemasu [kaishawo~]",
+    "english_meaning": "quit or retire from [a company], stop, give up",
+    "bengali_meaning": "quit or retire from [a company], stop, give up",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v060",
+    "kanji": "背が 高い",
+    "furigana": "せが たかい",
+    "romaji": "sega takai",
+    "english_meaning": "tall (referring to person)",
+    "bengali_meaning": "tall (referring to person)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v061",
+    "kanji": "頭が いい",
+    "furigana": "あたまが いい",
+    "romaji": "atamaga ii",
+    "english_meaning": "clever, smart",
+    "bengali_meaning": "clever, smart",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v062",
+    "kanji": "留学生",
+    "furigana": "りゅうがくせい",
+    "romaji": "ryūgakusei",
+    "english_meaning": "foreign student",
+    "bengali_meaning": "foreign student",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v063",
+    "furigana": "アジア",
+    "romaji": "ajia",
+    "english_meaning": "Asia",
+    "bengali_meaning": "Asia",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v064",
+    "furigana": "ベトナム",
+    "romaji": "betonamu",
+    "english_meaning": "Vietnam",
+    "bengali_meaning": "Vietnam",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  },
+  {
+    "id": "minna-016-v065",
+    "furigana": "フエ",
+    "romaji": "fue",
+    "english_meaning": "Hue (in Vietnam)",
+    "bengali_meaning": "Hue (in Vietnam)",
+    "tags": [
+      "vocabulary",
+      "lesson-16"
+    ]
+  }
+]

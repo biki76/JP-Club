@@ -1,0 +1,98 @@
+[
+  {
+    "id": "minna-005-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N へ 行きます",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N へ 行きます"
+    },
+    "stem": {
+      "jp": "日本へ 行きます。",
+      "furigana": "日本へ 行きます。",
+      "romaji": ""
+    },
+    "options": [
+      "go to N",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N へ 行きます means \"go to N\".",
+      "bn": "N へ 行きます এর অর্থ \"N-তে যাই\"।"
+    }
+  },
+  {
+    "id": "minna-005-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N で 行きます",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N で 行きます"
+    },
+    "stem": {
+      "jp": "電車で 行きます。",
+      "furigana": "電車で 行きます。",
+      "romaji": ""
+    },
+    "options": [
+      "go by N",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N で 行きます means \"go by N\".",
+      "bn": "N で 行きます এর অর্থ \"N দিয়ে যাই\"।"
+    }
+  },
+  {
+    "id": "minna-005-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N と 行きます",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N と 行きます"
+    },
+    "stem": {
+      "jp": "友達と 行きます。",
+      "furigana": "友達と 行きます。",
+      "romaji": ""
+    },
+    "options": [
+      "go with N",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N と 行きます means \"go with N\".",
+      "bn": "N と 行きます এর অর্থ \"N-এর সাথে যাই\"।"
+    }
+  },
+  {
+    "id": "minna-005-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: いつ",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: いつ"
+    },
+    "stem": {
+      "jp": "いつ 日本へ 行きますか。",
+      "furigana": "いつ 日本へ 行きますか。",
+      "romaji": ""
+    },
+    "options": [
+      "when",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern いつ means \"when\".",
+      "bn": "いつ এর অর্থ \"কখন\"।"
+    }
+  }
+]

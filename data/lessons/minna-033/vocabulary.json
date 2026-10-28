@@ -1,0 +1,909 @@
+[
+  {
+    "id": "minna-033-v001",
+    "kanji": "逃げます",
+    "furigana": "にげます",
+    "romaji": "nigemasu",
+    "english_meaning": "run away",
+    "bengali_meaning": "run away",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v002",
+    "kanji": "騒ぎます",
+    "furigana": "さわぎます",
+    "romaji": "sawagimasu",
+    "english_meaning": "make a noise",
+    "bengali_meaning": "make a noise",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v003",
+    "furigana": "あきらめます",
+    "romaji": "akiramemasu",
+    "english_meaning": "give up",
+    "bengali_meaning": "give up",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v004",
+    "kanji": "投げます",
+    "furigana": "なげます",
+    "romaji": "nagemasu",
+    "english_meaning": "throw",
+    "bengali_meaning": "throw",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v005",
+    "kanji": "守ります",
+    "furigana": "まもります",
+    "romaji": "mamorimasu",
+    "english_meaning": "keep, follow, obey",
+    "bengali_meaning": "keep, follow, obey",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v006",
+    "kanji": "始まります［式が～］",
+    "furigana": "はじまります［しきが～］",
+    "romaji": "hajimarimasu [shikiga~]",
+    "english_meaning": "[a ceremony] begin, start",
+    "bengali_meaning": "[a ceremony] begin, start",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v007",
+    "kanji": "出席します［会議に～］",
+    "furigana": "しゅっせきします［かいぎに～］",
+    "romaji": "shussekishimasu [kaigini~]",
+    "english_meaning": "attend [a meeting]",
+    "bengali_meaning": "attend [a meeting]",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v008",
+    "kanji": "伝えます",
+    "furigana": "つたえます",
+    "romaji": "tsutaemasu",
+    "english_meaning": "convey",
+    "bengali_meaning": "convey",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v009",
+    "kanji": "注意します［車に～］",
+    "furigana": "ちゅういします［くるまに～］",
+    "romaji": "chūishimasu [kurumani~]",
+    "english_meaning": "be careful [of the cars]",
+    "bengali_meaning": "be careful [of the cars]",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v010",
+    "kanji": "外します［席を～］",
+    "furigana": "はずします［せきを～］",
+    "romaji": "hazushimasu [sekiwo~]",
+    "english_meaning": "be away [from one's desk]",
+    "bengali_meaning": "be away [from one's desk]",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v011",
+    "kanji": "戻ります",
+    "furigana": "もどります",
+    "romaji": "modorimasu",
+    "english_meaning": "come back, return",
+    "bengali_meaning": "come back, return",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v012",
+    "kanji": "あります［電話が～］",
+    "furigana": "あります［でんわが～］",
+    "romaji": "arimasu [denwaga~]",
+    "english_meaning": "have [a telephone call]",
+    "bengali_meaning": "have [a telephone call]",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v013",
+    "furigana": "リサイクルします",
+    "romaji": "risaikurushimasu",
+    "english_meaning": "recycle",
+    "bengali_meaning": "recycle",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v014",
+    "furigana": "だめ［な］",
+    "romaji": "dame [na]",
+    "english_meaning": "no good, not permitted, impossible",
+    "bengali_meaning": "no good, not permitted, impossible",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v015",
+    "kanji": "同じ",
+    "furigana": "おなじ",
+    "romaji": "onaji",
+    "english_meaning": "same",
+    "bengali_meaning": "same",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v016",
+    "kanji": "警察",
+    "furigana": "けいさつ",
+    "romaji": "keisatsu",
+    "english_meaning": "police (station)",
+    "bengali_meaning": "police (station)",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v017",
+    "kanji": "席",
+    "furigana": "せき",
+    "romaji": "seki",
+    "english_meaning": "seat",
+    "bengali_meaning": "seat",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v018",
+    "furigana": "マーク",
+    "romaji": "māku",
+    "english_meaning": "mark, symbol",
+    "bengali_meaning": "mark, symbol",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v019",
+    "furigana": "ボール",
+    "romaji": "bōru",
+    "english_meaning": "ball",
+    "bengali_meaning": "ball",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v020",
+    "kanji": "締め切り",
+    "furigana": "しめきり",
+    "romaji": "shimekiri",
+    "english_meaning": "deadline",
+    "bengali_meaning": "deadline",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v021",
+    "kanji": "規則",
+    "furigana": "きそく",
+    "romaji": "kisoku",
+    "english_meaning": "regulation, rule",
+    "bengali_meaning": "regulation, rule",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v022",
+    "kanji": "危険",
+    "furigana": "きけん",
+    "romaji": "kiken",
+    "english_meaning": "Danger",
+    "bengali_meaning": "Danger",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v023",
+    "kanji": "使用禁止",
+    "furigana": "しようきんし",
+    "romaji": "shiyōkinshi",
+    "english_meaning": "Do Not Use",
+    "bengali_meaning": "Do Not Use",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v024",
+    "kanji": "立入禁止",
+    "furigana": "たちいりきんし",
+    "romaji": "tachiirikinshi",
+    "english_meaning": "Keep Out",
+    "bengali_meaning": "Keep Out",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v025",
+    "kanji": "徐行",
+    "furigana": "じょこう",
+    "romaji": "jokō",
+    "english_meaning": "Go Slow",
+    "bengali_meaning": "Go Slow",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v026",
+    "kanji": "入口",
+    "furigana": "いりぐち",
+    "romaji": "iriguchi",
+    "english_meaning": "entrance",
+    "bengali_meaning": "entrance",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v027",
+    "kanji": "出口",
+    "furigana": "でぐち",
+    "romaji": "deguchi",
+    "english_meaning": "exit",
+    "bengali_meaning": "exit",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v028",
+    "kanji": "非常口",
+    "furigana": "ひじょうぐち",
+    "romaji": "hijōguchi",
+    "english_meaning": "emergency exit",
+    "bengali_meaning": "emergency exit",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v029",
+    "kanji": "無料",
+    "furigana": "むりょう",
+    "romaji": "muryō",
+    "english_meaning": "Free of Charge",
+    "bengali_meaning": "Free of Charge",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v030",
+    "kanji": "割引",
+    "furigana": "わりびき",
+    "romaji": "waribiki",
+    "english_meaning": "Discount",
+    "bengali_meaning": "Discount",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v031",
+    "kanji": "飲み放題",
+    "furigana": "のみほうだい",
+    "romaji": "nomihōdai",
+    "english_meaning": "All You Can Drink",
+    "bengali_meaning": "All You Can Drink",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v032",
+    "kanji": "使用中",
+    "furigana": "しようちゅう",
+    "romaji": "shiyōchū",
+    "english_meaning": "In Use",
+    "bengali_meaning": "In Use",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v033",
+    "kanji": "募集中",
+    "furigana": "ぼしゅうちゅう",
+    "romaji": "boshūchū",
+    "english_meaning": "Applications Wanted",
+    "bengali_meaning": "Applications Wanted",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v034",
+    "kanji": "～中",
+    "furigana": "～ちゅう",
+    "romaji": "~chū",
+    "english_meaning": "-ing",
+    "bengali_meaning": "-ing",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v035",
+    "furigana": "どういう ～",
+    "romaji": "dōiu ~",
+    "english_meaning": "what (kind of ～)",
+    "bengali_meaning": "what (kind of ～)",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v036",
+    "furigana": "いくら［～でも］",
+    "romaji": "ikura [~demo]",
+    "english_meaning": "however ～, even if ～",
+    "bengali_meaning": "however ～, even if ～",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v037",
+    "furigana": "もう",
+    "romaji": "mō",
+    "english_meaning": "(not) any longer (used with negatives)",
+    "bengali_meaning": "(not) any longer (used with negatives)",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v038",
+    "furigana": "あと ～",
+    "romaji": "ato ~",
+    "english_meaning": "～ left",
+    "bengali_meaning": "～ left",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v039",
+    "furigana": "～ほど",
+    "romaji": "~hodo",
+    "english_meaning": "about ～",
+    "bengali_meaning": "about ～",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v040",
+    "kanji": "駐車違反",
+    "furigana": "ちゅうしゃいはん",
+    "romaji": "chūshaihan",
+    "english_meaning": "parking violation",
+    "bengali_meaning": "parking violation",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v041",
+    "kanji": "罰金",
+    "furigana": "ばっきん",
+    "romaji": "bakkin",
+    "english_meaning": "fine",
+    "bengali_meaning": "fine",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v042",
+    "kanji": "地震",
+    "furigana": "じしん",
+    "romaji": "jishin",
+    "english_meaning": "earthquake",
+    "bengali_meaning": "earthquake",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v043",
+    "kanji": "置きます",
+    "furigana": "おきます",
+    "romaji": "okimasu",
+    "english_meaning": "happen",
+    "bengali_meaning": "happen",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v044",
+    "kanji": "助け合います",
+    "furigana": "たすけあいます",
+    "romaji": "tasukeaimasu",
+    "english_meaning": "help each other",
+    "bengali_meaning": "help each other",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v045",
+    "furigana": "もともと",
+    "romaji": "motomoto",
+    "english_meaning": "originally",
+    "bengali_meaning": "originally",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v046",
+    "kanji": "悲しい",
+    "furigana": "かなしい",
+    "romaji": "kanashii",
+    "english_meaning": "sad",
+    "bengali_meaning": "sad",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v047",
+    "furigana": "もっと",
+    "romaji": "motto",
+    "english_meaning": "more",
+    "bengali_meaning": "more",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v048",
+    "furigana": "あいさつ",
+    "romaji": "aisatsu",
+    "english_meaning": "greeting, address (～を します : greet, give an address)",
+    "bengali_meaning": "greeting, address (～を します : greet, give an address)",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v049",
+    "kanji": "相手",
+    "furigana": "あいて",
+    "romaji": "aite",
+    "english_meaning": "the other person",
+    "bengali_meaning": "the other person",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v050",
+    "kanji": "気持ち",
+    "furigana": "きもち",
+    "romaji": "kimochi",
+    "english_meaning": "feeling",
+    "bengali_meaning": "feeling",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v051",
+    "kanji": "上げます",
+    "furigana": "あげます",
+    "romaji": "agemasu",
+    "english_meaning": "raise, lift up",
+    "bengali_meaning": "raise, lift up",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v052",
+    "kanji": "下げます",
+    "furigana": "さげます",
+    "romaji": "sagemasu",
+    "english_meaning": "lower, pull down",
+    "bengali_meaning": "lower, pull down",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v053",
+    "furigana": "ファイト",
+    "romaji": "faito",
+    "english_meaning": "fight",
+    "bengali_meaning": "fight",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v054",
+    "kanji": "洗濯機",
+    "furigana": "せんたくき",
+    "romaji": "sentakuki",
+    "english_meaning": "washing machine",
+    "bengali_meaning": "washing machine",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v055",
+    "kanji": "～機",
+    "furigana": "～き",
+    "romaji": "~ki",
+    "english_meaning": "～ machine",
+    "bengali_meaning": "～ machine",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v056",
+    "kanji": "本日休業",
+    "furigana": "ほんじつきゅうぎょう",
+    "romaji": "honjitsukyūgyō",
+    "english_meaning": "closed today",
+    "bengali_meaning": "closed today",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v057",
+    "kanji": "営業中",
+    "furigana": "えいぎょうちゅう",
+    "romaji": "eigyōchū",
+    "english_meaning": "open for business",
+    "bengali_meaning": "open for business",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v058",
+    "furigana": "そりゃあ",
+    "romaji": "soryā",
+    "english_meaning": "well",
+    "bengali_meaning": "well",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v059",
+    "kanji": "～以内",
+    "furigana": "～いない",
+    "romaji": "~inai",
+    "english_meaning": "within ～",
+    "bengali_meaning": "within ～",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v060",
+    "kanji": "電報",
+    "furigana": "でんぽう",
+    "romaji": "denpō",
+    "english_meaning": "telegram",
+    "bengali_meaning": "telegram",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v061",
+    "kanji": "人々",
+    "furigana": "ひとびと",
+    "romaji": "hitobito",
+    "english_meaning": "people",
+    "bengali_meaning": "people",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v062",
+    "kanji": "急用",
+    "furigana": "きゅうよう",
+    "romaji": "kyūyō",
+    "english_meaning": "urgent business",
+    "bengali_meaning": "urgent business",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v063",
+    "kanji": "打ちます［電報を～］",
+    "furigana": "うちます［でんぽうを～］",
+    "romaji": "uchimasu [denpōwo~]",
+    "english_meaning": "send [a telegram]",
+    "bengali_meaning": "send [a telegram]",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v064",
+    "kanji": "電報代",
+    "furigana": "でんぽうだい",
+    "romaji": "denpōdai",
+    "english_meaning": "telegram charge",
+    "bengali_meaning": "telegram charge",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v065",
+    "furigana": "できるだけ",
+    "romaji": "dekirudake",
+    "english_meaning": "as much as possible",
+    "bengali_meaning": "as much as possible",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v066",
+    "kanji": "短く",
+    "furigana": "みじかく",
+    "romaji": "mijikaku",
+    "english_meaning": "shortly, briefly",
+    "bengali_meaning": "shortly, briefly",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v067",
+    "furigana": "また",
+    "romaji": "mata",
+    "english_meaning": "and",
+    "bengali_meaning": "and",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v068",
+    "kanji": "例えば",
+    "furigana": "たとえば",
+    "romaji": "tatoeba",
+    "english_meaning": "for example",
+    "bengali_meaning": "for example",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v069",
+    "kanji": "危篤",
+    "furigana": "キトク",
+    "romaji": "kitoku",
+    "english_meaning": "in a critical condition",
+    "bengali_meaning": "in a critical condition",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v070",
+    "kanji": "重い 病気",
+    "furigana": "おもい びょうき",
+    "romaji": "omoi byōki",
+    "english_meaning": "serious illness",
+    "bengali_meaning": "serious illness",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v071",
+    "kanji": "明日",
+    "furigana": "あす",
+    "romaji": "asu",
+    "english_meaning": "tomorrow",
+    "bengali_meaning": "tomorrow",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v072",
+    "kanji": "留守",
+    "furigana": "るす",
+    "romaji": "rusu",
+    "english_meaning": "absence",
+    "bengali_meaning": "absence",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v073",
+    "kanji": "留守番",
+    "furigana": "るすばん",
+    "romaji": "rusuban",
+    "english_meaning": "looking after the house during the owner's absence",
+    "bengali_meaning": "looking after the house during the owner's absence",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v074",
+    "kanji": "［お］祝い",
+    "furigana": "［お］いわい",
+    "romaji": "[o] iwai",
+    "english_meaning": "celebration",
+    "bengali_meaning": "celebration",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v075",
+    "kanji": "亡くなります",
+    "furigana": "なくなります",
+    "romaji": "nakunarimasu",
+    "english_meaning": "pass away, die",
+    "bengali_meaning": "pass away, die",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v076",
+    "kanji": "悲しみ",
+    "furigana": "かなしみ",
+    "romaji": "kanashimi",
+    "english_meaning": "sorrow, sadness",
+    "bengali_meaning": "sorrow, sadness",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  },
+  {
+    "id": "minna-033-v077",
+    "kanji": "利用します",
+    "furigana": "りようします",
+    "romaji": "riyōshimasu",
+    "english_meaning": "use",
+    "bengali_meaning": "use",
+    "tags": [
+      "vocabulary",
+      "lesson-33"
+    ]
+  }
+]

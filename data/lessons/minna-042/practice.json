@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-042-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜42-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜42-A"
+    },
+    "stem": {
+      "jp": "これは レッスン42の 文法です。",
+      "furigana": "これは レッスン42の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 42-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜42-A means \"Grammar pattern 42-A\".",
+      "bn": "〜42-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 42-A\"।"
+    }
+  },
+  {
+    "id": "minna-042-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜42-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜42-B"
+    },
+    "stem": {
+      "jp": "これは レッスン42の 文法です。",
+      "furigana": "これは レッスン42の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 42-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜42-B means \"Grammar pattern 42-B\".",
+      "bn": "〜42-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 42-B\"।"
+    }
+  }
+]

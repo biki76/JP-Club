@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-023-g1",
+    "pattern": "〜23-A",
+    "meaning_en": "Grammar pattern 23-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 23-A",
+    "examples": [
+      {
+        "jp": "これは レッスン23の 文法です。",
+        "en": "This is lesson 23 grammar.",
+        "bn": "This is lesson 23 grammar.",
+        "furigana": "これは レッスン23の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-023-g2",
+    "pattern": "〜23-B",
+    "meaning_en": "Grammar pattern 23-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 23-B",
+    "examples": [
+      {
+        "jp": "これは レッスン23の 文法です。",
+        "en": "This is lesson 23 grammar.",
+        "bn": "This is lesson 23 grammar.",
+        "furigana": "これは レッスン23の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

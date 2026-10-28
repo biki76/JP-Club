@@ -1,5 +1,595 @@
 [
-  { "id": "minna-002-v001", "kanji": "本",   "furigana": "ほん",   "romaji": "hon",   "english_meaning": "book",           "bengali_meaning": "বই",   "tags": ["noun", "n5"] },
-  { "id": "minna-002-v002", "kanji": "時計", "furigana": "とけい", "romaji": "tokei", "english_meaning": "watch; clock",   "bengali_meaning": "ঘড়ি",  "tags": ["noun", "n5"] },
-  { "id": "minna-002-v003", "kanji": "傘",   "furigana": "かさ",   "romaji": "kasa",  "english_meaning": "umbrella",       "bengali_meaning": "ছাতা",  "tags": ["noun", "n5"] }
+  {
+    "id": "minna-002-v001",
+    "furigana": "これ",
+    "romaji": "kore",
+    "english_meaning": "this (thing here)",
+    "bengali_meaning": "this (thing here)",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v002",
+    "furigana": "それ",
+    "romaji": "sore",
+    "english_meaning": "that (thing near the listener)",
+    "bengali_meaning": "that (thing near the listener)",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v003",
+    "furigana": "あれ",
+    "romaji": "are",
+    "english_meaning": "that (thing over there)",
+    "bengali_meaning": "that (thing over there)",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v004",
+    "furigana": "この ～",
+    "romaji": "kono ~",
+    "english_meaning": "this ～, this ～ here",
+    "bengali_meaning": "this ～, this ～ here",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v005",
+    "furigana": "その ～",
+    "romaji": "sono ~",
+    "english_meaning": "that ～, that ～ near the listener",
+    "bengali_meaning": "that ～, that ～ near the listener",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v006",
+    "furigana": "あの ～",
+    "romaji": "ano ~",
+    "english_meaning": "that ～, that ～ over there",
+    "bengali_meaning": "that ～, that ～ over there",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v007",
+    "kanji": "本",
+    "furigana": "ほん",
+    "romaji": "hon",
+    "english_meaning": "book",
+    "bengali_meaning": "book",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v008",
+    "kanji": "辞書",
+    "furigana": "じしょ",
+    "romaji": "jisho",
+    "english_meaning": "dictionary",
+    "bengali_meaning": "dictionary",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v009",
+    "kanji": "雑誌",
+    "furigana": "ざっし",
+    "romaji": "zasshi",
+    "english_meaning": "magazine",
+    "bengali_meaning": "magazine",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v010",
+    "kanji": "新聞",
+    "furigana": "しんぶん",
+    "romaji": "shinbun",
+    "english_meaning": "newspaper",
+    "bengali_meaning": "newspaper",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v011",
+    "furigana": "ノート",
+    "romaji": "nōto",
+    "english_meaning": "notebook",
+    "bengali_meaning": "notebook",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v012",
+    "kanji": "手帳",
+    "furigana": "てちょう",
+    "romaji": "techō",
+    "english_meaning": "personal organiser",
+    "bengali_meaning": "personal organiser",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v013",
+    "kanji": "名刺",
+    "furigana": "めいし",
+    "romaji": "meishi",
+    "english_meaning": "business card",
+    "bengali_meaning": "business card",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v014",
+    "furigana": "カード",
+    "romaji": "kādo",
+    "english_meaning": "(credit) card",
+    "bengali_meaning": "(credit) card",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v015",
+    "kanji": "鉛筆",
+    "furigana": "えんぴつ",
+    "romaji": "enpitsu",
+    "english_meaning": "pencil",
+    "bengali_meaning": "pencil",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v016",
+    "furigana": "ボールペン",
+    "romaji": "bōrupen",
+    "english_meaning": "ballpoint pen",
+    "bengali_meaning": "ballpoint pen",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v017",
+    "furigana": "シャープペンシル",
+    "romaji": "shāpupenshiru",
+    "english_meaning": "mechanical pencil, propelling pencil",
+    "bengali_meaning": "mechanical pencil, propelling pencil",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v018",
+    "furigana": "かぎ",
+    "romaji": "kagi",
+    "english_meaning": "key",
+    "bengali_meaning": "key",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v019",
+    "kanji": "時計",
+    "furigana": "とけい",
+    "romaji": "tokei",
+    "english_meaning": "watch, clock",
+    "bengali_meaning": "watch, clock",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v020",
+    "kanji": "傘",
+    "furigana": "かさ",
+    "romaji": "kasa",
+    "english_meaning": "umbrella",
+    "bengali_meaning": "umbrella",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v021",
+    "furigana": "かばん",
+    "romaji": "kaban",
+    "english_meaning": "bag, briefcase",
+    "bengali_meaning": "bag, briefcase",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v022",
+    "furigana": "CD",
+    "romaji": "CD",
+    "english_meaning": "CD, compact disc",
+    "bengali_meaning": "CD, compact disc",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v023",
+    "furigana": "テレビ",
+    "romaji": "terebi",
+    "english_meaning": "television",
+    "bengali_meaning": "television",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v024",
+    "furigana": "ラジオ",
+    "romaji": "rajio",
+    "english_meaning": "radio",
+    "bengali_meaning": "radio",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v025",
+    "furigana": "カメラ",
+    "romaji": "kamera",
+    "english_meaning": "camera",
+    "bengali_meaning": "camera",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v026",
+    "furigana": "コンピューター",
+    "romaji": "konpyūtā",
+    "english_meaning": "computer",
+    "bengali_meaning": "computer",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v027",
+    "kanji": "車",
+    "furigana": "くるま",
+    "romaji": "kuruma",
+    "english_meaning": "car, vehicle",
+    "bengali_meaning": "car, vehicle",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v028",
+    "kanji": "机",
+    "furigana": "つくえ",
+    "romaji": "tsukue",
+    "english_meaning": "desk",
+    "bengali_meaning": "desk",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v029",
+    "furigana": "いす",
+    "romaji": "isu",
+    "english_meaning": "chair",
+    "bengali_meaning": "chair",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v030",
+    "furigana": "チョコレート",
+    "romaji": "chokorēto",
+    "english_meaning": "chocolate",
+    "bengali_meaning": "chocolate",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v031",
+    "furigana": "コーヒー",
+    "romaji": "kōhii",
+    "english_meaning": "coffee",
+    "bengali_meaning": "coffee",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v032",
+    "kanji": "［お］土産",
+    "furigana": "［お］みやげ",
+    "romaji": "[o] miyage",
+    "english_meaning": "souvenir, present",
+    "bengali_meaning": "souvenir, present",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v033",
+    "kanji": "英語",
+    "furigana": "えいご",
+    "romaji": "eigo",
+    "english_meaning": "the English language",
+    "bengali_meaning": "the English language",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v034",
+    "kanji": "日本語",
+    "furigana": "にほんご",
+    "romaji": "nihongo",
+    "english_meaning": "the Japanese language",
+    "bengali_meaning": "the Japanese language",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v035",
+    "kanji": "～語",
+    "furigana": "～ご",
+    "romaji": "~go",
+    "english_meaning": "～ language",
+    "bengali_meaning": "～ language",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v036",
+    "kanji": "何",
+    "furigana": "なん",
+    "romaji": "nan",
+    "english_meaning": "what",
+    "bengali_meaning": "what",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v037",
+    "furigana": "そう",
+    "romaji": "sō",
+    "english_meaning": "so",
+    "bengali_meaning": "so",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v038",
+    "furigana": "あのう",
+    "romaji": "anou",
+    "english_meaning": "Er... (used to show hesitation)",
+    "bengali_meaning": "Er... (used to show hesitation)",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v039",
+    "furigana": "えっ",
+    "romaji": "e'",
+    "english_meaning": "Oh? What! (used when hearing something unexpected)",
+    "bengali_meaning": "Oh? What! (used when hearing something unexpected)",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v040",
+    "furigana": "どうぞ。",
+    "romaji": "dōzo.",
+    "english_meaning": "Here you are. (used when offering someone something)",
+    "bengali_meaning": "Here you are. (used when offering someone something)",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v041",
+    "furigana": "［どうも］ありがとう［ございます］。",
+    "romaji": "[dōmo] arigatō [gozaimasu].",
+    "english_meaning": "Thank you [very much].",
+    "bengali_meaning": "Thank you [very much].",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v042",
+    "furigana": "そうですか。",
+    "romaji": "sōdesuka.",
+    "english_meaning": "I see.",
+    "bengali_meaning": "I see.",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v043",
+    "kanji": "違います。",
+    "furigana": "ちがいます。",
+    "romaji": "chigaimasu.",
+    "english_meaning": "No, it isn't./You are wrong.",
+    "bengali_meaning": "No, it isn't./You are wrong.",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v044",
+    "furigana": "あ",
+    "romaji": "a",
+    "english_meaning": "Oh! (used when becoming aware of something)",
+    "bengali_meaning": "Oh! (used when becoming aware of something)",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v045",
+    "kanji": "これから お世話に なります。",
+    "furigana": "これから おせわに なります。",
+    "romaji": "korekara osewani narimasu.",
+    "english_meaning": "Thank you in advance for your kindness.",
+    "bengali_meaning": "Thank you in advance for your kindness.",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v046",
+    "kanji": "こちらこそ［どうぞ］よろしく［お願いします］。",
+    "furigana": "こちらこそ［どうぞ］よろしく［おねがいします］。",
+    "romaji": "kochirakoso [dōzo] yoroshiku [onegaishimasu].",
+    "english_meaning": "Pleased to meet you, too. (response to［どうぞ］よろしく［おねがいします］。)",
+    "bengali_meaning": "Pleased to meet you, too. (response to［どうぞ］よろしく［おねがいします］。)",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v047",
+    "furigana": "テレホンカード",
+    "romaji": "terehonkādo",
+    "english_meaning": "telephone card",
+    "bengali_meaning": "telephone card",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v048",
+    "furigana": "［カセット］テープ",
+    "romaji": "[kasetto] tēpu",
+    "english_meaning": "[cassette] tape",
+    "bengali_meaning": "[cassette] tape",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v049",
+    "furigana": "テープレコーダー",
+    "romaji": "tēpurekōdā",
+    "english_meaning": "tape recorder",
+    "bengali_meaning": "tape recorder",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v050",
+    "kanji": "自動車",
+    "furigana": "じどうしゃ",
+    "romaji": "jidōsha",
+    "english_meaning": "automobile, car",
+    "bengali_meaning": "automobile, car",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v051",
+    "kanji": "ほんの 気持ちです。",
+    "furigana": "ほんの きもちです。",
+    "romaji": "honno kimochidesu.",
+    "english_meaning": "It's nothing./It's a token of my gratitude.",
+    "bengali_meaning": "It's nothing./It's a token of my gratitude.",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  },
+  {
+    "id": "minna-002-v052",
+    "furigana": "どうも。",
+    "romaji": "dōmo.",
+    "english_meaning": "Well, thanks.",
+    "bengali_meaning": "Well, thanks.",
+    "tags": [
+      "vocabulary",
+      "lesson-2"
+    ]
+  }
 ]

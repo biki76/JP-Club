@@ -1,0 +1,612 @@
+[
+  {
+    "id": "minna-050-v001",
+    "kanji": "参ります",
+    "furigana": "まいります",
+    "romaji": "mairimasu",
+    "english_meaning": "go, come (humble equivalent of いきます and きます)",
+    "bengali_meaning": "go, come (humble equivalent of いきます and きます)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v002",
+    "furigana": "おります",
+    "romaji": "orimasu",
+    "english_meaning": "be (humble equivalent of います)",
+    "bengali_meaning": "be (humble equivalent of います)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v003",
+    "furigana": "いただきます",
+    "romaji": "itadakimasu",
+    "english_meaning": "eat, drink, receive (humble equivalent of たべます, のみます and もらいます)",
+    "bengali_meaning": "eat, drink, receive (humble equivalent of たべます, のみます and もらいます)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v004",
+    "kanji": "申します",
+    "furigana": "もうします",
+    "romaji": "mōshimasu",
+    "english_meaning": "say (one's name) is ～ (humble equivalent of いいます)",
+    "bengali_meaning": "say (one's name) is ～ (humble equivalent of いいます)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v005",
+    "furigana": "いたします",
+    "romaji": "itashimasu",
+    "english_meaning": "do (humble equivalent of します)",
+    "bengali_meaning": "do (humble equivalent of します)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v006",
+    "kanji": "拝見します",
+    "furigana": "はいけんします",
+    "romaji": "haikenshimasu",
+    "english_meaning": "see (humble equivalent of みます)",
+    "bengali_meaning": "see (humble equivalent of みます)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v007",
+    "kanji": "存じます",
+    "furigana": "ぞんじます",
+    "romaji": "zonjimasu",
+    "english_meaning": "get to know (humble equivalent of しります)",
+    "bengali_meaning": "get to know (humble equivalent of しります)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v008",
+    "kanji": "伺います",
+    "furigana": "うかがいます",
+    "romaji": "ukagaimasu",
+    "english_meaning": "ask, hear, visit (humble equivalent of ききます and いきます)",
+    "bengali_meaning": "ask, hear, visit (humble equivalent of ききます and いきます)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v009",
+    "kanji": "お目に かかります",
+    "furigana": "おめに かかります",
+    "romaji": "omeni kakarimasu",
+    "english_meaning": "meet (humble equivalent of あいます)",
+    "bengali_meaning": "meet (humble equivalent of あいます)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v010",
+    "furigana": "いれます［コーヒーを～］",
+    "romaji": "iremasu [kōhiiwo~]",
+    "english_meaning": "make [coffee]",
+    "bengali_meaning": "make [coffee]",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v011",
+    "kanji": "用意します",
+    "furigana": "よういします",
+    "romaji": "yōishimasu",
+    "english_meaning": "prepare",
+    "bengali_meaning": "prepare",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v012",
+    "kanji": "私",
+    "furigana": "わたくし",
+    "romaji": "watakushi",
+    "english_meaning": "I (humble equivalent of わたし)",
+    "bengali_meaning": "I (humble equivalent of わたし)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v013",
+    "furigana": "ガイド",
+    "romaji": "gaido",
+    "english_meaning": "guide",
+    "bengali_meaning": "guide",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v014",
+    "furigana": "メールアドレス",
+    "romaji": "mēruadoresu",
+    "english_meaning": "e-mail address",
+    "bengali_meaning": "e-mail address",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v015",
+    "furigana": "スケジュール",
+    "romaji": "sukejūru",
+    "english_meaning": "schedule",
+    "bengali_meaning": "schedule",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v016",
+    "kanji": "さ来週",
+    "furigana": "さらいしゅう",
+    "romaji": "saraishū",
+    "english_meaning": "the week after next",
+    "bengali_meaning": "the week after next",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v017",
+    "kanji": "さ来月",
+    "furigana": "さらいげつ",
+    "romaji": "saraigetsu",
+    "english_meaning": "the month after next",
+    "bengali_meaning": "the month after next",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v018",
+    "kanji": "さ来年",
+    "furigana": "さらいねん",
+    "romaji": "sarainen",
+    "english_meaning": "the year after next",
+    "bengali_meaning": "the year after next",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v019",
+    "kanji": "初めに",
+    "furigana": "はじめに",
+    "romaji": "hajimeni",
+    "english_meaning": "first",
+    "bengali_meaning": "first",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v020",
+    "kanji": "江戸東京博物館",
+    "furigana": "えどとうきょうはくぶつかん",
+    "romaji": "edotōkyōhakubutsukan",
+    "english_meaning": "Edo-Tokyo Museum",
+    "bengali_meaning": "Edo-Tokyo Museum",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v021",
+    "kanji": "緊張します",
+    "furigana": "きんちょうします",
+    "romaji": "kinchōshimasu",
+    "english_meaning": "become tense, be strained, be nervous",
+    "bengali_meaning": "become tense, be strained, be nervous",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v022",
+    "kanji": "賞金",
+    "furigana": "しょうきん",
+    "romaji": "shōkin",
+    "english_meaning": "prize money",
+    "bengali_meaning": "prize money",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v023",
+    "furigana": "きりん",
+    "romaji": "kirin",
+    "english_meaning": "giraffe",
+    "bengali_meaning": "giraffe",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v024",
+    "furigana": "ころ",
+    "romaji": "koro",
+    "english_meaning": "times, days",
+    "bengali_meaning": "times, days",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v025",
+    "kanji": "かないます［夢が～］",
+    "furigana": "かないます［ゆめが～］",
+    "romaji": "kanaimasu [yumega~]",
+    "english_meaning": "[dream] be realized, come true",
+    "bengali_meaning": "[dream] be realized, come true",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v026",
+    "kanji": "応援します",
+    "furigana": "おうえんします",
+    "romaji": "ōenshimasu",
+    "english_meaning": "support",
+    "bengali_meaning": "support",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v027",
+    "kanji": "心から",
+    "furigana": "こころから",
+    "romaji": "kokorokara",
+    "english_meaning": "from one's heart, sincerely",
+    "bengali_meaning": "from one's heart, sincerely",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v028",
+    "kanji": "感謝します",
+    "furigana": "かんしゃします",
+    "romaji": "kanshashimasu",
+    "english_meaning": "thank, be grateful",
+    "bengali_meaning": "thank, be grateful",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v029",
+    "kanji": "お礼",
+    "furigana": "おれい",
+    "romaji": "orei",
+    "english_meaning": "gratitude, thanks",
+    "bengali_meaning": "gratitude, thanks",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v030",
+    "kanji": "お元気で いらっしゃいますか。",
+    "furigana": "おげんきで いらっしゃいますか。",
+    "romaji": "ogenkide irasshaimasuka.",
+    "english_meaning": "How are you doing? (respectful equivalent of おげんきですか)",
+    "bengali_meaning": "How are you doing? (respectful equivalent of おげんきですか)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v031",
+    "kanji": "迷惑を かけます",
+    "furigana": "めいわくを かけます",
+    "romaji": "meiwakuwo kakemasu",
+    "english_meaning": "cause trouble, annoyance, inconvenience",
+    "bengali_meaning": "cause trouble, annoyance, inconvenience",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v032",
+    "kanji": "生かします",
+    "furigana": "いかします",
+    "romaji": "ikashimasu",
+    "english_meaning": "make good use of",
+    "bengali_meaning": "make good use of",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v033",
+    "furigana": "ミュンヘン",
+    "romaji": "myunhen",
+    "english_meaning": "Munich (in Germany)",
+    "bengali_meaning": "Munich (in Germany)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v034",
+    "furigana": "ございます",
+    "romaji": "gozaimasu",
+    "english_meaning": "be (polite equivalent of あります)",
+    "bengali_meaning": "be (polite equivalent of あります)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v035",
+    "furigana": "～で ございます",
+    "romaji": "~de gozaimasu",
+    "english_meaning": "be (polite equivalent of ～です)",
+    "bengali_meaning": "be (polite equivalent of ～です)",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v036",
+    "kanji": "お宅",
+    "furigana": "おたく",
+    "romaji": "otaku",
+    "english_meaning": "(someone else's) house",
+    "bengali_meaning": "(someone else's) house",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v037",
+    "kanji": "郊外",
+    "furigana": "こうがい",
+    "romaji": "kōgai",
+    "english_meaning": "suburbs",
+    "bengali_meaning": "suburbs",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v038",
+    "furigana": "アルバム",
+    "romaji": "arubamu",
+    "english_meaning": "album",
+    "bengali_meaning": "album",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v039",
+    "kanji": "半年",
+    "furigana": "はんとし",
+    "romaji": "hantoshi",
+    "english_meaning": "half a year",
+    "bengali_meaning": "half a year",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v040",
+    "kanji": "最初に",
+    "furigana": "さいしょに",
+    "romaji": "saishoni",
+    "english_meaning": "first of all",
+    "bengali_meaning": "first of all",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v041",
+    "kanji": "最後に",
+    "furigana": "さいごに",
+    "romaji": "saigoni",
+    "english_meaning": "lastly",
+    "bengali_meaning": "lastly",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v042",
+    "kanji": "ただ今",
+    "furigana": "ただいま",
+    "romaji": "tadaima",
+    "english_meaning": "now",
+    "bengali_meaning": "now",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v043",
+    "kanji": "放送します",
+    "furigana": "ほうそうします",
+    "romaji": "hōsōshimasu",
+    "english_meaning": "broadcast",
+    "bengali_meaning": "broadcast",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v044",
+    "kanji": "撮ります［ビデオに～］",
+    "furigana": "とります［ビデオに～］",
+    "romaji": "torimasu [bideoni~]",
+    "english_meaning": "record [on video], video",
+    "bengali_meaning": "record [on video], video",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v045",
+    "kanji": "自然",
+    "furigana": "しぜん",
+    "romaji": "shizen",
+    "english_meaning": "nature",
+    "bengali_meaning": "nature",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v046",
+    "kanji": "象",
+    "furigana": "ぞう",
+    "romaji": "zō",
+    "english_meaning": "elephant",
+    "bengali_meaning": "elephant",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v047",
+    "furigana": "ひとこと よろしいでしょうか。",
+    "romaji": "hitokoto yoroshiideshōka.",
+    "english_meaning": "May I say one word?",
+    "bengali_meaning": "May I say one word?",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v048",
+    "kanji": "協力します",
+    "furigana": "きょうりょくします",
+    "romaji": "kyōryokushimasu",
+    "english_meaning": "cooperate",
+    "bengali_meaning": "cooperate",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v049",
+    "kanji": "拝啓",
+    "furigana": "はいけい",
+    "romaji": "haikei",
+    "english_meaning": "Dear ～",
+    "bengali_meaning": "Dear ～",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v050",
+    "kanji": "美しい",
+    "furigana": "うつくしい",
+    "romaji": "utsukushii",
+    "english_meaning": "beautiful",
+    "bengali_meaning": "beautiful",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v051",
+    "kanji": "［お］城",
+    "furigana": "［お］しろ",
+    "romaji": "[o] shiro",
+    "english_meaning": "castle",
+    "bengali_meaning": "castle",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  },
+  {
+    "id": "minna-050-v052",
+    "kanji": "敬具",
+    "furigana": "けいぐ",
+    "romaji": "keigu",
+    "english_meaning": "Sincerely yours",
+    "bengali_meaning": "Sincerely yours",
+    "tags": [
+      "vocabulary",
+      "lesson-50"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-011-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜11-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜11-A"
+    },
+    "stem": {
+      "jp": "これは レッスン11の 文法です。",
+      "furigana": "これは レッスン11の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 11-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜11-A means \"Grammar pattern 11-A\".",
+      "bn": "〜11-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 11-A\"।"
+    }
+  },
+  {
+    "id": "minna-011-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜11-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜11-B"
+    },
+    "stem": {
+      "jp": "これは レッスン11の 文法です。",
+      "furigana": "これは レッスン11の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 11-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜11-B means \"Grammar pattern 11-B\".",
+      "bn": "〜11-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 11-B\"।"
+    }
+  }
+]

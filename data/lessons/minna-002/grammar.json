@@ -1,0 +1,74 @@
+[
+  {
+    "id": "minna-002-g1",
+    "pattern": "これ / それ / あれ",
+    "meaning_en": "this / that / that over there",
+    "meaning_bn": "এটি / সেটি / ওটি",
+    "examples": [
+      {
+        "jp": "これは 本です。",
+        "en": "This is a book.",
+        "bn": "This is a book.",
+        "furigana": "これは 本です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-002-g2",
+    "pattern": "この N / その N / あの N",
+    "meaning_en": "this N / that N",
+    "meaning_bn": "এই N / সেই N",
+    "examples": [
+      {
+        "jp": "この本は わたしのです。",
+        "en": "This book is mine.",
+        "bn": "This book is mine.",
+        "furigana": "この本は わたしのです。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-002-g3",
+    "pattern": "そうです / ちがいます",
+    "meaning_en": "That is right / That is wrong",
+    "meaning_bn": "তাই / তা নয়",
+    "examples": [
+      {
+        "jp": "はい、そうです。",
+        "en": "Yes, that is right.",
+        "bn": "Yes, that is right.",
+        "furigana": "はい、そうです。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-002-g4",
+    "pattern": "N の N",
+    "meaning_en": "N of N / N's N",
+    "meaning_bn": "N-এর N",
+    "examples": [
+      {
+        "jp": "これは 日本語の 本です。",
+        "en": "This is a Japanese book.",
+        "bn": "This is a Japanese book.",
+        "furigana": "これは 日本語の 本です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-026-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜26-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜26-A"
+    },
+    "stem": {
+      "jp": "これは レッスン26の 文法です。",
+      "furigana": "これは レッスン26の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 26-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜26-A means \"Grammar pattern 26-A\".",
+      "bn": "〜26-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 26-A\"।"
+    }
+  },
+  {
+    "id": "minna-026-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜26-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜26-B"
+    },
+    "stem": {
+      "jp": "これは レッスン26の 文法です。",
+      "furigana": "これは レッスン26の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 26-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜26-B means \"Grammar pattern 26-B\".",
+      "bn": "〜26-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 26-B\"।"
+    }
+  }
+]

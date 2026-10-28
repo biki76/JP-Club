@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-018-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜18-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜18-A"
+    },
+    "stem": {
+      "jp": "これは レッスン18の 文法です。",
+      "furigana": "これは レッスン18の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 18-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜18-A means \"Grammar pattern 18-A\".",
+      "bn": "〜18-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 18-A\"।"
+    }
+  },
+  {
+    "id": "minna-018-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜18-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜18-B"
+    },
+    "stem": {
+      "jp": "これは レッスン18の 文法です。",
+      "furigana": "これは レッスン18の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 18-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜18-B means \"Grammar pattern 18-B\".",
+      "bn": "〜18-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 18-B\"।"
+    }
+  }
+]

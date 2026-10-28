@@ -1,0 +1,684 @@
+[
+  {
+    "id": "minna-027-v001",
+    "kanji": "飼います",
+    "furigana": "かいます",
+    "romaji": "kaimasu",
+    "english_meaning": "keep (a pet), raise (an animal)",
+    "bengali_meaning": "keep (a pet), raise (an animal)",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v002",
+    "kanji": "走ります［道を～］",
+    "furigana": "はしります［みちを～］",
+    "romaji": "hashirimasu [michiwo~]",
+    "english_meaning": "run, drive [along a road]",
+    "bengali_meaning": "run, drive [along a road]",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v003",
+    "kanji": "見えます［山が～］",
+    "furigana": "みえます［やまが～］",
+    "romaji": "miemasu [yamaga~]",
+    "english_meaning": "[a mountain] can be seen",
+    "bengali_meaning": "[a mountain] can be seen",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v004",
+    "kanji": "聞こえます［音が～］",
+    "furigana": "きこえます［おとが～］",
+    "romaji": "kikoemasu [otoga~]",
+    "english_meaning": "[a sound] can be heard",
+    "bengali_meaning": "[a sound] can be heard",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v005",
+    "kanji": "できます［道が～］",
+    "furigana": "できます［みちが～］",
+    "romaji": "dekimasu [michiga~]",
+    "english_meaning": "[a road] be made, be completed, come into existence",
+    "bengali_meaning": "[a road] be made, be completed, come into existence",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v006",
+    "kanji": "開きます［教室を～］",
+    "furigana": "ひらきます［きょうしつを～］",
+    "romaji": "hirakimasu [kyōshitsuwo~]",
+    "english_meaning": "set up [a class], open, hold",
+    "bengali_meaning": "set up [a class], open, hold",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v007",
+    "kanji": "心配［な］",
+    "furigana": "しんぱい［な］",
+    "romaji": "shinpai [na]",
+    "english_meaning": "worried, anxious",
+    "bengali_meaning": "worried, anxious",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v008",
+    "furigana": "ペット",
+    "romaji": "petto",
+    "english_meaning": "pet",
+    "bengali_meaning": "pet",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v009",
+    "kanji": "鳥",
+    "furigana": "とり",
+    "romaji": "tori",
+    "english_meaning": "bird",
+    "bengali_meaning": "bird",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v010",
+    "kanji": "声",
+    "furigana": "こえ",
+    "romaji": "koe",
+    "english_meaning": "voice",
+    "bengali_meaning": "voice",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v011",
+    "kanji": "波",
+    "furigana": "なみ",
+    "romaji": "nami",
+    "english_meaning": "wave",
+    "bengali_meaning": "wave",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v012",
+    "kanji": "花火",
+    "furigana": "はなび",
+    "romaji": "hanabi",
+    "english_meaning": "fireworks",
+    "bengali_meaning": "fireworks",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v013",
+    "kanji": "道具",
+    "furigana": "どうぐ",
+    "romaji": "dōgu",
+    "english_meaning": "tool, instrument, equipment",
+    "bengali_meaning": "tool, instrument, equipment",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v014",
+    "furigana": "クリーニング",
+    "romaji": "kuriiningu",
+    "english_meaning": "(dry) cleaning, laundry",
+    "bengali_meaning": "(dry) cleaning, laundry",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v015",
+    "kanji": "家",
+    "furigana": "いえ",
+    "romaji": "ie",
+    "english_meaning": "house, home",
+    "bengali_meaning": "house, home",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v016",
+    "furigana": "マンション",
+    "romaji": "manshon",
+    "english_meaning": "condominium, apartment house, blocks of flats",
+    "bengali_meaning": "condominium, apartment house, blocks of flats",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v017",
+    "furigana": "キッチン",
+    "romaji": "kitchin",
+    "english_meaning": "kitchen",
+    "bengali_meaning": "kitchen",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v018",
+    "kanji": "～教室",
+    "furigana": "～きょうしつ",
+    "romaji": "~kyōshitsu",
+    "english_meaning": "～ class",
+    "bengali_meaning": "～ class",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v019",
+    "furigana": "パーティールーム",
+    "romaji": "pāteiirūmu",
+    "english_meaning": "party room",
+    "bengali_meaning": "party room",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v020",
+    "kanji": "方",
+    "furigana": "かた",
+    "romaji": "kata",
+    "english_meaning": "person (respectful of ひと)",
+    "bengali_meaning": "person (respectful of ひと)",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v021",
+    "kanji": "～後",
+    "furigana": "～ご",
+    "romaji": "~go",
+    "english_meaning": "after ～ (duration of time)",
+    "bengali_meaning": "after ～ (duration of time)",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v022",
+    "furigana": "～しか",
+    "romaji": "~shika",
+    "english_meaning": "only ～ (used with negatives)",
+    "bengali_meaning": "only ～ (used with negatives)",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v023",
+    "furigana": "ほかの",
+    "romaji": "hokano",
+    "english_meaning": "other",
+    "bengali_meaning": "other",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v024",
+    "furigana": "はっきり",
+    "romaji": "hakkiri",
+    "english_meaning": "clearly",
+    "bengali_meaning": "clearly",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v025",
+    "kanji": "家具",
+    "furigana": "かぐ",
+    "romaji": "kagu",
+    "english_meaning": "furniture",
+    "bengali_meaning": "furniture",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v026",
+    "kanji": "本棚",
+    "furigana": "ほんだな",
+    "romaji": "hondana",
+    "english_meaning": "bookcase",
+    "bengali_meaning": "bookcase",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v027",
+    "furigana": "いつか",
+    "romaji": "itsuka",
+    "english_meaning": "one day, some day",
+    "bengali_meaning": "one day, some day",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v028",
+    "kanji": "建てます",
+    "furigana": "たてます",
+    "romaji": "tatemasu",
+    "english_meaning": "build",
+    "bengali_meaning": "build",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v029",
+    "furigana": "すばらしい",
+    "romaji": "subarashii",
+    "english_meaning": "wonderful",
+    "bengali_meaning": "wonderful",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v030",
+    "kanji": "子どもたち",
+    "furigana": "こどもたち",
+    "romaji": "kodomotachi",
+    "english_meaning": "children",
+    "bengali_meaning": "children",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v031",
+    "kanji": "大好き［な］",
+    "furigana": "だいすき［な］",
+    "romaji": "daisuki [na]",
+    "english_meaning": "like very much",
+    "bengali_meaning": "like very much",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v032",
+    "kanji": "主人公",
+    "furigana": "しゅじんこう",
+    "romaji": "shujinkō",
+    "english_meaning": "hero, heroine",
+    "bengali_meaning": "hero, heroine",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v033",
+    "kanji": "形",
+    "furigana": "かたち",
+    "romaji": "katachi",
+    "english_meaning": "shape",
+    "bengali_meaning": "shape",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v034",
+    "kanji": "不思議［な］",
+    "furigana": "ふしぎ［な］",
+    "romaji": "fushigi [na]",
+    "english_meaning": "fantastic, mysterious",
+    "bengali_meaning": "fantastic, mysterious",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v035",
+    "furigana": "ポケット",
+    "romaji": "poketto",
+    "english_meaning": "pocket",
+    "bengali_meaning": "pocket",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v036",
+    "kanji": "例えば",
+    "furigana": "たとえば",
+    "romaji": "tatoeba",
+    "english_meaning": "for example",
+    "bengali_meaning": "for example",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v037",
+    "kanji": "付けます",
+    "furigana": "つけます",
+    "romaji": "tsukemasu",
+    "english_meaning": "attach, put on",
+    "bengali_meaning": "attach, put on",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v038",
+    "kanji": "自由に",
+    "furigana": "じゆうに",
+    "romaji": "jiyūni",
+    "english_meaning": "freely",
+    "bengali_meaning": "freely",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v039",
+    "kanji": "空",
+    "furigana": "そら",
+    "romaji": "sora",
+    "english_meaning": "sky",
+    "bengali_meaning": "sky",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v040",
+    "kanji": "飛びます",
+    "furigana": "とびます",
+    "romaji": "tobimasu",
+    "english_meaning": "fly",
+    "bengali_meaning": "fly",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v041",
+    "kanji": "昔",
+    "furigana": "むかし",
+    "romaji": "mukashi",
+    "english_meaning": "old times, ancient times",
+    "bengali_meaning": "old times, ancient times",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v042",
+    "kanji": "自分",
+    "furigana": "じぶん",
+    "romaji": "jibun",
+    "english_meaning": "oneself",
+    "bengali_meaning": "oneself",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v043",
+    "kanji": "将来",
+    "furigana": "しょうらい",
+    "romaji": "shōrai",
+    "english_meaning": "future",
+    "bengali_meaning": "future",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v044",
+    "furigana": "ドラえもん",
+    "romaji": "doraemon",
+    "english_meaning": "name of a cartoon character",
+    "bengali_meaning": "name of a cartoon character",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v045",
+    "kanji": "取ります［休みを～］",
+    "furigana": "とります［やすみを～］",
+    "romaji": "torimasu [yasumiwo~]",
+    "english_meaning": "take [a holiday]",
+    "bengali_meaning": "take [a holiday]",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v046",
+    "kanji": "景色",
+    "furigana": "けしき",
+    "romaji": "keshiki",
+    "english_meaning": "scenery, view",
+    "bengali_meaning": "scenery, view",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v047",
+    "kanji": "昼間",
+    "furigana": "ひるま",
+    "romaji": "hiruma",
+    "english_meaning": "daytime",
+    "bengali_meaning": "daytime",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v048",
+    "kanji": "自動販売機",
+    "furigana": "じどうはんばいき",
+    "romaji": "jidōhanbaiki",
+    "english_meaning": "vending machine",
+    "bengali_meaning": "vending machine",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v049",
+    "kanji": "通信販売",
+    "furigana": "つうしんはんばい",
+    "romaji": "tsūshinhanbai",
+    "english_meaning": "mail order, mail-order sales",
+    "bengali_meaning": "mail order, mail-order sales",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v050",
+    "kanji": "台所",
+    "furigana": "だいどころ",
+    "romaji": "daidokoro",
+    "english_meaning": "kitchen",
+    "bengali_meaning": "kitchen",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v051",
+    "furigana": "ほとんど",
+    "romaji": "hotondo",
+    "english_meaning": "almost all (in affirmative sentences), hardly, scarcely (in negative sentences)",
+    "bengali_meaning": "almost all (in affirmative sentences), hardly, scarcely (in negative sentences)",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v052",
+    "kanji": "関西空港",
+    "furigana": "かんさいくうこう",
+    "romaji": "kansaikūkō",
+    "english_meaning": "Kansai International Airport",
+    "bengali_meaning": "Kansai International Airport",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v053",
+    "kanji": "秋葉原",
+    "furigana": "あきはばら",
+    "romaji": "akihabara",
+    "english_meaning": "name of a shopping district in Tokyo with many electrical stores",
+    "bengali_meaning": "name of a shopping district in Tokyo with many electrical stores",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v054",
+    "kanji": "伊豆",
+    "furigana": "いず",
+    "romaji": "izu",
+    "english_meaning": "peninsula in Shizuoka Prefecture",
+    "bengali_meaning": "peninsula in Shizuoka Prefecture",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v055",
+    "kanji": "日曜大工",
+    "furigana": "にちようだいく",
+    "romaji": "nichiyōdaiku",
+    "english_meaning": "Sunday carpenter",
+    "bengali_meaning": "Sunday carpenter",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v056",
+    "kanji": "夢",
+    "furigana": "ゆめ",
+    "romaji": "yume",
+    "english_meaning": "dream (～を みます : have a dream)",
+    "bengali_meaning": "dream (～を みます : have a dream)",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v057",
+    "kanji": "漫画",
+    "furigana": "まんが",
+    "romaji": "manga",
+    "english_meaning": "cartoon, comic strip",
+    "bengali_meaning": "cartoon, comic strip",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  },
+  {
+    "id": "minna-027-v058",
+    "furigana": "ロボット",
+    "romaji": "robotto",
+    "english_meaning": "robot",
+    "bengali_meaning": "robot",
+    "tags": [
+      "vocabulary",
+      "lesson-27"
+    ]
+  }
+]

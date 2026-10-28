@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-018-g1",
+    "pattern": "〜18-A",
+    "meaning_en": "Grammar pattern 18-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 18-A",
+    "examples": [
+      {
+        "jp": "これは レッスン18の 文法です。",
+        "en": "This is lesson 18 grammar.",
+        "bn": "This is lesson 18 grammar.",
+        "furigana": "これは レッスン18の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-018-g2",
+    "pattern": "〜18-B",
+    "meaning_en": "Grammar pattern 18-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 18-B",
+    "examples": [
+      {
+        "jp": "これは レッスン18の 文法です。",
+        "en": "This is lesson 18 grammar.",
+        "bn": "This is lesson 18 grammar.",
+        "furigana": "これは レッスン18の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

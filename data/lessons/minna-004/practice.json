@@ -1,0 +1,98 @@
+[
+  {
+    "id": "minna-004-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜時 / 〜分",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜時 / 〜分"
+    },
+    "stem": {
+      "jp": "今、4時です。",
+      "furigana": "今、4時です。",
+      "romaji": ""
+    },
+    "options": [
+      "hour / minute",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜時 / 〜分 means \"hour / minute\".",
+      "bn": "〜時 / 〜分 এর অর্থ \"ঘণ্টা / মিনিট\"।"
+    }
+  },
+  {
+    "id": "minna-004-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜から 〜まで",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜から 〜まで"
+    },
+    "stem": {
+      "jp": "9時から 5時まで 働きます。",
+      "furigana": "9時から 5時まで 働きます。",
+      "romaji": ""
+    },
+    "options": [
+      "from ~ to ~",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜から 〜まで means \"from ~ to ~\".",
+      "bn": "〜から 〜まで এর অর্থ \"~ থেকে ~ পর্যন্ত\"।"
+    }
+  },
+  {
+    "id": "minna-004-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜ます / 〜ません",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜ます / 〜ません"
+    },
+    "stem": {
+      "jp": "毎日 勉強します。",
+      "furigana": "毎日 勉強します。",
+      "romaji": ""
+    },
+    "options": [
+      "polite present aff. / neg.",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜ます / 〜ません means \"polite present aff. / neg.\".",
+      "bn": "〜ます / 〜ません এর অর্থ \"ভদ্র বর্তমান হ্যাঁ / না\"।"
+    }
+  },
+  {
+    "id": "minna-004-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜ました / 〜ませんでした",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜ました / 〜ませんでした"
+    },
+    "stem": {
+      "jp": "昨日 勉強しました。",
+      "furigana": "昨日 勉強しました。",
+      "romaji": ""
+    },
+    "options": [
+      "polite past aff. / neg.",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜ました / 〜ませんでした means \"polite past aff. / neg.\".",
+      "bn": "〜ました / 〜ませんでした এর অর্থ \"ভদ্র অতীত হ্যাঁ / না\"।"
+    }
+  }
+]

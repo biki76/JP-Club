@@ -1,0 +1,98 @@
+[
+  {
+    "id": "minna-006-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N を 〜ます",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N を 〜ます"
+    },
+    "stem": {
+      "jp": "ご飯を 食べます。",
+      "furigana": "ご飯を 食べます。",
+      "romaji": ""
+    },
+    "options": [
+      "do ~ (with object N)",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N を 〜ます means \"do ~ (with object N)\".",
+      "bn": "N を 〜ます এর অর্থ \"N ~ করি\"।"
+    }
+  },
+  {
+    "id": "minna-006-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜ませんか",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜ませんか"
+    },
+    "stem": {
+      "jp": "一緒に 行きませんか。",
+      "furigana": "一緒に 行きませんか。",
+      "romaji": ""
+    },
+    "options": [
+      "won't you ~? (invitation)",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜ませんか means \"won't you ~? (invitation)\".",
+      "bn": "〜ませんか এর অর্থ \"~ করবেন না?\"।"
+    }
+  },
+  {
+    "id": "minna-006-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜ましょう",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜ましょう"
+    },
+    "stem": {
+      "jp": "一緒に 行きましょう。",
+      "furigana": "一緒に 行きましょう。",
+      "romaji": ""
+    },
+    "options": [
+      "let's ~",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜ましょう means \"let's ~\".",
+      "bn": "〜ましょう এর অর্থ \"~ করি\"।"
+    }
+  },
+  {
+    "id": "minna-006-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N が 好きです / 嫌いです",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N が 好きです / 嫌いです"
+    },
+    "stem": {
+      "jp": "寿司が 好きです。",
+      "furigana": "寿司が 好きです。",
+      "romaji": ""
+    },
+    "options": [
+      "like / dislike N",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N が 好きです / 嫌いです means \"like / dislike N\".",
+      "bn": "N が 好きです / 嫌いです এর অর্থ \"N পছন্দ / অপছন্দ\"।"
+    }
+  }
+]

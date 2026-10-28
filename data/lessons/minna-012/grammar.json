@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-012-g1",
+    "pattern": "〜12-A",
+    "meaning_en": "Grammar pattern 12-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 12-A",
+    "examples": [
+      {
+        "jp": "これは レッスン12の 文法です。",
+        "en": "This is lesson 12 grammar.",
+        "bn": "This is lesson 12 grammar.",
+        "furigana": "これは レッスン12の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-012-g2",
+    "pattern": "〜12-B",
+    "meaning_en": "Grammar pattern 12-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 12-B",
+    "examples": [
+      {
+        "jp": "これは レッスン12の 文法です。",
+        "en": "This is lesson 12 grammar.",
+        "bn": "This is lesson 12 grammar.",
+        "furigana": "これは レッスン12の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

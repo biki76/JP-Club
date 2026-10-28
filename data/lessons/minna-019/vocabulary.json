@@ -1,0 +1,388 @@
+[
+  {
+    "id": "minna-019-v001",
+    "kanji": "登ります、上ります",
+    "furigana": "のぼります",
+    "romaji": "noborimasu",
+    "english_meaning": "climb, go up",
+    "bengali_meaning": "climb, go up",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v002",
+    "kanji": "泊まります［ホテルに～］",
+    "furigana": "とまります［ホテルに～］",
+    "romaji": "tomarimasu [hoteruni~]",
+    "english_meaning": "stay [at a hotel]",
+    "bengali_meaning": "stay [at a hotel]",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v003",
+    "kanji": "掃除します",
+    "furigana": "そうじします",
+    "romaji": "sōjishimasu",
+    "english_meaning": "clean (a room)",
+    "bengali_meaning": "clean (a room)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v004",
+    "kanji": "洗濯します",
+    "furigana": "せんたくします",
+    "romaji": "sentakushimasu",
+    "english_meaning": "wash (clothes)",
+    "bengali_meaning": "wash (clothes)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v005",
+    "furigana": "なります",
+    "romaji": "narimasu",
+    "english_meaning": "become",
+    "bengali_meaning": "become",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v006",
+    "kanji": "眠い",
+    "furigana": "ねむい",
+    "romaji": "nemui",
+    "english_meaning": "sleepy",
+    "bengali_meaning": "sleepy",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v007",
+    "kanji": "強い",
+    "furigana": "つよい",
+    "romaji": "tsuyoi",
+    "english_meaning": "strong",
+    "bengali_meaning": "strong",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v008",
+    "kanji": "弱い",
+    "furigana": "よわい",
+    "romaji": "yowai",
+    "english_meaning": "weak",
+    "bengali_meaning": "weak",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v009",
+    "kanji": "練習",
+    "furigana": "れんしゅう",
+    "romaji": "renshū",
+    "english_meaning": "practice (～［を］します : practise)",
+    "bengali_meaning": "practice (～［を］します : practise)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v010",
+    "furigana": "ゴルフ",
+    "romaji": "gorufu",
+    "english_meaning": "golf (～を します : play golf)",
+    "bengali_meaning": "golf (～を します : play golf)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v011",
+    "kanji": "相撲",
+    "furigana": "すもう",
+    "romaji": "sumou",
+    "english_meaning": "sumo wrestling (～を します : wrestle)",
+    "bengali_meaning": "sumo wrestling (～を します : wrestle)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v012",
+    "kanji": "お茶",
+    "furigana": "おちゃ",
+    "romaji": "ocha",
+    "english_meaning": "tea ceremony",
+    "bengali_meaning": "tea ceremony",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v013",
+    "kanji": "日",
+    "furigana": "ひ",
+    "romaji": "hi",
+    "english_meaning": "day, date",
+    "bengali_meaning": "day, date",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v014",
+    "kanji": "調子",
+    "furigana": "ちょうし",
+    "romaji": "chōshi",
+    "english_meaning": "condition",
+    "bengali_meaning": "condition",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v015",
+    "kanji": "一度",
+    "furigana": "いちど",
+    "romaji": "ichido",
+    "english_meaning": "once",
+    "bengali_meaning": "once",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v016",
+    "kanji": "一度も",
+    "furigana": "いちども",
+    "romaji": "ichidomo",
+    "english_meaning": "not once, never (used with negatives)",
+    "bengali_meaning": "not once, never (used with negatives)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v017",
+    "furigana": "だんだん",
+    "romaji": "dandan",
+    "english_meaning": "gradually",
+    "bengali_meaning": "gradually",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v018",
+    "furigana": "もうすぐ",
+    "romaji": "mōsugu",
+    "english_meaning": "soon",
+    "bengali_meaning": "soon",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v019",
+    "furigana": "おかげさまで",
+    "romaji": "okagesamade",
+    "english_meaning": "Thank you. (used when expressing gratitude for help received)",
+    "bengali_meaning": "Thank you. (used when expressing gratitude for help received)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v020",
+    "furigana": "でも",
+    "romaji": "demo",
+    "english_meaning": "but",
+    "bengali_meaning": "but",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v021",
+    "kanji": "乾杯",
+    "furigana": "かんぱい",
+    "romaji": "kanpai",
+    "english_meaning": "Bottoms up./Cheers!",
+    "bengali_meaning": "Bottoms up./Cheers!",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v022",
+    "furigana": "ダイエット",
+    "romaji": "daietto",
+    "english_meaning": "diet (～を します : go on a diet)",
+    "bengali_meaning": "diet (～を します : go on a diet)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v023",
+    "kanji": "無理［な］",
+    "furigana": "むり［な］",
+    "romaji": "muri [na]",
+    "english_meaning": "excessive, impossible",
+    "bengali_meaning": "excessive, impossible",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v024",
+    "kanji": "体に いい",
+    "furigana": "からだに いい",
+    "romaji": "karadani ii",
+    "english_meaning": "good for one's health",
+    "bengali_meaning": "good for one's health",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v025",
+    "kanji": "東京スカイツリー",
+    "furigana": "とうきょうスカイツリー",
+    "romaji": "tōkyōsukaitsurii",
+    "english_meaning": "Tokyo Sky Tree (broadcasting tower with observation deck in Tokyo)",
+    "bengali_meaning": "Tokyo Sky Tree (broadcasting tower with observation deck in Tokyo)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v026",
+    "kanji": "葛飾北斎",
+    "furigana": "かつしかほくさい",
+    "romaji": "katsushikahokusai",
+    "english_meaning": "a famous Edo-period woodblock artist and painter (1760-1849)",
+    "bengali_meaning": "a famous Edo-period woodblock artist and painter (1760-1849)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v027",
+    "kanji": "調子が いい",
+    "furigana": "ちょうしが いい",
+    "romaji": "chōshiga ii",
+    "english_meaning": "be in good condition",
+    "bengali_meaning": "be in good condition",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v028",
+    "kanji": "調子が 悪い",
+    "furigana": "ちょうしが わるい",
+    "romaji": "chōshiga warui",
+    "english_meaning": "be in bad condition",
+    "bengali_meaning": "be in bad condition",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v029",
+    "furigana": "パチンコ",
+    "romaji": "pachinko",
+    "english_meaning": "pinball game (～を します : play pachinko)",
+    "bengali_meaning": "pinball game (～を します : play pachinko)",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v030",
+    "kanji": "実は",
+    "furigana": "じつは",
+    "romaji": "jitsuwa",
+    "english_meaning": "actually, to tell the truth",
+    "bengali_meaning": "actually, to tell the truth",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v031",
+    "kanji": "何回も",
+    "furigana": "なんかいも",
+    "romaji": "nankaimo",
+    "english_meaning": "many times",
+    "bengali_meaning": "many times",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v032",
+    "furigana": "しかし",
+    "romaji": "shikashi",
+    "english_meaning": "but, however",
+    "bengali_meaning": "but, however",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  },
+  {
+    "id": "minna-019-v033",
+    "furigana": "ケーキ",
+    "romaji": "kēki",
+    "english_meaning": "cake",
+    "bengali_meaning": "cake",
+    "tags": [
+      "vocabulary",
+      "lesson-19"
+    ]
+  }
+]

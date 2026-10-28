@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-020-g1",
+    "pattern": "〜20-A",
+    "meaning_en": "Grammar pattern 20-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 20-A",
+    "examples": [
+      {
+        "jp": "これは レッスン20の 文法です。",
+        "en": "This is lesson 20 grammar.",
+        "bn": "This is lesson 20 grammar.",
+        "furigana": "これは レッスン20の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-020-g2",
+    "pattern": "〜20-B",
+    "meaning_en": "Grammar pattern 20-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 20-B",
+    "examples": [
+      {
+        "jp": "これは レッスン20の 文法です。",
+        "en": "This is lesson 20 grammar.",
+        "bn": "This is lesson 20 grammar.",
+        "furigana": "これは レッスン20の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

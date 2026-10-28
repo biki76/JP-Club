@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-039-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜39-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜39-A"
+    },
+    "stem": {
+      "jp": "これは レッスン39の 文法です。",
+      "furigana": "これは レッスン39の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 39-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜39-A means \"Grammar pattern 39-A\".",
+      "bn": "〜39-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 39-A\"।"
+    }
+  },
+  {
+    "id": "minna-039-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜39-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜39-B"
+    },
+    "stem": {
+      "jp": "これは レッスン39の 文法です。",
+      "furigana": "これは レッスン39の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 39-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜39-B means \"Grammar pattern 39-B\".",
+      "bn": "〜39-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 39-B\"।"
+    }
+  }
+]

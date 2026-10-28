@@ -1,0 +1,587 @@
+[
+  {
+    "id": "minna-044-v001",
+    "kanji": "泣きます",
+    "furigana": "なきます",
+    "romaji": "nakimasu",
+    "english_meaning": "cry",
+    "bengali_meaning": "cry",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v002",
+    "kanji": "笑います",
+    "furigana": "わらいます",
+    "romaji": "waraimasu",
+    "english_meaning": "laugh, smile",
+    "bengali_meaning": "laugh, smile",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v003",
+    "kanji": "眠ります",
+    "furigana": "ねむります",
+    "romaji": "nemurimasu",
+    "english_meaning": "sleep",
+    "bengali_meaning": "sleep",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v004",
+    "kanji": "乾きます［シャツが～］",
+    "furigana": "かわきます［シャツが～］",
+    "romaji": "kawakimasu [shatsuga~]",
+    "english_meaning": "[a shirt] dry",
+    "bengali_meaning": "[a shirt] dry",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v005",
+    "furigana": "ぬれます［シャツが～］",
+    "romaji": "nuremasu [shatsuga~]",
+    "english_meaning": "[a shirt] get wet",
+    "bengali_meaning": "[a shirt] get wet",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v006",
+    "kanji": "滑ります",
+    "furigana": "すべります",
+    "romaji": "suberimasu",
+    "english_meaning": "slip",
+    "bengali_meaning": "slip",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v007",
+    "kanji": "起きます［事故が～］",
+    "furigana": "おきます［じこが～］",
+    "romaji": "okimasu [jikoga~]",
+    "english_meaning": "[an accident] happen",
+    "bengali_meaning": "[an accident] happen",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v008",
+    "kanji": "調節します",
+    "furigana": "ちょうせつします",
+    "romaji": "chōsetsushimasu",
+    "english_meaning": "adjust",
+    "bengali_meaning": "adjust",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v009",
+    "kanji": "安全［な］",
+    "furigana": "あんぜん［な］",
+    "romaji": "anzen [na]",
+    "english_meaning": "safe",
+    "bengali_meaning": "safe",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v010",
+    "kanji": "危険［な］",
+    "furigana": "きけん［な］",
+    "romaji": "kiken [na]",
+    "english_meaning": "dangerous",
+    "bengali_meaning": "dangerous",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v011",
+    "kanji": "濃い",
+    "furigana": "こい",
+    "romaji": "koi",
+    "english_meaning": "strong (taste), dark (color), thick (liquid)",
+    "bengali_meaning": "strong (taste), dark (color), thick (liquid)",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v012",
+    "kanji": "薄い",
+    "furigana": "うすい",
+    "romaji": "usui",
+    "english_meaning": "weak (taste), light (color), thin",
+    "bengali_meaning": "weak (taste), light (color), thin",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v013",
+    "kanji": "厚い",
+    "furigana": "あつい",
+    "romaji": "atsui",
+    "english_meaning": "thick",
+    "bengali_meaning": "thick",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v014",
+    "kanji": "太い",
+    "furigana": "ふとい",
+    "romaji": "futoi",
+    "english_meaning": "thick (of large diameter)",
+    "bengali_meaning": "thick (of large diameter)",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v015",
+    "kanji": "細い",
+    "furigana": "ほそい",
+    "romaji": "hosoi",
+    "english_meaning": "thin (of small diameter)",
+    "bengali_meaning": "thin (of small diameter)",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v016",
+    "kanji": "空気",
+    "furigana": "くうき",
+    "romaji": "kūki",
+    "english_meaning": "air",
+    "bengali_meaning": "air",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v017",
+    "kanji": "涙",
+    "furigana": "なみだ",
+    "romaji": "namida",
+    "english_meaning": "tear",
+    "bengali_meaning": "tear",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v018",
+    "kanji": "和食",
+    "furigana": "わしょく",
+    "romaji": "washoku",
+    "english_meaning": "Japanese dish",
+    "bengali_meaning": "Japanese dish",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v019",
+    "kanji": "洋食",
+    "furigana": "ようしょく",
+    "romaji": "yōshoku",
+    "english_meaning": "Western dish",
+    "bengali_meaning": "Western dish",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v020",
+    "kanji": "御数",
+    "furigana": "おかず",
+    "romaji": "okazu",
+    "english_meaning": "side dish",
+    "bengali_meaning": "side dish",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v021",
+    "kanji": "量",
+    "furigana": "りょう",
+    "romaji": "ryō",
+    "english_meaning": "quantity",
+    "bengali_meaning": "quantity",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v022",
+    "kanji": "－倍",
+    "furigana": "－ばい",
+    "romaji": "-bai",
+    "english_meaning": "－ times",
+    "bengali_meaning": "－ times",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v023",
+    "furigana": "シングル",
+    "romaji": "shinguru",
+    "english_meaning": "single room",
+    "bengali_meaning": "single room",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v024",
+    "furigana": "ツイン",
+    "romaji": "tsuin",
+    "english_meaning": "twin-bedded room",
+    "bengali_meaning": "twin-bedded room",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v025",
+    "kanji": "洗濯物",
+    "furigana": "せんたくもの",
+    "romaji": "sentakumono",
+    "english_meaning": "washing, laundry",
+    "bengali_meaning": "washing, laundry",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v026",
+    "furigana": "DVD",
+    "romaji": "DVD",
+    "english_meaning": "DVD",
+    "bengali_meaning": "DVD",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v027",
+    "furigana": "ホテルひろしま",
+    "romaji": "hoteruhiroshima",
+    "english_meaning": "a fictitious hotel",
+    "bengali_meaning": "a fictitious hotel",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v028",
+    "furigana": "どう なさいますか。",
+    "romaji": "dō nasaimasuka.",
+    "english_meaning": "What can I do for you? (respectful)",
+    "bengali_meaning": "What can I do for you? (respectful)",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v029",
+    "furigana": "カット",
+    "romaji": "katto",
+    "english_meaning": "haircut",
+    "bengali_meaning": "haircut",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v030",
+    "furigana": "シャンプー",
+    "romaji": "shanpū",
+    "english_meaning": "shampoo (～を します : shampoo)",
+    "bengali_meaning": "shampoo (～を します : shampoo)",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v031",
+    "furigana": "どういうふうに なさいますか。",
+    "romaji": "dōiufūni nasaimasuka.",
+    "english_meaning": "How would you like it done? (respectful)",
+    "bengali_meaning": "How would you like it done? (respectful)",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v032",
+    "furigana": "ショート",
+    "romaji": "shōto",
+    "english_meaning": "short",
+    "bengali_meaning": "short",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v033",
+    "furigana": "～みたいに して ください。",
+    "romaji": "~mitaini shite kudasai.",
+    "english_meaning": "Do it like ～.",
+    "bengali_meaning": "Do it like ～.",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v034",
+    "furigana": "これで よろしいでしょうか。",
+    "romaji": "korede yoroshiideshōka.",
+    "english_meaning": "Would this be all right? (polite)",
+    "bengali_meaning": "Would this be all right? (polite)",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v035",
+    "kanji": "［どうも］お疲れさまでした。",
+    "furigana": "［どうも］おつかれさまでした。",
+    "romaji": "[dōmo] otsukaresamadeshita.",
+    "english_meaning": "Thank you for your patience. (shop assistant to customer)",
+    "bengali_meaning": "Thank you for your patience. (shop assistant to customer)",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v036",
+    "kanji": "嫌がります",
+    "furigana": "いやがります",
+    "romaji": "iyagarimasu",
+    "english_meaning": "dislike",
+    "bengali_meaning": "dislike",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v037",
+    "furigana": "また",
+    "romaji": "mata",
+    "english_meaning": "and",
+    "bengali_meaning": "and",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v038",
+    "furigana": "うまく",
+    "romaji": "umaku",
+    "english_meaning": "well",
+    "bengali_meaning": "well",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v039",
+    "kanji": "順序",
+    "furigana": "じゅんじょ",
+    "romaji": "junjo",
+    "english_meaning": "order",
+    "bengali_meaning": "order",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v040",
+    "kanji": "安心［な］",
+    "furigana": "あんしん［な］",
+    "romaji": "anshin [na]",
+    "english_meaning": "relieved",
+    "bengali_meaning": "relieved",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v041",
+    "kanji": "表現",
+    "furigana": "ひょうげん",
+    "romaji": "hyōgen",
+    "english_meaning": "expression",
+    "bengali_meaning": "expression",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v042",
+    "kanji": "例えば",
+    "furigana": "たとえば",
+    "romaji": "tatoeba",
+    "english_meaning": "for example",
+    "bengali_meaning": "for example",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v043",
+    "kanji": "別れます",
+    "furigana": "わかれます",
+    "romaji": "wakaremasu",
+    "english_meaning": "part, separate",
+    "bengali_meaning": "part, separate",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v044",
+    "furigana": "これら",
+    "romaji": "korera",
+    "english_meaning": "these",
+    "bengali_meaning": "these",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v045",
+    "kanji": "縁起が 悪い",
+    "furigana": "えんぎが わるい",
+    "romaji": "engiga warui",
+    "english_meaning": "unlucky, ill-omened",
+    "bengali_meaning": "unlucky, ill-omened",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v046",
+    "kanji": "丁寧［な］",
+    "furigana": "ていねい［な］",
+    "romaji": "teinei [na]",
+    "english_meaning": "polite, courteous, careful",
+    "bengali_meaning": "polite, courteous, careful",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v047",
+    "kanji": "細かい",
+    "furigana": "こまかい",
+    "romaji": "komakai",
+    "english_meaning": "small, fine",
+    "bengali_meaning": "small, fine",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v048",
+    "kanji": "半分",
+    "furigana": "はんぶん",
+    "romaji": "hanbun",
+    "english_meaning": "half",
+    "bengali_meaning": "half",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v049",
+    "kanji": "箪笥",
+    "furigana": "たんす",
+    "romaji": "tansu",
+    "english_meaning": "chest of drawers",
+    "bengali_meaning": "chest of drawers",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  },
+  {
+    "id": "minna-044-v050",
+    "kanji": "理由",
+    "furigana": "りゆう",
+    "romaji": "riyū",
+    "english_meaning": "reason",
+    "bengali_meaning": "reason",
+    "tags": [
+      "vocabulary",
+      "lesson-44"
+    ]
+  }
+]

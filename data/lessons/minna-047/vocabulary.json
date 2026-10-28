@@ -1,0 +1,591 @@
+[
+  {
+    "id": "minna-047-v001",
+    "kanji": "吹きます［風が～］",
+    "furigana": "ふきます［かぜが～］",
+    "romaji": "fukimasu [kazega~]",
+    "english_meaning": "[wind] blow",
+    "bengali_meaning": "[wind] blow",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v002",
+    "kanji": "燃えます［ごみが～］",
+    "furigana": "もえます［ごみが～］",
+    "romaji": "moemasu [gomiga~]",
+    "english_meaning": "[rubbish] burn",
+    "bengali_meaning": "[rubbish] burn",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v003",
+    "kanji": "亡くなります",
+    "furigana": "なくなります",
+    "romaji": "nakunarimasu",
+    "english_meaning": "pass away (euphemistic expression for しにます)",
+    "bengali_meaning": "pass away (euphemistic expression for しにます)",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v004",
+    "kanji": "集まります［人が～］",
+    "furigana": "あつまります［ひとが～］",
+    "romaji": "atsumarimasu [hitoga~]",
+    "english_meaning": "[people] gather",
+    "bengali_meaning": "[people] gather",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v005",
+    "kanji": "別れます［人が～］",
+    "furigana": "わかれます［ひとが～］",
+    "romaji": "wakaremasu [hitoga~]",
+    "english_meaning": "[people] part, separate",
+    "bengali_meaning": "[people] part, separate",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v006",
+    "kanji": "します［音／声が～］",
+    "furigana": "します［おと／こえが～］",
+    "romaji": "shimasu [oto/koega~]",
+    "english_meaning": "[sound/voice] be heard",
+    "bengali_meaning": "[sound/voice] be heard",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v007",
+    "kanji": "します［味が～］",
+    "furigana": "します［あじが～］",
+    "romaji": "shimasu [ajiga~]",
+    "english_meaning": "taste",
+    "bengali_meaning": "taste",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v008",
+    "furigana": "します［においが～］",
+    "romaji": "shimasu [nioiga~]",
+    "english_meaning": "smell",
+    "bengali_meaning": "smell",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v009",
+    "kanji": "厳しい",
+    "furigana": "きびしい",
+    "romaji": "kibishii",
+    "english_meaning": "strict, hard",
+    "bengali_meaning": "strict, hard",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v010",
+    "furigana": "ひどい",
+    "romaji": "hidoi",
+    "english_meaning": "terrible, severe",
+    "bengali_meaning": "terrible, severe",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v011",
+    "kanji": "怖い",
+    "furigana": "こわい",
+    "romaji": "kowai",
+    "english_meaning": "frightening, horrible",
+    "bengali_meaning": "frightening, horrible",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v012",
+    "kanji": "実験",
+    "furigana": "じっけん",
+    "romaji": "jikken",
+    "english_meaning": "experiment",
+    "bengali_meaning": "experiment",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v013",
+    "furigana": "データ",
+    "romaji": "dēta",
+    "english_meaning": "data",
+    "bengali_meaning": "data",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v014",
+    "kanji": "人口",
+    "furigana": "じんこう",
+    "romaji": "jinkō",
+    "english_meaning": "population",
+    "bengali_meaning": "population",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v015",
+    "furigana": "におい",
+    "romaji": "nioi",
+    "english_meaning": "smell",
+    "bengali_meaning": "smell",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v016",
+    "kanji": "科学",
+    "furigana": "かがく",
+    "romaji": "kagaku",
+    "english_meaning": "science",
+    "bengali_meaning": "science",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v017",
+    "kanji": "医学",
+    "furigana": "いがく",
+    "romaji": "igaku",
+    "english_meaning": "medicine, medical science",
+    "bengali_meaning": "medicine, medical science",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v018",
+    "kanji": "文学",
+    "furigana": "ぶんがく",
+    "romaji": "bungaku",
+    "english_meaning": "literature",
+    "bengali_meaning": "literature",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v019",
+    "furigana": "パトカー",
+    "romaji": "patokā",
+    "english_meaning": "police car",
+    "bengali_meaning": "police car",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v020",
+    "kanji": "救急車",
+    "furigana": "きゅうきゅうしゃ",
+    "romaji": "kyūkyūsha",
+    "english_meaning": "ambulance",
+    "bengali_meaning": "ambulance",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v021",
+    "kanji": "賛成",
+    "furigana": "さんせい",
+    "romaji": "sansei",
+    "english_meaning": "approval, agreement",
+    "bengali_meaning": "approval, agreement",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v022",
+    "kanji": "反対",
+    "furigana": "はんたい",
+    "romaji": "hantai",
+    "english_meaning": "objection, opposition",
+    "bengali_meaning": "objection, opposition",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v023",
+    "kanji": "大統領",
+    "furigana": "だいとうりょう",
+    "romaji": "daitōryō",
+    "english_meaning": "president",
+    "bengali_meaning": "president",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v024",
+    "furigana": "～に よると",
+    "romaji": "~ni yoruto",
+    "english_meaning": "according to ～ (indicates the source of information)",
+    "bengali_meaning": "according to ～ (indicates the source of information)",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v025",
+    "kanji": "婚約します",
+    "furigana": "こんやくします",
+    "romaji": "kon'yakushimasu",
+    "english_meaning": "get engaged",
+    "bengali_meaning": "get engaged",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v026",
+    "furigana": "どうも",
+    "romaji": "dōmo",
+    "english_meaning": "it seems that (used when making a tentative judgement)",
+    "bengali_meaning": "it seems that (used when making a tentative judgement)",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v027",
+    "kanji": "恋人",
+    "furigana": "こいびと",
+    "romaji": "koibito",
+    "english_meaning": "sweetheart, boyfriend, girlfriend",
+    "bengali_meaning": "sweetheart, boyfriend, girlfriend",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v028",
+    "kanji": "相手",
+    "furigana": "あいて",
+    "romaji": "aite",
+    "english_meaning": "the other person",
+    "bengali_meaning": "the other person",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v029",
+    "kanji": "知り合います",
+    "furigana": "しりあいます",
+    "romaji": "shiriaimasu",
+    "english_meaning": "get acquainted",
+    "bengali_meaning": "get acquainted",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v030",
+    "kanji": "化粧",
+    "furigana": "けしょう",
+    "romaji": "keshō",
+    "english_meaning": "makeup (～を します : put on makeup)",
+    "bengali_meaning": "makeup (～を します : put on makeup)",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v031",
+    "kanji": "世話を します",
+    "furigana": "せわを します",
+    "romaji": "sewawo shimasu",
+    "english_meaning": "take care of",
+    "bengali_meaning": "take care of",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v032",
+    "kanji": "女性",
+    "furigana": "じょせい",
+    "romaji": "josei",
+    "english_meaning": "female, woman",
+    "bengali_meaning": "female, woman",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v033",
+    "kanji": "男性",
+    "furigana": "だんせい",
+    "romaji": "dansei",
+    "english_meaning": "male, man",
+    "bengali_meaning": "male, man",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v034",
+    "kanji": "長生き",
+    "furigana": "ながいき",
+    "romaji": "nagaiki",
+    "english_meaning": "long life (～します : live long)",
+    "bengali_meaning": "long life (～します : live long)",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v035",
+    "kanji": "理由",
+    "furigana": "りゆう",
+    "romaji": "riyū",
+    "english_meaning": "reason",
+    "bengali_meaning": "reason",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v036",
+    "kanji": "関係",
+    "furigana": "かんけい",
+    "romaji": "kankei",
+    "english_meaning": "relationship",
+    "bengali_meaning": "relationship",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v037",
+    "kanji": "さします［傘を～］",
+    "furigana": "さします［かさを～］",
+    "romaji": "sashimasu [kasawo~]",
+    "english_meaning": "put up [an umbrella]",
+    "bengali_meaning": "put up [an umbrella]",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v038",
+    "kanji": "天気予報",
+    "furigana": "てんきよほう",
+    "romaji": "tenkiyohō",
+    "english_meaning": "weather forecast",
+    "bengali_meaning": "weather forecast",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v039",
+    "kanji": "発表",
+    "furigana": "はっぴょう",
+    "romaji": "happyō",
+    "english_meaning": "announcement, presentation",
+    "bengali_meaning": "announcement, presentation",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v040",
+    "kanji": "バリ［島］",
+    "furigana": "バリ［とう］",
+    "romaji": "bari [tou]",
+    "english_meaning": "Bali [island] (in Indonesia)",
+    "bengali_meaning": "Bali [island] (in Indonesia)",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v041",
+    "furigana": "イラン",
+    "romaji": "iran",
+    "english_meaning": "Iran",
+    "bengali_meaning": "Iran",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v042",
+    "furigana": "カリフォルニア",
+    "romaji": "kariforunia",
+    "english_meaning": "California (in U.S.A.)",
+    "bengali_meaning": "California (in U.S.A.)",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v043",
+    "furigana": "グアム",
+    "romaji": "guamu",
+    "english_meaning": "Guam",
+    "bengali_meaning": "Guam",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v044",
+    "kanji": "平均寿命",
+    "furigana": "へいきんじゅみょう",
+    "romaji": "heikinjumyō",
+    "english_meaning": "average life span",
+    "bengali_meaning": "average life span",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v045",
+    "kanji": "比べます［男性と～］",
+    "furigana": "くらべます［だんせいと～］",
+    "romaji": "kurabemasu [danseito~]",
+    "english_meaning": "compare [with men]",
+    "bengali_meaning": "compare [with men]",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v046",
+    "kanji": "博士",
+    "furigana": "はかせ",
+    "romaji": "hakase",
+    "english_meaning": "doctor",
+    "bengali_meaning": "doctor",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v047",
+    "kanji": "脳",
+    "furigana": "のう",
+    "romaji": "nō",
+    "english_meaning": "brain",
+    "bengali_meaning": "brain",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v048",
+    "furigana": "ホルモン",
+    "romaji": "horumon",
+    "english_meaning": "hormone",
+    "bengali_meaning": "hormone",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v049",
+    "kanji": "化粧品",
+    "furigana": "けしょうひん",
+    "romaji": "keshōhin",
+    "english_meaning": "cosmetics",
+    "bengali_meaning": "cosmetics",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  },
+  {
+    "id": "minna-047-v050",
+    "kanji": "調べ",
+    "furigana": "しらべ",
+    "romaji": "shirabe",
+    "english_meaning": "survey, research",
+    "bengali_meaning": "survey, research",
+    "tags": [
+      "vocabulary",
+      "lesson-47"
+    ]
+  }
+]

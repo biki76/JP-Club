@@ -1,0 +1,708 @@
+[
+  {
+    "id": "minna-036-v001",
+    "kanji": "あいます［事故に～］",
+    "furigana": "あいます［じこに～］",
+    "romaji": "aimasu [jikoni~]",
+    "english_meaning": "encounter [an accident]",
+    "bengali_meaning": "encounter [an accident]",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v002",
+    "kanji": "貯金します",
+    "furigana": "ちょきんします",
+    "romaji": "chokinshimasu",
+    "english_meaning": "save money",
+    "bengali_meaning": "save money",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v003",
+    "kanji": "過ぎます［７時を～］",
+    "furigana": "すぎます［７じを～］",
+    "romaji": "sugimasu [7jiwo~]",
+    "english_meaning": "pass [7 o'clock]",
+    "bengali_meaning": "pass [7 o'clock]",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v004",
+    "kanji": "慣れます［仕事に～］",
+    "furigana": "なれます［しごとに～］",
+    "romaji": "naremasu [shigotoni~]",
+    "english_meaning": "get accustomed to [one's job]",
+    "bengali_meaning": "get accustomed to [one's job]",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v005",
+    "kanji": "腐ります［食べ物が～］",
+    "furigana": "くさります［たべものが～］",
+    "romaji": "kusarimasu [tabemonoga~]",
+    "english_meaning": "[food] rot",
+    "bengali_meaning": "[food] rot",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v006",
+    "kanji": "剣道",
+    "furigana": "けんどう",
+    "romaji": "kendō",
+    "english_meaning": "kendo (Japanese style fencing)",
+    "bengali_meaning": "kendo (Japanese style fencing)",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v007",
+    "kanji": "柔道",
+    "furigana": "じゅうどう",
+    "romaji": "jūdō",
+    "english_meaning": "judo",
+    "bengali_meaning": "judo",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v008",
+    "furigana": "ラッシュ",
+    "romaji": "rasshu",
+    "english_meaning": "rush hour",
+    "bengali_meaning": "rush hour",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v009",
+    "kanji": "宇宙",
+    "furigana": "うちゅう",
+    "romaji": "uchū",
+    "english_meaning": "space, universe",
+    "bengali_meaning": "space, universe",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v010",
+    "kanji": "曲",
+    "furigana": "きょく",
+    "romaji": "kyoku",
+    "english_meaning": "a piece of music",
+    "bengali_meaning": "a piece of music",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v011",
+    "kanji": "毎週",
+    "furigana": "まいしゅう",
+    "romaji": "maishū",
+    "english_meaning": "every week",
+    "bengali_meaning": "every week",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v012",
+    "kanji": "毎月",
+    "furigana": "まいつき",
+    "romaji": "maitsuki",
+    "english_meaning": "every month",
+    "bengali_meaning": "every month",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v013",
+    "kanji": "毎年",
+    "furigana": "まいとし（まいねん）",
+    "romaji": "maitoshi (mainen)",
+    "english_meaning": "every year",
+    "bengali_meaning": "every year",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v014",
+    "furigana": "こ��ごろ",
+    "romaji": "konogoro",
+    "english_meaning": "these days",
+    "bengali_meaning": "these days",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v015",
+    "furigana": "やっと",
+    "romaji": "yatto",
+    "english_meaning": "finally",
+    "bengali_meaning": "finally",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v016",
+    "furigana": "かなり",
+    "romaji": "kanari",
+    "english_meaning": "fairly",
+    "bengali_meaning": "fairly",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v017",
+    "kanji": "必ず",
+    "furigana": "かならず",
+    "romaji": "kanarazu",
+    "english_meaning": "without fail, by any means",
+    "bengali_meaning": "without fail, by any means",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v018",
+    "kanji": "絶対に",
+    "furigana": "ぜったいに",
+    "romaji": "zettaini",
+    "english_meaning": "absolutely",
+    "bengali_meaning": "absolutely",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v019",
+    "kanji": "上手に",
+    "furigana": "じょうずに",
+    "romaji": "jōzuni",
+    "english_meaning": "well, skillfully",
+    "bengali_meaning": "well, skillfully",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v020",
+    "furigana": "できるだけ",
+    "romaji": "dekirudake",
+    "english_meaning": "as much as possible",
+    "bengali_meaning": "as much as possible",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v021",
+    "furigana": "ほとんど",
+    "romaji": "hotondo",
+    "english_meaning": "almost all (in affirmative sentences), hardly, scarcely (in negative sentences)",
+    "bengali_meaning": "almost all (in affirmative sentences), hardly, scarcely (in negative sentences)",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v022",
+    "furigana": "ショパン",
+    "romaji": "shopan",
+    "english_meaning": "Chopin, Polish musician (1810-49)",
+    "bengali_meaning": "Chopin, Polish musician (1810-49)",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v023",
+    "kanji": "お客様",
+    "furigana": "おきゃくさま",
+    "romaji": "okyakusama",
+    "english_meaning": "visitor, guest, customer, client (respectful equivalent of おきゃくさん)",
+    "bengali_meaning": "visitor, guest, customer, client (respectful equivalent of おきゃくさん)",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v024",
+    "kanji": "特別［な］",
+    "furigana": "とくべつ［な］",
+    "romaji": "tokubetsu [na]",
+    "english_meaning": "special",
+    "bengali_meaning": "special",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v025",
+    "furigana": "して いらっしゃいます",
+    "romaji": "shite irasshaimasu",
+    "english_meaning": "be doing (respectful equivalent of して います)",
+    "bengali_meaning": "be doing (respectful equivalent of して います)",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v026",
+    "kanji": "水泳",
+    "furigana": "すいえい",
+    "romaji": "suiei",
+    "english_meaning": "swimming",
+    "bengali_meaning": "swimming",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v027",
+    "kanji": "違います",
+    "furigana": "ちがいます",
+    "romaji": "chigaimasu",
+    "english_meaning": "be different",
+    "bengali_meaning": "be different",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v028",
+    "kanji": "使って いらっしゃるんですね。",
+    "furigana": "つかって いらっしゃるんですね。",
+    "romaji": "tsukatte irassharundesune.",
+    "english_meaning": "You're using, aren't you? (respectful equivalent of つかって いるんですね)",
+    "bengali_meaning": "You're using, aren't you? (respectful equivalent of つかって いるんですね)",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v029",
+    "furigana": "チャレンジします",
+    "romaji": "charenjishimasu",
+    "english_meaning": "challenge",
+    "bengali_meaning": "challenge",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v030",
+    "kanji": "気持ち",
+    "furigana": "きもち",
+    "romaji": "kimochi",
+    "english_meaning": "spirit, mood",
+    "bengali_meaning": "spirit, mood",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v031",
+    "kanji": "乗り物",
+    "furigana": "のりもの",
+    "romaji": "norimono",
+    "english_meaning": "vehicle, means of transportation",
+    "bengali_meaning": "vehicle, means of transportation",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v032",
+    "kanji": "ー世紀",
+    "furigana": "ーせいき",
+    "romaji": "-seiki",
+    "english_meaning": "-th century",
+    "bengali_meaning": "-th century",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v033",
+    "kanji": "遠く",
+    "furigana": "とおく",
+    "romaji": "tōku",
+    "english_meaning": "far, remote place",
+    "bengali_meaning": "far, remote place",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v034",
+    "kanji": "珍しい",
+    "furigana": "めずらしい",
+    "romaji": "mezurashii",
+    "english_meaning": "rare, uncommon",
+    "bengali_meaning": "rare, uncommon",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v035",
+    "kanji": "汽車",
+    "furigana": "きしゃ",
+    "romaji": "kisha",
+    "english_meaning": "locomotive",
+    "bengali_meaning": "locomotive",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v036",
+    "kanji": "汽船",
+    "furigana": "きせん",
+    "romaji": "kisen",
+    "english_meaning": "steam boat",
+    "bengali_meaning": "steam boat",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v037",
+    "kanji": "大勢の ～",
+    "furigana": "おおぜいの ～",
+    "romaji": "oozeino ~",
+    "english_meaning": "many (people)",
+    "bengali_meaning": "many (people)",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v038",
+    "kanji": "運びます",
+    "furigana": "はこびます",
+    "romaji": "hakobimasu",
+    "english_meaning": "carry, transport",
+    "bengali_meaning": "carry, transport",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v039",
+    "kanji": "利用します",
+    "furigana": "りようします",
+    "romaji": "riyōshimasu",
+    "english_meaning": "use",
+    "bengali_meaning": "use",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v040",
+    "kanji": "自由に",
+    "furigana": "じゆうに",
+    "romaji": "jiyūni",
+    "english_meaning": "freely",
+    "bengali_meaning": "freely",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v041",
+    "kanji": "届きます［荷物が～］",
+    "furigana": "とどきます［にもつが～］",
+    "romaji": "todokimasu [nimotsuga~]",
+    "english_meaning": "[parcels] be delivered",
+    "bengali_meaning": "[parcels] be delivered",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v042",
+    "kanji": "出ます［試合に～］",
+    "furigana": "でます［しあいに～］",
+    "romaji": "demasu [shiaini~]",
+    "english_meaning": "participate [in the game]",
+    "bengali_meaning": "participate [in the game]",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v043",
+    "kanji": "打ちます［ワープロを～］",
+    "furigana": "うちます［ワープロを～］",
+    "romaji": "uchimasu [wāpurowo~]",
+    "english_meaning": "type [on a word processor]",
+    "bengali_meaning": "type [on a word processor]",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v044",
+    "kanji": "太ります",
+    "furigana": "ふとります",
+    "romaji": "futorimasu",
+    "english_meaning": "get fat",
+    "bengali_meaning": "get fat",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v045",
+    "furigana": "やせます",
+    "romaji": "yasemasu",
+    "english_meaning": "get slim, lose weight",
+    "bengali_meaning": "get slim, lose weight",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v046",
+    "kanji": "硬い",
+    "furigana": "かたい",
+    "romaji": "katai",
+    "english_meaning": "hard, tough, solid",
+    "bengali_meaning": "hard, tough, solid",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v047",
+    "kanji": "軟らかい",
+    "furigana": "やわらかい",
+    "romaji": "yawarakai",
+    "english_meaning": "soft, tender",
+    "bengali_meaning": "soft, tender",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v048",
+    "kanji": "電子～",
+    "furigana": "でんし～",
+    "romaji": "denshi~",
+    "english_meaning": "electronic ～",
+    "bengali_meaning": "electronic ～",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v049",
+    "kanji": "携帯～",
+    "furigana": "けいたい～",
+    "romaji": "keitai~",
+    "english_meaning": "portable ～",
+    "bengali_meaning": "portable ～",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v050",
+    "kanji": "工場",
+    "furigana": "こうじょう",
+    "romaji": "kōjō",
+    "english_meaning": "factory",
+    "bengali_meaning": "factory",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v051",
+    "kanji": "健康",
+    "furigana": "けんこう",
+    "romaji": "kenkō",
+    "english_meaning": "health",
+    "bengali_meaning": "health",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v052",
+    "furigana": "～ずつ",
+    "romaji": "~zutsu",
+    "english_meaning": "～ (some amount) per (some unit)",
+    "bengali_meaning": "～ (some amount) per (some unit)",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v053",
+    "furigana": "その ほうが ～",
+    "romaji": "sono hōga~",
+    "english_meaning": "That is more ～",
+    "bengali_meaning": "That is more ～",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v054",
+    "furigana": "～とか、～とか",
+    "romaji": "~toka, ~toka",
+    "english_meaning": "～, ～, and so on",
+    "bengali_meaning": "～, ～, and so on",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v055",
+    "furigana": "タンゴ",
+    "romaji": "tango",
+    "english_meaning": "tango",
+    "bengali_meaning": "tango",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v056",
+    "kanji": "歴史",
+    "furigana": "れきし",
+    "romaji": "rekishi",
+    "english_meaning": "history",
+    "bengali_meaning": "history",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v057",
+    "kanji": "飛びます",
+    "furigana": "とびます",
+    "romaji": "tobimasu",
+    "english_meaning": "fly",
+    "bengali_meaning": "fly",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v058",
+    "kanji": "安全［な］",
+    "furigana": "あんぜん［な］",
+    "romaji": "anzen [na]",
+    "english_meaning": "safe",
+    "bengali_meaning": "safe",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v059",
+    "kanji": "地球",
+    "furigana": "ちきゅう",
+    "romaji": "chikyū",
+    "english_meaning": "earth",
+    "bengali_meaning": "earth",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  },
+  {
+    "id": "minna-036-v060",
+    "kanji": "ライト兄弟",
+    "furigana": "ライトきょうだい",
+    "romaji": "raitokyōdai",
+    "english_meaning": "Wright brothers, American pioneers in aviation ; Wilbur Wright (1867-1912) Orville Wright (1871-1948)",
+    "bengali_meaning": "Wright brothers, American pioneers in aviation ; Wilbur Wright (1867-1912) Orville Wright (1871-1948)",
+    "tags": [
+      "vocabulary",
+      "lesson-36"
+    ]
+  }
+]

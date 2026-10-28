@@ -1,0 +1,25 @@
+{
+  "slug": "minna-009",
+  "courseId": "minna-beginner",
+  "lessonNumber": 9,
+  "title": {
+    "en": "Lesson 9",
+    "bn": "পাঠ 9"
+  },
+  "subtitle": {
+    "en": "Minna no Nihongo 9",
+    "bn": "মিন্না নো নিহোঙ্গো 9"
+  },
+  "jlpt": "N5",
+  "durationMin": 50,
+  "dataFiles": {
+    "vocabulary": "vocabulary.json",
+    "grammar": "grammar.json",
+    "kanji": "kanji.json",
+    "practice": "practice.json"
+  },
+  "tags": [
+    "minna",
+    "lesson-9"
+  ]
+}

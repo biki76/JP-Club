@@ -1,29 +1,122 @@
 [
   {
-    "id": "minna-001-p001",
+    "id": "minna-001-p1",
     "type": "multiple-choice",
-    "prompt": { "en": "Choose the correct particle.", "bn": "সঠিক পার্টিকেল নির্বাচন করুন।" },
-    "stem":   { "jp": "私＿＿学生です。", "furigana": "わたし＿＿がくせいです。", "romaji": "Watashi __ gakusei desu." },
-    "options": ["は", "も", "の", "か"],
+    "prompt": {
+      "en": "Choose the correct meaning for: N は N です",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N は N です"
+    },
+    "stem": {
+      "jp": "わたしは 学生です。",
+      "furigana": "わたしは 学生です。",
+      "romaji": ""
+    },
+    "options": [
+      "A is B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
     "correctIndex": 0,
-    "explanation": { "en": "は marks the topic.", "bn": "は টপিক চিহ্নিত করে।" }
+    "explanation": {
+      "en": "The pattern N は N です means \"A is B\".",
+      "bn": "N は N です এর অর্থ \"A হলো B\"।"
+    }
   },
   {
-    "id": "minna-001-p002",
+    "id": "minna-001-p2",
     "type": "multiple-choice",
-    "prompt": { "en": "Choose the correct negative form.", "bn": "সঠিক নেতিবাচক রূপ নির্বাচন করুন।" },
-    "stem":   { "jp": "私は先生＿＿。", "furigana": "わたしはせんせい＿＿。", "romaji": "Watashi wa sensei __." },
-    "options": ["です", "じゃありません", "ですか", "ですね"],
-    "correctIndex": 1,
-    "explanation": { "en": "じゃありません is the polite negative.", "bn": "じゃありません ভদ্র নেতিবাচক রূপ।" }
+    "prompt": {
+      "en": "Choose the correct meaning for: N は N じゃありません",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N は N じゃありません"
+    },
+    "stem": {
+      "jp": "わたしは 先生じゃありません。",
+      "furigana": "わたしは 先生じゃありません。",
+      "romaji": ""
+    },
+    "options": [
+      "A is not B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N は N じゃありません means \"A is not B\".",
+      "bn": "N は N じゃありません এর অর্থ \"A নয় B\"।"
+    }
   },
   {
-    "id": "minna-001-p003",
+    "id": "minna-001-p3",
     "type": "multiple-choice",
-    "prompt": { "en": "Choose the correct possessive particle.", "bn": "সঠিক অধিকারবাচক পার্টিকেল নির্বাচন করুন।" },
-    "stem":   { "jp": "私＿＿大学", "furigana": "わたし＿＿だいがく", "romaji": "Watashi __ daigaku" },
-    "options": ["は", "も", "の", "を"],
-    "correctIndex": 2,
-    "explanation": { "en": "の links two nouns as possession.", "bn": "の দুটি বিশেষ্যের মধ্যে অধিকার সম্পর্ক তৈরি করে।" }
+    "prompt": {
+      "en": "Choose the correct meaning for: N は N ですか",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N は N ですか"
+    },
+    "stem": {
+      "jp": "あなたは 学生ですか。",
+      "furigana": "あなたは 学生ですか。",
+      "romaji": ""
+    },
+    "options": [
+      "Is A B?",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N は N ですか means \"Is A B?\".",
+      "bn": "N は N ですか এর অর্থ \"A কি B?\"।"
+    }
+  },
+  {
+    "id": "minna-001-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N も",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N も"
+    },
+    "stem": {
+      "jp": "わたしも 学生です。",
+      "furigana": "わたしも 学生です。",
+      "romaji": ""
+    },
+    "options": [
+      "also / too",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N も means \"also / too\".",
+      "bn": "N も এর অর্থ \"ও / -ও\"।"
+    }
+  },
+  {
+    "id": "minna-001-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N の N",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N の N"
+    },
+    "stem": {
+      "jp": "わたしの 本です。",
+      "furigana": "わたしの 本です。",
+      "romaji": ""
+    },
+    "options": [
+      "N's N",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N の N means \"N's N\".",
+      "bn": "N の N এর অর্থ \"N-এর N\"।"
+    }
   }
 ]

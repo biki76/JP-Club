@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Lesson | JP-Club</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans">
+
+  <!-- Simple Header -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="home.html" class="text-blue-600 font-bold text-lg hover:underline">← JP-Club</a>
+      <span id="header-lesson-badge" class="text-xs bg-slate-100 px-2.5 py-1 rounded font-medium text-slate-600">Loading...</span>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="flex-grow max-w-4xl w-full mx-auto px-4 py-6">
+    
+    <!-- Lesson Header Info -->
+    <div class="bg-white border border-slate-200 rounded-lg p-6 mb-6 shadow-sm">
+      <h1 id="lesson-title" class="text-2xl font-bold text-slate-900 mb-2">Lesson Loading...</h1>
+      <p id="lesson-subtitle" class="text-slate-600 text-sm">Minna no Nihongo Vocabulary & Grammar (Bengali / English)</p>
+    </div>
+
+    <!-- Lesson Content Tabs / Sections -->
+    <div class="space-y-6">
+      <section class="bg-white border border-slate-200 rounded-lg p-6 shadow-sm">
+        <h2 class="text-lg font-semibold text-slate-900 mb-4 border-b pb-2">Vocabulary (शब्दकोश / 語彙)</h2>
+        <div id="vocab-container" class="divide-y divide-slate-100">
+          <p class="text-slate-500 italic py-2">Fetching vocabulary data...</p>
+        </div>
+      </section>
+
+      <section class="bg-white border border-slate-200 rounded-lg p-6 shadow-sm">
+        <h2 class="text-lg font-semibold text-slate-900 mb-4 border-b pb-2">Grammar Points (व्याकरण / 文法)</h2>
+        <div id="grammar-container" class="space-y-4">
+          <p class="text-slate-500 italic py-2">Fetching grammar rules...</p>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- Router Script -->
+  <script>
+    // 1. Extract query parameter (?id=1 or ?lesson=minna-001)
+    const urlParams = new URLSearchParams(window.location.search);
+    const lessonParam = urlParams.get('id') || urlParams.get('lesson') || '1';
+    
+    // Normalize lesson number (e.g. "minna-001" -> 1, "1" -> 1)
+    const lessonId = parseInt(lessonParam.toString().replace(/\D/g, '')) || 1;
+
+    // 2. Update UI with current lesson data
+    document.getElementById('page-title').innerText = `Lesson ${lessonId} | JP-Club`;
+    document.getElementById('header-lesson-badge').innerText = `Lesson ${lessonId} of 50`;
+    document.getElementById('lesson-title').innerText = `Minna no Nihongo - Lesson ${lessonId}`;
+
+    // Test render placeholder for Lesson 1 data
+    if (lessonId === 1) {
+      document.getElementById('vocab-container').innerHTML = `
+        <div class="py-2 flex justify-between items-center"><div><span class="font-bold text-slate-900">わたし</span> <span class="text-xs text-slate-500 ml-2">(Watashi)</span></div><div class="text-slate-600 text-sm">আমি (I)</div></div>
+        <div class="py-2 flex justify-between items-center"><div><span class="font-bold text-slate-900">あなた</span> <span class="text-xs text-slate-500 ml-2">(Anata)</span></div><div class="text-slate-600 text-sm">আপনি (You)</div></div>
+      `;
+      document.getElementById('grammar-container').innerHTML = `
+        <div>
+          <h3 class="font-semibold text-blue-600 mb-1">1. [Noun 1] は [Noun 2] です</h3>
+          <p class="text-sm text-slate-600">Meaning: Noun 1 is Noun 2. (은/는 equivalent structure in Japanese introduction)</p>
+        </div>
+      `;
+    } else {
+      document.getElementById('vocab-container').innerHTML = `<p class="text-slate-500 py-2">Data file for Lesson ${lessonId} will load here.</p>`;
+      document.getElementById('grammar-container').innerHTML = `<p class="text-slate-500 py-2">Grammar points for Lesson ${lessonId} will load here.</p>`;
+    }
+  </script>
+</body>
+</html>
+

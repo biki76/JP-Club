@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-046-g1",
+    "pattern": "〜46-A",
+    "meaning_en": "Grammar pattern 46-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 46-A",
+    "examples": [
+      {
+        "jp": "これは レッスン46の 文法です。",
+        "en": "This is lesson 46 grammar.",
+        "bn": "This is lesson 46 grammar.",
+        "furigana": "これは レッスン46の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-046-g2",
+    "pattern": "〜46-B",
+    "meaning_en": "Grammar pattern 46-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 46-B",
+    "examples": [
+      {
+        "jp": "これは レッスン46の 文法です。",
+        "en": "This is lesson 46 grammar.",
+        "bn": "This is lesson 46 grammar.",
+        "furigana": "これは レッスン46の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

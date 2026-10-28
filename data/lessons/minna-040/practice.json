@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-040-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜40-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜40-A"
+    },
+    "stem": {
+      "jp": "これは レッスン40の 文法です。",
+      "furigana": "これは レッスン40の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 40-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜40-A means \"Grammar pattern 40-A\".",
+      "bn": "〜40-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 40-A\"।"
+    }
+  },
+  {
+    "id": "minna-040-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜40-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜40-B"
+    },
+    "stem": {
+      "jp": "これは レッスン40の 文法です。",
+      "furigana": "これは レッスン40の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 40-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜40-B means \"Grammar pattern 40-B\".",
+      "bn": "〜40-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 40-B\"।"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-028-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜28-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜28-A"
+    },
+    "stem": {
+      "jp": "これは レッスン28の 文法です。",
+      "furigana": "これは レッスン28の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 28-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜28-A means \"Grammar pattern 28-A\".",
+      "bn": "〜28-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 28-A\"।"
+    }
+  },
+  {
+    "id": "minna-028-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜28-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜28-B"
+    },
+    "stem": {
+      "jp": "これは レッスン28の 文法です。",
+      "furigana": "これは レッスン28の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 28-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜28-B means \"Grammar pattern 28-B\".",
+      "bn": "〜28-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 28-B\"।"
+    }
+  }
+]

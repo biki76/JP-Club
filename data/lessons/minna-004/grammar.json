@@ -1,0 +1,74 @@
+[
+  {
+    "id": "minna-004-g1",
+    "pattern": "〜時 / 〜分",
+    "meaning_en": "hour / minute",
+    "meaning_bn": "ঘণ্টা / মিনিট",
+    "examples": [
+      {
+        "jp": "今、4時です。",
+        "en": "It is 4 o'clock now.",
+        "bn": "It is 4 o'clock now.",
+        "furigana": "今、4時です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-004-g2",
+    "pattern": "〜から 〜まで",
+    "meaning_en": "from ~ to ~",
+    "meaning_bn": "~ থেকে ~ পর্যন্ত",
+    "examples": [
+      {
+        "jp": "9時から 5時まで 働きます。",
+        "en": "I work from 9 to 5.",
+        "bn": "I work from 9 to 5.",
+        "furigana": "9時から 5時まで 働きます。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-004-g3",
+    "pattern": "〜ます / 〜ません",
+    "meaning_en": "polite present aff. / neg.",
+    "meaning_bn": "ভদ্র বর্তমান হ্যাঁ / না",
+    "examples": [
+      {
+        "jp": "毎日 勉強します。",
+        "en": "I study every day.",
+        "bn": "I study every day.",
+        "furigana": "毎日 勉強します。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-004-g4",
+    "pattern": "〜ました / 〜ませんでした",
+    "meaning_en": "polite past aff. / neg.",
+    "meaning_bn": "ভদ্র অতীত হ্যাঁ / না",
+    "examples": [
+      {
+        "jp": "昨日 勉強しました。",
+        "en": "I studied yesterday.",
+        "bn": "I studied yesterday.",
+        "furigana": "昨日 勉強しました。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

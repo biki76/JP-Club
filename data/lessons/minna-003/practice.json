@@ -1,0 +1,98 @@
+[
+  {
+    "id": "minna-003-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: ここ / そこ / あそこ",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: ここ / そこ / あそこ"
+    },
+    "stem": {
+      "jp": "ここは 教室です。",
+      "furigana": "ここは 教室です。",
+      "romaji": ""
+    },
+    "options": [
+      "here / there / over there",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern ここ / そこ / あそこ means \"here / there / over there\".",
+      "bn": "ここ / そこ / あそこ এর অর্থ \"এখানে / সেখানে / ওখানে\"।"
+    }
+  },
+  {
+    "id": "minna-003-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N は どこですか",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N は どこですか"
+    },
+    "stem": {
+      "jp": "トイレは どこですか。",
+      "furigana": "トイレは どこですか。",
+      "romaji": ""
+    },
+    "options": [
+      "Where is N?",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N は どこですか means \"Where is N?\".",
+      "bn": "N は どこですか এর অর্থ \"N কোথায়?\"।"
+    }
+  },
+  {
+    "id": "minna-003-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N を ください",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N を ください"
+    },
+    "stem": {
+      "jp": "これを ください。",
+      "furigana": "これを ください。",
+      "romaji": ""
+    },
+    "options": [
+      "Please give me N",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N を ください means \"Please give me N\".",
+      "bn": "N を ください এর অর্থ \"N দিন\"।"
+    }
+  },
+  {
+    "id": "minna-003-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N を お願いします",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N を お願いします"
+    },
+    "stem": {
+      "jp": "コーヒーを お願いします。",
+      "furigana": "コーヒーを お願いします。",
+      "romaji": ""
+    },
+    "options": [
+      "N, please",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N を お願いします means \"N, please\".",
+      "bn": "N を お願いします এর অর্থ \"N, দয়া করে\"।"
+    }
+  }
+]

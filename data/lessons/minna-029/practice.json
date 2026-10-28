@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-029-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜29-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜29-A"
+    },
+    "stem": {
+      "jp": "これは レッスン29の 文法です。",
+      "furigana": "これは レッスン29の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 29-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜29-A means \"Grammar pattern 29-A\".",
+      "bn": "〜29-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 29-A\"।"
+    }
+  },
+  {
+    "id": "minna-029-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜29-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜29-B"
+    },
+    "stem": {
+      "jp": "これは レッスン29の 文法です。",
+      "furigana": "これは レッスン29の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 29-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜29-B means \"Grammar pattern 29-B\".",
+      "bn": "〜29-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 29-B\"।"
+    }
+  }
+]

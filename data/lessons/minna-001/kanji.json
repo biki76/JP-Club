@@ -1,93 +1,189 @@
 [
   {
     "character": "私",
-    "onyomi": ["シ"],
-    "kunyomi": ["わたし"],
+    "onyomi": [],
+    "kunyomi": [],
     "meanings": {
-      "en": ["I", "me", "private"],
-      "bn": ["আমি", "ব্যক্তিগত"]
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
     },
-    "radicals": ["禾"],
-    "strokes": 7,
-    "grade": 6,
-    "jlpt": "N4"
-  },
-  {
-    "character": "人",
-    "onyomi": ["ジン", "ニン"],
-    "kunyomi": ["ひと"],
-    "meanings": {
-      "en": ["person", "people"],
-      "bn": ["মানুষ", "ব্যক্তি"]
-    },
-    "radicals": ["人"],
-    "strokes": 2,
-    "grade": 1,
-    "jlpt": "N5"
-  },
-  {
-    "character": "大",
-    "onyomi": ["ダイ", "タイ"],
-    "kunyomi": ["おお"],
-    "meanings": {
-      "en": ["big", "large"],
-      "bn": ["বড়"]
-    },
-    "radicals": ["大"],
-    "strokes": 3,
-    "grade": 1,
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "学",
-    "onyomi": ["ガク"],
-    "kunyomi": ["まな.ぶ"],
+    "onyomi": [],
+    "kunyomi": [],
     "meanings": {
-      "en": ["study", "learning"],
-      "bn": ["শিক্ষা", "পড়াশোনা"]
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
     },
-    "radicals": ["子"],
-    "strokes": 8,
-    "grade": 1,
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "生",
-    "onyomi": ["セイ", "ショウ"],
-    "kunyomi": ["い.きる", "う.まれる", "なま"],
+    "onyomi": [],
+    "kunyomi": [],
     "meanings": {
-      "en": ["life", "birth", "raw"],
-      "bn": ["জীবন", "জন্ম"]
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
     },
-    "radicals": ["生"],
-    "strokes": 5,
-    "grade": 1,
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "先",
-    "onyomi": ["セン"],
-    "kunyomi": ["さき"],
+    "onyomi": [],
+    "kunyomi": [],
     "meanings": {
-      "en": ["before", "ahead", "previous"],
-      "bn": ["আগে", "সামনে"]
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
     },
-    "radicals": ["儿"],
-    "strokes": 6,
-    "grade": 1,
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
     "jlpt": "N5"
   },
   {
-    "character": "年",
-    "onyomi": ["ネン"],
-    "kunyomi": ["とし"],
+    "character": "日",
+    "onyomi": [],
+    "kunyomi": [],
     "meanings": {
-      "en": ["year"],
-      "bn": ["বছর"]
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
     },
-    "radicals": ["干"],
-    "strokes": 6,
-    "grade": 1,
-    "jlpt": "N4"
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
+    "jlpt": "N5"
+  },
+  {
+    "character": "本",
+    "onyomi": [],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
+    },
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
+    "jlpt": "N5"
+  },
+  {
+    "character": "人",
+    "onyomi": [],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
+    },
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
+    "jlpt": "N5"
+  },
+  {
+    "character": "社",
+    "onyomi": [],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
+    },
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
+    "jlpt": "N5"
+  },
+  {
+    "character": "員",
+    "onyomi": [],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
+    },
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
+    "jlpt": "N5"
+  },
+  {
+    "character": "医",
+    "onyomi": [],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
+    },
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
+    "jlpt": "N5"
+  },
+  {
+    "character": "者",
+    "onyomi": [],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "Meaning"
+      ],
+      "bn": [
+        "অর্থ"
+      ]
+    },
+    "radicals": [],
+    "strokes": 0,
+    "grade": 5,
+    "jlpt": "N5"
   }
 ]

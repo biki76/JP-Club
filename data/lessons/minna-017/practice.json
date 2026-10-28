@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-017-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜17-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜17-A"
+    },
+    "stem": {
+      "jp": "これは レッスン17の 文法です。",
+      "furigana": "これは レッスン17の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 17-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜17-A means \"Grammar pattern 17-A\".",
+      "bn": "〜17-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 17-A\"।"
+    }
+  },
+  {
+    "id": "minna-017-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜17-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜17-B"
+    },
+    "stem": {
+      "jp": "これは レッスン17の 文法です。",
+      "furigana": "これは レッスン17の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 17-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜17-B means \"Grammar pattern 17-B\".",
+      "bn": "〜17-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 17-B\"।"
+    }
+  }
+]

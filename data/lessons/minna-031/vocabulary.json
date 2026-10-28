@@ -1,0 +1,644 @@
+[
+  {
+    "id": "minna-031-v001",
+    "kanji": "続けます",
+    "furigana": "つづけます",
+    "romaji": "tsuzukemasu",
+    "english_meaning": "continue",
+    "bengali_meaning": "continue",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v002",
+    "kanji": "見つけます",
+    "furigana": "みつけます",
+    "romaji": "mitsukemasu",
+    "english_meaning": "find",
+    "bengali_meaning": "find",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v003",
+    "kanji": "取ります［休みを～］",
+    "furigana": "とります［やすみを～］",
+    "romaji": "torimasu [yasumiwo~]",
+    "english_meaning": "take [a holiday]",
+    "bengali_meaning": "take [a holiday]",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v004",
+    "kanji": "受けます［試験を～］",
+    "furigana": "うけます［しけんを～］",
+    "romaji": "ukemasu [shikenwo~]",
+    "english_meaning": "take [an examination]",
+    "bengali_meaning": "take [an examination]",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v005",
+    "kanji": "申し込みます",
+    "furigana": "もうしこみます",
+    "romaji": "mōshikomimasu",
+    "english_meaning": "apply for, enter for",
+    "bengali_meaning": "apply for, enter for",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v006",
+    "kanji": "休憩します",
+    "furigana": "きゅうけいします",
+    "romaji": "kyūkeishimasu",
+    "english_meaning": "take a break, take a rest",
+    "bengali_meaning": "take a break, take a rest",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v007",
+    "kanji": "連休",
+    "furigana": "れんきゅう",
+    "romaji": "renkyū",
+    "english_meaning": "consecutive holidays",
+    "bengali_meaning": "consecutive holidays",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v008",
+    "kanji": "作文",
+    "furigana": "さくぶん",
+    "romaji": "sakubun",
+    "english_meaning": "essay, composition",
+    "bengali_meaning": "essay, composition",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v009",
+    "kanji": "発表",
+    "furigana": "はっぴょう",
+    "romaji": "happyō",
+    "english_meaning": "announcement, presentation (～します : announce)",
+    "bengali_meaning": "announcement, presentation (～します : announce)",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v010",
+    "kanji": "展覧会",
+    "furigana": "てんらんかい",
+    "romaji": "tenrankai",
+    "english_meaning": "exhibition",
+    "bengali_meaning": "exhibition",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v011",
+    "kanji": "結婚式",
+    "furigana": "けっこんしき",
+    "romaji": "kekkonshiki",
+    "english_meaning": "wedding ceremony",
+    "bengali_meaning": "wedding ceremony",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v012",
+    "kanji": "［お］葬式",
+    "furigana": "［お］そうしき",
+    "romaji": "[o] sōshiki",
+    "english_meaning": "funeral",
+    "bengali_meaning": "funeral",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v013",
+    "kanji": "式",
+    "furigana": "しき",
+    "romaji": "shiki",
+    "english_meaning": "ceremony",
+    "bengali_meaning": "ceremony",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v014",
+    "kanji": "本社",
+    "furigana": "ほんしゃ",
+    "romaji": "honsha",
+    "english_meaning": "head office",
+    "bengali_meaning": "head office",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v015",
+    "kanji": "支店",
+    "furigana": "してん",
+    "romaji": "shiten",
+    "english_meaning": "branch office",
+    "bengali_meaning": "branch office",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v016",
+    "kanji": "教会",
+    "furigana": "きょうかい",
+    "romaji": "kyōkai",
+    "english_meaning": "church",
+    "bengali_meaning": "church",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v017",
+    "kanji": "大学院",
+    "furigana": "だいがくいん",
+    "romaji": "daigakuin",
+    "english_meaning": "graduate school",
+    "bengali_meaning": "graduate school",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v018",
+    "kanji": "動物園",
+    "furigana": "��うぶつえん",
+    "romaji": "dōbutsuen",
+    "english_meaning": "zoo",
+    "bengali_meaning": "zoo",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v019",
+    "kanji": "温泉",
+    "furigana": "おんせん",
+    "romaji": "onsen",
+    "english_meaning": "hot spring, spa",
+    "bengali_meaning": "hot spring, spa",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v020",
+    "kanji": "帰り",
+    "furigana": "かえり",
+    "romaji": "kaeri",
+    "english_meaning": "return",
+    "bengali_meaning": "return",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v021",
+    "kanji": "お子さん",
+    "furigana": "おこさん",
+    "romaji": "okosan",
+    "english_meaning": "(someone else's) child",
+    "bengali_meaning": "(someone else's) child",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v022",
+    "kanji": "－号",
+    "furigana": "－ごう",
+    "romaji": "-gō",
+    "english_meaning": "(train number, typhoon number, etc.)",
+    "bengali_meaning": "(train number, typhoon number, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v023",
+    "kanji": "～の 方",
+    "furigana": "～の ほう",
+    "romaji": "~no hou",
+    "english_meaning": "place toward ～, direction of ～",
+    "bengali_meaning": "place toward ～, direction of ～",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v024",
+    "furigana": "ずっと",
+    "romaji": "zutto",
+    "english_meaning": "the whole time",
+    "bengali_meaning": "the whole time",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v025",
+    "furigana": "バリ",
+    "romaji": "bari",
+    "english_meaning": "Bali (Indonesian island)",
+    "bengali_meaning": "Bali (Indonesian island)",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v026",
+    "furigana": "ピカソ",
+    "romaji": "pikaso",
+    "english_meaning": "Pablo Picasso, Spanish painter (1881-1973)",
+    "bengali_meaning": "Pablo Picasso, Spanish painter (1881-1973)",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v027",
+    "furigana": "のぞみ",
+    "romaji": "nozomi",
+    "english_meaning": "name of a Shinkansen train (～４２号 : Nozomi Superexpress No.42)",
+    "bengali_meaning": "name of a Shinkansen train (～４２号 : Nozomi Superexpress No.42)",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v028",
+    "kanji": "新神戸",
+    "furigana": "しんこうべ",
+    "romaji": "shinkōbe",
+    "english_meaning": "name of a station in Hyogo prefecture",
+    "bengali_meaning": "name of a station in Hyogo prefecture",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v029",
+    "kanji": "残ります",
+    "furigana": "のこります",
+    "romaji": "nokorimasu",
+    "english_meaning": "remain, be left, stay behind",
+    "bengali_meaning": "remain, be left, stay behind",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v030",
+    "kanji": "入学試験",
+    "furigana": "にゅうがくしけん",
+    "romaji": "nyūgakushiken",
+    "english_meaning": "entrance examination",
+    "bengali_meaning": "entrance examination",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v031",
+    "kanji": "月に",
+    "furigana": "つきに",
+    "romaji": "tsukini",
+    "english_meaning": "per month",
+    "bengali_meaning": "per month",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v032",
+    "kanji": "村",
+    "furigana": "むら",
+    "romaji": "mura",
+    "english_meaning": "village",
+    "bengali_meaning": "village",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v033",
+    "kanji": "卒業します",
+    "furigana": "そつぎょうします",
+    "romaji": "sotsugyōshimasu",
+    "english_meaning": "graduate",
+    "bengali_meaning": "graduate",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v034",
+    "kanji": "映画館",
+    "furigana": "えいがかん",
+    "romaji": "eigakan",
+    "english_meaning": "movie theater, cinema",
+    "bengali_meaning": "movie theater, cinema",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v035",
+    "kanji": "嫌［な］",
+    "furigana": "いや［な］",
+    "romaji": "iya [na]",
+    "english_meaning": "hateful, disagreeable",
+    "bengali_meaning": "hateful, disagreeable",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v036",
+    "kanji": "空",
+    "furigana": "そら",
+    "romaji": "sora",
+    "english_meaning": "sky",
+    "bengali_meaning": "sky",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v037",
+    "kanji": "閉じます",
+    "furigana": "とじます",
+    "romaji": "tojimasu",
+    "english_meaning": "close",
+    "bengali_meaning": "close",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v038",
+    "kanji": "都会",
+    "furigana": "とかい",
+    "romaji": "tokai",
+    "english_meaning": "city",
+    "bengali_meaning": "city",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v039",
+    "kanji": "子どもたち",
+    "furigana": "こどもたち",
+    "romaji": "kodomotachi",
+    "english_meaning": "children",
+    "bengali_meaning": "children",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v040",
+    "kanji": "自由に",
+    "furigana": "じゆうに",
+    "romaji": "jiyūni",
+    "english_meaning": "freely",
+    "bengali_meaning": "freely",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v041",
+    "kanji": "始まります［式が～］",
+    "furigana": "はじまります［しきが～］",
+    "romaji": "hajimarimasu [shikiga~]",
+    "english_meaning": "[a ceremony] begin, start",
+    "bengali_meaning": "[a ceremony] begin, start",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v042",
+    "kanji": "入学します［大学に～］",
+    "furigana": "にゅうがくします［だいがくに～］",
+    "romaji": "nyūgakushimasu [daigakuni~]",
+    "english_meaning": "enter [a university]",
+    "bengali_meaning": "enter [a university]",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v043",
+    "kanji": "出席します［会議に～］",
+    "furigana": "しゅっせきします［かいぎに～］",
+    "romaji": "shussekishimasu [kaigini~]",
+    "english_meaning": "attend [a meeting]",
+    "bengali_meaning": "attend [a meeting]",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v044",
+    "kanji": "お客［さん］",
+    "furigana": "おきゃく［さん］",
+    "romaji": "okyaku [san]",
+    "english_meaning": "visitor, guest, customer, client",
+    "bengali_meaning": "visitor, guest, customer, client",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v045",
+    "kanji": "誰か",
+    "furigana": "だれか",
+    "romaji": "dareka",
+    "english_meaning": "somebody",
+    "bengali_meaning": "somebody",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v046",
+    "kanji": "上野公園",
+    "furigana": "うえのこうえん",
+    "romaji": "uenokōen",
+    "english_meaning": "Ueno Park (in Tokyo)",
+    "bengali_meaning": "Ueno Park (in Tokyo)",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v047",
+    "kanji": "普通の",
+    "furigana": "ふつうの",
+    "romaji": "futsūno",
+    "english_meaning": "ordinary, common, usual",
+    "bengali_meaning": "ordinary, common, usual",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v048",
+    "furigana": "インターネット",
+    "romaji": "intānetto",
+    "english_meaning": "Internet",
+    "bengali_meaning": "Internet",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v049",
+    "kanji": "世界中",
+    "furigana": "せかいじゅう",
+    "romaji": "sekaijū",
+    "english_meaning": "all over the world",
+    "bengali_meaning": "all over the world",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v050",
+    "kanji": "集まります",
+    "furigana": "あつまります",
+    "romaji": "atsumarimasu",
+    "english_meaning": "gather",
+    "bengali_meaning": "gather",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v051",
+    "kanji": "美しい",
+    "furigana": "うつくしい",
+    "romaji": "utsukushii",
+    "english_meaning": "beautiful",
+    "bengali_meaning": "beautiful",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v052",
+    "kanji": "自然",
+    "furigana": "しぜん",
+    "romaji": "shizen",
+    "english_meaning": "nature",
+    "bengali_meaning": "nature",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v053",
+    "furigana": "すばらしさ",
+    "romaji": "subarashisa",
+    "english_meaning": "goodness, virtue",
+    "bengali_meaning": "goodness, virtue",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  },
+  {
+    "id": "minna-031-v054",
+    "kanji": "気が つきます",
+    "furigana": "きが つきます",
+    "romaji": "kiga tsukimasu",
+    "english_meaning": "notice, become aware of",
+    "bengali_meaning": "notice, become aware of",
+    "tags": [
+      "vocabulary",
+      "lesson-31"
+    ]
+  }
+]

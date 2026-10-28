@@ -1,0 +1,797 @@
+[
+  {
+    "id": "minna-004-v001",
+    "kanji": "起きます",
+    "furigana": "おきます",
+    "romaji": "okimasu",
+    "english_meaning": "get up, wake up",
+    "bengali_meaning": "get up, wake up",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v002",
+    "kanji": "寝ます",
+    "furigana": "ねます",
+    "romaji": "nemasu",
+    "english_meaning": "sleep, go to bed",
+    "bengali_meaning": "sleep, go to bed",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v003",
+    "kanji": "働きます",
+    "furigana": "はたらきます",
+    "romaji": "hatarakimasu",
+    "english_meaning": "work",
+    "bengali_meaning": "work",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v004",
+    "kanji": "休みます",
+    "furigana": "やすみます",
+    "romaji": "yasumimasu",
+    "english_meaning": "take a rest, take a holiday",
+    "bengali_meaning": "take a rest, take a holiday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v005",
+    "kanji": "勉強します",
+    "furigana": "べんきょうします",
+    "romaji": "benkyōshimasu",
+    "english_meaning": "study",
+    "bengali_meaning": "study",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v006",
+    "kanji": "終わります",
+    "furigana": "おわります",
+    "romaji": "owarimasu",
+    "english_meaning": "finish",
+    "bengali_meaning": "finish",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v007",
+    "furigana": "デパート",
+    "romaji": "depāto",
+    "english_meaning": "department store",
+    "bengali_meaning": "department store",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v008",
+    "kanji": "銀行",
+    "furigana": "ぎんこう",
+    "romaji": "ginkō",
+    "english_meaning": "bank",
+    "bengali_meaning": "bank",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v009",
+    "kanji": "郵便局",
+    "furigana": "ゆうびんきょく",
+    "romaji": "yūbinkyoku",
+    "english_meaning": "post office",
+    "bengali_meaning": "post office",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v010",
+    "kanji": "図書館",
+    "furigana": "としょかん",
+    "romaji": "toshokan",
+    "english_meaning": "library",
+    "bengali_meaning": "library",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v011",
+    "kanji": "美術館",
+    "furigana": "びじゅつかん",
+    "romaji": "bijutsukan",
+    "english_meaning": "art museum, art gallery",
+    "bengali_meaning": "art museum, art gallery",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v012",
+    "kanji": "今",
+    "furigana": "いま",
+    "romaji": "ima",
+    "english_meaning": "now",
+    "bengali_meaning": "now",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v013",
+    "kanji": "－時",
+    "furigana": "－じ",
+    "romaji": "-ji",
+    "english_meaning": "－ o'clock",
+    "bengali_meaning": "－ o'clock",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v014",
+    "kanji": "－分",
+    "furigana": "－ふん（－ぷん）",
+    "romaji": "-fun (-pun)",
+    "english_meaning": "－ minute",
+    "bengali_meaning": "－ minute",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v015",
+    "kanji": "半",
+    "furigana": "はん",
+    "romaji": "han",
+    "english_meaning": "half",
+    "bengali_meaning": "half",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v016",
+    "kanji": "何時",
+    "furigana": "なんじ",
+    "romaji": "nanji",
+    "english_meaning": "what time",
+    "bengali_meaning": "what time",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v017",
+    "kanji": "何分",
+    "furigana": "なんぷん",
+    "romaji": "nanpun",
+    "english_meaning": "what minute",
+    "bengali_meaning": "what minute",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v018",
+    "kanji": "午前",
+    "furigana": "ごぜん",
+    "romaji": "gozen",
+    "english_meaning": "a.m., morning",
+    "bengali_meaning": "a.m., morning",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v019",
+    "kanji": "午後",
+    "furigana": "ごご",
+    "romaji": "gogo",
+    "english_meaning": "p.m., afternoon",
+    "bengali_meaning": "p.m., afternoon",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v020",
+    "kanji": "朝",
+    "furigana": "あさ",
+    "romaji": "asa",
+    "english_meaning": "morning",
+    "bengali_meaning": "morning",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v021",
+    "kanji": "昼",
+    "furigana": "ひる",
+    "romaji": "hiru",
+    "english_meaning": "daytime, noon",
+    "bengali_meaning": "daytime, noon",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v022",
+    "kanji": "晩（夜）",
+    "furigana": "ばん（よる）",
+    "romaji": "ban (yoru)",
+    "english_meaning": "night, evening",
+    "bengali_meaning": "night, evening",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v023",
+    "furigana": "おととい",
+    "romaji": "ototoi",
+    "english_meaning": "the day before yesterday",
+    "bengali_meaning": "the day before yesterday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v024",
+    "furigana": "きのう",
+    "romaji": "kinō",
+    "english_meaning": "yesterday",
+    "bengali_meaning": "yesterday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v025",
+    "furigana": "きょう",
+    "romaji": "kyō",
+    "english_meaning": "today",
+    "bengali_meaning": "today",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v026",
+    "furigana": "あした",
+    "romaji": "ashita",
+    "english_meaning": "tomorrow",
+    "bengali_meaning": "tomorrow",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v027",
+    "furigana": "あさって",
+    "romaji": "asatte",
+    "english_meaning": "the day after tomorrow",
+    "bengali_meaning": "the day after tomorrow",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v028",
+    "furigana": "けさ",
+    "romaji": "kesa",
+    "english_meaning": "this morning",
+    "bengali_meaning": "this morning",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v029",
+    "kanji": "今晩",
+    "furigana": "こんばん",
+    "romaji": "konban",
+    "english_meaning": "this evening, tonight",
+    "bengali_meaning": "this evening, tonight",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v030",
+    "kanji": "休み",
+    "furigana": "やすみ",
+    "romaji": "yasumi",
+    "english_meaning": "rest, a holiday, a day off",
+    "bengali_meaning": "rest, a holiday, a day off",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v031",
+    "kanji": "昼休み",
+    "furigana": "ひるやすみ",
+    "romaji": "hiruyasumi",
+    "english_meaning": "lunchtime",
+    "bengali_meaning": "lunchtime",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v032",
+    "kanji": "試験",
+    "furigana": "しけん",
+    "romaji": "shiken",
+    "english_meaning": "examination, test",
+    "bengali_meaning": "examination, test",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v033",
+    "kanji": "会議",
+    "furigana": "かいぎ",
+    "romaji": "kaigi",
+    "english_meaning": "meeting, conference (～を します : hold a meeting)",
+    "bengali_meaning": "meeting, conference (～を します : hold a meeting)",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v034",
+    "kanji": "映画",
+    "furigana": "えいが",
+    "romaji": "eiga",
+    "english_meaning": "film, movie",
+    "bengali_meaning": "film, movie",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v035",
+    "kanji": "毎朝",
+    "furigana": "まいあさ",
+    "romaji": "maiasa",
+    "english_meaning": "every morning",
+    "bengali_meaning": "every morning",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v036",
+    "kanji": "毎晩",
+    "furigana": "まいばん",
+    "romaji": "maiban",
+    "english_meaning": "every evening",
+    "bengali_meaning": "every evening",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v037",
+    "kanji": "毎日",
+    "furigana": "まいにち",
+    "romaji": "mainichi",
+    "english_meaning": "every day",
+    "bengali_meaning": "every day",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v038",
+    "kanji": "月曜日",
+    "furigana": "げつようび",
+    "romaji": "getsuyōbi",
+    "english_meaning": "Monday",
+    "bengali_meaning": "Monday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v039",
+    "kanji": "火曜日",
+    "furigana": "かようび",
+    "romaji": "kayōbi",
+    "english_meaning": "Tuesday",
+    "bengali_meaning": "Tuesday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v040",
+    "kanji": "水曜日",
+    "furigana": "すいようび",
+    "romaji": "suiyōbi",
+    "english_meaning": "Wednesday",
+    "bengali_meaning": "Wednesday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v041",
+    "kanji": "木曜日",
+    "furigana": "もくようび",
+    "romaji": "mokuyōbi",
+    "english_meaning": "Thursday",
+    "bengali_meaning": "Thursday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v042",
+    "kanji": "金曜日",
+    "furigana": "きんようび",
+    "romaji": "kin'yōbi",
+    "english_meaning": "Friday",
+    "bengali_meaning": "Friday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v043",
+    "kanji": "土曜日",
+    "furigana": "どようび",
+    "romaji": "doyōbi",
+    "english_meaning": "Saturday",
+    "bengali_meaning": "Saturday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v044",
+    "kanji": "日曜日",
+    "furigana": "にちようび",
+    "romaji": "nichiyōbi",
+    "english_meaning": "Sunday",
+    "bengali_meaning": "Sunday",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v045",
+    "kanji": "何曜日",
+    "furigana": "なんようび",
+    "romaji": "nanyōbi",
+    "english_meaning": "what day of the week",
+    "bengali_meaning": "what day of the week",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v046",
+    "furigana": "～から",
+    "romaji": "~kara",
+    "english_meaning": "from ～",
+    "bengali_meaning": "from ～",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v047",
+    "furigana": "～まで",
+    "romaji": "~made",
+    "english_meaning": "up to ～, until ～",
+    "bengali_meaning": "up to ～, until ～",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v048",
+    "furigana": "～と ～",
+    "romaji": "~to ~",
+    "english_meaning": "and (used to connect nouns)",
+    "bengali_meaning": "and (used to connect nouns)",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v049",
+    "kanji": "大変ですね。",
+    "furigana": "たいへんですね。",
+    "romaji": "taihendesune.",
+    "english_meaning": "That's tough, isn't it? (used when expressing sympathy)",
+    "bengali_meaning": "That's tough, isn't it? (used when expressing sympathy)",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v050",
+    "kanji": "番号",
+    "furigana": "ばんごう",
+    "romaji": "bangō",
+    "english_meaning": "number",
+    "bengali_meaning": "number",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v051",
+    "kanji": "何番",
+    "furigana": "なんばん",
+    "romaji": "nanban",
+    "english_meaning": "what number",
+    "bengali_meaning": "what number",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v052",
+    "furigana": "そちら",
+    "romaji": "sochira",
+    "english_meaning": "your place",
+    "bengali_meaning": "your place",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v053",
+    "furigana": "ニューヨーク",
+    "romaji": "nyūyōku",
+    "english_meaning": "New York",
+    "bengali_meaning": "New York",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v054",
+    "furigana": "ペキン",
+    "romaji": "pekin",
+    "english_meaning": "Beijing (北京)",
+    "bengali_meaning": "Beijing (北京)",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v055",
+    "furigana": "ロサンゼルス",
+    "romaji": "rosanzerusu",
+    "english_meaning": "Los Angeles",
+    "bengali_meaning": "Los Angeles",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v056",
+    "furigana": "ロンドン",
+    "romaji": "rondon",
+    "english_meaning": "London",
+    "bengali_meaning": "London",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v057",
+    "furigana": "あすか",
+    "romaji": "asuka",
+    "english_meaning": "a fictitious Japanese restaurant",
+    "bengali_meaning": "a fictitious Japanese restaurant",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v058",
+    "kanji": "アップル銀行",
+    "furigana": "アップルぎんこう",
+    "romaji": "appuruginkō",
+    "english_meaning": "a fictitious bank",
+    "bengali_meaning": "a fictitious bank",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v059",
+    "kanji": "みどり図書館",
+    "furigana": "みどりとしょかん",
+    "romaji": "midoritoshokan",
+    "english_meaning": "a fictitious library",
+    "bengali_meaning": "a fictitious library",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v060",
+    "kanji": "やまと美術館",
+    "furigana": "やまとびじゅつかん",
+    "romaji": "yamatobijutsukan",
+    "english_meaning": "a fictitious art gallery",
+    "bengali_meaning": "a fictitious art gallery",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v061",
+    "furigana": "えーと",
+    "romaji": "eeto",
+    "english_meaning": "well, let me see",
+    "bengali_meaning": "well, let me see",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v062",
+    "furigana": "１０４",
+    "romaji": "104",
+    "english_meaning": "information, directory assistance",
+    "bengali_meaning": "information, directory assistance",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v063",
+    "kanji": "お願いします。",
+    "furigana": "おねがいします。",
+    "romaji": "onegaishimasu.",
+    "english_meaning": "Please. (lit. ask for a favor)",
+    "bengali_meaning": "Please. (lit. ask for a favor)",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v064",
+    "furigana": "かしこまりました。",
+    "romaji": "kashikomarimashita.",
+    "english_meaning": "Certainly (sir, madam)",
+    "bengali_meaning": "Certainly (sir, madam)",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v065",
+    "kanji": "お問い合わせの番号",
+    "furigana": "おといあわせのばんごう",
+    "romaji": "otoiawasenobangō",
+    "english_meaning": "the number being inquired about",
+    "bengali_meaning": "the number being inquired about",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v066",
+    "furigana": "［どうも］ありがとう ございました。",
+    "romaji": "[dōmo] arigatō gozaimashita.",
+    "english_meaning": "Thank you very much.",
+    "bengali_meaning": "Thank you very much.",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v067",
+    "furigana": "バンコク",
+    "romaji": "bankoku",
+    "english_meaning": "Bangkok",
+    "bengali_meaning": "Bangkok",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  },
+  {
+    "id": "minna-004-v068",
+    "kanji": "大阪デパート",
+    "furigana": "おおさかデパート",
+    "romaji": "ōsakadepāto",
+    "english_meaning": "fictitious department store",
+    "bengali_meaning": "fictitious department store",
+    "tags": [
+      "vocabulary",
+      "lesson-4"
+    ]
+  }
+]

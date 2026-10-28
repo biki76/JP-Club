@@ -1,0 +1,697 @@
+[
+  {
+    "id": "minna-039-v001",
+    "kanji": "答えます［質問に～］",
+    "furigana": "こたえます［しつもんに～］",
+    "romaji": "kotaemasu [shitsumonni~]",
+    "english_meaning": "answer [a question]",
+    "bengali_meaning": "answer [a question]",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v002",
+    "kanji": "倒れます［ビルが～］",
+    "furigana": "たおれます［ビルが～］",
+    "romaji": "taoremasu [biruga~]",
+    "english_meaning": "[a building] fall down",
+    "bengali_meaning": "[a building] fall down",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v003",
+    "kanji": "通ります［道を～］",
+    "furigana": "とおります［みちを～］",
+    "romaji": "tōrimasu [michiwo~]",
+    "english_meaning": "pass [along a street]",
+    "bengali_meaning": "pass [along a street]",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v004",
+    "kanji": "死にます",
+    "furigana": "しにます",
+    "romaji": "shinimasu",
+    "english_meaning": "die",
+    "bengali_meaning": "die",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v005",
+    "furigana": "びっくりします",
+    "romaji": "bikkurishimasu",
+    "english_meaning": "be surprised",
+    "bengali_meaning": "be surprised",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v006",
+    "furigana": "がっかりします",
+    "romaji": "gakkarishimasu",
+    "english_meaning": "be disappointed",
+    "bengali_meaning": "be disappointed",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v007",
+    "kanji": "安心します",
+    "furigana": "あんしんします",
+    "romaji": "anshinshimasu",
+    "english_meaning": "be relieved",
+    "bengali_meaning": "be relieved",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v008",
+    "furigana": "けんかします",
+    "romaji": "kenkashimasu",
+    "english_meaning": "quarrel, fight",
+    "bengali_meaning": "quarrel, fight",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v009",
+    "kanji": "離婚します",
+    "furigana": "りこんします",
+    "romaji": "rikonshimasu",
+    "english_meaning": "divorce",
+    "bengali_meaning": "divorce",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v010",
+    "kanji": "太ります",
+    "furigana": "ふとります",
+    "romaji": "futorimasu",
+    "english_meaning": "get fat, gain weight",
+    "bengali_meaning": "get fat, gain weight",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v011",
+    "furigana": "やせます",
+    "romaji": "yasemasu",
+    "english_meaning": "get slim, lose weight",
+    "bengali_meaning": "get slim, lose weight",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v012",
+    "kanji": "複雑［な］",
+    "furigana": "ふくざつ［な］",
+    "romaji": "fukuzatsu [na]",
+    "english_meaning": "complicated, complex",
+    "bengali_meaning": "complicated, complex",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v013",
+    "kanji": "邪魔［な］",
+    "furigana": "じゃま［な］",
+    "romaji": "jama [na]",
+    "english_meaning": "obstructive, in the way",
+    "bengali_meaning": "obstructive, in the way",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v014",
+    "kanji": "硬い",
+    "furigana": "かたい",
+    "romaji": "katai",
+    "english_meaning": "hard, tough, solid",
+    "bengali_meaning": "hard, tough, solid",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v015",
+    "kanji": "軟らかい",
+    "furigana": "やわらかい",
+    "romaji": "yawarakai",
+    "english_meaning": "soft, tender",
+    "bengali_meaning": "soft, tender",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v016",
+    "kanji": "汚い",
+    "furigana": "きたない",
+    "romaji": "kitanai",
+    "english_meaning": "dirty",
+    "bengali_meaning": "dirty",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v017",
+    "furigana": "うれしい",
+    "romaji": "ureshii",
+    "english_meaning": "happy",
+    "bengali_meaning": "happy",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v018",
+    "kanji": "悲しい",
+    "furigana": "かなしい",
+    "romaji": "kanashii",
+    "english_meaning": "sad",
+    "bengali_meaning": "sad",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v019",
+    "kanji": "恥ずかしい",
+    "furigana": "はずかしい",
+    "romaji": "hazukashii",
+    "english_meaning": "embarrassed, ashamed",
+    "bengali_meaning": "embarrassed, ashamed",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v020",
+    "kanji": "首相",
+    "furigana": "しゅしょう",
+    "romaji": "shushō",
+    "english_meaning": "Prime Minister",
+    "bengali_meaning": "Prime Minister",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v021",
+    "kanji": "地震",
+    "furigana": "じしん",
+    "romaji": "jishin",
+    "english_meaning": "earthquake",
+    "bengali_meaning": "earthquake",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v022",
+    "kanji": "津波",
+    "furigana": "つなみ",
+    "romaji": "tsunami",
+    "english_meaning": "tsunami, tidal wave",
+    "bengali_meaning": "tsunami, tidal wave",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v023",
+    "kanji": "台風",
+    "furigana": "たいふう",
+    "romaji": "taifū",
+    "english_meaning": "typhoon",
+    "bengali_meaning": "typhoon",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v024",
+    "kanji": "雷",
+    "furigana": "かみなり",
+    "romaji": "kaminari",
+    "english_meaning": "thunder",
+    "bengali_meaning": "thunder",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v025",
+    "kanji": "火事",
+    "furigana": "かじ",
+    "romaji": "kaji",
+    "english_meaning": "fire",
+    "bengali_meaning": "fire",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v026",
+    "kanji": "事故",
+    "furigana": "じこ",
+    "romaji": "jiko",
+    "english_meaning": "accident",
+    "bengali_meaning": "accident",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v027",
+    "furigana": "ハイキング",
+    "romaji": "haikingu",
+    "english_meaning": "hiking",
+    "bengali_meaning": "hiking",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v028",
+    "kanji": "［お］見合い",
+    "furigana": "［お］みあい",
+    "romaji": "[o] miai",
+    "english_meaning": "a meeting arranged with a view to marriage",
+    "bengali_meaning": "a meeting arranged with a view to marriage",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v029",
+    "kanji": "操作",
+    "furigana": "そうさ",
+    "romaji": "sōsa",
+    "english_meaning": "operation (～します : operate)",
+    "bengali_meaning": "operation (～します : operate)",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v030",
+    "kanji": "会場",
+    "furigana": "かいじょう",
+    "romaji": "kaijō",
+    "english_meaning": "venue, event location",
+    "bengali_meaning": "venue, event location",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v031",
+    "kanji": "～代",
+    "furigana": "～だい",
+    "romaji": "~dai",
+    "english_meaning": "charge, fare, fee",
+    "bengali_meaning": "charge, fare, fee",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v032",
+    "kanji": "～屋",
+    "furigana": "～や",
+    "romaji": "~ya",
+    "english_meaning": "-er (e.g. baker, grocer, etc.)",
+    "bengali_meaning": "-er (e.g. baker, grocer, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v033",
+    "furigana": "フロント",
+    "romaji": "furonto",
+    "english_meaning": "front desk, reception desk",
+    "bengali_meaning": "front desk, reception desk",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v034",
+    "kanji": "－号室",
+    "furigana": "－ごうしつ",
+    "romaji": "-gōshitsu",
+    "english_meaning": "room number －",
+    "bengali_meaning": "room number －",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v035",
+    "furigana": "タオル",
+    "romaji": "taoru",
+    "english_meaning": "towel",
+    "bengali_meaning": "towel",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v036",
+    "furigana": "せっけん",
+    "romaji": "sekken",
+    "english_meaning": "soap",
+    "bengali_meaning": "soap",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v037",
+    "kanji": "大勢",
+    "furigana": "おおぜい",
+    "romaji": "oozei",
+    "english_meaning": "a great number (of people)",
+    "bengali_meaning": "a great number (of people)",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v038",
+    "kanji": "お疲れ様でした。",
+    "furigana": "おつかれさまでした。",
+    "romaji": "otsukaresamadeshita.",
+    "english_meaning": "Thank you for your hard work. (used to express appreciation for a colleague's or subordinate's work)",
+    "bengali_meaning": "Thank you for your hard work. (used to express appreciation for a colleague's or subordinate's work)",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v039",
+    "kanji": "伺います。",
+    "furigana": "うかがいます。",
+    "romaji": "ukagaimasu.",
+    "english_meaning": "I'm coming. (humble equivalent of いきます)",
+    "bengali_meaning": "I'm coming. (humble equivalent of いきます)",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v040",
+    "kanji": "途中で",
+    "furigana": "とちゅうで",
+    "romaji": "tochūde",
+    "english_meaning": "on the way, in the midst of",
+    "bengali_meaning": "on the way, in the midst of",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v041",
+    "furigana": "トラック",
+    "romaji": "torakku",
+    "english_meaning": "truck, lorry",
+    "bengali_meaning": "truck, lorry",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v042",
+    "furigana": "ぶつかります",
+    "romaji": "butsukarimasu",
+    "english_meaning": "bump, collide",
+    "bengali_meaning": "bump, collide",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v043",
+    "kanji": "大人",
+    "furigana": "おとな",
+    "romaji": "otona",
+    "english_meaning": "adult",
+    "bengali_meaning": "adult",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v044",
+    "furigana": "しかし",
+    "romaji": "shikashi",
+    "english_meaning": "however, but",
+    "bengali_meaning": "however, but",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v045",
+    "furigana": "また",
+    "romaji": "mata",
+    "english_meaning": "and",
+    "bengali_meaning": "and",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v046",
+    "kanji": "洋服",
+    "furigana": "ようふく",
+    "romaji": "yōfuku",
+    "english_meaning": "Western clothes",
+    "bengali_meaning": "Western clothes",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v047",
+    "kanji": "西洋化します",
+    "furigana": "せいようかします",
+    "romaji": "seiyōkashimasu",
+    "english_meaning": "be Westernized",
+    "bengali_meaning": "be Westernized",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v048",
+    "kanji": "合います",
+    "furigana": "あいます",
+    "romaji": "aimasu",
+    "english_meaning": "fit, suit",
+    "bengali_meaning": "fit, suit",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v049",
+    "kanji": "今では",
+    "furigana": "いまでは",
+    "romaji": "imadewa",
+    "english_meaning": "now",
+    "bengali_meaning": "now",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v050",
+    "kanji": "成人式",
+    "furigana": "せいじんしき",
+    "romaji": "seijinshiki",
+    "english_meaning": "coming-of-age celebration",
+    "bengali_meaning": "coming-of-age celebration",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v051",
+    "kanji": "伝統的［な］",
+    "furigana": "でんとうてき［な］",
+    "romaji": "dentōteki [na]",
+    "english_meaning": "traditional",
+    "bengali_meaning": "traditional",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v052",
+    "kanji": "焼けます［うちが～］",
+    "furigana": "やけます［うちが～］",
+    "romaji": "yakemasu [uchiga~]",
+    "english_meaning": "[a house] burn down",
+    "bengali_meaning": "[a house] burn down",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v053",
+    "kanji": "焼けます［パンが～］",
+    "furigana": "やけます［パンが～］",
+    "romaji": "yakemasu [panga~]",
+    "english_meaning": "[bread] be baked",
+    "bengali_meaning": "[bread] be baked",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v054",
+    "kanji": "焼けます［肉が～］",
+    "furigana": "やけます［にくが～］",
+    "romaji": "yakemasu [nikuga~]",
+    "english_meaning": "[meat] be roasted, be grilled",
+    "bengali_meaning": "[meat] be roasted, be grilled",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v055",
+    "kanji": "遅刻します",
+    "furigana": "ちこくします",
+    "romaji": "chikokushimasu",
+    "english_meaning": "be late, come late",
+    "bengali_meaning": "be late, come late",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v056",
+    "kanji": "早退します",
+    "furigana": "そうたいします",
+    "romaji": "sōtaishimasu",
+    "english_meaning": "leave (work or school) earlier than usual",
+    "bengali_meaning": "leave (work or school) earlier than usual",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v057",
+    "kanji": "電話代",
+    "furigana": "でんわだい",
+    "romaji": "denwadai",
+    "english_meaning": "telephone charge",
+    "bengali_meaning": "telephone charge",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v058",
+    "kanji": "汗",
+    "furigana": "あせ",
+    "romaji": "ase",
+    "english_meaning": "perspiration (～を かきます : perspire)",
+    "bengali_meaning": "perspiration (～を かきます : perspire)",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  },
+  {
+    "id": "minna-039-v059",
+    "kanji": "並びます",
+    "furigana": "ならびます",
+    "romaji": "narabimasu",
+    "english_meaning": "stand in a queue, line up",
+    "bengali_meaning": "stand in a queue, line up",
+    "tags": [
+      "vocabulary",
+      "lesson-39"
+    ]
+  }
+]

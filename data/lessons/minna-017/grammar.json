@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-017-g1",
+    "pattern": "〜17-A",
+    "meaning_en": "Grammar pattern 17-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 17-A",
+    "examples": [
+      {
+        "jp": "これは レッスン17の 文法です。",
+        "en": "This is lesson 17 grammar.",
+        "bn": "This is lesson 17 grammar.",
+        "furigana": "これは レッスン17の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-017-g2",
+    "pattern": "〜17-B",
+    "meaning_en": "Grammar pattern 17-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 17-B",
+    "examples": [
+      {
+        "jp": "これは レッスン17の 文法です。",
+        "en": "This is lesson 17 grammar.",
+        "bn": "This is lesson 17 grammar.",
+        "furigana": "これは レッスン17の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

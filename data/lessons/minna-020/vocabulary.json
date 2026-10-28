@@ -1,0 +1,346 @@
+[
+  {
+    "id": "minna-020-v001",
+    "kanji": "要ります［ビザが～］",
+    "furigana": "いります［ビザが～］",
+    "romaji": "irimasu [bizaga~]",
+    "english_meaning": "need, require [a visa]",
+    "bengali_meaning": "need, require [a visa]",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v002",
+    "kanji": "調べます",
+    "furigana": "しらべます",
+    "romaji": "shirabemasu",
+    "english_meaning": "check, investigate",
+    "bengali_meaning": "check, investigate",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v003",
+    "kanji": "修理します",
+    "furigana": "しゅうりします",
+    "romaji": "shūrishimasu",
+    "english_meaning": "repair",
+    "bengali_meaning": "repair",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v004",
+    "kanji": "僕",
+    "furigana": "ぼく",
+    "romaji": "boku",
+    "english_meaning": "I (an informal equivalent of わたし used by men)",
+    "bengali_meaning": "I (an informal equivalent of わたし used by men)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v005",
+    "kanji": "君",
+    "furigana": "きみ",
+    "romaji": "kimi",
+    "english_meaning": "you (an informal equivalent of あなた used to address people of equal or lower status)",
+    "bengali_meaning": "you (an informal equivalent of あなた used to address people of equal or lower status)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v006",
+    "kanji": "～君",
+    "furigana": "～くん",
+    "romaji": "~kun",
+    "english_meaning": "Mr. (an informal equivalent of ～さん used to address people of equal or lower status; also often appended to boys' names)",
+    "bengali_meaning": "Mr. (an informal equivalent of ～さん used to address people of equal or lower status; also often appended to boys' names)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v007",
+    "furigana": "うん",
+    "romaji": "un",
+    "english_meaning": "yes (an informal equivalent of はい)",
+    "bengali_meaning": "yes (an informal equivalent of はい)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v008",
+    "furigana": "ううん",
+    "romaji": "uun",
+    "english_meaning": "no (an informal equivalent of いいえ)",
+    "bengali_meaning": "no (an informal equivalent of いいえ)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v009",
+    "furigana": "ことば",
+    "romaji": "kotoba",
+    "english_meaning": "word, language",
+    "bengali_meaning": "word, language",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v010",
+    "kanji": "着物",
+    "furigana": "きもの",
+    "romaji": "kimono",
+    "english_meaning": "kimono (traditional Japanese attire)",
+    "bengali_meaning": "kimono (traditional Japanese attire)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v011",
+    "furigana": "ビザ",
+    "romaji": "biza",
+    "english_meaning": "visa",
+    "bengali_meaning": "visa",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v012",
+    "kanji": "初め",
+    "furigana": "はじめ",
+    "romaji": "hajime",
+    "english_meaning": "the beginning",
+    "bengali_meaning": "the beginning",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v013",
+    "kanji": "終わり",
+    "furigana": "おわり",
+    "romaji": "owari",
+    "english_meaning": "the end of ～, The End",
+    "bengali_meaning": "the end of ～, The End",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v014",
+    "furigana": "こっち",
+    "romaji": "kotchi",
+    "english_meaning": "this way, this place (an informal equivalent of こちら)",
+    "bengali_meaning": "this way, this place (an informal equivalent of こちら)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v015",
+    "furigana": "そっち",
+    "romaji": "sotchi",
+    "english_meaning": "that way, that place near the listener (an informal equivalent of そちら)",
+    "bengali_meaning": "that way, that place near the listener (an informal equivalent of そちら)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v016",
+    "furigana": "あっち",
+    "romaji": "atchi",
+    "english_meaning": "that way, that place over there (an informal equivalent of あちら)",
+    "bengali_meaning": "that way, that place over there (an informal equivalent of あちら)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v017",
+    "furigana": "どっち",
+    "romaji": "dotchi",
+    "english_meaning": "which one (between two things), which way, where (an informal equivalent of dochira)",
+    "bengali_meaning": "which one (between two things), which way, where (an informal equivalent of dochira)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v018",
+    "furigana": "みんなで",
+    "romaji": "minnade",
+    "english_meaning": "all together",
+    "bengali_meaning": "all together",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v019",
+    "furigana": "～けど",
+    "romaji": "~kedo",
+    "english_meaning": "～, but (an informal equivalent of が)",
+    "bengali_meaning": "～, but (an informal equivalent of が)",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v020",
+    "furigana": "おなかが いっぱいです",
+    "romaji": "onakaga ippaidesu",
+    "english_meaning": "(I'm) full",
+    "bengali_meaning": "(I'm) full",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v021",
+    "furigana": "よかったら",
+    "romaji": "yokattara",
+    "english_meaning": "if you like",
+    "bengali_meaning": "if you like",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v022",
+    "furigana": "いろいろ",
+    "romaji": "iroiro",
+    "english_meaning": "various",
+    "bengali_meaning": "various",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v023",
+    "kanji": "直します",
+    "furigana": "なおします",
+    "romaji": "naoshimasu",
+    "english_meaning": "repair, correct",
+    "bengali_meaning": "repair, correct",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v024",
+    "kanji": "電話します",
+    "furigana": "でんわします",
+    "romaji": "denwashimasu",
+    "english_meaning": "phone",
+    "bengali_meaning": "phone",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v025",
+    "furigana": "サラリーマン",
+    "romaji": "sarariiman",
+    "english_meaning": "salaried worker, office worker",
+    "bengali_meaning": "salaried worker, office worker",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v026",
+    "kanji": "物価",
+    "furigana": "ぶっか",
+    "romaji": "bukka",
+    "english_meaning": "commodity prices",
+    "bengali_meaning": "commodity prices",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v027",
+    "kanji": "この間",
+    "furigana": "このあいだ",
+    "romaji": "konoaida",
+    "english_meaning": "the other day",
+    "bengali_meaning": "the other day",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v028",
+    "kanji": "国へ 帰るの？",
+    "furigana": "くにへ かえるの？",
+    "romaji": "kunihe kaeruno？",
+    "english_meaning": "Are you going back to your country?",
+    "bengali_meaning": "Are you going back to your country?",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v029",
+    "furigana": "どう するの？",
+    "romaji": "dō suruno?",
+    "english_meaning": "What will you do?",
+    "bengali_meaning": "What will you do?",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  },
+  {
+    "id": "minna-020-v030",
+    "furigana": "どう しようかな。",
+    "romaji": "dō shiyoukana.",
+    "english_meaning": "What shall I do?",
+    "bengali_meaning": "What shall I do?",
+    "tags": [
+      "vocabulary",
+      "lesson-20"
+    ]
+  }
+]

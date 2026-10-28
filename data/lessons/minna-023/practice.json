@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-023-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜23-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜23-A"
+    },
+    "stem": {
+      "jp": "これは レッスン23の 文法です。",
+      "furigana": "これは レッスン23の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 23-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜23-A means \"Grammar pattern 23-A\".",
+      "bn": "〜23-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 23-A\"।"
+    }
+  },
+  {
+    "id": "minna-023-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜23-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜23-B"
+    },
+    "stem": {
+      "jp": "これは レッスン23の 文法です。",
+      "furigana": "これは レッスン23の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 23-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜23-B means \"Grammar pattern 23-B\".",
+      "bn": "〜23-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 23-B\"।"
+    }
+  }
+]

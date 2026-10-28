@@ -1,0 +1,25 @@
+{
+  "slug": "minna-046",
+  "courseId": "minna-beginner",
+  "lessonNumber": 46,
+  "title": {
+    "en": "Lesson 46",
+    "bn": "পাঠ 46"
+  },
+  "subtitle": {
+    "en": "Minna no Nihongo 46",
+    "bn": "মিন্না নো নিহোঙ্গো 46"
+  },
+  "jlpt": "N4",
+  "durationMin": 50,
+  "dataFiles": {
+    "vocabulary": "vocabulary.json",
+    "grammar": "grammar.json",
+    "kanji": "kanji.json",
+    "practice": "practice.json"
+  },
+  "tags": [
+    "minna",
+    "lesson-46"
+  ]
+}

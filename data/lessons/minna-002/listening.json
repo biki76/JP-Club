@@ -1,0 +1,19 @@
+[
+  {
+    "id": "minna-002-l001",
+    "title": {
+      "en": "Listening",
+      "bn": "শ্রবণ"
+    },
+    "audio_url": "",
+    "transcript": [
+      {
+        "jp": "これ は 何 ですか。",
+        "furigana": "これ は なん ですか。",
+        "romaji": "kore wa nan desu ka.",
+        "en": "What is this (thing here)?",
+        "bn": "this (thing here) কী?"
+      }
+    ]
+  }
+]

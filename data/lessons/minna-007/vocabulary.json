@@ -1,0 +1,597 @@
+[
+  {
+    "id": "minna-007-v001",
+    "kanji": "切ります",
+    "furigana": "きります",
+    "romaji": "kirimasu",
+    "english_meaning": "cut, slice",
+    "bengali_meaning": "cut, slice",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v002",
+    "kanji": "送ります",
+    "furigana": "おくります",
+    "romaji": "okurimasu",
+    "english_meaning": "send",
+    "bengali_meaning": "send",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v003",
+    "furigana": "あげます",
+    "romaji": "agemasu",
+    "english_meaning": "give",
+    "bengali_meaning": "give",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v004",
+    "furigana": "もらいます",
+    "romaji": "moraimasu",
+    "english_meaning": "receive",
+    "bengali_meaning": "receive",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v005",
+    "kanji": "貸します",
+    "furigana": "かします",
+    "romaji": "kashimasu",
+    "english_meaning": "lend",
+    "bengali_meaning": "lend",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v006",
+    "kanji": "借ります",
+    "furigana": "かります",
+    "romaji": "karimasu",
+    "english_meaning": "borrow",
+    "bengali_meaning": "borrow",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v007",
+    "kanji": "教えます",
+    "furigana": "おしえます",
+    "romaji": "oshiemasu",
+    "english_meaning": "teach",
+    "bengali_meaning": "teach",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v008",
+    "kanji": "習います",
+    "furigana": "ならいます",
+    "romaji": "naraimasu",
+    "english_meaning": "learn",
+    "bengali_meaning": "learn",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v009",
+    "kanji": "かけます［電話を～］",
+    "furigana": "かけます［でんわを～］",
+    "romaji": "kakemasu [denwawo~]",
+    "english_meaning": "make [a telephone call]",
+    "bengali_meaning": "make [a telephone call]",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v010",
+    "kanji": "手",
+    "furigana": "て",
+    "romaji": "te",
+    "english_meaning": "hand, arm",
+    "bengali_meaning": "hand, arm",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v011",
+    "furigana": "はし",
+    "romaji": "hashi",
+    "english_meaning": "chopsticks",
+    "bengali_meaning": "chopsticks",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v012",
+    "furigana": "スプーン",
+    "romaji": "supūn",
+    "english_meaning": "spoon",
+    "bengali_meaning": "spoon",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v013",
+    "furigana": "ナイフ",
+    "romaji": "naifu",
+    "english_meaning": "knife",
+    "bengali_meaning": "knife",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v014",
+    "furigana": "フォーク",
+    "romaji": "fōku",
+    "english_meaning": "fork",
+    "bengali_meaning": "fork",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v015",
+    "furigana": "はさみ",
+    "romaji": "hasami",
+    "english_meaning": "scissors",
+    "bengali_meaning": "scissors",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v016",
+    "furigana": "パソコン",
+    "romaji": "pasokon",
+    "english_meaning": "personal computer",
+    "bengali_meaning": "personal computer",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v017",
+    "furigana": "ケータイ",
+    "romaji": "kētai",
+    "english_meaning": "mobile phone, cell phone",
+    "bengali_meaning": "mobile phone, cell phone",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v018",
+    "furigana": "メール",
+    "romaji": "mēru",
+    "english_meaning": "e-mail",
+    "bengali_meaning": "e-mail",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v019",
+    "kanji": "年賀状",
+    "furigana": "ねんがじょう",
+    "romaji": "nengajō",
+    "english_meaning": "New Year's greeting card",
+    "bengali_meaning": "New Year's greeting card",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v020",
+    "furigana": "パンチ",
+    "romaji": "panchi",
+    "english_meaning": "punch",
+    "bengali_meaning": "punch",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v021",
+    "furigana": "ホッチキス",
+    "romaji": "hotchikisu",
+    "english_meaning": "stapler",
+    "bengali_meaning": "stapler",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v022",
+    "furigana": "セロテープ",
+    "romaji": "serotēpu",
+    "english_meaning": "Sellotape, Scotch tape, clear adhesive tape",
+    "bengali_meaning": "Sellotape, Scotch tape, clear adhesive tape",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v023",
+    "kanji": "消しゴム",
+    "furigana": "けしゴム",
+    "romaji": "keshigomu",
+    "english_meaning": "rubber, eraser",
+    "bengali_meaning": "rubber, eraser",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v024",
+    "kanji": "紙",
+    "furigana": "かみ",
+    "romaji": "kami",
+    "english_meaning": "paper",
+    "bengali_meaning": "paper",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v025",
+    "kanji": "花",
+    "furigana": "はな",
+    "romaji": "hana",
+    "english_meaning": "flower, blossom",
+    "bengali_meaning": "flower, blossom",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v026",
+    "furigana": "シャツ",
+    "romaji": "shatsu",
+    "english_meaning": "shirt",
+    "bengali_meaning": "shirt",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v027",
+    "furigana": "プレゼント",
+    "romaji": "purezento",
+    "english_meaning": "present, gift",
+    "bengali_meaning": "present, gift",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v028",
+    "kanji": "荷物",
+    "furigana": "にもつ",
+    "romaji": "nimotsu",
+    "english_meaning": "luggage, baggage, parcel",
+    "bengali_meaning": "luggage, baggage, parcel",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v029",
+    "kanji": "お金",
+    "furigana": "おかね",
+    "romaji": "okane",
+    "english_meaning": "money",
+    "bengali_meaning": "money",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v030",
+    "kanji": "切符",
+    "furigana": "きっぷ",
+    "romaji": "kippu",
+    "english_meaning": "ticket",
+    "bengali_meaning": "ticket",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v031",
+    "furigana": "クリスマス",
+    "romaji": "kurisumasu",
+    "english_meaning": "Christmas",
+    "bengali_meaning": "Christmas",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v032",
+    "kanji": "父",
+    "furigana": "ちち",
+    "romaji": "chichi",
+    "english_meaning": "(my) father",
+    "bengali_meaning": "(my) father",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v033",
+    "kanji": "母",
+    "furigana": "はは",
+    "romaji": "haha",
+    "english_meaning": "(my) mother",
+    "bengali_meaning": "(my) mother",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v034",
+    "kanji": "お父さん",
+    "furigana": "おとうさん",
+    "romaji": "otōsan",
+    "english_meaning": "(someone else's) father (also used to address one's own father)",
+    "bengali_meaning": "(someone else's) father (also used to address one's own father)",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v035",
+    "kanji": "お母さん",
+    "furigana": "おかあさん",
+    "romaji": "okāsan",
+    "english_meaning": "(someone else's) mother (also used to address one's own mother)",
+    "bengali_meaning": "(someone else's) mother (also used to address one's own mother)",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v036",
+    "furigana": "もう",
+    "romaji": "mō",
+    "english_meaning": "already",
+    "bengali_meaning": "already",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v037",
+    "furigana": "まだ",
+    "romaji": "mada",
+    "english_meaning": "not yet",
+    "bengali_meaning": "not yet",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v038",
+    "furigana": "これから",
+    "romaji": "korekara",
+    "english_meaning": "from now on, soon",
+    "bengali_meaning": "from now on, soon",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v039",
+    "furigana": "［～、］すてきですね。",
+    "romaji": "[~,] sutekidesune.",
+    "english_meaning": "What a nice [～]!",
+    "bengali_meaning": "What a nice [～]!",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v040",
+    "furigana": "いらっしゃい。",
+    "romaji": "irasshai.",
+    "english_meaning": "How nice of you to come. (lit. Welcome.)",
+    "bengali_meaning": "How nice of you to come. (lit. Welcome.)",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v041",
+    "kanji": "どうぞ お上がり ください。",
+    "furigana": "どうぞ おあがり ください。",
+    "romaji": "dōzo oagari kudasai.",
+    "english_meaning": "Do come in.",
+    "bengali_meaning": "Do come in.",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v042",
+    "kanji": "失礼します。",
+    "furigana": "しつれいします。",
+    "romaji": "shitsureishimasu.",
+    "english_meaning": "May I? (lit. I commit an incivility.)",
+    "bengali_meaning": "May I? (lit. I commit an incivility.)",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v043",
+    "furigana": "［～は］いかがですか。",
+    "romaji": "[~wa] ikagadesuka.",
+    "english_meaning": "Won't you have [～]?/Would you like to have [～]? (used when offering something)",
+    "bengali_meaning": "Won't you have [～]?/Would you like to have [～]? (used when offering something)",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v044",
+    "furigana": "いただきます。",
+    "romaji": "itadakimasu.",
+    "english_meaning": "Thank you./I accept. (said before starting to eat or drink)",
+    "bengali_meaning": "Thank you./I accept. (said before starting to eat or drink)",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v045",
+    "furigana": "ごちそうさま［でした］。",
+    "romaji": "gochisōsama [deshita].",
+    "english_meaning": "That was delicious. (said after eating or drinking)",
+    "bengali_meaning": "That was delicious. (said after eating or drinking)",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v046",
+    "furigana": "スペイン",
+    "romaji": "supein",
+    "english_meaning": "Spain",
+    "bengali_meaning": "Spain",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v047",
+    "furigana": "ファクス",
+    "romaji": "fakusu",
+    "english_meaning": "fax",
+    "bengali_meaning": "fax",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v048",
+    "furigana": "ワープロ",
+    "romaji": "wāpuro",
+    "english_meaning": "word processor",
+    "bengali_meaning": "word processor",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v049",
+    "furigana": "ごめんください。",
+    "romaji": "gomenkudasai.",
+    "english_meaning": "Excuse me./Anybody home?/May I come in? (an expression used by a visitor)",
+    "bengali_meaning": "Excuse me./Anybody home?/May I come in? (an expression used by a visitor)",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v050",
+    "kanji": "旅行",
+    "furigana": "りょこう",
+    "romaji": "ryokō",
+    "english_meaning": "trip, tour (～を します : travel, make a trip)",
+    "bengali_meaning": "trip, tour (～を します : travel, make a trip)",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v051",
+    "kanji": "お土産",
+    "furigana": "おみやげ",
+    "romaji": "omiyage",
+    "english_meaning": "souvenir, present",
+    "bengali_meaning": "souvenir, present",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  },
+  {
+    "id": "minna-007-v052",
+    "furigana": "ヨーロッパ",
+    "romaji": "yōroppa",
+    "english_meaning": "Europe",
+    "bengali_meaning": "Europe",
+    "tags": [
+      "vocabulary",
+      "lesson-7"
+    ]
+  }
+]

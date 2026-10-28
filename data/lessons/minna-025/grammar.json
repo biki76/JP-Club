@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-025-g1",
+    "pattern": "〜25-A",
+    "meaning_en": "Grammar pattern 25-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 25-A",
+    "examples": [
+      {
+        "jp": "これは レッスン25の 文法です。",
+        "en": "This is lesson 25 grammar.",
+        "bn": "This is lesson 25 grammar.",
+        "furigana": "これは レッスン25の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-025-g2",
+    "pattern": "〜25-B",
+    "meaning_en": "Grammar pattern 25-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 25-B",
+    "examples": [
+      {
+        "jp": "これは レッスン25の 文法です。",
+        "en": "This is lesson 25 grammar.",
+        "bn": "This is lesson 25 grammar.",
+        "furigana": "これは レッスン25の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

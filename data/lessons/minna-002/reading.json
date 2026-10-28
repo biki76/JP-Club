@@ -1,0 +1,18 @@
+[
+  {
+    "id": "minna-002-r001",
+    "title": {
+      "en": "Reading",
+      "bn": "পাঠ"
+    },
+    "passage": [
+      {
+        "jp": "これは これ です。",
+        "furigana": "これは これ です。",
+        "romaji": "Kore wa kore desu.",
+        "en": "This is this (thing here).",
+        "bn": "এটি this (thing here)।"
+      }
+    ]
+  }
+]

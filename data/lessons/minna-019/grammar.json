@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-019-g1",
+    "pattern": "〜19-A",
+    "meaning_en": "Grammar pattern 19-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 19-A",
+    "examples": [
+      {
+        "jp": "これは レッスン19の 文法です。",
+        "en": "This is lesson 19 grammar.",
+        "bn": "This is lesson 19 grammar.",
+        "furigana": "これは レッスン19の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-019-g2",
+    "pattern": "〜19-B",
+    "meaning_en": "Grammar pattern 19-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 19-B",
+    "examples": [
+      {
+        "jp": "これは レッスン19の 文法です。",
+        "en": "This is lesson 19 grammar.",
+        "bn": "This is lesson 19 grammar.",
+        "furigana": "これは レッスン19の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

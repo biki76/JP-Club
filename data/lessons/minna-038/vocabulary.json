@@ -1,0 +1,721 @@
+[
+  {
+    "id": "minna-038-v001",
+    "kanji": "参加します［旅行に～］",
+    "furigana": "さんかします［りょこうに～］",
+    "romaji": "sankashimasu [ryokōni~]",
+    "english_meaning": "join [a tour], participate, attend",
+    "bengali_meaning": "join [a tour], participate, attend",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v002",
+    "kanji": "育てます",
+    "furigana": "そだてます",
+    "romaji": "sodatemasu",
+    "english_meaning": "breed, bring up",
+    "bengali_meaning": "breed, bring up",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v003",
+    "kanji": "運びます",
+    "furigana": "はこびます",
+    "romaji": "hakobimasu",
+    "english_meaning": "carry, transport",
+    "bengali_meaning": "carry, transport",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v004",
+    "kanji": "入院します",
+    "furigana": "にゅういんします",
+    "romaji": "nyūinshimasu",
+    "english_meaning": "enter hospital",
+    "bengali_meaning": "enter hospital",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v005",
+    "kanji": "退院します",
+    "furigana": "たいいんします",
+    "romaji": "taiinshimasu",
+    "english_meaning": "leave hospital",
+    "bengali_meaning": "leave hospital",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v006",
+    "kanji": "入れます［電源を～］",
+    "furigana": "いれます［でんげんを～］",
+    "romaji": "iremasu [dengenwo~]",
+    "english_meaning": "turn on [the power switch]",
+    "bengali_meaning": "turn on [the power switch]",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v007",
+    "kanji": "切ります［電源を～］",
+    "furigana": "きります［でんげんを～］",
+    "romaji": "kirimasu [dengenwo~]",
+    "english_meaning": "turn off [the power switch]",
+    "bengali_meaning": "turn off [the power switch]",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v008",
+    "kanji": "掛けます［かぎを～］",
+    "furigana": "かけます［かぎを～］",
+    "romaji": "kakemasu [kagiwo~]",
+    "english_meaning": "lock",
+    "bengali_meaning": "lock",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v009",
+    "furigana": "つきます［うそを～］",
+    "romaji": "tsukimasu [usowo~]",
+    "english_meaning": "tell [a lie]",
+    "bengali_meaning": "tell [a lie]",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v010",
+    "kanji": "気持ちが いい",
+    "furigana": "きもちが いい",
+    "romaji": "kimochiga ii",
+    "english_meaning": "pleasant, agreeable",
+    "bengali_meaning": "pleasant, agreeable",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v011",
+    "kanji": "気持ちが 悪い",
+    "furigana": "きもちが わるい",
+    "romaji": "kimochiga warui",
+    "english_meaning": "unpleasant, disgusting",
+    "bengali_meaning": "unpleasant, disgusting",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v012",
+    "kanji": "大きな ～",
+    "furigana": "おおきな ～",
+    "romaji": "ōkina ~",
+    "english_meaning": "large ～, big ～",
+    "bengali_meaning": "large ～, big ～",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v013",
+    "kanji": "小さな ～",
+    "furigana": "ちいさな ～",
+    "romaji": "chiisana ~",
+    "english_meaning": "small ～, little ～",
+    "bengali_meaning": "small ～, little ～",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v014",
+    "kanji": "赤ちゃん",
+    "furigana": "あかちゃん",
+    "romaji": "akachan",
+    "english_meaning": "baby",
+    "bengali_meaning": "baby",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v015",
+    "kanji": "小学校",
+    "furigana": "しょうがっこう",
+    "romaji": "shōgakkō",
+    "english_meaning": "elementary school",
+    "bengali_meaning": "elementary school",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v016",
+    "kanji": "中学校",
+    "furigana": "ちゅうがっこう",
+    "romaji": "chūgakkō",
+    "english_meaning": "junior high school",
+    "bengali_meaning": "junior high school",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v017",
+    "kanji": "駅前",
+    "furigana": "えきまえ",
+    "romaji": "ekimae",
+    "english_meaning": "the area in front of the station",
+    "bengali_meaning": "the area in front of the station",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v018",
+    "kanji": "海岸",
+    "furigana": "かいがん",
+    "romaji": "kaigan",
+    "english_meaning": "seaside, seashore",
+    "bengali_meaning": "seaside, seashore",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v019",
+    "kanji": "工場",
+    "furigana": "こうじょう",
+    "romaji": "kōjō",
+    "english_meaning": "factory",
+    "bengali_meaning": "factory",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v020",
+    "kanji": "村",
+    "furigana": "むら",
+    "romaji": "mura",
+    "english_meaning": "village",
+    "bengali_meaning": "village",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v021",
+    "furigana": "かな",
+    "romaji": "kana",
+    "english_meaning": "hiragana and katakana script",
+    "bengali_meaning": "hiragana and katakana script",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v022",
+    "kanji": "指輪",
+    "furigana": "ゆびわ",
+    "romaji": "yubiwa",
+    "english_meaning": "ring",
+    "bengali_meaning": "ring",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v023",
+    "kanji": "電源",
+    "furigana": "でんげん",
+    "romaji": "dengen",
+    "english_meaning": "power switch",
+    "bengali_meaning": "power switch",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v024",
+    "kanji": "習慣",
+    "furigana": "しゅうかん",
+    "romaji": "shūkan",
+    "english_meaning": "habit",
+    "bengali_meaning": "habit",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v025",
+    "kanji": "健康",
+    "furigana": "けんこう",
+    "romaji": "kenkō",
+    "english_meaning": "health",
+    "bengali_meaning": "health",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v026",
+    "kanji": "～製",
+    "furigana": "～せい",
+    "romaji": "~sei",
+    "english_meaning": "made in ～",
+    "bengali_meaning": "made in ～",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v027",
+    "furigana": "おととし",
+    "romaji": "ototoshi",
+    "english_meaning": "the year before the last",
+    "bengali_meaning": "the year before the last",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v028",
+    "furigana": "［あ、］いけない。",
+    "romaji": "[a,] ikenai.",
+    "english_meaning": "Oops!/Oh, no! (used when one has made a mistake)",
+    "bengali_meaning": "Oops!/Oh, no! (used when one has made a mistake)",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v029",
+    "kanji": "お先に［失礼します］。",
+    "furigana": "おさきに［しつれいします］。",
+    "romaji": "osakini [shitsureishimasu].",
+    "english_meaning": "Excuse me (for leaving before you).",
+    "bengali_meaning": "Excuse me (for leaving before you).",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v030",
+    "kanji": "原爆ドーム",
+    "furigana": "げんばくドーム",
+    "romaji": "genbakudōmu",
+    "english_meaning": "dome commemorating the atomic bombing of Hiroshima",
+    "bengali_meaning": "dome commemorating the atomic bombing of Hiroshima",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v031",
+    "kanji": "出雲大社",
+    "furigana": "いずもたいしゃ",
+    "romaji": "izumotaisha",
+    "english_meaning": "a shrine in Izumo city in Shimane prefecture",
+    "bengali_meaning": "a shrine in Izumo city in Shimane prefecture",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v032",
+    "furigana": "チェンマイ",
+    "romaji": "chenmai",
+    "english_meaning": "Chiangmai (in Thailand)",
+    "bengali_meaning": "Chiangmai (in Thailand)",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v033",
+    "kanji": "回覧",
+    "furigana": "かいらん",
+    "romaji": "kairan",
+    "english_meaning": "circular",
+    "bengali_meaning": "circular",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v034",
+    "kanji": "研究室",
+    "furigana": "けんきゅうしつ",
+    "romaji": "kenkyūshitsu",
+    "english_meaning": "study room, professor's office, laboratory",
+    "bengali_meaning": "study room, professor's office, laboratory",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v035",
+    "furigana": "きちんと",
+    "romaji": "kichinto",
+    "english_meaning": "neatly, tidily",
+    "bengali_meaning": "neatly, tidily",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v036",
+    "kanji": "整理します",
+    "furigana": "せいりします",
+    "romaji": "seirishimasu",
+    "english_meaning": "sort (things) out",
+    "bengali_meaning": "sort (things) out",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v037",
+    "kanji": "方法",
+    "furigana": "ほうほう",
+    "romaji": "hōhō",
+    "english_meaning": "method",
+    "bengali_meaning": "method",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v038",
+    "furigana": "～と いう",
+    "romaji": "~to iu",
+    "english_meaning": "entitled ～, named ～, called ～",
+    "bengali_meaning": "entitled ～, named ～, called ～",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v039",
+    "kanji": "－冊",
+    "furigana": "－さつ",
+    "romaji": "-satsu",
+    "english_meaning": "(counter for books, etc.)",
+    "bengali_meaning": "(counter for books, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v040",
+    "furigana": "はんこ",
+    "romaji": "hanko",
+    "english_meaning": "seal, stamp",
+    "bengali_meaning": "seal, stamp",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v041",
+    "kanji": "押します［はんこを～］",
+    "furigana": "おします［はんこを～］",
+    "romaji": "oshimasu [hankowo~]",
+    "english_meaning": "affix [a seal], stamp",
+    "bengali_meaning": "affix [a seal], stamp",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v042",
+    "kanji": "双子",
+    "furigana": "ふたご",
+    "romaji": "futago",
+    "english_meaning": "twins",
+    "bengali_meaning": "twins",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v043",
+    "kanji": "姉妹",
+    "furigana": "しまい",
+    "romaji": "shimai",
+    "english_meaning": "sisters",
+    "bengali_meaning": "sisters",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v044",
+    "kanji": "５年生",
+    "furigana": "５ねんせい",
+    "romaji": "5nensei",
+    "english_meaning": "fifth grade, fifth year",
+    "bengali_meaning": "fifth grade, fifth year",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v045",
+    "kanji": "似て います",
+    "furigana": "にて います",
+    "romaji": "nite imasu",
+    "english_meaning": "resemble, be like",
+    "bengali_meaning": "resemble, be like",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v046",
+    "kanji": "性格",
+    "furigana": "せいかく",
+    "romaji": "seikaku",
+    "english_meaning": "character",
+    "bengali_meaning": "character",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v047",
+    "furigana": "おとなしい",
+    "romaji": "otonashii",
+    "english_meaning": "quiet, gentle",
+    "bengali_meaning": "quiet, gentle",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v048",
+    "kanji": "優しい",
+    "furigana": "やさしい",
+    "romaji": "yasashii",
+    "english_meaning": "kind, gentle, tender-hearted",
+    "bengali_meaning": "kind, gentle, tender-hearted",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v049",
+    "kanji": "世話を します",
+    "furigana": "せわを します",
+    "romaji": "sewawo shimasu",
+    "english_meaning": "take care of",
+    "bengali_meaning": "take care of",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v050",
+    "kanji": "時間が たちます",
+    "furigana": "じかんが たちます",
+    "romaji": "jikanga tachimasu",
+    "english_meaning": "time passes by",
+    "bengali_meaning": "time passes by",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v051",
+    "kanji": "大好き［な］",
+    "furigana": "だいすき［な］",
+    "romaji": "daisuki [na]",
+    "english_meaning": "like very much",
+    "bengali_meaning": "like very much",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v052",
+    "kanji": "－点",
+    "furigana": "－てん",
+    "romaji": "-ten",
+    "english_meaning": "－ points",
+    "bengali_meaning": "－ points",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v053",
+    "kanji": "気が 強い",
+    "furigana": "きが つよい",
+    "romaji": "kiga tsuyoi",
+    "english_meaning": "tough, strong-willed",
+    "bengali_meaning": "tough, strong-willed",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v054",
+    "furigana": "けんかします",
+    "romaji": "kenkashimasu",
+    "english_meaning": "quarrel, fight",
+    "bengali_meaning": "quarrel, fight",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v055",
+    "kanji": "不思議［な］",
+    "furigana": "ふしぎ［な］",
+    "romaji": "fushigi [na]",
+    "english_meaning": "mysterious, strange",
+    "bengali_meaning": "mysterious, strange",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v056",
+    "kanji": "年齢",
+    "furigana": "ねんれい",
+    "romaji": "nenrei",
+    "english_meaning": "age",
+    "bengali_meaning": "age",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v057",
+    "furigana": "しかた",
+    "romaji": "shikata",
+    "english_meaning": "way (of doing something)",
+    "bengali_meaning": "way (of doing something)",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v058",
+    "kanji": "亡くなります",
+    "furigana": "なくなります",
+    "romaji": "nakunarimasu",
+    "english_meaning": "pass away (euphemistic expression for しにます(L.39))",
+    "bengali_meaning": "pass away (euphemistic expression for しにます(L.39))",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v059",
+    "furigana": "うそ",
+    "romaji": "uso",
+    "english_meaning": "lie, fib",
+    "bengali_meaning": "lie, fib",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v060",
+    "kanji": "書類",
+    "furigana": "しょるい",
+    "romaji": "shorui",
+    "english_meaning": "documents, paper",
+    "bengali_meaning": "documents, paper",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  },
+  {
+    "id": "minna-038-v061",
+    "furigana": "クラス",
+    "romaji": "kurasu",
+    "english_meaning": "class",
+    "bengali_meaning": "class",
+    "tags": [
+      "vocabulary",
+      "lesson-38"
+    ]
+  }
+]

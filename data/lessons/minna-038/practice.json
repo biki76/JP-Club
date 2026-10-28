@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-038-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜38-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜38-A"
+    },
+    "stem": {
+      "jp": "これは レッスン38の 文法です。",
+      "furigana": "これは レッスン38の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 38-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜38-A means \"Grammar pattern 38-A\".",
+      "bn": "〜38-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 38-A\"।"
+    }
+  },
+  {
+    "id": "minna-038-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜38-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜38-B"
+    },
+    "stem": {
+      "jp": "これは レッスン38の 文法です。",
+      "furigana": "これは レッスン38の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 38-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜38-B means \"Grammar pattern 38-B\".",
+      "bn": "〜38-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 38-B\"।"
+    }
+  }
+]

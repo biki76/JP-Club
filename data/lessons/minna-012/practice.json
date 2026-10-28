@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-012-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜12-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜12-A"
+    },
+    "stem": {
+      "jp": "これは レッスン12の 文法です。",
+      "furigana": "これは レッスン12の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 12-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜12-A means \"Grammar pattern 12-A\".",
+      "bn": "〜12-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 12-A\"।"
+    }
+  },
+  {
+    "id": "minna-012-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜12-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜12-B"
+    },
+    "stem": {
+      "jp": "これは レッスン12の 文法です。",
+      "furigana": "これは レッスン12の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 12-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜12-B means \"Grammar pattern 12-B\".",
+      "bn": "〜12-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 12-B\"।"
+    }
+  }
+]

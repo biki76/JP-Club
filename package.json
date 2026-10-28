@@ -1,0 +1,30 @@
+{
+  "name": "jp-club",
+  "version": "1.0.0",
+  "description": "JP-Club is an online Japanese-learning platform organized around the Minna no Nihongo textbook series. The English version provides a structured curriculum of 50 lessons, with Japanese lesson titles and English explanations of their learning objectives. It is intended for learners, teachers, and people studying Japanese independently.",
+  "main": "supabase-config.example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biki76/JP-Club.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/biki76/JP-Club/issues"
+  },
+  "homepage": "https://github.com/biki76/JP-Club#readme",
+  "dependencies": {
+    "js-yaml": "^5.5.0",
+    "kanji": "^0.19.3",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^26.6.5"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-036-g1",
+    "pattern": "〜36-A",
+    "meaning_en": "Grammar pattern 36-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 36-A",
+    "examples": [
+      {
+        "jp": "これは レッスン36の 文法です。",
+        "en": "This is lesson 36 grammar.",
+        "bn": "This is lesson 36 grammar.",
+        "furigana": "これは レッスン36の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-036-g2",
+    "pattern": "〜36-B",
+    "meaning_en": "Grammar pattern 36-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 36-B",
+    "examples": [
+      {
+        "jp": "これは レッスン36の 文法です。",
+        "en": "This is lesson 36 grammar.",
+        "bn": "This is lesson 36 grammar.",
+        "furigana": "これは レッスン36の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

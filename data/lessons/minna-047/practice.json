@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-047-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜47-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜47-A"
+    },
+    "stem": {
+      "jp": "これは レッスン47の 文法です。",
+      "furigana": "これは レッスン47の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 47-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜47-A means \"Grammar pattern 47-A\".",
+      "bn": "〜47-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 47-A\"।"
+    }
+  },
+  {
+    "id": "minna-047-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜47-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜47-B"
+    },
+    "stem": {
+      "jp": "これは レッスン47の 文法です。",
+      "furigana": "これは レッスン47の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 47-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜47-B means \"Grammar pattern 47-B\".",
+      "bn": "〜47-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 47-B\"।"
+    }
+  }
+]

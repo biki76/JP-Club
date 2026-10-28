@@ -1,0 +1,461 @@
+[
+  {
+    "id": "minna-017-v001",
+    "kanji": "覚えます",
+    "furigana": "おぼえます",
+    "romaji": "oboemasu",
+    "english_meaning": "memorise",
+    "bengali_meaning": "memorise",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v002",
+    "kanji": "忘れます",
+    "furigana": "わすれます",
+    "romaji": "wasuremasu",
+    "english_meaning": "forget",
+    "bengali_meaning": "forget",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v003",
+    "furigana": "なくします",
+    "romaji": "nakushimasu",
+    "english_meaning": "lose",
+    "bengali_meaning": "lose",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v004",
+    "kanji": "払います",
+    "furigana": "はらいます",
+    "romaji": "haraimasu",
+    "english_meaning": "pay",
+    "bengali_meaning": "pay",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v005",
+    "kanji": "返します",
+    "furigana": "かえします",
+    "romaji": "kaeshimasu",
+    "english_meaning": "give back, return",
+    "bengali_meaning": "give back, return",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v006",
+    "kanji": "出かけます",
+    "furigana": "でかけます",
+    "romaji": "dekakemasu",
+    "english_meaning": "go out",
+    "bengali_meaning": "go out",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v007",
+    "kanji": "脱ぎます",
+    "furigana": "ぬぎます",
+    "romaji": "nugimasu",
+    "english_meaning": "take off (clothes, shoes, etc.)",
+    "bengali_meaning": "take off (clothes, shoes, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v008",
+    "kanji": "持って 行きます",
+    "furigana": "もって いきます",
+    "romaji": "motte ikimasu",
+    "english_meaning": "take (something)",
+    "bengali_meaning": "take (something)",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v009",
+    "kanji": "持って 来ます",
+    "furigana": "もって きます",
+    "romaji": "motte kimasu",
+    "english_meaning": "bring (something)",
+    "bengali_meaning": "bring (something)",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v010",
+    "kanji": "心配します",
+    "furigana": "しんぱいします",
+    "romaji": "shinpaishimasu",
+    "english_meaning": "worry",
+    "bengali_meaning": "worry",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v011",
+    "kanji": "残業します",
+    "furigana": "ざんぎょうします",
+    "romaji": "zangyōshimasu",
+    "english_meaning": "work overtime",
+    "bengali_meaning": "work overtime",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v012",
+    "kanji": "出張します",
+    "furigana": "しゅっちょうします",
+    "romaji": "shutchōshimasu",
+    "english_meaning": "go on a business trip",
+    "bengali_meaning": "go on a business trip",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v013",
+    "kanji": "飲みます［薬を～］",
+    "furigana": "のみます［くすりを～］",
+    "romaji": "nomimasu [kusuriwo~]",
+    "english_meaning": "take [medicine]",
+    "bengali_meaning": "take [medicine]",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v014",
+    "kanji": "入ります［おふろに～］",
+    "furigana": "はいります［おふろに～］",
+    "romaji": "hairimasu [ofuroni~]",
+    "english_meaning": "take [a bath]",
+    "bengali_meaning": "take [a bath]",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v015",
+    "kanji": "大切［な］",
+    "furigana": "たいせつ［な］",
+    "romaji": "taisetsu [na]",
+    "english_meaning": "important, precious",
+    "bengali_meaning": "important, precious",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v016",
+    "kanji": "大丈夫［な］",
+    "furigana": "だいじょうぶ［な］",
+    "romaji": "daijōbu [na]",
+    "english_meaning": "all right",
+    "bengali_meaning": "all right",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v017",
+    "kanji": "危ない",
+    "furigana": "あぶない",
+    "romaji": "abunai",
+    "english_meaning": "dangerous",
+    "bengali_meaning": "dangerous",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v018",
+    "kanji": "禁煙",
+    "furigana": "きんえん",
+    "romaji": "kin'en",
+    "english_meaning": "no smoking",
+    "bengali_meaning": "no smoking",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v019",
+    "kanji": "［健康］保険証",
+    "furigana": "［けんこう］ほけんしょう",
+    "romaji": "[kenkō] hokenshō",
+    "english_meaning": "[health] insurance card",
+    "bengali_meaning": "[health] insurance card",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v020",
+    "kanji": "熱",
+    "furigana": "ねつ",
+    "romaji": "netsu",
+    "english_meaning": "temperature, fever",
+    "bengali_meaning": "temperature, fever",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v021",
+    "kanji": "病気",
+    "furigana": "びょうき",
+    "romaji": "byōki",
+    "english_meaning": "illness, disease",
+    "bengali_meaning": "illness, disease",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v022",
+    "kanji": "薬",
+    "furigana": "くすり",
+    "romaji": "kusuri",
+    "english_meaning": "medicine",
+    "bengali_meaning": "medicine",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v023",
+    "furigana": "［お］ふろ",
+    "romaji": "[o] furo",
+    "english_meaning": "bath",
+    "bengali_meaning": "bath",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v024",
+    "kanji": "上着",
+    "furigana": "うわぎ",
+    "romaji": "uwagi",
+    "english_meaning": "jacket, outerwear",
+    "bengali_meaning": "jacket, outerwear",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v025",
+    "kanji": "下着",
+    "furigana": "したぎ",
+    "romaji": "shitagi",
+    "english_meaning": "underwear",
+    "bengali_meaning": "underwear",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v026",
+    "kanji": "２、３日",
+    "furigana": "２、３にち",
+    "romaji": "2, 3 nichi",
+    "english_meaning": "two or three days",
+    "bengali_meaning": "two or three days",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v027",
+    "furigana": "２、３～",
+    "romaji": "2, 3~",
+    "english_meaning": "two or three ～ (where ～ is a counter suffix)",
+    "bengali_meaning": "two or three ～ (where ～ is a counter suffix)",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v028",
+    "furigana": "～までに",
+    "romaji": "~madeni",
+    "english_meaning": "before ～, by ～ (indicating time limit)",
+    "bengali_meaning": "before ～, by ～ (indicating time limit)",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v029",
+    "furigana": "ですから",
+    "romaji": "desukara",
+    "english_meaning": "therefore, so",
+    "bengali_meaning": "therefore, so",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v030",
+    "furigana": "どう しましたか。",
+    "romaji": "dō shimashitaka.",
+    "english_meaning": "What's the matter?",
+    "bengali_meaning": "What's the matter?",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v031",
+    "furigana": "のど",
+    "romaji": "nodo",
+    "english_meaning": "throat",
+    "bengali_meaning": "throat",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v032",
+    "kanji": "［～が］痛いです。",
+    "furigana": "［～が］いたいです。",
+    "romaji": "[~ga] itaidesu.",
+    "english_meaning": "(I) have a pain [in my ～].",
+    "bengali_meaning": "(I) have a pain [in my ～].",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v033",
+    "furigana": "かぜ",
+    "romaji": "kaze",
+    "english_meaning": "cold, flu",
+    "bengali_meaning": "cold, flu",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v034",
+    "furigana": "それから",
+    "romaji": "sorekara",
+    "english_meaning": "and, furthermore",
+    "bengali_meaning": "and, furthermore",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v035",
+    "kanji": "お大事に。",
+    "furigana": "おだいじに。",
+    "romaji": "odaijini.",
+    "english_meaning": "Take care of yourself. (said to people who are ill)",
+    "bengali_meaning": "Take care of yourself. (said to people who are ill)",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v036",
+    "kanji": "出します［レポートを～］",
+    "furigana": "だします［レポートを～］",
+    "romaji": "dashimasu [repōtowo~]",
+    "english_meaning": "hand in [a report]",
+    "bengali_meaning": "hand in [a report]",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v037",
+    "kanji": "問題",
+    "furigana": "もんだい",
+    "romaji": "mondai",
+    "english_meaning": "question, problem, trouble",
+    "bengali_meaning": "question, problem, trouble",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v038",
+    "kanji": "答え",
+    "furigana": "こたえ",
+    "romaji": "kotae",
+    "english_meaning": "answer",
+    "bengali_meaning": "answer",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  },
+  {
+    "id": "minna-017-v039",
+    "kanji": "先生",
+    "furigana": "せんせい",
+    "romaji": "sensei",
+    "english_meaning": "doctor (used when addressing a medical doctor)",
+    "bengali_meaning": "doctor (used when addressing a medical doctor)",
+    "tags": [
+      "vocabulary",
+      "lesson-17"
+    ]
+  }
+]

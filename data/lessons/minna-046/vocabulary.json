@@ -1,0 +1,568 @@
+[
+  {
+    "id": "minna-046-v001",
+    "kanji": "渡します",
+    "furigana": "わたします",
+    "romaji": "watashimasu",
+    "english_meaning": "hand over",
+    "bengali_meaning": "hand over",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v002",
+    "kanji": "帰って 来ます",
+    "furigana": "かえって きます",
+    "romaji": "kaette kimasu",
+    "english_meaning": "come back",
+    "bengali_meaning": "come back",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v003",
+    "kanji": "出ます［バスが～］",
+    "furigana": "でます［バスが～］",
+    "romaji": "demasu [basuga~]",
+    "english_meaning": "[a bus] leave, depart",
+    "bengali_meaning": "[a bus] leave, depart",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v004",
+    "kanji": "届きます［荷物が～］",
+    "furigana": "とどきます［にもつが～］",
+    "romaji": "todokimasu [nimotsuga~]",
+    "english_meaning": "[parcels] be delivered",
+    "bengali_meaning": "[parcels] be delivered",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v005",
+    "kanji": "入学します［大学に～］",
+    "furigana": "にゅうがくします［だいがくに～］",
+    "romaji": "nyūgakushimasu [daigakuni~]",
+    "english_meaning": "enter [a university]",
+    "bengali_meaning": "enter [a university]",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v006",
+    "kanji": "卒業します［大学を～］",
+    "furigana": "そつぎょうします［だいがくを～］",
+    "romaji": "sotsugyōshimasu [daigakuwo~]",
+    "english_meaning": "graduate [from a university]",
+    "bengali_meaning": "graduate [from a university]",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v007",
+    "kanji": "焼きます",
+    "furigana": "やきます",
+    "romaji": "yakimasu",
+    "english_meaning": "bake, grill, roast",
+    "bengali_meaning": "bake, grill, roast",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v008",
+    "kanji": "焼けます［パンが～］",
+    "furigana": "やけます［パンが～］",
+    "romaji": "yakemasu [panga~]",
+    "english_meaning": "[bread] be baked",
+    "bengali_meaning": "[bread] be baked",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v009",
+    "kanji": "焼けます［肉が～］",
+    "furigana": "やけます［にくが～］",
+    "romaji": "yakemasu [nikuga~]",
+    "english_meaning": "[meat] be roasted, be grilled",
+    "bengali_meaning": "[meat] be roasted, be grilled",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v010",
+    "kanji": "留守",
+    "furigana": "るす",
+    "romaji": "rusu",
+    "english_meaning": "absence",
+    "bengali_meaning": "absence",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v011",
+    "kanji": "宅配便",
+    "furigana": "たくはいびん",
+    "romaji": "takuhaibin",
+    "english_meaning": "(package delivered by) home delivery service",
+    "bengali_meaning": "(package delivered by) home delivery service",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v012",
+    "kanji": "原因",
+    "furigana": "げんいん",
+    "romaji": "gen'in",
+    "english_meaning": "cause",
+    "bengali_meaning": "cause",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v013",
+    "furigana": "こちら",
+    "romaji": "kochira",
+    "english_meaning": "my side",
+    "bengali_meaning": "my side",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v014",
+    "kanji": "～の 所",
+    "furigana": "～の ところ",
+    "romaji": "~no tokoro",
+    "english_meaning": "where ～ is/are, by the ～",
+    "bengali_meaning": "where ～ is/are, by the ～",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v015",
+    "kanji": "半年",
+    "furigana": "はんとし",
+    "romaji": "hantoshi",
+    "english_meaning": "half a year",
+    "bengali_meaning": "half a year",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v016",
+    "furigana": "ちょうど",
+    "romaji": "chōdo",
+    "english_meaning": "just, exactly",
+    "bengali_meaning": "just, exactly",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v017",
+    "kanji": "たった今",
+    "furigana": "たったいま",
+    "romaji": "tattaima",
+    "english_meaning": "just now (used with the past tense; indicates completion)",
+    "bengali_meaning": "just now (used with the past tense; indicates completion)",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v018",
+    "kanji": "今 いいですか。",
+    "furigana": "いま いいですか。",
+    "romaji": "ima iidesuka.",
+    "english_meaning": "Have you got a moment?",
+    "bengali_meaning": "Have you got a moment?",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v019",
+    "furigana": "ガスサービスセンター",
+    "romaji": "gasusābisusentā",
+    "english_meaning": "gas service centre",
+    "bengali_meaning": "gas service centre",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v020",
+    "furigana": "ガスレンジ",
+    "romaji": "gasurenji",
+    "english_meaning": "gas range, gas cooker",
+    "bengali_meaning": "gas range, gas cooker",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v021",
+    "kanji": "具合",
+    "furigana": "ぐあい",
+    "romaji": "guai",
+    "english_meaning": "condition",
+    "bengali_meaning": "condition",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v022",
+    "kanji": "申し訳ありません。",
+    "furigana": "もうしわけありません。",
+    "romaji": "mōshiwakearimasen.",
+    "english_meaning": "I'm sorry.",
+    "bengali_meaning": "I'm sorry.",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v023",
+    "kanji": "どちら様でしょうか。",
+    "furigana": "どちらさまでしょうか。",
+    "romaji": "dochirasamadeshōka.",
+    "english_meaning": "Who is this, please?",
+    "bengali_meaning": "Who is this, please?",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v024",
+    "kanji": "お待たせしました。",
+    "furigana": "おまたせしました。",
+    "romaji": "omataseshimashita.",
+    "english_meaning": "Sorry to have kept you waiting.",
+    "bengali_meaning": "Sorry to have kept you waiting.",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v025",
+    "kanji": "向かいます",
+    "furigana": "むかいます",
+    "romaji": "mukaimasu",
+    "english_meaning": "head for",
+    "bengali_meaning": "head for",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v026",
+    "furigana": "ついて います",
+    "romaji": "tsuite imasu",
+    "english_meaning": "be lucky",
+    "bengali_meaning": "be lucky",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v027",
+    "kanji": "床",
+    "furigana": "ゆか",
+    "romaji": "yuka",
+    "english_meaning": "floor",
+    "bengali_meaning": "floor",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v028",
+    "kanji": "転びます",
+    "furigana": "ころびます",
+    "romaji": "korobimasu",
+    "english_meaning": "fall down, fall over",
+    "bengali_meaning": "fall down, fall over",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v029",
+    "furigana": "ベル",
+    "romaji": "beru",
+    "english_meaning": "ring",
+    "bengali_meaning": "ring",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v030",
+    "kanji": "鳴ります",
+    "furigana": "なります",
+    "romaji": "narimasu",
+    "english_meaning": "ring",
+    "bengali_meaning": "ring",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v031",
+    "kanji": "慌てて",
+    "furigana": "あわてて",
+    "romaji": "awatete",
+    "english_meaning": "in a hurry",
+    "bengali_meaning": "in a hurry",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v032",
+    "kanji": "順番に",
+    "furigana": "じゅんばんに",
+    "romaji": "junbanni",
+    "english_meaning": "in order",
+    "bengali_meaning": "in order",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v033",
+    "kanji": "出来事",
+    "furigana": "できごと",
+    "romaji": "dekigoto",
+    "english_meaning": "incident",
+    "bengali_meaning": "incident",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v034",
+    "kanji": "注射",
+    "furigana": "ちゅうしゃ",
+    "romaji": "chūsha",
+    "english_meaning": "injection",
+    "bengali_meaning": "injection",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v035",
+    "kanji": "食欲",
+    "furigana": "しょくよく",
+    "romaji": "shokuyoku",
+    "english_meaning": "appetite",
+    "bengali_meaning": "appetite",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v036",
+    "furigana": "パンフレット",
+    "romaji": "panfuretto",
+    "english_meaning": "pamphlet",
+    "bengali_meaning": "pamphlet",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v037",
+    "furigana": "ステレオ",
+    "romaji": "sutereo",
+    "english_meaning": "stereo",
+    "bengali_meaning": "stereo",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v038",
+    "kanji": "今 いいでしょうか。",
+    "furigana": "いま いいでしょうか。",
+    "romaji": "ima iideshōka.",
+    "english_meaning": "May I bother you now?",
+    "bengali_meaning": "May I bother you now?",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v039",
+    "kanji": "知識",
+    "furigana": "ちしき",
+    "romaji": "chishiki",
+    "english_meaning": "knowledge",
+    "bengali_meaning": "knowledge",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v040",
+    "kanji": "宝庫",
+    "furigana": "ほうこ",
+    "romaji": "hōko",
+    "english_meaning": "treasury",
+    "bengali_meaning": "treasury",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v041",
+    "kanji": "手に入ります［情報が～］",
+    "furigana": "てにはいります［じょうほうが～］",
+    "romaji": "tenihairimasu [jōhōga~]",
+    "english_meaning": "[information] come in, reach",
+    "bengali_meaning": "[information] come in, reach",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v042",
+    "furigana": "システム",
+    "romaji": "shisutemu",
+    "english_meaning": "system",
+    "bengali_meaning": "system",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v043",
+    "kanji": "例えば",
+    "furigana": "たとえば",
+    "romaji": "tatoeba",
+    "english_meaning": "for example",
+    "bengali_meaning": "for example",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v044",
+    "furigana": "キーワード",
+    "romaji": "kiiwādo",
+    "english_meaning": "key word",
+    "bengali_meaning": "key word",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v045",
+    "kanji": "一部分",
+    "furigana": "いちぶぶん",
+    "romaji": "ichibubun",
+    "english_meaning": "one part",
+    "bengali_meaning": "one part",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v046",
+    "kanji": "入力します",
+    "furigana": "にゅうりょくします",
+    "romaji": "nyūryokushimasu",
+    "english_meaning": "input",
+    "bengali_meaning": "input",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v047",
+    "kanji": "秒",
+    "furigana": "びょう",
+    "romaji": "byō",
+    "english_meaning": "second",
+    "bengali_meaning": "second",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  },
+  {
+    "id": "minna-046-v048",
+    "kanji": "出ます［本が～］",
+    "furigana": "でます［ほんが～］",
+    "romaji": "demasu [honga~]",
+    "english_meaning": "[a book] be published",
+    "bengali_meaning": "[a book] be published",
+    "tags": [
+      "vocabulary",
+      "lesson-46"
+    ]
+  }
+]

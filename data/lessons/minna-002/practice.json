@@ -1,0 +1,98 @@
+[
+  {
+    "id": "minna-002-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: これ / それ / あれ",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: これ / それ / あれ"
+    },
+    "stem": {
+      "jp": "これは 本です。",
+      "furigana": "これは 本です。",
+      "romaji": ""
+    },
+    "options": [
+      "this / that / that over there",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern これ / それ / あれ means \"this / that / that over there\".",
+      "bn": "これ / それ / あれ এর অর্থ \"এটি / সেটি / ওটি\"।"
+    }
+  },
+  {
+    "id": "minna-002-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: この N / その N / あの N",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この N / その N / あの N"
+    },
+    "stem": {
+      "jp": "この本は わたしのです。",
+      "furigana": "この本は わたしのです。",
+      "romaji": ""
+    },
+    "options": [
+      "this N / that N",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern この N / その N / あの N means \"this N / that N\".",
+      "bn": "この N / その N / あの N এর অর্থ \"এই N / সেই N\"।"
+    }
+  },
+  {
+    "id": "minna-002-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: そうです / ちがいます",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: そうです / ちがいます"
+    },
+    "stem": {
+      "jp": "はい、そうです。",
+      "furigana": "はい、そうです。",
+      "romaji": ""
+    },
+    "options": [
+      "That is right / That is wrong",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern そうです / ちがいます means \"That is right / That is wrong\".",
+      "bn": "そうです / ちがいます এর অর্থ \"তাই / তা নয়\"।"
+    }
+  },
+  {
+    "id": "minna-002-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: N の N",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: N の N"
+    },
+    "stem": {
+      "jp": "これは 日本語の 本です。",
+      "furigana": "これは 日本語の 本です。",
+      "romaji": ""
+    },
+    "options": [
+      "N of N / N's N",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern N の N means \"N of N / N's N\".",
+      "bn": "N の N এর অর্থ \"N-এর N\"।"
+    }
+  }
+]

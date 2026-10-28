@@ -1,0 +1,597 @@
+[
+  {
+    "id": "minna-003-v001",
+    "furigana": "ここ",
+    "romaji": "koko",
+    "english_meaning": "here, this place",
+    "bengali_meaning": "here, this place",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v002",
+    "furigana": "そこ",
+    "romaji": "soko",
+    "english_meaning": "there, that place near the listener",
+    "bengali_meaning": "there, that place near the listener",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v003",
+    "furigana": "あそこ",
+    "romaji": "asoko",
+    "english_meaning": "that place over there",
+    "bengali_meaning": "that place over there",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v004",
+    "furigana": "どこ",
+    "romaji": "doko",
+    "english_meaning": "where, what place",
+    "bengali_meaning": "where, what place",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v005",
+    "furigana": "こちら",
+    "romaji": "kochira",
+    "english_meaning": "this way, this place (polite equivalent of ここ)",
+    "bengali_meaning": "this way, this place (polite equivalent of ここ)",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v006",
+    "furigana": "そちら",
+    "romaji": "sochira",
+    "english_meaning": "that way, that place near the listener (polite equivalent of そこ)",
+    "bengali_meaning": "that way, that place near the listener (polite equivalent of そこ)",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v007",
+    "furigana": "あちら",
+    "romaji": "achira",
+    "english_meaning": "that way, that place over there (polite equivalent of あそこ)",
+    "bengali_meaning": "that way, that place over there (polite equivalent of あそこ)",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v008",
+    "furigana": "どちら",
+    "romaji": "dochira",
+    "english_meaning": "which way, where (polite equivalent of どこ)",
+    "bengali_meaning": "which way, where (polite equivalent of どこ)",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v009",
+    "kanji": "教室",
+    "furigana": "きょうしつ",
+    "romaji": "kyōshitsu",
+    "english_meaning": "classroom",
+    "bengali_meaning": "classroom",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v010",
+    "kanji": "食堂",
+    "furigana": "しょくどう",
+    "romaji": "shokudō",
+    "english_meaning": "dining hall, canteen",
+    "bengali_meaning": "dining hall, canteen",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v011",
+    "kanji": "事務所",
+    "furigana": "じむしょ",
+    "romaji": "jimusho",
+    "english_meaning": "office",
+    "bengali_meaning": "office",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v012",
+    "kanji": "会議室",
+    "furigana": "かいぎしつ",
+    "romaji": "kaigishitsu",
+    "english_meaning": "conference room, meeting room",
+    "bengali_meaning": "conference room, meeting room",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v013",
+    "kanji": "受付",
+    "furigana": "うけつけ",
+    "romaji": "uketsuke",
+    "english_meaning": "reception desk",
+    "bengali_meaning": "reception desk",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v014",
+    "furigana": "ロビー",
+    "romaji": "robii",
+    "english_meaning": "lobby",
+    "bengali_meaning": "lobby",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v015",
+    "kanji": "部屋",
+    "furigana": "へや",
+    "romaji": "heya",
+    "english_meaning": "room",
+    "bengali_meaning": "room",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v016",
+    "kanji": "トイレ（お手洗い）",
+    "furigana": "トイレ（おてあらい）",
+    "romaji": "toire (otearai)",
+    "english_meaning": "toilet, rest room",
+    "bengali_meaning": "toilet, rest room",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v017",
+    "kanji": "階段",
+    "furigana": "かいだん",
+    "romaji": "kaidan",
+    "english_meaning": "staircase",
+    "bengali_meaning": "staircase",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v018",
+    "furigana": "エレベーター",
+    "romaji": "erebētā",
+    "english_meaning": "lift, elevator",
+    "bengali_meaning": "lift, elevator",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v019",
+    "furigana": "エスカレーター",
+    "romaji": "esukarētā",
+    "english_meaning": "escalator",
+    "bengali_meaning": "escalator",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v020",
+    "kanji": "自動販売機",
+    "furigana": "じどうはんばいき",
+    "romaji": "jidōhanbaiki",
+    "english_meaning": "vending machine",
+    "bengali_meaning": "vending machine",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v021",
+    "kanji": "電話",
+    "furigana": "でんわ",
+    "romaji": "denwa",
+    "english_meaning": "telephone handset, telephone call",
+    "bengali_meaning": "telephone handset, telephone call",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v022",
+    "kanji": "［お］国",
+    "furigana": "［お］くに",
+    "romaji": "[o] kuni",
+    "english_meaning": "country",
+    "bengali_meaning": "country",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v023",
+    "kanji": "会社",
+    "furigana": "かいしゃ",
+    "romaji": "kaisha",
+    "english_meaning": "company",
+    "bengali_meaning": "company",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v024",
+    "furigana": "うち",
+    "romaji": "uchi",
+    "english_meaning": "house, home",
+    "bengali_meaning": "house, home",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v025",
+    "kanji": "靴",
+    "furigana": "くつ",
+    "romaji": "kutsu",
+    "english_meaning": "shoes",
+    "bengali_meaning": "shoes",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v026",
+    "furigana": "ネクタイ",
+    "romaji": "nekutai",
+    "english_meaning": "tie, necktie",
+    "bengali_meaning": "tie, necktie",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v027",
+    "furigana": "ワイン",
+    "romaji": "wain",
+    "english_meaning": "wine",
+    "bengali_meaning": "wine",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v028",
+    "kanji": "売り場",
+    "furigana": "うりば",
+    "romaji": "uriba",
+    "english_meaning": "department, counter (in a department store, etc.)",
+    "bengali_meaning": "department, counter (in a department store, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v029",
+    "kanji": "地下",
+    "furigana": "ちか",
+    "romaji": "chika",
+    "english_meaning": "basement",
+    "bengali_meaning": "basement",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v030",
+    "kanji": "－階",
+    "furigana": "－かい（－がい）",
+    "romaji": "-kai (-gai)",
+    "english_meaning": "-th floor",
+    "bengali_meaning": "-th floor",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v031",
+    "kanji": "何階",
+    "furigana": "なんがい",
+    "romaji": "nangai",
+    "english_meaning": "what floor",
+    "bengali_meaning": "what floor",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v032",
+    "kanji": "－円",
+    "furigana": "－えん",
+    "romaji": "-en",
+    "english_meaning": "－ yen",
+    "bengali_meaning": "－ yen",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v033",
+    "furigana": "いくら",
+    "romaji": "ikura",
+    "english_meaning": "how much",
+    "bengali_meaning": "how much",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v034",
+    "kanji": "百",
+    "furigana": "ひゃく",
+    "romaji": "hyaku",
+    "english_meaning": "hundred",
+    "bengali_meaning": "hundred",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v035",
+    "kanji": "千",
+    "furigana": "せん",
+    "romaji": "sen",
+    "english_meaning": "thousand",
+    "bengali_meaning": "thousand",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v036",
+    "kanji": "万",
+    "furigana": "まん",
+    "romaji": "man",
+    "english_meaning": "ten thousand",
+    "bengali_meaning": "ten thousand",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v037",
+    "furigana": "すみません。",
+    "romaji": "sumimasen.",
+    "english_meaning": "Excuse me.",
+    "bengali_meaning": "Excuse me.",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v038",
+    "furigana": "どうも。",
+    "romaji": "dōmo.",
+    "english_meaning": "Thanks.",
+    "bengali_meaning": "Thanks.",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v039",
+    "furigana": "いらっしゃいませ。",
+    "romaji": "irasshaimase.",
+    "english_meaning": "Welcome./May I help you? (a greeting to a customer or a guest entering a shop, etc.)",
+    "bengali_meaning": "Welcome./May I help you? (a greeting to a customer or a guest entering a shop, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v040",
+    "kanji": "［～を］見せて ください。",
+    "furigana": "［～を］みせて ください。",
+    "romaji": "[~wo] misete kudasai.",
+    "english_meaning": "Please show me [～].",
+    "bengali_meaning": "Please show me [～].",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v041",
+    "furigana": "じゃ",
+    "romaji": "ja",
+    "english_meaning": "well, then, in that case",
+    "bengali_meaning": "well, then, in that case",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v042",
+    "furigana": "［～を］ください。",
+    "romaji": "[~wo] kudasai.",
+    "english_meaning": "Give me [～], please.",
+    "bengali_meaning": "Give me [～], please.",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v043",
+    "furigana": "イタリア",
+    "romaji": "itaria",
+    "english_meaning": "Italy",
+    "bengali_meaning": "Italy",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v044",
+    "furigana": "ス��ス",
+    "romaji": "suisu",
+    "english_meaning": "Switzerland",
+    "bengali_meaning": "Switzerland",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v045",
+    "furigana": "フランス",
+    "romaji": "furansu",
+    "english_meaning": "France",
+    "bengali_meaning": "France",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v046",
+    "furigana": "ジャカルタ",
+    "romaji": "jakaruta",
+    "english_meaning": "Jakarta",
+    "bengali_meaning": "Jakarta",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v047",
+    "furigana": "バンコク",
+    "romaji": "bankoku",
+    "english_meaning": "Bangkok",
+    "bengali_meaning": "Bangkok",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v048",
+    "furigana": "ベルリン",
+    "romaji": "berurin",
+    "english_meaning": "Berlin",
+    "bengali_meaning": "Berlin",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v049",
+    "kanji": "新大阪",
+    "furigana": "しんおおさか",
+    "romaji": "shin'ōsaka",
+    "english_meaning": "name of a station in Osaka",
+    "bengali_meaning": "name of a station in Osaka",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v050",
+    "furigana": "たばこ",
+    "romaji": "tabako",
+    "english_meaning": "tobacco, cigarette",
+    "bengali_meaning": "tobacco, cigarette",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v051",
+    "furigana": "～で ございます。",
+    "romaji": "~de gozaimasu.",
+    "english_meaning": "(polite equivalent of です)",
+    "bengali_meaning": "(polite equivalent of です)",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  },
+  {
+    "id": "minna-003-v052",
+    "furigana": "MT／ヨーネン／アキックス",
+    "romaji": "MT/yōnen/akikkusu",
+    "english_meaning": "fictitious companies",
+    "bengali_meaning": "fictitious companies",
+    "tags": [
+      "vocabulary",
+      "lesson-3"
+    ]
+  }
+]

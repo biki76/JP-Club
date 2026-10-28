@@ -1,0 +1,50 @@
+[
+  {
+    "id": "minna-014-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜14-A",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜14-A"
+    },
+    "stem": {
+      "jp": "これは レッスン14の 文法です。",
+      "furigana": "これは レッスン14の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 14-A",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜14-A means \"Grammar pattern 14-A\".",
+      "bn": "〜14-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 14-A\"।"
+    }
+  },
+  {
+    "id": "minna-014-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning for: 〜14-B",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜14-B"
+    },
+    "stem": {
+      "jp": "これは レッスン14の 文法です。",
+      "furigana": "これは レッスン14の 文法です。",
+      "romaji": ""
+    },
+    "options": [
+      "Grammar pattern 14-B",
+      "Incorrect",
+      "Incorrect",
+      "Incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern 〜14-B means \"Grammar pattern 14-B\".",
+      "bn": "〜14-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 14-B\"।"
+    }
+  }
+]

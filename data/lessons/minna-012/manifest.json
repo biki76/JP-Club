@@ -1,0 +1,25 @@
+{
+  "slug": "minna-012",
+  "courseId": "minna-beginner",
+  "lessonNumber": 12,
+  "title": {
+    "en": "Lesson 12",
+    "bn": "পাঠ 12"
+  },
+  "subtitle": {
+    "en": "Minna no Nihongo 12",
+    "bn": "মিন্না নো নিহোঙ্গো 12"
+  },
+  "jlpt": "N5",
+  "durationMin": 50,
+  "dataFiles": {
+    "vocabulary": "vocabulary.json",
+    "grammar": "grammar.json",
+    "kanji": "kanji.json",
+    "practice": "practice.json"
+  },
+  "tags": [
+    "minna",
+    "lesson-12"
+  ]
+}

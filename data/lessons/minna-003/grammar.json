@@ -1,0 +1,74 @@
+[
+  {
+    "id": "minna-003-g1",
+    "pattern": "ここ / そこ / あそこ",
+    "meaning_en": "here / there / over there",
+    "meaning_bn": "এখানে / সেখানে / ওখানে",
+    "examples": [
+      {
+        "jp": "ここは 教室です。",
+        "en": "Here is a classroom.",
+        "bn": "Here is a classroom.",
+        "furigana": "ここは 教室です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-003-g2",
+    "pattern": "N は どこですか",
+    "meaning_en": "Where is N?",
+    "meaning_bn": "N কোথায়?",
+    "examples": [
+      {
+        "jp": "トイレは どこですか。",
+        "en": "Where is the toilet?",
+        "bn": "Where is the toilet?",
+        "furigana": "トイレは どこですか。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-003-g3",
+    "pattern": "N を ください",
+    "meaning_en": "Please give me N",
+    "meaning_bn": "N দিন",
+    "examples": [
+      {
+        "jp": "これを ください。",
+        "en": "Please give me this.",
+        "bn": "Please give me this.",
+        "furigana": "これを ください。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-003-g4",
+    "pattern": "N を お願いします",
+    "meaning_en": "N, please",
+    "meaning_bn": "N, দয়া করে",
+    "examples": [
+      {
+        "jp": "コーヒーを お願いします。",
+        "en": "Coffee, please.",
+        "bn": "Coffee, please.",
+        "furigana": "コーヒーを お願いします。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

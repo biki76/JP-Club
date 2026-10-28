@@ -1,0 +1,528 @@
+[
+  {
+    "id": "minna-013-v001",
+    "kanji": "遊びます",
+    "furigana": "あそびます",
+    "romaji": "asobimasu",
+    "english_meaning": "enjoy oneself, play",
+    "bengali_meaning": "enjoy oneself, play",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v002",
+    "kanji": "泳ぎます",
+    "furigana": "およぎます",
+    "romaji": "oyogimasu",
+    "english_meaning": "swim",
+    "bengali_meaning": "swim",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v003",
+    "kanji": "迎えます",
+    "furigana": "むかえます",
+    "romaji": "mukaemasu",
+    "english_meaning": "go to meet, welcome",
+    "bengali_meaning": "go to meet, welcome",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v004",
+    "kanji": "疲れます",
+    "furigana": "つかれます",
+    "romaji": "tsukaremasu",
+    "english_meaning": "get tired (when expressing the condition of being tired, つかれました is used)",
+    "bengali_meaning": "get tired (when expressing the condition of being tired, つかれました is used)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v005",
+    "kanji": "結婚します",
+    "furigana": "けっこんします",
+    "romaji": "kekkonshimasu",
+    "english_meaning": "marry, get married",
+    "bengali_meaning": "marry, get married",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v006",
+    "kanji": "買い物します",
+    "furigana": "かいものします",
+    "romaji": "kaimonoshimasu",
+    "english_meaning": "do shopping",
+    "bengali_meaning": "do shopping",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v007",
+    "kanji": "食事します",
+    "furigana": "しょくじします",
+    "romaji": "shokujishimasu",
+    "english_meaning": "have a meal, dine",
+    "bengali_meaning": "have a meal, dine",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v008",
+    "kanji": "散歩します［公園を～］",
+    "furigana": "さんぽします［こうえんを～］",
+    "romaji": "sanposhimasu [kōenwo~]",
+    "english_meaning": "take a walk [in a park]",
+    "bengali_meaning": "take a walk [in a park]",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v009",
+    "kanji": "大変［な］",
+    "furigana": "たいへん［な］",
+    "romaji": "taihen [na]",
+    "english_meaning": "hard, tough, severe, awful",
+    "bengali_meaning": "hard, tough, severe, awful",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v010",
+    "kanji": "欲しい",
+    "furigana": "ほしい",
+    "romaji": "hoshii",
+    "english_meaning": "want (something)",
+    "bengali_meaning": "want (something)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v011",
+    "kanji": "広い",
+    "furigana": "ひろい",
+    "romaji": "hiroi",
+    "english_meaning": "wide, spacious",
+    "bengali_meaning": "wide, spacious",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v012",
+    "kanji": "狭い",
+    "furigana": "せまい",
+    "romaji": "semai",
+    "english_meaning": "narrow, small (room, etc.)",
+    "bengali_meaning": "narrow, small (room, etc.)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v013",
+    "furigana": "プール",
+    "romaji": "pūru",
+    "english_meaning": "swimming pool",
+    "bengali_meaning": "swimming pool",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v014",
+    "kanji": "川",
+    "furigana": "かわ",
+    "romaji": "kawa",
+    "english_meaning": "river",
+    "bengali_meaning": "river",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v015",
+    "kanji": "美術",
+    "furigana": "びじゅつ",
+    "romaji": "bijutsu",
+    "english_meaning": "fine arts",
+    "bengali_meaning": "fine arts",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v016",
+    "kanji": "釣り",
+    "furigana": "つり",
+    "romaji": "tsuri",
+    "english_meaning": "fishing (～を します : fish, angle)",
+    "bengali_meaning": "fishing (～を します : fish, angle)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v017",
+    "furigana": "スキー",
+    "romaji": "sukii",
+    "english_meaning": "skiing (～を します : ski)",
+    "bengali_meaning": "skiing (～を します : ski)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v018",
+    "kanji": "週末",
+    "furigana": "しゅうまつ",
+    "romaji": "shūmatsu",
+    "english_meaning": "weekend",
+    "bengali_meaning": "weekend",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v019",
+    "kanji": "［お］正月",
+    "furigana": "［お］しょうがつ",
+    "romaji": "[o] shōgatsu",
+    "english_meaning": "New Year's Day",
+    "bengali_meaning": "New Year's Day",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v020",
+    "furigana": "～ごろ",
+    "romaji": "~goro",
+    "english_meaning": "about ～ (time)",
+    "bengali_meaning": "about ～ (time)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v021",
+    "kanji": "何か",
+    "furigana": "なにか",
+    "romaji": "nanika",
+    "english_meaning": "something",
+    "bengali_meaning": "something",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v022",
+    "furigana": "どこか",
+    "romaji": "dokoka",
+    "english_meaning": "somewhere, some place",
+    "bengali_meaning": "somewhere, some place",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v023",
+    "furigana": "のどが かわきます",
+    "romaji": "nodoga kawakimasu",
+    "english_meaning": "get thirsty (when expressing the condition of being thirsty, のどが かわきました is used)",
+    "bengali_meaning": "get thirsty (when expressing the condition of being thirsty, のどが かわきました is used)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v024",
+    "furigana": "おなかが すきます",
+    "romaji": "onakaga sukimasu",
+    "english_meaning": "get hungry (when expressing the condition of being hungry, おなかが すきました is used)",
+    "bengali_meaning": "get hungry (when expressing the condition of being hungry, おなかが すきました is used)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v025",
+    "furigana": "そう しましょう。",
+    "romaji": "sō shimashou.",
+    "english_meaning": "Let's do that. (used when agreeing with someone's suggestion)",
+    "bengali_meaning": "Let's do that. (used when agreeing with someone's suggestion)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v026",
+    "kanji": "ご注文は？",
+    "furigana": "ごちゅうもんは？",
+    "romaji": "gochūmonwa?",
+    "english_meaning": "May I take your order?",
+    "bengali_meaning": "May I take your order?",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v027",
+    "kanji": "定食",
+    "furigana": "ていしょく",
+    "romaji": "teishoku",
+    "english_meaning": "set meal, table d'hôte",
+    "bengali_meaning": "set meal, table d'hôte",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v028",
+    "kanji": "牛どん",
+    "furigana": "ぎゅうどん",
+    "romaji": "gyuudon",
+    "english_meaning": "bowl of rice topped with beef",
+    "bengali_meaning": "bowl of rice topped with beef",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v029",
+    "kanji": "［少々］お待ち ください。",
+    "furigana": "［しょうしょう］おまち ください。",
+    "romaji": "[shōshō] omachi kudasai.",
+    "english_meaning": "Please wait [a moment].",
+    "bengali_meaning": "Please wait [a moment].",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v030",
+    "furigana": "～で ございます。",
+    "romaji": "~de gozaimasu.",
+    "english_meaning": "(polite equivalent of です)",
+    "bengali_meaning": "(polite equivalent of です)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v031",
+    "kanji": "別々に",
+    "furigana": "べつべつに",
+    "romaji": "betsubetsuni",
+    "english_meaning": "separately",
+    "bengali_meaning": "separately",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v032",
+    "furigana": "アキックス",
+    "romaji": "akikkusu",
+    "english_meaning": "a fictitious company",
+    "bengali_meaning": "a fictitious company",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v033",
+    "furigana": "おはようテレビ",
+    "romaji": "ohayōterebi",
+    "english_meaning": "a fictitious TV programme",
+    "bengali_meaning": "a fictitious TV programme",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v034",
+    "kanji": "出します［手紙を～］",
+    "furigana": "だします［てがみを～］",
+    "romaji": "dashimasu [tegamiwo~]",
+    "english_meaning": "send [a letter]",
+    "bengali_meaning": "send [a letter]",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v035",
+    "kanji": "入ります［喫茶店に～］",
+    "furigana": "はいります［きっさてんに～］",
+    "romaji": "hairimasu [kissatenni~]",
+    "english_meaning": "enter [a coffee shop]",
+    "bengali_meaning": "enter [a coffee shop]",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v036",
+    "kanji": "出ます［喫茶店を～］",
+    "furigana": "でます［きっさてんを～］",
+    "romaji": "demasu [kissatenwo~]",
+    "english_meaning": "go out [of a coffee shop]",
+    "bengali_meaning": "go out [of a coffee shop]",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v037",
+    "kanji": "寂しい",
+    "furigana": "さびしい",
+    "romaji": "sabishii",
+    "english_meaning": "lonely",
+    "bengali_meaning": "lonely",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v038",
+    "kanji": "市役所",
+    "furigana": "しやくしょ",
+    "romaji": "shiyakusho",
+    "english_meaning": "municipal office, city hall",
+    "bengali_meaning": "municipal office, city hall",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v039",
+    "kanji": "経済",
+    "furigana": "けいざい",
+    "romaji": "keizai",
+    "english_meaning": "economy",
+    "bengali_meaning": "economy",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v040",
+    "kanji": "会議",
+    "furigana": "かいぎ",
+    "romaji": "kaigi",
+    "english_meaning": "meeting, conference (～を します : hold a conference)",
+    "bengali_meaning": "meeting, conference (～を します : hold a conference)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v041",
+    "kanji": "登録",
+    "furigana": "とうろく",
+    "romaji": "tōroku",
+    "english_meaning": "registration (～を します : register)",
+    "bengali_meaning": "registration (～を します : register)",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v042",
+    "furigana": "おなかが いっぱいです。",
+    "romaji": "onakaga ippaidesu.",
+    "english_meaning": "(I'm) full.",
+    "bengali_meaning": "(I'm) full.",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v043",
+    "furigana": "そうですね。",
+    "romaji": "sōdesune.",
+    "english_meaning": "I agree with you.",
+    "bengali_meaning": "I agree with you.",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v044",
+    "furigana": "ロシア",
+    "romaji": "roshia",
+    "english_meaning": "Russia",
+    "bengali_meaning": "Russia",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  },
+  {
+    "id": "minna-013-v045",
+    "furigana": "つるや",
+    "romaji": "tsuruya",
+    "english_meaning": "fictitious Japanese restaurant",
+    "bengali_meaning": "fictitious Japanese restaurant",
+    "tags": [
+      "vocabulary",
+      "lesson-13"
+    ]
+  }
+]

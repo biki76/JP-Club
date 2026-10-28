@@ -1,0 +1,38 @@
+[
+  {
+    "id": "minna-040-g1",
+    "pattern": "〜40-A",
+    "meaning_en": "Grammar pattern 40-A",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 40-A",
+    "examples": [
+      {
+        "jp": "これは レッスン40の 文法です。",
+        "en": "This is lesson 40 grammar.",
+        "bn": "This is lesson 40 grammar.",
+        "furigana": "これは レッスン40の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-040-g2",
+    "pattern": "〜40-B",
+    "meaning_en": "Grammar pattern 40-B",
+    "meaning_bn": "ব্যাকরণ প্যাটার্ন 40-B",
+    "examples": [
+      {
+        "jp": "これは レッスン40の 文法です。",
+        "en": "This is lesson 40 grammar.",
+        "bn": "This is lesson 40 grammar.",
+        "furigana": "これは レッスン40の 文法です。",
+        "romaji": ""
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]
