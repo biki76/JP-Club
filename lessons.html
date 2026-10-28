@@ -1,156 +1,94 @@
-<!doctype html>
-<html lang="bn" data-theme="light">
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-furigana="on">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Pre-paint: theme, lang, furigana (no FOUC) -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lessons · পাঠ — JP-Club</title>
   <script>
     (function () {
       try {
         var t = localStorage.getItem('nihongo_theme');
-        if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
-        else if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
-        var l = localStorage.getItem('nihongo_lang');
-        if (l === 'en') document.documentElement.setAttribute('lang', 'en');
-        else if (l === 'bn') document.documentElement.setAttribute('lang', 'bn');
+        if (t) document.documentElement.setAttribute('data-theme', t);
         var f = localStorage.getItem('nihongo_furigana');
-        if (f === 'off') document.documentElement.setAttribute('data-furigana', 'off');
-        else if (f === 'on') document.documentElement.setAttribute('data-furigana', 'on');
+        if (f) document.documentElement.setAttribute('data-furigana', f);
+        var l = localStorage.getItem('nihongo_lang');
+        if (l) document.documentElement.setAttribute('lang', l === 'bn' ? 'bn' : 'en');
       } catch (e) {}
     })();
   </script>
-
-  <title>Lessons · পাঠ — JP Club</title>
-
-  <!-- PWA -->
-  <link rel="manifest" href="manifest.webmanifest">
-  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#15161a" media="(prefers-color-scheme: dark)">
-  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
-  <link rel="apple-touch-icon" href="icons/icon.svg">
-
-  <!-- Fonts + preconnects -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <!-- SEO -->
-  <link rel="canonical" href="https://biki76.github.io/JP-Club/lessons.html">
-  <meta name="description" content="Browse all 50 Minna no Nihongo lessons — N5/N4 vocabulary, grammar, and practice in Bengali and English.">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Lessons · পাঠ — JP Club">
-  <meta property="og:description" content="Browse all 50 Minna no Nihongo lessons — N5/N4 vocabulary, grammar, and practice in Bengali and English.">
-  <meta property="og:url" content="https://biki76.github.io/JP-Club/lessons.html">
-  <meta property="og:image" content="https://biki76.github.io/JP-Club/og.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Lessons · পাঠ — JP Club">
-  <meta name="twitter:description" content="Browse all 50 Minna no Nihongo lessons — N5/N4 vocabulary, grammar, and practice in Bengali and English.">
-  <meta name="twitter:image" content="https://biki76.github.io/JP-Club/og.svg">
-
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <link rel="stylesheet" href="css/cloud.css">
-  <link rel="stylesheet" href="css/tokens.css">
-  <link rel="stylesheet" href="css/design-system.css">
-  <link rel="stylesheet" href="css/shell.css">
-  <link rel="stylesheet" href="css/a11y.css">
-  <link rel="stylesheet" href="css/pwa.css">
-  <link rel="stylesheet" href="css/lesson.css">
-
-  <!-- Shell config — MUST be defined before shell.js (defer) runs.
-       Assumes shell.js merges SHELL_CONFIG.nav into its own default nav.
-       If shell.js replaces the nav instead, the list below is complete for
-       all current content pages, so either behavior gives a working nav. -->
+  <link rel="stylesheet" href="css/cloud.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/shell.css" />
+  <link rel="stylesheet" href="css/a11y.css" />
+  <link rel="stylesheet" href="css/pwa.css" />
+  <link rel="stylesheet" href="css/lesson.css" />
   <script>
     window.SHELL_CONFIG = {
-      active: 'lessons.html',
-      nav: [
-        { href: 'home.html',       en: 'Home',       bn: 'হোম' },
-        { href: 'lessons.html',    en: 'Lessons',    bn: 'পাঠ' },
-        { href: 'flashcards.html', en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' },
-        { href: 'quiz.html',       en: 'Quiz',       bn: 'কুইজ' },
-        { href: 'kanji.html',      en: 'Kanji',      bn: 'কাঞ্জি' },
-        { href: 'search.html',     en: 'Search',     bn: 'খুঁজুন' },
-        { href: 'progress.html',   en: 'Progress',   bn: 'অগ্রগতি' },
-        { href: 'placement.html',  en: 'Placement',  bn: 'প্লেসমেন্ট' }
-      ]
+      navGroups: [
+        { title: { en: 'Learn', bn: 'শিখুন' }, items: [
+          { key: 'home', icon: 'home', href: 'home.html', label: { en: 'Home', bn: 'হোম' } },
+          { key: 'lesson', icon: 'book', href: 'lessons.html', label: { en: 'Lessons', bn: 'পাঠ' } },
+          { key: 'flashcards', icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
+          { key: 'quiz', icon: 'practice', href: 'quiz.html', label: { en: 'Quiz', bn: 'কুইজ' } },
+          { key: 'kanji', icon: 'kanji', href: 'kanji.html', label: { en: 'Kanji', bn: 'কাঞ্জি' } }
+        ]},
+        { title: { en: 'Explore', bn: 'অন্বেষণ' }, items: [
+          { key: 'search', icon: 'search', href: 'search.html', label: { en: 'Search', bn: 'অনুসন্ধান' } },
+          { key: 'progress', icon: 'practice', href: 'progress.html', label: { en: 'Progress', bn: 'অগ্রগতি' } },
+          { key: 'placement', icon: 'book', href: 'placement.html', label: { en: 'Placement', bn: 'প্লেসমেন্ট' } }
+        ]}
+      ],
+      bottomNav: [
+        { href: 'home.html', icon: 'home', label: { en: 'Home', bn: 'হোম' } },
+        { href: 'flashcards.html', icon: 'practice', label: { en: 'Cards', bn: 'কার্ড' } },
+        { href: 'search.html', icon: 'search', label: { en: 'Search', bn: 'অনুসন্ধান' } },
+        { href: 'progress.html', icon: 'practice', label: { en: 'Progress', bn: 'অগ্রগতি' } }
+      ],
+      searchEnabled: true
     };
   </script>
 </head>
 <body class="shell-body">
   <header data-shell-header></header>
-
   <div class="shell-frame">
     <aside class="shell-sidebar" data-shell-sidebar></aside>
-
     <main class="shell-main">
-      <!-- Hero -->
       <section class="lp-hero">
-        <h1 class="lp-hero__title">
-          <span data-en="Lessons" data-bn="পাঠ">লেসন/অনুশীলনী</span>
-        </h1>
-        <p class="lp-hero__sub">
-          <span data-en="All 50 lessons of Minna no Nihongo — N5 through N4." data-bn="মিন্না নো নিহোঙ্গোর ৫০টি পাঠ — N5 থেকে N4 পর্যন্ত।">মিন্না নো নিহোঙ্গোর ৫০টি পাঠ — N5 থেকে N4 পর্যন্ত।</span>
-        </p>
+        <h1 class="lp-hero__title"><span data-en="Lessons" data-bn="পাঠ">Lessons</span></h1>
+        <p class="lp-hero__sub"><span data-en="All 50 lessons of Minna no Nihongo — N5 through N4." data-bn="মিন্না নো নিহোঙ্গোর ৫০টি পাঠ — N5 থেকে N4 পর্যন্ত।">All 50 lessons of Minna no Nihongo — N5 through N4.</span></p>
       </section>
 
-      <!-- Pinned Continue card -->
       <section class="lp-continue" id="continue-card" aria-busy="true">
-        <div class="lp-continue__inner lp-skeleton" aria-hidden="true">
+        <div class="lp-continue__inner lp-skeleton">
           <div class="lp-skeleton__block lp-skeleton__block--lg"></div>
           <div class="lp-skeleton__block lp-skeleton__block--md"></div>
           <div class="lp-skeleton__block lp-skeleton__block--sm"></div>
         </div>
       </section>
 
-      <!-- Filters -->
-      <nav class="lp-filters" id="filters" aria-label="Filter lessons"></nav>
+      <div class="lp-filters" id="filters" role="group" aria-label="Filter lessons"></div>
+      <div class="lp-booktabs" id="book-tabs" role="group" aria-label="Book scope"></div>
+      <div class="lp-scrubber" id="scrubber" aria-label="Lesson quick jump"></div>
 
-      <!-- Book tabs -->
-      <nav class="lp-booktabs" id="book-tabs" aria-label="Choose book"></nav>
-
-      <!-- Sticky scrubber -->
-      <nav class="lp-scrubber" id="scrubber" aria-label="Jump to lesson"></nav>
-
-      <!-- Book I -->
       <section class="lp-book" id="book-1">
         <header class="lp-book__head">
-          <h2 class="lp-book__title">
-            <span data-en="Book I — N5 (Lessons 1–25)" data-bn="বই I — N5 (পাঠ ১–২৫)">বই I — N5 (পাঠ ১–২৫)</span>
-          </h2>
+          <h2 class="lp-book__title"><span data-en="Book I — N5 (Lessons 1–25)" data-bn="বই I — N5 (পাঠ ১–২৫)">Book I — N5 (Lessons 1–25)</span></h2>
         </header>
-        <div class="lp-grid" id="book-1-grid" role="list" aria-busy="true">
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-        </div>
+        <div class="lp-grid" id="book-1-grid" role="list" aria-busy="true"></div>
       </section>
 
-      <!-- Book II -->
       <section class="lp-book" id="book-2">
         <header class="lp-book__head">
-          <h2 class="lp-book__title">
-            <span data-en="Book II — N4 (Lessons 26–50)" data-bn="বই II — N4 (পাঠ ২৬–৫০)">বই II — N4 (পাঠ ২৬–৫০)</span>
-          </h2>
+          <h2 class="lp-book__title"><span data-en="Book II — N4 (Lessons 26–50)" data-bn="বই II — N4 (পাঠ ২৬–৫০)">Book II — N4 (Lessons 26–50)</span></h2>
         </header>
-        <div class="lp-grid" id="book-2-grid" role="list" aria-busy="true">
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-          <div class="lp-skeleton__card" aria-hidden="true"></div>
-        </div>
+        <div class="lp-grid" id="book-2-grid" role="list" aria-busy="true"></div>
       </section>
     </main>
   </div>
-
   <nav class="shell-bottomnav" data-shell-bottomnav></nav>
   <footer class="shell-footer" data-shell-footer></footer>
   <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
@@ -158,7 +96,7 @@
   <script src="js/data-schemas.js" defer></script>
   <script src="js/data-loader.js" defer></script>
   <script src="js/theme.js" defer></script>
-<script src="js/i18n.js" defer></script>
+  <script src="js/i18n.js" defer></script>
   <script src="js/shell.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="js/supabase-config.js" defer></script>
