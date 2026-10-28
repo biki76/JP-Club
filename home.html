@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nihongo · Bengali — Japanese for Bengali speakers</title>
-
   <script>
     (function () {
       try {
@@ -17,31 +16,17 @@
       } catch (e) {}
     })();
   </script>
-
   <link rel="manifest" href="manifest.webmanifest" />
   <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#15161a" media="(prefers-color-scheme: dark)" />
   <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
   <link rel="apple-touch-icon" href="icons/icon.svg" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-
   <link rel="canonical" href="https://biki76.github.io/JP-Club/home.html" />
   <meta name="description" content="Learn Japanese from Bengali with Minna no Nihongo, spaced-repetition flashcards, kanji stroke order, and quizzes. JLPT N5/N4." />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Nihongo · Bengali" />
-  <meta property="og:title" content="Nihongo · Bengali — Japanese for Bengali speakers" />
-  <meta property="og:description" content="Learn Japanese from Bengali with Minna no Nihongo, spaced-repetition flashcards, kanji stroke order, and quizzes. JLPT N5/N4." />
-  <meta property="og:url" content="https://biki76.github.io/JP-Club/home.html" />
-  <meta property="og:image" content="https://biki76.github.io/JP-Club/og.svg" />
-  <meta name="twitter:card" content="summary_large_image" />
-
   <script src="https://cdn.tailwindcss.com"></script>
-
   <link rel="stylesheet" href="css/cloud.css" />
   <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/design-system.css" />
@@ -49,13 +34,12 @@
   <link rel="stylesheet" href="css/a11y.css" />
   <link rel="stylesheet" href="css/pwa.css" />
   <link rel="stylesheet" href="css/home.css" />
-
   <script>
     window.SHELL_CONFIG = {
       navGroups: [
         { title: { en: 'Learn', bn: 'শিখুন' }, items: [
           { key: 'home',       icon: 'home',     href: 'home.html',       label: { en: 'Home',       bn: 'হোম' } },
-          { key: 'lesson',     icon: 'book',     href: 'lesson.html?lesson=minna-001', label: { en: 'Lessons', bn: 'পাঠ' } },
+          { key: 'lesson',     icon: 'book',     href: 'lessons.html',    label: { en: 'Lessons',    bn: 'পাঠ' } },
           { key: 'flashcards', icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
           { key: 'quiz',       icon: 'practice', href: 'quiz.html',       label: { en: 'Quiz',       bn: 'কুইজ' } },
           { key: 'kanji',      icon: 'kanji',    href: 'kanji.html',      label: { en: 'Kanji',      bn: 'কাঞ্জি' } }
@@ -77,12 +61,11 @@
   </script>
 </head>
 <body class="shell-body">
-
 <noscript data-noscript-fallback>
   <nav style="padding:16px;font-family:sans-serif">
     <p>JavaScript is required for lessons. / লেসন চালাতে JavaScript প্রয়োজন।</p>
     <ul>
-      <li><a href="lesson.html?lesson=minna-001">Lesson 1 / লেসন ১</a></li>
+      <li><a href="lessons.html">Lessons / পাঠ</a></li>
       <li><a href="flashcards.html">Flashcards / ফ্ল্যাশকার্ড</a></li>
       <li><a href="quiz.html">Quiz / কুইজ</a></li>
       <li><a href="kanji.html">Kanji / কাঞ্জি</a></li>
@@ -90,12 +73,10 @@
   </nav>
 </noscript>
   <header data-shell-header></header>
-
   <div class="shell-frame">
     <aside class="shell-sidebar" data-shell-sidebar></aside>
     <main class="shell-main">
       <div class="home-page">
-
         <section class="hero">
           <div class="hero__text">
             <p class="hero__kicker">
@@ -109,7 +90,7 @@
                     data-bn="মিন্না নো নিহোঙ্গো পাঠ ১ থেকে N3 — শব্দভাণ্ডার, ব্যাকরণ, কাঞ্জি, অডিও, ফ্ল্যাশকার্ড এবং কুইজ। সবই দ্বিভাষিক।">Minna no Nihongo from Lesson 1 to N3 — vocabulary, grammar, kanji, audio, flashcards, and quizzes. All bilingual.</span>
             </p>
             <div class="hero__actions">
-              <a class="btn btn--primary btn--lg" href="lesson.html?lesson=minna-001">
+              <a class="btn btn--primary btn--lg" href="lessons.html">
                 <span data-en="Browse textbooks" data-bn="পাঠ্যপুস্তক দেখুন">Browse textbooks</span>
               </a>
               <a class="btn btn--secondary btn--lg" href="#paths">
@@ -132,40 +113,31 @@
             </div>
           </div>
         </section>
-
         <section class="section" data-slot="continue" aria-label="Continue learning"></section>
-
         <section class="section">
           <h2 class="section__title">
             <span data-en="Textbooks &amp; tracks" data-bn="পাঠ্যপুস্তক ও ট্র্যাক">Textbooks &amp; tracks</span>
           </h2>
           <div class="books" data-slot="books"></div>
         </section>
-
         <section class="section" data-slot="jlpt" aria-label="JLPT levels"></section>
-
         <section class="section" id="paths">
           <h2 class="section__title">
             <span data-en="Choose your path" data-bn="আপনার পথ বেছে নিন">Choose your path</span>
           </h2>
           <div class="paths" data-slot="paths"></div>
         </section>
-
       </div>
     </main>
   </div>
-
   <nav class="shell-bottomnav" data-shell-bottomnav></nav>
   <footer class="shell-footer" data-shell-footer></footer>
   <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
 
   <script src="js/data-schemas.js" defer></script>
   <script src="js/data-loader.js" defer></script>
-  <!-- Add these two lines -->
-<script src="js/theme.js" defer></script>
-<script src="js/i18n.js" defer></script>
-
-<script src="js/shell.js" defer></script>
+  <script src="js/theme.js" defer></script>
+  <script src="js/i18n.js" defer></script>
   <script src="js/shell.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="js/supabase-config.js" defer></script>
