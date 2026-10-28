@@ -7,10 +7,10 @@
  * Never put the service_role / secret key here.
  */
 window.SUPABASE_CONFIG = {
-  url:            'https://YOUR-PROJECT.supabase.co',
-  anonKey:        'sb_publishable_xxxxxxxxxxxxxxxxxxxx',   // legacy field — cloud.js reads this
-  publishableKey: 'sb_publishable_xxxxxxxxxxxxxxxxxxxx',   // new format, same value
-  jwksUrl:        'https://YOUR-PROJECT.supabase.co/auth/v1/.well-known/jwks.json',
+  url:            'https://ojphbocroiqgbgzxrmwx.supabase.co',
+  anonKey:        'sb_publishable_fgYoBJB4JtJXsxhNn0oJKQ_RrKBtxot',   // legacy field — cloud.js reads this
+  publishableKey: 'sb_publishable_fgYoBJB4JtJXsxhNn0oJKQ_RrKBtxot',   // new format, same value
+  jwksUrl:        'https://ojphbocroiqgbgzxrmwx.supabase.co/auth/v1/.well-known/jwks.json',
   redirectTo:     new URL('auth-callback.html', window.location.href).href,
   providers:      { password: true, magicLink: true, google: true }
 };
