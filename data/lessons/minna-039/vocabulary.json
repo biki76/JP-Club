@@ -1,6 +1,7 @@
 [
-{"id":"minna-039-v001","kanji":"申します","furigana":"もうします","romaji":"moushimasu","english_meaning":"to say / be called (humble)","type":"verb"},
-{"id":"minna-039-v002","kanji":"伺います","furigana":"うかがいます","romaji":"ukagaimasu","english_meaning":"to visit / ask (humble)","type":"verb"},
-{"id":"minna-039-v003","kanji":"いただきます","furigana":"いただきます","romaji":"itadakimasu","english_meaning":"to receive / eat (humble)","type":"verb"},
-{"id":"minna-039-v004","kanji":"おります","furigana":"おります","romaji":"orimasu","english_meaning":"to be / exist (humble)","type":"verb"}
+{"id":"minna-039-v001","kanji":"答えます","furigana":"こたえます","romaji":"kotaemasu","english_meaning":"to answer / reply","bengali_meaning":"উত্তর দেওয়া","type":"verb"},
+{"id":"minna-039-v002","kanji":"倒れます","furigana":"たおれます","romaji":"taoremasu","english_meaning":"to fall / collapse","bengali_meaning":"পড়ে যাওয়া","type":"verb"},
+{"id":"minna-039-v003","kanji":"焼けます","furigana":"やけます","romaji":"yakemasu","english_meaning":"to burn / be grilled","bengali_meaning":"পোড়া / ঝলসানো","type":"verb"},
+{"id":"minna-039-v004","kanji":"通ります","furigana":"とおります","romaji":"toorimasu","english_meaning":"to pass through","bengali_meaning":"অতিক্রম করা","type":"verb"},
+{"id":"minna-039-v005","kanji":"死にます","furigana":"しにます","romaji":"shinimasu","english_meaning":"to die","bengali_meaning":"মরা","type":"verb"}
 ]

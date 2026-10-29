@@ -1,7 +1,7 @@
 [
-{"id":"minna-038-v001","kanji":"育てます","furigana":"そだてます","romaji":"sodatemasu","english_meaning":"to raise / bring up","type":"verb"},
-{"id":"minna-038-v002","kanji":"運びます","furigana":"はこびます","romaji":"hakobimasu","english_meaning":"to carry / transport","type":"verb"},
-{"id":"minna-038-v003","kanji":"参加します","furigana":"さんかします","romaji":"sanka shimasu","english_meaning":"to participate","type":"verb"},
-{"id":"minna-038-v004","kanji":"電源を入れます","furigana":"でんげんをいれます","romaji":"dengen o iremasu","english_meaning":"to turn on the power","type":"expression"},
-{"id":"minna-038-v005","kanji":"動かします","furigana":"うごかします","romaji":"ugokashimasu","english_meaning":"to move (something)","type":"verb"}
+{"id":"minna-038-v001","kanji":"育てます","furigana":"そだてます","romaji":"sodatemasu","english_meaning":"to raise / bring up","bengali_meaning":"লালন-পালন করা","type":"verb"},
+{"id":"minna-038-v002","kanji":"運びます","furigana":"はこびます","romaji":"hakobimasu","english_meaning":"to carry / transport","bengali_meaning":"বহন করা","type":"verb"},
+{"id":"minna-038-v003","kanji":"亡くなります","furigana":"なくなります","romaji":"nakunarimasu","english_meaning":"to die / pass away","bengali_meaning":"মারা যাওয়া","type":"verb"},
+{"id":"minna-038-v004","kanji":"入院します","furigana":"にゅういんします","romaji":"nyuuin shimasu","english_meaning":"to be hospitalized","bengali_meaning":"হাসপাতালে ভর্তি হওয়া","type":"verb"},
+{"id":"minna-038-v005","kanji":"退院します","furigana":"たいいんします","romaji":"taiin shimasu","english_meaning":"to be discharged from hospital","bengali_meaning":"হাসপাতাল থেকে ছাড়া পাওয়া","type":"verb"}
 ]

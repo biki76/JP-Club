@@ -1,5 +1,7 @@
 [
-{"id":"minna-042-v001","kanji":"壊します","furigana":"こわします","romaji":"kowashimasu","english_meaning":"to break (something)","type":"verb"},
-{"id":"minna-042-v002","kanji":"汚します","furigana":"よごします","romaji":"yogoshimasu","english_meaning":"to dirty / stain","type":"verb"},
-{"id":"minna-042-v003","kanji":"燃えます","furigana":"もえます","romaji":"moemasu","english_meaning":"to burn","type":"verb"}
+{"id":"minna-042-v001","kanji":"包みます","furigana":"つつみます","romaji":"tsutsumimasu","english_meaning":"to wrap / pack","bengali_meaning":"মোড়ানো","type":"verb"},
+{"id":"minna-042-v002","kanji":"沸かします","furigana":"わかします","romaji":"wakashimasu","english_meaning":"to boil","bengali_meaning":"ফোটানো","type":"verb"},
+{"id":"minna-042-v003","kanji":"混ぜます","furigana":"まぜます","romaji":"mazemasu","english_meaning":"to mix / stir","bengali_meaning":"মেশানো","type":"verb"},
+{"id":"minna-042-v004","kanji":"計算します","furigana":"けいさんします","romaji":"keisan shimasu","english_meaning":"to calculate","bengali_meaning":"হিসাব করা","type":"verb"},
+{"id":"minna-042-v005","kanji":"弁護士","furigana":"べんごし","romaji":"bengoshi","english_meaning":"lawyer","bengali_meaning":"উকিল","type":"noun"}
 ]

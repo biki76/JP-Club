@@ -1,0 +1,5 @@
+[
+{"id":"temabetsu-int-01","topic":"まなぶ","title":"なぞなぞ","text_jp":"「なぞなぞ」は、言葉の意味を考えて答える遊びです。","text_en":"A 'nazonazo' is a game where you think about the meaning of words and answer.","text_bn":"'নাজোনাজো' হলো একটি খেলা যেখানে আপনি শব্দের অর্থ ভেবে উত্তর দেন।","grammar_notes":["～は～です (topic marker)"]},
+{"id":"temabetsu-int-02","topic":"みつける","title":"花の名前","text_jp":"散歩の途中で、きれいな花を見つけました。","text_en":"On the way for a walk, I found a beautiful flower.","text_bn":"হাঁটার পথে আমি একটি সুন্দর ফুল খুঁজে পেলাম।","grammar_notes":["～た (past tense)"]},
+{"id":"temabetsu-int-03","topic":"たべる","title":"ごちそう","text_jp":"祖母の作るごちそうは、いつも温かい。","text_en":"The feast my grandmother makes is always warm.","text_bn":"আমার দাদীর তৈরি ভোজ সবসময় উষ্ণ।","grammar_notes":["～は～です"]}
+]

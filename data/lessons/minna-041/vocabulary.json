@@ -1,5 +1,6 @@
 [
-{"id":"minna-041-v001","kanji":"注意します","furigana":"ちゅういします","romaji":"chuui shimasu","english_meaning":"to warn / advise","type":"verb"},
-{"id":"minna-041-v002","kanji":"盗みます","furigana":"ぬすみます","romaji":"nusumimasu","english_meaning":"to steal","type":"verb"},
-{"id":"minna-041-v003","kanji":"踏みます","furigana":"ふみます","romaji":"fumimasu","english_meaning":"to step on","type":"verb"}
+{"id":"minna-041-v001","kanji":"いただきます","furigana":"いただきます","romaji":"itadakimasu","english_meaning":"to receive / eat (humble)","bengali_meaning":"গ্রহণ করা / খাওয়া (নম্র)","type":"verb"},
+{"id":"minna-041-v002","kanji":"くださいます","furigana":"くださいます","romaji":"kudasaimasu","english_meaning":"to give (respectful)","bengali_meaning":"দেওয়া (সম্মানসূচক)","type":"verb"},
+{"id":"minna-041-v003","kanji":"呼びます","furigana":"よびます","romaji":"yobimasu","english_meaning":"to invite / call","bengali_meaning":"ডাকা / আমন্ত্রণ জানানো","type":"verb"},
+{"id":"minna-041-v004","kanji":"取り替えます","furigana":"とりかえます","romaji":"torikaemasu","english_meaning":"to exchange / replace","bengali_meaning":"বদলানো","type":"verb"}
 ]

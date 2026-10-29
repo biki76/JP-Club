@@ -1,4 +1,5 @@
 [
-{"id":"minna-045-v001","kanji":"何語","furigana":"なにご","romaji":"nanigo","english_meaning":"which language","type":"noun"},
-{"id":"minna-045-v002","kanji":"宇宙","furigana":"うちゅう","romaji":"uchuu","english_meaning":"universe / space","type":"noun"}
+{"id":"minna-045-v001","kanji":"何語","furigana":"なにご","romaji":"nanigo","english_meaning":"which language","bengali_meaning":"কোন ভাষা","type":"noun"},
+{"id":"minna-045-v002","kanji":"宇宙","furigana":"うちゅう","romaji":"uchuu","english_meaning":"universe / space","bengali_meaning":"মহাবিশ্ব","type":"noun"},
+{"id":"minna-045-v003","kanji":"人類","furigana":"じんるい","romaji":"jinrui","english_meaning":"humanity","bengali_meaning":"মানবজাতি","type":"noun"}
 ]

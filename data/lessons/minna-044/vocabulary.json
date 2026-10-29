@@ -1,4 +1,5 @@
 [
-{"id":"minna-044-v001","kanji":"美しい","furigana":"うつくしい","romaji":"utsukushii","english_meaning":"beautiful","type":"i-adjective"},
-{"id":"minna-044-v002","kanji":"世界中","furigana":"せかいじゅう","romaji":"sekai juu","english_meaning":"all over the world","type":"noun"}
+{"id":"minna-044-v001","kanji":"美しい","furigana":"うつくしい","romaji":"utsukushii","english_meaning":"beautiful","bengali_meaning":"সুন্দর","type":"i-adjective"},
+{"id":"minna-044-v002","kanji":"世界中","furigana":"せかいじゅう","romaji":"sekai juu","english_meaning":"all over the world","bengali_meaning":"সারা বিশ্বে","type":"noun"},
+{"id":"minna-044-v003","kanji":"自然","furigana":"しぜん","romaji":"shizen","english_meaning":"nature","bengali_meaning":"প্রকৃতি","type":"noun"}
 ]

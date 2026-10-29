@@ -1,0 +1,7 @@
+{
+  "courseId": "mimikara",
+  "source": "耳から覚える日本語能力試験語彙トレーニング N3",
+  "totalWords": 880,
+  "file": "vocabulary.json",
+  "note": "Extend the vocabulary array using the same schema for all 880 words."
+}

@@ -1,4 +1,5 @@
 [
-{"id":"minna-047-v001","kanji":"ごみ","furigana":"ごみ","romaji":"gomi","english_meaning":"garbage / trash","type":"noun"},
-{"id":"minna-047-v002","kanji":"気分","furigana":"きぶん","romaji":"kibun","english_meaning":"feeling / mood","type":"noun"}
+{"id":"minna-047-v001","kanji":"ごみ","furigana":"ごみ","romaji":"gomi","english_meaning":"garbage / trash","bengali_meaning":"আবর্জনা","type":"noun"},
+{"id":"minna-047-v002","kanji":"気分","furigana":"きぶん","romaji":"kibun","english_meaning":"feeling / mood","bengali_meaning":"মেজাজ","type":"noun"},
+{"id":"minna-047-v003","kanji":"資源","furigana":"しげん","romaji":"shigen","english_meaning":"resources","bengali_meaning":"সম্পদ","type":"noun"}
 ]

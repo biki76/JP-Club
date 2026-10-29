@@ -1,5 +1,7 @@
 [
-{"id":"minna-040-v001","kanji":"うそを言います","furigana":"うそをいいます","romaji":"uso o iimasu","english_meaning":"to tell a lie","type":"expression"},
-{"id":"minna-040-v002","kanji":"鍵を掛けます","furigana":"かぎをかけます","romaji":"kagi o kakemasu","english_meaning":"to lock","type":"expression"},
-{"id":"minna-040-v003","kanji":"電源を切ります","furigana":"でんげんをきります","romaji":"dengen o kirimasu","english_meaning":"to turn off the power","type":"expression"}
+{"id":"minna-040-v001","kanji":"数えます","furigana":"かぞえます","romaji":"kazoemasu","english_meaning":"to count","bengali_meaning":"গণনা করা","type":"verb"},
+{"id":"minna-040-v002","kanji":"測ります","furigana":"はかります","romaji":"hakarimasu","english_meaning":"to measure / weigh","bengali_meaning":"মাপা / ওজন করা","type":"verb"},
+{"id":"minna-040-v003","kanji":"確かめます","furigana":"たしかめます","romaji":"tashikamemasu","english_meaning":"to confirm","bengali_meaning":"নিশ্চিত করা","type":"verb"},
+{"id":"minna-040-v004","kanji":"出発します","furigana":"しゅっぱつします","romaji":"shuppatsu shimasu","english_meaning":"to depart","bengali_meaning":"যাত্রা করা","type":"verb"},
+{"id":"minna-040-v005","kanji":"到着します","furigana":"とうちゃくします","romaji":"touchaku shimasu","english_meaning":"to arrive","bengali_meaning":"পৌঁছানো","type":"verb"}
 ]

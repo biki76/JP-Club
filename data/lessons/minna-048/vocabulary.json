@@ -1,4 +1,5 @@
 [
-{"id":"minna-048-v001","kanji":"いつでも","furigana":"いつでも","romaji":"itsudemo","english_meaning":"anytime","type":"adverb"},
-{"id":"minna-048-v002","kanji":"あんな","furigana":"あんな","romaji":"anna","english_meaning":"that kind of (over there)","type":"adnominal"}
+{"id":"minna-048-v001","kanji":"いつでも","furigana":"いつでも","romaji":"itsudemo","english_meaning":"anytime","bengali_meaning":"যখনই","type":"adverb"},
+{"id":"minna-048-v002","kanji":"あんな","furigana":"あんな","romaji":"anna","english_meaning":"that kind of","bengali_meaning":"সেরকম","type":"adnominal"},
+{"id":"minna-048-v003","kanji":"こんな","furigana":"こんな","romaji":"konna","english_meaning":"this kind of","bengali_meaning":"এরকম","type":"adnominal"}
 ]

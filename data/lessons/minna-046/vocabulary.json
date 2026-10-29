@@ -1,4 +1,5 @@
 [
-{"id":"minna-046-v001","kanji":"〜中","furigana":"〜じゅう","romaji":"~juu","english_meaning":"the whole ~","type":"suffix"},
-{"id":"minna-046-v002","kanji":"缶","furigana":"かん","romaji":"kan","english_meaning":"can","type":"noun"}
+{"id":"minna-046-v001","kanji":"焼きます","furigana":"やきます","romaji":"yakimasu","english_meaning":"to bake / grill","bengali_meaning":"সেঁকা / ঝলসানো","type":"verb"},
+{"id":"minna-046-v002","kanji":"渡します","furigana":"わたします","romaji":"watashimasu","english_meaning":"to hand over","bengali_meaning":"হস্তান্তর করা","type":"verb"},
+{"id":"minna-046-v003","kanji":"帰ってきます","furigana":"かえってきます","romaji":"kaette kimasu","english_meaning":"to come back / return","bengali_meaning":"ফিরে আসা","type":"verb"}
 ]

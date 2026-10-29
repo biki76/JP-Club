@@ -1,4 +1,5 @@
 [
-{"id":"minna-050-v001","kanji":"謙譲語","furigana":"けんじょうご","romaji":"kenjougo","english_meaning":"humble language (keigo)","type":"noun"},
-{"id":"minna-050-v002","kanji":"おります","furigana":"おります","romaji":"orimasu","english_meaning":"to be (humble)","type":"verb"}
+{"id":"minna-050-v001","kanji":"謙譲語","furigana":"けんじょうご","romaji":"kenjougo","english_meaning":"humble language","bengali_meaning":"বিনয়সূচক ভাষা","type":"noun"},
+{"id":"minna-050-v002","kanji":"おります","furigana":"おります","romaji":"orimasu","english_meaning":"to be (humble)","bengali_meaning":"থাকা (বিনয়সূচক)","type":"verb"},
+{"id":"minna-050-v003","kanji":"参ります","furigana":"まいります","romaji":"mairimasu","english_meaning":"to go / come (humble)","bengali_meaning":"যাওয়া / আসা (বিনয়সূচক)","type":"verb"}
 ]

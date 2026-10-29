@@ -1,4 +1,5 @@
 [
-{"id":"minna-049-v001","kanji":"尊敬語","furigana":"そんけいご","romaji":"sonkeigo","english_meaning":"respectful language (keigo)","type":"noun"},
-{"id":"minna-049-v002","kanji":"いらっしゃいます","furigana":"いらっしゃいます","romaji":"irasshaimasu","english_meaning":"to go / come / be (respectful)","type":"verb"}
+{"id":"minna-049-v001","kanji":"尊敬語","furigana":"そんけいご","romaji":"sonkeigo","english_meaning":"respectful language","bengali_meaning":"সম্মানসূচক ভাষা","type":"noun"},
+{"id":"minna-049-v002","kanji":"いらっしゃいます","furigana":"いらっしゃいます","romaji":"irasshaimasu","english_meaning":"to go / come / be (respectful)","bengali_meaning":"যাওয়া / আসা / থাকা (সম্মানসূচক)","type":"verb"},
+{"id":"minna-049-v003","kanji":"召し上がります","furigana":"めしあがります","romaji":"meshiagarimasu","english_meaning":"to eat / drink (respectful)","bengali_meaning":"খাওয়া / পান করা (সম্মানসূচক)","type":"verb"}
 ]

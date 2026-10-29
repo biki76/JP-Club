@@ -1,4 +1,5 @@
 [
-{"id":"minna-043-v001","kanji":"贅沢","furigana":"ぜいたく","romaji":"zeitaku","english_meaning":"luxury / extravagant","type":"na-adjective"},
-{"id":"minna-043-v002","kanji":"豪華","furigana":"ごうか","romaji":"gouka","english_meaning":"luxurious / gorgeous","type":"na-adjective"}
+{"id":"minna-043-v001","kanji":"贅沢","furigana":"ぜいたく","romaji":"zeitaku","english_meaning":"luxury / extravagant","bengali_meaning":"বিলাসিতা","type":"na-adjective"},
+{"id":"minna-043-v002","kanji":"豪華","furigana":"ごうか","romaji":"gouka","english_meaning":"luxurious / gorgeous","bengali_meaning":"জমকালো","type":"na-adjective"},
+{"id":"minna-043-v003","kanji":"新鮮","furigana":"しんせん","romaji":"shinsen","english_meaning":"fresh","bengali_meaning":"তাজা","type":"na-adjective"}
 ]
