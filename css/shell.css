@@ -167,3 +167,169 @@
   .shell-header__actions .ctrl--desktop { display: none; }
   .shell-search { display: none; }
 }
+/* ========== RESPONSIVE FIXES FOR SMALL SCREENS ========== */
+
+/* Small tablets and large phones (640px - 767px) */
+@media (max-width: 767px) {
+  .shell-header {
+    padding: 0 12px;
+    gap: var(--s-2);
+  }
+  
+  .shell-header__brand span:last-child {
+    font-size: 14px;
+  }
+}
+
+/* Mobile phones (375px - 639px) */
+@media (max-width: 639px) {
+  .shell-header__actions .ctrl--desktop { 
+    display: none; 
+  }
+  .shell-search { 
+    display: none; 
+  }
+  
+  .shell-header {
+    padding: 0 8px;
+    gap: var(--s-2);
+    height: 56px;
+  }
+  
+  .shell-header__brand {
+    gap: var(--s-1);
+  }
+  
+  .shell-header__mark {
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+  }
+  
+  .shell-header__brand span:last-child {
+    font-size: 13px;
+  }
+  
+  /* Compact language toggle */
+  .lang-toggle {
+    display: flex;
+    gap: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  
+  .lang-toggle button {
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+/* Very small screens (below 375px) */
+@media (max-width: 374px) {
+  .shell-header {
+    padding: 0 6px;
+    gap: 4px;
+    height: 52px;
+  }
+  
+  .shell-header__brand span:last-child {
+    display: none; /* Hide text, keep logo only */
+  }
+  
+  .shell-header__menu {
+    padding: 4px;
+  }
+  
+  .shell-header__menu svg {
+    width: 18px;
+    height: 18px;
+  }
+  
+  /* Smaller language toggle */
+  .lang-toggle button {
+    padding: 3px 6px;
+    font-size: 10px;
+  }
+  
+  /* Reduce action button sizes */
+  .shell-header__actions {
+    gap: 2px;
+  }
+  
+  .shell-header__actions .ctrl {
+    padding: 4px;
+  }
+  
+  .shell-header__actions .ctrl svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* ========== NIHONSYNC BRANDING IN FOOTER ========== */
+
+.shell-footer__nihonsync {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  padding: var(--s-3) 0;
+  margin-top: var(--s-3);
+  border-top: 1px solid var(--border);
+}
+
+.nihonsync-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nihonsync-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.nihonsync-badge svg {
+  width: 16px;
+  height: 16px;
+}
+
+.nihonsync-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nihonsync-label {
+  font-size: 10px;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.nihonsync-name {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media (max-width: 639px) {
+  .shell-footer__nihonsync {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .nihonsync-badge {
+    width: 100%;
+    justify-content: center;
+  }
+}

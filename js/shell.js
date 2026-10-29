@@ -147,13 +147,23 @@
     }).join('');
   }
 
-  function renderFooter(host) {
+function renderFooter(host) {
     host.innerHTML = '<div class="shell-footer__inner">'
-      + '<span>' + txt({ en: '© Nihongo · Bengali — Japanese for Bengali speakers', bn: '© নিহোঙ্গো · বাংলা — বাংলাভাষীদের জন্য জাপানিজ' }) + '</span>'
-      + '<span>' + txt({ en: 'JLPT N5–N3', bn: 'JLPT N5–N3' }) + '</span>'
+      + '<div>'
+      + '<span>' + txt({ en: '© JP-Club — Japanese for Bengali speakers', bn: '© JP-Club — বাংলাভাষীদের জন্য জাপানিজ' }) + '</span>'
+      + '<span style="display:block; margin-top:4px; font-size:11px;">' + txt({ en: 'JLPT N5–N3', bn: 'JLPT N5–N3' }) + '</span>'
+      + '</div>'
+      + '<div class="shell-footer__nihonsync">'
+      + '<a href="https://biki76.github.io/NihonSync/" target="_blank" rel="noopener" class="nihonsync-badge" aria-label="Visit NihonSync - Download our JLPT N5 app">'
+      + '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>'
+      + '<span class="nihonsync-text">'
+      + '<span class="nihonsync-label">Download App</span>'
+      + '<span class="nihonsync-name">🎌 NihonSync</span>'
+      + '</span>'
+      + '</a>'
+      + '</div>'
       + '</div>';
   }
-
   /* ---------- drawer ---------- */
   var lastFocus = null;
 
