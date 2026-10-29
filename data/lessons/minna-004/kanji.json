@@ -1,18 +1,22 @@
 [
   {
     "character": "起",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "お-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "wake up, occur"
       ],
       "bn": [
-        "অর্থ"
+        "জাগা, ঘটনা"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 10,
     "grade": 5,
     "jlpt": "N5"
   },
@@ -86,18 +90,22 @@
   },
   {
     "character": "休",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "rest"
       ],
       "bn": [
-        "অর্থ"
+        "বিশ্রাম"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 6,
     "grade": 5,
     "jlpt": "N5"
   },

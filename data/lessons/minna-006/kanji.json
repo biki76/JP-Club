@@ -52,18 +52,22 @@
   },
   {
     "character": "見",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "see"
       ],
       "bn": [
-        "অর্থ"
+        "দেখা"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 7,
     "grade": 5,
     "jlpt": "N5"
   },
@@ -86,18 +90,22 @@
   },
   {
     "character": "書",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "か-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "write"
       ],
       "bn": [
-        "অর্থ"
+        "লেখা"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 10,
     "grade": 5,
     "jlpt": "N5"
   },
@@ -154,18 +162,22 @@
   },
   {
     "character": "友",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "friend"
       ],
       "bn": [
-        "অর্থ"
+        "বন্ধু"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 4,
     "grade": 5,
     "jlpt": "N5"
   }

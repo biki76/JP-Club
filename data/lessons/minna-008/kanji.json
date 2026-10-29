@@ -1,52 +1,65 @@
 [
   {
     "character": "大",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "large, big"
       ],
       "bn": [
-        "অর্থ"
+        "বড়"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 3,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "小",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちい-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "small"
       ],
       "bn": [
-        "অর্থ"
+        "ছোট"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 3,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "高",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たか-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "tall, high, expensive"
       ],
       "bn": [
-        "অর্থ"
+        "উঁচু, ব্যয়বহুল"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 10,
     "grade": 5,
     "jlpt": "N5"
   },

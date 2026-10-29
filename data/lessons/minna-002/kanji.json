@@ -1,18 +1,22 @@
 [
   {
     "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "book, origin"
       ],
       "bn": [
-        "অর্থ"
+        "বই, উৎস"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 5,
     "grade": 5,
     "jlpt": "N5"
   },
@@ -35,18 +39,22 @@
   },
   {
     "character": "書",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "か-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "write"
       ],
       "bn": [
-        "অর্থ"
+        "লেখা"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 10,
     "grade": 5,
     "jlpt": "N5"
   },

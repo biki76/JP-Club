@@ -1,6 +1,390 @@
 [
-{"id":"sk-n3-001","pattern":"～うちに","meaning_en":"while / before","meaning_bn":"যখন / আগে","example_jp":"熱いうちに食べてください。","example_en":"Please eat it while it's hot.","example_bn":"গরম থাকতে খেয়ে ফেলুন।","level":"N3"},
-{"id":"sk-n3-002","pattern":"～間に","meaning_en":"during / while","meaning_bn":"সময়ে / ফাঁকে","example_jp":"留守の間に荷物が届きました。","example_en":"A package arrived while I was out.","example_bn":"আমি বাইরে থাকার সময় একটি প্যাকেজ এসেছে।","level":"N3"},
-{"id":"sk-n3-003","pattern":"～てからでないと","meaning_en":"unless ~ first, cannot ~","meaning_bn":"~ না করে","example_jp":"上司に相談してからでないと決められません。","example_en":"I cannot decide unless I consult my boss first.","example_bn":"বসের সাথে পরামর্শ না করে সিদ্ধান্ত নিতে পারি না।","level":"N3"},
-{"id":"sk-n3-004","pattern":"～ところだ","meaning_en":"just about to / just did","meaning_bn":"ঠিক এখন","example_jp":"今から出かけるところです。","example_en":"I'm just about to go out.","example_bn":"আমি এখনই বের হচ্ছি।","level":"N3"}
+  {
+    "id": "sk-n3-001",
+    "pattern": "〜うちに",
+    "meaning_en": "while / before",
+    "meaning_bn": "যখন / আগে",
+    "level": "N3",
+    "example_jp": "熱いうちに食べてください。",
+    "example_en": "Please eat it while it's hot.",
+    "example_bn": "গরম থাকতে খেয়ে ফেলুন।"
+  },
+  {
+    "id": "sk-n3-002",
+    "pattern": "〜間",
+    "meaning_en": "while",
+    "meaning_bn": "সময়ে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-003",
+    "pattern": "〜間に",
+    "meaning_en": "during",
+    "meaning_bn": "সময়ে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-004",
+    "pattern": "〜てからでないと",
+    "meaning_en": "unless ~ first",
+    "meaning_bn": "~ না করে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-005",
+    "pattern": "〜ところだ",
+    "meaning_en": "just about to",
+    "meaning_bn": "ঠিক এখন",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-006",
+    "pattern": "〜ためだ",
+    "meaning_en": "because of",
+    "meaning_bn": "কারণে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-007",
+    "pattern": "〜ことから",
+    "meaning_en": "from the fact that",
+    "meaning_bn": "থেকে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-008",
+    "pattern": "〜（の）なら",
+    "meaning_en": "if that is the case",
+    "meaning_bn": "যদি তাই হয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-009",
+    "pattern": "〜ということだ",
+    "meaning_en": "it means that",
+    "meaning_bn": "এর মানে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-010",
+    "pattern": "〜はずがない",
+    "meaning_en": "there is no way",
+    "meaning_bn": "কোনোভাবেই না",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-011",
+    "pattern": "〜わけだ",
+    "meaning_en": "no wonder",
+    "meaning_bn": "তাই স্বাভাবিক",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-012",
+    "pattern": "〜ばかり",
+    "meaning_en": "only",
+    "meaning_bn": "শুধু",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-013",
+    "pattern": "〜ようになる",
+    "meaning_en": "come to be able to",
+    "meaning_bn": "হতে শুরু করা",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-014",
+    "pattern": "〜ことにする",
+    "meaning_en": "decide to",
+    "meaning_bn": "সিদ্ধান্ত নেওয়া",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-015",
+    "pattern": "〜ことになる",
+    "meaning_en": "it has been decided",
+    "meaning_bn": "সিদ্ধান্ত হওয়া",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-016",
+    "pattern": "〜ようにする",
+    "meaning_en": "try to",
+    "meaning_bn": "চেষ্টা করা",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-017",
+    "pattern": "〜ばかりでなく",
+    "meaning_en": "not only",
+    "meaning_bn": "শুধু নয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-018",
+    "pattern": "〜だけでなく",
+    "meaning_en": "not only",
+    "meaning_bn": "শুধু নয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-019",
+    "pattern": "〜たら",
+    "meaning_en": "if / when",
+    "meaning_bn": "যদি",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-020",
+    "pattern": "〜ば",
+    "meaning_en": "if",
+    "meaning_bn": "যদি",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-021",
+    "pattern": "〜と",
+    "meaning_en": "when / if",
+    "meaning_bn": "যখন",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-022",
+    "pattern": "〜なら",
+    "meaning_en": "if that is the case",
+    "meaning_bn": "যদি তাই হয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-023",
+    "pattern": "〜そうだ (hearsay)",
+    "meaning_en": "I hear that",
+    "meaning_bn": "শুনেছি",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-024",
+    "pattern": "〜そうだ (appearance)",
+    "meaning_en": "looks like",
+    "meaning_bn": "দেখে মনে হয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-025",
+    "pattern": "〜らしい",
+    "meaning_en": "it seems",
+    "meaning_bn": "মনে হয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-026",
+    "pattern": "〜ようだ",
+    "meaning_en": "it seems",
+    "meaning_bn": "মনে হয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-027",
+    "pattern": "〜みたいだ",
+    "meaning_en": "like",
+    "meaning_bn": "মতো",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-028",
+    "pattern": "〜かもしれない",
+    "meaning_en": "might",
+    "meaning_bn": "হতে পারে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-029",
+    "pattern": "〜でしょう",
+    "meaning_en": "probably",
+    "meaning_bn": "সম্ভবত",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-030",
+    "pattern": "〜てしまう",
+    "meaning_en": "completion / regret",
+    "meaning_bn": "সম্পূর্ণ করা",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-031",
+    "pattern": "〜てある",
+    "meaning_en": "state resulting from action",
+    "meaning_bn": "করা আছে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-032",
+    "pattern": "〜ておく",
+    "meaning_en": "do in advance",
+    "meaning_bn": "আগে থেকে করা",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-033",
+    "pattern": "〜てみる",
+    "meaning_en": "try doing",
+    "meaning_bn": "চেষ্টা করে দেখা",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-034",
+    "pattern": "〜させる",
+    "meaning_en": "causative",
+    "meaning_bn": "করানো",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-035",
+    "pattern": "〜させられる",
+    "meaning_en": "causative passive",
+    "meaning_bn": "করানো হয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-036",
+    "pattern": "〜られる (passive)",
+    "meaning_en": "passive voice",
+    "meaning_bn": "করা হয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-037",
+    "pattern": "〜られる (potential)",
+    "meaning_en": "potential form",
+    "meaning_bn": "পারা",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-038",
+    "pattern": "〜ばかりか",
+    "meaning_en": "not only",
+    "meaning_bn": "শুধু নয়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-039",
+    "pattern": "〜どころか",
+    "meaning_en": "far from",
+    "meaning_bn": "বরং",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-040",
+    "pattern": "〜ながら",
+    "meaning_en": "while",
+    "meaning_bn": "যখন",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-041",
+    "pattern": "〜つつ",
+    "meaning_en": "while",
+    "meaning_bn": "যখন",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-042",
+    "pattern": "〜ために",
+    "meaning_en": "in order to / because",
+    "meaning_bn": "জন্য",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-043",
+    "pattern": "〜ように",
+    "meaning_en": "so that",
+    "meaning_bn": "যাতে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-044",
+    "pattern": "〜おかげで",
+    "meaning_en": "thanks to",
+    "meaning_bn": "কারণে (ভালো)",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-045",
+    "pattern": "〜せいで",
+    "meaning_en": "because of (negative)",
+    "meaning_bn": "কারণে (খারাপ)",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-046",
+    "pattern": "〜ものだから",
+    "meaning_en": "because",
+    "meaning_bn": "কারণে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-047",
+    "pattern": "〜ことだから",
+    "meaning_en": "because",
+    "meaning_bn": "কারণে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-048",
+    "pattern": "〜だけあって",
+    "meaning_en": "as expected",
+    "meaning_bn": "যথাযথভাবে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-049",
+    "pattern": "〜わりに",
+    "meaning_en": "compared to",
+    "meaning_bn": "তুলনায়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-050",
+    "pattern": "〜にしては",
+    "meaning_en": "considering",
+    "meaning_bn": "বিবেচনায়",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-051",
+    "pattern": "〜にしても",
+    "meaning_en": "even if",
+    "meaning_bn": "হলেও",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-052",
+    "pattern": "〜として",
+    "meaning_en": "as",
+    "meaning_bn": "হিসেবে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-053",
+    "pattern": "〜について",
+    "meaning_en": "about",
+    "meaning_bn": "সম্পর্কে",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-054",
+    "pattern": "〜によって",
+    "meaning_en": "by / depending on",
+    "meaning_bn": "দ্বারা",
+    "level": "N3"
+  },
+  {
+    "id": "sk-n3-055",
+    "pattern": "〜に対して",
+    "meaning_en": "towards",
+    "meaning_bn": "প্রতি",
+    "level": "N3"
+  }
 ]

@@ -1,35 +1,46 @@
 [
   {
     "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "-か"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "day, sun, Japan"
       ],
       "bn": [
-        "অর্থ"
+        "দিন, সূর্য"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 4,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "book, origin"
       ],
       "bn": [
-        "অর্থ"
+        "বই, উৎস"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 5,
     "grade": 5,
     "jlpt": "N5"
   },

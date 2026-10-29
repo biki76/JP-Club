@@ -4,7 +4,7 @@
     "furigana": "ハンサム［な］",
     "romaji": "hansamu [na]",
     "english_meaning": "handsome",
-    "bengali_meaning": "handsome",
+    "bengali_meaning": "সুদর্শন",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -15,7 +15,7 @@
     "furigana": "きれい［な］",
     "romaji": "kirei [na]",
     "english_meaning": "beautiful, clean",
-    "bengali_meaning": "beautiful, clean",
+    "bengali_meaning": "সুন্দর / পরিষ্কার",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -23,22 +23,22 @@
   },
   {
     "id": "minna-008-v003",
-    "kanji": "静か［な］",
     "furigana": "しずか［な］",
     "romaji": "shizuka [na]",
     "english_meaning": "quiet",
-    "bengali_meaning": "quiet",
+    "bengali_meaning": "শান্ত / নীরব",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "静か［な］"
   },
   {
     "id": "minna-008-v004",
     "furigana": "にぎやか［な］",
     "romaji": "nigiyaka [na]",
-    "english_meaning": "lively",
-    "bengali_meaning": "lively",
+    "english_meaning": "lively, bustling",
+    "bengali_meaning": "কোলাহলপূর্ণ / প্রাণবন্ত",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -46,70 +46,70 @@
   },
   {
     "id": "minna-008-v005",
-    "kanji": "有名［な］",
     "furigana": "ゆうめい［な］",
     "romaji": "yūmei [na]",
     "english_meaning": "famous",
-    "bengali_meaning": "famous",
+    "bengali_meaning": "বিখ্যাত",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "有名［な］"
   },
   {
     "id": "minna-008-v006",
-    "kanji": "親切［な］",
     "furigana": "しんせつ［な］",
     "romaji": "shinsetsu [na]",
-    "english_meaning": "helpful, kind, considerate (not used about one's own family members)",
-    "bengali_meaning": "helpful, kind, considerate (not used about one's own family members)",
+    "english_meaning": "kind, helpful",
+    "bengali_meaning": "দয়ালু / অমায়িক",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "親切［な］"
   },
   {
     "id": "minna-008-v007",
-    "kanji": "元気［な］",
     "furigana": "げんき［な］",
     "romaji": "genki [na]",
-    "english_meaning": "healthy, energetic, cheerful",
-    "bengali_meaning": "healthy, energetic, cheerful",
+    "english_meaning": "healthy, energetic",
+    "bengali_meaning": "সুস্থ / উদ্যমী",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "元気［な］"
   },
   {
     "id": "minna-008-v008",
-    "kanji": "暇［な］",
     "furigana": "ひま［な］",
     "romaji": "hima [na]",
     "english_meaning": "free (time)",
-    "bengali_meaning": "free (time)",
+    "bengali_meaning": "অবসর / কাজের চাপহীন",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "暇［な］"
   },
   {
     "id": "minna-008-v009",
-    "kanji": "便利［な］",
     "furigana": "べんり［な］",
     "romaji": "benri [na]",
     "english_meaning": "convenient",
-    "bengali_meaning": "convenient",
+    "bengali_meaning": "সুবিধাজনক",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "便利［な］"
   },
   {
     "id": "minna-008-v010",
     "furigana": "すてき［な］",
     "romaji": "suteki [na]",
     "english_meaning": "fine, nice, wonderful",
-    "bengali_meaning": "fine, nice, wonderful",
+    "bengali_meaning": "চমৎকার / দারুণ",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -117,58 +117,58 @@
   },
   {
     "id": "minna-008-v011",
-    "kanji": "大きい",
     "furigana": "おおきい",
     "romaji": "ōkii",
     "english_meaning": "big, large",
-    "bengali_meaning": "big, large",
+    "bengali_meaning": "বড়",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "大きい"
   },
   {
     "id": "minna-008-v012",
-    "kanji": "小さい",
     "furigana": "ちいさい",
     "romaji": "chiisai",
     "english_meaning": "small, little",
-    "bengali_meaning": "small, little",
+    "bengali_meaning": "ছোট",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "小さい"
   },
   {
     "id": "minna-008-v013",
-    "kanji": "新しい",
     "furigana": "あたらしい",
     "romaji": "atarashii",
     "english_meaning": "new, fresh",
-    "bengali_meaning": "new, fresh",
+    "bengali_meaning": "নতুন",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "新しい"
   },
   {
     "id": "minna-008-v014",
-    "kanji": "古い",
     "furigana": "ふるい",
     "romaji": "furui",
-    "english_meaning": "old (not used to describe a person's age)",
-    "bengali_meaning": "old (not used to describe a person's age)",
+    "english_meaning": "old (not people)",
+    "bengali_meaning": "পুরোনো",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "古い"
   },
   {
     "id": "minna-008-v015",
-    "furigana": "いい（よい）",
-    "romaji": "ii (yoi)",
+    "furigana": "いい",
+    "romaji": "",
     "english_meaning": "good",
-    "bengali_meaning": "good",
+    "bengali_meaning": "ভালো",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -176,296 +176,298 @@
   },
   {
     "id": "minna-008-v016",
-    "kanji": "悪い",
     "furigana": "わるい",
     "romaji": "warui",
     "english_meaning": "bad",
-    "bengali_meaning": "bad",
+    "bengali_meaning": "খারাপ",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "悪い"
   },
   {
     "id": "minna-008-v017",
-    "kanji": "暑い、熱い",
     "furigana": "あつい",
     "romaji": "atsui",
-    "english_meaning": "hot",
-    "bengali_meaning": "hot",
+    "english_meaning": "hot (weather)",
+    "bengali_meaning": "গরম (আবহাওয়া)",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "暑い"
   },
   {
     "id": "minna-008-v018",
-    "kanji": "寒い",
-    "furigana": "さむい",
-    "romaji": "samui",
-    "english_meaning": "cold (referring to temperature)",
-    "bengali_meaning": "cold (referring to temperature)",
+    "furigana": "あつい",
+    "romaji": "atsui",
+    "english_meaning": "hot (to touch)",
+    "bengali_meaning": "গরম (স্পর্শে)",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "熱い"
   },
   {
     "id": "minna-008-v019",
-    "kanji": "冷たい",
-    "furigana": "つめたい",
-    "romaji": "tsumetai",
-    "english_meaning": "cold (referring to touch)",
-    "bengali_meaning": "cold (referring to touch)",
+    "furigana": "さむい",
+    "romaji": "samui",
+    "english_meaning": "cold (weather)",
+    "bengali_meaning": "ঠান্ডা (আবহাওয়া)",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "寒い"
   },
   {
     "id": "minna-008-v020",
-    "kanji": "難しい",
-    "furigana": "むずかしい",
-    "romaji": "muzukashii",
-    "english_meaning": "difficult",
-    "bengali_meaning": "difficult",
+    "furigana": "つめたい",
+    "romaji": "tsumetai",
+    "english_meaning": "cold (to touch)",
+    "bengali_meaning": "ঠান্ডা (স্পর্শে)",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "冷たい"
   },
   {
     "id": "minna-008-v021",
-    "kanji": "易しい",
-    "furigana": "やさしい",
-    "romaji": "yasashii",
-    "english_meaning": "easy",
-    "bengali_meaning": "easy",
+    "furigana": "むずかしい",
+    "romaji": "muzukashii",
+    "english_meaning": "difficult",
+    "bengali_meaning": "কঠিন",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "難しい"
   },
   {
     "id": "minna-008-v022",
-    "kanji": "高い",
-    "furigana": "たかい",
-    "romaji": "takai",
-    "english_meaning": "expensive, tall, high",
-    "bengali_meaning": "expensive, tall, high",
+    "furigana": "やさしい",
+    "romaji": "yasashii",
+    "english_meaning": "easy",
+    "bengali_meaning": "সহজ",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "易しい"
   },
   {
     "id": "minna-008-v023",
-    "kanji": "安い",
-    "furigana": "やすい",
-    "romaji": "yasui",
-    "english_meaning": "inexpensive",
-    "bengali_meaning": "inexpensive",
+    "furigana": "たかい",
+    "romaji": "takai",
+    "english_meaning": "expensive, high, tall",
+    "bengali_meaning": "দামি / উঁচু",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "高い"
   },
   {
     "id": "minna-008-v024",
-    "kanji": "低い",
-    "furigana": "ひくい",
-    "romaji": "hikui",
-    "english_meaning": "low",
-    "bengali_meaning": "low",
+    "furigana": "やすい",
+    "romaji": "yasui",
+    "english_meaning": "inexpensive, cheap",
+    "bengali_meaning": "সস্তা",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "安い"
   },
   {
     "id": "minna-008-v025",
-    "furigana": "おもしろい",
-    "romaji": "omoshiroi",
-    "english_meaning": "interesting",
-    "bengali_meaning": "interesting",
+    "furigana": "ひくい",
+    "romaji": "hikui",
+    "english_meaning": "low",
+    "bengali_meaning": "নিচু",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "低い"
   },
   {
     "id": "minna-008-v026",
-    "furigana": "おいしい",
-    "romaji": "oishii",
-    "english_meaning": "delicious, tasty",
-    "bengali_meaning": "delicious, tasty",
+    "furigana": "おもしろい",
+    "romaji": "omoshiroi",
+    "english_meaning": "interesting, amusing",
+    "bengali_meaning": "মজার / আকর্ষণীয়",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "面白い"
   },
   {
     "id": "minna-008-v027",
-    "kanji": "忙しい",
-    "furigana": "いそがしい",
-    "romaji": "isogashii",
-    "english_meaning": "busy",
-    "bengali_meaning": "busy",
+    "furigana": "おいしい",
+    "romaji": "oishii",
+    "english_meaning": "delicious, tasty",
+    "bengali_meaning": "সুস্বাদু",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "美味しい"
   },
   {
     "id": "minna-008-v028",
-    "kanji": "楽しい",
-    "furigana": "たのしい",
-    "romaji": "tanoshii",
-    "english_meaning": "enjoyable",
-    "bengali_meaning": "enjoyable",
+    "furigana": "いそがしい",
+    "romaji": "isogashii",
+    "english_meaning": "busy",
+    "bengali_meaning": "ব্যস্ত",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "忙しい"
   },
   {
     "id": "minna-008-v029",
-    "kanji": "白い",
-    "furigana": "しろい",
-    "romaji": "shiroi",
-    "english_meaning": "white",
-    "bengali_meaning": "white",
+    "furigana": "たのしい",
+    "romaji": "tanoshii",
+    "english_meaning": "enjoyable, fun",
+    "bengali_meaning": "আনন্দদায়ক",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "楽しい"
   },
   {
     "id": "minna-008-v030",
-    "kanji": "黒い",
-    "furigana": "くろい",
-    "romaji": "kuroi",
-    "english_meaning": "black",
-    "bengali_meaning": "black",
+    "furigana": "しろい",
+    "romaji": "shiroi",
+    "english_meaning": "white",
+    "bengali_meaning": "সাদা",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "白い"
   },
   {
     "id": "minna-008-v031",
-    "kanji": "赤い",
-    "furigana": "あかい",
-    "romaji": "akai",
-    "english_meaning": "red",
-    "bengali_meaning": "red",
+    "furigana": "くろい",
+    "romaji": "kuroi",
+    "english_meaning": "black",
+    "bengali_meaning": "কালো",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "黒い"
   },
   {
     "id": "minna-008-v032",
-    "kanji": "青い",
-    "furigana": "あおい",
-    "romaji": "aoi",
-    "english_meaning": "blue",
-    "bengali_meaning": "blue",
+    "furigana": "あかい",
+    "romaji": "akai",
+    "english_meaning": "red",
+    "bengali_meaning": "লাল",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "赤い"
   },
   {
     "id": "minna-008-v033",
-    "kanji": "桜",
-    "furigana": "さくら",
-    "romaji": "sakura",
-    "english_meaning": "cherry (blossom)",
-    "bengali_meaning": "cherry (blossom)",
+    "furigana": "あおい",
+    "romaji": "aoi",
+    "english_meaning": "blue",
+    "bengali_meaning": "নীল",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "青い"
   },
   {
     "id": "minna-008-v034",
-    "kanji": "山",
-    "furigana": "やま",
-    "romaji": "yama",
-    "english_meaning": "mountain",
-    "bengali_meaning": "mountain",
+    "furigana": "さくら",
+    "romaji": "sakura",
+    "english_meaning": "cherry blossom",
+    "bengali_meaning": "চেরি ফুল",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "桜"
   },
   {
     "id": "minna-008-v035",
-    "kanji": "町",
-    "furigana": "まち",
-    "romaji": "machi",
-    "english_meaning": "town, city",
-    "bengali_meaning": "town, city",
+    "furigana": "やま",
+    "romaji": "yama",
+    "english_meaning": "mountain",
+    "bengali_meaning": "পাহাড় / পর্বত",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "山"
   },
   {
     "id": "minna-008-v036",
-    "kanji": "食べ物",
-    "furigana": "たべもの",
-    "romaji": "tabemono",
-    "english_meaning": "food",
-    "bengali_meaning": "food",
+    "furigana": "まち",
+    "romaji": "machi",
+    "english_meaning": "town, city",
+    "bengali_meaning": "শহর",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "町"
   },
   {
     "id": "minna-008-v037",
-    "kanji": "所",
-    "furigana": "ところ",
-    "romaji": "tokoro",
-    "english_meaning": "place",
-    "bengali_meaning": "place",
+    "furigana": "たべもの",
+    "romaji": "tabemono",
+    "english_meaning": "food",
+    "bengali_meaning": "খাবার",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "食べ物"
   },
   {
     "id": "minna-008-v038",
-    "kanji": "寮",
-    "furigana": "りょう",
-    "romaji": "ryō",
-    "english_meaning": "dormitory",
-    "bengali_meaning": "dormitory",
+    "furigana": "ところ",
+    "romaji": "tokoro",
+    "english_meaning": "place",
+    "bengali_meaning": "জায়গা / স্থান",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "所"
   },
   {
     "id": "minna-008-v039",
-    "furigana": "レストラン",
-    "romaji": "resutoran",
-    "english_meaning": "restaurant",
-    "bengali_meaning": "restaurant",
+    "furigana": "りょう",
+    "romaji": "ryō",
+    "english_meaning": "dormitory",
+    "bengali_meaning": "ছাত্রাবাস / ডরমিটরি",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "寮"
   },
   {
     "id": "minna-008-v040",
-    "kanji": "生活",
-    "furigana": "せいかつ",
-    "romaji": "seikatsu",
-    "english_meaning": "life",
-    "bengali_meaning": "life",
+    "furigana": "レストラン",
+    "romaji": "resutoran",
+    "english_meaning": "restaurant",
+    "bengali_meaning": "রেস্তোরাঁ",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -473,33 +475,34 @@
   },
   {
     "id": "minna-008-v041",
-    "kanji": "［お］仕事",
-    "furigana": "［お］しごと",
-    "romaji": "[o] shigoto",
-    "english_meaning": "work, business (～を します : do one's job, work)",
-    "bengali_meaning": "work, business (～を します : do one's job, work)",
+    "furigana": "せいかつ",
+    "romaji": "seikatsu",
+    "english_meaning": "life, living",
+    "bengali_meaning": "জীবন / জীবনযাপন",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "生活"
   },
   {
     "id": "minna-008-v042",
-    "furigana": "どう",
-    "romaji": "dō",
-    "english_meaning": "how",
-    "bengali_meaning": "how",
+    "furigana": "［お］しごと",
+    "romaji": "[o] shigoto",
+    "english_meaning": "work, business",
+    "bengali_meaning": "কাজ / চাকরি",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "［お］仕事"
   },
   {
     "id": "minna-008-v043",
-    "furigana": "どんな ～",
-    "romaji": "donna ~",
-    "english_meaning": "what kind of ～",
-    "bengali_meaning": "what kind of ～",
+    "furigana": "どう",
+    "romaji": "dō",
+    "english_meaning": "how",
+    "bengali_meaning": "কেমন",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -507,10 +510,10 @@
   },
   {
     "id": "minna-008-v044",
-    "furigana": "とても",
-    "romaji": "totemo",
-    "english_meaning": "very",
-    "bengali_meaning": "very",
+    "furigana": "どんな 〜",
+    "romaji": "",
+    "english_meaning": "what kind of ~",
+    "bengali_meaning": "কী ধরণের ",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -518,10 +521,10 @@
   },
   {
     "id": "minna-008-v045",
-    "furigana": "あまり",
-    "romaji": "amari",
-    "english_meaning": "not so (used with negatives)",
-    "bengali_meaning": "not so (used with negatives)",
+    "furigana": "とても",
+    "romaji": "totemo",
+    "english_meaning": "very",
+    "bengali_meaning": "খুব / অত্যন্ত",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -529,10 +532,10 @@
   },
   {
     "id": "minna-008-v046",
-    "furigana": "そして",
-    "romaji": "soshite",
-    "english_meaning": "and (used to connect sentences)",
-    "bengali_meaning": "and (used to connect sentences)",
+    "furigana": "あまり",
+    "romaji": "amari",
+    "english_meaning": "not so (with neg.)",
+    "bengali_meaning": "তেমন একটা না",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -540,10 +543,10 @@
   },
   {
     "id": "minna-008-v047",
-    "furigana": "～が、～",
-    "romaji": "~ga, ~",
-    "english_meaning": "～, but ～",
-    "bengali_meaning": "～, but ～",
+    "furigana": "そして",
+    "romaji": "soshite",
+    "english_meaning": "and (connecting sentences)",
+    "bengali_meaning": "এবং / আর",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -551,11 +554,10 @@
   },
   {
     "id": "minna-008-v048",
-    "kanji": "お元気ですか。",
-    "furigana": "おげんきですか。",
-    "romaji": "ogenkidesuka.",
-    "english_meaning": "How are you?",
-    "bengali_meaning": "How are you?",
+    "furigana": "〜が、〜",
+    "romaji": "",
+    "english_meaning": ", but ",
+    "bengali_meaning": ", কিন্তু ",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -563,22 +565,22 @@
   },
   {
     "id": "minna-008-v049",
-    "furigana": "そうですね。",
-    "romaji": "sōdesune.",
-    "english_meaning": "Well let me see. (pausing)",
-    "bengali_meaning": "Well let me see. (pausing)",
+    "furigana": "おげんきですか",
+    "romaji": "",
+    "english_meaning": "how are you?",
+    "bengali_meaning": "আপনি কেমন আছেন?",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "お元気ですか"
   },
   {
     "id": "minna-008-v050",
-    "kanji": "［～、］もう 一杯 いかがですか。",
-    "furigana": "［～、］もう いっぱい いかがですか。",
-    "romaji": "[~,] mō ippai ikagadesuka.",
-    "english_meaning": "Won't you have another cup of [～]?",
-    "bengali_meaning": "Won't you have another cup of [～]?",
+    "furigana": "そうですね",
+    "romaji": "",
+    "english_meaning": "well, let me see",
+    "bengali_meaning": "তাই তো / ভাবছি",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -586,21 +588,22 @@
   },
   {
     "id": "minna-008-v051",
-    "furigana": "［いいえ、］けっこうです。",
-    "romaji": "[iie,] kekkōdesu.",
-    "english_meaning": "No, thank you",
-    "bengali_meaning": "No, thank you",
+    "furigana": "［〜、］もう いっぱい いかがですか",
+    "romaji": "",
+    "english_meaning": "another cup of []?",
+    "bengali_meaning": "আরেক কাপ [] নেবেন কি?",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "［〜、］もう 一杯 いかがですか"
   },
   {
     "id": "minna-008-v052",
-    "furigana": "もう ～です［ね］。",
-    "romaji": "mō ~desu [ne].",
-    "english_meaning": "It's already ～[, isn't it?]",
-    "bengali_meaning": "It's already ～[, isn't it?]",
+    "furigana": "［いいえ、］けっこうです",
+    "romaji": "",
+    "english_meaning": "no, thank you",
+    "bengali_meaning": "না, ধন্যবাদ (লাগবে না)",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -608,11 +611,10 @@
   },
   {
     "id": "minna-008-v053",
-    "kanji": "そろそろ 失礼します。",
-    "furigana": "そろそろ しつれいします。",
-    "romaji": "sorosoro shitsureishimasu.",
-    "english_meaning": "It's time I was going.",
-    "bengali_meaning": "It's time I was going.",
+    "furigana": "もう 〜です［ね］",
+    "romaji": "",
+    "english_meaning": "it's already [, isn't it?]",
+    "bengali_meaning": "ইতিমধ্যে ~ বাজে [তাই না]",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -620,21 +622,22 @@
   },
   {
     "id": "minna-008-v054",
-    "furigana": "いいえ。",
-    "romaji": "iie.",
-    "english_meaning": "Not at all.",
-    "bengali_meaning": "Not at all.",
+    "furigana": "そろそろ しつれいします",
+    "romaji": "",
+    "english_meaning": "it's time to leave",
+    "bengali_meaning": "এখন আমার উঠতে হবে",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "そろそろ 失礼します"
   },
   {
     "id": "minna-008-v055",
-    "furigana": "また いらっしゃって ください。",
-    "romaji": "mata irasshatte kudasai.",
-    "english_meaning": "Please come again",
-    "bengali_meaning": "Please come again",
+    "furigana": "いいえ",
+    "romaji": "",
+    "english_meaning": "not at all",
+    "bengali_meaning": "আরে না / ঠিক আছে",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -642,10 +645,10 @@
   },
   {
     "id": "minna-008-v056",
-    "furigana": "シャンハイ",
-    "romaji": "shanhai",
-    "english_meaning": "Shanghai (上海)",
-    "bengali_meaning": "Shanghai (上海)",
+    "furigana": "また いらっしゃって ください",
+    "romaji": "",
+    "english_meaning": "please come again",
+    "bengali_meaning": "আবার আসবেন",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -653,11 +656,10 @@
   },
   {
     "id": "minna-008-v057",
-    "kanji": "金閣寺",
-    "furigana": "きんかくじ",
-    "romaji": "kinkakuji",
-    "english_meaning": "Kinkakuji Temple (the Golden Pavilion)",
-    "bengali_meaning": "Kinkakuji Temple (the Golden Pavilion)",
+    "furigana": "シャンハイ",
+    "romaji": "shanhai",
+    "english_meaning": "Shanghai",
+    "bengali_meaning": "সাংহাই",
     "tags": [
       "vocabulary",
       "lesson-8"
@@ -665,97 +667,50 @@
   },
   {
     "id": "minna-008-v058",
-    "kanji": "奈良公園",
-    "furigana": "ならこうえん",
-    "romaji": "narakōen",
-    "english_meaning": "Nara Park",
-    "bengali_meaning": "Nara Park",
+    "furigana": "きんかくじ",
+    "romaji": "kinkakuji",
+    "english_meaning": "Kinkakuji Temple",
+    "bengali_meaning": "কিনকাকুজি মন্দির",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "金閣寺"
   },
   {
     "id": "minna-008-v059",
-    "kanji": "富士山",
-    "furigana": "ふじさん",
-    "romaji": "fujisan",
-    "english_meaning": "Mt. Fuji, the highest mountain in Japan",
-    "bengali_meaning": "Mt. Fuji, the highest mountain in Japan",
+    "furigana": "ならこうえん",
+    "romaji": "narakōen",
+    "english_meaning": "Nara Park",
+    "bengali_meaning": "নারা পার্ক",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "奈良公園"
   },
   {
     "id": "minna-008-v060",
-    "kanji": "「七人の 侍」",
-    "furigana": "「しちにんの さむらい」",
-    "romaji": "(shichininno samurai)",
-    "english_meaning": "'The Seven Samurai', a classic movie by Akira Kurosawa",
-    "bengali_meaning": "'The Seven Samurai', a classic movie by Akira Kurosawa",
+    "furigana": "ふじさん",
+    "romaji": "fujisan",
+    "english_meaning": "Mt. Fuji",
+    "bengali_meaning": "ফুজি পর্বত",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
+    ],
+    "kanji": "富士山"
   },
   {
     "id": "minna-008-v061",
-    "kanji": "車",
-    "furigana": "くるま",
-    "romaji": "kuruma",
-    "english_meaning": "car, vehicle",
-    "bengali_meaning": "car, vehicle",
+    "furigana": "「しちにんの さむらい」",
+    "romaji": "(shichininno samurai)",
+    "english_meaning": "'Seven Samurai'",
+    "bengali_meaning": "সেভেন সামুরাই",
     "tags": [
       "vocabulary",
       "lesson-8"
-    ]
-  },
-  {
-    "id": "minna-008-v062",
-    "kanji": "勉強",
-    "furigana": "べんきょう",
-    "romaji": "benkyō",
-    "english_meaning": "study",
-    "bengali_meaning": "study",
-    "tags": [
-      "vocabulary",
-      "lesson-8"
-    ]
-  },
-  {
-    "id": "minna-008-v063",
-    "furigana": "どれ",
-    "romaji": "dore",
-    "english_meaning": "which one (of three or more)",
-    "bengali_meaning": "which one (of three or more)",
-    "tags": [
-      "vocabulary",
-      "lesson-8"
-    ]
-  },
-  {
-    "id": "minna-008-v064",
-    "kanji": "日本の 生活に 慣れましたか。",
-    "furigana": "にほんの せいかつに なれましたか。",
-    "romaji": "nihonno seikatsuni naremashitaka.",
-    "english_meaning": "Have you got used to the life in Japan?",
-    "bengali_meaning": "Have you got used to the life in Japan?",
-    "tags": [
-      "vocabulary",
-      "lesson-8"
-    ]
-  },
-  {
-    "id": "minna-008-v065",
-    "kanji": "琵琶湖",
-    "furigana": "びわこ",
-    "romaji": "biwako",
-    "english_meaning": "Lake Biwa, the biggest lake in Japan",
-    "bengali_meaning": "Lake Biwa, the biggest lake in Japan",
-    "tags": [
-      "vocabulary",
-      "lesson-8"
-    ]
+    ],
+    "kanji": "「七人の 侍」"
   }
 ]

@@ -1,118 +1,118 @@
 [
   {
     "id": "minna-006-v001",
-    "kanji": "食べます",
     "furigana": "たべます",
     "romaji": "tabemasu",
     "english_meaning": "eat",
-    "bengali_meaning": "eat",
+    "bengali_meaning": "খাওয়া / খাই",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［〜を］食べます"
   },
   {
     "id": "minna-006-v002",
-    "kanji": "飲みます",
     "furigana": "のみます",
     "romaji": "nomimasu",
     "english_meaning": "drink",
-    "bengali_meaning": "drink",
+    "bengali_meaning": "পান করা / পান করি",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［〜を］飲みます"
   },
   {
     "id": "minna-006-v003",
-    "kanji": "吸います［たばこを～］",
-    "furigana": "すいます［たばこを～］",
-    "romaji": "suimasu [tabakowo~]",
+    "furigana": "すいます",
+    "romaji": "",
     "english_meaning": "smoke [a cigarette]",
-    "bengali_meaning": "smoke [a cigarette]",
+    "bengali_meaning": "[সিগারেট] টানা / খাওয়া",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［たばこを〜］吸います"
   },
   {
     "id": "minna-006-v004",
-    "kanji": "見ます",
     "furigana": "みます",
     "romaji": "mimasu",
     "english_meaning": "see, look at, watch",
-    "bengali_meaning": "see, look at, watch",
+    "bengali_meaning": "দেখা / দেখি",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［〜を］見ます"
   },
   {
     "id": "minna-006-v005",
-    "kanji": "聞きます",
     "furigana": "ききます",
     "romaji": "kikimasu",
     "english_meaning": "hear, listen",
-    "bengali_meaning": "hear, listen",
+    "bengali_meaning": "শোনা / শুনি",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［〜を］聞きます"
   },
   {
     "id": "minna-006-v006",
-    "kanji": "読みます",
     "furigana": "よみます",
     "romaji": "yomimasu",
     "english_meaning": "read",
-    "bengali_meaning": "read",
+    "bengali_meaning": "পড়া / পড়ি",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［〜を］読みます"
   },
   {
     "id": "minna-006-v007",
-    "kanji": "書きます",
     "furigana": "かきます",
     "romaji": "kakimasu",
-    "english_meaning": "write (かきます can also mean to draw or paint, but in this case it is written with hiragana in this book)",
-    "bengali_meaning": "write (かきます can also mean to draw or paint, but in this case it is written with hiragana in this book)",
+    "english_meaning": "write, draw",
+    "bengali_meaning": "লেখা / আঁকা",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［〜を］書きます"
   },
   {
     "id": "minna-006-v008",
-    "kanji": "買います",
     "furigana": "かいます",
     "romaji": "kaimasu",
     "english_meaning": "buy",
-    "bengali_meaning": "buy",
+    "bengali_meaning": "কেনা / কিনি",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［〜を］買います"
   },
   {
     "id": "minna-006-v009",
-    "kanji": "撮ります［写真を～］",
-    "furigana": "とります［しゃしんを～］",
-    "romaji": "torimasu [shashinwo~]",
+    "furigana": "とります",
+    "romaji": "",
     "english_meaning": "take [a photograph]",
-    "bengali_meaning": "take [a photograph]",
+    "bengali_meaning": "[ছবি] তোলা",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［写真を〜］撮ります"
   },
   {
     "id": "minna-006-v010",
     "furigana": "します",
     "romaji": "shimasu",
     "english_meaning": "do, play",
-    "bengali_meaning": "do, play",
+    "bengali_meaning": "করা / খেলি",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -120,69 +120,70 @@
   },
   {
     "id": "minna-006-v011",
-    "kanji": "会います［友達に～］",
-    "furigana": "あいます［ともだちに～］",
-    "romaji": "aimasu [tomodachini~]",
+    "furigana": "あいます",
+    "romaji": "",
     "english_meaning": "meet [a friend]",
-    "bengali_meaning": "meet [a friend]",
+    "bengali_meaning": "[বন্ধুর সাথে] দেখা করা",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［友達に〜］会います"
   },
   {
     "id": "minna-006-v012",
     "furigana": "ごはん",
     "romaji": "gohan",
-    "english_meaning": "a meal, cooked rice",
-    "bengali_meaning": "a meal, cooked rice",
+    "english_meaning": "cooked rice, meal",
+    "bengali_meaning": "ভাত / খাবার",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "ご飯"
   },
   {
     "id": "minna-006-v013",
-    "kanji": "朝ごはん",
     "furigana": "あさごはん",
     "romaji": "asagohan",
     "english_meaning": "breakfast",
-    "bengali_meaning": "breakfast",
+    "bengali_meaning": "সকালের নাস্তা",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "朝ご飯"
   },
   {
     "id": "minna-006-v014",
-    "kanji": "昼ごはん",
     "furigana": "ひるごはん",
     "romaji": "hirugohan",
     "english_meaning": "lunch",
-    "bengali_meaning": "lunch",
+    "bengali_meaning": "দুপুরের খাবার",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "昼ご飯"
   },
   {
     "id": "minna-006-v015",
-    "kanji": "晩ごはん",
     "furigana": "ばんごはん",
     "romaji": "bangohan",
-    "english_meaning": "supper",
-    "bengali_meaning": "supper",
+    "english_meaning": "supper, dinner",
+    "bengali_meaning": "রাতের খাবার",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "晩ご飯"
   },
   {
     "id": "minna-006-v016",
     "furigana": "パン",
     "romaji": "pan",
     "english_meaning": "bread",
-    "bengali_meaning": "bread",
+    "bengali_meaning": "পাউরুটি",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -190,118 +191,118 @@
   },
   {
     "id": "minna-006-v017",
-    "kanji": "卵",
     "furigana": "たまご",
     "romaji": "tamago",
     "english_meaning": "egg",
-    "bengali_meaning": "egg",
+    "bengali_meaning": "ডিম",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "卵"
   },
   {
     "id": "minna-006-v018",
-    "kanji": "肉",
     "furigana": "にく",
     "romaji": "niku",
     "english_meaning": "meat",
-    "bengali_meaning": "meat",
+    "bengali_meaning": "মাংস",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "肉"
   },
   {
     "id": "minna-006-v019",
-    "kanji": "魚",
     "furigana": "さかな",
     "romaji": "sakana",
     "english_meaning": "fish",
-    "bengali_meaning": "fish",
+    "bengali_meaning": "মাছ",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "魚"
   },
   {
     "id": "minna-006-v020",
-    "kanji": "野菜",
     "furigana": "やさい",
     "romaji": "yasai",
     "english_meaning": "vegetable",
-    "bengali_meaning": "vegetable",
+    "bengali_meaning": "শাকসবজি",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "野菜"
   },
   {
     "id": "minna-006-v021",
-    "kanji": "果物",
     "furigana": "くだもの",
     "romaji": "kudamono",
     "english_meaning": "fruit",
-    "bengali_meaning": "fruit",
+    "bengali_meaning": "ফলমূল",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "果物"
   },
   {
     "id": "minna-006-v022",
-    "kanji": "水",
     "furigana": "みず",
     "romaji": "mizu",
     "english_meaning": "water",
-    "bengali_meaning": "water",
+    "bengali_meaning": "পানি / জল",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "水"
   },
   {
     "id": "minna-006-v023",
-    "kanji": "お茶",
     "furigana": "おちゃ",
     "romaji": "ocha",
     "english_meaning": "tea, green tea",
-    "bengali_meaning": "tea, green tea",
+    "bengali_meaning": "চা / গ্রিন টি",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "お茶"
   },
   {
     "id": "minna-006-v024",
-    "kanji": "紅茶",
     "furigana": "こうちゃ",
     "romaji": "kōcha",
     "english_meaning": "black tea",
-    "bengali_meaning": "black tea",
+    "bengali_meaning": "লাল চা",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "紅茶"
   },
   {
     "id": "minna-006-v025",
-    "kanji": "牛乳（ミルク）",
-    "furigana": "ぎゅうにゅう（ミルク）",
-    "romaji": "gyūnyū (miruku)",
+    "furigana": "ぎゅうにゅう",
+    "romaji": "",
     "english_meaning": "milk",
-    "bengali_meaning": "milk",
+    "bengali_meaning": "দুধ",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "牛乳"
   },
   {
     "id": "minna-006-v026",
-    "furigana": "ジュース",
-    "romaji": "jūsu",
-    "english_meaning": "juice",
-    "bengali_meaning": "juice",
+    "furigana": "ミルク",
+    "romaji": "",
+    "english_meaning": "milk",
+    "bengali_meaning": "দুধ",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -309,10 +310,10 @@
   },
   {
     "id": "minna-006-v027",
-    "furigana": "ビール",
-    "romaji": "biiru",
-    "english_meaning": "beer",
-    "bengali_meaning": "beer",
+    "furigana": "ジュース",
+    "romaji": "jūsu",
+    "english_meaning": "juice",
+    "bengali_meaning": "জুস / রস",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -320,11 +321,10 @@
   },
   {
     "id": "minna-006-v028",
-    "kanji": "［お］酒",
-    "furigana": "［お］さけ",
-    "romaji": "[o] sake",
-    "english_meaning": "alcohol, Japanese rice wine",
-    "bengali_meaning": "alcohol, Japanese rice wine",
+    "furigana": "ビール",
+    "romaji": "biiru",
+    "english_meaning": "beer",
+    "bengali_meaning": "বিয়ার",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -332,22 +332,22 @@
   },
   {
     "id": "minna-006-v029",
-    "furigana": "たばこ",
-    "romaji": "tabako",
-    "english_meaning": "tobacco, cigarette",
-    "bengali_meaning": "tobacco, cigarette",
+    "furigana": "［お］さけ",
+    "romaji": "[o] sake",
+    "english_meaning": "alcohol, Japanese sake",
+    "bengali_meaning": "মদ / জাপানি সাকে",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［お］酒"
   },
   {
     "id": "minna-006-v030",
-    "kanji": "手紙",
-    "furigana": "てがみ",
-    "romaji": "tegami",
-    "english_meaning": "letter",
-    "bengali_meaning": "letter",
+    "furigana": "たばこ",
+    "romaji": "tabako",
+    "english_meaning": "tobacco, cigarette",
+    "bengali_meaning": "সিগারেট / তামাক",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -355,22 +355,22 @@
   },
   {
     "id": "minna-006-v031",
-    "furigana": "レポート",
-    "romaji": "repōto",
-    "english_meaning": "report",
-    "bengali_meaning": "report",
+    "furigana": "てがみ",
+    "romaji": "tegami",
+    "english_meaning": "letter",
+    "bengali_meaning": "চিঠি",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "手紙"
   },
   {
     "id": "minna-006-v032",
-    "kanji": "写真",
-    "furigana": "しゃしん",
-    "romaji": "shashin",
-    "english_meaning": "photograph",
-    "bengali_meaning": "photograph",
+    "furigana": "レポート",
+    "romaji": "repōto",
+    "english_meaning": "report",
+    "bengali_meaning": "প্রতিবেদন / রিপোর্ট",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -378,22 +378,22 @@
   },
   {
     "id": "minna-006-v033",
-    "furigana": "ビデオ",
-    "romaji": "bideo",
-    "english_meaning": "video [tape], video deck",
-    "bengali_meaning": "video [tape], video deck",
+    "furigana": "しゃしん",
+    "romaji": "shashin",
+    "english_meaning": "photograph",
+    "bengali_meaning": "ছবি / আলোকচিত্র",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "写真"
   },
   {
     "id": "minna-006-v034",
-    "kanji": "店",
-    "furigana": "みせ",
-    "romaji": "mise",
-    "english_meaning": "store, shop",
-    "bengali_meaning": "store, shop",
+    "furigana": "ビデオ",
+    "romaji": "bideo",
+    "english_meaning": "video",
+    "bengali_meaning": "ভিডিও",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -401,45 +401,46 @@
   },
   {
     "id": "minna-006-v035",
-    "kanji": "庭",
-    "furigana": "にわ",
-    "romaji": "niwa",
-    "english_meaning": "garden",
-    "bengali_meaning": "garden",
+    "furigana": "みせ",
+    "romaji": "mise",
+    "english_meaning": "shop, store",
+    "bengali_meaning": "দোকান",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "店"
   },
   {
     "id": "minna-006-v036",
-    "kanji": "宿題",
-    "furigana": "しゅくだい",
-    "romaji": "shukudai",
-    "english_meaning": "homework (～を します : do homework)",
-    "bengali_meaning": "homework (～を します : do homework)",
+    "furigana": "にわ",
+    "romaji": "niwa",
+    "english_meaning": "garden",
+    "bengali_meaning": "বাগান",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "庭"
   },
   {
     "id": "minna-006-v037",
-    "furigana": "テニス",
-    "romaji": "tenisu",
-    "english_meaning": "tennis (～を します : play tennis)",
-    "bengali_meaning": "tennis (～を します : play tennis)",
+    "furigana": "しゅくだい",
+    "romaji": "shukudai",
+    "english_meaning": "homework",
+    "bengali_meaning": "বাড়ির কাজ / হোমওয়ার্ক",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "宿題"
   },
   {
     "id": "minna-006-v038",
-    "furigana": "サッカー",
-    "romaji": "sakkā",
-    "english_meaning": "soccer, football (～を します : play soccer)",
-    "bengali_meaning": "soccer, football (～を します : play soccer)",
+    "furigana": "テニス",
+    "romaji": "tenisu",
+    "english_meaning": "tennis",
+    "bengali_meaning": "টেনিস",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -447,11 +448,10 @@
   },
   {
     "id": "minna-006-v039",
-    "kanji": "［お］花見",
-    "furigana": "［お］はなみ",
-    "romaji": "[o] hanami",
-    "english_meaning": "cherry-blossom viewing (～を します : view the cherry blossoms)",
-    "bengali_meaning": "cherry-blossom viewing (～を します : view the cherry blossoms)",
+    "furigana": "サッカー",
+    "romaji": "sakkā",
+    "english_meaning": "soccer, football",
+    "bengali_meaning": "ফুটবল",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -459,44 +459,46 @@
   },
   {
     "id": "minna-006-v040",
-    "kanji": "何",
-    "furigana": "なに",
-    "romaji": "nani",
-    "english_meaning": "what",
-    "bengali_meaning": "what",
+    "furigana": "［お］はなみ",
+    "romaji": "[o] hanami",
+    "english_meaning": "cherry-blossom viewing",
+    "bengali_meaning": "চেরি ফুল দেখা উৎসব",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "［お］花見"
   },
   {
     "id": "minna-006-v041",
-    "furigana": "いっしょに",
-    "romaji": "isshoni",
-    "english_meaning": "together",
-    "bengali_meaning": "together",
+    "furigana": "なに",
+    "romaji": "nani",
+    "english_meaning": "what",
+    "bengali_meaning": "কী",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "何"
   },
   {
     "id": "minna-006-v042",
-    "furigana": "ちょっと",
-    "romaji": "chotto",
-    "english_meaning": "a little while, a little bit",
-    "bengali_meaning": "a little while, a little bit",
+    "furigana": "いっしょに",
+    "romaji": "isshoni",
+    "english_meaning": "together",
+    "bengali_meaning": "একসাথে",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "一緒に"
   },
   {
     "id": "minna-006-v043",
-    "furigana": "いつも",
-    "romaji": "itsumo",
-    "english_meaning": "always, usually",
-    "bengali_meaning": "always, usually",
+    "furigana": "ちょっと",
+    "romaji": "chotto",
+    "english_meaning": "a little while, bit",
+    "bengali_meaning": "একটু / কিছুক্ষণ",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -504,11 +506,10 @@
   },
   {
     "id": "minna-006-v044",
-    "kanji": "時々",
-    "furigana": "ときどき",
-    "romaji": "tokidoki",
-    "english_meaning": "sometimes",
-    "bengali_meaning": "sometimes",
+    "furigana": "いつも",
+    "romaji": "itsumo",
+    "english_meaning": "always, usually",
+    "bengali_meaning": "সবসময় / সাধারণত",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -516,21 +517,22 @@
   },
   {
     "id": "minna-006-v045",
-    "furigana": "それから",
-    "romaji": "sorekara",
-    "english_meaning": "after that, and then",
-    "bengali_meaning": "after that, and then",
+    "furigana": "ときどき",
+    "romaji": "tokidoki",
+    "english_meaning": "sometimes",
+    "bengali_meaning": "মাঝে মাঝে",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "時々"
   },
   {
     "id": "minna-006-v046",
-    "furigana": "ええ",
-    "romaji": "ee",
-    "english_meaning": "yes",
-    "bengali_meaning": "yes",
+    "furigana": "それから",
+    "romaji": "sorekara",
+    "english_meaning": "after that, and then",
+    "bengali_meaning": "তারপর / এরপর",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -538,10 +540,10 @@
   },
   {
     "id": "minna-006-v047",
-    "furigana": "いいですね。",
-    "romaji": "iidesune.",
-    "english_meaning": "That's good.",
-    "bengali_meaning": "That's good.",
+    "furigana": "ええ",
+    "romaji": "ee",
+    "english_meaning": "yes",
+    "bengali_meaning": "হ্যাঁ",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -549,10 +551,10 @@
   },
   {
     "id": "minna-006-v048",
-    "furigana": "わかりました。",
-    "romaji": "wakarimashita.",
-    "english_meaning": "I see",
-    "bengali_meaning": "I see",
+    "furigana": "いいですね",
+    "romaji": "",
+    "english_meaning": "that's good",
+    "bengali_meaning": "বেশ ভালো",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -560,33 +562,34 @@
   },
   {
     "id": "minna-006-v049",
-    "kanji": "何ですか。",
-    "furigana": "なんですか。",
-    "romaji": "nandesuka.",
-    "english_meaning": "Yes? (lit: What is it?)",
-    "bengali_meaning": "Yes? (lit: What is it?)",
+    "furigana": "わかりました",
+    "romaji": "",
+    "english_meaning": "I see, understood",
+    "bengali_meaning": "বুঝতে পেরেছি",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "分かりました"
   },
   {
     "id": "minna-006-v050",
-    "furigana": "じゃ、また［あした］。",
-    "romaji": "ja, mata [ashita].",
-    "english_meaning": "See you [tomorrow].",
-    "bengali_meaning": "See you [tomorrow].",
+    "furigana": "なんですか",
+    "romaji": "",
+    "english_meaning": "yes? (lit. what is it?)",
+    "bengali_meaning": "কী ব্যাপার? / বলুন",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "何ですか"
   },
   {
     "id": "minna-006-v051",
-    "furigana": "メキシコ",
-    "romaji": "mekishiko",
-    "english_meaning": "Mexico",
-    "bengali_meaning": "Mexico",
+    "furigana": "じゃ、また［あした］",
+    "romaji": "",
+    "english_meaning": "see you [tomorrow]",
+    "bengali_meaning": "তাহলে [কাল] দেখা হবে",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -594,11 +597,10 @@
   },
   {
     "id": "minna-006-v052",
-    "kanji": "大阪デパート",
-    "furigana": "おおさかデパート",
-    "romaji": "ōsakadepāto",
-    "english_meaning": "a fictitious department store",
-    "bengali_meaning": "a fictitious department store",
+    "furigana": "メキシコ",
+    "romaji": "mekishiko",
+    "english_meaning": "Mexico",
+    "bengali_meaning": "মেক্সিকো",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -606,22 +608,22 @@
   },
   {
     "id": "minna-006-v053",
-    "furigana": "つるや",
-    "romaji": "tsuruya",
-    "english_meaning": "a fictitious restaurant",
-    "bengali_meaning": "a fictitious restaurant",
+    "furigana": "おおさかデパート",
+    "romaji": "ōsakadepāto",
+    "english_meaning": "Osaka Department Store",
+    "bengali_meaning": "ওসাকা ডিপার্টমেন্ট স্টোর",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "大阪デパート"
   },
   {
     "id": "minna-006-v054",
-    "kanji": "フランス屋",
-    "furigana": "フランスや",
-    "romaji": "furansuya",
-    "english_meaning": "a fictitious supermarket",
-    "bengali_meaning": "a fictitious supermarket",
+    "furigana": "つるや",
+    "romaji": "tsuruya",
+    "english_meaning": "Tsuruya (restaurant)",
+    "bengali_meaning": "তসুরুয়া (রেস্তোরাঁ)",
     "tags": [
       "vocabulary",
       "lesson-6"
@@ -629,60 +631,26 @@
   },
   {
     "id": "minna-006-v055",
-    "kanji": "毎日屋",
-    "furigana": "まいにちや",
-    "romaji": "mainichiya",
-    "english_meaning": "a fictitious supermarket",
-    "bengali_meaning": "a fictitious supermarket",
+    "furigana": "フランスや",
+    "romaji": "furansuya",
+    "english_meaning": "France-ya (supermarket)",
+    "bengali_meaning": "ফ্রান্স-ইয়া (সুপারমার্কেট)",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
+    ],
+    "kanji": "フランス屋"
   },
   {
     "id": "minna-006-v056",
-    "kanji": "映画",
-    "furigana": "えいが",
-    "romaji": "eiga",
-    "english_meaning": "movie",
-    "bengali_meaning": "movie",
+    "furigana": "まいにちや",
+    "romaji": "mainichiya",
+    "english_meaning": "Mainichiya (supermarket)",
+    "bengali_meaning": "মাইনিচিয়া (সুপারমার্কেট)",
     "tags": [
       "vocabulary",
       "lesson-6"
-    ]
-  },
-  {
-    "id": "minna-006-v057",
-    "furigana": "CD",
-    "romaji": "CD",
-    "english_meaning": "CD, compact disc",
-    "bengali_meaning": "CD, compact disc",
-    "tags": [
-      "vocabulary",
-      "lesson-6"
-    ]
-  },
-  {
-    "id": "minna-006-v058",
-    "furigana": "レストラン",
-    "romaji": "resutoran",
-    "english_meaning": "restaurant",
-    "bengali_meaning": "restaurant",
-    "tags": [
-      "vocabulary",
-      "lesson-6"
-    ]
-  },
-  {
-    "id": "minna-006-v059",
-    "kanji": "大阪城公園",
-    "furigana": "おおさかじょうこうえん",
-    "romaji": "ōsakajōkōen",
-    "english_meaning": "Osaka Castle park",
-    "bengali_meaning": "Osaka Castle park",
-    "tags": [
-      "vocabulary",
-      "lesson-6"
-    ]
+    ],
+    "kanji": "毎日屋"
   }
 ]

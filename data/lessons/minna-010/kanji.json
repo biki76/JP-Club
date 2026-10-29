@@ -1,69 +1,91 @@
 [
   {
     "character": "上",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "うえ",
+      "あ-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "above, up"
       ],
       "bn": [
-        "অর্থ"
+        "উপরে"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 3,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "下",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "さ-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "below, down"
       ],
       "bn": [
-        "অর্থ"
+        "নিচে"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 3,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "前",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "in front, before"
       ],
       "bn": [
-        "অর্থ"
+        "সামনে, আগে"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 9,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "後",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "あと",
+      "うし-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "behind, later"
       ],
       "bn": [
-        "অর্থ"
+        "পিছনে, পরে"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 9,
     "grade": 5,
     "jlpt": "N5"
   },
@@ -103,35 +125,46 @@
   },
   {
     "character": "中",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "なか",
+      "うち"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "in, inside, middle"
       ],
       "bn": [
-        "অর্থ"
+        "ভিতরে, মধ্য"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 4,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "外",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "そと",
+      "ほか"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "outside"
       ],
       "bn": [
-        "অর্থ"
+        "বাইরে"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 5,
     "grade": 5,
     "jlpt": "N5"
   },
@@ -154,18 +187,24 @@
   },
   {
     "character": "間",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "interval, space"
       ],
       "bn": [
-        "অর্থ"
+        "ব্যবধান, স্থান"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 12,
     "grade": 5,
     "jlpt": "N5"
   }

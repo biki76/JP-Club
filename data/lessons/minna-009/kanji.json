@@ -35,35 +35,47 @@
   },
   {
     "character": "上",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "うえ",
+      "あ-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "above, up"
       ],
       "bn": [
-        "অর্থ"
+        "উপরে"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 3,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "下",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "さ-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "below, down"
       ],
       "bn": [
-        "অর্থ"
+        "নিচে"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 3,
     "grade": 5,
     "jlpt": "N5"
   },
@@ -137,18 +149,23 @@
   },
   {
     "character": "分",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ブン",
+      "フン"
+    ],
+    "kunyomi": [
+      "わ-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "minute, understand"
       ],
       "bn": [
-        "অর্থ"
+        "মিনিট, বোঝা"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 4,
     "grade": 5,
     "jlpt": "N5"
   }

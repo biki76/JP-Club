@@ -1,56 +1,58 @@
 [
   {
     "id": "minna-022-v001",
-    "kanji": "着ます",
     "furigana": "きます",
     "romaji": "kimasu",
-    "english_meaning": "put on (a shirt, etc.)",
-    "bengali_meaning": "put on (a shirt, etc.)",
+    "english_meaning": "put on [shirt, etc.]",
+    "bengali_meaning": "[শার্ট] পরা",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "［シャツを〜］着ます"
   },
   {
     "id": "minna-022-v002",
     "furigana": "はきます",
     "romaji": "hakimasu",
-    "english_meaning": "put on (shoes, trousers, etc.)",
-    "bengali_meaning": "put on (shoes, trousers, etc.)",
+    "english_meaning": "put on [shoes, trousers]",
+    "bengali_meaning": "[জুতো / প্যান্ট] পরা",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "［靴を〜］履きます"
   },
   {
     "id": "minna-022-v003",
     "furigana": "かぶります",
     "romaji": "kaburimasu",
-    "english_meaning": "put on (a hat, etc.)",
-    "bengali_meaning": "put on (a hat, etc.)",
+    "english_meaning": "put on [a hat]",
+    "bengali_meaning": "[টুপি] পরা",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "［帽子を〜］被ります"
   },
   {
     "id": "minna-022-v004",
-    "kanji": "かけます［眼鏡を～］",
-    "furigana": "かけます［めがねを～］",
-    "romaji": "kakemasu [meganewo~]",
+    "furigana": "かけます",
+    "romaji": "",
     "english_meaning": "put on [glasses]",
-    "bengali_meaning": "put on [glasses]",
+    "bengali_meaning": "[চশমা] পরা",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "［眼鏡を〜］かけます"
   },
   {
     "id": "minna-022-v005",
-    "furigana": "します［ネクタイを～］",
-    "romaji": "shimasu [nekutaiwo~]",
+    "furigana": "［ネクタイを〜］します",
+    "romaji": "",
     "english_meaning": "put on [tie]",
-    "bengali_meaning": "put on [tie]",
+    "bengali_meaning": "[টাই] বাঁধা / পরা",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -58,33 +60,34 @@
   },
   {
     "id": "minna-022-v006",
-    "kanji": "生まれます",
     "furigana": "うまれます",
     "romaji": "umaremasu",
     "english_meaning": "be born",
-    "bengali_meaning": "be born",
+    "bengali_meaning": "জন্ম নেওয়া",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "生まれます"
   },
   {
     "id": "minna-022-v007",
     "furigana": "わたしたち",
     "romaji": "watashitachi",
     "english_meaning": "we",
-    "bengali_meaning": "we",
+    "bengali_meaning": "আমরা",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "私たち"
   },
   {
     "id": "minna-022-v008",
     "furigana": "コート",
     "romaji": "kōto",
     "english_meaning": "coat",
-    "bengali_meaning": "coat",
+    "bengali_meaning": "কোট",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -95,7 +98,7 @@
     "furigana": "セーター",
     "romaji": "sētā",
     "english_meaning": "sweater",
-    "bengali_meaning": "sweater",
+    "bengali_meaning": "সোয়েটার",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -106,7 +109,7 @@
     "furigana": "スーツ",
     "romaji": "sūtsu",
     "english_meaning": "suit",
-    "bengali_meaning": "suit",
+    "bengali_meaning": "স্যুট",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -114,34 +117,34 @@
   },
   {
     "id": "minna-022-v011",
-    "kanji": "帽子",
     "furigana": "ぼうし",
     "romaji": "bōshi",
     "english_meaning": "hat, cap",
-    "bengali_meaning": "hat, cap",
+    "bengali_meaning": "টুপি",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "帽子"
   },
   {
     "id": "minna-022-v012",
-    "kanji": "眼鏡",
     "furigana": "めがね",
     "romaji": "megane",
     "english_meaning": "glasses",
-    "bengali_meaning": "glasses",
+    "bengali_meaning": "চশমা",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "眼鏡"
   },
   {
     "id": "minna-022-v013",
     "furigana": "ケーキ",
     "romaji": "kēki",
     "english_meaning": "cake",
-    "bengali_meaning": "cake",
+    "bengali_meaning": "কেক",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -149,22 +152,22 @@
   },
   {
     "id": "minna-022-v014",
-    "kanji": "［お］弁当",
     "furigana": "［お］べんとう",
     "romaji": "[o] bentō",
     "english_meaning": "box lunch",
-    "bengali_meaning": "box lunch",
+    "bengali_meaning": "লাঞ্চ বক্স / টিফিন",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "［お］弁当"
   },
   {
     "id": "minna-022-v015",
     "furigana": "ロボット",
     "romaji": "robotto",
     "english_meaning": "robot",
-    "bengali_meaning": "robot",
+    "bengali_meaning": "রোবট",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -175,7 +178,7 @@
     "furigana": "ユーモア",
     "romaji": "yūmoa",
     "english_meaning": "humor",
-    "bengali_meaning": "humor",
+    "bengali_meaning": "রসবোধ / কৌতুক",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -183,22 +186,22 @@
   },
   {
     "id": "minna-022-v017",
-    "kanji": "都合",
     "furigana": "つごう",
     "romaji": "tsugō",
-    "english_meaning": "convenience",
-    "bengali_meaning": "convenience",
+    "english_meaning": "convenience, schedule",
+    "bengali_meaning": "সুবিধা / পরিস্থিতি",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "都合"
   },
   {
     "id": "minna-022-v018",
     "furigana": "よく",
     "romaji": "yoku",
     "english_meaning": "often",
-    "bengali_meaning": "often",
+    "bengali_meaning": "প্রায়ই / ঘন ঘন",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -209,7 +212,7 @@
     "furigana": "えーと",
     "romaji": "eeto",
     "english_meaning": "well, let me see",
-    "bengali_meaning": "well, let me see",
+    "bengali_meaning": "মানে... / দেখছি...",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -217,10 +220,10 @@
   },
   {
     "id": "minna-022-v020",
-    "furigana": "おめでとう［ございます］。",
-    "romaji": "omedetō [gozaimasu].",
-    "english_meaning": "Congratulations. (used on birthdays, at weddings, New Year's Day, etc.)",
-    "bengali_meaning": "Congratulations. (used on birthdays, at weddings, New Year's Day, etc.)",
+    "furigana": "おめでとう［ございます］",
+    "romaji": "",
+    "english_meaning": "congratulations",
+    "bengali_meaning": "অভিনন্দন",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -228,22 +231,22 @@
   },
   {
     "id": "minna-022-v021",
-    "kanji": "お探しですか。",
-    "furigana": "おさがしですか。",
-    "romaji": "osagashidesuka.",
-    "english_meaning": "Are you looking for ～?",
-    "bengali_meaning": "Are you looking for ～?",
+    "furigana": "おさがしですか",
+    "romaji": "",
+    "english_meaning": "are you looking for?",
+    "bengali_meaning": "খুঁজছেন কি?",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "お探しですか"
   },
   {
     "id": "minna-022-v022",
     "furigana": "では",
     "romaji": "dewa",
-    "english_meaning": "Well then,",
-    "bengali_meaning": "Well then,",
+    "english_meaning": "well then",
+    "bengali_meaning": "তাহলে / তবে",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -253,8 +256,8 @@
     "id": "minna-022-v023",
     "furigana": "こちら",
     "romaji": "kochira",
-    "english_meaning": "this (polite equivalent of これ)",
-    "bengali_meaning": "this (polite equivalent of これ)",
+    "english_meaning": "this (polite)",
+    "bengali_meaning": "এটি (বিনম্র)",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -262,22 +265,22 @@
   },
   {
     "id": "minna-022-v024",
-    "kanji": "家賃",
     "furigana": "やちん",
     "romaji": "yachin",
     "english_meaning": "rent",
-    "bengali_meaning": "rent",
+    "bengali_meaning": "বাড়ি ভাড়া",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "家賃"
   },
   {
     "id": "minna-022-v025",
     "furigana": "ダイニングキッチン",
     "romaji": "dainingukitchin",
-    "english_meaning": "kitchen with a dining area",
-    "bengali_meaning": "kitchen with a dining area",
+    "english_meaning": "kitchen with dining area",
+    "bengali_meaning": "ডাইনিং স্পেসসহ রান্নাঘর",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -285,46 +288,46 @@
   },
   {
     "id": "minna-022-v026",
-    "kanji": "和室",
     "furigana": "わしつ",
     "romaji": "washitsu",
     "english_meaning": "Japanese-style room",
-    "bengali_meaning": "Japanese-style room",
+    "bengali_meaning": "জাপানি ঘর",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "和室"
   },
   {
     "id": "minna-022-v027",
-    "kanji": "押し入れ",
     "furigana": "おしいれ",
     "romaji": "oshiire",
     "english_meaning": "Japanese-style closet",
-    "bengali_meaning": "Japanese-style closet",
+    "bengali_meaning": "জাপানি আলমারি",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "押し入れ"
   },
   {
     "id": "minna-022-v028",
-    "kanji": "布団",
     "furigana": "ふとん",
     "romaji": "futon",
-    "english_meaning": "Japanese-style mattress and quilt",
-    "bengali_meaning": "Japanese-style mattress and quilt",
+    "english_meaning": "Japanese mattress and quilt",
+    "bengali_meaning": "ফুতন (জাপানি তোশক-লেপ)",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
+    ],
+    "kanji": "布団"
   },
   {
     "id": "minna-022-v029",
     "furigana": "パリ",
     "romaji": "pari",
     "english_meaning": "Paris",
-    "bengali_meaning": "Paris",
+    "bengali_meaning": "প্যারিস",
     "tags": [
       "vocabulary",
       "lesson-22"
@@ -332,71 +335,14 @@
   },
   {
     "id": "minna-022-v030",
-    "kanji": "万里の 長城",
     "furigana": "ばんりの ちょうじょう",
     "romaji": "banrino chōjō",
-    "english_meaning": "the Great Wall of China",
-    "bengali_meaning": "the Great Wall of China",
+    "english_meaning": "Great Wall of China",
+    "bengali_meaning": "চীনের মহাপ্রাচীর",
     "tags": [
       "vocabulary",
       "lesson-22"
-    ]
-  },
-  {
-    "id": "minna-022-v031",
-    "furigana": "みんなの アンケート",
-    "romaji": "minnano ankēto",
-    "english_meaning": "title of a fictitious questionnaire",
-    "bengali_meaning": "title of a fictitious questionnaire",
-    "tags": [
-      "vocabulary",
-      "lesson-22"
-    ]
-  },
-  {
-    "id": "minna-022-v032",
-    "furigana": "うーん。",
-    "romaji": "uun.",
-    "english_meaning": "Let me see.",
-    "bengali_meaning": "Let me see.",
-    "tags": [
-      "vocabulary",
-      "lesson-22"
-    ]
-  },
-  {
-    "id": "minna-022-v033",
-    "furigana": "アパート",
-    "romaji": "apāto",
-    "english_meaning": "apartment",
-    "bengali_meaning": "apartment",
-    "tags": [
-      "vocabulary",
-      "lesson-22"
-    ]
-  },
-  {
-    "id": "minna-022-v034",
-    "kanji": "余暇開発センター",
-    "furigana": "よかかいはつセンター",
-    "romaji": "yokakaihatsu sentā",
-    "english_meaning": "Center for Developing Leisure Activities",
-    "bengali_meaning": "Center for Developing Leisure Activities",
-    "tags": [
-      "vocabulary",
-      "lesson-22"
-    ]
-  },
-  {
-    "id": "minna-022-v035",
-    "kanji": "レジャー白書",
-    "furigana": "レジャーはくしょ",
-    "romaji": "rejāhakusho",
-    "english_meaning": "white paper on leisure",
-    "bengali_meaning": "white paper on leisure",
-    "tags": [
-      "vocabulary",
-      "lesson-22"
-    ]
+    ],
+    "kanji": "万里の 長城"
   }
 ]

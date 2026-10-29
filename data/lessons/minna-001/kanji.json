@@ -18,103 +18,132 @@
   },
   {
     "character": "学",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "study, learning"
       ],
       "bn": [
-        "অর্থ"
+        "শেখা, অধ্যয়ন"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 8,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "生",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "life, birth"
       ],
       "bn": [
-        "অর্থ"
+        "জীবন, জন্ম"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 5,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "先",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "before, ahead"
       ],
       "bn": [
-        "অর্থ"
+        "আগে, সামনে"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 6,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "-か"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "day, sun, Japan"
       ],
       "bn": [
-        "অর্থ"
+        "দিন, সূর্য"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 4,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "book, origin"
       ],
       "bn": [
-        "অর্থ"
+        "বই, উৎস"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 5,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "人",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "person"
       ],
       "bn": [
-        "অর্থ"
+        "ব্যক্তি"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 2,
     "grade": 5,
     "jlpt": "N5"
   },

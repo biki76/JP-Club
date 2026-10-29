@@ -4,18 +4,19 @@
     "furigana": "わかります",
     "romaji": "wakarimasu",
     "english_meaning": "understand",
-    "bengali_meaning": "understand",
+    "bengali_meaning": "বোঝা / বুঝতে পারা",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "［〜が］分かります"
   },
   {
     "id": "minna-009-v002",
-    "furigana": "あります",
-    "romaji": "arimasu",
-    "english_meaning": "have",
-    "bengali_meaning": "have",
+    "furigana": "［〜が］あります",
+    "romaji": "",
+    "english_meaning": "have, possess",
+    "bengali_meaning": "থাকা / আছে",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -23,82 +24,82 @@
   },
   {
     "id": "minna-009-v003",
-    "kanji": "好き［な］",
     "furigana": "すき［な］",
     "romaji": "suki [na]",
-    "english_meaning": "like",
-    "bengali_meaning": "like",
+    "english_meaning": "like, fond of",
+    "bengali_meaning": "পছন্দ / প্রিয়",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "好き［な］"
   },
   {
     "id": "minna-009-v004",
-    "kanji": "嫌い［な］",
     "furigana": "きらい［な］",
     "romaji": "kirai [na]",
-    "english_meaning": "dislike",
-    "bengali_meaning": "dislike",
+    "english_meaning": "dislike, hate",
+    "bengali_meaning": "অপছন্দ",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "嫌い［な］"
   },
   {
     "id": "minna-009-v005",
-    "kanji": "上手［な］",
     "furigana": "じょうず［な］",
     "romaji": "jōzu [na]",
     "english_meaning": "good at",
-    "bengali_meaning": "good at",
+    "bengali_meaning": "দক্ষ / পারদর্শী",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "上手［な］"
   },
   {
     "id": "minna-009-v006",
-    "kanji": "下手［な］",
     "furigana": "へた［な］",
     "romaji": "heta [na]",
     "english_meaning": "poor at",
-    "bengali_meaning": "poor at",
+    "bengali_meaning": "অদক্ষ / কাঁচা",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "下手［な］"
   },
   {
     "id": "minna-009-v007",
-    "kanji": "飲み物",
     "furigana": "のみもの",
     "romaji": "nomimono",
-    "english_meaning": "drinks",
-    "bengali_meaning": "drinks",
+    "english_meaning": "drinks, beverages",
+    "bengali_meaning": "পানীয়",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "飲み物"
   },
   {
     "id": "minna-009-v008",
-    "kanji": "料理",
     "furigana": "りょうり",
     "romaji": "ryōri",
-    "english_meaning": "dish (cooked food), cooking (～を します : cook)",
-    "bengali_meaning": "dish (cooked food), cooking (～を します : cook)",
+    "english_meaning": "dish, cooking",
+    "bengali_meaning": "রান্না / খাবার",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "料理"
   },
   {
     "id": "minna-009-v009",
     "furigana": "スポーツ",
     "romaji": "supōtsu",
-    "english_meaning": "sport (～を します : play sports)",
-    "bengali_meaning": "sport (～を します : play sports)",
+    "english_meaning": "sports",
+    "bengali_meaning": "খেলাধুলা",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -106,22 +107,22 @@
   },
   {
     "id": "minna-009-v010",
-    "kanji": "野球",
     "furigana": "やきゅう",
     "romaji": "yakyū",
-    "english_meaning": "baseball (～を します : play baseball)",
-    "bengali_meaning": "baseball (～を します : play baseball)",
+    "english_meaning": "baseball",
+    "bengali_meaning": "বেসবল",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "野球"
   },
   {
     "id": "minna-009-v011",
     "furigana": "ダンス",
     "romaji": "dansu",
-    "english_meaning": "dance (～を します : dance)",
-    "bengali_meaning": "dance (～を します : dance)",
+    "english_meaning": "dance",
+    "bengali_meaning": "নাচ / নৃত্য",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -129,46 +130,46 @@
   },
   {
     "id": "minna-009-v012",
-    "kanji": "旅行",
     "furigana": "りょこう",
     "romaji": "ryokō",
-    "english_meaning": "trip, tour (～［を］します : travel, make a trip)",
-    "bengali_meaning": "trip, tour (～［を］します : travel, make a trip)",
+    "english_meaning": "trip, tour, travel",
+    "bengali_meaning": "ভ্রমণ",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "旅行"
   },
   {
     "id": "minna-009-v013",
-    "kanji": "音楽",
     "furigana": "おんがく",
     "romaji": "ongaku",
     "english_meaning": "music",
-    "bengali_meaning": "music",
+    "bengali_meaning": "গান / সংগীত",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "音楽"
   },
   {
     "id": "minna-009-v014",
-    "kanji": "歌",
     "furigana": "うた",
     "romaji": "uta",
     "english_meaning": "song",
-    "bengali_meaning": "song",
+    "bengali_meaning": "গান / গীতি",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "歌"
   },
   {
     "id": "minna-009-v015",
     "furigana": "クラシック",
     "romaji": "kurashikku",
     "english_meaning": "classical music",
-    "bengali_meaning": "classical music",
+    "bengali_meaning": "ক্লাসিক্যাল গান",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -179,7 +180,7 @@
     "furigana": "ジャズ",
     "romaji": "jazu",
     "english_meaning": "jazz",
-    "bengali_meaning": "jazz",
+    "bengali_meaning": "জ্যাজ সংগীত",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -190,7 +191,7 @@
     "furigana": "コンサート",
     "romaji": "konsāto",
     "english_meaning": "concert",
-    "bengali_meaning": "concert",
+    "bengali_meaning": "কনসার্ট",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -201,7 +202,7 @@
     "furigana": "カラオケ",
     "romaji": "karaoke",
     "english_meaning": "karaoke",
-    "bengali_meaning": "karaoke",
+    "bengali_meaning": "কারাওকে",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -209,58 +210,58 @@
   },
   {
     "id": "minna-009-v019",
-    "kanji": "歌舞伎",
     "furigana": "かぶき",
     "romaji": "kabuki",
-    "english_meaning": "Kabuki (traditional Japanese musical drama)",
-    "bengali_meaning": "Kabuki (traditional Japanese musical drama)",
+    "english_meaning": "Kabuki (traditional theater)",
+    "bengali_meaning": "কাবুকি (জাপানি নাটক)",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "歌舞伎"
   },
   {
     "id": "minna-009-v020",
-    "kanji": "絵",
     "furigana": "え",
     "romaji": "e",
     "english_meaning": "picture, drawing",
-    "bengali_meaning": "picture, drawing",
+    "bengali_meaning": "ছবি / চিত্রকর্ম",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "絵"
   },
   {
     "id": "minna-009-v021",
-    "kanji": "字",
     "furigana": "じ",
     "romaji": "ji",
     "english_meaning": "letter, character",
-    "bengali_meaning": "letter, character",
+    "bengali_meaning": "বর্ণ / অক্ষর",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "字"
   },
   {
     "id": "minna-009-v022",
-    "kanji": "漢字",
     "furigana": "かんじ",
     "romaji": "kanji",
-    "english_meaning": "Chinese characters",
-    "bengali_meaning": "Chinese characters",
+    "english_meaning": "Chinese character, kanji",
+    "bengali_meaning": "কাঞ্জি",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "漢字"
   },
   {
     "id": "minna-009-v023",
     "furigana": "ひらがな",
     "romaji": "hiragana",
     "english_meaning": "hiragana script",
-    "bengali_meaning": "hiragana script",
+    "bengali_meaning": "হিরাগানা",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -271,7 +272,7 @@
     "furigana": "かたかな",
     "romaji": "katakana",
     "english_meaning": "katakana script",
-    "bengali_meaning": "katakana script",
+    "bengali_meaning": "কাতাকানা",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -279,34 +280,34 @@
   },
   {
     "id": "minna-009-v025",
-    "kanji": "ローマ字",
     "furigana": "ローマじ",
     "romaji": "rōmaji",
-    "english_meaning": "the Roman alphabet",
-    "bengali_meaning": "the Roman alphabet",
+    "english_meaning": "Roman alphabet",
+    "bengali_meaning": "রোমান বর্ণমালা",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "ローマ字"
   },
   {
     "id": "minna-009-v026",
-    "kanji": "細かい お金",
     "furigana": "こまかい おかね",
     "romaji": "komakai okane",
-    "english_meaning": "small change",
-    "bengali_meaning": "small change",
+    "english_meaning": "small change, coins",
+    "bengali_meaning": "খুচরা পয়সা",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "細かい お金"
   },
   {
     "id": "minna-009-v027",
     "furigana": "チケット",
     "romaji": "chiketto",
     "english_meaning": "ticket",
-    "bengali_meaning": "ticket",
+    "bengali_meaning": "টিকিট",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -314,46 +315,46 @@
   },
   {
     "id": "minna-009-v028",
-    "kanji": "時間",
     "furigana": "じかん",
     "romaji": "jikan",
     "english_meaning": "time",
-    "bengali_meaning": "time",
+    "bengali_meaning": "সময়",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "時間"
   },
   {
     "id": "minna-009-v029",
-    "kanji": "用事",
     "furigana": "ようじ",
     "romaji": "yōji",
-    "english_meaning": "something to do, errand",
-    "bengali_meaning": "something to do, errand",
+    "english_meaning": "errand, business",
+    "bengali_meaning": "জরুরি কাজ",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "用事"
   },
   {
     "id": "minna-009-v030",
-    "kanji": "約束",
     "furigana": "やくそく",
     "romaji": "yakusoku",
-    "english_meaning": "appointment, promise (～［を］します : promise)",
-    "bengali_meaning": "appointment, promise (～［を］します : promise)",
+    "english_meaning": "appointment, promise",
+    "bengali_meaning": "ওয়াদা / অ্যাপয়েন্টমেন্ট",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "約束"
   },
   {
     "id": "minna-009-v031",
     "furigana": "アルバイト",
     "romaji": "arubaito",
-    "english_meaning": "side job (～を します : work part-time)",
-    "bengali_meaning": "side job (～を します : work part-time)",
+    "english_meaning": "part-time job",
+    "bengali_meaning": "খণ্ডকালীন কাজ / পার্ট-টাইম কাজ",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -361,92 +362,94 @@
   },
   {
     "id": "minna-009-v032",
-    "kanji": "ご主人",
     "furigana": "ごしゅじん",
     "romaji": "goshujin",
-    "english_meaning": "(someone else's) husband",
-    "bengali_meaning": "(someone else's) husband",
+    "english_meaning": "someone else's husband",
+    "bengali_meaning": "(অন্যের) স্বামী",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "ご主人"
   },
   {
     "id": "minna-009-v033",
-    "kanji": "夫／主人",
-    "furigana": "おっと／しゅじん",
-    "romaji": "otto/shujin",
-    "english_meaning": "(my) husband",
-    "bengali_meaning": "(my) husband",
+    "furigana": "おっと",
+    "romaji": "",
+    "english_meaning": "my husband",
+    "bengali_meaning": "(আমার) স্বামী",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "夫"
   },
   {
     "id": "minna-009-v034",
-    "kanji": "奥さん",
-    "furigana": "おくさん",
-    "romaji": "okusan",
-    "english_meaning": "(someone else's) wife",
-    "bengali_meaning": "(someone else's) wife",
+    "furigana": "しゅじん",
+    "romaji": "",
+    "english_meaning": "my husband",
+    "bengali_meaning": "(আমার) স্বামী",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "主人"
   },
   {
     "id": "minna-009-v035",
-    "kanji": "妻／家内",
-    "furigana": "つま／かない",
-    "romaji": "tsuma/kanai",
-    "english_meaning": "(my) wife",
-    "bengali_meaning": "(my) wife",
+    "furigana": "おくさん",
+    "romaji": "okusan",
+    "english_meaning": "someone else's wife",
+    "bengali_meaning": "(অন্যের) স্ত্রী",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "奥さん"
   },
   {
     "id": "minna-009-v036",
-    "kanji": "子ども",
-    "furigana": "こども",
-    "romaji": "kodomo",
-    "english_meaning": "child",
-    "bengali_meaning": "child",
+    "furigana": "つま",
+    "romaji": "",
+    "english_meaning": "my wife",
+    "bengali_meaning": "(আমার) স্ত্রী",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "妻"
   },
   {
     "id": "minna-009-v037",
-    "furigana": "よく",
-    "romaji": "yoku",
-    "english_meaning": "well, much",
-    "bengali_meaning": "well, much",
+    "furigana": "かない",
+    "romaji": "",
+    "english_meaning": "my wife",
+    "bengali_meaning": "(আমার) স্ত্রী",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "家内"
   },
   {
     "id": "minna-009-v038",
-    "furigana": "だいたい",
-    "romaji": "daitai",
-    "english_meaning": "mostly, roughly",
-    "bengali_meaning": "mostly, roughly",
+    "furigana": "こども",
+    "romaji": "kodomo",
+    "english_meaning": "child",
+    "bengali_meaning": "বাচ্চা / সন্তান",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "子ども"
   },
   {
     "id": "minna-009-v039",
-    "furigana": "たくさん",
-    "romaji": "takusan",
-    "english_meaning": "many, much",
-    "bengali_meaning": "many, much",
+    "furigana": "よく",
+    "romaji": "yoku",
+    "english_meaning": "well, much",
+    "bengali_meaning": "ভালোভাবে / প্রায়ই",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -454,11 +457,10 @@
   },
   {
     "id": "minna-009-v040",
-    "kanji": "少し",
-    "furigana": "すこし",
-    "romaji": "sukoshi",
-    "english_meaning": "a little, a few",
-    "bengali_meaning": "a little, a few",
+    "furigana": "だいたい",
+    "romaji": "daitai",
+    "english_meaning": "mostly, roughly",
+    "bengali_meaning": "মোটামুটি",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -466,11 +468,10 @@
   },
   {
     "id": "minna-009-v041",
-    "kanji": "全然",
-    "furigana": "ぜんぜん",
-    "romaji": "zenzen",
-    "english_meaning": "not at all (used with negatives)",
-    "bengali_meaning": "not at all (used with negatives)",
+    "furigana": "たくさん",
+    "romaji": "takusan",
+    "english_meaning": "many, much",
+    "bengali_meaning": "অনেক / প্রচুর",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -478,56 +479,58 @@
   },
   {
     "id": "minna-009-v042",
-    "kanji": "早く、速く",
-    "furigana": "はやく",
-    "romaji": "hayaku",
-    "english_meaning": "early, quickly, fast",
-    "bengali_meaning": "early, quickly, fast",
+    "furigana": "すこし",
+    "romaji": "sukoshi",
+    "english_meaning": "a little, few",
+    "bengali_meaning": "অল্প / সামান্য",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "少し"
   },
   {
     "id": "minna-009-v043",
-    "furigana": "～から",
-    "romaji": "~kara",
-    "english_meaning": "because ～",
-    "bengali_meaning": "because ～",
+    "furigana": "ぜんぜん",
+    "romaji": "zenzen",
+    "english_meaning": "not at all (with neg.)",
+    "bengali_meaning": "একদমই না",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "全然"
   },
   {
     "id": "minna-009-v044",
-    "furigana": "どうして",
-    "romaji": "dōshite",
-    "english_meaning": "why",
-    "bengali_meaning": "why",
+    "furigana": "はやく",
+    "romaji": "hayaku",
+    "english_meaning": "early",
+    "bengali_meaning": "তাড়াতাড়ি / জলদি",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "早く"
   },
   {
     "id": "minna-009-v045",
-    "kanji": "貸して ください。",
-    "furigana": "かして ください。",
-    "romaji": "kashite kudasai.",
-    "english_meaning": "Please lend (it to me)",
-    "bengali_meaning": "Please lend (it to me)",
+    "furigana": "はやく",
+    "romaji": "hayaku",
+    "english_meaning": "fast, quickly",
+    "bengali_meaning": "দ্রুত",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "速く"
   },
   {
     "id": "minna-009-v046",
-    "furigana": "いいですよ。",
-    "romaji": "iidesuyo.",
-    "english_meaning": "Sure./Certainly.",
-    "bengali_meaning": "Sure./Certainly.",
+    "furigana": "〜から",
+    "romaji": "",
+    "english_meaning": "because ",
+    "bengali_meaning": " কারণ / জন্য",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -535,11 +538,10 @@
   },
   {
     "id": "minna-009-v047",
-    "kanji": "残念です［が］",
-    "furigana": "ざんねんです［が］",
-    "romaji": "zannendesu [ga]",
-    "english_meaning": "I'm sorry [, but], unfortunately",
-    "bengali_meaning": "I'm sorry [, but], unfortunately",
+    "furigana": "どうして",
+    "romaji": "dōshite",
+    "english_meaning": "why",
+    "bengali_meaning": "কেন",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -547,21 +549,22 @@
   },
   {
     "id": "minna-009-v048",
-    "furigana": "ああ",
-    "romaji": "ā",
-    "english_meaning": "oh",
-    "bengali_meaning": "oh",
+    "furigana": "かして ください",
+    "romaji": "",
+    "english_meaning": "please lend (it)",
+    "bengali_meaning": "দয়া করে ধার দিন",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "貸して ください"
   },
   {
     "id": "minna-009-v049",
-    "furigana": "いっしょに いかがですか。",
-    "romaji": "isshoni ikagadesuka.",
-    "english_meaning": "Won't you join me (us)?",
-    "bengali_meaning": "Won't you join me (us)?",
+    "furigana": "いいですよ",
+    "romaji": "",
+    "english_meaning": "sure, certainly",
+    "bengali_meaning": "হ্যাঁ, অবশ্যই",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -569,21 +572,22 @@
   },
   {
     "id": "minna-009-v050",
-    "furigana": "［～は］ちょっと……。",
-    "romaji": "[~wa] chotto…….",
-    "english_meaning": "[～] is a bit difficult. (a euphemism used when declining an invitation)",
-    "bengali_meaning": "[～] is a bit difficult. (a euphemism used when declining an invitation)",
+    "furigana": "ざんねんです［が］",
+    "romaji": "zannendesu [ga]",
+    "english_meaning": "I'm sorry [, but]",
+    "bengali_meaning": "দুঃখজনক [, তবে]",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
+    ],
+    "kanji": "残念です［が］"
   },
   {
     "id": "minna-009-v051",
-    "furigana": "だめですか。",
-    "romaji": "damedesuka.",
-    "english_meaning": "So you can't (come)?",
-    "bengali_meaning": "So you can't (come)?",
+    "furigana": "ああ",
+    "romaji": "ā",
+    "english_meaning": "oh",
+    "bengali_meaning": "আহ্ / ওহ্",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -591,11 +595,10 @@
   },
   {
     "id": "minna-009-v052",
-    "kanji": "また 今度 お願いします。",
-    "furigana": "また こんど おねがいします。",
-    "romaji": "mata kondo onegaishimasu.",
-    "english_meaning": "Please ask me again some other time. (used when refusing an invitation indirectly, considering someone's feelings)",
-    "bengali_meaning": "Please ask me again some other time. (used when refusing an invitation indirectly, considering someone's feelings)",
+    "furigana": "いっしょに いかがですか",
+    "romaji": "",
+    "english_meaning": "won't you join me?",
+    "bengali_meaning": "একসাথে হলে কেমন হয়?",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -603,11 +606,10 @@
   },
   {
     "id": "minna-009-v053",
-    "kanji": "残念です［ね］。",
-    "furigana": "ざんねんです［ね］。",
-    "romaji": "zannendesu [ne].",
-    "english_meaning": "I'm sorry (to hear that)./That's a pity.",
-    "bengali_meaning": "I'm sorry (to hear that)./That's a pity.",
+    "furigana": "［〜は］ちょっと……",
+    "romaji": "",
+    "english_meaning": "[] is a bit difficult",
+    "bengali_meaning": "[] একটু সমস্যা হবে...",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -615,10 +617,10 @@
   },
   {
     "id": "minna-009-v054",
-    "furigana": "すみません。",
-    "romaji": "sumimasen.",
-    "english_meaning": "I am sorry.",
-    "bengali_meaning": "I am sorry.",
+    "furigana": "だめですか",
+    "romaji": "",
+    "english_meaning": "so you can't come?",
+    "bengali_meaning": "হবে না তাহলে?",
     "tags": [
       "vocabulary",
       "lesson-9"
@@ -626,25 +628,14 @@
   },
   {
     "id": "minna-009-v055",
-    "furigana": "もしもし",
-    "romaji": "moshimoshi",
-    "english_meaning": "hello (used on the phone)",
-    "bengali_meaning": "hello (used on the phone)",
+    "furigana": "また こんど おねがいします",
+    "romaji": "",
+    "english_meaning": "ask me another time",
+    "bengali_meaning": "অন্য কোনো দিন দেখা যাবে",
     "tags": [
       "vocabulary",
       "lesson-9"
-    ]
-  },
-  {
-    "id": "minna-009-v056",
-    "kanji": "小沢征爾",
-    "furigana": "おざわせいじ",
-    "romaji": "ozawaseiji",
-    "english_meaning": "famous Japanese conductor (1935-)",
-    "bengali_meaning": "famous Japanese conductor (1935-)",
-    "tags": [
-      "vocabulary",
-      "lesson-9"
-    ]
+    ],
+    "kanji": "また 今度 お願いします"
   }
 ]

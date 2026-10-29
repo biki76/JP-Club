@@ -1,4 +1,152 @@
 [
-{"id":"temabetsu-adv-01","topic":"しる","title":"初めての雪","text_jp":"初めての雪は、静かに降り積もった。","text_en":"The first snow fell quietly and piled up.","text_bn":"প্রথম তুষার শান্তভাবে পড়ে জমে গেল।","grammar_notes":["～た (past)"]},
-{"id":"temabetsu-adv-02","topic":"いたわる","title":"春の一日","text_jp":"春の一日、彼女は公園で本を読んだ。","text_en":"On a spring day, she read a book in the park.","text_bn":"বসন্তের একদিনে সে পার্কে বই পড়ল।","grammar_notes":["～で (location)"]}
+  {
+    "id": "temabetsu-advanced-01",
+    "topic": "しる",
+    "title": "初めての雪",
+    "text_jp": "初めての雪について書かれた文章です。",
+    "text_en": "A short passage about 初めての雪.",
+    "text_bn": "প্রথম তুষার সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-02",
+    "topic": "いたわる",
+    "title": "春の一日",
+    "text_jp": "春の一日について書かれた文章です。",
+    "text_en": "A short passage about 春の一日.",
+    "text_bn": "বসন্তের একদিন সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-03",
+    "topic": "ならう",
+    "title": "そば屋の先生",
+    "text_jp": "そば屋の先生について書かれた文章です。",
+    "text_en": "A short passage about そば屋の先生.",
+    "text_bn": "সোবা বিক্রেতা শিক্ষক সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-04",
+    "topic": "よみとる",
+    "title": "記事の裏側",
+    "text_jp": "記事の裏側について書かれた文章です。",
+    "text_en": "A short passage about 記事の裏側.",
+    "text_bn": "নিবন্ধের পিছনের দিক সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-05",
+    "topic": "さばく",
+    "title": "裁判員のもやもや",
+    "text_jp": "裁判員のもやもやについて書かれた文章です。",
+    "text_en": "A short passage about 裁判員のもやもや.",
+    "text_bn": "জুরি সদস্যের দ্বিধা সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-06",
+    "topic": "うやまう",
+    "title": "ガイドさんの宗教",
+    "text_jp": "ガイドさんの宗教について書かれた文章です。",
+    "text_en": "A short passage about ガイドさんの宗教.",
+    "text_bn": "গাইডের ধর্ম সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-07",
+    "topic": "ふせぐ",
+    "title": "並ぶ文化",
+    "text_jp": "並ぶ文化について書かれた文章です。",
+    "text_en": "A short passage about 並ぶ文化.",
+    "text_bn": "সারিবদ্ধ সংস্কৃতি সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-08",
+    "topic": "もてなす",
+    "title": "ローソクの島",
+    "text_jp": "ローソクの島について書かれた文章です。",
+    "text_en": "A short passage about ローソクの島.",
+    "text_bn": "মোমবাতির দ্বীপ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-09",
+    "topic": "よびかける",
+    "title": "一茶の目",
+    "text_jp": "一茶の目について書かれた文章です。",
+    "text_en": "A short passage about 一茶の目.",
+    "text_bn": "ইসার চোখ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-10",
+    "topic": "えらぶ",
+    "title": "自らの選択",
+    "text_jp": "自らの選択について書かれた文章です。",
+    "text_en": "A short passage about 自らの選択.",
+    "text_bn": "নিজের পছন্দ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-11",
+    "topic": "いかす",
+    "title": "もったいない話",
+    "text_jp": "もったいない話について書かれた文章です。",
+    "text_en": "A short passage about もったいない話.",
+    "text_bn": "অপচয়ের গল্প সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-12",
+    "topic": "つなぐ",
+    "title": "折り鶴",
+    "text_jp": "折り鶴について書かれた文章です。",
+    "text_en": "A short passage about 折り鶴.",
+    "text_bn": "অরিগামি সারস সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-13",
+    "topic": "たのしむ",
+    "title": "なりわい",
+    "text_jp": "なりわいについて書かれた文章です。",
+    "text_en": "A short passage about なりわい.",
+    "text_bn": "জীবিকা সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-14",
+    "topic": "きたえる",
+    "title": "健康な社会",
+    "text_jp": "健康な社会について書かれた文章です。",
+    "text_en": "A short passage about 健康な社会.",
+    "text_bn": "সুস্থ সমাজ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  },
+  {
+    "id": "temabetsu-advanced-15",
+    "topic": "いきる",
+    "title": "ひとつの地球",
+    "text_jp": "ひとつの地球について書かれた文章です。",
+    "text_en": "A short passage about ひとつの地球.",
+    "text_bn": "একটি পৃথিবী সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Advanced"
+  }
 ]

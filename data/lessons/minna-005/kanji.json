@@ -1,35 +1,44 @@
 [
   {
     "character": "行",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "コウ",
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "い-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "go"
       ],
       "bn": [
-        "অর্থ"
+        "যাওয়া"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 6,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "来",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ライ"
+    ],
+    "kunyomi": [
+      "く-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "come"
       ],
       "bn": [
-        "অর্থ"
+        "আসা"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 7,
     "grade": 5,
     "jlpt": "N5"
   },
@@ -52,18 +61,22 @@
   },
   {
     "character": "学",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな-"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "study, learning"
       ],
       "bn": [
-        "অর্থ"
+        "শেখা, অধ্যয়ন"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 8,
     "grade": 5,
     "jlpt": "N5"
   },

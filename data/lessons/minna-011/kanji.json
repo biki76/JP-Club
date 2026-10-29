@@ -1,222 +1,283 @@
 [
   {
     "character": "一",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひと-",
+      "ひと(つ)"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "one"
       ],
       "bn": [
-        "অর্থ"
+        "এক"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 1,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "二",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ニ"
+    ],
+    "kunyomi": [
+      "ふた-",
+      "ふた(つ)"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "two"
       ],
       "bn": [
-        "অর্থ"
+        "দুই"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 2,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "三",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "み-",
+      "み(つ)"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "three"
       ],
       "bn": [
-        "অর্থ"
+        "তিন"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 3,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "四",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ-",
+      "よ(つ)"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "four"
       ],
       "bn": [
-        "অর্থ"
+        "চার"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 5,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "五",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ-",
+      "いつ(つ)"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "five"
       ],
       "bn": [
-        "অর্থ"
+        "পাঁচ"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 4,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "六",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ロク"
+    ],
+    "kunyomi": [
+      "む-",
+      "む(つ)"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "six"
       ],
       "bn": [
-        "অর্থ"
+        "ছয়"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 4,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "七",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな-",
+      "なな(つ)"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "seven"
       ],
       "bn": [
-        "অর্থ"
+        "সাত"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 2,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "八",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ハチ"
+    ],
+    "kunyomi": [
+      "や-",
+      "や(つ)"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "eight"
       ],
       "bn": [
-        "অর্থ"
+        "আট"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 2,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "九",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの-",
+      "ここの(つ)"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "nine"
       ],
       "bn": [
-        "অর্থ"
+        "নয়"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 2,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "十",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "ジュウ",
+      "ジッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "ten"
       ],
       "bn": [
-        "অর্থ"
+        "দশ"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 2,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "百",
-    "onyomi": [],
+    "onyomi": [
+      "ヒャク"
+    ],
     "kunyomi": [],
     "meanings": {
       "en": [
-        "Meaning"
+        "hundred"
       ],
       "bn": [
-        "অর্থ"
+        "শত"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 6,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "千",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "thousand"
       ],
       "bn": [
-        "অর্থ"
+        "হাজার"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 3,
     "grade": 5,
     "jlpt": "N5"
   },
   {
     "character": "万",
-    "onyomi": [],
+    "onyomi": [
+      "マン"
+    ],
     "kunyomi": [],
     "meanings": {
       "en": [
-        "Meaning"
+        "ten thousand"
       ],
       "bn": [
-        "অর্থ"
+        "দশ হাজার"
       ]
     },
     "radicals": [],
-    "strokes": 0,
+    "strokes": 3,
     "grade": 5,
     "jlpt": "N5"
   }

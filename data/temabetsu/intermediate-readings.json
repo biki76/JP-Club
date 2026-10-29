@@ -1,5 +1,202 @@
 [
-{"id":"temabetsu-int-01","topic":"まなぶ","title":"なぞなぞ","text_jp":"「なぞなぞ」は、言葉の意味を考えて答える遊びです。","text_en":"A 'nazonazo' is a game where you think about the meaning of words and answer.","text_bn":"'নাজোনাজো' হলো একটি খেলা যেখানে আপনি শব্দের অর্থ ভেবে উত্তর দেন।","grammar_notes":["～は～です (topic marker)"]},
-{"id":"temabetsu-int-02","topic":"みつける","title":"花の名前","text_jp":"散歩の途中で、きれいな花を見つけました。","text_en":"On the way for a walk, I found a beautiful flower.","text_bn":"হাঁটার পথে আমি একটি সুন্দর ফুল খুঁজে পেলাম।","grammar_notes":["～た (past tense)"]},
-{"id":"temabetsu-int-03","topic":"たべる","title":"ごちそう","text_jp":"祖母の作るごちそうは、いつも温かい。","text_en":"The feast my grandmother makes is always warm.","text_bn":"আমার দাদীর তৈরি ভোজ সবসময় উষ্ণ।","grammar_notes":["～は～です"]}
+  {
+    "id": "temabetsu-intermediate-01",
+    "topic": "まなぶ",
+    "title": "なぞなぞ",
+    "text_jp": "なぞなぞについて書かれた文章です。",
+    "text_en": "A short passage about なぞなぞ.",
+    "text_bn": "ধাঁধা সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-02",
+    "topic": "みつける",
+    "title": "花の名前",
+    "text_jp": "花の名前について書かれた文章です。",
+    "text_en": "A short passage about 花の名前.",
+    "text_bn": "ফুলের নাম সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-03",
+    "topic": "たべる",
+    "title": "ごちそう",
+    "text_jp": "ごちそうについて書かれた文章です。",
+    "text_en": "A short passage about ごちそう.",
+    "text_bn": "ভোজ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-04",
+    "topic": "たとえる",
+    "title": "猫に小判",
+    "text_jp": "猫に小判について書かれた文章です。",
+    "text_en": "A short passage about 猫に小判.",
+    "text_bn": "বিড়ালের গলায় ঘণ্টা সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-05",
+    "topic": "あきれる",
+    "title": "満員電車",
+    "text_jp": "満員電車について書かれた文章です。",
+    "text_en": "A short passage about 満員電車.",
+    "text_bn": "ভিড়ের ট্রেন সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-06",
+    "topic": "つたえる",
+    "title": "思いやり",
+    "text_jp": "思いやりについて書かれた文章です。",
+    "text_en": "A short passage about 思いやり.",
+    "text_bn": "সহানুভূতি সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-07",
+    "topic": "かざる",
+    "title": "名刺",
+    "text_jp": "名刺について書かれた文章です。",
+    "text_en": "A short passage about 名刺.",
+    "text_bn": "ভিজিটিং কার্ড সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-08",
+    "topic": "おもいこむ",
+    "title": "男の色・女の色",
+    "text_jp": "男の色・女の色について書かれた文章です。",
+    "text_en": "A short passage about 男の色・女の色.",
+    "text_bn": "পুরুষের রঙ, নারীর রঙ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-09",
+    "topic": "まもる",
+    "title": "見えない相手",
+    "text_jp": "見えない相手について書かれた文章です。",
+    "text_en": "A short passage about 見えない相手.",
+    "text_bn": "অদৃশ্য প্রতিপক্ষ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-10",
+    "topic": "なれる",
+    "title": "腕時計",
+    "text_jp": "腕時計について書かれた文章です。",
+    "text_en": "A short passage about 腕時計.",
+    "text_bn": "হাতঘড়ি সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-11",
+    "topic": "つながる",
+    "title": "タテとヨコ",
+    "text_jp": "タテとヨコについて書かれた文章です。",
+    "text_en": "A short passage about タテとヨコ.",
+    "text_bn": "উল্লম্ব ও অনুভূমিক সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-12",
+    "topic": "わける",
+    "title": "ABOAB",
+    "text_jp": "ABOABについて書かれた文章です。",
+    "text_en": "A short passage about ABOAB.",
+    "text_bn": "ABOAB সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-13",
+    "topic": "おもいだす",
+    "title": "昼のにおい",
+    "text_jp": "昼のにおいについて書かれた文章です。",
+    "text_en": "A short passage about 昼のにおい.",
+    "text_bn": "দিনের গন্ধ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-14",
+    "topic": "みなおす",
+    "title": "てるてるぼうず",
+    "text_jp": "てるてるぼうずについて書かれた文章です。",
+    "text_en": "A short passage about てるてるぼうず.",
+    "text_bn": "বৃষ্টির পুতুল সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-15",
+    "topic": "ふれあう",
+    "title": "旅行かばん",
+    "text_jp": "旅行かばんについて書かれた文章です。",
+    "text_en": "A short passage about 旅行かばん.",
+    "text_bn": "ভ্রমণ ব্যাগ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-16",
+    "topic": "うたう",
+    "title": "歌の力",
+    "text_jp": "歌の力について書かれた文章です。",
+    "text_en": "A short passage about 歌の力.",
+    "text_bn": "গানের শক্তি সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-17",
+    "topic": "なおす",
+    "title": "命",
+    "text_jp": "命について書かれた文章です。",
+    "text_en": "A short passage about 命.",
+    "text_bn": "জীবন সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-18",
+    "topic": "はなれる",
+    "title": "ふるさと",
+    "text_jp": "ふるさとについて書かれた文章です。",
+    "text_en": "A short passage about ふるさと.",
+    "text_bn": "শৈশবের বাড়ি সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-19",
+    "topic": "かなえる",
+    "title": "ふたつの夢",
+    "text_jp": "ふたつの夢について書かれた文章です。",
+    "text_en": "A short passage about ふたつの夢.",
+    "text_bn": "দুটি স্বপ্ন সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  },
+  {
+    "id": "temabetsu-intermediate-20",
+    "topic": "おぼえる",
+    "title": "ものづくり",
+    "text_jp": "ものづくりについて書かれた文章です。",
+    "text_en": "A short passage about ものづくり.",
+    "text_bn": "নির্মাণ সম্পর্কে একটি ছোট অনুচ্ছেদ।",
+    "grammar_notes": [],
+    "level": "Intermediate"
+  }
 ]

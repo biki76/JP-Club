@@ -1,10 +1,10 @@
 [
   {
     "id": "minna-010-v001",
-    "furigana": "あります",
-    "romaji": "arimasu",
-    "english_meaning": "exist, be (referring to inanimate things)",
-    "bengali_meaning": "exist, be (referring to inanimate things)",
+    "furigana": "［〜が］あります",
+    "romaji": "",
+    "english_meaning": "exist, be (inanimate)",
+    "bengali_meaning": "থাকা / আছে (জড়বস্তু)",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -12,10 +12,10 @@
   },
   {
     "id": "minna-010-v002",
-    "furigana": "います",
-    "romaji": "imasu",
-    "english_meaning": "exist, be (referring to animate things)",
-    "bengali_meaning": "exist, be (referring to animate things)",
+    "furigana": "［〜が］います",
+    "romaji": "",
+    "english_meaning": "exist, be (animate)",
+    "bengali_meaning": "থাকা / আছে (প্রাণী)",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -26,7 +26,7 @@
     "furigana": "いろいろ［な］",
     "romaji": "iroiro [na]",
     "english_meaning": "various",
-    "bengali_meaning": "various",
+    "bengali_meaning": "বিভিন্ন / নানান",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -34,82 +34,82 @@
   },
   {
     "id": "minna-010-v004",
-    "kanji": "男の 人",
-    "furigana": "おとこの ひと",
-    "romaji": "otokono hito",
+    "furigana": "おとこのひと",
+    "romaji": "",
     "english_meaning": "man",
-    "bengali_meaning": "man",
+    "bengali_meaning": "পুরুষ / লোক",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "男の人"
   },
   {
     "id": "minna-010-v005",
-    "kanji": "女の 人",
-    "furigana": "おんなの ひと",
-    "romaji": "onnano hito",
+    "furigana": "おんなのひと",
+    "romaji": "",
     "english_meaning": "woman",
-    "bengali_meaning": "woman",
+    "bengali_meaning": "মহিলা / নারী",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "女の人"
   },
   {
     "id": "minna-010-v006",
-    "kanji": "男の 子",
-    "furigana": "おとこの こ",
-    "romaji": "otokono ko",
+    "furigana": "おとこのこ",
+    "romaji": "",
     "english_meaning": "boy",
-    "bengali_meaning": "boy",
+    "bengali_meaning": "ছেলে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "男の子"
   },
   {
     "id": "minna-010-v007",
-    "kanji": "女の 子",
-    "furigana": "おんなの こ",
-    "romaji": "onnano ko",
+    "furigana": "おんなのこ",
+    "romaji": "",
     "english_meaning": "girl",
-    "bengali_meaning": "girl",
+    "bengali_meaning": "মেয়ে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "女の子"
   },
   {
     "id": "minna-010-v008",
-    "kanji": "犬",
     "furigana": "いぬ",
     "romaji": "inu",
     "english_meaning": "dog",
-    "bengali_meaning": "dog",
+    "bengali_meaning": "কুকুর",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "犬"
   },
   {
     "id": "minna-010-v009",
-    "kanji": "猫",
     "furigana": "ねこ",
     "romaji": "neko",
     "english_meaning": "cat",
-    "bengali_meaning": "cat",
+    "bengali_meaning": "বিড়াল",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "猫"
   },
   {
     "id": "minna-010-v010",
     "furigana": "パンダ",
     "romaji": "panda",
     "english_meaning": "panda",
-    "bengali_meaning": "panda",
+    "bengali_meaning": "পান্ডা",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -117,70 +117,70 @@
   },
   {
     "id": "minna-010-v011",
-    "kanji": "象",
     "furigana": "ぞう",
     "romaji": "zō",
     "english_meaning": "elephant",
-    "bengali_meaning": "elephant",
+    "bengali_meaning": "হাতি",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "象"
   },
   {
     "id": "minna-010-v012",
-    "kanji": "木",
     "furigana": "き",
     "romaji": "ki",
     "english_meaning": "tree, wood",
-    "bengali_meaning": "tree, wood",
+    "bengali_meaning": "গাছ / কাঠ",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "木"
   },
   {
     "id": "minna-010-v013",
-    "kanji": "物",
     "furigana": "もの",
     "romaji": "mono",
     "english_meaning": "thing",
-    "bengali_meaning": "thing",
+    "bengali_meaning": "জিনিস / বস্তু",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "物"
   },
   {
     "id": "minna-010-v014",
-    "kanji": "電池",
     "furigana": "でんち",
     "romaji": "denchi",
     "english_meaning": "battery",
-    "bengali_meaning": "battery",
+    "bengali_meaning": "ব্যাটারি",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "電池"
   },
   {
     "id": "minna-010-v015",
-    "kanji": "箱",
     "furigana": "はこ",
     "romaji": "hako",
     "english_meaning": "box",
-    "bengali_meaning": "box",
+    "bengali_meaning": "বাক্স",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "箱"
   },
   {
     "id": "minna-010-v016",
     "furigana": "スイッチ",
     "romaji": "suitchi",
     "english_meaning": "switch",
-    "bengali_meaning": "switch",
+    "bengali_meaning": "সুইচ",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -188,22 +188,22 @@
   },
   {
     "id": "minna-010-v017",
-    "kanji": "冷蔵庫",
     "furigana": "れいぞうこ",
     "romaji": "reizōko",
     "english_meaning": "refrigerator",
-    "bengali_meaning": "refrigerator",
+    "bengali_meaning": "রেফ্রিজারেটর / ফ্রিজ",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "冷蔵庫"
   },
   {
     "id": "minna-010-v018",
     "furigana": "テーブル",
     "romaji": "tēburu",
     "english_meaning": "table",
-    "bengali_meaning": "table",
+    "bengali_meaning": "টেবিল",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -214,7 +214,7 @@
     "furigana": "ベッド",
     "romaji": "beddo",
     "english_meaning": "bed",
-    "bengali_meaning": "bed",
+    "bengali_meaning": "বিছানা / খাট",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -222,22 +222,22 @@
   },
   {
     "id": "minna-010-v020",
-    "kanji": "棚",
     "furigana": "たな",
     "romaji": "tana",
     "english_meaning": "shelf",
-    "bengali_meaning": "shelf",
+    "bengali_meaning": "তাক / শেলফ",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "棚"
   },
   {
     "id": "minna-010-v021",
     "furigana": "ドア",
     "romaji": "doa",
     "english_meaning": "door",
-    "bengali_meaning": "door",
+    "bengali_meaning": "দরজা",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -245,22 +245,22 @@
   },
   {
     "id": "minna-010-v022",
-    "kanji": "窓",
     "furigana": "まど",
     "romaji": "mado",
     "english_meaning": "window",
-    "bengali_meaning": "window",
+    "bengali_meaning": "জানালা",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "窓"
   },
   {
     "id": "minna-010-v023",
     "furigana": "ポスト",
     "romaji": "posuto",
-    "english_meaning": "mailbox, postbox",
-    "bengali_meaning": "mailbox, postbox",
+    "english_meaning": "postbox, mailbox",
+    "bengali_meaning": "লেটারবক্স / পোস্টবক্স",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -271,7 +271,7 @@
     "furigana": "ビル",
     "romaji": "biru",
     "english_meaning": "building",
-    "bengali_meaning": "building",
+    "bengali_meaning": "দালান / ভবন",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -281,8 +281,8 @@
     "id": "minna-010-v025",
     "furigana": "ATM",
     "romaji": "ATM",
-    "english_meaning": "cash machine, ATM (Automatic Teller Machine)",
-    "bengali_meaning": "cash machine, ATM (Automatic Teller Machine)",
+    "english_meaning": "cash machine, ATM",
+    "bengali_meaning": "এটিএম বুথ",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -293,7 +293,7 @@
     "furigana": "コンビニ",
     "romaji": "konbini",
     "english_meaning": "convenience store",
-    "bengali_meaning": "convenience store",
+    "bengali_meaning": "কনভেনিয়েন্স স্টোর",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -301,201 +301,202 @@
   },
   {
     "id": "minna-010-v027",
-    "kanji": "公園",
     "furigana": "こうえん",
     "romaji": "kōen",
     "english_meaning": "park",
-    "bengali_meaning": "park",
+    "bengali_meaning": "পার্ক / উদ্যান",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "公園"
   },
   {
     "id": "minna-010-v028",
-    "kanji": "喫茶店",
     "furigana": "きっさてん",
     "romaji": "kissaten",
     "english_meaning": "café, coffee shop",
-    "bengali_meaning": "café, coffee shop",
+    "bengali_meaning": "ক্যাফে / কফি শপ",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "喫茶店"
   },
   {
     "id": "minna-010-v029",
-    "kanji": "～屋",
-    "furigana": "～や",
-    "romaji": "~ya",
-    "english_meaning": "～ shop, ～ store",
-    "bengali_meaning": "～ shop, ～ store",
+    "furigana": "〜や",
+    "romaji": "",
+    "english_meaning": "shop, ~ store",
+    "bengali_meaning": " দোকান",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "〜屋"
   },
   {
     "id": "minna-010-v030",
-    "kanji": "乗り場",
     "furigana": "のりば",
     "romaji": "noriba",
-    "english_meaning": "a fixed place to catch taxis, trains, etc.",
-    "bengali_meaning": "a fixed place to catch taxis, trains, etc.",
+    "english_meaning": "fixed place to catch taxi/train",
+    "bengali_meaning": "যানবাহনে ওঠার স্থান",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "乗り場"
   },
   {
     "id": "minna-010-v031",
-    "kanji": "県",
     "furigana": "けん",
     "romaji": "ken",
     "english_meaning": "prefecture",
-    "bengali_meaning": "prefecture",
+    "bengali_meaning": "প্রিফেকচার / প্রদেশ",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "県"
   },
   {
     "id": "minna-010-v032",
-    "kanji": "上",
     "furigana": "うえ",
     "romaji": "ue",
     "english_meaning": "on, above, over",
-    "bengali_meaning": "on, above, over",
+    "bengali_meaning": "উপরে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "上"
   },
   {
     "id": "minna-010-v033",
-    "kanji": "下",
     "furigana": "した",
     "romaji": "shita",
     "english_meaning": "under, below, beneath",
-    "bengali_meaning": "under, below, beneath",
+    "bengali_meaning": "নিচে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "下"
   },
   {
     "id": "minna-010-v034",
-    "kanji": "前",
     "furigana": "まえ",
     "romaji": "mae",
     "english_meaning": "front, before",
-    "bengali_meaning": "front, before",
+    "bengali_meaning": "সামনে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "前"
   },
   {
     "id": "minna-010-v035",
     "furigana": "うしろ",
     "romaji": "ushiro",
     "english_meaning": "back, behind",
-    "bengali_meaning": "back, behind",
+    "bengali_meaning": "পেছনে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "後ろ"
   },
   {
     "id": "minna-010-v036",
-    "kanji": "右",
     "furigana": "みぎ",
     "romaji": "migi",
     "english_meaning": "right [side]",
-    "bengali_meaning": "right [side]",
+    "bengali_meaning": "ডান [দিক]",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "右"
   },
   {
     "id": "minna-010-v037",
-    "kanji": "左",
     "furigana": "ひだり",
     "romaji": "hidari",
     "english_meaning": "left [side]",
-    "bengali_meaning": "left [side]",
+    "bengali_meaning": "বাম [দিক]",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "左"
   },
   {
     "id": "minna-010-v038",
-    "kanji": "中",
     "furigana": "なか",
     "romaji": "naka",
     "english_meaning": "in, inside",
-    "bengali_meaning": "in, inside",
+    "bengali_meaning": "ভেতরে / মধ্যে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "中"
   },
   {
     "id": "minna-010-v039",
-    "kanji": "外",
     "furigana": "そと",
     "romaji": "soto",
     "english_meaning": "outside",
-    "bengali_meaning": "outside",
+    "bengali_meaning": "বাইরে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "外"
   },
   {
     "id": "minna-010-v040",
-    "kanji": "隣",
     "furigana": "となり",
     "romaji": "tonari",
     "english_meaning": "next, next door",
-    "bengali_meaning": "next, next door",
+    "bengali_meaning": "পাশে / পাশের ঘর",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "隣"
   },
   {
     "id": "minna-010-v041",
-    "kanji": "近く",
     "furigana": "ちかく",
     "romaji": "chikaku",
     "english_meaning": "near, vicinity",
-    "bengali_meaning": "near, vicinity",
+    "bengali_meaning": "কাছে / নিকটে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "近く"
   },
   {
     "id": "minna-010-v042",
-    "kanji": "間",
     "furigana": "あいだ",
     "romaji": "aida",
     "english_meaning": "between, among",
-    "bengali_meaning": "between, among",
+    "bengali_meaning": "মাঝখানে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "間"
   },
   {
     "id": "minna-010-v043",
-    "furigana": "～や ～［など］",
-    "romaji": "~ya ~ [nado]",
-    "english_meaning": "～, ～, and so on",
-    "bengali_meaning": "～, ～, and so on",
+    "furigana": "〜や〜［など］",
+    "romaji": "",
+    "english_meaning": ", , and so on",
+    "bengali_meaning": ", ~ ইত্যাদি",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -503,10 +504,10 @@
   },
   {
     "id": "minna-010-v044",
-    "furigana": "［どうも］すみません。",
-    "romaji": "[dōmo] sumimasen.",
-    "english_meaning": "Thank you.",
-    "bengali_meaning": "Thank you.",
+    "furigana": "［どうも］すみません",
+    "romaji": "",
+    "english_meaning": "thank you",
+    "bengali_meaning": "ধন্যবাদ",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -516,8 +517,8 @@
     "id": "minna-010-v045",
     "furigana": "ナンプラー",
     "romaji": "nanpurā",
-    "english_meaning": "nam pla",
-    "bengali_meaning": "nam pla",
+    "english_meaning": "nam pla (fish sauce)",
+    "bengali_meaning": "নাম প্লা (ফিশ সস)",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -528,7 +529,7 @@
     "furigana": "コーナー",
     "romaji": "kōnā",
     "english_meaning": "corner, section",
-    "bengali_meaning": "corner, section",
+    "bengali_meaning": "কোণা / বিভাগ",
     "tags": [
       "vocabulary",
       "lesson-10"
@@ -536,125 +537,34 @@
   },
   {
     "id": "minna-010-v047",
-    "kanji": "いちばん 下",
     "furigana": "いちばん した",
     "romaji": "ichiban shita",
     "english_meaning": "the bottom",
-    "bengali_meaning": "the bottom",
+    "bengali_meaning": "একদম নিচে",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "いちばん 下"
   },
   {
     "id": "minna-010-v048",
-    "kanji": "東京 ディズニーランド",
-    "furigana": "とうきょう ディズニーランド",
-    "romaji": "tōkyō dizuniirando",
+    "furigana": "とうきょうディズニーランド",
+    "romaji": "",
     "english_meaning": "Tokyo Disneyland",
-    "bengali_meaning": "Tokyo Disneyland",
+    "bengali_meaning": "টোকিও ডিজনিলেণ্ড",
     "tags": [
       "vocabulary",
       "lesson-10"
-    ]
+    ],
+    "kanji": "東京ディズニーランド"
   },
   {
     "id": "minna-010-v049",
     "furigana": "アジアストア",
     "romaji": "ajiasutoa",
-    "english_meaning": "a fictitious supermarket",
-    "bengali_meaning": "a fictitious supermarket",
-    "tags": [
-      "vocabulary",
-      "lesson-10"
-    ]
-  },
-  {
-    "id": "minna-010-v050",
-    "furigana": "フィルム",
-    "romaji": "firumu",
-    "english_meaning": "film",
-    "bengali_meaning": "film",
-    "tags": [
-      "vocabulary",
-      "lesson-10"
-    ]
-  },
-  {
-    "id": "minna-010-v051",
-    "kanji": "本屋",
-    "furigana": "ほんや",
-    "romaji": "hon'ya",
-    "english_meaning": "bookstore",
-    "bengali_meaning": "bookstore",
-    "tags": [
-      "vocabulary",
-      "lesson-10"
-    ]
-  },
-  {
-    "id": "minna-010-v052",
-    "furigana": "いちばん ～",
-    "romaji": "ichiban ~",
-    "english_meaning": "the most ～ (いちばん うえ : the top)",
-    "bengali_meaning": "the most ～ (いちばん うえ : the top)",
-    "tags": [
-      "vocabulary",
-      "lesson-10"
-    ]
-  },
-  {
-    "id": "minna-010-v053",
-    "kanji": "－段��",
-    "furigana": "－だんめ",
-    "romaji": "~danme",
-    "english_meaning": "the -th shelf (だん is the counter for shelves)",
-    "bengali_meaning": "the -th shelf (だん is the counter for shelves)",
-    "tags": [
-      "vocabulary",
-      "lesson-10"
-    ]
-  },
-  {
-    "id": "minna-010-v054",
-    "furigana": "チリソース",
-    "romaji": "chirisōsu",
-    "english_meaning": "chilli sauce",
-    "bengali_meaning": "chilli sauce",
-    "tags": [
-      "vocabulary",
-      "lesson-10"
-    ]
-  },
-  {
-    "id": "minna-010-v055",
-    "kanji": "奥",
-    "furigana": "おく",
-    "romaji": "oku",
-    "english_meaning": "the back",
-    "bengali_meaning": "the back",
-    "tags": [
-      "vocabulary",
-      "lesson-10"
-    ]
-  },
-  {
-    "id": "minna-010-v056",
-    "furigana": "スパイス・コーナー",
-    "romaji": "supaisu kōnā",
-    "english_meaning": "spice corner",
-    "bengali_meaning": "spice corner",
-    "tags": [
-      "vocabulary",
-      "lesson-10"
-    ]
-  },
-  {
-    "id": "minna-010-v057",
-    "furigana": "ユニューア・ストア",
-    "romaji": "yunyūa sutoa",
-    "english_meaning": "fictitious supermarket",
-    "bengali_meaning": "fictitious supermarket",
+    "english_meaning": "Asia Store",
+    "bengali_meaning": "এশিয়া স্টোর",
     "tags": [
       "vocabulary",
       "lesson-10"

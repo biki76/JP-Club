@@ -4,7 +4,7 @@
     "furigana": "くれます",
     "romaji": "kuremasu",
     "english_meaning": "give (me)",
-    "bengali_meaning": "give (me)",
+    "bengali_meaning": "দেওয়া (আমাকে)",
     "tags": [
       "vocabulary",
       "lesson-24"
@@ -12,94 +12,94 @@
   },
   {
     "id": "minna-024-v002",
-    "kanji": "直します",
     "furigana": "なおします",
     "romaji": "naoshimasu",
     "english_meaning": "repair, correct",
-    "bengali_meaning": "repair, correct",
+    "bengali_meaning": "মেরামত করা / সংশোধন করা",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "［〜を］直します"
   },
   {
     "id": "minna-024-v003",
-    "kanji": "連れて 行きます",
     "furigana": "つれて いきます",
     "romaji": "tsurete ikimasu",
     "english_meaning": "take (someone)",
-    "bengali_meaning": "take (someone)",
+    "bengali_meaning": "(কাউকে) সঙ্গে নিয়ে যাওয়া",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "［人を〜］連れて 行きます"
   },
   {
     "id": "minna-024-v004",
-    "kanji": "連れて 来ます",
     "furigana": "つれて きます",
     "romaji": "tsurete kimasu",
     "english_meaning": "bring (someone)",
-    "bengali_meaning": "bring (someone)",
+    "bengali_meaning": "(কাউকে) সঙ্গে নিয়ে আসা",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "［人を〜］連れて 来ます"
   },
   {
     "id": "minna-024-v005",
-    "kanji": "送ります［人を～］",
-    "furigana": "おくります［ひとを～］",
-    "romaji": "okurimasu [hitowo~]",
-    "english_meaning": "escort [someone], go with",
-    "bengali_meaning": "escort [someone], go with",
+    "furigana": "おくります",
+    "romaji": "",
+    "english_meaning": "escort, see off",
+    "bengali_meaning": "পৌঁছে দেওয়া / বিদায় জানানো",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "［人を〜］送ります"
   },
   {
     "id": "minna-024-v006",
-    "kanji": "紹介します",
     "furigana": "しょうかいします",
     "romaji": "shōkaishimasu",
     "english_meaning": "introduce",
-    "bengali_meaning": "introduce",
+    "bengali_meaning": "পরিচয় করিয়ে দেওয়া",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "［〜を］紹介します"
   },
   {
     "id": "minna-024-v007",
-    "kanji": "案内します",
     "furigana": "あんないします",
     "romaji": "annaishimasu",
-    "english_meaning": "show around, show the way",
-    "bengali_meaning": "show around, show the way",
+    "english_meaning": "show around, guide",
+    "bengali_meaning": "ঘুরিয়ে দেখানো / পথ দেখানো",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "［〜を］案内します"
   },
   {
     "id": "minna-024-v008",
-    "kanji": "説明します",
     "furigana": "せつめいします",
     "romaji": "setsumeishimasu",
     "english_meaning": "explain",
-    "bengali_meaning": "explain",
+    "bengali_meaning": "ব্যাখ্যা করা / বুঝিয়ে বলা",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "［〜を］説明します"
   },
   {
     "id": "minna-024-v009",
-    "furigana": "おじいさん／おじいちゃん",
-    "romaji": "ojiisan/ojiichan",
+    "furigana": "おじいさん",
+    "romaji": "",
     "english_meaning": "grandfather, old man",
-    "bengali_meaning": "grandfather, old man",
+    "bengali_meaning": "দাদা / নানা / বৃদ্ধ",
     "tags": [
       "vocabulary",
       "lesson-24"
@@ -107,10 +107,10 @@
   },
   {
     "id": "minna-024-v010",
-    "furigana": "おばあさん／おばあちゃん",
-    "romaji": "obāsan/obāchan",
+    "furigana": "おばあさん",
+    "romaji": "",
     "english_meaning": "grandmother, old woman",
-    "bengali_meaning": "grandmother, old woman",
+    "bengali_meaning": "দাদি / নানি / বৃদ্ধা",
     "tags": [
       "vocabulary",
       "lesson-24"
@@ -118,46 +118,46 @@
   },
   {
     "id": "minna-024-v011",
-    "kanji": "準備",
     "furigana": "じゅんび",
     "romaji": "junbi",
-    "english_meaning": "preparation (～［を］します : prepare)",
-    "bengali_meaning": "preparation (～［を］します : prepare)",
+    "english_meaning": "preparation",
+    "bengali_meaning": "প্রস্তুতি",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "準備"
   },
   {
     "id": "minna-024-v012",
-    "kanji": "引っ越し",
     "furigana": "ひっこし",
     "romaji": "hikkoshi",
-    "english_meaning": "moving out (～［を］します : move out)",
-    "bengali_meaning": "moving out (～［を］します : move out)",
+    "english_meaning": "moving out",
+    "bengali_meaning": "বাসা বদল",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "引っ越し"
   },
   {
     "id": "minna-024-v013",
-    "kanji": "［お］菓子",
     "furigana": "［お］かし",
     "romaji": "[o] kashi",
     "english_meaning": "sweets, snacks",
-    "bengali_meaning": "sweets, snacks",
+    "bengali_meaning": "মিষ্টান্ন / স্ন্যাক্স",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "［お］菓子"
   },
   {
     "id": "minna-024-v014",
     "furigana": "ホームステイ",
     "romaji": "hōmusutei",
     "english_meaning": "homestay",
-    "bengali_meaning": "homestay",
+    "bengali_meaning": "হোমস্টে",
     "tags": [
       "vocabulary",
       "lesson-24"
@@ -165,96 +165,50 @@
   },
   {
     "id": "minna-024-v015",
-    "kanji": "全部",
     "furigana": "ぜんぶ",
     "romaji": "zenbu",
     "english_meaning": "all",
-    "bengali_meaning": "all",
+    "bengali_meaning": "সব / সম্পূর্ণ",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "全部"
   },
   {
     "id": "minna-024-v016",
-    "kanji": "自分で",
     "furigana": "じぶんで",
     "romaji": "jibunde",
     "english_meaning": "by oneself",
-    "bengali_meaning": "by oneself",
+    "bengali_meaning": "নিজে নিজে / একা",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "自分で"
   },
   {
     "id": "minna-024-v017",
     "furigana": "ほかに",
     "romaji": "hokani",
-    "english_meaning": "besides",
-    "bengali_meaning": "besides",
+    "english_meaning": "besides, other",
+    "bengali_meaning": "তাছাড়া / অন্য",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
+    ],
+    "kanji": "他に"
   },
   {
     "id": "minna-024-v018",
-    "kanji": "母の 日",
-    "furigana": "ははの ひ",
-    "romaji": "hahano hi",
+    "furigana": "ははのひ",
+    "romaji": "",
     "english_meaning": "Mother's Day",
-    "bengali_meaning": "Mother's Day",
+    "bengali_meaning": "মা দিবস",
     "tags": [
       "vocabulary",
       "lesson-24"
-    ]
-  },
-  {
-    "id": "minna-024-v019",
-    "furigana": "いれます［コーヒーを～］",
-    "romaji": "iremasu [kōhiiwo~]",
-    "english_meaning": "make [coffee]",
-    "bengali_meaning": "make [coffee]",
-    "tags": [
-      "vocabulary",
-      "lesson-24"
-    ]
-  },
-  {
-    "id": "minna-024-v020",
-    "kanji": "意味",
-    "furigana": "いみ",
-    "romaji": "imi",
-    "english_meaning": "meaning",
-    "bengali_meaning": "meaning",
-    "tags": [
-      "vocabulary",
-      "lesson-24"
-    ]
-  },
-  {
-    "id": "minna-024-v021",
-    "kanji": "ワゴン車",
-    "furigana": "ワゴンしゃ",
-    "romaji": "wagonsha",
-    "english_meaning": "station wagon",
-    "bengali_meaning": "station wagon",
-    "tags": [
-      "vocabulary",
-      "lesson-24"
-    ]
-  },
-  {
-    "id": "minna-024-v022",
-    "kanji": "［お］弁当",
-    "furigana": "［お］べんとう",
-    "romaji": "[o] bentō",
-    "english_meaning": "box lunch",
-    "bengali_meaning": "box lunch",
-    "tags": [
-      "vocabulary",
-      "lesson-24"
-    ]
+    ],
+    "kanji": "母の日"
   }
 ]

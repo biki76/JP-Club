@@ -1,234 +1,238 @@
 [
   {
     "id": "minna-021-v001",
-    "kanji": "思います",
     "furigana": "おもいます",
     "romaji": "omoimasu",
     "english_meaning": "think",
-    "bengali_meaning": "think",
+    "bengali_meaning": "মনে করা / ভাবা",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "［〜と］思います"
   },
   {
     "id": "minna-021-v002",
-    "kanji": "言います",
     "furigana": "いいます",
     "romaji": "iimasu",
     "english_meaning": "say",
-    "bengali_meaning": "say",
+    "bengali_meaning": "বলা",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "［〜と］言います"
   },
   {
     "id": "minna-021-v003",
-    "kanji": "勝ちます",
     "furigana": "かちます",
     "romaji": "kachimasu",
     "english_meaning": "win",
-    "bengali_meaning": "win",
+    "bengali_meaning": "জেতা / জয়লাভ করা",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "［〜に］勝ちます"
   },
   {
     "id": "minna-021-v004",
-    "kanji": "負けます",
     "furigana": "まけます",
     "romaji": "makemasu",
     "english_meaning": "lose, be beaten",
-    "bengali_meaning": "lose, be beaten",
+    "bengali_meaning": "হারা / পরাজিত হওয়া",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "［〜に］負けます"
   },
   {
     "id": "minna-021-v005",
-    "kanji": "あります［お祭りが～］",
-    "furigana": "あります［おまつりが～］",
-    "romaji": "arimasu [omatsuriga~]",
-    "english_meaning": "[a festival] be held, take place",
-    "bengali_meaning": "[a festival] be held, take place",
+    "furigana": "［おまつりが〜］あります",
+    "romaji": "",
+    "english_meaning": "[festival] be held",
+    "bengali_meaning": "[উৎসব] অনুষ্ঠিত হওয়া",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "［お祭りが〜］あります"
   },
   {
     "id": "minna-021-v006",
-    "kanji": "役に 立ちます",
     "furigana": "やくに たちます",
     "romaji": "yakuni tachimasu",
     "english_meaning": "be useful",
-    "bengali_meaning": "be useful",
+    "bengali_meaning": "কাজে লাগা / উপকারী হওয়া",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "役に 立ちます"
   },
   {
     "id": "minna-021-v007",
-    "kanji": "動きます",
     "furigana": "うごきます",
     "romaji": "ugokimasu",
     "english_meaning": "move, work",
-    "bengali_meaning": "move, work",
+    "bengali_meaning": "চলা / কাজ করা (যন্ত্র)",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "動きます"
   },
   {
     "id": "minna-021-v008",
-    "kanji": "やめます［会社を～］",
-    "furigana": "やめます［かいしゃを～］",
-    "romaji": "yamemasu [kaishawo~]",
-    "english_meaning": "quit or retire from [a company], stop, give up",
-    "bengali_meaning": "quit or retire from [a company], stop, give up",
+    "furigana": "［かいしゃを〜］やめます",
+    "romaji": "",
+    "english_meaning": "quit, retire from [company]",
+    "bengali_meaning": "[চাকরি] ছেড়ে দেওয়া / অবসর নেওয়া",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "［会社を〜］やめます"
   },
   {
     "id": "minna-021-v009",
-    "kanji": "気を つけます",
     "furigana": "きを つけます",
     "romaji": "kiwo tsukemasu",
     "english_meaning": "pay attention, take care",
-    "bengali_meaning": "pay attention, take care",
+    "bengali_meaning": "সতর্ক থাকা / খেয়াল রাখা",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "気を つけます"
   },
   {
     "id": "minna-021-v010",
-    "kanji": "留学します",
     "furigana": "りゅうがくします",
     "romaji": "ryūgakushimasu",
     "english_meaning": "study abroad",
-    "bengali_meaning": "study abroad",
+    "bengali_meaning": "বিদেশে পড়তে যাওয়া",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "留学します"
   },
   {
     "id": "minna-021-v011",
     "furigana": "むだ［な］",
     "romaji": "muda [na]",
     "english_meaning": "wasteful",
-    "bengali_meaning": "wasteful",
+    "bengali_meaning": "অপচয়মূলক / অনর্থক",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "無駄［な］"
   },
   {
     "id": "minna-021-v012",
-    "kanji": "不便［な］",
     "furigana": "ふべん［な］",
     "romaji": "fuben [na]",
     "english_meaning": "inconvenient",
-    "bengali_meaning": "inconvenient",
+    "bengali_meaning": "অসুবিধাজনক",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "不便［な］"
   },
   {
     "id": "minna-021-v013",
     "furigana": "すごい",
     "romaji": "sugoi",
-    "english_meaning": "awful, great (expresses astonishment or admiration)",
-    "bengali_meaning": "awful, great (expresses astonishment or admiration)",
+    "english_meaning": "great, awful",
+    "bengali_meaning": "দারুণ / ভয়ানক",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "凄い"
   },
   {
     "id": "minna-021-v014",
     "furigana": "ほんとう",
     "romaji": "hontō",
-    "english_meaning": "true",
-    "bengali_meaning": "true",
+    "english_meaning": "true, truth",
+    "bengali_meaning": "সত্যি / আসল",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "本当"
   },
   {
     "id": "minna-021-v015",
     "furigana": "うそ",
     "romaji": "uso",
     "english_meaning": "lie",
-    "bengali_meaning": "lie",
+    "bengali_meaning": "মিথ্যা",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "嘘"
   },
   {
     "id": "minna-021-v016",
-    "kanji": "自動車",
     "furigana": "じどうしゃ",
     "romaji": "jidōsha",
     "english_meaning": "car, automobile",
-    "bengali_meaning": "car, automobile",
+    "bengali_meaning": "মোটরগাড়ি",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "自動車"
   },
   {
     "id": "minna-021-v017",
-    "kanji": "交通",
     "furigana": "こうつう",
     "romaji": "kōtsū",
-    "english_meaning": "transport, traffic",
-    "bengali_meaning": "transport, traffic",
+    "english_meaning": "traffic, transport",
+    "bengali_meaning": "যাতায়াত / ট্রাফিক",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "交通"
   },
   {
     "id": "minna-021-v018",
-    "kanji": "物価",
     "furigana": "ぶっか",
     "romaji": "bukka",
     "english_meaning": "[commodity] prices",
-    "bengali_meaning": "[commodity] prices",
+    "bengali_meaning": "নিত্যপণ্যের দাম",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "物価"
   },
   {
     "id": "minna-021-v019",
-    "kanji": "放送",
     "furigana": "ほうそう",
     "romaji": "hōsō",
-    "english_meaning": "[commodity] prices",
-    "bengali_meaning": "[commodity] prices",
+    "english_meaning": "announcement, broadcast",
+    "bengali_meaning": "সম্প্রচার / ঘোষণা",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "放送"
   },
   {
     "id": "minna-021-v020",
     "furigana": "ニュース",
     "romaji": "nyūsu",
     "english_meaning": "news",
-    "bengali_meaning": "news",
+    "bengali_meaning": "সংবাদ / খবর",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -238,8 +242,8 @@
     "id": "minna-021-v021",
     "furigana": "アニメ",
     "romaji": "anime",
-    "english_meaning": "anime (Japanese animated film)",
-    "bengali_meaning": "anime (Japanese animated film)",
+    "english_meaning": "anime",
+    "bengali_meaning": "অ্যানিমে (জাপানি কার্টুন)",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -247,21 +251,22 @@
   },
   {
     "id": "minna-021-v022",
-    "furigana": "マンガ",
-    "romaji": "manga",
-    "english_meaning": "comic book",
-    "bengali_meaning": "comic book",
+    "furigana": "まんが",
+    "romaji": "",
+    "english_meaning": "comic book, manga",
+    "bengali_meaning": "কমিক বই / মাঙ্গা",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "漫画"
   },
   {
     "id": "minna-021-v023",
     "furigana": "デザイン",
     "romaji": "dezain",
     "english_meaning": "design, artwork",
-    "bengali_meaning": "design, artwork",
+    "bengali_meaning": "নকশা / ডিজাইন",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -269,117 +274,118 @@
   },
   {
     "id": "minna-021-v024",
-    "kanji": "夢",
     "furigana": "ゆめ",
     "romaji": "yume",
     "english_meaning": "dream",
-    "bengali_meaning": "dream",
+    "bengali_meaning": "স্বপ্ন",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "夢"
   },
   {
     "id": "minna-021-v025",
-    "kanji": "天才",
     "furigana": "てんさい",
     "romaji": "tensai",
     "english_meaning": "genius",
-    "bengali_meaning": "genius",
+    "bengali_meaning": "প্রতিভাবান / জিনিয়াস",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "天才"
   },
   {
     "id": "minna-021-v026",
-    "kanji": "試合",
     "furigana": "しあい",
     "romaji": "shiai",
-    "english_meaning": "game, match (～を します : play a game/match)",
-    "bengali_meaning": "game, match (～を します : play a game/match)",
+    "english_meaning": "game, match",
+    "bengali_meaning": "ম্যাচ / খেলা",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "試合"
   },
   {
     "id": "minna-021-v027",
-    "kanji": "意見",
     "furigana": "いけん",
     "romaji": "iken",
     "english_meaning": "opinion",
-    "bengali_meaning": "opinion",
+    "bengali_meaning": "মতামত",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "意見"
   },
   {
     "id": "minna-021-v028",
-    "kanji": "話",
     "furigana": "はなし",
     "romaji": "hanashi",
-    "english_meaning": "talk, speech, what one says, story (～を します : talk, tell a story)",
-    "bengali_meaning": "talk, speech, what one says, story (～を します : talk, tell a story)",
+    "english_meaning": "talk, speech, story",
+    "bengali_meaning": "কথা / গল্প",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "話"
   },
   {
     "id": "minna-021-v029",
-    "kanji": "地球",
     "furigana": "ちきゅう",
     "romaji": "chikyū",
     "english_meaning": "earth",
-    "bengali_meaning": "earth",
+    "bengali_meaning": "পৃথিবী (গ্রহ)",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "地球"
   },
   {
     "id": "minna-021-v030",
-    "kanji": "月",
     "furigana": "つき",
     "romaji": "tsuki",
     "english_meaning": "moon",
-    "bengali_meaning": "moon",
+    "bengali_meaning": "চাঁদ",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "月"
   },
   {
     "id": "minna-021-v031",
-    "kanji": "最近",
     "furigana": "さいきん",
     "romaji": "saikin",
     "english_meaning": "recently, these days",
-    "bengali_meaning": "recently, these days",
+    "bengali_meaning": "সম্প্রতি / আজকাল",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "最近"
   },
   {
     "id": "minna-021-v032",
     "furigana": "たぶん",
     "romaji": "tabun",
-    "english_meaning": "probably, perhaps, maybe",
-    "bengali_meaning": "probably, perhaps, maybe",
+    "english_meaning": "probably, perhaps",
+    "bengali_meaning": "সম্ভবত / হয়তো",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "多分"
   },
   {
     "id": "minna-021-v033",
     "furigana": "きっと",
     "romaji": "kitto",
     "english_meaning": "surely, definitely",
-    "bengali_meaning": "surely, definitely",
+    "bengali_meaning": "অবশ্যই / নিশ্চিতভাবে",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -389,19 +395,20 @@
     "id": "minna-021-v034",
     "furigana": "ほんとうに",
     "romaji": "hontōni",
-    "english_meaning": "really",
-    "bengali_meaning": "really",
+    "english_meaning": "really, truly",
+    "bengali_meaning": "সত্যিই / প্রকৃতপক্ষে",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "本当に"
   },
   {
     "id": "minna-021-v035",
     "furigana": "そんなに",
     "romaji": "sonnani",
-    "english_meaning": "not so (used with negatives)",
-    "bengali_meaning": "not so (used with negatives)",
+    "english_meaning": "not so (with neg.)",
+    "bengali_meaning": "তেমন একটা না",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -409,10 +416,10 @@
   },
   {
     "id": "minna-021-v036",
-    "furigana": "～に ついて",
-    "romaji": "~ni tsuite",
-    "english_meaning": "about ～, concerning ～",
-    "bengali_meaning": "about ～, concerning ～",
+    "furigana": "〜について",
+    "romaji": "",
+    "english_meaning": "about ~, concerning ",
+    "bengali_meaning": " সম্পর্কে / বিষয়ে",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -420,34 +427,34 @@
   },
   {
     "id": "minna-021-v037",
-    "kanji": "久しぶりですね。",
-    "furigana": "ひさしぶりですね。",
-    "romaji": "hisashiburidesune.",
-    "english_meaning": "It's been a long time [since we last met].",
-    "bengali_meaning": "It's been a long time [since we last met].",
+    "furigana": "ひさしぶりですね",
+    "romaji": "",
+    "english_meaning": "long time no see",
+    "bengali_meaning": "অনেক দিন পর দেখা!",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "久しぶりですね"
   },
   {
     "id": "minna-021-v038",
-    "kanji": "～でも 飲みませんか。",
-    "furigana": "～でも のみませんか。",
-    "romaji": "~demo nomimasenka.",
-    "english_meaning": "How about drinking ～ or something?",
-    "bengali_meaning": "How about drinking ～ or something?",
+    "furigana": "〜でも のみませんか",
+    "romaji": "",
+    "english_meaning": "drink ~ or something?",
+    "bengali_meaning": " কিছু পান করবেন নাকি?",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "〜でも 飲みませんか"
   },
   {
     "id": "minna-021-v039",
     "furigana": "もちろん",
     "romaji": "mochiron",
     "english_meaning": "of course",
-    "bengali_meaning": "of course",
+    "bengali_meaning": "অবশ্যই",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -455,22 +462,22 @@
   },
   {
     "id": "minna-021-v040",
-    "kanji": "もう 帰らないと……。",
-    "furigana": "もう かえらないと……。",
-    "romaji": "mō kaeranaito…….",
-    "english_meaning": "I have to get home now......",
-    "bengali_meaning": "I have to get home now......",
+    "furigana": "もう かえらないと……",
+    "romaji": "",
+    "english_meaning": "must get home now...",
+    "bengali_meaning": "এবার বাড়ি ফিরতে হবে...",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "もう 帰らないと……"
   },
   {
     "id": "minna-021-v041",
     "furigana": "アインシュタイン",
     "romaji": "ainshutain",
-    "english_meaning": "Albert Einstein (1879-1955)",
-    "bengali_meaning": "Albert Einstein (1879-1955)",
+    "english_meaning": "Albert Einstein",
+    "bengali_meaning": "আলবার্ট আইনস্টাইন",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -480,8 +487,8 @@
     "id": "minna-021-v042",
     "furigana": "ガガーリン",
     "romaji": "gagārin",
-    "english_meaning": "Yuri Alekseyevich Gagarin (1934-1968)",
-    "bengali_meaning": "Yuri Alekseyevich Gagarin (1934-1968)",
+    "english_meaning": "Yuri Gagarin",
+    "bengali_meaning": "ইউরি গ্যাগারিন",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -491,8 +498,8 @@
     "id": "minna-021-v043",
     "furigana": "ガリレオ",
     "romaji": "garireo",
-    "english_meaning": "Galileo Galilei (1564-1642)",
-    "bengali_meaning": "Galileo Galilei (1564-1642)",
+    "english_meaning": "Galileo Galilei",
+    "bengali_meaning": "গ্যালিলিও গ্যালিলি",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -500,22 +507,22 @@
   },
   {
     "id": "minna-021-v044",
-    "kanji": "キング牧師",
     "furigana": "キングぼくし",
     "romaji": "kingubokushi",
-    "english_meaning": "Martin Luther King, Jr. (1929-1968)",
-    "bengali_meaning": "Martin Luther King, Jr. (1929-1968)",
+    "english_meaning": "Martin Luther King, Jr.",
+    "bengali_meaning": "মার্টিন লুথার কিং জুনিয়র",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "キング牧師"
   },
   {
     "id": "minna-021-v045",
     "furigana": "フランクリン",
     "romaji": "furankurin",
-    "english_meaning": "Benjamin Franklin (1706-1790)",
-    "bengali_meaning": "Benjamin Franklin (1706-1790)",
+    "english_meaning": "Benjamin Franklin",
+    "bengali_meaning": "বেঞ্জামিন ফ্র্যাঙ্কলিন",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -523,46 +530,46 @@
   },
   {
     "id": "minna-021-v046",
-    "kanji": "かぐや姫",
     "furigana": "かぐやひめ",
     "romaji": "kaguyahime",
-    "english_meaning": "Princess Kaguya (heroine of the old Japanese folk tale 'Taketori Monogatari')",
-    "bengali_meaning": "Princess Kaguya (heroine of the old Japanese folk tale 'Taketori Monogatari')",
+    "english_meaning": "Princess Kaguya",
+    "bengali_meaning": "রাজকুমারী কাগুয়া",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "かぐや姫"
   },
   {
     "id": "minna-021-v047",
-    "kanji": "天神祭",
     "furigana": "てんじんまつり",
     "romaji": "tenjinmatsuri",
-    "english_meaning": "Tenjin Festival (a festival in Osaka)",
-    "bengali_meaning": "Tenjin Festival (a festival in Osaka)",
+    "english_meaning": "Tenjin Festival",
+    "bengali_meaning": "তেনজিন উৎসব",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "天神祭"
   },
   {
     "id": "minna-021-v048",
-    "kanji": "吉野山",
     "furigana": "よしのやま",
     "romaji": "yoshinoyama",
-    "english_meaning": "Mt. Yoshino (a mountain in Nara Prefecture)",
-    "bengali_meaning": "Mt. Yoshino (a mountain in Nara Prefecture)",
+    "english_meaning": "Mt. Yoshino",
+    "bengali_meaning": "ইয়োশিনো পর্বত",
     "tags": [
       "vocabulary",
       "lesson-21"
-    ]
+    ],
+    "kanji": "吉野山"
   },
   {
     "id": "minna-021-v049",
     "furigana": "カンガルー",
     "romaji": "kangarū",
     "english_meaning": "kangaroo",
-    "bengali_meaning": "kangaroo",
+    "bengali_meaning": "ক্যাঙ্গারু",
     "tags": [
       "vocabulary",
       "lesson-21"
@@ -572,168 +579,8 @@
     "id": "minna-021-v050",
     "furigana": "キャプテン・クック",
     "romaji": "kyaputen kukku",
-    "english_meaning": "Captain James Cook (1728-1779)",
-    "bengali_meaning": "Captain James Cook (1728-1779)",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v051",
-    "furigana": "ヨーネン",
-    "romaji": "yōnen",
-    "english_meaning": "a fictitious company",
-    "bengali_meaning": "a fictitious company",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v052",
-    "kanji": "足ります",
-    "furigana": "たります",
-    "romaji": "tarimasu",
-    "english_meaning": "be enough, be sufficient",
-    "bengali_meaning": "be enough, be sufficient",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v053",
-    "kanji": "同じ",
-    "furigana": "おなじ",
-    "romaji": "onaji",
-    "english_meaning": "the same",
-    "bengali_meaning": "the same",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v054",
-    "kanji": "首相",
-    "furigana": "しゅしょう",
-    "romaji": "shushō",
-    "english_meaning": "prime minister",
-    "bengali_meaning": "prime minister",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v055",
-    "kanji": "大統領",
-    "furigana": "だいとうりょう",
-    "romaji": "daitōryō",
-    "english_meaning": "president",
-    "bengali_meaning": "president",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v056",
-    "kanji": "政治",
-    "furigana": "せいじ",
-    "romaji": "seiji",
-    "english_meaning": "politics",
-    "bengali_meaning": "politics",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v057",
-    "furigana": "スピーチ",
-    "romaji": "supiichi",
-    "english_meaning": "speech (～を します : talk, tell a story)",
-    "bengali_meaning": "speech (～を します : talk, tell a story)",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v058",
-    "furigana": "アルバイト",
-    "romaji": "arubaito",
-    "english_meaning": "side job (～を します : work part time)",
-    "bengali_meaning": "side job (～を します : work part time)",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v059",
-    "furigana": "ユーモア",
-    "romaji": "yūmoa",
-    "english_meaning": "humor",
-    "bengali_meaning": "humor",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v060",
-    "furigana": "むだ",
-    "romaji": "muda",
-    "english_meaning": "waste",
-    "bengali_meaning": "waste",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v061",
-    "furigana": "ラッシュ",
-    "romaji": "rasshu",
-    "english_meaning": "rush hour",
-    "bengali_meaning": "rush hour",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v062",
-    "furigana": "しかたが ありません。",
-    "romaji": "shikataga arimasen.",
-    "english_meaning": "There is no other choice./It can't be helped.",
-    "bengali_meaning": "There is no other choice./It can't be helped.",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v063",
-    "furigana": "しばらくですね。",
-    "romaji": "shibarakudesune.",
-    "english_meaning": "It's been a long time (since I last saw you)./Long time no see.",
-    "bengali_meaning": "It's been a long time (since I last saw you)./Long time no see.",
-    "tags": [
-      "vocabulary",
-      "lesson-21"
-    ]
-  },
-  {
-    "id": "minna-021-v064",
-    "kanji": "見ないと……。",
-    "furigana": "みないと……。",
-    "romaji": "minaito…….",
-    "english_meaning": "I've got to watch it.",
-    "bengali_meaning": "I've got to watch it.",
+    "english_meaning": "Captain James Cook",
+    "bengali_meaning": "ক্যাপ্টেন জেমস কুক",
     "tags": [
       "vocabulary",
       "lesson-21"
