@@ -1886,7 +1886,7 @@
     "furigana": "か",
     "romaji": "ka",
     "english_meaning": "passable",
-    "bengali_meaning": "",
+    "bengali_meaning": "অনুমোদিত",
     "level": "N3"
   },
   {
@@ -1895,7 +1895,7 @@
     "furigana": "か",
     "romaji": "ka",
     "english_meaning": "counter for chapters (of a book)",
-    "bengali_meaning": "পাঠ",
+    "bengali_meaning": "পাঠ / অধ্যায়",
     "level": "N3"
   },
   {
@@ -1931,7 +1931,7 @@
     "furigana": "かい",
     "romaji": "kai",
     "english_meaning": "counter for occurrences",
-    "bengali_meaning": "",
+    "bengali_meaning": "বার",
     "level": "N3"
   },
   {
@@ -1976,7 +1976,7 @@
     "furigana": "かいけい",
     "romaji": "kaikei",
     "english_meaning": "account; finance; accountant",
-    "bengali_meaning": "হিসাব",
+    "bengali_meaning": "হিসাবরক্ষণ",
     "level": "N3"
   },
   {
@@ -2012,7 +2012,7 @@
     "furigana": "かいし",
     "romaji": "kaishi",
     "english_meaning": "start; commencement; beginning",
-    "bengali_meaning": "শুরু",
+    "bengali_meaning": "সূচনা",
     "level": "N3"
   },
   {
@@ -2021,7 +2021,7 @@
     "furigana": "かいしゃく",
     "romaji": "kaishaku",
     "english_meaning": "explanation; interpretation",
-    "bengali_meaning": "ব্যাখ্যা",
+    "bengali_meaning": "অনুবাদ / ব্যাখ্যা",
     "level": "N3"
   },
   {
@@ -5207,7 +5207,7 @@
     "furigana": "さ",
     "romaji": "sa",
     "english_meaning": "difference; variation",
-    "bengali_meaning": "",
+    "bengali_meaning": "পার্থক্য",
     "level": "N3"
   },
   {
@@ -5216,7 +5216,7 @@
     "furigana": "サービス",
     "romaji": "saabisu",
     "english_meaning": "service; support system; goods or services without charge",
-    "bengali_meaning": "",
+    "bengali_meaning": "সেবা",
     "level": "N3"
   },
   {
@@ -5225,7 +5225,7 @@
     "furigana": "さい",
     "romaji": "sai",
     "english_meaning": "on the occasion of; circumstances",
-    "bengali_meaning": "",
+    "bengali_meaning": "উপলক্ষ",
     "level": "N3"
   },
   {
@@ -5261,7 +5261,7 @@
     "furigana": "さいちゅう",
     "romaji": "saichuu",
     "english_meaning": "in the middle of",
-    "bengali_meaning": "",
+    "bengali_meaning": "মধ্যে",
     "level": "N3"
   },
   {
@@ -8348,7 +8348,7 @@
     "furigana": "た",
     "romaji": "ta",
     "english_meaning": "other (esp. places and things)",
-    "bengali_meaning": "",
+    "bengali_meaning": "অন্যান্য",
     "level": "N3"
   },
   {
@@ -8357,7 +8357,7 @@
     "furigana": "た",
     "romaji": "ta",
     "english_meaning": "rice field",
-    "bengali_meaning": "",
+    "bengali_meaning": "ধান ক্ষেত",
     "level": "N3"
   },
   {
@@ -8366,7 +8366,7 @@
     "furigana": "たい",
     "romaji": "tai",
     "english_meaning": "versus; against; vs.; v.",
-    "bengali_meaning": "",
+    "bengali_meaning": "বনাম",
     "level": "N3"
   },
   {
@@ -8402,7 +8402,7 @@
     "furigana": "たいいく",
     "romaji": "taiiku",
     "english_meaning": "physical education; gymnastics; athletics",
-    "bengali_meaning": "",
+    "bengali_meaning": "শারীরিক শিক্ষা",
     "level": "N3"
   },
   {
@@ -8420,7 +8420,7 @@
     "furigana": "たいかい",
     "romaji": "taikai",
     "english_meaning": "convention; tournament; mass meeting; rally",
-    "bengali_meaning": "",
+    "bengali_meaning": "সম্মেলন",
     "level": "N3"
   },
   {
@@ -8429,7 +8429,7 @@
     "furigana": "たいき",
     "romaji": "taiki",
     "english_meaning": "atmosphere",
-    "bengali_meaning": "",
+    "bengali_meaning": "বায়ু / পরিবেশ",
     "level": "N3"
   },
   {
@@ -8447,7 +8447,7 @@
     "furigana": "たいくつ",
     "romaji": "taikutsu",
     "english_meaning": "tedium; boredom",
-    "bengali_meaning": "",
+    "bengali_meaning": "একঘেয়েমি",
     "level": "N3"
   },
   {
@@ -10886,7 +10886,7 @@
     "furigana": "にがて",
     "romaji": "nigate",
     "english_meaning": "poor (at); weak (in); dislike (of)",
-    "bengali_meaning": "দুর্বল / অপছন্দ",
+    "bengali_meaning": "দুর্বল",
     "level": "N3"
   },
   {
@@ -10895,7 +10895,7 @@
     "furigana": "にぎる",
     "romaji": "nigiru",
     "english_meaning": "to grasp; to seize; to mould sushi",
-    "bengali_meaning": "মুষ্টিতে ধরা",
+    "bengali_meaning": "দৃঢ়মুষ্টিতে ধরা",
     "level": "N3"
   },
   {
