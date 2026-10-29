@@ -1,38 +1,4 @@
 [
-  {
-    "id": "minna-032-g1",
-    "pattern": "〜32-A",
-    "meaning_en": "Grammar pattern 32-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 32-A",
-    "examples": [
-      {
-        "jp": "これは レッスン32の 文法です。",
-        "en": "This is lesson 32 grammar.",
-        "bn": "This is lesson 32 grammar.",
-        "furigana": "これは レッスン32の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  },
-  {
-    "id": "minna-032-g2",
-    "pattern": "〜32-B",
-    "meaning_en": "Grammar pattern 32-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 32-B",
-    "examples": [
-      {
-        "jp": "これは レッスン32の 文法です。",
-        "en": "This is lesson 32 grammar.",
-        "bn": "This is lesson 32 grammar.",
-        "furigana": "これは レッスン32の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  }
+{"id":"minna-032-g001","pattern":"～かもしれません","meaning_en":"might / perhaps","example_jp":"雨が降るかもしれません。","example_en":"It might rain."},
+{"id":"minna-032-g002","pattern":"～でしょう","meaning_en":"probably","example_jp":"明日は晴れるでしょう。","example_en":"It will probably be sunny tomorrow."}
 ]

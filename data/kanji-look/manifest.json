@@ -1,0 +1,7 @@
+{
+  "courseId": "kanji-look",
+  "source": "Kanji Look and Learn (ジャパンタイムズ出版)",
+  "levels": [
+    {"id":"kanji-look-n5","level":"N5","totalKanji":79,"file":"kanji-n5.json"}
+  ]
+}

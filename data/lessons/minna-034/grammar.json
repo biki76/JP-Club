@@ -1,38 +1,4 @@
 [
-  {
-    "id": "minna-034-g1",
-    "pattern": "〜34-A",
-    "meaning_en": "Grammar pattern 34-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 34-A",
-    "examples": [
-      {
-        "jp": "これは レッスン34の 文法です。",
-        "en": "This is lesson 34 grammar.",
-        "bn": "This is lesson 34 grammar.",
-        "furigana": "これは レッスン34の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  },
-  {
-    "id": "minna-034-g2",
-    "pattern": "〜34-B",
-    "meaning_en": "Grammar pattern 34-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 34-B",
-    "examples": [
-      {
-        "jp": "これは レッスン34の 文法です。",
-        "en": "This is lesson 34 grammar.",
-        "bn": "This is lesson 34 grammar.",
-        "furigana": "これは レッスン34の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  }
+{"id":"minna-034-g001","pattern":"～たばかり","meaning_en":"just did","example_jp":"今、食べたばかりです。","example_en":"I just ate."},
+{"id":"minna-034-g002","pattern":"～たところ","meaning_en":"just did / just finished","example_jp":"今、終わったところです。","example_en":"I just finished."}
 ]

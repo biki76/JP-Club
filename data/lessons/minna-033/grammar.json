@@ -1,38 +1,4 @@
 [
-  {
-    "id": "minna-033-g1",
-    "pattern": "〜33-A",
-    "meaning_en": "Grammar pattern 33-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 33-A",
-    "examples": [
-      {
-        "jp": "これは レッスン33の 文法です。",
-        "en": "This is lesson 33 grammar.",
-        "bn": "This is lesson 33 grammar.",
-        "furigana": "これは レッスン33の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  },
-  {
-    "id": "minna-033-g2",
-    "pattern": "〜33-B",
-    "meaning_en": "Grammar pattern 33-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 33-B",
-    "examples": [
-      {
-        "jp": "これは レッスン33の 文法です。",
-        "en": "This is lesson 33 grammar.",
-        "bn": "This is lesson 33 grammar.",
-        "furigana": "これは レッスン33の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  }
+{"id":"minna-033-g001","pattern":"～ために","meaning_en":"in order to / because of","example_jp":"健康のために運動しています。","example_en":"I exercise for my health."},
+{"id":"minna-033-g002","pattern":"～ように","meaning_en":"so that","example_jp":"聞こえるように大きい声で話してください。","example_en":"Please speak loudly so that I can hear."}
 ]

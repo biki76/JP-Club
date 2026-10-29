@@ -1,0 +1,43 @@
+{
+  "courseId": "temabetsu",
+  "source": "テーマ別 中級から学ぶ日本語 / テーマ別 上級で学ぶ日本語",
+  "intermediate": [
+    {"id":"temabetsu-int-01","topic":"まなぶ","title":"なぞなぞ","level":"Intermediate","bengali_topic":"শেখা","bengali_title":"ধাঁধা"},
+    {"id":"temabetsu-int-02","topic":"みつける","title":"花の名前","level":"Intermediate","bengali_topic":"খুঁজে পাওয়া","bengali_title":"ফুলের নাম"},
+    {"id":"temabetsu-int-03","topic":"たべる","title":"ごちそう","level":"Intermediate","bengali_topic":"খাওয়া","bengali_title":"ভোজ"},
+    {"id":"temabetsu-int-04","topic":"たとえる","title":"猫に小判","level":"Intermediate","bengali_topic":"উপমা দেওয়া","bengali_title":"বিড়ালের গলায় ঘণ্টা"},
+    {"id":"temabetsu-int-05","topic":"あきれる","title":"満員電車","level":"Intermediate","bengali_topic":"অবাক হওয়া","bengali_title":"ভিড়ের ট্রেন"},
+    {"id":"temabetsu-int-06","topic":"つたえる","title":"思いやり","level":"Intermediate","bengali_topic":"প্রকাশ করা","bengali_title":"সহানুভূতি"},
+    {"id":"temabetsu-int-07","topic":"かざる","title":"名刺","level":"Intermediate","bengali_topic":"সাজানো","bengali_title":"ভিজিটিং কার্ড"},
+    {"id":"temabetsu-int-08","topic":"おもいこむ","title":"男の色・女の色","level":"Intermediate","bengali_topic":"দৃঢ় বিশ্বাস","bengali_title":"পুরুষের রং ও নারীর রং"},
+    {"id":"temabetsu-int-09","topic":"まもる","title":"見えない相手","level":"Intermediate","bengali_topic":"রক্ষা করা","bengali_title":"অদৃশ্য প্রতিপক্ষ"},
+    {"id":"temabetsu-int-10","topic":"なれる","title":"腕時計","level":"Intermediate","bengali_topic":"অভ্যস্ত হওয়া","bengali_title":"হাতঘড়ি"},
+    {"id":"temabetsu-int-11","topic":"つながる","title":"タテとヨコ","level":"Intermediate","bengali_topic":"সংযুক্ত হওয়া","bengali_title":"উল্লম্ব ও অনুভূমিক"},
+    {"id":"temabetsu-int-12","topic":"わける","title":"ABOAB","level":"Intermediate","bengali_topic":"বিভক্ত করা","bengali_title":"এবিওএবি"},
+    {"id":"temabetsu-int-13","topic":"おもいだす","title":"昼のにおい","level":"Intermediate","bengali_topic":"মনে পড়া","bengali_title":"দিনের গন্ধ"},
+    {"id":"temabetsu-int-14","topic":"みなおす","title":"てるてるぼうず","level":"Intermediate","bengali_topic":"পুনর্বিবেচনা করা","bengali_title":"টেরুটেরুবোজু"},
+    {"id":"temabetsu-int-15","topic":"ふれあう","title":"旅行かばん","level":"Intermediate","bengali_topic":"সংস্পর্শে আসা","bengali_title":"ভ্রমণের ব্যাগ"},
+    {"id":"temabetsu-int-16","topic":"うたう","title":"歌の力","level":"Intermediate","bengali_topic":"গান গাওয়া","bengali_title":"গানের শক্তি"},
+    {"id":"temabetsu-int-17","topic":"なおす","title":"命","level":"Intermediate","bengali_topic":"সংশোধন করা","bengali_title":"জীবন"},
+    {"id":"temabetsu-int-18","topic":"はなれる","title":"ふるさと","level":"Intermediate","bengali_topic":"দূরে সরে যাওয়া","bengali_title":"শৈশবের ভিটা"},
+    {"id":"temabetsu-int-19","topic":"かなえる","title":"ふたつの夢","level":"Intermediate","bengali_topic":"সফল করা","bengali_title":"দুটি স্বপ্ন"},
+    {"id":"temabetsu-int-20","topic":"おぼえる","title":"ものづくり","level":"Intermediate","bengali_topic":"মনে রাখা","bengali_title":"কারুশিল্প"}
+  ],
+  "advanced": [
+    {"id":"temabetsu-adv-01","topic":"しる","title":"初めての雪","level":"Advanced","bengali_topic":"জানা","bengali_title":"প্রথম তুষার"},
+    {"id":"temabetsu-adv-02","topic":"いたわる","title":"春の一日","level":"Advanced","bengali_topic":"যত্ন নেওয়া","bengali_title":"বসন্তের একটি দিন"},
+    {"id":"temabetsu-adv-03","topic":"ならう","title":"そば屋の先生","level":"Advanced","bengali_topic":"শেখা","bengali_title":"সোবা বিক্রেতা শিক্ষক"},
+    {"id":"temabetsu-adv-04","topic":"よみとる","title":"記事の裏側","level":"Advanced","bengali_topic":"পাঠ করে বোঝা","bengali_title":"সংবাদের অন্তরালে"},
+    {"id":"temabetsu-adv-05","topic":"さばく","title":"裁判員のもやもや","level":"Advanced","bengali_topic":"বিচার করা","bengali_title":"জুরির দ্বিধা"},
+    {"id":"temabetsu-adv-06","topic":"うやまう","title":"ガイドさんの宗教","level":"Advanced","bengali_topic":"শ্রদ্ধা করা","bengali_title":"গাইডের ধর্ম"},
+    {"id":"temabetsu-adv-07","topic":"ふせぐ","title":"並ぶ文化","level":"Advanced","bengali_topic":"প্রতিরোধ করা","bengali_title":"সারিবদ্ধ সংস্কৃতি"},
+    {"id":"temabetsu-adv-08","topic":"もてなす","title":"ローソクの島","level":"Advanced","bengali_topic":"আপ্যায়ন করা","bengali_title":"মোমবাতির দ্বীপ"},
+    {"id":"temabetsu-adv-09","topic":"よびかける","title":"一茶の目","level":"Advanced","bengali_topic":"আহ্বান জানানো","bengali_title":"ইসার চোখ"},
+    {"id":"temabetsu-adv-10","topic":"えらぶ","title":"自らの選択","level":"Advanced","bengali_topic":"নির্বাচন করা","bengali_title":"নিজের পছন্দ"},
+    {"id":"temabetsu-adv-11","topic":"いかす","title":"もったいない話","level":"Advanced","bengali_topic":"কাজে লাগানো","bengali_title":"অপচয়ের গল্প"},
+    {"id":"temabetsu-adv-12","topic":"つなぐ","title":"折り鶴","level":"Advanced","bengali_topic":"সংযুক্ত করা","bengali_title":"অরিগামি সারস"},
+    {"id":"temabetsu-adv-13","topic":"たのしむ","title":"なりわい","level":"Advanced","bengali_topic":"উপভোগ করা","bengali_title":"জীবিকা"},
+    {"id":"temabetsu-adv-14","topic":"きたえる","title":"健康な社会","level":"Advanced","bengali_topic":"শক্তিশালী করা","bengali_title":"স্বাস্থ্যকর সমাজ"},
+    {"id":"temabetsu-adv-15","topic":"いきる","title":"ひとつの地球","level":"Advanced","bengali_topic":"বেঁচে থাকা","bengali_title":"একটি পৃথিবী"}
+  ]
+}

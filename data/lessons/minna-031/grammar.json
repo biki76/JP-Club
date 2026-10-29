@@ -1,38 +1,4 @@
 [
-  {
-    "id": "minna-031-g1",
-    "pattern": "〜31-A",
-    "meaning_en": "Grammar pattern 31-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 31-A",
-    "examples": [
-      {
-        "jp": "これは レッスン31の 文法です。",
-        "en": "This is lesson 31 grammar.",
-        "bn": "This is lesson 31 grammar.",
-        "furigana": "これは レッスン31の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  },
-  {
-    "id": "minna-031-g2",
-    "pattern": "〜31-B",
-    "meaning_en": "Grammar pattern 31-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 31-B",
-    "examples": [
-      {
-        "jp": "これは レッスン31の 文法です。",
-        "en": "This is lesson 31 grammar.",
-        "bn": "This is lesson 31 grammar.",
-        "furigana": "これは レッスン31の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  }
+{"id":"minna-031-g001","pattern":"～つもりです","meaning_en":"intend to","example_jp":"来年日本へ行くつもりです。","example_en":"I intend to go to Japan next year."},
+{"id":"minna-031-g002","pattern":"～予定です","meaning_en":"be scheduled to","example_jp":"会議は3時からです。","example_en":"The meeting is scheduled from 3 o'clock."}
 ]

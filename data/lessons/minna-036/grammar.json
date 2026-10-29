@@ -1,38 +1,13 @@
 [
-  {
-    "id": "minna-036-g1",
-    "pattern": "〜36-A",
-    "meaning_en": "Grammar pattern 36-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 36-A",
-    "examples": [
-      {
-        "jp": "これは レッスン36の 文法です。",
-        "en": "This is lesson 36 grammar.",
-        "bn": "This is lesson 36 grammar.",
-        "furigana": "これは レッスン36の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  },
-  {
-    "id": "minna-036-g2",
-    "pattern": "〜36-B",
-    "meaning_en": "Grammar pattern 36-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 36-B",
-    "examples": [
-      {
-        "jp": "これは レッスン36の 文法です。",
-        "en": "This is lesson 36 grammar.",
-        "bn": "This is lesson 36 grammar.",
-        "furigana": "これは レッスン36の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  }
+{"id":"minna-036-g001","pattern":"～てみます","meaning_en":"try doing","example_jp":"この料理を食べてみてください。","example_en":"Please try eating this dish."},
+{"id":"minna-036-g002","pattern":"～ておきます","meaning_en":"do in advance","example_jp":"先に予約しておきます。","example_en":"I'll make a reservation in advance."}
+]
+EOF# ---------- Lesson 37 ----------
+mkdir -p "$BASE/minna-037"
+cat > "$BASE/minna-037/vocabulary.json" <<'EOF'
+[
+{"id":"minna-037-v001","kanji":"褒めます","furigana":"ほめます","romaji":"homemasu","english_meaning":"to praise","type":"verb"},
+{"id":"minna-037-v002","kanji":"叱ります","furigana":"しかります","romaji":"shikarimasu","english_meaning":"to scold","type":"verb"},
+{"id":"minna-037-v003","kanji":"誘います","furigana":"さそいます","romaji":"sasoimasu","english_meaning":"to invite","type":"verb"},
+{"id":"minna-037-v004","kanji":"輸入します","furigana":"ゆにゅうします","romaji":"yunyuu shimasu","english_meaning":"to import","type":"verb"}
 ]

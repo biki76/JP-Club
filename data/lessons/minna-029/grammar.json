@@ -1,38 +1,4 @@
 [
-  {
-    "id": "minna-029-g1",
-    "pattern": "〜29-A",
-    "meaning_en": "Grammar pattern 29-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 29-A",
-    "examples": [
-      {
-        "jp": "これは レッスン29の 文法です。",
-        "en": "This is lesson 29 grammar.",
-        "bn": "This is lesson 29 grammar.",
-        "furigana": "これは レッスン29の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  },
-  {
-    "id": "minna-029-g2",
-    "pattern": "〜29-B",
-    "meaning_en": "Grammar pattern 29-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 29-B",
-    "examples": [
-      {
-        "jp": "これは レッスン29の 文法です。",
-        "en": "This is lesson 29 grammar.",
-        "bn": "This is lesson 29 grammar.",
-        "furigana": "これは レッスン29の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  }
+{"id":"minna-029-g001","pattern":"～てしまいます","meaning_en":"completion / regret","example_jp":"ケーキを全部食べてしまいました。","example_en":"I ate the whole cake (unfortunately)."},
+{"id":"minna-029-g002","pattern":"～てあります","meaning_en":"state resulting from intentional action","example_jp":"窓が開けてあります。","example_en":"The window has been opened (and is still open)."}
 ]

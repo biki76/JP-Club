@@ -1,38 +1,4 @@
 [
-  {
-    "id": "minna-026-g1",
-    "pattern": "〜26-A",
-    "meaning_en": "Grammar pattern 26-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 26-A",
-    "examples": [
-      {
-        "jp": "これは レッスン26の 文法です。",
-        "en": "This is lesson 26 grammar.",
-        "bn": "This is lesson 26 grammar.",
-        "furigana": "これは レッスン26の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  },
-  {
-    "id": "minna-026-g2",
-    "pattern": "〜26-B",
-    "meaning_en": "Grammar pattern 26-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 26-B",
-    "examples": [
-      {
-        "jp": "これは レッスン26の 文法です。",
-        "en": "This is lesson 26 grammar.",
-        "bn": "This is lesson 26 grammar.",
-        "furigana": "これは レッスン26の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  }
+{"id":"minna-026-g001","pattern":"～んです","meaning_en":"explaining cause / reason","example_jp":"どうしておくれたんですか。","example_en":"Why were you late?"},
+{"id":"minna-026-g002","pattern":"～ていただけませんか","meaning_en":"polite request","example_jp":"ちょっと待っていただけませんか。","example_en":"Could you please wait a moment?"}
 ]

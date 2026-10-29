@@ -1,38 +1,4 @@
 [
-  {
-    "id": "minna-030-g1",
-    "pattern": "〜30-A",
-    "meaning_en": "Grammar pattern 30-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 30-A",
-    "examples": [
-      {
-        "jp": "これは レッスン30の 文法です。",
-        "en": "This is lesson 30 grammar.",
-        "bn": "This is lesson 30 grammar.",
-        "furigana": "これは レッスン30の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  },
-  {
-    "id": "minna-030-g2",
-    "pattern": "〜30-B",
-    "meaning_en": "Grammar pattern 30-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 30-B",
-    "examples": [
-      {
-        "jp": "これは レッスン30の 文法です。",
-        "en": "This is lesson 30 grammar.",
-        "bn": "This is lesson 30 grammar.",
-        "furigana": "これは レッスン30の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  }
+{"id":"minna-030-g001","pattern":"～ておきます","meaning_en":"doing something in preparation","example_jp":"ホテルを予約しておきます。","example_en":"I'll reserve the hotel in advance."},
+{"id":"minna-030-g002","pattern":"～てしまいます","meaning_en":"completion (often regretful)","example_jp":"財布をなくしてしまいました。","example_en":"I lost my wallet (unfortunately)."}
 ]

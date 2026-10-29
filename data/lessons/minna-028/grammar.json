@@ -1,38 +1,4 @@
 [
-  {
-    "id": "minna-028-g1",
-    "pattern": "〜28-A",
-    "meaning_en": "Grammar pattern 28-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 28-A",
-    "examples": [
-      {
-        "jp": "これは レッスン28の 文法です。",
-        "en": "This is lesson 28 grammar.",
-        "bn": "This is lesson 28 grammar.",
-        "furigana": "これは レッスン28の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  },
-  {
-    "id": "minna-028-g2",
-    "pattern": "〜28-B",
-    "meaning_en": "Grammar pattern 28-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 28-B",
-    "examples": [
-      {
-        "jp": "これは レッスン28の 文法です。",
-        "en": "This is lesson 28 grammar.",
-        "bn": "This is lesson 28 grammar.",
-        "furigana": "これは レッスン28の 文法です。",
-        "romaji": ""
-      }
-    ],
-    "tags": [
-      "grammar"
-    ]
-  }
+{"id":"minna-028-g001","pattern":"～ながら","meaning_en":"doing two actions simultaneously","example_jp":"音楽を聞きながら勉強します。","example_en":"I study while listening to music."},
+{"id":"minna-028-g002","pattern":"～し～し","meaning_en":"listing multiple reasons / facts","example_jp":"安いし、おいしいし、よく食べます。","example_en":"It's cheap and delicious, so I eat it often."}
 ]
