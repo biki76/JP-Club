@@ -45,3 +45,15 @@
 .cloud-chip__menu button:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
 
 @media (max-width: 640px) { .cloud-chip__email { display: none; } }
+
+/* Mobile overflow fix for Sign In button */
+@media (max-width: 640px) {
+  .cloud-chip__btn {
+    max-width: 26vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+}
