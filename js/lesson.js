@@ -6,6 +6,7 @@
    - Filters (?filter=) and book scope (?book=) live in the URL. */
 
 (function () {
+alert('lesson.js is running!');
   'use strict';
 
   const TOTAL_LESSONS = 50;
