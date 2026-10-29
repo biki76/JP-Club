@@ -113,7 +113,7 @@
     "furigana": "あきらか",
     "romaji": "akiraka",
     "english_meaning": "obvious; evident; clear",
-    "bengali_meaning": "সুস্পষ্ট",
+    "bengali_meaning": "স্পষ্ট",
     "level": "N3"
   },
   {
@@ -311,7 +311,7 @@
     "furigana": "あらた",
     "romaji": "arata",
     "english_meaning": "new; fresh; novel",
-    "bengali_meaning": "",
+    "bengali_meaning": "নতুন",
     "level": "N3"
   },
   {
@@ -491,7 +491,7 @@
     "furigana": "いがい",
     "romaji": "igai",
     "english_meaning": "unexpected; surprising",
-    "bengali_meaning": "",
+    "bengali_meaning": "অপ্রত্যাশিত",
     "level": "N3"
   },
   {
@@ -734,7 +734,7 @@
     "furigana": "いつか",
     "romaji": "itsuka",
     "english_meaning": "sometime; someday; one day",
-    "bengali_meaning": "",
+    "bengali_meaning": "কোনো একদিন",
     "level": "N3"
   },
   {
@@ -2381,7 +2381,7 @@
     "furigana": "かしこい",
     "romaji": "kashikoi",
     "english_meaning": "wise; clever; smart",
-    "bengali_meaning": "",
+    "bengali_meaning": "বুদ্ধিমান",
     "level": "N3"
   },
   {
@@ -2498,7 +2498,7 @@
     "furigana": "がっかり",
     "romaji": "gakkari",
     "english_meaning": "feel disappointed; be dejected; lose heart",
-    "bengali_meaning": "",
+    "bengali_meaning": "হতাশ",
     "level": "N3"
   },
   {
@@ -2561,7 +2561,7 @@
     "furigana": "かなり",
     "romaji": "kanari",
     "english_meaning": "considerably; fairly; quite",
-    "bengali_meaning": "",
+    "bengali_meaning": "বেশ / যথেষ্ট",
     "level": "N3"
   },
   {
@@ -3155,7 +3155,7 @@
     "furigana": "きちんと",
     "romaji": "kichinto",
     "english_meaning": "precisely; accurately",
-    "bengali_meaning": "",
+    "bengali_meaning": "পরিপাটিভাবে",
     "level": "N3"
   },
   {
@@ -3749,7 +3749,7 @@
     "furigana": "ぐうぜん",
     "romaji": "guuzen",
     "english_meaning": "(by) chance; unexpectedly; suddenly",
-    "bengali_meaning": "",
+    "bengali_meaning": "আকস্মিকভাবে",
     "level": "N3"
   },
   {
@@ -3839,7 +3839,7 @@
     "furigana": "ぐっすり",
     "romaji": "gussuri",
     "english_meaning": "sound asleep; fast asleep",
-    "bengali_meaning": "",
+    "bengali_meaning": "গভীর ঘুমে",
     "level": "N3"
   },
   {
@@ -5540,7 +5540,7 @@
     "furigana": "さまざま",
     "romaji": "samazama",
     "english_meaning": "varied; various",
-    "bengali_meaning": "",
+    "bengali_meaning": "বিভিন্ন",
     "level": "N3"
   },
   {
@@ -5675,7 +5675,7 @@
     "furigana": "しあわせ",
     "romaji": "shiawase",
     "english_meaning": "happiness; good fortune; luck; blessing",
-    "bengali_meaning": "",
+    "bengali_meaning": "সুখী",
     "level": "N3"
   },
   {
@@ -5927,7 +5927,7 @@
     "furigana": "したがって",
     "romaji": "shitagatte",
     "english_meaning": "therefore; consequently; in accordance with",
-    "bengali_meaning": "",
+    "bengali_meaning": "অতএব",
     "level": "N3"
   },
   {
@@ -6008,7 +6008,7 @@
     "furigana": "じっと",
     "romaji": "jitto",
     "english_meaning": "fixedly; firmly; patiently; quietly",
-    "bengali_meaning": "",
+    "bengali_meaning": "স্থিরভাবে",
     "level": "N3"
   },
   {
@@ -6026,7 +6026,7 @@
     "furigana": "じつは",
     "romaji": "jitsuwa",
     "english_meaning": "as a matter of fact; by the way",
-    "bengali_meaning": "",
+    "bengali_meaning": "আসলে",
     "level": "N3"
   },
   {
@@ -6521,7 +6521,7 @@
     "furigana": "しゅよう",
     "romaji": "shuyou",
     "english_meaning": "chief; main; principal; major",
-    "bengali_meaning": "",
+    "bengali_meaning": "প্রধান",
     "level": "N3"
   },
   {
@@ -7565,7 +7565,7 @@
     "furigana": "するどい",
     "romaji": "surudoi",
     "english_meaning": "pointed; sharp",
-    "bengali_meaning": "",
+    "bengali_meaning": "তীক্ষ্ণ",
     "level": "N3"
   },
   {
@@ -8150,7 +8150,7 @@
     "furigana": "そこで",
     "romaji": "sokode",
     "english_meaning": "so (conj); accordingly; now; then; thereupon",
-    "bengali_meaning": "",
+    "bengali_meaning": "তাই",
     "level": "N3"
   },
   {
@@ -8204,7 +8204,7 @@
     "furigana": "そっと",
     "romaji": "sotto",
     "english_meaning": "softly; gently; quietly; secretly",
-    "bengali_meaning": "",
+    "bengali_meaning": "আস্তে করে",
     "level": "N3"
   },
   {
@@ -8276,7 +8276,7 @@
     "furigana": "それでも",
     "romaji": "soredemo",
     "english_meaning": "but (still); and yet; nevertheless; even so; notwithstanding",
-    "bengali_meaning": "",
+    "bengali_meaning": "তবুও",
     "level": "N3"
   },
   {
@@ -9275,7 +9275,7 @@
     "furigana": "ちゃんと",
     "romaji": "chanto",
     "english_meaning": "perfectly; properly; exactly",
-    "bengali_meaning": "",
+    "bengali_meaning": "ঠিকভাবে",
     "level": "N3"
   },
   {
@@ -9662,7 +9662,7 @@
     "furigana": "つまり",
     "romaji": "tsumari",
     "english_meaning": "in short; in brief; in other words",
-    "bengali_meaning": "",
+    "bengali_meaning": "অর্থাৎ",
     "level": "N3"
   },
   {
@@ -10238,7 +10238,7 @@
     "furigana": "とくい",
     "romaji": "tokui",
     "english_meaning": "pride; triumph; prosperity",
-    "bengali_meaning": "",
+    "bengali_meaning": "দক্ষ",
     "level": "N3"
   },
   {
@@ -10310,7 +10310,7 @@
     "furigana": "ところが",
     "romaji": "tokoroga",
     "english_meaning": "however; while; even if",
-    "bengali_meaning": "",
+    "bengali_meaning": "কিন্তু",
     "level": "N3"
   },
   {
@@ -10400,7 +10400,7 @@
     "furigana": "とつぜん",
     "romaji": "totsuzen",
     "english_meaning": "abruptly; suddenly; unexpectedly; all at once",
-    "bengali_meaning": "",
+    "bengali_meaning": "হঠাৎ",
     "level": "N3"
   },
   {
@@ -10733,7 +10733,7 @@
     "furigana": "なぜなら",
     "romaji": "nazenara",
     "english_meaning": "because",
-    "bengali_meaning": "",
+    "bengali_meaning": "কারণ",
     "level": "N3"
   },
   {
@@ -10886,7 +10886,7 @@
     "furigana": "にがて",
     "romaji": "nigate",
     "english_meaning": "poor (at); weak (in); dislike (of)",
-    "bengali_meaning": "",
+    "bengali_meaning": "দুর্বল / অপছন্দ",
     "level": "N3"
   },
   {
@@ -11300,7 +11300,7 @@
     "furigana": "のんびり",
     "romaji": "nonbiri",
     "english_meaning": "carefree; at leisure",
-    "bengali_meaning": "",
+    "bengali_meaning": "আরামে",
     "level": "N3"
   },
   {
@@ -11480,7 +11480,7 @@
     "furigana": "はげしい",
     "romaji": "hageshii",
     "english_meaning": "violent; vehement; intense",
-    "bengali_meaning": "",
+    "bengali_meaning": "তীব্র",
     "level": "N3"
   },
   {
@@ -11984,7 +11984,7 @@
     "furigana": "びっくり",
     "romaji": "bikkuri",
     "english_meaning": "be surprised; be amazed; be frightened; astonishment",
-    "bengali_meaning": "",
+    "bengali_meaning": "অবাক / বিস্মিত",
     "level": "N3"
   },
   {
@@ -12452,7 +12452,7 @@
     "furigana": "ふたたび",
     "romaji": "futatabi",
     "english_meaning": "again; once more; a second time",
-    "bengali_meaning": "",
+    "bengali_meaning": "আবার",
     "level": "N3"
   },
   {
@@ -13064,7 +13064,7 @@
     "furigana": "ぼんやり",
     "romaji": "bon'yari",
     "english_meaning": "absent-minded; block-head; dim; faint; vague",
-    "bengali_meaning": "",
+    "bengali_meaning": "অস্পষ্টভাবে / অমনোযোগী",
     "level": "N3"
   },
   {
@@ -14864,7 +14864,7 @@
     "furigana": "わざと",
     "romaji": "wazato",
     "english_meaning": "on purpose",
-    "bengali_meaning": "",
+    "bengali_meaning": "ইচ্ছাকৃতভাবে",
     "level": "N3"
   },
   {
