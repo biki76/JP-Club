@@ -333,3 +333,16 @@
     justify-content: center;
   }
 }
+/* ---- Header overflow fix v2 ---- */
+@media (max-width: 639px) {
+  .shell-header { padding: 0 10px; gap: 8px; }
+  .shell-header__spacer { display: none; }
+  .shell-header__brand { min-width: 0; }
+  .shell-header__brand > span:last-child {
+    max-width: 30vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .shell-header__actions { margin-left: auto; flex-shrink: 0; }
+}
