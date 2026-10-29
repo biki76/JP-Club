@@ -14,7 +14,7 @@
     "furigana": "あいさつ",
     "romaji": "aisatsu",
     "english_meaning": "greeting; salutation",
-    "bengali_meaning": "অভিবাদন",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -59,7 +59,7 @@
     "furigana": "あいて",
     "romaji": "aite",
     "english_meaning": "companion; partner; company",
-    "bengali_meaning": "সঙ্গী",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -122,7 +122,7 @@
     "furigana": "あきらめる",
     "romaji": "akirameru",
     "english_meaning": "to give up; to abandon",
-    "bengali_meaning": "",
+    "bengali_meaning": "হাল ছেড়ে দেওয়া",
     "level": "N3"
   },
   {
@@ -1094,7 +1094,7 @@
     "furigana": "うごかす",
     "romaji": "ugokasu",
     "english_meaning": "to move; to shift",
-    "bengali_meaning": "",
+    "bengali_meaning": "নাড়ানো",
     "level": "N3"
   },
   {
@@ -1517,7 +1517,7 @@
     "furigana": "おえる",
     "romaji": "oeru",
     "english_meaning": "to finish",
-    "bengali_meaning": "",
+    "bengali_meaning": "শেষ করা",
     "level": "N3"
   },
   {
@@ -1598,7 +1598,7 @@
     "furigana": "おこる",
     "romaji": "okoru",
     "english_meaning": "to occur; to happen",
-    "bengali_meaning": "",
+    "bengali_meaning": "ঘটা",
     "level": "N3"
   },
   {
@@ -1859,7 +1859,7 @@
     "furigana": "おん",
     "romaji": "on",
     "english_meaning": "sound; note",
-    "bengali_meaning": "",
+    "bengali_meaning": "শব্দ",
     "level": "N3"
   },
   {
@@ -2174,7 +2174,7 @@
     "furigana": "かぐ",
     "romaji": "kagu",
     "english_meaning": "furniture",
-    "bengali_meaning": "",
+    "bengali_meaning": "আসবাব",
     "level": "N3"
   },
   {
@@ -2255,7 +2255,7 @@
     "furigana": "かくにん",
     "romaji": "kakunin",
     "english_meaning": "affirmation; confirmation",
-    "bengali_meaning": "নিশ্চিতকরণ",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -2606,7 +2606,7 @@
     "furigana": "かぶる",
     "romaji": "kaburu",
     "english_meaning": "to put on (one's head); to wear; to have on; to pull over (one's head)",
-    "bengali_meaning": "",
+    "bengali_meaning": "পরা (টুপি)",
     "level": "N3"
   },
   {
@@ -2678,7 +2678,7 @@
     "furigana": "から",
     "romaji": "kara",
     "english_meaning": "emptiness; being empty",
-    "bengali_meaning": "",
+    "bengali_meaning": "আকাশ",
     "level": "N3"
   },
   {
@@ -2759,7 +2759,7 @@
     "furigana": "かんがえ",
     "romaji": "kangae",
     "english_meaning": "thinking; thought; ideas; intention",
-    "bengali_meaning": "",
+    "bengali_meaning": "চিন্তা",
     "level": "N3"
   },
   {
@@ -2804,7 +2804,7 @@
     "furigana": "かんこう",
     "romaji": "kankou",
     "english_meaning": "sightseeing",
-    "bengali_meaning": "দর্শন",
+    "bengali_meaning": "পর্যটন",
     "level": "N3"
   },
   {
@@ -3128,7 +3128,7 @@
     "furigana": "きたく",
     "romaji": "kitaku",
     "english_meaning": "returning home",
-    "bengali_meaning": "বাড়ি ফেরা",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -3362,7 +3362,7 @@
     "furigana": "きゅうけい",
     "romaji": "kyuukei",
     "english_meaning": "rest; break; recess; intermission",
-    "bengali_meaning": "বিরতি",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -3596,7 +3596,7 @@
     "furigana": "きれる",
     "romaji": "kireru",
     "english_meaning": "to cut well; to be sharp; to break (off)",
-    "bengali_meaning": "",
+    "bengali_meaning": "ছিঁড়ে যাওয়া",
     "level": "N3"
   },
   {
@@ -4136,7 +4136,7 @@
     "furigana": "けいさん",
     "romaji": "keisan",
     "english_meaning": "calculation; reckoning",
-    "bengali_meaning": "গণনা",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -4208,7 +4208,7 @@
     "furigana": "けが",
     "romaji": "kega",
     "english_meaning": "injury (to animate object); hurt",
-    "bengali_meaning": "",
+    "bengali_meaning": "আঘাত",
     "level": "N3"
   },
   {
@@ -4235,7 +4235,7 @@
     "furigana": "けしょう",
     "romaji": "keshou",
     "english_meaning": "make-up (cosmetic)",
-    "bengali_meaning": "মেকআপ",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -4253,7 +4253,7 @@
     "furigana": "けっか",
     "romaji": "kekka",
     "english_meaning": "result; consequence",
-    "bengali_meaning": "",
+    "bengali_meaning": "ফলাফল",
     "level": "N3"
   },
   {
@@ -4289,7 +4289,7 @@
     "furigana": "けっせき",
     "romaji": "kesseki",
     "english_meaning": "absence; non-attendance",
-    "bengali_meaning": "অনুপস্থিতি",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -4622,7 +4622,7 @@
     "furigana": "ごうかく",
     "romaji": "goukaku",
     "english_meaning": "success; passing (e.g. exam); eligibility",
-    "bengali_meaning": "পাস",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -4874,7 +4874,7 @@
     "furigana": "こきょう",
     "romaji": "kokyou",
     "english_meaning": "home town; birthplace; old village; historic village",
-    "bengali_meaning": "নিজ শহর",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -5171,7 +5171,7 @@
     "furigana": "こんにち",
     "romaji": "konnichi",
     "english_meaning": "today; this day",
-    "bengali_meaning": "",
+    "bengali_meaning": "আজ",
     "level": "N3"
   },
   {
@@ -5621,7 +5621,7 @@
     "furigana": "さんか",
     "romaji": "sanka",
     "english_meaning": "participation",
-    "bengali_meaning": "অংশগ্রহণ",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -5954,7 +5954,7 @@
     "furigana": "しつぎょう",
     "romaji": "shitsugyou",
     "english_meaning": "unemployment",
-    "bengali_meaning": "বেকারত্ব",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -6323,7 +6323,7 @@
     "furigana": "しゅうしょく",
     "romaji": "shuushoku",
     "english_meaning": "finding employment; inauguration",
-    "bengali_meaning": "চাকরি পাওয়া",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -6485,7 +6485,7 @@
     "furigana": "しゅっしん",
     "romaji": "shusshin",
     "english_meaning": "graduate from; come from",
-    "bengali_meaning": "জন্মস্থান",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -7070,7 +7070,7 @@
     "furigana": "しんがく",
     "romaji": "shingaku",
     "english_meaning": "going on to university",
-    "bengali_meaning": "উচ্চশিক্ষায় অগ্রসর",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -7106,7 +7106,7 @@
     "furigana": "しんごう",
     "romaji": "shingou",
     "english_meaning": "traffic lights; signal; semaphore",
-    "bengali_meaning": "",
+    "bengali_meaning": "ট্রাফিক সিগন্যাল",
     "level": "N3"
   },
   {
@@ -7682,7 +7682,7 @@
     "furigana": "せいこう",
     "romaji": "seikou",
     "english_meaning": "success; hit",
-    "bengali_meaning": "সাফল্য",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -7709,7 +7709,7 @@
     "furigana": "せいじん",
     "romaji": "seijin",
     "english_meaning": "adult",
-    "bengali_meaning": "প্রাপ্তবয়স্ক",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -7754,7 +7754,7 @@
     "furigana": "せいちょう",
     "romaji": "seichou",
     "english_meaning": "growth; grow to adulthood",
-    "bengali_meaning": "বৃদ্ধি",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -8186,7 +8186,7 @@
     "furigana": "そだつ",
     "romaji": "sodatsu",
     "english_meaning": "to raise (child); to be brought up; to grow (up)",
-    "bengali_meaning": "",
+    "bengali_meaning": "বেড়ে ওঠা",
     "level": "N3"
   },
   {
@@ -8591,7 +8591,7 @@
     "furigana": "たいよう",
     "romaji": "taiyou",
     "english_meaning": "sun; solar",
-    "bengali_meaning": "",
+    "bengali_meaning": "সূর্য",
     "level": "N3"
   },
   {
@@ -9032,7 +9032,7 @@
     "furigana": "たんじょう",
     "romaji": "tanjou",
     "english_meaning": "birth",
-    "bengali_meaning": "জন্ম",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -9194,7 +9194,7 @@
     "furigana": "ちこく",
     "romaji": "chikoku",
     "english_meaning": "lateness; late coming",
-    "bengali_meaning": "দেরি",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -9347,7 +9347,7 @@
     "furigana": "ちゅうしょく",
     "romaji": "chuushoku",
     "english_meaning": "lunch; midday meal",
-    "bengali_meaning": "",
+    "bengali_meaning": "দুপুরের খাবার",
     "level": "N3"
   },
   {
@@ -10157,7 +10157,7 @@
     "furigana": "どうりょう",
     "romaji": "douryou",
     "english_meaning": "coworker; colleague; associate",
-    "bengali_meaning": "",
+    "bengali_meaning": "সহকর্মী",
     "level": "N3"
   },
   {
@@ -10418,7 +10418,7 @@
     "furigana": "とどく",
     "romaji": "todoku",
     "english_meaning": "to reach",
-    "bengali_meaning": "",
+    "bengali_meaning": "পৌঁছানো",
     "level": "N3"
   },
   {
@@ -10652,7 +10652,7 @@
     "furigana": "なか",
     "romaji": "naka",
     "english_meaning": "relation; relationship",
-    "bengali_meaning": "সম্পর্ক",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -11192,7 +11192,7 @@
     "furigana": "のこす",
     "romaji": "nokosu",
     "english_meaning": "to leave (behind, over); to bequeath; to save; to reserve",
-    "bengali_meaning": "",
+    "bengali_meaning": "রেখে দেওয়া",
     "level": "N3"
   },
   {
@@ -12533,7 +12533,7 @@
     "furigana": "ふね",
     "romaji": "fune",
     "english_meaning": "ship; boat; watercraft; shipping; vessel; steamship",
-    "bengali_meaning": "",
+    "bengali_meaning": "জাহাজ",
     "level": "N3"
   },
   {
@@ -12731,7 +12731,7 @@
     "furigana": "へらす",
     "romaji": "herasu",
     "english_meaning": "to abate; to decrease; to diminish; to shorten",
-    "bengali_meaning": "",
+    "bengali_meaning": "কমানো",
     "level": "N3"
   },
   {
@@ -12740,7 +12740,7 @@
     "furigana": "へる",
     "romaji": "heru",
     "english_meaning": "to decrease (in size or number); to diminish; to abate",
-    "bengali_meaning": "",
+    "bengali_meaning": "কমা",
     "level": "N3"
   },
   {
@@ -12776,7 +12776,7 @@
     "furigana": "へんこう",
     "romaji": "henkou",
     "english_meaning": "change; modification; alteration",
-    "bengali_meaning": "পরিবর্তন",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -12884,7 +12884,7 @@
     "furigana": "ほうもん",
     "romaji": "houmon",
     "english_meaning": "call; visit",
-    "bengali_meaning": "পরিদর্শন",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -14153,7 +14153,7 @@
     "furigana": "ゆうじん",
     "romaji": "yuujin",
     "english_meaning": "friend",
-    "bengali_meaning": "বন্ধু",
+    "bengali_meaning": "",
     "level": "N3"
   },
   {
@@ -14207,7 +14207,7 @@
     "furigana": "ゆか",
     "romaji": "yuka",
     "english_meaning": "floor",
-    "bengali_meaning": "",
+    "bengali_meaning": "মেঝে",
     "level": "N3"
   },
   {
@@ -14243,7 +14243,7 @@
     "furigana": "ゆっくり",
     "romaji": "yukkuri",
     "english_meaning": "slowly; at ease",
-    "bengali_meaning": "",
+    "bengali_meaning": "ধীরে",
     "level": "N3"
   },
   {
