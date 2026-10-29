@@ -346,3 +346,18 @@
   }
   .shell-header__actions { margin-left: auto; flex-shrink: 0; }
 }
+/* ---- Constrain injected auth button on phones ---- */
+@media (max-width: 639px) {
+  .shell-header a:not(.shell-header__brand),
+  .shell-header button:not(.shell-header__menu):not([data-theme-toggle]):not([data-lang-btn]):not([data-furigana-toggle]) {
+    max-width: 26vw;
+    min-width: 0;
+    flex-shrink: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 479px) {
+  .shell-header__brand > span:last-child { display: none; }
+}
