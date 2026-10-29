@@ -1,130 +1,285 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light" data-furigana="on">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lesson | JP-Club</title>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#f8fafc;--surface:#fff;--ink:#0f172a;--muted:#64748b;--border:#e2e8f0;--primary:#2563eb;--soft:#eff6ff;--font-en:'Inter',system-ui,sans-serif;--font-bn:'Hind Siliguri',sans-serif;--font-jp:'Noto Sans JP',sans-serif}
-html[data-theme="dark"]{--bg:#0b1220;--surface:#151e2e;--ink:#e2e8f0;--muted:#94a3b8;--border:#243244;--primary:#60a5fa;--soft:#12233d}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-en);line-height:1.6}
-html[lang="bn"] body{font-family:var(--font-bn)}
-header{position:sticky;top:0;z-index:50;background:var(--surface);border-bottom:1px solid var(--border);backdrop-filter:blur(8px)}
-.bar{max-width:900px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 16px;flex-wrap:wrap}
-.bar a.back{color:var(--primary);font-weight:700;text-decoration:none}
-.bar select{background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:8px;padding:6px 8px;font:inherit;font-size:.85rem}
-.spacer{flex:1}
-.iconbtn{min-width:38px;height:38px;border:1px solid var(--border);background:var(--surface);color:var(--ink);border-radius:10px;cursor:pointer;font-size:1rem}
-.langseg{display:flex;border:1px solid var(--border);border-radius:999px;overflow:hidden}
-.langseg button{border:0;background:var(--surface);color:var(--muted);padding:6px 12px;font:inherit;font-size:.8rem;font-weight:600;cursor:pointer}
-.langseg button[aria-pressed="true"]{background:var(--primary);color:#fff}
-main{max-width:900px;margin:0 auto;padding:16px}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;margin-bottom:16px;box-shadow:0 1px 3px rgba(15,23,42,.06)}
-h1{margin:0 0 4px;font-size:1.6rem}h2{margin:0 0 12px;font-size:1.15rem;border-bottom:1px solid var(--border);padding-bottom:8px}
-.muted{color:var(--muted)}.small{font-size:.8rem}.jp{font-family:var(--font-jp);font-weight:600;font-size:1.15rem}
-.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
-.badge{background:var(--soft);color:var(--primary);border-radius:999px;padding:2px 10px;font-size:.75rem;font-weight:600}
-.row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)}
-.row:last-child{border-bottom:0}.mean{text-align:right}
-.g-card{border-left:3px solid var(--primary);background:var(--soft);border-radius:0 10px 10px 0;padding:12px 14px;margin-bottom:12px}
-.g-card h3{margin:0 0 4px;font-size:1.05rem;font-family:var(--font-jp)}
-.g-card ul{margin:8px 0 0;padding-left:18px}
-.k-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
-.k-card{border:1px solid var(--border);border-radius:12px;padding:12px;background:var(--bg)}
-.k-char{font-family:var(--font-jp);font-size:2.2rem;line-height:1.2;margin:0}
-.navbtns{display:flex;justify-content:space-between;gap:10px;margin:8px 0 24px}
-.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--primary);color:#fff;text-decoration:none;border-radius:10px;padding:10px 18px;font-weight:600;font-size:.9rem}
-.btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson | JP-Club</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('nihongo_theme'); if (t) document.documentElement.setAttribute('data-theme', t);
+        var f = localStorage.getItem('nihongo_furigana'); if (f) document.documentElement.setAttribute('data-furigana', f);
+        var l = localStorage.getItem('nihongo_lang'); if (l) document.documentElement.setAttribute('lang', l === 'bn' ? 'bn' : 'en');
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Global App Styles -->
+  <link rel="stylesheet" href="css/cloud.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/shell.css" />
+  <link rel="stylesheet" href="css/a11y.css" />
+  <link rel="stylesheet" href="css/pwa.css" />
+
+  <!-- Lesson Specific Styles (Using Global Tokens) -->
+  <style>
+    .lv-page { max-width: 860px; display: flex; flex-direction: column; gap: var(--s-5); }
+    .lv-crumb a { font-size: var(--fs-sm); font-weight: 600; color: var(--primary); text-decoration: none; }
+    .lv-head { display: flex; flex-direction: column; gap: var(--s-2); margin-bottom: var(--s-4); }
+    .lv-kicker { margin: 0; font-size: var(--fs-xs); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-subtle); }
+    .lv-title { margin: 0; font-size: var(--fs-3xl); font-weight: 700; color: var(--ink); line-height: 1.25; }
+    html[lang="bn"] .lv-title { line-height: 1.45; }
+    .lv-subtitle { margin: 0; font-family: var(--font-jp); color: var(--ink-muted); font-size: var(--fs-lg); }
+    .lv-badges { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-2); }
+    
+    .lv-panel { min-height: 200px; margin-top: var(--s-4); }
+    .lv-list { display: flex; flex-direction: column; gap: var(--s-3); }
+    .lv-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--s-4); display: flex; flex-direction: column; gap: var(--s-2); transition: border-color 0.2s; }
+    .lv-item:hover { border-color: var(--primary); }
+    .lv-jp { margin: 0; font-family: var(--font-jp); font-size: var(--fs-xl); line-height: var(--lh-jp); color: var(--ink); font-weight: 500; }
+    .lv-reading { margin: 0; font-family: var(--font-jp); font-size: var(--fs-sm); color: var(--ink-muted); }
+    html[data-furigana="off"] .lv-reading { display: none; }
+    .lv-romaji { margin: 0; font-size: var(--fs-sm); color: var(--ink-subtle); font-style: italic; }
+    .lv-meaning { margin: 0; font-size: var(--fs-md); font-weight: 500; color: var(--ink); }
+    .lv-meaning--sm { font-size: var(--fs-sm); font-weight: 400; color: var(--ink-muted); }
+    
+    .lv-examples { list-style: none; margin: var(--s-3) 0 0; padding: var(--s-3); border-left: 3px solid var(--primary); background: color-mix(in srgb, var(--primary) 8%, transparent); border-radius: 0 var(--r-sm) var(--r-sm) 0; display: flex; flex-direction: column; gap: var(--s-3); }
+    .lv-examples li { display: flex; flex-direction: column; gap: 4px; }
+    
+    .lv-kanji-grid { display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+    .lv-kanji-char { margin: 0; font-family: var(--font-jp); font-size: var(--fs-4xl); line-height: 1.2; color: var(--ink); font-weight: 700; }
+    
+    .lv-empty { color: var(--ink-muted); padding: var(--s-6); text-align: center; background: var(--surface); border: 1px dashed var(--border); border-radius: var(--r-md); }
+    .lv-nav { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); padding-top: var(--s-5); border-top: 1px solid var(--border); margin-top: var(--s-6); }
+    
+    /* Grammar specific */
+    .lv-grammar-pattern { font-family: var(--font-jp); font-size: var(--fs-lg); font-weight: 600; color: var(--primary); margin: 0 0 var(--s-1); }
+  </style>
+
+  <script>
+    window.SHELL_CONFIG = {
+      navGroups: [
+        { title: { en: 'Learn', bn: 'শিখুন' }, items: [
+          { key: 'home', icon: 'home', href: 'home.html', label: { en: 'Home', bn: 'হোম' } },
+          { key: 'lesson', icon: 'book', href: 'lessons.html', label: { en: 'Lessons', bn: 'পাঠ' } },
+          { key: 'flashcards', icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
+          { key: 'quiz', icon: 'practice', href: 'quiz.html', label: { en: 'Quiz', bn: 'কুইজ' } },
+          { key: 'kanji', icon: 'kanji', href: 'kanji.html', label: { en: 'Kanji', bn: 'কাঞ্জি' } }
+        ]},
+        { title: { en: 'Explore', bn: 'অন্বেষণ' }, items: [
+          { key: 'search', icon: 'search', href: 'search.html', label: { en: 'Search', bn: 'অনুসন্ধান' } },
+          { key: 'progress', icon: 'practice', href: 'progress.html', label: { en: 'Progress', bn: 'অগ্রগতি' } },
+          { key: 'placement', icon: 'book', href: 'placement.html', label: { en: 'Placement', bn: 'প্লেসমেন্ট' } }
+        ]}
+      ],
+      bottomNav: [
+        { href: 'home.html', icon: 'home', label: { en: 'Home', bn: 'হোম' } },
+        { href: 'flashcards.html', icon: 'practice', label: { en: 'Cards', bn: 'কার্ড' } },
+        { href: 'search.html', icon: 'search', label: { en: 'Search', bn: 'অনুসন্ধান' } },
+        { href: 'progress.html', icon: 'practice', label: { en: 'Progress', bn: 'অগ্রগতি' } }
+      ],
+      searchEnabled: true
+    };
+  </script>
 </head>
-<body>
-<header><div class="bar">
-  <a class="back" href="lessons.html">← <span id="lbl-back">Lessons</span></a>
-  <select id="jump" aria-label="Jump to lesson"></select>
-  <span class="spacer"></span>
-  <span class="badge" id="badge">Lesson – of 50</span>
-  <div class="langseg"><button id="lang-en" aria-pressed="true">EN</button><button id="lang-bn" aria-pressed="false">বাং</button></div>
-  <button class="iconbtn" id="theme-btn" aria-label="Toggle dark mode">🌙</button>
-</div></header>
-<main>
-  <div class="card"><h1 id="title">Loading…</h1><p class="muted" id="subtitle"></p><div class="badges" id="head-badges"></div></div>
-  <div class="card"><h2>Vocabulary (শব্দভাণ্ডার / 語彙)</h2><div id="vocab"></div></div>
-  <div class="card"><h2>Grammar (ব্যাকরণ / 文法)</h2><div id="grammar"></div></div>
-  <div class="card"><h2>Kanji (কাঞ্জি / 漢字)</h2><div id="kanji"></div></div>
-  <div class="navbtns" id="nav"></div>
-</main>
-<script>
-const $=s=>document.querySelector(s);
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let lang=(localStorage.getItem('nihongo_lang')==='bn')?'bn':'en';
-let theme=localStorage.getItem('nihongo_theme')||'light';
-const state={n:1,data:{}};
-const slug=n=>'minna-'+String(n).padStart(3,'0');
-function numFromURL(){const p=new URLSearchParams(location.search);const v=p.get('lesson')||p.get('id')||'1';const n=parseInt(String(v).replace(/\D/g,''),10);return(n>=1&&n<=50)?n:1;}
-async function j(url){const r=await fetch(url,{cache:'no-cache'});if(!r.ok)throw new Error(url);return r.json();}
-const L=(en,bn)=>lang==='bn'?bn:en;
-const empty=()=>'<p class="muted">'+esc(L('No data for this section yet.','এই অংশের ডেটা এখনো যোগ করা হয়নি।'))+'</p>';
-function applyTheme(){document.documentElement.setAttribute('data-theme',theme);$('#theme-btn').textContent=theme==='dark'?'☀️':'';}
-function applyLang(){document.documentElement.lang=lang;$('#lang-en').setAttribute('aria-pressed',lang==='en');$('#lang-bn').setAttribute('aria-pressed',lang==='bn');$('#lbl-back').textContent=L('Lessons','পাঠ');}
-function renderHead(m){
-  const t=(m&&m.title)?m.title:null;
-  $('#badge').textContent='Lesson '+state.n+' of 50';
-  $('#title').textContent=t?L(t.en||'',t.bn||''):'Lesson '+state.n;
-  $('#subtitle').textContent=(m&&m.subtitle)?L(m.subtitle.en||'',m.subtitle.bn||''):'';
-  const b=[];
-  if(m&&m.jlpt)b.push(m.jlpt);
-  if(m&&m.durationMin)b.push(m.durationMin+' '+L('min','মিনিট'));
-  const c=state.data;
-  if((c.vocabulary||[]).length)b.push(c.vocabulary.length+' '+L('words','শব্দ'));
-  if((c.grammar||[]).length)b.push(c.grammar.length+' '+L('grammar','ব্যাকরণ'));
-  if((c.kanji||[]).length)b.push(c.kanji.length+' '+L('kanji','কাঞ্জি'));
-  $('#head-badges').innerHTML=b.map(x=>'<span class="badge">'+esc(x)+'</span>').join('');
-}
-function renderVocab(list){return list.map(v=>{
-  const main=v.kanji||v.furigana||'';const read=v.kanji&&v.furigana?' <span class="muted small">'+esc(v.furigana)+'</span>':'';
-  const mean=lang==='bn'?(esc(v.bengali_meaning||'')+(v.english_meaning?' <span class="muted small">('+esc(v.english_meaning)+')</span>':'')):esc(v.english_meaning||'');
-  return '<div class="row"><div><span class="jp">'+esc(main)+'</span>'+read+' <span class="muted small">('+esc(v.romaji||'')+')</span></div><div class="mean">'+mean+'</div></div>';
-}).join('');}
-function renderGrammar(list){return list.map(g=>{
-  const ex=(g.examples||[]).map(x=>'<li><span class="jp">'+esc(x.jp||'')+'</span>'+(x.furigana?' <span class="muted small">'+esc(x.furigana)+'</span>':'')+(x.romaji?' <span class="muted small">('+esc(x.romaji)+')</span>':'')+'<br><span class="small">'+esc(lang==='bn'?(x.bn||''):(x.en||''))+'</span></li>').join('');
-  return '<div class="g-card"><h3>'+esc(g.pattern||'')+'</h3><p class="muted small" style="margin:0">'+esc(lang==='bn'?(g.meaning_bn||''):(g.meaning_en||''))+'</p>'+(ex?'<ul>'+ex+'</ul>':'')+'</div>';
-}).join('');}
-function renderKanji(list){return '<div class="k-grid">'+list.map(k=>{
-  const m=k.meanings||{};
-  return '<div class="k-card"><p class="k-char">'+esc(k.character||'')+'</p>'
-   +'<p class="small muted" style="margin:4px 0">'+esc(L('On: ','অন: ')+(k.onyomi||[]).join('・'))+'</p>'
-   +'<p class="small muted" style="margin:0 0 4px">'+esc(L('Kun: ','কুন: ')+(k.kunyomi||[]).join('・'))+'</p>'
-   +'<p class="small" style="margin:0">'+esc(lang==='bn'?(m.bn||[]).join(', '):(m.en||[]).join(', '))+'</p>'
-   +'<p class="small muted" style="margin:4px 0 0">'+esc((k.strokes||'')+' '+L('strokes','স্ট্রোক'))+(k.jlpt?' · '+esc(k.jlpt):'')+'</p></div>';
-}).join('')+'</div>';}
-function renderNav(){
-  const prev=state.n>1?state.n-1:null,next=state.n<50?state.n+1:null;
-  $('#nav').innerHTML=(prev?'<a class="btn ghost" href="lesson.html?lesson='+slug(prev)+'">← '+esc(L('Previous','পূর্ববর্তী'))+'</a>':'<span></span>')
-   +(next?'<a class="btn" href="lesson.html?lesson='+slug(next)+'">'+esc(L('Next','পরবর্তী'))+' →</a>':'<span></span>');
-}
-function renderAll(){renderHead(state.data.manifest);
-  $('#vocab').innerHTML=(state.data.vocabulary||[]).length?renderVocab(state.data.vocabulary):empty();
-  $('#grammar').innerHTML=(state.data.grammar||[]).length?renderGrammar(state.data.grammar):empty();
-  $('#kanji').innerHTML=(state.data.kanji||[]).length?renderKanji(state.data.kanji):empty();
-  renderNav();}
-function buildJump(){const s=$('#jump');s.innerHTML=Array.from({length:50},(_,i)=>'<option value="'+slug(i+1)+'">'+L('Lesson ','পাঠ ')+(i+1)+'</option>').join('');s.value=slug(state.n);s.onchange=()=>{location.href='lesson.html?lesson='+s.value;};}
-async function load(){
-  state.n=numFromURL();state.data={};
-  applyTheme();applyLang();buildJump();
-  ['#vocab','#grammar','#kanji'].forEach(sel=>{$(sel).innerHTML='<p class="muted">'+esc(L('Loading…','লোড হচ্ছে…'))+'</p>';});
-  let m=null;
-  try{m=await j('data/lessons/'+slug(state.n)+'.json');}catch(e){try{m=await j('data/lessons/'+slug(state.n)+'/manifest.json');}catch(e2){}}
-  state.data.manifest=m;
-  for(const f of ['vocabulary','grammar','kanji']){
-    try{state.data[f]=await j('data/lessons/'+slug(state.n)+'/'+f+'.json');}catch(e){state.data[f]=[];}
-  }
-  renderAll();
-}
-$('#theme-btn').onclick=()=>{theme=theme==='dark'?'light':'dark';localStorage.setItem('nihongo_theme',theme);applyTheme();};
-$('#lang-en').onclick=()=>{lang='en';localStorage.setItem('nihongo_lang','en');applyLang();buildJump();renderAll();};
-$('#lang-bn').onclick=()=>{lang='bn';localStorage.setItem('nihongo_lang','bn');applyLang();buildJump();renderAll();};
-load();
-</script>
+<body class="shell-body">
+  <header data-shell-header></header>
+  <div class="shell-frame">
+    <aside class="shell-sidebar" data-shell-sidebar></aside>
+    <main class="shell-main">
+      <div class="lv-page">
+        <nav class="lv-crumb"><a href="lessons.html"><span data-en="← All lessons" data-bn="← সব পাঠ">← All lessons</span></a></nav>
+        
+        <header class="lv-head" id="lv-head">
+          <p class="lv-kicker" id="lv-kicker"></p>
+          <h1 class="lv-title" id="lv-title"></h1>
+          <p class="lv-subtitle" id="lv-subtitle"></p>
+          <div class="lv-badges" id="lv-badges"></div>
+        </header>
+
+        <div class="tablist" role="tablist" id="lv-tabs"></div>
+        <section id="lv-panel" class="lv-panel" role="tabpanel"></section>
+        
+        <nav class="lv-nav" id="lv-nav"></nav>
+      </div>
+    </main>
+  </div>
+  <nav class="shell-bottomnav" data-shell-bottomnav></nav>
+  <footer class="shell-footer" data-shell-footer></footer>
+  <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
+
+  <!-- Global Scripts -->
+  <script src="js/data-schemas.js" defer></script>
+  <script src="js/data-loader.js" defer></script>
+  <script src="js/theme.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/shell.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="js/supabase-config.js" defer></script>
+  <script src="js/cloud.js" defer></script>
+  <script src="js/a11y.js" defer></script>
+  <script src="js/pwa.js" defer></script>
+
+  <!-- Lesson Logic -->
+  <script>
+    const $ = s => document.querySelector(s);
+    const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const slug = n => 'minna-' + String(n).padStart(3, '0');
+    
+    let state = { n: 1, data: {}, tab: 'vocabulary' };
+    const TABS = [
+      { id: 'vocabulary', en: 'Vocabulary', bn: 'শব্দভাণ্ডার' },
+      { id: 'grammar', en: 'Grammar', bn: 'ব্যাকরণ' },
+      { id: 'kanji', en: 'Kanji', bn: 'কাঞ্জি' }
+    ];
+
+    function numFromURL() {
+      const p = new URLSearchParams(location.search);
+      const v = p.get('lesson') || p.get('id') || '1';
+      const n = parseInt(String(v).replace(/\D/g, ''), 10);
+      return (n >= 1 && n <= 50) ? n : 1;
+    }
+
+    async function fetchJSON(url) {
+      const r = await fetch(url, { cache: 'no-cache' });
+      if (!r.ok) throw new Error(url);
+      return r.json();
+    }
+
+    function renderHead(m) {
+      const t = (m && m.title) ? m.title : null;
+      $('#lv-kicker').innerHTML = `<span data-en="Lesson ${state.n}" data-bn="পাঠ ${state.n}">Lesson ${state.n}</span>`;
+      $('#lv-title').innerHTML = `<span data-en="${esc(t?.en || '')}" data-bn="${esc(t?.bn || '')}">${esc(t?.en || '')}</span>`;
+      $('#lv-subtitle').textContent = (m && m.subtitle) ? (m.subtitle.en || '') : '';
+      
+      const b = [];
+      if (m?.jlpt) b.push(`<span class="badge badge--primary">${esc(m.jlpt)}</span>`);
+      if (m?.durationMin) b.push(`<span class="badge"><span data-en="${m.durationMin} min" data-bn="${m.durationMin} মিনিট">${m.durationMin} min</span></span>`);
+      const c = state.data;
+      if ((c.vocabulary || []).length) b.push(`<span class="badge badge--accent"><span data-en="${c.vocabulary.length} words" data-bn="${c.vocabulary.length} শব্দ">${c.vocabulary.length} words</span></span>`);
+      if ((c.grammar || []).length) b.push(`<span class="badge badge--success"><span data-en="${c.grammar.length} grammar" data-bn="${c.grammar.length} ব্যাকরণ">${c.grammar.length} grammar</span></span>`);
+      
+      $('#lv-badges').innerHTML = b.join('');
+    }
+
+    function renderTabs() {
+      const el = $('#lv-tabs');
+      el.innerHTML = TABS.filter(t => (state.data[t.id] || []).length).map(t =>
+        `<button class="tab" role="tab" data-tab="${t.id}" aria-selected="${state.tab === t.id}">
+           <span data-en="${esc(t.en)} (${(state.data[t.id] || []).length})" data-bn="${esc(t.bn)} (${(state.data[t.id] || []).length})">${esc(t.en)} (${(state.data[t.id] || []).length})</span>
+         </button>`
+      ).join('');
+      
+      el.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => {
+        state.tab = b.getAttribute('data-tab');
+        renderTabs(); renderPanel();
+      }));
+    }
+
+    const jpMain = v => (v.kanji && v.furigana) ? `<ruby>${esc(v.kanji)}<rt>${esc(v.furigana)}</rt></ruby>` : esc(v.furigana || v.kanji || v.romaji || '');
+
+    function renderVocab(list) {
+      return '<div class="lv-list">' + list.map(v =>
+        `<article class="lv-item">
+           <p class="lv-jp">${jpMain(v)}</p>
+           ${v.romaji ? `<p class="lv-romaji">${esc(v.romaji)}</p>` : ''}
+           <p class="lv-meaning"><span data-en="${esc(v.english_meaning || '')}" data-bn="${esc(v.bengali_meaning || '')}">${esc(v.english_meaning || '')}</span></p>
+           ${(v.tags || []).length ? `<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:4px">${v.tags.map(t => `<span class="badge badge--outline">${esc(t)}</span>`).join('')}</div>` : ''}
+         </article>`).join('') + '</div>';
+    }
+
+    function renderGrammar(list) {
+      return '<div class="lv-list">' + list.map(g =>
+        `<article class="lv-item">
+           <p class="lv-grammar-pattern">${esc(g.pattern || '')}</p>
+           <p class="lv-meaning"><span data-en="${esc(g.meaning_en || '')}" data-bn="${esc(g.meaning_bn || '')}">${esc(g.meaning_en || '')}</span></p>
+           ${(g.examples || []).length ? `<ul class="lv-examples">${g.examples.map(ex =>
+             `<li>
+                <p class="lv-jp" style="font-size:1rem">${esc(ex.jp || '')}</p>
+                ${ex.furigana ? `<p class="lv-reading">${esc(ex.furigana)}</p>` : ''}
+                ${ex.romaji ? `<p class="lv-romaji">${esc(ex.romaji)}</p>` : ''}
+                <p class="lv-meaning lv-meaning--sm"><span data-en="${esc(ex.en || '')}" data-bn="${esc(ex.bn || '')}">${esc(ex.en || '')}</span></p>
+              </li>`).join('')}</ul>` : ''}
+         </article>`).join('') + '</div>';
+    }
+
+    function renderKanji(list) {
+      return '<div class="lv-kanji-grid">' + list.map(k => {
+        const m = k.meanings || {};
+        return `<article class="lv-item lv-kanji">
+           <p class="lv-kanji-char" lang="ja">${esc(k.character || '')}</p>
+           <p class="lv-romaji"><span data-en="On: ${(k.onyomi || []).join(' · ')}" data-bn="অন: ${(k.onyomi || []).join(' · ')}">On: ${esc((k.onyomi || []).join(' · '))}</span></p>
+           <p class="lv-romaji"><span data-en="Kun: ${(k.kunyomi || []).join(' · ')}" data-bn="কুন: ${(k.kunyomi || []).join(' · ')}">Kun: ${esc((k.kunyomi || []).join(' · '))}</span></p>
+           <p class="lv-meaning"><span data-en="${esc((m.en || []).join(', '))}" data-bn="${esc((m.bn || []).join(', '))}">${esc((m.en || []).join(', '))}</span></p>
+           <div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:4px">
+             ${k.strokes ? `<span class="badge badge--outline"><span data-en="${k.strokes} strokes" data-bn="${k.strokes} স্ট্রোক">${k.strokes} strokes</span></span>` : ''}
+             ${k.jlpt ? `<span class="badge badge--primary">${esc(k.jlpt)}</span>` : ''}
+           </div>
+         </article>`;
+      }).join('') + '</div>';
+    }
+
+    function renderPanel() {
+      const list = state.data[state.tab] || [];
+      const el = $('#lv-panel');
+      if (!list.length) { 
+        el.innerHTML = `<p class="lv-empty"><span data-en="No content in this section yet." data-bn="এই অংশে এখনো কন্টেন্ট নেই।">No content in this section yet.</span></p>`; 
+        return; 
+      }
+      el.innerHTML = state.tab === 'vocabulary' ? renderVocab(list) : state.tab === 'grammar' ? renderGrammar(list) : renderKanji(list);
+    }
+
+    function renderNav(m) {
+      const n = Number(m?.lessonNumber) || state.n;
+      const prev = n > 1 ? slug(n - 1) : null;
+      const next = n < 50 ? slug(n + 1) : null;
+      $('#lv-nav').innerHTML =
+        (prev ? `<a class="btn btn--secondary" href="lesson.html?lesson=${prev}"><span data-en="← Previous" data-bn="← পূর্ববর্তী">← Previous</span></a>` : '<span></span>') +
+        (next ? `<a class="btn btn--primary" href="lesson.html?lesson=${next}"><span data-en="Next →" data-bn="পরবর্তী →">Next →</span></a>` : '<span></span>');
+    }
+
+    async function boot() {
+      state.n = numFromURL();
+      state.data = {};
+      $('#lv-panel').innerHTML = '<p class="lv-empty">Loading...</p>';
+      
+      try {
+        let m = null;
+        try { m = await fetchJSON('data/lessons/' + slug(state.n) + '.json'); } 
+        catch (e) { m = await fetchJSON('data/lessons/' + slug(state.n) + '/manifest.json'); }
+        state.data.manifest = m;
+        
+        for (const f of ['vocabulary', 'grammar', 'kanji']) {
+          try { state.data[f] = await fetchJSON('data/lessons/' + slug(state.n) + '/' + f + '.json'); } 
+          catch (e) { state.data[f] = []; }
+        }
+        
+        if (!(state.data[state.tab] || []).length) {
+          const first = TABS.find(t => (state.data[t.id] || []).length);
+          if (first) state.tab = first.id;
+        }
+        
+        renderHead(state.data.manifest);
+        renderTabs();
+        renderPanel();
+        renderNav(state.data.manifest);
+        
+        // Trigger global i18n to translate the newly injected DOM
+        if (window.I18n) window.I18n.apply(window.I18n.get());
+        
+      } catch (err) {
+        console.error('[lesson-view]', err);
+        $('#lv-panel').innerHTML = `<p class="lv-empty"><span data-en="This lesson is not available yet." data-bn="এই পাঠটি এখনো আসেনি।">This lesson is not available yet.</span></p>`;
+        if (window.I18n) window.I18n.apply(window.I18n.get());
+      }
+    }
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true });
+    else boot();
+  </script>
 </body>
 </html>
