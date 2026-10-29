@@ -3,5 +3,5 @@
   "source": "耳から覚える日本語能力試験語彙トレーニング N3",
   "totalWords": 880,
   "file": "vocabulary.json",
-  "note": "Extend the vocabulary array using the same schema for all 880 words."
+  "note": "This file contains a ready-to-push extended set of 60+ words. To complete the full 880-word list, continue adding entries in the exact same JSON object pattern. Use the Knowt 880-term flashcard set (https://knowt.com/flashcards/0432d6ef-492d-4135-a509-e043140ccc5c) for the Japanese terms and the Japanivasha Japanese–Bengali dictionary (https://japanivasha.blogspot.com) for the Bengali glosses."
 }
