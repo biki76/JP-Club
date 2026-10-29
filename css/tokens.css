@@ -38,3 +38,7 @@ html[data-theme="dark"] {
   --success: #10b981;
   --border: #334155; 
 }
+
+/* Tell browsers this site manages its own dark mode — do NOT force-darken */
+:root { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
