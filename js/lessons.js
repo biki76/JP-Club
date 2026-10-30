@@ -1,12 +1,12 @@
-/* Lessons catalog — Phase 13.
+/* js/lessons.js — Lessons catalog (renamed from js/lesson.js in Step 1).
    - Reads course manifests via DataLoader.loadCourse().
    - Renders 50 lesson cards (Book I 1–25, Book II 26–50).
    - Reads nihongo_progress from localStorage (local authority).
    - No Supabase calls — cloud sync happens in cloud.js only.
-   - Filters (?filter=) and book scope (?book=) live in the URL. */
+   - Filters (?filter=) and book scope (?book=) live in the URL.
+   - Reads data/lessons/status.json for honest content badges. */
 
 (function () {
-alert('lesson.js is running!');
   'use strict';
 
   const TOTAL_LESSONS = 50;
@@ -21,9 +21,10 @@ alert('lesson.js is running!');
     }[c]));
   }
 
+  // Batch 1 fix: default is 'en' to match <html lang="en"> and I18n/Theme defaults.
   function currentLang() {
-    try { return localStorage.getItem('nihongo_lang') === 'en' ? 'en' : 'bn'; }
-    catch { return 'bn'; }
+    try { return localStorage.getItem('nihongo_lang') === 'bn' ? 'bn' : 'en'; }
+    catch { return 'en'; }
   }
 
   function txt(en, bn) {
@@ -62,17 +63,19 @@ alert('lesson.js is running!');
     ready: false,
     byNumber: new Map(),
     filter: 'all',
-    book: 'all'
+    book: 'all',
+    content: {}
   };
 
-  const FILTER_IDS = ['all', 'in-progress', 'completed', 'locked'];
+  const FILTER_IDS = ['all', 'in-progress', 'completed', 'not-started'];
   const BOOK_IDS = ['all', '1', '2'];
 
   function readURL() {
     const params = new URLSearchParams(location.search);
     const f = params.get('filter');
     const b = params.get('book');
-    state.filter = FILTER_IDS.includes(f) ? f : 'all';
+    const fixed = f === 'locked' ? 'not-started' : f;
+    state.filter = FILTER_IDS.includes(fixed) ? fixed : 'all';
     state.book = BOOK_IDS.includes(b) ? b : 'all';
   }
 
@@ -101,8 +104,7 @@ alert('lesson.js is running!');
 
     if (n <= completed) return { key: 'completed', percent: 100, manifest };
     if (n === current) return { key: 'in-progress', percent: currentPct, manifest };
-    if (n > current) return { key: 'locked', percent: 0, manifest };
-    return { key: 'locked', percent: 0, manifest };
+    return { key: 'not-started', percent: 0, manifest };
   }
 
   function statusText(status) {
@@ -110,12 +112,10 @@ alert('lesson.js is running!');
       case 'completed':   return txt('Completed', 'সম্পন্ন');
       case 'in-progress': return txt('In progress ' + status.percent + '%', 'চলমান ' + status.percent + '%');
       case 'coming':      return txt('Coming soon', 'শীঘ্রই আসছে');
-      case 'locked':      return txt('Locked', 'লকড');
       default:            return txt('Not started', 'শুরু হয়নি');
     }
   }
 
-  // ─── Render: continue card ────────────────────────────────────────────
   function renderContinue() {
     const el = $('#continue-card');
     if (!el) return;
@@ -164,12 +164,11 @@ alert('lesson.js is running!');
     `;
   }
 
-  // ─── Render: filters ──────────────────────────────────────────────────
   const FILTERS = [
     { id: 'all',         en: 'All',         bn: 'সব' },
     { id: 'in-progress', en: 'In progress', bn: 'চলমান' },
     { id: 'completed',   en: 'Completed',   bn: 'সম্পন্ন' },
-    { id: 'locked',      en: 'Locked',      bn: 'লকড' }
+    { id: 'not-started', en: 'Not started', bn: 'শুরু হয়নি' }
   ];
 
   function renderFilters() {
@@ -191,7 +190,6 @@ alert('lesson.js is running!');
     });
   }
 
-  // ─── Render: book tabs ────────────────────────────────────────────────
   const BOOKS = [
     { id: 'all', en: 'All lessons', bn: 'সব পাঠ' },
     { id: '1',   en: 'Book I (N5)', bn: 'বই I (N5)' },
@@ -217,7 +215,6 @@ alert('lesson.js is running!');
     });
   }
 
-  // ─── Render: scrubber ─────────────────────────────────────────────────
   function renderScrubber() {
     const el = $('#scrubber');
     if (!el) return;
@@ -232,18 +229,39 @@ alert('lesson.js is running!');
     el.innerHTML = items.join('');
   }
 
-  // ─── Render: card grid ────────────────────────────────────────────────
+  function loadContentStatus() {
+    return fetch('data/lessons/status.json')
+      .then(r => (r.ok ? r.json() : null))
+      .then(j => { if (j && j.lessons) state.content = j.lessons; })
+      .catch(() => {});
+  }
+
+  function contentBadge(c) {
+    if (!c) return '';
+    const label = {
+      stub:     ['Preview', 'প্রিভিউ'],
+      partial:  ['Partial', 'আংশিক'],
+      draft:    ['Draft', 'খসড়া'],
+      reviewed: ['Reviewed', 'পর্যালোচিত']
+    }[c.status];
+    if (!label) return '';
+    return '<span class="cs-badge cs-badge--' + esc(c.status) + '">' + txt(label[0], label[1]) + '</span>' +
+           '<p class="cs-words">' + txt(c.vocab + ' words', c.vocab + 'টি শব্দ') + '</p>';
+  }
+
   function renderCard(n, status) {
     const manifest = status.manifest;
     const titleEn = (manifest && manifest.title && manifest.title.en) || ('Lesson ' + n);
     const titleBn = (manifest && manifest.title && manifest.title.bn) || ('পাঠ ' + n);
     const isComing = status.key === 'coming';
 
+    const cslug = (manifest && manifest.slug) || slugFor(n);
     const inner = `
       <div class="lp-card__num" aria-hidden="true">${n}</div>
       <div class="lp-card__body">
         <h3 class="lp-card__title">${txt(titleEn, titleBn)}</h3>
         <p class="lp-card__status">${statusText(status)}</p>
+        ${contentBadge(state.content[cslug])}
       </div>
       ${manifest && manifest.jlpt ? '<span class="lp-card__jlpt">' + esc(manifest.jlpt) + '</span>' : ''}
     `;
@@ -276,7 +294,6 @@ alert('lesson.js is running!');
     book2.setAttribute('aria-busy', 'false');
   }
 
-  // ─── Filter application ───────────────────────────────────────────────
   function applyFilters() {
     $$('.lp-card').forEach(card => {
       const n = Number(card.id.replace('lesson-', ''));
@@ -287,19 +304,21 @@ alert('lesson.js is running!');
       card.hidden = !(matchesFilter && matchesBook);
     });
 
+    let total = 0;
     ['book-1', 'book-2'].forEach(id => {
       const sec = document.getElementById(id);
       if (!sec) return;
-      const anyVisible = $$('.lp-card', sec).some(c => !c.hidden);
-      sec.hidden = !anyVisible;
+      const visible = $$('.lp-card', sec).filter(c => !c.hidden).length;
+      total += visible;
+      sec.hidden = visible === 0;
     });
+    const empty = document.getElementById('lp-empty');
+    if (empty) empty.hidden = total > 0;
   }
 
-  // ─── Boot ─────────────────────────────────────────────────────────────
   async function boot() {
     readURL();
 
-    // Load course manifests (may fail if offline first visit — degrade gracefully)
     try {
       if (window.DataLoader && typeof window.DataLoader.loadCourse === 'function') {
         const course = await window.DataLoader.loadCourse();
@@ -311,6 +330,8 @@ alert('lesson.js is running!');
       console.error('[lessons] course load failed:', err);
     }
 
+    await loadContentStatus();
+
     state.ready = true;
     renderContinue();
     renderFilters();
@@ -318,9 +339,12 @@ alert('lesson.js is running!');
     renderScrubber();
     renderGrid();
     applyFilters();
+
+    if (window.I18n && typeof window.I18n.apply === 'function') {
+      try { window.I18n.apply(window.I18n.get ? window.I18n.get() : undefined); } catch (e) {}
+    }
   }
 
-  // ─── Popstate ─────────────────────────────────────────────────────────
   window.addEventListener('popstate', () => {
     readURL();
     if (!state.ready) return;
@@ -329,7 +353,6 @@ alert('lesson.js is running!');
     applyFilters();
   });
 
-  // ─── React to language toggle / storage events from other tabs ────────
   window.addEventListener('storage', (e) => {
     if (!state.ready) return;
     if (e.key === 'nihongo_progress' || e.key === 'nihongo_lang' || e.key === null) {
@@ -342,7 +365,6 @@ alert('lesson.js is running!');
     }
   });
 
-  // Expose minimal API (page code, not shell)
   window.Lessons = {
     reload: () => boot(),
     readURL

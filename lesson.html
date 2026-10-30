@@ -16,16 +16,13 @@
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  
-  <!-- Global App Styles -->
   <link rel="stylesheet" href="css/cloud.css" />
   <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/design-system.css" />
   <link rel="stylesheet" href="css/shell.css" />
   <link rel="stylesheet" href="css/a11y.css" />
   <link rel="stylesheet" href="css/pwa.css" />
-
-  <!-- Lesson Specific Styles (Using Global Tokens) -->
+  <link rel="stylesheet" href="css/content-status.css" />
   <style>
     .lv-page { max-width: 860px; display: flex; flex-direction: column; gap: var(--s-5); }
     .lv-crumb a { font-size: var(--fs-sm); font-weight: 600; color: var(--primary); text-decoration: none; }
@@ -35,10 +32,9 @@
     html[lang="bn"] .lv-title { line-height: 1.45; }
     .lv-subtitle { margin: 0; font-family: var(--font-jp); color: var(--ink-muted); font-size: var(--fs-lg); }
     .lv-badges { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-2); }
-    
     .lv-panel { min-height: 200px; margin-top: var(--s-4); }
     .lv-list { display: flex; flex-direction: column; gap: var(--s-3); }
-    .lv-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--s-4); display: flex; flex-direction: column; gap: var(--s-2); transition: border-color 0.2s; }
+    .lv-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--s-4); display: flex; flex-direction: column; gap: var(--s-2); }
     .lv-item:hover { border-color: var(--primary); }
     .lv-jp { margin: 0; font-family: var(--font-jp); font-size: var(--fs-xl); line-height: var(--lh-jp); color: var(--ink); font-weight: 500; }
     .lv-reading { margin: 0; font-family: var(--font-jp); font-size: var(--fs-sm); color: var(--ink-muted); }
@@ -46,20 +42,14 @@
     .lv-romaji { margin: 0; font-size: var(--fs-sm); color: var(--ink-subtle); font-style: italic; }
     .lv-meaning { margin: 0; font-size: var(--fs-md); font-weight: 500; color: var(--ink); }
     .lv-meaning--sm { font-size: var(--fs-sm); font-weight: 400; color: var(--ink-muted); }
-    
     .lv-examples { list-style: none; margin: var(--s-3) 0 0; padding: var(--s-3); border-left: 3px solid var(--primary); background: color-mix(in srgb, var(--primary) 8%, transparent); border-radius: 0 var(--r-sm) var(--r-sm) 0; display: flex; flex-direction: column; gap: var(--s-3); }
     .lv-examples li { display: flex; flex-direction: column; gap: 4px; }
-    
     .lv-kanji-grid { display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
     .lv-kanji-char { margin: 0; font-family: var(--font-jp); font-size: var(--fs-4xl); line-height: 1.2; color: var(--ink); font-weight: 700; }
-    
     .lv-empty { color: var(--ink-muted); padding: var(--s-6); text-align: center; background: var(--surface); border: 1px dashed var(--border); border-radius: var(--r-md); }
     .lv-nav { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); padding-top: var(--s-5); border-top: 1px solid var(--border); margin-top: var(--s-6); }
-    
-    /* Grammar specific */
     .lv-grammar-pattern { font-family: var(--font-jp); font-size: var(--fs-lg); font-weight: 600; color: var(--primary); margin: 0 0 var(--s-1); }
   </style>
-
   <script>
     window.SHELL_CONFIG = {
       navGroups: [
@@ -93,17 +83,14 @@
     <main class="shell-main">
       <div class="lv-page">
         <nav class="lv-crumb"><a href="lessons.html"><span data-en="← All lessons" data-bn="← সব পাঠ">← All lessons</span></a></nav>
-        
         <header class="lv-head" id="lv-head">
           <p class="lv-kicker" id="lv-kicker"></p>
           <h1 class="lv-title" id="lv-title"></h1>
           <p class="lv-subtitle" id="lv-subtitle"></p>
           <div class="lv-badges" id="lv-badges"></div>
         </header>
-
         <div class="tablist" role="tablist" id="lv-tabs"></div>
         <section id="lv-panel" class="lv-panel" role="tabpanel"></section>
-        
         <nav class="lv-nav" id="lv-nav"></nav>
       </div>
     </main>
@@ -112,7 +99,6 @@
   <footer class="shell-footer" data-shell-footer></footer>
   <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
 
-  <!-- Global Scripts -->
   <script src="js/data-schemas.js" defer></script>
   <script src="js/data-loader.js" defer></script>
   <script src="js/theme.js" defer></script>
@@ -123,161 +109,247 @@
   <script src="js/cloud.js" defer></script>
   <script src="js/a11y.js" defer></script>
   <script src="js/pwa.js" defer></script>
-
-  <!-- Lesson Logic -->
+  <script src="js/store.js" defer></script>
+  <script src="js/content-status.js" defer></script>
   <script>
     const $ = s => document.querySelector(s);
     const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const slug = n => 'minna-' + String(n).padStart(3, '0');
-    
-    let state = { n: 1, data: {}, tab: 'vocabulary' };
+    const lang = () => {
+      try { return localStorage.getItem('nihongo_lang') === 'bn' ? 'bn' : 'en'; }
+      catch (e) { return 'en'; }
+    };
+    let state = { n: 1, data: {}, tab: 'vocabulary', slug: null };
     const TABS = [
       { id: 'vocabulary', en: 'Vocabulary', bn: 'শব্দভাণ্ডার' },
-      { id: 'grammar', en: 'Grammar', bn: 'ব্যাকরণ' },
-      { id: 'kanji', en: 'Kanji', bn: 'কাঞ্জি' }
+      { id: 'grammar',    en: 'Grammar',    bn: 'ব্যাকরণ' },
+      { id: 'kanji',      en: 'Kanji',      bn: 'কাঞ্জি' },
+      { id: 'reading',    en: 'Reading',    bn: 'পাঠ' },
+      { id: 'listening',  en: 'Listening',  bn: 'শ্রবণ' },
+      { id: 'practice',   en: 'Practice',   bn: 'অনুশীলন' }
     ];
-
     function numFromURL() {
       const p = new URLSearchParams(location.search);
       const v = p.get('lesson') || p.get('id') || '1';
       const n = parseInt(String(v).replace(/\D/g, ''), 10);
       return (n >= 1 && n <= 50) ? n : 1;
     }
-
     async function fetchJSON(url) {
       const r = await fetch(url, { cache: 'no-cache' });
       if (!r.ok) throw new Error(url);
       return r.json();
     }
-
+    const jpMain = v => (v && v.kanji && v.furigana)
+      ? `<ruby>${esc(v.kanji)}<rt>${esc(v.furigana)}</rt></ruby>`
+      : esc((v && (v.furigana || v.kanji || v.romaji)) || '');
+    function bilingual(en, bn) {
+      const l = lang();
+      return `<span data-en="${esc(en || '')}" data-bn="${esc(bn || en || '')}">${esc(l === 'bn' ? (bn || en || '') : (en || ''))}</span>`;
+    }
+    function audioTag(url) {
+      if (!url) return '';
+      return `<audio controls preload="none" src="${esc(url)}" style="margin-top:var(--s-2);width:100%"></audio>`;
+    }
     function renderHead(m) {
       const t = (m && m.title) ? m.title : null;
-      $('#lv-kicker').innerHTML = `<span data-en="Lesson ${state.n}" data-bn="পাঠ ${state.n}">Lesson ${state.n}</span>`;
-      $('#lv-title').innerHTML = `<span data-en="${esc(t?.en || '')}" data-bn="${esc(t?.bn || '')}">${esc(t?.en || '')}</span>`;
-      $('#lv-subtitle').textContent = (m && m.subtitle) ? (m.subtitle.en || '') : '';
-      
+      $('#lv-kicker').innerHTML = bilingual('Lesson ' + state.n, 'পাঠ ' + state.n);
+      $('#lv-title').innerHTML = bilingual(t && t.en, t && t.bn);
+      $('#lv-subtitle').textContent = (m && m.subtitle) ? (m.subtitle[lang()] || m.subtitle.en || '') : '';
       const b = [];
-      if (m?.jlpt) b.push(`<span class="badge badge--primary">${esc(m.jlpt)}</span>`);
-      if (m?.durationMin) b.push(`<span class="badge"><span data-en="${m.durationMin} min" data-bn="${m.durationMin} মিনিট">${m.durationMin} min</span></span>`);
+      if (m && m.jlpt) b.push(`<span class="badge badge--primary">${esc(m.jlpt)}</span>`);
+      if (m && m.durationMin) b.push(`<span class="badge">${bilingual(m.durationMin + ' min', m.durationMin + ' মিনিট')}</span>`);
       const c = state.data;
-      if ((c.vocabulary || []).length) b.push(`<span class="badge badge--accent"><span data-en="${c.vocabulary.length} words" data-bn="${c.vocabulary.length} শব্দ">${c.vocabulary.length} words</span></span>`);
-      if ((c.grammar || []).length) b.push(`<span class="badge badge--success"><span data-en="${c.grammar.length} grammar" data-bn="${c.grammar.length} ব্যাকরণ">${c.grammar.length} grammar</span></span>`);
-      
+      if ((c.vocabulary || []).length) b.push(`<span class="badge badge--accent">${bilingual(c.vocabulary.length + ' words', c.vocabulary.length + ' শব্দ')}</span>`);
+      if ((c.grammar || []).length) b.push(`<span class="badge badge--success">${bilingual(c.grammar.length + ' grammar', c.grammar.length + ' ব্যাকরণ')}</span>`);
       $('#lv-badges').innerHTML = b.join('');
     }
-
     function renderTabs() {
       const el = $('#lv-tabs');
-      el.innerHTML = TABS.filter(t => (state.data[t.id] || []).length).map(t =>
-        `<button class="tab" role="tab" data-tab="${t.id}" aria-selected="${state.tab === t.id}">
-           <span data-en="${esc(t.en)} (${(state.data[t.id] || []).length})" data-bn="${esc(t.bn)} (${(state.data[t.id] || []).length})">${esc(t.en)} (${(state.data[t.id] || []).length})</span>
-         </button>`
-      ).join('');
-      
+      el.innerHTML = TABS.filter(t => (state.data[t.id] || []).length).map(t => {
+        const n = (state.data[t.id] || []).length;
+        const active = state.tab === t.id;
+        return `<button class="tab" role="tab" data-tab="${t.id}" aria-selected="${active}" tabindex="${active ? '0' : '-1'}">
+          ${bilingual(t.en + ' (' + n + ')', t.bn + ' (' + n + ')')}
+        </button>`;
+      }).join('');
       el.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => {
         state.tab = b.getAttribute('data-tab');
+        if (window.Store) window.Store.setLessonSection(state.slug, { tab: state.tab });
         renderTabs(); renderPanel();
       }));
     }
-
-    const jpMain = v => (v.kanji && v.furigana) ? `<ruby>${esc(v.kanji)}<rt>${esc(v.furigana)}</rt></ruby>` : esc(v.furigana || v.kanji || v.romaji || '');
-
     function renderVocab(list) {
       return '<div class="lv-list">' + list.map(v =>
         `<article class="lv-item">
            <p class="lv-jp">${jpMain(v)}</p>
            ${v.romaji ? `<p class="lv-romaji">${esc(v.romaji)}</p>` : ''}
-           <p class="lv-meaning"><span data-en="${esc(v.english_meaning || '')}" data-bn="${esc(v.bengali_meaning || '')}">${esc(v.english_meaning || '')}</span></p>
+           <p class="lv-meaning">${bilingual(v.english_meaning, v.bengali_meaning)}</p>
+           ${audioTag(v.audio_url)}
            ${(v.tags || []).length ? `<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:4px">${v.tags.map(t => `<span class="badge badge--outline">${esc(t)}</span>`).join('')}</div>` : ''}
          </article>`).join('') + '</div>';
     }
-
     function renderGrammar(list) {
       return '<div class="lv-list">' + list.map(g =>
         `<article class="lv-item">
            <p class="lv-grammar-pattern">${esc(g.pattern || '')}</p>
-           <p class="lv-meaning"><span data-en="${esc(g.meaning_en || '')}" data-bn="${esc(g.meaning_bn || '')}">${esc(g.meaning_en || '')}</span></p>
+           <p class="lv-meaning">${bilingual(g.meaning_en, g.meaning_bn)}</p>
            ${(g.examples || []).length ? `<ul class="lv-examples">${g.examples.map(ex =>
              `<li>
                 <p class="lv-jp" style="font-size:1rem">${esc(ex.jp || '')}</p>
                 ${ex.furigana ? `<p class="lv-reading">${esc(ex.furigana)}</p>` : ''}
                 ${ex.romaji ? `<p class="lv-romaji">${esc(ex.romaji)}</p>` : ''}
-                <p class="lv-meaning lv-meaning--sm"><span data-en="${esc(ex.en || '')}" data-bn="${esc(ex.bn || '')}">${esc(ex.en || '')}</span></p>
+                <p class="lv-meaning lv-meaning--sm">${bilingual(ex.en, ex.bn)}</p>
+                ${audioTag(ex.audio_url)}
               </li>`).join('')}</ul>` : ''}
          </article>`).join('') + '</div>';
     }
-
     function renderKanji(list) {
       return '<div class="lv-kanji-grid">' + list.map(k => {
         const m = k.meanings || {};
         return `<article class="lv-item lv-kanji">
            <p class="lv-kanji-char" lang="ja">${esc(k.character || '')}</p>
-           <p class="lv-romaji"><span data-en="On: ${(k.onyomi || []).join(' · ')}" data-bn="অন: ${(k.onyomi || []).join(' · ')}">On: ${esc((k.onyomi || []).join(' · '))}</span></p>
-           <p class="lv-romaji"><span data-en="Kun: ${(k.kunyomi || []).join(' · ')}" data-bn="কুন: ${(k.kunyomi || []).join(' · ')}">Kun: ${esc((k.kunyomi || []).join(' · '))}</span></p>
-           <p class="lv-meaning"><span data-en="${esc((m.en || []).join(', '))}" data-bn="${esc((m.bn || []).join(', '))}">${esc((m.en || []).join(', '))}</span></p>
+           <p class="lv-romaji">${bilingual('On: ' + (k.onyomi || []).join(' · '), 'অন: ' + (k.onyomi || []).join(' · '))}</p>
+           <p class="lv-romaji">${bilingual('Kun: ' + (k.kunyomi || []).join(' · '), 'কুন: ' + (k.kunyomi || []).join(' · '))}</p>
+           <p class="lv-meaning">${bilingual((m.en || []).join(', '), (m.bn || []).join(', '))}</p>
            <div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:4px">
-             ${k.strokes ? `<span class="badge badge--outline"><span data-en="${k.strokes} strokes" data-bn="${k.strokes} স্ট্রোক">${k.strokes} strokes</span></span>` : ''}
+             ${k.strokes ? `<span class="badge badge--outline">${bilingual(k.strokes + ' strokes', k.strokes + ' স্ট্রোক')}</span>` : ''}
              ${k.jlpt ? `<span class="badge badge--primary">${esc(k.jlpt)}</span>` : ''}
            </div>
          </article>`;
       }).join('') + '</div>';
     }
-
+    function renderReading(list) {
+      return '<div class="lv-list">' + list.map((r, i) => {
+        const title = r.title || {};
+        const passage = Array.isArray(r.passage) ? r.passage
+                      : (Array.isArray(r.lines) ? r.lines : []);
+        return `<article class="lv-item">
+          <p class="lv-grammar-pattern">${bilingual(title.en || ('Reading ' + (i + 1)), title.bn || ('পাঠ ' + (i + 1)))}</p>
+          ${passage.map(line => `
+            <div style="display:flex;flex-direction:column;gap:4px;margin-top:var(--s-2)">
+              <p class="lv-jp">${esc(line.jp || line.text || '')}</p>
+              ${line.furigana ? `<p class="lv-reading">${esc(line.furigana)}</p>` : ''}
+              ${line.romaji ? `<p class="lv-romaji">${esc(line.romaji)}</p>` : ''}
+              <p class="lv-meaning lv-meaning--sm">${bilingual(line.en, line.bn)}</p>
+              ${audioTag(line.audio_url)}
+            </div>`).join('')}
+        </article>`;
+      }).join('') + '</div>';
+    }
+    function renderListening(list) {
+      return '<div class="lv-list">' + list.map((l, i) => {
+        const title = l.title || {};
+        const transcript = Array.isArray(l.transcript) ? l.transcript
+                         : (Array.isArray(l.lines) ? l.lines : []);
+        return `<article class="lv-item">
+          <p class="lv-grammar-pattern">${bilingual(title.en || ('Listening ' + (i + 1)), title.bn || ('শ্রবণ ' + (i + 1)))}</p>
+          ${audioTag(l.audio_url)}
+          ${transcript.map(line => `
+            <div style="display:flex;flex-direction:column;gap:4px;margin-top:var(--s-2)">
+              <p class="lv-jp">${esc(line.jp || line.text || '')}</p>
+              ${line.romaji ? `<p class="lv-romaji">${esc(line.romaji)}</p>` : ''}
+              <p class="lv-meaning lv-meaning--sm">${bilingual(line.en, line.bn)}</p>
+            </div>`).join('')}
+        </article>`;
+      }).join('') + '</div>';
+    }
+    function renderPractice(list) {
+      return '<div class="lv-list">' + list.map((q, qi) => {
+        const prompt = q.prompt || {};
+        const stem = q.stem || {};
+        const options = Array.isArray(q.options) ? q.options : [];
+        const ci = (typeof q.correctIndex === 'number') ? q.correctIndex : -1;
+        return `<article class="lv-item" data-q="${qi}">
+          <p class="lv-grammar-pattern">${bilingual(prompt.en || ('Question ' + (qi + 1)), prompt.bn || ('প্রশ্ন ' + (qi + 1)))}</p>
+          <p class="lv-jp">${esc(stem.jp || '')}</p>
+          ${stem.romaji ? `<p class="lv-romaji">${esc(stem.romaji)}</p>` : ''}
+          ${audioTag(stem.audio_url)}
+          <div style="display:flex;flex-direction:column;gap:var(--s-2);margin-top:var(--s-3)">
+            ${options.map((opt, oi) => {
+              const optText = typeof opt === 'string' ? opt : (opt && (opt.text || opt.en)) || '';
+              return `<button type="button" class="lp-btn lp-btn--secondary" data-opt="${oi}" data-correct="${oi === ci}" style="justify-content:flex-start;text-align:left">${esc(optText)}</button>`;
+            }).join('')}
+          </div>
+          <p class="lv-meaning lv-meaning--sm" data-feedback hidden></p>
+        </article>`;
+      }).join('') + '</div>';
+    }
+    function attachPracticeHandlers() {
+      document.querySelectorAll('.lv-item[data-q]').forEach(card => {
+        const buttons = card.querySelectorAll('[data-opt]');
+        const fb = card.querySelector('[data-feedback]');
+        buttons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            buttons.forEach(b => b.disabled = true);
+            const ok = btn.getAttribute('data-correct') === 'true';
+            btn.style.borderColor = ok ? 'var(--success)' : 'var(--danger)';
+            btn.style.color = ok ? 'var(--success)' : 'var(--danger)';
+            if (fb) {
+              fb.hidden = false;
+              fb.textContent = ok ? '✓ Correct' : '✗ Not correct';
+              fb.style.color = ok ? 'var(--success)' : 'var(--danger)';
+            }
+          });
+        });
+      });
+    }
     function renderPanel() {
       const list = state.data[state.tab] || [];
       const el = $('#lv-panel');
-      if (!list.length) { 
-        el.innerHTML = `<p class="lv-empty"><span data-en="No content in this section yet." data-bn="এই অংশে এখনো কন্টেন্ট নেই।">No content in this section yet.</span></p>`; 
-        return; 
+      if (!list.length) {
+        el.innerHTML = `<p class="lv-empty">${bilingual('No content in this section yet.', 'এই অংশে এখনো কন্টেন্ট নেই।')}</p>`;
+        return;
       }
-      el.innerHTML = state.tab === 'vocabulary' ? renderVocab(list) : state.tab === 'grammar' ? renderGrammar(list) : renderKanji(list);
+      switch (state.tab) {
+        case 'vocabulary': el.innerHTML = renderVocab(list); break;
+        case 'grammar':    el.innerHTML = renderGrammar(list); break;
+        case 'kanji':      el.innerHTML = renderKanji(list); break;
+        case 'reading':    el.innerHTML = renderReading(list); break;
+        case 'listening':  el.innerHTML = renderListening(list); break;
+        case 'practice':   el.innerHTML = renderPractice(list); attachPracticeHandlers(); break;
+      }
     }
-
     function renderNav(m) {
-      const n = Number(m?.lessonNumber) || state.n;
+      const n = Number(m && m.lessonNumber) || state.n;
       const prev = n > 1 ? slug(n - 1) : null;
       const next = n < 50 ? slug(n + 1) : null;
       $('#lv-nav').innerHTML =
-        (prev ? `<a class="btn btn--secondary" href="lesson.html?lesson=${prev}"><span data-en="← Previous" data-bn="← পূর্ববর্তী">← Previous</span></a>` : '<span></span>') +
-        (next ? `<a class="btn btn--primary" href="lesson.html?lesson=${next}"><span data-en="Next →" data-bn="পরবর্তী →">Next →</span></a>` : '<span></span>');
+        (prev ? `<a class="btn btn--secondary" href="lesson.html?lesson=${prev}">${bilingual('← Previous', '← পূর্ববর্তী')}</a>` : '<span></span>') +
+        (next ? `<a class="btn btn--primary" href="lesson.html?lesson=${next}">${bilingual('Next →', 'পরবর্তী →')}</a>` : '<span></span>');
     }
-
     async function boot() {
       state.n = numFromURL();
+      state.slug = slug(state.n);
       state.data = {};
       $('#lv-panel').innerHTML = '<p class="lv-empty">Loading...</p>';
-      
       try {
         let m = null;
-        try { m = await fetchJSON('data/lessons/' + slug(state.n) + '.json'); } 
-        catch (e) { m = await fetchJSON('data/lessons/' + slug(state.n) + '/manifest.json'); }
+        try { m = await fetchJSON('data/lessons/' + state.slug + '/manifest.json'); }
+        catch (e) { m = {}; }
         state.data.manifest = m;
-        
-        for (const f of ['vocabulary', 'grammar', 'kanji']) {
-          try { state.data[f] = await fetchJSON('data/lessons/' + slug(state.n) + '/' + f + '.json'); } 
+        for (const f of ['vocabulary', 'grammar', 'kanji', 'reading', 'listening', 'practice']) {
+          try { state.data[f] = await fetchJSON('data/lessons/' + state.slug + '/' + f + '.json'); }
           catch (e) { state.data[f] = []; }
         }
-        
-        if (!(state.data[state.tab] || []).length) {
+        const saved = window.Store && window.Store.getLessonSection(state.slug);
+        if (saved && saved.tab && (state.data[saved.tab] || []).length) {
+          state.tab = saved.tab;
+        } else if (!(state.data[state.tab] || []).length) {
           const first = TABS.find(t => (state.data[t.id] || []).length);
           if (first) state.tab = first.id;
         }
-        
         renderHead(state.data.manifest);
         renderTabs();
         renderPanel();
         renderNav(state.data.manifest);
-        
-        // Trigger global i18n to translate the newly injected DOM
-        if (window.I18n) window.I18n.apply(window.I18n.get());
-        
+        if (window.I18n && typeof window.I18n.apply === 'function') {
+          try { window.I18n.apply(window.I18n.get ? window.I18n.get() : undefined); } catch (e) {}
+        }
       } catch (err) {
         console.error('[lesson-view]', err);
-        $('#lv-panel').innerHTML = `<p class="lv-empty"><span data-en="This lesson is not available yet." data-bn="এই পাঠটি এখনো আসেনি।">This lesson is not available yet.</span></p>`;
-        if (window.I18n) window.I18n.apply(window.I18n.get());
+        $('#lv-panel').innerHTML = `<p class="lv-empty">${bilingual('This lesson is not available yet.', 'এই পাঠটি এখনো আসেনি।')}</p>`;
       }
     }
-
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true });
     else boot();
   </script>

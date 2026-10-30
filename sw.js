@@ -1,17 +1,17 @@
-/* Phase 12 — Service worker v12.
+/* Service worker v16 (Phase 3, batch 1).
  *  - Never caches *.supabase.co (per-user JWTs).
  *  - Precaches auth pages + cloud config + cloud scripts.
- *  - Version bumped to invalidate caches from v11.
+ *  - Tolerant per-URL precache (one 404 does not abort the install).
  */
 'use strict';
 
-const VERSION    = 'v12';
+const VERSION    = 'v16';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
-  'home.html', 'lesson.html', 'flashcards.html', 'quiz.html', 'kanji.html',
+  'home.html', 'lessons.html', 'lesson.html', 'flashcards.html', 'quiz.html', 'kanji.html',
   'search.html', 'progress.html', 'placement.html',
   'auth.html', 'auth-callback.html',
   'offline.html', 'manifest.webmanifest',
@@ -21,20 +21,20 @@ const PRECACHE = [
   'css/flashcards.css', 'css/quiz.css', 'css/kanji.css',
   'css/search.css', 'css/progress.css', 'css/placement.css',
   'css/pwa.css', 'css/a11y.css',
-  'css/auth.css', 'css/cloud.css',
+  'css/auth.css', 'css/cloud.css', 'css/content-status.css',
 
   'js/theme.js', 'js/i18n.js', 'js/main.js', 'js/shell.js', 'js/home.js',
-  'js/data-schemas.js', 'js/data-loader.js', 'js/lesson.js',
+  'js/data-schemas.js', 'js/data-loader.js', 'js/lessons.js',
   'js/audio-engine.js', 'js/audio-ui.js',
   'js/srs.js', 'js/flashcards.js',
   'js/quiz.js', 'js/kanji.js',
   'js/search.js', 'js/progress.js', 'js/placement.js',
   'js/a11y.js', 'js/pwa.js',
-  'js/supabase-config.js', 'js/cloud.js', 'js/auth-ui.js',
+  'js/supabase-config.js', 'js/cloud.js', 'js/auth-ui.js', 'js/store.js', 'js/content-status.js',
 
   'icons/icon.svg', 'icons/icon-maskable.svg',
 
-  'data/lessons/index.json',
+  'data/lessons/index.json', 'data/lessons/status.json',
   'data/lessons/minna-001/manifest.json',
   'data/lessons/minna-001/vocabulary.json',
   'data/lessons/minna-001/grammar.json',
@@ -47,14 +47,13 @@ const PRECACHE = [
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(APP_CACHE)
-      .then((cache) => cache.addAll(PRECACHE))
-      .then(() => {
-        if (!self.registration.active) return self.skipWaiting();
-      })
-      .catch((err) => console.warn('[sw] precache failed', err))
-  );
+  event.waitUntil((async () => {
+    const cache = await caches.open(APP_CACHE);
+    const results = await Promise.allSettled(PRECACHE.map((url) => cache.add(url)));
+    const failed = PRECACHE.filter((_, i) => results[i].status === 'rejected');
+    if (failed.length) console.warn('[sw] precache skipped', failed);
+    if (!self.registration.active) await self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', (event) => {

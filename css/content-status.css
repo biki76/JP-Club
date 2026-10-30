@@ -1,0 +1,38 @@
+/* css/content-status.css — content-status badges, lesson notice, empty state.
+ * Tokens only (no raw hex). Loaded by lessons.html and lesson.html. */
+.cs-badge {
+  display: inline-block;
+  margin-top: var(--s-1);
+  padding: 2px var(--s-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+  color: var(--ink-subtle);
+}
+.cs-badge--stub    { border-style: dashed; }
+.cs-badge--partial { border-style: dashed; }
+.cs-badge--reviewed { border-color: var(--success); color: var(--success); }
+.cs-words {
+  margin: 0;
+  font-size: var(--fs-xs);
+  color: var(--ink-subtle);
+}
+.cs-notice {
+  margin: var(--s-4) 0 0;
+  padding: var(--s-3) var(--s-4);
+  border: 1px solid var(--border);
+  border-left-width: 4px;
+  border-radius: var(--r-md);
+  background: var(--surface);
+  color: var(--ink);
+}
+.cs-notice[hidden] { display: none; }
+.cs-notice p { margin: 0; }
+html[lang="bn"] .cs-notice { line-height: var(--lh-bn); }
+.cs-empty {
+  margin: var(--s-6) 0;
+  text-align: center;
+  color: var(--ink-subtle);
+}
+.cs-empty[hidden] { display: none; }

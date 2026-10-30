@@ -1,0 +1,355 @@
+{
+  "note": "Generated from lesson data. Do not edit by hand.",
+  "lessons": {
+    "minna-001": {
+      "status": "draft",
+      "vocab": 40,
+      "grammar": 5,
+      "kanji": 6,
+      "practice": 5
+    },
+    "minna-002": {
+      "status": "draft",
+      "vocab": 46,
+      "grammar": 4,
+      "kanji": 2,
+      "practice": 4
+    },
+    "minna-003": {
+      "status": "draft",
+      "vocab": 50,
+      "grammar": 4,
+      "kanji": 1,
+      "practice": 4
+    },
+    "minna-004": {
+      "status": "draft",
+      "vocab": 57,
+      "grammar": 4,
+      "kanji": 2,
+      "practice": 4
+    },
+    "minna-005": {
+      "status": "draft",
+      "vocab": 61,
+      "grammar": 4,
+      "kanji": 3,
+      "practice": 4
+    },
+    "minna-006": {
+      "status": "draft",
+      "vocab": 56,
+      "grammar": 4,
+      "kanji": 3,
+      "practice": 4
+    },
+    "minna-007": {
+      "status": "partial",
+      "vocab": 46,
+      "grammar": 0,
+      "kanji": 0,
+      "practice": 0
+    },
+    "minna-008": {
+      "status": "partial",
+      "vocab": 61,
+      "grammar": 0,
+      "kanji": 3,
+      "practice": 0
+    },
+    "minna-009": {
+      "status": "partial",
+      "vocab": 55,
+      "grammar": 0,
+      "kanji": 3,
+      "practice": 0
+    },
+    "minna-010": {
+      "status": "partial",
+      "vocab": 49,
+      "grammar": 0,
+      "kanji": 7,
+      "practice": 0
+    },
+    "minna-011": {
+      "status": "draft",
+      "vocab": 62,
+      "grammar": 2,
+      "kanji": 13,
+      "practice": 2
+    },
+    "minna-012": {
+      "status": "draft",
+      "vocab": 53,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-013": {
+      "status": "draft",
+      "vocab": 33,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-014": {
+      "status": "draft",
+      "vocab": 46,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-015": {
+      "status": "draft",
+      "vocab": 24,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-016": {
+      "status": "draft",
+      "vocab": 58,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-017": {
+      "status": "draft",
+      "vocab": 35,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-018": {
+      "status": "draft",
+      "vocab": 30,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-019": {
+      "status": "draft",
+      "vocab": 26,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-020": {
+      "status": "draft",
+      "vocab": 22,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-021": {
+      "status": "draft",
+      "vocab": 50,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-022": {
+      "status": "draft",
+      "vocab": 30,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-023": {
+      "status": "draft",
+      "vocab": 25,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-024": {
+      "status": "draft",
+      "vocab": 18,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-025": {
+      "status": "draft",
+      "vocab": 17,
+      "grammar": 2,
+      "kanji": 2,
+      "practice": 2
+    },
+    "minna-026": {
+      "status": "stub",
+      "vocab": 9,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-027": {
+      "status": "stub",
+      "vocab": 6,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-028": {
+      "status": "stub",
+      "vocab": 6,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-029": {
+      "status": "stub",
+      "vocab": 6,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-030": {
+      "status": "stub",
+      "vocab": 6,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-031": {
+      "status": "stub",
+      "vocab": 5,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-032": {
+      "status": "stub",
+      "vocab": 4,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-033": {
+      "status": "stub",
+      "vocab": 4,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-034": {
+      "status": "stub",
+      "vocab": 4,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-035": {
+      "status": "stub",
+      "vocab": 4,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-036": {
+      "status": "stub",
+      "vocab": 4,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-037": {
+      "status": "stub",
+      "vocab": 4,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-038": {
+      "status": "stub",
+      "vocab": 5,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-039": {
+      "status": "stub",
+      "vocab": 5,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-040": {
+      "status": "stub",
+      "vocab": 5,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-041": {
+      "status": "stub",
+      "vocab": 4,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-042": {
+      "status": "stub",
+      "vocab": 5,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-043": {
+      "status": "stub",
+      "vocab": 3,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-044": {
+      "status": "stub",
+      "vocab": 3,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-045": {
+      "status": "stub",
+      "vocab": 3,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-046": {
+      "status": "stub",
+      "vocab": 3,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-047": {
+      "status": "stub",
+      "vocab": 3,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-048": {
+      "status": "stub",
+      "vocab": 3,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-049": {
+      "status": "stub",
+      "vocab": 3,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    },
+    "minna-050": {
+      "status": "stub",
+      "vocab": 3,
+      "grammar": 2,
+      "kanji": 0,
+      "practice": 2
+    }
+  }
+}
