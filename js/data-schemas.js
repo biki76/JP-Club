@@ -37,7 +37,7 @@
   /* ── Grammar entry ──────────────────────────────────── */
   const grammarExample = {
     type: 'object',
-    required: ['jp', 'en', 'bn'],
+    required: ['jp', 'en'],
     properties: {
       jp:       nonEmptyString,
       furigana: { type: 'string' },
