@@ -42,6 +42,7 @@
       jp:       nonEmptyString,
       furigana: { type: 'string' },
       romaji:   { type: 'string' },
+      audio_url: { type: 'string' },   // Phase 6 restore
       en:       nonEmptyString,
       bn:       nonEmptyString
     },
