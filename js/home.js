@@ -291,3 +291,34 @@
     document.addEventListener('DOMContentLoaded', init);
   } else { init(); }
 })();
+
+
+// --- Phase 13: Continue Learning Card ---
+function renderContinueCard() {
+  const progress = JSON.parse(localStorage.getItem('nihongo_progress') || 'null');
+  const card = document.getElementById('continue-card');
+  if (!card) return;
+  
+  if (!progress || progress.completedLessons === 0) {
+    card.hidden = true;
+    return;
+  }
+  
+  const percent = Math.round((progress.completedLessons / progress.totalLessons) * 100);
+  const lessonNum = progress.currentLesson || 1;
+  const lessonTitle = progress.currentLessonTitle?.en || `Lesson ${lessonNum}`;
+  
+  card.querySelector('[data-en="Continue learning"]').textContent = `Continue: ${lessonTitle}`;
+  card.querySelector('[data-bn="শেখা চালিয়ে যান"]').textContent = `চালিয়ে যান: ${lessonTitle}`;
+  card.querySelector('.continue-card__progress-fill').style.width = `${percent}%`;
+  card.querySelector('.continue-card__percent').textContent = `${percent}%`;
+  card.querySelector('.continue-card__cta').href = `lesson.html?lesson=minna-${String(lessonNum).padStart(3, '0')}`;
+  card.hidden = false;
+}
+
+// Call after DOM ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', renderContinueCard);
+} else {
+  renderContinueCard();
+}

@@ -361,3 +361,31 @@
 @media (max-width: 479px) {
   .shell-header__brand > span:last-child { display: none; }
 }
+
+/* Phase 13: Header Layout Fix */
+header[data-shell-header] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3, 0.75rem);
+  padding: var(--s-3, 0.75rem) var(--s-4, 1rem);
+  background: var(--surface, #fff);
+  border-bottom: 1px solid var(--border, #eee);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/* Ensure the auth button doesn't push everything else */
+header[data-shell-header] > * {
+  flex-shrink: 0;
+}
+
+/* Group the right-side items (Lang, Theme, Auth) */
+header[data-shell-header] .shell-header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2, 0.5rem);
+  margin-left: auto;
+}

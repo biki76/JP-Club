@@ -269,3 +269,22 @@ html[lang="bn"] .fc-empty__hint { line-height: var(--lh-bn); }
   font-size: var(--fs-sm); color: var(--ink-muted);
   font-weight: 500; font-variant-numeric: tabular-nums;
 }
+
+/* Phase 13: Flashcard Aspect Ratio Fix */
+.flashcard__face {
+  min-height: 300px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--s-6);
+  text-align: center;
+}
+
+.flashcard__word {
+  font-size: var(--fs-3xl);
+  font-weight: 700;
+  margin-bottom: var(--s-4);
+  line-height: 1.2;
+}
