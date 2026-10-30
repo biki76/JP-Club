@@ -25,6 +25,7 @@
       kanji:           { type: 'string' },   // may be omitted for kana-only words
       furigana:        nonEmptyString,       // reading in kana
       romaji:          { type: 'string' },
+      type:            { type: 'string' },   // part-of-speech: noun, verb, i-adjective...
       english_meaning: nonEmptyString,
       bengali_meaning: nonEmptyString,
       audio_url:       { type: 'string' },
@@ -97,7 +98,8 @@
         properties: {
           vocabulary: nonEmptyString,
           grammar:    nonEmptyString,
-          kanji:      nonEmptyString
+          kanji:      nonEmptyString,
+          practice:   nonEmptyString
         },
         additionalProperties: false
       },
