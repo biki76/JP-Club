@@ -1,4 +1,26 @@
 [
-{"id":"minna-026-g001","pattern":"～んです","meaning_en":"explaining cause / reason","example_jp":"どうしておくれたんですか。","example_en":"Why were you late?"},
-{"id":"minna-026-g002","pattern":"～ていただけませんか","meaning_en":"polite request","example_jp":"ちょっと待っていただけませんか。","example_en":"Could you please wait a moment?"}
+  {
+    "id": "minna-026-g001",
+    "pattern": "～んです",
+    "meaning_en": "explaining cause / reason",
+    "examples": [
+      {
+        "jp": "どうしておくれたんですか。",
+        "en": "Why were you late?"
+      }
+    ],
+    "meaning_bn": "explaining cause / reason"
+  },
+  {
+    "id": "minna-026-g002",
+    "pattern": "～ていただけませんか",
+    "meaning_en": "polite request",
+    "examples": [
+      {
+        "jp": "ちょっと待っていただけませんか。",
+        "en": "Could you please wait a moment?"
+      }
+    ],
+    "meaning_bn": "polite request"
+  }
 ]

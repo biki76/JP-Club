@@ -1,4 +1,26 @@
 [
-{"id":"minna-027-g001","pattern":"Potential verbs","meaning_en":"express ability / possibility","example_jp":"日本語が話せます。","example_en":"I can speak Japanese."},
-{"id":"minna-027-g002","pattern":"～しか～ない","meaning_en":"only / nothing but","example_jp":"水しか飲みません。","example_en":"I drink only water."}
+  {
+    "id": "minna-027-g001",
+    "pattern": "Potential verbs",
+    "meaning_en": "express ability / possibility",
+    "examples": [
+      {
+        "jp": "日本語が話せます。",
+        "en": "I can speak Japanese."
+      }
+    ],
+    "meaning_bn": "express ability / possibility"
+  },
+  {
+    "id": "minna-027-g002",
+    "pattern": "～しか～ない",
+    "meaning_en": "only / nothing but",
+    "examples": [
+      {
+        "jp": "水しか飲みません。",
+        "en": "I drink only water."
+      }
+    ],
+    "meaning_bn": "only / nothing but"
+  }
 ]

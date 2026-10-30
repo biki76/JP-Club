@@ -1,0 +1,1355 @@
+{
+  "generatedAt": "2026-10-30T11:00:51.991Z",
+  "placeholderKanji": [
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-001",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-002",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-003",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-004",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-005",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-006",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-007",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-007",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-007",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-007",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-007",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-007",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-007",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-007",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-007",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-008",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-009",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-009",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-009",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-009",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-009",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-009",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-009",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-009",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-009",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-010",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-011",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-012",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-012",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-012",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-012",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-012",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-013",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-013",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-013",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-013",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-013",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-014",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-014",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-014",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-014",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-014",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-015",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-015",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-015",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-015",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-015",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-016",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-016",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-016",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-016",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-016",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-017",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-017",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-017",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-017",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-017",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-018",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-018",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-018",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-018",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-018",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-019",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-019",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-019",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-019",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-019",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-020",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-020",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-020",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-020",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-020",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-021",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-021",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-021",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-021",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-021",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-022",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-022",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-022",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-022",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-022",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-023",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-023",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-023",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-023",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-023",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-024",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-024",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-024",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-024",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-024",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-025",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-025",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-025",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-025",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-025",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-026",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-026",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-026",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-026",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-026",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-027",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-027",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-027",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-027",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-027",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-028",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-028",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-028",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-028",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-028",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-029",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-029",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-029",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-029",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-029",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-030",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-030",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-030",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-030",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-030",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-031",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-031",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-031",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-031",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-031",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-032",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-032",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-032",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-032",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-032",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-033",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-033",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-033",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-033",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-033",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-034",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-034",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-034",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-034",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-034",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-035",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-035",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-035",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-035",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-035",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-036",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-036",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-036",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-036",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-036",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-037",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-037",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-037",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-037",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-037",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-038",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-038",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-038",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-038",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-038",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-039",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-039",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-039",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-039",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-039",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-040",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-040",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-040",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-040",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-040",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-041",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-041",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-041",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-041",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-041",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-042",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-042",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-042",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-042",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-042",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-043",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-043",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-043",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-043",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-043",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-044",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-044",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-044",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-044",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-044",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-045",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-045",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-045",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-045",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-045",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-046",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-046",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-046",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-046",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-046",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-047",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-047",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-047",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-047",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-047",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-048",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-048",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-048",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-048",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-048",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-049",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-049",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-049",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-049",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-049",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-050",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-050",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-050",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-050",
+      "kanji": "?"
+    },
+    {
+      "lesson": "minna-050",
+      "kanji": "?"
+    }
+  ],
+  "stubLessons": [
+    {
+      "lesson": "minna-026",
+      "vocab": 9
+    },
+    {
+      "lesson": "minna-027",
+      "vocab": 6
+    },
+    {
+      "lesson": "minna-028",
+      "vocab": 6
+    },
+    {
+      "lesson": "minna-029",
+      "vocab": 6
+    },
+    {
+      "lesson": "minna-030",
+      "vocab": 6
+    },
+    {
+      "lesson": "minna-031",
+      "vocab": 5
+    },
+    {
+      "lesson": "minna-032",
+      "vocab": 4
+    },
+    {
+      "lesson": "minna-033",
+      "vocab": 4
+    },
+    {
+      "lesson": "minna-034",
+      "vocab": 4
+    },
+    {
+      "lesson": "minna-035",
+      "vocab": 4
+    },
+    {
+      "lesson": "minna-036",
+      "vocab": 4
+    },
+    {
+      "lesson": "minna-037",
+      "vocab": 4
+    },
+    {
+      "lesson": "minna-038",
+      "vocab": 5
+    },
+    {
+      "lesson": "minna-039",
+      "vocab": 5
+    },
+    {
+      "lesson": "minna-040",
+      "vocab": 5
+    },
+    {
+      "lesson": "minna-041",
+      "vocab": 4
+    },
+    {
+      "lesson": "minna-042",
+      "vocab": 5
+    },
+    {
+      "lesson": "minna-043",
+      "vocab": 3
+    },
+    {
+      "lesson": "minna-044",
+      "vocab": 3
+    },
+    {
+      "lesson": "minna-045",
+      "vocab": 3
+    },
+    {
+      "lesson": "minna-046",
+      "vocab": 3
+    },
+    {
+      "lesson": "minna-047",
+      "vocab": 3
+    },
+    {
+      "lesson": "minna-048",
+      "vocab": 3
+    },
+    {
+      "lesson": "minna-049",
+      "vocab": 3
+    },
+    {
+      "lesson": "minna-050",
+      "vocab": 3
+    }
+  ]
+}

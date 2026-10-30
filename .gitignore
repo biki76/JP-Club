@@ -3,3 +3,6 @@
 js/supabase-config.js
 node_modules/
 package-lock.json
+
+# normalize-data backups (session-only safety rails)
+data/lessons/**/*.bak

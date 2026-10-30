@@ -1,4 +1,26 @@
 [
-{"id":"minna-032-g001","pattern":"～かもしれません","meaning_en":"might / perhaps","example_jp":"雨が降るかもしれません。","example_en":"It might rain."},
-{"id":"minna-032-g002","pattern":"～でしょう","meaning_en":"probably","example_jp":"明日は晴れるでしょう。","example_en":"It will probably be sunny tomorrow."}
+  {
+    "id": "minna-032-g001",
+    "pattern": "～かもしれません",
+    "meaning_en": "might / perhaps",
+    "examples": [
+      {
+        "jp": "雨が降るかもしれません。",
+        "en": "It might rain."
+      }
+    ],
+    "meaning_bn": "might / perhaps"
+  },
+  {
+    "id": "minna-032-g002",
+    "pattern": "～でしょう",
+    "meaning_en": "probably",
+    "examples": [
+      {
+        "jp": "明日は晴れるでしょう。",
+        "en": "It will probably be sunny tomorrow."
+      }
+    ],
+    "meaning_bn": "probably"
+  }
 ]

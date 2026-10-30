@@ -1,0 +1,156 @@
+[
+  {
+    "lesson": "minna-026",
+    "kind": "grammar",
+    "id": "minna-026-g001",
+    "field": "meaning_bn",
+    "from": "explaining cause / reason"
+  },
+  {
+    "lesson": "minna-026",
+    "kind": "grammar",
+    "id": "minna-026-g002",
+    "field": "meaning_bn",
+    "from": "polite request"
+  },
+  {
+    "lesson": "minna-027",
+    "kind": "grammar",
+    "id": "minna-027-g001",
+    "field": "meaning_bn",
+    "from": "express ability / possibility"
+  },
+  {
+    "lesson": "minna-027",
+    "kind": "grammar",
+    "id": "minna-027-g002",
+    "field": "meaning_bn",
+    "from": "only / nothing but"
+  },
+  {
+    "lesson": "minna-028",
+    "kind": "grammar",
+    "id": "minna-028-g001",
+    "field": "meaning_bn",
+    "from": "doing two actions simultaneously"
+  },
+  {
+    "lesson": "minna-028",
+    "kind": "grammar",
+    "id": "minna-028-g002",
+    "field": "meaning_bn",
+    "from": "listing multiple reasons / facts"
+  },
+  {
+    "lesson": "minna-029",
+    "kind": "grammar",
+    "id": "minna-029-g001",
+    "field": "meaning_bn",
+    "from": "completion / regret"
+  },
+  {
+    "lesson": "minna-029",
+    "kind": "grammar",
+    "id": "minna-029-g002",
+    "field": "meaning_bn",
+    "from": "state resulting from intentional action"
+  },
+  {
+    "lesson": "minna-030",
+    "kind": "grammar",
+    "id": "minna-030-g001",
+    "field": "meaning_bn",
+    "from": "doing something in preparation"
+  },
+  {
+    "lesson": "minna-030",
+    "kind": "grammar",
+    "id": "minna-030-g002",
+    "field": "meaning_bn",
+    "from": "completion (often regretful)"
+  },
+  {
+    "lesson": "minna-031",
+    "kind": "grammar",
+    "id": "minna-031-g001",
+    "field": "meaning_bn",
+    "from": "intend to"
+  },
+  {
+    "lesson": "minna-031",
+    "kind": "grammar",
+    "id": "minna-031-g002",
+    "field": "meaning_bn",
+    "from": "be scheduled to"
+  },
+  {
+    "lesson": "minna-032",
+    "kind": "grammar",
+    "id": "minna-032-g001",
+    "field": "meaning_bn",
+    "from": "might / perhaps"
+  },
+  {
+    "lesson": "minna-032",
+    "kind": "grammar",
+    "id": "minna-032-g002",
+    "field": "meaning_bn",
+    "from": "probably"
+  },
+  {
+    "lesson": "minna-033",
+    "kind": "grammar",
+    "id": "minna-033-g001",
+    "field": "meaning_bn",
+    "from": "in order to / because of"
+  },
+  {
+    "lesson": "minna-033",
+    "kind": "grammar",
+    "id": "minna-033-g002",
+    "field": "meaning_bn",
+    "from": "so that"
+  },
+  {
+    "lesson": "minna-034",
+    "kind": "grammar",
+    "id": "minna-034-g001",
+    "field": "meaning_bn",
+    "from": "just did"
+  },
+  {
+    "lesson": "minna-034",
+    "kind": "grammar",
+    "id": "minna-034-g002",
+    "field": "meaning_bn",
+    "from": "just did / just finished"
+  },
+  {
+    "lesson": "minna-035",
+    "kind": "grammar",
+    "id": "minna-035-g001",
+    "field": "meaning_bn",
+    "from": "conditional (if)"
+  },
+  {
+    "lesson": "minna-035",
+    "kind": "grammar",
+    "id": "minna-035-g002",
+    "field": "meaning_bn",
+    "from": "if that is the case"
+  },
+  {
+    "lesson": "minna-037",
+    "kind": "grammar",
+    "id": "minna-037-g001",
+    "field": "meaning_bn",
+    "from": "causative (make/let someone do)"
+  },
+  {
+    "lesson": "minna-037",
+    "kind": "grammar",
+    "id": "minna-037-g002",
+    "field": "meaning_bn",
+    "from": "receive the favor of doing"
+  }
+]

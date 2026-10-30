@@ -1,4 +1,26 @@
 [
-{"id":"minna-035-g001","pattern":"～ば","meaning_en":"conditional (if)","example_jp":"お金があれば、買います。","example_en":"If I have money, I will buy it."},
-{"id":"minna-035-g002","pattern":"～なら","meaning_en":"if that is the case","example_jp":"行くなら、早く準備しなさい。","example_en":"If you're going, get ready quickly."}
+  {
+    "id": "minna-035-g001",
+    "pattern": "～ば",
+    "meaning_en": "conditional (if)",
+    "examples": [
+      {
+        "jp": "お金があれば、買います。",
+        "en": "If I have money, I will buy it."
+      }
+    ],
+    "meaning_bn": "conditional (if)"
+  },
+  {
+    "id": "minna-035-g002",
+    "pattern": "～なら",
+    "meaning_en": "if that is the case",
+    "examples": [
+      {
+        "jp": "行くなら、早く準備しなさい。",
+        "en": "If you're going, get ready quickly."
+      }
+    ],
+    "meaning_bn": "if that is the case"
+  }
 ]

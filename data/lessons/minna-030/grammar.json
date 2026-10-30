@@ -1,4 +1,26 @@
 [
-{"id":"minna-030-g001","pattern":"～ておきます","meaning_en":"doing something in preparation","example_jp":"ホテルを予約しておきます。","example_en":"I'll reserve the hotel in advance."},
-{"id":"minna-030-g002","pattern":"～てしまいます","meaning_en":"completion (often regretful)","example_jp":"財布をなくしてしまいました。","example_en":"I lost my wallet (unfortunately)."}
+  {
+    "id": "minna-030-g001",
+    "pattern": "～ておきます",
+    "meaning_en": "doing something in preparation",
+    "examples": [
+      {
+        "jp": "ホテルを予約しておきます。",
+        "en": "I'll reserve the hotel in advance."
+      }
+    ],
+    "meaning_bn": "doing something in preparation"
+  },
+  {
+    "id": "minna-030-g002",
+    "pattern": "～てしまいます",
+    "meaning_en": "completion (often regretful)",
+    "examples": [
+      {
+        "jp": "財布をなくしてしまいました。",
+        "en": "I lost my wallet (unfortunately)."
+      }
+    ],
+    "meaning_bn": "completion (often regretful)"
+  }
 ]

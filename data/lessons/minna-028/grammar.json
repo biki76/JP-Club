@@ -1,4 +1,26 @@
 [
-{"id":"minna-028-g001","pattern":"～ながら","meaning_en":"doing two actions simultaneously","example_jp":"音楽を聞きながら勉強します。","example_en":"I study while listening to music."},
-{"id":"minna-028-g002","pattern":"～し～し","meaning_en":"listing multiple reasons / facts","example_jp":"安いし、おいしいし、よく食べます。","example_en":"It's cheap and delicious, so I eat it often."}
+  {
+    "id": "minna-028-g001",
+    "pattern": "～ながら",
+    "meaning_en": "doing two actions simultaneously",
+    "examples": [
+      {
+        "jp": "音楽を聞きながら勉強します。",
+        "en": "I study while listening to music."
+      }
+    ],
+    "meaning_bn": "doing two actions simultaneously"
+  },
+  {
+    "id": "minna-028-g002",
+    "pattern": "～し～し",
+    "meaning_en": "listing multiple reasons / facts",
+    "examples": [
+      {
+        "jp": "安いし、おいしいし、よく食べます。",
+        "en": "It's cheap and delicious, so I eat it often."
+      }
+    ],
+    "meaning_bn": "listing multiple reasons / facts"
+  }
 ]

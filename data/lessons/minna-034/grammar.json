@@ -1,4 +1,26 @@
 [
-{"id":"minna-034-g001","pattern":"～たばかり","meaning_en":"just did","example_jp":"今、食べたばかりです。","example_en":"I just ate."},
-{"id":"minna-034-g002","pattern":"～たところ","meaning_en":"just did / just finished","example_jp":"今、終わったところです。","example_en":"I just finished."}
+  {
+    "id": "minna-034-g001",
+    "pattern": "～たばかり",
+    "meaning_en": "just did",
+    "examples": [
+      {
+        "jp": "今、食べたばかりです。",
+        "en": "I just ate."
+      }
+    ],
+    "meaning_bn": "just did"
+  },
+  {
+    "id": "minna-034-g002",
+    "pattern": "～たところ",
+    "meaning_en": "just did / just finished",
+    "examples": [
+      {
+        "jp": "今、終わったところです。",
+        "en": "I just finished."
+      }
+    ],
+    "meaning_bn": "just did / just finished"
+  }
 ]

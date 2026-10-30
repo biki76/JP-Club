@@ -1,4 +1,26 @@
 [
-{"id":"minna-029-g001","pattern":"～てしまいます","meaning_en":"completion / regret","example_jp":"ケーキを全部食べてしまいました。","example_en":"I ate the whole cake (unfortunately)."},
-{"id":"minna-029-g002","pattern":"～てあります","meaning_en":"state resulting from intentional action","example_jp":"窓が開けてあります。","example_en":"The window has been opened (and is still open)."}
+  {
+    "id": "minna-029-g001",
+    "pattern": "～てしまいます",
+    "meaning_en": "completion / regret",
+    "examples": [
+      {
+        "jp": "ケーキを全部食べてしまいました。",
+        "en": "I ate the whole cake (unfortunately)."
+      }
+    ],
+    "meaning_bn": "completion / regret"
+  },
+  {
+    "id": "minna-029-g002",
+    "pattern": "～てあります",
+    "meaning_en": "state resulting from intentional action",
+    "examples": [
+      {
+        "jp": "窓が開けてあります。",
+        "en": "The window has been opened (and is still open)."
+      }
+    ],
+    "meaning_bn": "state resulting from intentional action"
+  }
 ]

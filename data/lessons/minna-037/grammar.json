@@ -1,4 +1,26 @@
 [
-{"id":"minna-037-g001","pattern":"～させます","meaning_en":"causative (make/let someone do)","example_jp":"子供に野菜を食べさせます。","example_en":"I make my child eat vegetables."},
-{"id":"minna-037-g002","pattern":"～ていただきます","meaning_en":"receive the favor of doing","example_jp":"先生に教えていただきました。","example_en":"I received the favor of being taught by the teacher."}
+  {
+    "id": "minna-037-g001",
+    "pattern": "～させます",
+    "meaning_en": "causative (make/let someone do)",
+    "examples": [
+      {
+        "jp": "子供に野菜を食べさせます。",
+        "en": "I make my child eat vegetables."
+      }
+    ],
+    "meaning_bn": "causative (make/let someone do)"
+  },
+  {
+    "id": "minna-037-g002",
+    "pattern": "～ていただきます",
+    "meaning_en": "receive the favor of doing",
+    "examples": [
+      {
+        "jp": "先生に教えていただきました。",
+        "en": "I received the favor of being taught by the teacher."
+      }
+    ],
+    "meaning_bn": "receive the favor of doing"
+  }
 ]
