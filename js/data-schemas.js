@@ -112,6 +112,7 @@
     required: ['courseId', 'manifests'],
     properties: {
       courseId:  nonEmptyString,
+      totalLessons: { type: 'integer', minimum: 0 },
       manifests: { type: 'array', items: nonEmptyString, minItems: 0 }
     },
     additionalProperties: false
@@ -252,31 +253,3 @@
     validateCollection
   };
 });
-/* ── PHASE 6: sentences may carry an optional audio_url ── */
-const sentencePair = {
-  type: 'object',
-  required: ['jp', 'en', 'bn'],
-  properties: {
-    jp:        nonEmptyString,
-    furigana:  { type: 'string' },
-    romaji:    { type: 'string' },
-    audio_url: { type: 'string' },        // ← added
-    en:        nonEmptyString,
-    bn:        nonEmptyString
-  },
-  additionalProperties: false
-};
-
-const grammarExample = {
-  type: 'object',
-  required: ['jp', 'en', 'bn'],
-  properties: {
-    jp:        nonEmptyString,
-    furigana:  { type: 'string' },
-    romaji:    { type: 'string' },
-    audio_url: { type: 'string' },        // ← added
-    en:        nonEmptyString,
-    bn:        nonEmptyString
-  },
-  additionalProperties: false
-};
