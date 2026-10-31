@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-036-r001",
+    "id": "minna-036-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "My Health Habit",
+      "bn": "আমার স্বাস্থ্যকর অভ্যাস"
     },
     "passage": [
       {
-        "jp": "これは あいます［じこに～］ です。",
-        "furigana": "これは あいます［じこに～］ です。",
-        "romaji": "Kore wa aimasu [jikoni~] desu.",
-        "en": "This is encounter [an accident].",
-        "bn": "এটি encounter [an accident]।"
+        "jp": "私の 目標は 健康に なる ことです。",
+        "furigana": "わたしの もくひょうは けんこうに なる ことです。",
+        "romaji": "Watashi no mokuhyō wa kenkō ni naru koto desu.",
+        "en": "My goal is to become healthy.",
+        "bn": "আমার লক্ষ্য সুস্থ হওয়া।"
+      },
+      {
+        "jp": "去年は 体の 具合が あまり よくなかったです。",
+        "furigana": "きょねんは からだの ぐあいが あまり よくなかったです。",
+        "romaji": "Kyonen wa karada no guai ga amari yokunakatta desu.",
+        "en": "Last year my health was not very good.",
+        "bn": "গত বছর আমার শরীরের অবস্থা খুব একটা ভালো ছিল না।"
+      },
+      {
+        "jp": "それで、毎朝 走る ように なりました。",
+        "furigana": "それで、まいあさ はしる ように なりました。",
+        "romaji": "Sore de, maiasa hashiru yō ni narimashita.",
+        "en": "So I have come to run every morning.",
+        "bn": "তাই আমি প্রতিদিন সকালে দৌড়াতে শুরু করেছি।"
+      },
+      {
+        "jp": "最初は とても 大変でしたが、今は 楽しくなりました。",
+        "furigana": "さいしょは とても たいへんでしたが、いまは たのしくなりました。",
+        "romaji": "Saisho wa totemo taihen deshita ga, ima wa tanoshiku narimashita.",
+        "en": "At first it was very hard, but now it has become enjoyable.",
+        "bn": "শুরুতে খুব কষ্টকর ছিল, কিন্তু এখন আনন্দদায়ক হয়ে উঠেছে।"
+      },
+      {
+        "jp": "健康の ために、甘い 物を 食べない ように しています。",
+        "furigana": "けんこうの ために、あまい ものを たべない ように しています。",
+        "romaji": "Kenkō no tame ni, amai mono o tabenai yō ni shite imasu.",
+        "en": "For my health, I try not to eat sweet things.",
+        "bn": "স্বাস্থ্যের জন্য আমি মিষ্টি খাবার না খাওয়ার চেষ্টা করি।"
+      },
+      {
+        "jp": "夜は 早く 寝る ように して います。",
+        "furigana": "よるは はやく ねる ように して います。",
+        "romaji": "Yoru wa hayaku neru yō ni shite imasu.",
+        "en": "At night I try to go to bed early.",
+        "bn": "রাতে আমি তাড়াতাড়ি ঘুমানোর চেষ্টা করি।"
+      },
+      {
+        "jp": "お酒も 飲まない ように なりました。",
+        "furigana": "おさけも のまない ように なりました。",
+        "romaji": "Osake mo nomanai yō ni narimashita.",
+        "en": "I have come not to drink alcohol either.",
+        "bn": "আমি মদও আর পান করি না।"
+      },
+      {
+        "jp": "この 習慣を ずっと 続ける つもりです。",
+        "furigana": "この しゅうかんを ずっと つづける つもりです。",
+        "romaji": "Kono shūkan o zutto tsuzukeru tsumori desu.",
+        "en": "I intend to continue this habit forever.",
+        "bn": "আমি এই অভ্যাস চিরকাল চালিয়ে যাওয়ার ইচ্ছা করেছি।"
       }
     ]
   }

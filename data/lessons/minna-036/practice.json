@@ -3,48 +3,152 @@
     "id": "minna-036-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜36-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜36-A"
+      "en": "Choose the correct purpose particle: so that I can study abroad.",
+      "bn": "সঠিক উদ্দেশ্যবাচক কণা: যাতে বিদেশে পড়তে পারি।"
     },
     "stem": {
-      "jp": "これは レッスン36の 文法です。",
-      "furigana": "これは レッスン36の 文法です。",
-      "romaji": ""
+      "jp": "留学できる（　）、毎日 勉強しています。",
+      "furigana": "りゅうがくできる（　）、まいにち べんきょうしています。",
+      "romaji": "ryūgaku dekiru ( ), mainichi benkyō shite imasu."
     },
-    "options": [
-      "Grammar pattern 36-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["ように", "ために", "そうに", "らしく"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜36-A means \"Grammar pattern 36-A\".",
-      "bn": "〜36-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 36-A\"।"
+      "en": "動詞辞書形 + ように means \"so that\" and is often used with potential verbs.",
+      "bn": "動詞辞書形 + ように মানে \"যাতে\", প্রায়ই সম্ভাব্য ক্রিয়ার সঙ্গে ব্যবহৃত।"
     }
   },
   {
     "id": "minna-036-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜36-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜36-B"
+      "en": "Choose the correct purpose marker with a noun: for the sake of family.",
+      "bn": "বিশেষ্যের সঙ্গে সঠিক উদ্দেশ্যবাচক: পরিবারের জন্য।"
     },
     "stem": {
-      "jp": "これは レッスン36の 文法です。",
-      "furigana": "これは レッスン36の 文法です。",
-      "romaji": ""
+      "jp": "家族（　）、毎日 働いています。",
+      "furigana": "かぞく（　）、まいにち はたらいています。",
+      "romaji": "kazoku ( ), mainichi hataraite imasu."
     },
-    "options": [
-      "Grammar pattern 36-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["のために", "のように", "そうに", "らしく"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜36-B means \"Grammar pattern 36-B\".",
-      "bn": "〜36-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 36-B\"।"
+      "en": "名詞 + のために means \"for the sake of\".",
+      "bn": "名詞 + のために মানে \"এর জন্য\"।"
+    }
+  },
+  {
+    "id": "minna-036-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending: I have become able to speak Japanese.",
+      "bn": "সঠিক সমাপ্তি: আমি জাপানি বলতে পারছি।"
+    },
+    "stem": {
+      "jp": "毎日 練習して、日本語が 話せる（　）なりました。",
+      "furigana": "まいにち れんしゅうして、にほんごが はなせる（　）なりました。",
+      "romaji": "mainichi renshū shite, nihongo ga hanaseru ( ) narimashita."
+    },
+    "options": ["ように", "ために", "そうに", "らしく"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V辞書形 + ようになります means \"come to be able to\".",
+      "bn": "V辞書形 + ようになります মানে \"পারতে শুরু করা\"।"
+    }
+  },
+  {
+    "id": "minna-036-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form: I make an effort to speak Japanese daily.",
+      "bn": "সঠিক রূপ: আমি প্রতিদিন জাপানি বলার চেষ্টা করি।"
+    },
+    "stem": {
+      "jp": "毎日 日本語を 話す（　）しています。",
+      "furigana": "まいにち にほんごを はなす（　）しています。",
+      "romaji": "mainichi nihongo o hanasu ( ) shite imasu."
+    },
+    "options": ["ように", "ために", "そうに", "らしく"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞辞書形 + ようにしています means making a continuing effort.",
+      "bn": "動詞辞書形 + ようにしています নিরন্তর চেষ্টা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-036-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct negative effort form.",
+      "bn": "সঠিক নেতিবাচক প্রচেষ্টা রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "健康の ために、甘い 物を（　）ように しています。",
+      "furigana": "けんこうの ために、あまい ものを（　）ように しています।",
+      "romaji": "kenkō no tame ni, amai mono o ( ) yō ni shite imasu."
+    },
+    "options": ["食べない", "食べる", "食べて", "食べた"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vない形 + ようにしています means trying not to do something.",
+      "bn": "Vない形 + ようにしています কিছু না করার চেষ্টা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-036-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 目的.",
+      "bn": "目的 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "留学の 目的は 何ですか。",
+      "furigana": "りゅうがくの もくてきは なんですか。",
+      "romaji": "ryūgaku no mokuteki wa nan desu ka."
+    },
+    "options": ["purpose", "result", "reason", "process"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "目的 means purpose or aim.",
+      "bn": "目的 মানে উদ্দেশ্য।"
+    }
+  },
+  {
+    "id": "minna-036-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 習慣.",
+      "bn": "習慣 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "早起きは いい 習慣です。",
+      "furigana": "はやおきは いい しゅうかんです。",
+      "romaji": "hayaoki wa ii shūkan desu."
+    },
+    "options": ["habit", "health", "exercise", "practice"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "習慣 means habit or custom.",
+      "bn": "習慣 মানে অভ্যাস।"
+    }
+  },
+  {
+    "id": "minna-036-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 諦める.",
+      "bn": "諦める এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "まだ 諦めないで ください。",
+      "furigana": "まだ あきらめないで ください。",
+      "romaji": "mada akiramenaide kudasai."
+    },
+    "options": ["give up", "continue", "start", "remember"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "諦める means to give up.",
+      "bn": "諦める মানে হাল ছেড়ে দেওয়া।"
     }
   }
 ]

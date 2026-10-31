@@ -1,38 +1,272 @@
 [
   {
     "id": "minna-036-v001",
-    "kanji": "遭遇します",
-    "furigana": "そうぐうします",
-    "romaji": "souguu shimasu",
-    "english_meaning": "to encounter (an accident)",
-    "type": "verb",
-    "bengali_meaning": "(দুর্ঘটনার) মুখোমুখি হওয়া"
+    "kanji": "目的",
+    "furigana": "もくてき",
+    "romaji": "mokuteki",
+    "english_meaning": "purpose, aim",
+    "bengali_meaning": "উদ্দেশ্য",
+    "tags": ["vocabulary", "lesson-36"]
   },
   {
     "id": "minna-036-v002",
-    "kanji": "貯金します",
-    "furigana": "ちょきんします",
-    "romaji": "chokin shimasu",
-    "english_meaning": "to save money",
-    "type": "verb",
-    "bengali_meaning": "টাকা জমানো"
+    "kanji": "目標",
+    "furigana": "もくひょう",
+    "romaji": "mokuhyō",
+    "english_meaning": "goal, target",
+    "bengali_meaning": "লক্ষ্য",
+    "tags": ["vocabulary", "lesson-36"]
   },
   {
     "id": "minna-036-v003",
-    "kanji": "過ぎます",
-    "furigana": "すぎます",
-    "romaji": "sugimasu",
-    "english_meaning": "to pass (time)",
-    "type": "verb",
-    "bengali_meaning": "(সময়) কাটানো"
+    "kanji": "努力",
+    "furigana": "どりょく",
+    "romaji": "doryoku",
+    "english_meaning": "effort",
+    "bengali_meaning": "প্রচেষ্টা",
+    "tags": ["vocabulary", "lesson-36"]
   },
   {
     "id": "minna-036-v004",
-    "kanji": "慣れます",
-    "furigana": "なれます",
-    "romaji": "naremasu",
-    "english_meaning": "to get accustomed to",
-    "type": "verb",
-    "bengali_meaning": "অভ্যস্ত হওয়া"
+    "kanji": "練習",
+    "furigana": "れんしゅう",
+    "romaji": "renshū",
+    "english_meaning": "practice",
+    "bengali_meaning": "অনুশীলন",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v005",
+    "kanji": "運動",
+    "furigana": "うんどう",
+    "romaji": "undō",
+    "english_meaning": "exercise, physical activity",
+    "bengali_meaning": "ব্যায়াম",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v006",
+    "kanji": "健康",
+    "furigana": "けんこう",
+    "romaji": "kenkō",
+    "english_meaning": "health",
+    "bengali_meaning": "স্বাস্থ্য",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v007",
+    "kanji": "早起き",
+    "furigana": "はやおき",
+    "romaji": "hayaoki",
+    "english_meaning": "early rising",
+    "bengali_meaning": "সকালে তাড়াতাড়ি ওঠা",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v008",
+    "kanji": "習慣",
+    "furigana": "しゅうかん",
+    "romaji": "shūkan",
+    "english_meaning": "habit, custom",
+    "bengali_meaning": "অভ্যাস",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v009",
+    "kanji": "続ける",
+    "furigana": "つづける",
+    "romaji": "tsuzukeru",
+    "english_meaning": "to continue",
+    "bengali_meaning": "চালিয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v010",
+    "kanji": "始める",
+    "furigana": "はじめる",
+    "romaji": "hajimeru",
+    "english_meaning": "to begin",
+    "bengali_meaning": "শুরু করা",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v011",
+    "kanji": "諦める",
+    "furigana": "あきらめる",
+    "romaji": "akirameru",
+    "english_meaning": "to give up",
+    "bengali_meaning": "হাল ছেড়ে দেওয়া",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v012",
+    "kanji": "覚える",
+    "furigana": "おぼえる",
+    "romaji": "oboeru",
+    "english_meaning": "to memorize, to learn",
+    "bengali_meaning": "মুখস্থ করা, শেখা",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v013",
+    "kanji": "忘れる",
+    "furigana": "わすれる",
+    "romaji": "wasureru",
+    "english_meaning": "to forget",
+    "bengali_meaning": "ভুলে যাওয়া",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v014",
+    "kanji": "漢字",
+    "furigana": "かんじ",
+    "romaji": "kanji",
+    "english_meaning": "kanji, Chinese characters",
+    "bengali_meaning": "কাঞ্জি",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v015",
+    "kanji": "単語",
+    "furigana": "たんご",
+    "romaji": "tango",
+    "english_meaning": "word, vocabulary",
+    "bengali_meaning": "শব্দ",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v016",
+    "kanji": "文法",
+    "furigana": "ぶんぽう",
+    "romaji": "bunpō",
+    "english_meaning": "grammar",
+    "bengali_meaning": "ব্যাকরণ",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v017",
+    "kanji": "発音",
+    "furigana": "はつおん",
+    "romaji": "hatsuon",
+    "english_meaning": "pronunciation",
+    "bengali_meaning": "উচ্চারণ",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v018",
+    "kanji": "日記",
+    "furigana": "にっき",
+    "romaji": "nikki",
+    "english_meaning": "diary",
+    "bengali_meaning": "ডায়েরি",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v019",
+    "kanji": "料理",
+    "furigana": "りょうり",
+    "romaji": "ryōri",
+    "english_meaning": "cooking, dish",
+    "bengali_meaning": "রান্না",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v020",
+    "kanji": "掃除",
+    "furigana": "そうじ",
+    "romaji": "sōji",
+    "english_meaning": "cleaning",
+    "bengali_meaning": "পরিষ্কার করা",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v021",
+    "kanji": "洗濯",
+    "furigana": "せんたく",
+    "romaji": "sentaku",
+    "english_meaning": "laundry",
+    "bengali_meaning": "কাপড় ধোয়া",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v022",
+    "kanji": "体重",
+    "furigana": "たいじゅう",
+    "romaji": "taijū",
+    "english_meaning": "body weight",
+    "bengali_meaning": "শরীরের ওজন",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v023",
+    "kanji": "痩せる",
+    "furigana": "やせる",
+    "romaji": "yaseru",
+    "english_meaning": "to lose weight, to become thin",
+    "bengali_meaning": "ওজন কমানো, চিকন হওয়া",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v024",
+    "kanji": "太る",
+    "furigana": "ふとる",
+    "romaji": "futoru",
+    "english_meaning": "to gain weight, to become fat",
+    "bengali_meaning": "মোটা হওয়া",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v025",
+    "kanji": "禁酒",
+    "furigana": "きんしゅ",
+    "romaji": "kinshu",
+    "english_meaning": "abstaining from alcohol",
+    "bengali_meaning": "মদ ছেড়ে দেওয়া",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v026",
+    "kanji": "毎日",
+    "furigana": "まいにち",
+    "romaji": "mainichi",
+    "english_meaning": "every day",
+    "bengali_meaning": "প্রতিদিন",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v027",
+    "kanji": "夜",
+    "furigana": "よる",
+    "romaji": "yoru",
+    "english_meaning": "night",
+    "bengali_meaning": "রাত",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v028",
+    "kanji": "朝",
+    "furigana": "あさ",
+    "romaji": "asa",
+    "english_meaning": "morning",
+    "bengali_meaning": "সকাল",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v029",
+    "kanji": "走る",
+    "furigana": "はしる",
+    "romaji": "hashiru",
+    "english_meaning": "to run",
+    "bengali_meaning": "দৌড়ানো",
+    "tags": ["vocabulary", "lesson-36"]
+  },
+  {
+    "id": "minna-036-v030",
+    "kanji": "頑張る",
+    "furigana": "がんばる",
+    "romaji": "ganbaru",
+    "english_meaning": "to do one's best, to persevere",
+    "bengali_meaning": "চেষ্টা করা, লেগে থাকা",
+    "tags": ["vocabulary", "lesson-36"]
   }
 ]

@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-036-l001",
+    "id": "minna-036-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Talking About Goals",
+      "bn": "লক্ষ্য নিয়ে আলোচনা"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "あいます［じこに～］ は 何 ですか。",
-        "furigana": "あいます［じこに～］ は なん ですか。",
-        "romaji": "aimasu [jikoni~] wa nan desu ka.",
-        "en": "What is encounter [an accident]?",
-        "bn": "encounter [an accident] কী?"
+        "jp": "A：田中さん、最近 何か 頑張っていますか。",
+        "furigana": "A：たなかさん、さいきん なにか がんばっていますか。",
+        "romaji": "A: Tanaka-san, saikin nanika ganbatte imasu ka.",
+        "en": "A: Mr. Tanaka, are you working hard on something recently?",
+        "bn": "A: মি. তানাকা, সাম্প্রতিককালে কিছু চেষ্টা করছেন?"
+      },
+      {
+        "jp": "B：はい。日本語で 日記を 書く ように しています。",
+        "furigana": "B：はい。にほんごで にっきを かく ように しています。",
+        "romaji": "B: Hai. Nihongo de nikki o kaku yō ni shite imasu.",
+        "en": "B: Yes. I try to write a diary in Japanese.",
+        "bn": "B: হ্যাঁ। আমি জাপানি ভাষায় ডায়েরি লেখার চেষ্টা করি।"
+      },
+      {
+        "jp": "A：いい 習慣ですね。何の ために 書くんですか。",
+        "furigana": "A：いい しゅうかんですね。なんの ために かくんですか。",
+        "romaji": "A: Ii shūkan desu ne. Nan no tame ni kaku n desu ka.",
+        "en": "A: That's a good habit. For what purpose do you write?",
+        "bn": "A: চমৎকার অভ্যাস। কী উদ্দেশ্যে লেখেন?"
+      },
+      {
+        "jp": "B：漢字を 忘れない ように、毎日 書いています。",
+        "furigana": "B：かんじを わすれない ように、まいにち かいて います。",
+        "romaji": "B: Kanji o wasurenai yō ni, mainichi kaite imasu.",
+        "en": "B: I write every day so that I won't forget kanji.",
+        "bn": "B: যাতে কাঞ্জি ভুলে না যাই, সেজন্য প্রতিদিন লিখি।"
+      },
+      {
+        "jp": "A：日本語が 上手に なりましたね。",
+        "furigana": "A：にほんごが じょうずに なりましたね。",
+        "romaji": "A: Nihongo ga jōzu ni narimashita ne.",
+        "en": "A: Your Japanese has become better, hasn't it?",
+        "bn": "A: আপনার জাপানি ভাষা ভালো হয়ে গেছে, তাই না?"
+      },
+      {
+        "jp": "B：ありがとうございます。毎日 少しずつ 話せる ように なりました。",
+        "furigana": "B：ありがとうございます。まいにち すこしずつ はなせる ように なりました。",
+        "romaji": "B: Arigatō gozaimasu. Mainichi sukoshizutsu hanaseru yō ni narimashita.",
+        "en": "B: Thank you. Day by day I have become able to speak a little.",
+        "bn": "B: ধন্যবাদ। দিনে দিনে একটু একটু করে বলতে পারছি।"
+      },
+      {
+        "jp": "A：私も 何か 始めたいです。何が いいでしょうか。",
+        "furigana": "A：わたしも なにか はじめたいです。なにが いいでしょうか。",
+        "romaji": "A: Watashi mo nanika hajimetai desu. Nani ga ii deshō ka.",
+        "en": "A: I want to start something too. What would be good?",
+        "bn": "A: আমিও কিছু শুরু করতে চাই। কী ভালো হবে?"
+      },
+      {
+        "jp": "B：健康の ために、走る ように したら どうですか。",
+        "furigana": "B：けんこうの ために、はしる ように したら どうですか。",
+        "romaji": "B: Kenkō no tame ni, hashiru yō ni shitara dō desu ka.",
+        "en": "B: For your health, why don't you try running?",
+        "bn": "B: স্বাস্থ্যের জন্য দৌড়ানো শুরু করেন না কেন?"
+      },
+      {
+        "jp": "A：いいですね。明日から 走る ように してみます。",
+        "furigana": "A：いいですね。あしたから はしる ように してみます。",
+        "romaji": "A: Ii desu ne. Ashita kara hashiru yō ni shite mimasu.",
+        "en": "A: Sounds good. I will try to run starting tomorrow.",
+        "bn": "A: দারুণ। কাল থেকে দৌড়ানোর চেষ্টা করব।"
       }
     ]
   }

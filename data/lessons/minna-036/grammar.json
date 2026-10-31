@@ -1,28 +1,122 @@
 [
   {
-    "id": "minna-036-g001",
-    "pattern": "～てみます",
-    "meaning_en": "try doing",
-    "meaning_bn": "try doing",
+    "id": "minna-036-g1",
+    "pattern": "動詞辞書形／ない形 + ように、〜",
+    "meaning_en": "so that, in order to (purpose or goal)",
+    "meaning_bn": "যাতে, উদ্দেশ্যে (লক্ষ্য বা উদ্দেশ্য বোঝাতে)",
     "examples": [
       {
-        "jp": "この料理を食べてみてください。",
-        "en": "Please try eating this dish.",
-        "bn": "Please try eating this dish."
+        "jp": "日本へ 留学できる ように、毎日 日本語を 勉強しています。",
+        "furigana": "にほんへ りゅうがくできる ように、まいにち にほんごを べんきょうしています。",
+        "romaji": "nihon e ryūgaku dekiru yō ni, mainichi nihongo o benkyō shite imasu.",
+        "en": "So that I can study in Japan, I study Japanese every day.",
+        "bn": "যাতে জাপানে পড়াশোনা করতে পারি, সেজন্য প্রতিদিন জাপানি পড়ি।"
+      },
+      {
+        "jp": "忘れない ように、ノートに 書きます。",
+        "furigana": "わすれない ように、ノートに かきます。",
+        "romaji": "wasurenai yō ni, nōto ni kakimasu.",
+        "en": "I write it in my notebook so that I won't forget.",
+        "bn": "যাতে ভুলে না যাই, সেজন্য নোটে লিখি।"
+      },
+      {
+        "jp": "みんなに 聞こえる ように、大きな 声で 話して ください。",
+        "furigana": "みんなに きこえる ように、おおきな こえで はなして ください。",
+        "romaji": "minna ni kikoeru yō ni, ōkina koe de hanashite kudasai.",
+        "en": "Please speak in a loud voice so everyone can hear.",
+        "bn": "সবাই শুনতে পায় এমনভাবে জোরে কথা বলুন।"
       }
-    ]
+    ],
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-036-g002",
-    "pattern": "～ておきます",
-    "meaning_en": "do in advance",
-    "meaning_bn": "do in advance",
+    "id": "minna-036-g2",
+    "pattern": "動詞辞書形 + ために、〜 ／ 名詞 + の + ために、〜",
+    "meaning_en": "in order to, for the sake of (a formal purpose)",
+    "meaning_bn": "উদ্দেশ্যে, জন্য (আনুষ্ঠানিক উদ্দেশ্য বোঝাতে)",
     "examples": [
       {
-        "jp": "先に予約しておきます。",
-        "en": "I'll make a reservation in advance.",
-        "bn": "I'll make a reservation in advance."
+        "jp": "家族の ために、毎日 働いています。",
+        "furigana": "かぞくの ために、まいにち はたらいています。",
+        "romaji": "kazoku no tame ni, mainichi hataraite imasu.",
+        "en": "I work every day for the sake of my family.",
+        "bn": "পরিবারের জন্য আমি প্রতিদিন কাজ করি।"
+      },
+      {
+        "jp": "健康の ために、毎朝 走る ことにしました。",
+        "furigana": "けんこうの ために、まいあさ はしる ことにしました。",
+        "romaji": "kenkō no tame ni, maiasa hashiru koto ni shimashita.",
+        "en": "For the sake of my health, I have decided to run every morning.",
+        "bn": "স্বাস্থ্যের জন্য প্রতিদিন সকালে দৌড়ানোর সিদ্ধান্ত নিয়েছি।"
+      },
+      {
+        "jp": "日本へ 留学する ために、お金を 貯めて います。",
+        "furigana": "にほんへ りゅうがくする ために、おかねを ためて います。",
+        "romaji": "nihon e ryūgaku suru tame ni, okane o tamete imasu.",
+        "en": "I am saving money in order to study in Japan.",
+        "bn": "জাপানে পড়াশোনা করার জন্য টাকা জমা করছি।"
       }
-    ]
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-036-g3",
+    "pattern": "動詞辞書形 + ように なります",
+    "meaning_en": "come to be able to / to reach a state where (change over time)",
+    "meaning_bn": "হতে পারা, কোনো অবস্থায় পৌঁছানো (সময়ের সঙ্গে পরিবর্তন)",
+    "examples": [
+      {
+        "jp": "毎日 練習して、日本語が 話せる ように なりました。",
+        "furigana": "まいにち れんしゅうして、にほんごが はなせる ように なりました。",
+        "romaji": "mainichi renshū shite, nihongo ga hanaseru yō ni narimashita.",
+        "en": "I practiced every day, and now I can speak Japanese.",
+        "bn": "প্রতিদিন অনুশীলন করে এখন আমি জাপানি বলতে পারি।"
+      },
+      {
+        "jp": "最近 早く 起きられる ように なりました。",
+        "furigana": "さいきん はやく おきられる ように なりました。",
+        "romaji": "saikin hayaku okirareru yō ni narimashita.",
+        "en": "Recently I have become able to get up early.",
+        "bn": "সাম্প্রতিককালে আমি তাড়াতাড়ি উঠতে পারছি।"
+      },
+      {
+        "jp": "日本語の 歌が 歌える ように なりたいです。",
+        "furigana": "にほんごの うたが うたえる ように なりたいです。",
+        "romaji": "nihongo no uta ga utaeru yō ni naritai desu.",
+        "en": "I want to become able to sing Japanese songs.",
+        "bn": "আমি জাপানি গান গাইতে পারতে চাই।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-036-g4",
+    "pattern": "動詞辞書形／ない形 + ように しています",
+    "meaning_en": "make an effort to do something habitually",
+    "meaning_bn": "নিয়মিতভাবে কিছু করার চেষ্টা করা",
+    "examples": [
+      {
+        "jp": "毎日 日本語を 話す ように しています。",
+        "furigana": "まいにち にほんごを はなす ように しています。",
+        "romaji": "mainichi nihongo o hanasu yō ni shite imasu.",
+        "en": "I make an effort to speak Japanese every day.",
+        "bn": "আমি প্রতিদিন জাপানি বলার চেষ্টা করি।"
+      },
+      {
+        "jp": "健康の ために、甘い 物を 食べない ように しています。",
+        "furigana": "けんこうの ために、あまい ものを たべない ように しています।",
+        "romaji": "kenkō no tame ni, amai mono o tabenai yō ni shite imasu.",
+        "en": "For my health, I try not to eat sweet things.",
+        "bn": "স্বাস্থ্যের জন্য আমি মিষ্টি খাবার না খাওয়ার চেষ্টা করি।"
+      },
+      {
+        "jp": "忘れない ように、日記を つける ように しています。",
+        "furigana": "わすれない ように、にっきを つける ように しています।",
+        "romaji": "wasurenai yō ni, nikki o tsukeru yō ni shite imasu.",
+        "en": "So that I won't forget, I try to keep a diary.",
+        "bn": "যাতে ভুলে না যাই, আমি ডায়েরি লেখার চেষ্টা করি।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]
