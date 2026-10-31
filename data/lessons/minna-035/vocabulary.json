@@ -1,38 +1,272 @@
 [
   {
     "id": "minna-035-v001",
-    "kanji": "咲きます",
-    "furigana": "さきます",
-    "romaji": "sakimasu",
-    "english_meaning": "to bloom",
-    "type": "verb",
-    "bengali_meaning": "ফোটা"
+    "kanji": "条件",
+    "furigana": "じょうけん",
+    "romaji": "jōken",
+    "english_meaning": "condition",
+    "bengali_meaning": "শর্ত",
+    "tags": ["vocabulary", "lesson-35"]
   },
   {
     "id": "minna-035-v002",
-    "kanji": "変わります",
-    "furigana": "かわります",
-    "romaji": "kawarimasu",
-    "english_meaning": "to change",
-    "type": "verb",
-    "bengali_meaning": "বদলানো"
+    "kanji": "場合",
+    "furigana": "ばあい",
+    "romaji": "baai",
+    "english_meaning": "case, situation",
+    "bengali_meaning": "ক্ষেত্র, পরিস্থিতি",
+    "tags": ["vocabulary", "lesson-35"]
   },
   {
     "id": "minna-035-v003",
-    "kanji": "困ります",
-    "furigana": "こまります",
-    "romaji": "komarimasu",
-    "english_meaning": "to be in trouble",
-    "type": "verb",
-    "bengali_meaning": "সমস্যায় পড়া"
+    "kanji": "雨",
+    "furigana": "あめ",
+    "romaji": "ame",
+    "english_meaning": "rain",
+    "bengali_meaning": "বৃষ্টি",
+    "tags": ["vocabulary", "lesson-35"]
   },
   {
     "id": "minna-035-v004",
-    "kanji": "治ります",
-    "furigana": "なります",
-    "romaji": "naorimasu",
-    "english_meaning": "to heal / recover",
-    "type": "verb",
-    "bengali_meaning": "সেরে ওঠা"
+    "kanji": "晴れ",
+    "furigana": "はれ",
+    "romaji": "hare",
+    "english_meaning": "clear weather, sunny",
+    "bengali_meaning": "রৌদ্রোজ্জ্বল",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v005",
+    "kanji": "時間",
+    "furigana": "じかん",
+    "romaji": "jikan",
+    "english_meaning": "time",
+    "bengali_meaning": "সময়",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v006",
+    "kanji": "暇",
+    "furigana": "ひま",
+    "romaji": "hima",
+    "english_meaning": "free time, not busy",
+    "bengali_meaning": "অবসর",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v007",
+    "kanji": "お金",
+    "furigana": "おかね",
+    "romaji": "okane",
+    "english_meaning": "money",
+    "bengali_meaning": "টাকা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v008",
+    "kanji": "天気",
+    "furigana": "てんき",
+    "romaji": "tenki",
+    "english_meaning": "weather",
+    "bengali_meaning": "আবহাওয়া",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v009",
+    "kanji": "都合",
+    "furigana": "つごう",
+    "romaji": "tsugō",
+    "english_meaning": "convenience, circumstances",
+    "bengali_meaning": "সুবিধা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v010",
+    "kanji": "試験",
+    "furigana": "しけん",
+    "romaji": "shiken",
+    "english_meaning": "exam",
+    "bengali_meaning": "পরীক্ষা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v011",
+    "kanji": "合格する",
+    "furigana": "ごうかくする",
+    "romaji": "gōkaku suru",
+    "english_meaning": "to pass an exam",
+    "bengali_meaning": "পরীক্ষায় পাশ করা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v012",
+    "kanji": "落ちる",
+    "furigana": "おちる",
+    "romaji": "ochiru",
+    "english_meaning": "to fail (an exam), to fall",
+    "bengali_meaning": "পড়ে যাওয়া, ফেল করা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v013",
+    "kanji": "勝つ",
+    "furigana": "かつ",
+    "romaji": "katsu",
+    "english_meaning": "to win",
+    "bengali_meaning": "জেতা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v014",
+    "kanji": "負ける",
+    "furigana": "まける",
+    "romaji": "makeru",
+    "english_meaning": "to lose",
+    "bengali_meaning": "হারা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v015",
+    "kanji": "病気",
+    "furigana": "びょうき",
+    "romaji": "byōki",
+    "english_meaning": "illness, sickness",
+    "bengali_meaning": "অসুস্থতা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v016",
+    "kanji": "元気",
+    "furigana": "げんき",
+    "romaji": "genki",
+    "english_meaning": "healthy, energetic",
+    "bengali_meaning": "সুস্থ, প্রাণবন্ত",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v017",
+    "kanji": "安い",
+    "furigana": "やすい",
+    "romaji": "yasui",
+    "english_meaning": "cheap",
+    "bengali_meaning": "সস্তা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v018",
+    "kanji": "高すぎる",
+    "furigana": "たかすぎる",
+    "romaji": "takasugiru",
+    "english_meaning": "too expensive",
+    "bengali_meaning": "অতিরিক্ত দামি",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v019",
+    "kanji": "便利",
+    "furigana": "べんり",
+    "romaji": "benri",
+    "english_meaning": "convenient",
+    "bengali_meaning": "সুবিধাজনক",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v020",
+    "kanji": "遠い",
+    "furigana": "とおい",
+    "romaji": "tōi",
+    "english_meaning": "far",
+    "bengali_meaning": "দূরবর্তী",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v021",
+    "kanji": "近い",
+    "furigana": "ちかい",
+    "romaji": "chikai",
+    "english_meaning": "near, close",
+    "bengali_meaning": "নিকটবর্তী",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v022",
+    "kanji": "決める",
+    "furigana": "きめる",
+    "romaji": "kimeru",
+    "english_meaning": "to decide",
+    "bengali_meaning": "সিদ্ধান্ত নেওয়া",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v023",
+    "kanji": "調べる",
+    "furigana": "しらべる",
+    "romaji": "shiraberu",
+    "english_meaning": "to investigate, to look up",
+    "bengali_meaning": "খোঁজ নেওয়া, অনুসন্ধান করা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v024",
+    "kanji": "訪ねる",
+    "furigana": "たずねる",
+    "romaji": "tazuneru",
+    "english_meaning": "to visit",
+    "bengali_meaning": "দেখা করতে যাওয়া",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v025",
+    "kanji": "電話する",
+    "furigana": "でんわする",
+    "romaji": "denwa suru",
+    "english_meaning": "to telephone, to call",
+    "bengali_meaning": "ফোন করা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v026",
+    "kanji": "手伝う",
+    "furigana": "てつだう",
+    "romaji": "tetsudau",
+    "english_meaning": "to help",
+    "bengali_meaning": "সাহায্য করা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v027",
+    "kanji": "教える",
+    "furigana": "おしえる",
+    "romaji": "oshieru",
+    "english_meaning": "to teach, to tell",
+    "bengali_meaning": "শেখানো, বলা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v028",
+    "kanji": "借りる",
+    "furigana": "かりる",
+    "romaji": "kariru",
+    "english_meaning": "to borrow",
+    "bengali_meaning": "ধার করা",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v029",
+    "kanji": "返す",
+    "furigana": "かえす",
+    "romaji": "kaesu",
+    "english_meaning": "to return (something)",
+    "bengali_meaning": "ফিরিয়ে দেওয়া",
+    "tags": ["vocabulary", "lesson-35"]
+  },
+  {
+    "id": "minna-035-v030",
+    "kanji": "もらう",
+    "furigana": "もらう",
+    "romaji": "morau",
+    "english_meaning": "to receive",
+    "bengali_meaning": "গ্রহণ করা",
+    "tags": ["vocabulary", "lesson-35"]
   }
 ]

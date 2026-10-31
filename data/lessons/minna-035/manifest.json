@@ -3,15 +3,15 @@
   "courseId": "minna-beginner",
   "lessonNumber": 35,
   "title": {
-    "en": "Lesson 35",
-    "bn": "পাঠ 35"
+    "en": "Conditional Sentences and Imaginary Situations",
+    "bn": "শর্তমূলক বাক্য ও কল্পিত পরিস্থিতি"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 35",
-    "bn": "মিন্না নো নিহোঙ্গো 35"
+    "en": "たら（条件）・たらどうですか（提案）・ば（条件）・なら（条件）",
+    "bn": "たら（শর্ত）・たらどうですか（প্রস্তাব）・ば（শর্ত）・なら（শর্ত）"
   },
   "jlpt": "N4",
-  "durationMin": 50,
+  "durationMin": 55,
   "dataFiles": {
     "vocabulary": "vocabulary.json",
     "grammar": "grammar.json",

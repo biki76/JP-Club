@@ -1,26 +1,122 @@
 [
   {
-    "id": "minna-035-g001",
-    "pattern": "～ば",
-    "meaning_en": "conditional (if)",
+    "id": "minna-035-g1",
+    "pattern": "動詞た形／い形容詞かった／な形容詞だった／名詞だった + ら、〜",
+    "meaning_en": "if / when (a general conditional using the past form + ら)",
+    "meaning_bn": "যদি / যখন (অতীত রূপ + ら ব্যবহার করে সাধারণ শর্ত)",
     "examples": [
       {
-        "jp": "お金があれば、買います。",
-        "en": "If I have money, I will buy it."
+        "jp": "雨が 降ったら、出かけません。",
+        "furigana": "あめが ふったら、でかけません。",
+        "romaji": "ame ga futtara, dekakemasen.",
+        "en": "If it rains, I will not go out.",
+        "bn": "বৃষ্টি হলে আমি বাইরে যাব না।"
+      },
+      {
+        "jp": "時間が あったら、映画を 見に 行きましょう。",
+        "furigana": "じかんが あったら、えいがを みに いきましょう。",
+        "romaji": "jikan ga attara, eiga o mi ni ikimashō.",
+        "en": "If we have time, let's go see a movie.",
+        "bn": "সময় থাকলে সিনেমা দেখতে যাই।"
+      },
+      {
+        "jp": "安かったら、この かばんを 買います。",
+        "furigana": "やすかったら、この かばんを かいます。",
+        "romaji": "yasukattara, kono kaban o kaimasu.",
+        "en": "If it is cheap, I will buy this bag.",
+        "bn": "সস্তা হলে এই ব্যাগটি কিনব।"
       }
     ],
-    "meaning_bn": "conditional (if)"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-035-g002",
-    "pattern": "～なら",
-    "meaning_en": "if that is the case",
+    "id": "minna-035-g2",
+    "pattern": "動詞た形 + らどうですか",
+    "meaning_en": "why don't you ...? (used to give advice or a suggestion)",
+    "meaning_bn": "কেন ... করেন না? (পরামর্শ বা প্রস্তাব দেওয়ার জন্য)",
     "examples": [
       {
-        "jp": "行くなら、早く準備しなさい。",
-        "en": "If you're going, get ready quickly."
+        "jp": "頭が 痛いなら、薬を 飲んだら どうですか。",
+        "furigana": "あたまが いたいなら、くすりを のんだら どうですか。",
+        "romaji": "atama ga itai nara, kusuri o nonda ra dō desu ka.",
+        "en": "If you have a headache, why don't you take some medicine?",
+        "bn": "মাথা ব্যথা হলে ওষুধ খেয়ে দেখুন না কেন?"
+      },
+      {
+        "jp": "疲れたら、少し 休んだら どうですか。",
+        "furigana": "つかれたら、すこし やすんだら どうですか。",
+        "romaji": "tsukaretara, sukoshi yasunda ra dō desu ka.",
+        "en": "If you are tired, why don't you rest a little?",
+        "bn": "ক্লান্ত হলে একটু বিশ্রাম নিন না কেন?"
+      },
+      {
+        "jp": "わからなかったら、先生に 聞いたら どうですか。",
+        "furigana": "わからなかったら、せんせいに きいたら どうですか。",
+        "romaji": "wakaranakattara, sensei ni kiita ra dō desu ka.",
+        "en": "If you don't understand, why don't you ask the teacher?",
+        "bn": "না বুঝলে শিক্ষককে জিজ্ঞেস করুন না কেন?"
       }
     ],
-    "meaning_bn": "if that is the case"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-035-g3",
+    "pattern": "動詞ば形（書けば・食べれば・すれば・来れば）",
+    "meaning_en": "if (a conditional using the ば-form)",
+    "meaning_bn": "যদি (ば-রূপ ব্যবহার করে শর্ত)",
+    "examples": [
+      {
+        "jp": "お金が あれば、旅行に 行きます。",
+        "furigana": "おかねが あれば、りょこうに いきます。",
+        "romaji": "okane ga areba, ryokō ni ikimasu.",
+        "en": "If I have money, I will go on a trip.",
+        "bn": "টাকা থাকলে ভ্রমণে যাব।"
+      },
+      {
+        "jp": "時間が あれば、手伝います。",
+        "furigana": "じかんが あれば、てつだいます。",
+        "romaji": "jikan ga areba, tetsudaimasu.",
+        "en": "If I have time, I will help.",
+        "bn": "সময় থাকলে সাহায্য করব।"
+      },
+      {
+        "jp": "ボタンを 押せば、ドアが 開きます。",
+        "furigana": "ボタンを おせば、ドアが あきます。",
+        "romaji": "botan o oseba, doa ga akimasu.",
+        "en": "If you push the button, the door opens.",
+        "bn": "বোতাম চাপলে দরজা খুলে যায়।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-035-g4",
+    "pattern": "名詞 + なら、〜／普通形 + なら、〜",
+    "meaning_en": "if it is the case that ...; if you are talking about ...",
+    "meaning_bn": "যদি ... হয়; যদি ... এর কথা হয়",
+    "examples": [
+      {
+        "jp": "日本の 料理なら、すしが 好きです。",
+        "furigana": "にほんの りょうりなら、すしが すきです。",
+        "romaji": "nihon no ryōri nara, sushi ga suki desu.",
+        "en": "If we are talking about Japanese food, I like sushi.",
+        "bn": "জাপানি খাবারের কথা বললে, আমি সুশি পছন্দ করি।"
+      },
+      {
+        "jp": "雨なら、家に います。",
+        "furigana": "あめなら、いえに います。",
+        "romaji": "ame nara, ie ni imasu.",
+        "en": "If it is raining, I will stay home.",
+        "bn": "বৃষ্টি হলে বাড়িতে থাকব।"
+      },
+      {
+        "jp": "あなたが 行くなら、私も 行きます。",
+        "furigana": "あなたが いくなら、わたしも いきます。",
+        "romaji": "anata ga iku nara, watashi mo ikimasu.",
+        "en": "If you are going, I will go too.",
+        "bn": "আপনি গেলে আমিও যাব।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

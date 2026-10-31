@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-035-l001",
+    "id": "minna-035-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Making Weekend Plans",
+      "bn": "সাপ্তাহিক ছুটির পরিকল্পনা করা"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "さきます［はなが～］ は 何 ですか。",
-        "furigana": "さきます［はなが～］ は なん ですか。",
-        "romaji": "sakimasu [hanaga~] wa nan desu ka.",
-        "en": "What is [flowers] bloom?",
-        "bn": "[flowers] bloom কী?"
+        "jp": "A：週末、何を しますか。",
+        "furigana": "A：しゅうまつ、なにを しますか。",
+        "romaji": "A: Shūmatsu, nani o shimasu ka.",
+        "en": "A: What will you do this weekend?",
+        "bn": "A: এই সপ্তাহান্তে কী করবেন?"
+      },
+      {
+        "jp": "B：天気が よかったら、山へ 行こうと 思っています。",
+        "furigana": "B：てんきが よかったら、やまへ いこうと おもっています。",
+        "romaji": "B: Tenki ga yokattara, yama e ikō to omotte imasu.",
+        "en": "B: If the weather is good, I am thinking of going to the mountains.",
+        "bn": "B: আবহাওয়া ভালো থাকলে পাহাড়ে যাওয়ার কথা ভাবছি।"
+      },
+      {
+        "jp": "A：いいですね。でも、雨なら どうしますか。",
+        "furigana": "A：いいですね。でも、あめなら どうしますか。",
+        "romaji": "A: Ii desu ne. Demo, ame nara dō shimasu ka.",
+        "en": "A: Sounds nice. But what will you do if it rains?",
+        "bn": "A: দারুণ। কিন্তু বৃষ্টি হলে কী করবেন?"
+      },
+      {
+        "jp": "B：雨なら、家で 映画を 見ます。",
+        "furigana": "B：あめなら、いえで えいがを みます。",
+        "romaji": "B: Ame nara, ie de eiga o mimasu.",
+        "en": "B: If it rains, I will watch a movie at home.",
+        "bn": "B: বৃষ্টি হলে বাড়িতে সিনেমা দেখব।"
+      },
+      {
+        "jp": "A：一人で 見るんですか。",
+        "furigana": "A：ひとりで みるんですか。",
+        "romaji": "A: Hitori de miru n desu ka.",
+        "en": "A: Will you watch alone?",
+        "bn": "A: একা দেখবেন?"
+      },
+      {
+        "jp": "B：いいえ。もし 時間が あれば、一緒に 見ませんか。",
+        "furigana": "B：いいえ。もし じかんが あれば、いっしょに みませんか。",
+        "romaji": "B: Iie. Moshi jikan ga areba, issho ni mimasen ka.",
+        "en": "B: No. If you have time, would you like to watch together?",
+        "bn": "B: না। যদি সময় থাকে, একসঙ্গে দেখবেন?"
+      },
+      {
+        "jp": "A：いいですね。じゃ、雨が 降ったら 電話します。",
+        "furigana": "A：いいですね。じゃ、あめが ふったら でんわします。",
+        "romaji": "A: Ii desu ne. Ja, ame ga futtara denwa shimasu.",
+        "en": "A: Sounds good. Then if it rains, I will call you.",
+        "bn": "A: দারুণ। তাহলে বৃষ্টি হলে ফোন করব।"
+      },
+      {
+        "jp": "B：はい。晴れたら、山の 写真を 送ります。",
+        "furigana": "B：はい。はれたら、やまの しゃしんを おくります。",
+        "romaji": "B: Hai. Haretara, yama no shashin o okurimasu.",
+        "en": "B: Yes. If it clears up, I will send you photos of the mountains.",
+        "bn": "B: হ্যাঁ। রোদ উঠলে পাহাড়ের ছবি পাঠাব।"
+      },
+      {
+        "jp": "A：ぜひ お願いします。楽しい 週末に しましょう。",
+        "furigana": "A：ぜひ おねがいします。たのしい しゅうまつに しましょう。",
+        "romaji": "A: Zehi onegai shimasu. Tanoshii shūmatsu ni shimashō.",
+        "en": "A: By all means, please do. Let's make it a fun weekend.",
+        "bn": "A: অবশ্যই পাঠাবেন। আনন্দময় সাপ্তাহিক ছুটি কাটাই।"
       }
     ]
   }

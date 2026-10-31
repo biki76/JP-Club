@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-035-r001",
+    "id": "minna-035-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "If Tomorrow Is Sunny",
+      "bn": "যদি কাল রৌদ্রোজ্জ্বল হয়"
     },
     "passage": [
       {
-        "jp": "これは さきます［はなが～］ です。",
-        "furigana": "これは さきます［はなが～］ です。",
-        "romaji": "Kore wa sakimasu [hanaga~] desu.",
-        "en": "This is [flowers] bloom.",
-        "bn": "এটি [flowers] bloom।"
+        "jp": "明日は 日曜日です。",
+        "furigana": "あしたは にちようびです。",
+        "romaji": "Ashita wa nichiyōbi desu.",
+        "en": "Tomorrow is Sunday.",
+        "bn": "আগামীকাল রবিবার।"
+      },
+      {
+        "jp": "天気が よかったら、公園へ 行きます。",
+        "furigana": "てんきが よかったら、こうえんへ いきます。",
+        "romaji": "Tenki ga yokattara, kōen e ikimasu.",
+        "en": "If the weather is good, I will go to the park.",
+        "bn": "আবহাওয়া ভালো থাকলে পার্কে যাব।"
+      },
+      {
+        "jp": "雨が 降ったら、家で 本を 読みます。",
+        "furigana": "あめが ふったら、いえで ほんを よみます。",
+        "romaji": "Ame ga futtara, ie de hon o yomimasu.",
+        "en": "If it rains, I will read a book at home.",
+        "bn": "বৃষ্টি হলে বাড়িতে বই পড়ব।"
+      },
+      {
+        "jp": "友だちが 来たら、一緒に 昼ご飯を 食べます。",
+        "furigana": "ともだちが きたら、いっしょに ひるごはんを たべます。",
+        "romaji": "Tomodachi ga kitara, issho ni hirugohan o tabemasu.",
+        "en": "If my friend comes, we will eat lunch together.",
+        "bn": "বন্ধু এলে একসঙ্গে দুপুরের খাবার খাব।"
+      },
+      {
+        "jp": "時間が あれば、映画も 見たいです。",
+        "furigana": "じかんが あれば、えいがも みたいです。",
+        "romaji": "Jikan ga areba, eiga mo mitai desu.",
+        "en": "If I have time, I want to see a movie too.",
+        "bn": "সময় থাকলে সিনেমাও দেখতে চাই।"
+      },
+      {
+        "jp": "お金が なかったら、家で ゆっくり 休みます。",
+        "furigana": "おかねが なかったら、いえで ゆっくり やすみます。",
+        "romaji": "Okane ga nakattara, ie de yukkuri yasumimasu.",
+        "en": "If I don't have money, I will relax at home.",
+        "bn": "টাকা না থাকলে বাড়িতে আরাম করে বিশ্রাম নেব।"
+      },
+      {
+        "jp": "友だちに 会ったら、この 話を します。",
+        "furigana": "ともだちに あったら、この はなしを します。",
+        "romaji": "Tomodachi ni attara, kono hanashi o shimasu.",
+        "en": "If I meet my friend, I will tell this story.",
+        "bn": "বন্ধুর সঙ্গে দেখা হলে এই কথা বলব।"
+      },
+      {
+        "jp": "いい 一日なら、きっと 楽しいでしょう。",
+        "furigana": "いい いちにちなら、きっと たのしいでしょう。",
+        "romaji": "Ii ichinichi nara, kitto tanoshii deshō.",
+        "en": "If it is a good day, it will surely be fun.",
+        "bn": "দিনটি ভালো হলে নিশ্চয়ই আনন্দময় হবে।"
       }
     ]
   }

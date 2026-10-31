@@ -3,48 +3,152 @@
     "id": "minna-035-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜35-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜35-A"
+      "en": "Choose the correct form: if it rains.",
+      "bn": "সঠিক রূপটি বেছে নিন: যদি বৃষ্টি হয়।"
     },
     "stem": {
-      "jp": "これは レッスン35の 文法です。",
-      "furigana": "これは レッスン35の 文法です。",
-      "romaji": ""
+      "jp": "雨が（　）、出かけません。",
+      "furigana": "あめが（　）、でかけません。",
+      "romaji": "ame ga ( ), dekakemasen."
     },
-    "options": [
-      "Grammar pattern 35-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["降ったら", "降れば", "降るなら", "降って"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜35-A means \"Grammar pattern 35-A\".",
-      "bn": "〜35-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 35-A\"।"
+      "en": "動詞た形 + ら forms a general conditional: 降ったら = if it rains.",
+      "bn": "動詞た形 + ら সাধারণ শর্ত গঠন করে: 降ったら = বৃষ্টি হলে।"
     }
   },
   {
     "id": "minna-035-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜35-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜35-B"
+      "en": "Choose the correct suggestion form.",
+      "bn": "সঠিক পরামর্শসূচক রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン35の 文法です。",
-      "furigana": "これは レッスン35の 文法です。",
-      "romaji": ""
+      "jp": "疲れたら、少し 休んだ（　）どうですか。",
+      "furigana": "つかれたら、すこし やすんだ（　）どうですか。",
+      "romaji": "tsukaretara, sukoshi yasunda ( ) dō desu ka."
     },
-    "options": [
-      "Grammar pattern 35-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["ら", "れば", "なら", "ので"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜35-B means \"Grammar pattern 35-B\".",
-      "bn": "〜35-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 35-B\"।"
+      "en": "動詞た形 + らどうですか gives advice: 休んだらどうですか = why don't you rest?",
+      "bn": "動詞た形 + らどうですか পরামর্শ দেয়: 休んだらどうですか = বিশ্রাম নিন না কেন?"
+    }
+  },
+  {
+    "id": "minna-035-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ば-form of ある.",
+      "bn": "ある এর সঠিক ば-রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "お金が（　）、旅行に 行きます。",
+      "furigana": "おかねが（　）、りょこうに いきます。",
+      "romaji": "okane ga ( ), ryokō ni ikimasu."
+    },
+    "options": ["あれば", "あったら", "あるなら", "あって"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The ば-form of ある is あれば.",
+      "bn": "ある এর ば-রূপ あれば।"
+    }
+  },
+  {
+    "id": "minna-035-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form: if you push the button.",
+      "bn": "সঠিক রূপটি বেছে নিন: যদি বোতাম চাপেন।"
+    },
+    "stem": {
+      "jp": "ボタンを（　）、ドアが 開きます。",
+      "furigana": "ボタンを（　）、ドアが あきます。",
+      "romaji": "botan o ( ), doa ga akimasu."
+    },
+    "options": ["押せば", "押したら", "押すなら", "押して"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The ば-form of 押す is 押せば.",
+      "bn": "押す এর ば-রূপ 押せば।"
+    }
+  },
+  {
+    "id": "minna-035-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct conditional for nouns.",
+      "bn": "বিশেষ্যের জন্য সঠিক শর্তসূচক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "雨（　）、家に います。",
+      "furigana": "あめ（　）、いえに います。",
+      "romaji": "ame ( ), ie ni imasu."
+    },
+    "options": ["なら", "たら", "れば", "ので"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Noun + なら expresses a conditional: 雨なら = if it is raining.",
+      "bn": "বিশেষ্য + なら শর্ত বোঝায়: 雨なら = বৃষ্টি হলে।"
+    }
+  },
+  {
+    "id": "minna-035-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 条件.",
+      "bn": "条件 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "条件が よければ、買います。",
+      "furigana": "じょうけんが よければ、かいます。",
+      "romaji": "jōken ga yokereba, kaimasu."
+    },
+    "options": ["condition", "result", "reason", "purpose"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "条件 means condition.",
+      "bn": "条件 মানে শর্ত।"
+    }
+  },
+  {
+    "id": "minna-035-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 勝つ.",
+      "bn": "勝つ এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "試合に 勝ちました。",
+      "furigana": "しあいに かちました。",
+      "romaji": "shiai ni kachimashita."
+    },
+    "options": ["won the match", "lost the match", "watched the match", "cancelled the match"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "勝つ means to win.",
+      "bn": "勝つ মানে জেতা।"
+    }
+  },
+  {
+    "id": "minna-035-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 負ける.",
+      "bn": "負ける এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "ゲームに 負けました。",
+      "furigana": "ゲームに まけました。",
+      "romaji": "gēmu ni makemashita."
+    },
+    "options": ["lost the game", "won the game", "bought the game", "played the game"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "負ける means to lose.",
+      "bn": "負ける মানে হারা।"
     }
   }
 ]
