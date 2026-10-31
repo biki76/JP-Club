@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-030-l001",
+    "id": "minna-030-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Before the Visitor Arrives",
+      "bn": "অতিথি আসার আগে"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "はります は 何 ですか。",
-        "furigana": "はります は なん ですか。",
-        "romaji": "harimasu wa nan desu ka.",
-        "en": "What is put up, post, paste?",
-        "bn": "put up, post, paste কী?"
+        "jp": "A：明日 部長が 来ますね。",
+        "furigana": "A：あした ぶちょうが きますね。",
+        "romaji": "A: Ashita buchō ga kimasu ne.",
+        "en": "A: The department head is coming tomorrow, isn't he?",
+        "bn": "A: কাল বিভাগীয় প্রধান আসছেন, তাই না?"
+      },
+      {
+        "jp": "B：ええ。会議室の 準備は もう してあります。",
+        "furigana": "B：ええ。かいぎしつの じゅんびは もう してあります。",
+        "romaji": "B: Ē. Kaigishitsu no junbi wa mō shite arimasu.",
+        "en": "B: Yes. The meeting room preparations have already been made.",
+        "bn": "B: হ্যাঁ। সভাকক্ষের প্রস্তুতি ইতিমধ্যেই নেওয়া হয়েছে।"
+      },
+      {
+        "jp": "A：資料は どうですか。",
+        "furigana": "A：しりょうは どうですか。",
+        "romaji": "A: Shiryō wa dō desu ka.",
+        "en": "A: How about the documents?",
+        "bn": "A: নথিগুলো কেমন?"
+      },
+      {
+        "jp": "B：まだ コピーしていません。今から しておきます。",
+        "furigana": "B：まだ コピーしていません。いまから しておきます。",
+        "romaji": "B: Mada kopī shite imasen. Ima kara shite okimasu.",
+        "en": "B: I have not copied them yet. I will do it now in advance.",
+        "bn": "B: এখনও কপি করিনি। এখনই আগে থেকে করে রাখছি।"
+      },
+      {
+        "jp": "A：三時までに お願いします。",
+        "furigana": "A：さんじまでに おねがいします。",
+        "romaji": "A: Sanji made ni onegai shimasu.",
+        "en": "A: Please do it by three o'clock.",
+        "bn": "A: তিনটার মধ্যে করে ফেলবেন।"
+      },
+      {
+        "jp": "B：あ、それから、お茶も 用意しておきますね。",
+        "furigana": "B：あ、それから、おちゃも よういしておきますね。",
+        "romaji": "B: A, sore kara, ocha mo yōi shite okimasu ne.",
+        "en": "B: Oh, and I will also prepare tea in advance.",
+        "bn": "B: আর, চাও আগেই প্রস্তুত করে রাখছি।"
+      },
+      {
+        "jp": "A：ありがとうございます。あ、窓は 閉めておいて ください。",
+        "furigana": "A：ありがとうございます。あ、まどは しめておいて ください。",
+        "romaji": "A: Arigatō gozaimasu. A, mado wa shimete oite kudasai.",
+        "en": "A: Thank you. Oh, please leave the windows closed.",
+        "bn": "A: ধন্যবাদ। আর, জানালাগুলো বন্ধ রাখুন।"
+      },
+      {
+        "jp": "B：はい。あ、先週の 資料を 無くしてしまいました。",
+        "furigana": "B：はい。あ、せんしゅうの しりょうを なくしてしまいました。",
+        "romaji": "B: Hai. A, senshū no shiryō o nakushite shimaimashita.",
+        "en": "B: Yes. Oh, I unfortunately lost last week's documents.",
+        "bn": "B: হ্যাঁ। আহ, আমি গত সপ্তাহের নথি হারিয়ে ফেলেছি।"
+      },
+      {
+        "jp": "A：えっ。じゃ、至急 探してください。",
+        "furigana": "A：えっ。じゃ、しきゅう さがしてください。",
+        "romaji": "A: E. Ja, shikyū sagashite kudasai.",
+        "en": "A: What? Then please look for them urgently.",
+        "bn": "A: কী! তাহলে দ্রুত খুঁজুন।"
       }
     ]
   }

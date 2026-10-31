@@ -1,26 +1,122 @@
 [
   {
-    "id": "minna-030-g001",
-    "pattern": "～ておきます",
-    "meaning_en": "doing something in preparation",
+    "id": "minna-030-g1",
+    "pattern": "動詞て形 + おきます",
+    "meaning_en": "do something in advance or leave something in a certain state",
+    "meaning_bn": "আগে থেকেই কিছু করা বা কোনো কিছু একটি নির্দিষ্ট অবস্থায় রেখে দেওয়া",
     "examples": [
       {
-        "jp": "ホテルを予約しておきます。",
-        "en": "I'll reserve the hotel in advance."
+        "jp": "会議の 前に、資料を コピーしておきます。",
+        "furigana": "かいぎの まえに、しりょうを コピーしておきます。",
+        "romaji": "kaigi no mae ni, shiryō o kopī shite okimasu.",
+        "en": "Before the meeting, I will make copies of the documents in advance.",
+        "bn": "সভার আগে আমি নথিগুলোর কপি আগেই করে রাখব।"
+      },
+      {
+        "jp": "ホテルは もう 予約しておきました。",
+        "furigana": "ホテルは もう よやくしておきました。",
+        "romaji": "hoteru wa mō yoyaku shite okimashita.",
+        "en": "The hotel has already been booked in advance.",
+        "bn": "হোটেল ইতিমধ্যেই আগে থেকে বুক করা হয়েছে।"
+      },
+      {
+        "jp": "部屋の 電気を つけておいて ください。",
+        "furigana": "へやの でんきを つけておいて ください。",
+        "romaji": "heya no denki o tsukete oite kudasai.",
+        "en": "Please leave the room light on.",
+        "bn": "ঘরের আলোটা জ্বালিয়ে রাখুন।"
       }
     ],
-    "meaning_bn": "doing something in preparation"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-030-g002",
-    "pattern": "～てしまいます",
-    "meaning_en": "completion (often regretful)",
+    "id": "minna-030-g2",
+    "pattern": "動詞て形 + しまいます",
+    "meaning_en": "to finish something completely, or to do something regrettable unintentionally",
+    "meaning_bn": "কোনো কাজ পুরোপুরি শেষ করা, অথবা অনিচ্ছাকৃতভাবে অনুতাপজনক কিছু করে ফেলা",
     "examples": [
       {
-        "jp": "財布をなくしてしまいました。",
-        "en": "I lost my wallet (unfortunately)."
+        "jp": "大切な 書類を 無くしてしまいました。",
+        "furigana": "たいせつな しょるいを なくしてしまいました。",
+        "romaji": "taisetsu na shorui o nakushite shimaimashita.",
+        "en": "I unfortunately lost important documents.",
+        "bn": "আমি দুর্ভাগ্যবশত গুরুত্বপূর্ণ নথি হারিয়ে ফেলেছি।"
+      },
+      {
+        "jp": "ケーキは もう 全部 食べてしまいました。",
+        "furigana": "ケーキは もう ぜんぶ たべてしまいました。",
+        "romaji": "kēki wa mō zenbu tabete shimaimashita.",
+        "en": "I have already eaten the whole cake.",
+        "bn": "আমি পুরো কেকটা ইতিমধ্যেই খেয়ে ফেলেছি।"
+      },
+      {
+        "jp": "電車の 中に かばんを 忘れてしまいました。",
+        "furigana": "でんしゃの なかに かばんを わすれてしまいました。",
+        "romaji": "densha no naka ni kaban o wasurete shimaimashita.",
+        "en": "I unfortunately left my bag on the train.",
+        "bn": "আমি দুর্ভাগ্যবশত ট্রেনে ব্যাগটি ফেলে এসেছি।"
       }
     ],
-    "meaning_bn": "completion (often regretful)"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-030-g3",
+    "pattern": "名詞 + が + 他動詞て形 + あります",
+    "meaning_en": "something has been placed or done with a purpose, and that state remains",
+    "meaning_bn": "কোনো কিছু উদ্দেশ্যপূর্ণভাবে রাখা হয়েছে বা করা হয়েছে এবং সেই অবস্থা এখনও আছে",
+    "examples": [
+      {
+        "jp": "テーブルの 上に 地図が 置いてあります。",
+        "furigana": "テーブルの うえに ちずが おいてあります。",
+        "romaji": "tēburu no ue ni chizu ga oite arimasu.",
+        "en": "A map has been placed on the table.",
+        "bn": "টেবিলের ওপরে একটি মানচিত্র রাখা আছে।"
+      },
+      {
+        "jp": "壁に カレンダーが 掛けてあります。",
+        "furigana": "かべに カレンダーが かけてあります。",
+        "romaji": "kabe ni karendā ga kakete arimasu.",
+        "en": "A calendar has been hung on the wall.",
+        "bn": "দেয়ালে একটি ক্যালেন্ডার ঝুলিয়ে রাখা আছে।"
+      },
+      {
+        "jp": "会議室の ドアが 開けてあります。",
+        "furigana": "かいぎしつの ドアが あけてあります。",
+        "romaji": "kaigishitsu no doa ga akete arimasu.",
+        "en": "The meeting room door has been left open.",
+        "bn": "সভাকক্ষের দরজাটি খুলে রাখা হয়েছে।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-030-g4",
+    "pattern": "名詞 + までに",
+    "meaning_en": "by, before (a deadline)",
+    "meaning_bn": "নির্দিষ্ট সময়সীমার মধ্যে, এর আগেই",
+    "examples": [
+      {
+        "jp": "明日の 五時までに 連絡して ください。",
+        "furigana": "あしたの ごじまでに れんらくして ください。",
+        "romaji": "ashita no goji made ni renraku shite kudasai.",
+        "en": "Please contact me by five o'clock tomorrow.",
+        "bn": "আগামীকাল পাঁচটার মধ্যে যোগাযোগ করুন।"
+      },
+      {
+        "jp": "金曜日までに レポートを 出さなければ なりません。",
+        "furigana": "きんようびまでに レポートを ださなければ なりません。",
+        "romaji": "kin'yōbi made ni repōto o dasanakereba narimasen.",
+        "en": "I must submit the report by Friday.",
+        "bn": "শুক্রবারের মধ্যে রিপোর্ট জমা দিতে হবে।"
+      },
+      {
+        "jp": "会議は 三時までに 終わります。",
+        "furigana": "かいぎは さんじまでに おわります。",
+        "romaji": "kaigi wa sanji made ni owarimasu.",
+        "en": "The meeting will end by three o'clock.",
+        "bn": "সভাটি তিনটার মধ্যে শেষ হবে।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

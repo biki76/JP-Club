@@ -3,15 +3,15 @@
   "courseId": "minna-beginner",
   "lessonNumber": 30,
   "title": {
-    "en": "Lesson 30",
-    "bn": "পাঠ 30"
+    "en": "Preparing, Finishing, and Deadlines",
+    "bn": "প্রস্তুতি, সম্পন্নকরণ ও সময়সীমা"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 30",
-    "bn": "মিন্না নো নিহোঙ্গো 30"
+    "en": "ておきます（準備）・てしまいます（完了/後悔）・てあります（状態）・までに",
+    "bn": "ておきます（প্রস্তুতি）・てしまいます（সম্পন্ন/অনুতাপ）・てあります（অবস্থা）・までに"
   },
   "jlpt": "N4",
-  "durationMin": 50,
+  "durationMin": 55,
   "dataFiles": {
     "vocabulary": "vocabulary.json",
     "grammar": "grammar.json",

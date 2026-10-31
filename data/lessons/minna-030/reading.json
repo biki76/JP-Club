@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-030-r001",
+    "id": "minna-030-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "Getting Ready for a Trip",
+      "bn": "ভ্রমণের প্রস্তুতি"
     },
     "passage": [
       {
-        "jp": "これは はります です。",
-        "furigana": "これは はります です。",
-        "romaji": "Kore wa harimasu desu.",
-        "en": "This is put up, post, paste.",
-        "bn": "এটি put up, post, paste।"
+        "jp": "来週、田中さんは 大阪へ 出張します。",
+        "furigana": "らいしゅう、たなかさんは おおさかへ しゅっちょうします。",
+        "romaji": "Raishū, Tanaka-san wa Ōsaka e shutchō shimasu.",
+        "en": "Next week, Mr. Tanaka will go to Osaka on a business trip.",
+        "bn": "আগামী সপ্তাহে মি. তানাকা ওসাকায় ব্যবসায়িক সফরে যাবেন।"
+      },
+      {
+        "jp": "出張の 前に、ホテルを 予約しておきました。",
+        "furigana": "しゅっちょうの まえに、ホテルを よやくしておきました。",
+        "romaji": "Shutchō no mae ni, hoteru o yoyaku shite okimashita.",
+        "en": "Before the trip, he booked a hotel in advance.",
+        "bn": "সফরের আগে তিনি হোটেল আগে থেকেই বুক করে রেখেছিলেন।"
+      },
+      {
+        "jp": "金曜日までに 会社の 書類を 用意しなければ なりません。",
+        "furigana": "きんようびまでに かいしゃの しょるいを よういしなければ なりません。",
+        "romaji": "Kin'yōbi made ni kaisha no shorui o yōi shinakereba narimasen.",
+        "en": "He must prepare the company documents by Friday.",
+        "bn": "শুক্রবারের মধ্যে তাকে অফিসের নথি প্রস্তুত করতে হবে।"
+      },
+      {
+        "jp": "机の 上に 資料が 並べてあります。",
+        "furigana": "つくえの うえに しりょうが ならべてあります。",
+        "romaji": "Tsukue no ue ni shiryō ga narabete arimasu.",
+        "en": "Documents have been arranged on the desk.",
+        "bn": "টেবিলের ওপরে নথিগুলো সাজিয়ে রাখা হয়েছে।"
+      },
+      {
+        "jp": "でも、昨日 大切な 書類を 無くしてしまいました。",
+        "furigana": "でも、きのう たいせつな しょるいを なくしてしまいました。",
+        "romaji": "Demo, kinō taisetsu na shorui o nakushite shimaimashita.",
+        "en": "But yesterday he unfortunately lost an important document.",
+        "bn": "কিন্তু গতকাল তিনি দুর্ভাগ্যবশত একটি গুরুত্বপূর্ণ নথি হারিয়ে ফেলেছিলেন।"
+      },
+      {
+        "jp": "びっくりして、すぐに 同僚に 連絡しました。",
+        "furigana": "びっくりして、すぐに どうりょうに れんらくしました。",
+        "romaji": "Bikkuri shite, sugu ni dōryō ni renraku shimashita.",
+        "en": "He was surprised and contacted a colleague at once.",
+        "bn": "তিনি চমকে উঠে সঙ্গে সঙ্গে সহকর্মীর সাথে যোগাযোগ করলেন।"
+      },
+      {
+        "jp": "すると、書類は 会議室で 見つかりました。",
+        "furigana": "すると、しょるいは かいぎしつで みつかりました。",
+        "romaji": "Suru to, shorui wa kaigishitsu de mitsukarimashita.",
+        "en": "Then the documents were found in the meeting room.",
+        "bn": "এরপর দেখা গেল নথিটি সভাকক্ষে পাওয়া গেছে।"
+      },
+      {
+        "jp": "田中さんは 「これからは 気をつけます」と 言いました。",
+        "furigana": "たなかさんは「これからは きをつけます」と いいました。",
+        "romaji": "Tanaka-san wa \"kore kara wa ki o tsukemasu\" to iimashita.",
+        "en": "Mr. Tanaka said, \"I will be careful from now on.\"",
+        "bn": "মি. তানাকা বললেন, \"আমি এখন থেকে সতর্ক থাকব।\""
       }
     ]
   }

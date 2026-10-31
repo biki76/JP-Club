@@ -1,56 +1,269 @@
 [
   {
     "id": "minna-030-v001",
-    "kanji": "貼ります",
-    "furigana": "はります",
-    "romaji": "harimasu",
-    "english_meaning": "to stick / paste",
-    "type": "verb",
-    "bengali_meaning": "সাঁটা / লাগানো"
+    "kanji": "予約",
+    "furigana": "よやく",
+    "romaji": "yoyaku",
+    "english_meaning": "reservation, booking",
+    "bengali_meaning": "সংরক্ষণ, বুকিং",
+    "tags": ["vocabulary", "lesson-30"]
   },
   {
     "id": "minna-030-v002",
-    "kanji": "掛けます",
-    "furigana": "かけます",
-    "romaji": "kakemasu",
-    "english_meaning": "to hang",
-    "type": "verb",
-    "bengali_meaning": "ঝোলানো"
+    "kanji": "連絡",
+    "furigana": "れんらく",
+    "romaji": "renraku",
+    "english_meaning": "contact, communication",
+    "bengali_meaning": "যোগাযোগ",
+    "tags": ["vocabulary", "lesson-30"]
   },
   {
     "id": "minna-030-v003",
-    "kanji": "飾ります",
-    "furigana": "かざります",
-    "romaji": "kazarimasu",
-    "english_meaning": "to decorate",
-    "type": "verb",
-    "bengali_meaning": "সাজানো"
+    "kanji": "宅配便",
+    "furigana": "たくはいびん",
+    "romaji": "takuhaibin",
+    "english_meaning": "home delivery service",
+    "bengali_meaning": "বাড়িতে পৌঁছে দেওয়ার সেবা",
+    "tags": ["vocabulary", "lesson-30"]
   },
   {
     "id": "minna-030-v004",
-    "kanji": "並べます",
-    "furigana": "ならべます",
-    "romaji": "narabemasu",
-    "english_meaning": "to arrange / line up",
-    "type": "verb",
-    "bengali_meaning": "সারিবদ্ধ করা"
+    "kanji": "荷物",
+    "furigana": "にもつ",
+    "romaji": "nimotsu",
+    "english_meaning": "luggage, package",
+    "bengali_meaning": "মালপত্র, প্যাকেজ",
+    "tags": ["vocabulary", "lesson-30"]
   },
   {
     "id": "minna-030-v005",
-    "kanji": "植えます",
-    "furigana": "うえます",
-    "romaji": "uemasu",
-    "english_meaning": "to plant",
-    "type": "verb",
-    "bengali_meaning": "রোপণ করা"
+    "kanji": "届く",
+    "furigana": "とどく",
+    "romaji": "todoku",
+    "english_meaning": "to reach, to be delivered",
+    "bengali_meaning": "পৌঁছানো, পৌঁছে দেওয়া",
+    "tags": ["vocabulary", "lesson-30"]
   },
   {
     "id": "minna-030-v006",
-    "kanji": "戻します",
-    "furigana": "もどします",
-    "romaji": "modoshimasu",
-    "english_meaning": "to return / put back",
-    "type": "verb",
-    "bengali_meaning": "ফিরিয়ে দেওয়া / যথাস্থানে রাখা"
+    "kanji": "忘れ物",
+    "furigana": "わすれもの",
+    "romaji": "wasuremono",
+    "english_meaning": "forgotten item, left-behind thing",
+    "bengali_meaning": "ভুলে ফেলে আসা জিনিস",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v007",
+    "kanji": "無くす",
+    "furigana": "なくす",
+    "romaji": "nakusu",
+    "english_meaning": "to lose",
+    "bengali_meaning": "হারানো",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v008",
+    "kanji": "見つかる",
+    "furigana": "みつかる",
+    "romaji": "mitsukaru",
+    "english_meaning": "to be found",
+    "bengali_meaning": "খুঁজে পাওয়া",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v009",
+    "kanji": "折る",
+    "furigana": "おる",
+    "romaji": "oru",
+    "english_meaning": "to fold, to break",
+    "bengali_meaning": "ভাঁজ করা, ভেঙে ফেলা",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v010",
+    "kanji": "曲がる",
+    "furigana": "まがる",
+    "romaji": "magaru",
+    "english_meaning": "to bend, to turn",
+    "bengali_meaning": "বাঁকা হওয়া, মোড় নেওয়া",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v011",
+    "furigana": "びっくりする",
+    "romaji": "bikkuri suru",
+    "english_meaning": "to be surprised",
+    "bengali_meaning": "চমকে যাওয়া",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v012",
+    "kanji": "迎える",
+    "furigana": "むかえる",
+    "romaji": "mukaeru",
+    "english_meaning": "to welcome, to pick up",
+    "bengali_meaning": "স্বাগত জানানো, এগিয়ে নিতে যাওয়া",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v013",
+    "kanji": "至急",
+    "furigana": "しきゅう",
+    "romaji": "shikyū",
+    "english_meaning": "urgent, urgently",
+    "bengali_meaning": "অতি জরুরি",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v014",
+    "kanji": "急ぐ",
+    "furigana": "いそぐ",
+    "romaji": "isogu",
+    "english_meaning": "to hurry",
+    "bengali_meaning": "তাড়াহুড়ো করা",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v015",
+    "kanji": "急に",
+    "furigana": "きゅうに",
+    "romaji": "kyū ni",
+    "english_meaning": "suddenly",
+    "bengali_meaning": "হঠাৎ",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v016",
+    "kanji": "事故",
+    "furigana": "じこ",
+    "romaji": "jiko",
+    "english_meaning": "accident",
+    "bengali_meaning": "দুর্ঘটনা",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v017",
+    "kanji": "地震",
+    "furigana": "じしん",
+    "romaji": "jishin",
+    "english_meaning": "earthquake",
+    "bengali_meaning": "ভূমিকম্প",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v018",
+    "kanji": "火事",
+    "furigana": "かじ",
+    "romaji": "kaji",
+    "english_meaning": "fire, conflagration",
+    "bengali_meaning": "আগুন লাগা",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v019",
+    "kanji": "泥棒",
+    "furigana": "どろぼう",
+    "romaji": "dorobō",
+    "english_meaning": "thief, burglar",
+    "bengali_meaning": "চোর",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v020",
+    "kanji": "気をつける",
+    "furigana": "きをつける",
+    "romaji": "ki o tsukeru",
+    "english_meaning": "to be careful, to watch out",
+    "bengali_meaning": "সতর্ক থাকা",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v021",
+    "kanji": "頼む",
+    "furigana": "たのむ",
+    "romaji": "tanomu",
+    "english_meaning": "to request, to ask a favour",
+    "bengali_meaning": "অনুরোধ করা",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v022",
+    "kanji": "引き出す",
+    "furigana": "ひきだす",
+    "romaji": "hikidasu",
+    "english_meaning": "to withdraw (money)",
+    "bengali_meaning": "টাকা তোলা",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v023",
+    "kanji": "貯金",
+    "furigana": "ちょきん",
+    "romaji": "chokin",
+    "english_meaning": "savings, saving money",
+    "bengali_meaning": "সঞ্চয়",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v024",
+    "kanji": "銀行",
+    "furigana": "ぎんこう",
+    "romaji": "ginkō",
+    "english_meaning": "bank",
+    "bengali_meaning": "ব্যাংক",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v025",
+    "kanji": "中止",
+    "furigana": "ちゅうし",
+    "romaji": "chūshi",
+    "english_meaning": "cancellation, suspension",
+    "bengali_meaning": "বাতিল, স্থগিত",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v026",
+    "kanji": "案内",
+    "furigana": "あんない",
+    "romaji": "annai",
+    "english_meaning": "guidance, information",
+    "bengali_meaning": "পথনির্দেশ, তথ্য",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v027",
+    "kanji": "知らせる",
+    "furigana": "しらせる",
+    "romaji": "shiraseru",
+    "english_meaning": "to inform, to notify",
+    "bengali_meaning": "জানানো",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v028",
+    "kanji": "書類",
+    "furigana": "しょるい",
+    "romaji": "shorui",
+    "english_meaning": "documents, papers",
+    "bengali_meaning": "নথিপত্র",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v029",
+    "furigana": "コピー",
+    "romaji": "kopī",
+    "english_meaning": "copy, photocopy",
+    "bengali_meaning": "কপি, নকল",
+    "tags": ["vocabulary", "lesson-30"]
+  },
+  {
+    "id": "minna-030-v030",
+    "furigana": "ファイル",
+    "romaji": "fairu",
+    "english_meaning": "file, folder",
+    "bengali_meaning": "ফাইল",
+    "tags": ["vocabulary", "lesson-30"]
   }
 ]

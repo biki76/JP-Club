@@ -1,87 +1,132 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "予",
+    "onyomi": ["ヨ"],
+    "kunyomi": ["あらかじ.め"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["beforehand", "in advance"],
+      "bn": ["আগে থেকে", "পূর্বেই"]
     },
-    "radicals": [],
+    "radicals": ["マ", "亅"],
     "strokes": 4,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "約",
+    "onyomi": ["ヤク"],
+    "kunyomi": ["つづ.まる"],
+    "meanings": {
+      "en": ["promise", "approximately"],
+      "bn": ["প্রতিশ্রুতি", "প্রায়"]
+    },
+    "radicals": ["糸", "勺"],
+    "strokes": 9,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "連",
+    "onyomi": ["レン"],
+    "kunyomi": ["つ.れる", "つら.なる"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["take along", "connect"],
+      "bn": ["সঙ্গে নেওয়া", "সংযুক্ত করা"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["辶", "車"],
     "strokes": 10,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "荷",
+    "onyomi": ["カ"],
+    "kunyomi": ["に"],
+    "meanings": {
+      "en": ["luggage", "load"],
+      "bn": ["মালপত্র", "ভার"]
+    },
+    "radicals": ["艹", "何"],
+    "strokes": 10,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "届",
+    "onyomi": ["トド"],
+    "kunyomi": ["とど.く", "とど.ける"],
+    "meanings": {
+      "en": ["deliver", "reach"],
+      "bn": ["পৌঁছানো", "পৌঁছে দেওয়া"]
+    },
+    "radicals": ["尸", "由"],
+    "strokes": 8,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "急",
+    "onyomi": ["キュウ"],
+    "kunyomi": ["いそ.ぐ", "きゅう"],
+    "meanings": {
+      "en": ["hurry", "sudden"],
+      "bn": ["তাড়াহুড়ো", "হঠাৎ"]
+    },
+    "radicals": ["心", "刍"],
+    "strokes": 9,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "事",
+    "onyomi": ["ジ"],
+    "kunyomi": ["こと"],
+    "meanings": {
+      "en": ["thing", "matter"],
+      "bn": ["বিষয়", "ঘটনা"]
+    },
+    "radicals": ["一", "口", "又"],
+    "strokes": 8,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "地",
+    "onyomi": ["チ", "ジ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["ground", "earth"],
+      "bn": ["ভূমি", "পৃথিবী"]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 4,
+    "radicals": ["土", "也"],
+    "strokes": 6,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "銀",
+    "onyomi": ["ギン"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["silver"],
+      "bn": ["রুপা"]
+    },
+    "radicals": ["金", "艮"],
+    "strokes": 14,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "行",
+    "onyomi": ["コウ", "ギョウ"],
+    "kunyomi": ["い.く", "ゆ.く", "おこな.う"],
+    "meanings": {
+      "en": ["go", "conduct"],
+      "bn": ["যাওয়া", "সম্পাদন করা"]
+    },
+    "radicals": ["行", "彳"],
+    "strokes": 6,
+    "grade": 2,
     "jlpt": "N4"
   }
 ]

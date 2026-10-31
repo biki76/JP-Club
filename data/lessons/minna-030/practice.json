@@ -3,48 +3,152 @@
     "id": "minna-030-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜30-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜30-A"
+      "en": "Choose the correct form: do something in advance.",
+      "bn": "সঠিক রূপটি বেছে নিন: আগে থেকেই কিছু করা।"
     },
     "stem": {
-      "jp": "これは レッスン30の 文法です。",
-      "furigana": "これは レッスン30の 文法です。",
-      "romaji": ""
+      "jp": "会議の 前に、資料を コピーして（　）。",
+      "furigana": "かいぎの まえに、しりょうを コピーして（　）。",
+      "romaji": "kaigi no mae ni, shiryō o kopī shite ( )."
     },
-    "options": [
-      "Grammar pattern 30-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["おきます", "しまいます", "あります", "います"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜30-A means \"Grammar pattern 30-A\".",
-      "bn": "〜30-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 30-A\"।"
+      "en": "動詞て形 + おきます means doing something in advance.",
+      "bn": "動詞て形 + おきます আগেই কিছু করা বোঝায়।"
     }
   },
   {
     "id": "minna-030-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜30-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜30-B"
+      "en": "Choose the correct form: unfortunately lost documents.",
+      "bn": "সঠিক রূপটি বেছে নিন: দুর্ভাগ্যবশত নথি হারানো।"
     },
     "stem": {
-      "jp": "これは レッスン30の 文法です。",
-      "furigana": "これは レッスン30の 文法です。",
-      "romaji": ""
+      "jp": "大切な 書類を 無くして（　）。",
+      "furigana": "たいせつな しょるいを なくして（　）。",
+      "romaji": "taisetsu na shorui o nakushite ( )."
     },
-    "options": [
-      "Grammar pattern 30-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["しまいました", "おきました", "あります", "います"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜30-B means \"Grammar pattern 30-B\".",
-      "bn": "〜30-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 30-B\"।"
+      "en": "動詞て形 + しまいます expresses an unfortunate or unintended result.",
+      "bn": "動詞て形 + しまいます অনাকাঙ্ক্ষিত বা অনুতাপজনক ফল বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-030-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form: a map has been placed on the table.",
+      "bn": "সঠিক রূপটি বেছে নিন: টেবিলের ওপরে মানচিত্র রাখা আছে।"
+    },
+    "stem": {
+      "jp": "テーブルの 上に 地図が 置いて（　）。",
+      "furigana": "テーブルの うえに ちずが おいて（　）。",
+      "romaji": "tēburu no ue ni chizu ga oite ( )."
+    },
+    "options": ["あります", "います", "しまいます", "おきます"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "他動詞て形 + あります shows a state left by an intentional action.",
+      "bn": "সকর্মক ক্রিয়ার て形 + あります ইচ্ছাকৃত কাজের ফলে থাকা অবস্থা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-030-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct particle: please contact me by five.",
+      "bn": "সঠিক কণাটি বেছে নিন: পাঁচটার মধ্যে যোগাযোগ করুন।"
+    },
+    "stem": {
+      "jp": "五時（　）連絡して ください。",
+      "furigana": "ごじ（　）れんらくして ください。",
+      "romaji": "goji ( ) renraku shite kudasai."
+    },
+    "options": ["までに", "まで", "ごろ", "くらい"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "までに means by a deadline; まで means until a point.",
+      "bn": "までに মানে সময়সীমার মধ্যে; まで মানে পর্যন্ত।"
+    }
+  },
+  {
+    "id": "minna-030-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 至急.",
+      "bn": "至急 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "至急 連絡して ください。",
+      "furigana": "しきゅう れんらくして ください。",
+      "romaji": "shikyū renraku shite kudasai."
+    },
+    "options": ["urgently", "slowly", "politely", "quietly"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "至急 means urgently.",
+      "bn": "至急 মানে অতি জরুরি ভিত্তিতে।"
+    }
+  },
+  {
+    "id": "minna-030-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word: it has been delivered.",
+      "bn": "সঠিক শব্দটি বেছে নিন: এটি পৌঁছে গেছে।"
+    },
+    "stem": {
+      "jp": "荷物が もう（　）。",
+      "furigana": "にもつが もう（　）。",
+      "romaji": "nimotsu ga mō ( )."
+    },
+    "options": ["届きました", "届けました", "送りました", "来ました"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "届く is intransitive: a package arrives by itself.",
+      "bn": "届く অকর্মক: প্যাকেজ নিজে থেকে পৌঁছায়।"
+    }
+  },
+  {
+    "id": "minna-030-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form: the door has been left open.",
+      "bn": "সঠিক রূপটি বেছে নিন: দরজাটি খুলে রাখা হয়েছে।"
+    },
+    "stem": {
+      "jp": "会議室の ドアが 開けて（　）。",
+      "furigana": "かいぎしつの ドアが あけて（　）。",
+      "romaji": "kaigishitsu no doa ga akete ( )."
+    },
+    "options": ["あります", "います", "しまいます", "おきます"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "他動詞て形 + あります expresses an intentional state: the door was opened by someone.",
+      "bn": "সকর্মক ক্রিয়ার て形 + あります ইচ্ছাকৃত অবস্থা বোঝায়: কেউ দরজা খুলে রেখেছে।"
+    }
+  },
+  {
+    "id": "minna-030-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word: I have to hurry.",
+      "bn": "সঠিক শব্দটি বেছে নিন: আমাকে তাড়াহুড়ো করতে হবে।"
+    },
+    "stem": {
+      "jp": "時間が ありませんから、（　）なければ なりません。",
+      "furigana": "じかんが ありませんから、（　）なければ なりません。",
+      "romaji": "jikan ga arimasen kara, ( )nakereba narimasen."
+    },
+    "options": ["急が", "急ぎ", "急ぐ", "急いで"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "急ぐ → 急がなければなりません = must hurry.",
+      "bn": "急ぐ → 急がなければなりません = তাড়াহুড়ো করতে হবে।"
     }
   }
 ]
