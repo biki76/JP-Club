@@ -6,16 +6,10 @@
 .shell-header {
   position: sticky; top: 0; z-index: 500;
   display: flex; align-items: center; gap: var(--s-3);
-  height: 64px;
-  padding: 0 24px;
-  
-  /* ✨ Premium Glassmorphism */
-  background: var(--surface-glass);
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  
-  border-bottom: 1px solid color-mix(in srgb, var(--border) 50%, transparent);
-  transition: background 0.3s ease, box-shadow 0.3s ease;
+  height: var(--header-h);
+  padding: 0 var(--s-4);
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  border-bottom: 1px solid var(--border);
 }
 @supports (backdrop-filter: blur(12px)) {
   .shell-header { backdrop-filter: blur(12px) saturate(1.4); background: color-mix(in srgb, var(--bg) 65%, transparent); }
@@ -37,17 +31,12 @@
 
 .shell-search {
   display: flex; align-items: center; gap: var(--s-2);
-  flex: 1; max-width: 400px;
-  padding: 10px 16px;
-  background: color-mix(in srgb, var(--ink) 4%, transparent);
-  border: 1px solid transparent;
-  border-radius: 12px; /* Softer, premium radius */
-  transition: all 0.2s ease;
-}
-.shell-search:focus-within { 
-  border-color: var(--primary);
-  box-shadow: 0 0 0 4px var(--primary-glow); /* Premium glow on focus */
+  flex: 1; max-width: 340px;
+  padding: var(--s-1) var(--s-3);
   background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  color: var(--ink-muted);
 }
 .shell-search input {
   flex: 1; min-width: 0; border: none; background: none; outline: none;
@@ -166,226 +155,4 @@
 @media (max-width: 639px) {
   .shell-header__actions .ctrl--desktop { display: none; }
   .shell-search { display: none; }
-}
-/* ========== RESPONSIVE FIXES FOR SMALL SCREENS ========== */
-
-/* Small tablets and large phones (640px - 767px) */
-@media (max-width: 767px) {
-  .shell-header {
-    padding: 0 12px;
-    gap: var(--s-2);
-  }
-  
-  .shell-header__brand span:last-child {
-    font-size: 14px;
-  }
-}
-
-/* Mobile phones (375px - 639px) */
-@media (max-width: 639px) {
-  .shell-header__actions .ctrl--desktop { 
-    display: none; 
-  }
-  .shell-search { 
-    display: none; 
-  }
-  
-  .shell-header {
-    padding: 0 8px;
-    gap: var(--s-2);
-    height: 56px;
-  }
-  
-  .shell-header__brand {
-    gap: var(--s-1);
-  }
-  
-  .shell-header__mark {
-    width: 28px;
-    height: 28px;
-    font-size: 16px;
-  }
-  
-  .shell-header__brand span:last-child {
-    font-size: 13px;
-  }
-  
-  /* Compact language toggle */
-  .lang-toggle {
-    display: flex;
-    gap: 0;
-    border-radius: 6px;
-    overflow: hidden;
-    border: 1px solid var(--border);
-  }
-  
-  .lang-toggle button {
-    padding: 4px 8px;
-    font-size: 11px;
-    font-weight: 600;
-  }
-}
-
-/* Very small screens (below 375px) */
-@media (max-width: 374px) {
-  .shell-header {
-    padding: 0 6px;
-    gap: 4px;
-    height: 52px;
-  }
-  
-  .shell-header__brand span:last-child {
-    display: none; /* Hide text, keep logo only */
-  }
-  
-  .shell-header__menu {
-    padding: 4px;
-  }
-  
-  .shell-header__menu svg {
-    width: 18px;
-    height: 18px;
-  }
-  
-  /* Smaller language toggle */
-  .lang-toggle button {
-    padding: 3px 6px;
-    font-size: 10px;
-  }
-  
-  /* Reduce action button sizes */
-  .shell-header__actions {
-    gap: 2px;
-  }
-  
-  .shell-header__actions .ctrl {
-    padding: 4px;
-  }
-  
-  .shell-header__actions .ctrl svg {
-    width: 16px;
-    height: 16px;
-  }
-}
-
-/* ========== NIHONSYNC BRANDING IN FOOTER ========== */
-
-.shell-footer__nihonsync {
-  display: flex;
-  align-items: center;
-  gap: var(--s-2);
-  padding: var(--s-3) 0;
-  margin-top: var(--s-3);
-  border-top: 1px solid var(--border);
-}
-
-.nihonsync-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 12px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 12px;
-  text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.nihonsync-badge:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-}
-
-.nihonsync-badge svg {
-  width: 16px;
-  height: 16px;
-}
-
-.nihonsync-text {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.nihonsync-label {
-  font-size: 10px;
-  opacity: 0.9;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.nihonsync-name {
-  font-size: 13px;
-  font-weight: 700;
-}
-
-@media (max-width: 639px) {
-  .shell-footer__nihonsync {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .nihonsync-badge {
-    width: 100%;
-    justify-content: center;
-  }
-}
-/* ---- Header overflow fix v2 ---- */
-@media (max-width: 639px) {
-  .shell-header { padding: 0 10px; gap: 8px; }
-  .shell-header__spacer { display: none; }
-  .shell-header__brand { min-width: 0; }
-  .shell-header__brand > span:last-child {
-    max-width: 30vw;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .shell-header__actions { margin-left: auto; flex-shrink: 0; }
-}
-/* ---- Constrain injected auth button on phones ---- */
-@media (max-width: 639px) {
-  .shell-header a:not(.shell-header__brand),
-  .shell-header button:not(.shell-header__menu):not([data-theme-toggle]):not([data-lang-btn]):not([data-furigana-toggle]) {
-    max-width: 26vw;
-    min-width: 0;
-    flex-shrink: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-}
-@media (max-width: 479px) {
-  .shell-header__brand > span:last-child { display: none; }
-}
-
-/* Phase 13: Header Layout Fix */
-header[data-shell-header] {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--s-3, 0.75rem);
-  padding: var(--s-3, 0.75rem) var(--s-4, 1rem);
-  background: var(--surface, #fff);
-  border-bottom: 1px solid var(--border, #eee);
-  position: sticky;
-  top: 0;
-  z-index: 50;
-}
-
-/* Ensure the auth button doesn't push everything else */
-header[data-shell-header] > * {
-  flex-shrink: 0;
-}
-
-/* Group the right-side items (Lang, Theme, Auth) */
-header[data-shell-header] .shell-header-right {
-  display: flex;
-  align-items: center;
-  gap: var(--s-2, 0.5rem);
-  margin-left: auto;
 }

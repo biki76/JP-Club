@@ -86,10 +86,9 @@
     html += '<button class="ctrl ctrl--desktop" type="button" data-furigana-toggle aria-pressed="true" '
       + 'data-aria-label-en="Toggle furigana" data-aria-label-bn="ফুরিগানা চালু/বন্ধ" aria-label="Toggle furigana">'
       + '<span style="font-family:var(--font-jp);font-weight:700">あ</span></button>';
-    html += '<button data-theme-toggle class="shell-icon-btn" aria-label="Toggle dark mode" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:var(--r-md);background:var(--surface);border:1px solid var(--border);cursor:pointer;">
-  <svg class="theme-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-  <svg class="theme-icon-dark" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-</button>';
+    html += '<button class="ctrl" type="button" data-theme-toggle aria-pressed="false" '
+      + 'data-aria-label-en="Switch to dark mode" data-aria-label-bn="ডার্ক মোডে যান" aria-label="Switch to dark mode">'
+      + ICONS.moon + '</button>';
     html += '</div>';
 
     host.className = 'shell-header';
@@ -148,22 +147,12 @@
     }).join('');
   }
 
-function renderFooter(host) {
+  function renderFooter(host) {
     host.innerHTML = '<div class="shell-footer__inner">'
-      + '<div>'
-      + '<span>' + txt({ en: '© JP-Club — Japanese for Bengali speakers', bn: '© JP-Club — বাংলাভাষীদের জন্য জাপানিজ' }) + '</span>'
-      + '<span style="display:block; margin-top:4px; font-size:11px;">' + txt({ en: 'JLPT N5–N3', bn: 'JLPT N5–N3' }) + '</span>'
-      + '</div>'
-      + '<div class="shell-footer__nihonsync">'
-      + '<a href="https://biki76.github.io/NihonSync/" target="_blank" rel="noopener" class="nihonsync-badge" aria-label="Download the NihonSync app for JLPT N5">'
-      + '<span class="nihonsync-text">'
-      + '<span class="nihonsync-label">Free Android App · N5</span>'
-      + '<span class="nihonsync-name">🎌 Download NihonSync</span>'
-      + '</span>'
-      + '</a>'
-      + '</div>'
+      + '<span>' + txt({ en: '© Nihongo · Bengali — Japanese for Bengali speakers', bn: '© নিহোঙ্গো · বাংলা — বাংলাভাষীদের জন্য জাপানিজ' }) + '</span>'
+      + '<span>' + txt({ en: 'JLPT N5–N3', bn: 'JLPT N5–N3' }) + '</span>'
       + '</div>';
-  }0
+  }
 
   /* ---------- drawer ---------- */
   var lastFocus = null;
