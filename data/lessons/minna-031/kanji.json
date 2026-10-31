@@ -1,87 +1,106 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "夢",
+    "onyomi": ["ム"],
+    "kunyomi": ["ゆめ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["dream"],
+      "bn": ["স্বপ্ন"]
     },
-    "radicals": [],
-    "strokes": 4,
+    "radicals": ["夕", "罒", "冖"],
+    "strokes": 13,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "決",
+    "onyomi": ["ケツ"],
+    "kunyomi": ["き.める", "き.まる"],
+    "meanings": {
+      "en": ["decide", "determine"],
+      "bn": ["সিদ্ধান্ত নেওয়া", "নির্ধারণ করা"]
+    },
+    "radicals": ["氵", "夬"],
+    "strokes": 7,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "計",
+    "onyomi": ["ケイ"],
+    "kunyomi": ["はか.る"],
+    "meanings": {
+      "en": ["measure", "plan"],
+      "bn": ["পরিমাপ করা", "পরিকল্পনা করা"]
+    },
+    "radicals": ["言", "十"],
+    "strokes": 9,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "画",
+    "onyomi": ["ガ", "カク"],
+    "kunyomi": ["えが.く", "かく"],
+    "meanings": {
+      "en": ["picture", "stroke", "plan"],
+      "bn": ["ছবি", "পরিকল্পনা"]
+    },
+    "radicals": ["一", "田", "凵"],
+    "strokes": 8,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "試",
+    "onyomi": ["シ"],
+    "kunyomi": ["こころ.みる", "ため.す"],
+    "meanings": {
+      "en": ["try", "test", "attempt"],
+      "bn": ["চেষ্টা করা", "পরীক্ষা করা"]
+    },
+    "radicals": ["言", "式"],
+    "strokes": 13,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "験",
+    "onyomi": ["ケン", "ゲン"],
+    "kunyomi": ["あかし", "ため.す"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["test", "effect", "experience"],
+      "bn": ["পরীক্ষা", "প্রভাব"]
     },
-    "radicals": [],
-    "strokes": 5,
+    "radicals": ["馬", "僉"],
+    "strokes": 18,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "選",
+    "onyomi": ["セン"],
+    "kunyomi": ["えら.ぶ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["choose", "select"],
+      "bn": ["বেছে নেওয়া"]
     },
-    "radicals": [],
-    "strokes": 14,
+    "radicals": ["辶", "巽"],
+    "strokes": 15,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "考",
+    "onyomi": ["コウ"],
+    "kunyomi": ["かんが.える"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["think", "consider"],
+      "bn": ["চিন্তা করা"]
     },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 4,
+    "radicals": ["老", "一"],
+    "strokes": 6,
+    "grade": 2,
     "jlpt": "N4"
   }
 ]

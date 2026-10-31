@@ -3,48 +3,152 @@
     "id": "minna-031-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜31-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜31-A"
+      "en": "Choose the correct volitional form of 寝る.",
+      "bn": "寝る এর সঠিক ইচ্ছাসূচক রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン31の 文法です。",
-      "furigana": "これは レッスン31の 文法です。",
-      "romaji": ""
+      "jp": "今晩は 早く（　）と 思います。",
+      "furigana": "こんばんは はやく（　）と おもいます。",
+      "romaji": "konban wa hayaku ( ) to omoimasu."
     },
-    "options": [
-      "Grammar pattern 31-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["寝よう", "寝る", "寝ます", "寝て"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜31-A means \"Grammar pattern 31-A\".",
-      "bn": "〜31-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 31-A\"।"
+      "en": "寝る is an ichidan verb; its volitional form is 寝よう.",
+      "bn": "寝る একটি ইচিদান ক্রিয়া; এর ইচ্ছাসূচক রূপ 寝よう।"
     }
   },
   {
     "id": "minna-031-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜31-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜31-B"
+      "en": "Choose the correct ending for expressing a personal intention.",
+      "bn": "ব্যক্তিগত ইচ্ছা প্রকাশের সঠিক সমাপ্তি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン31の 文法です。",
-      "furigana": "これは レッスン31の 文法です。",
-      "romaji": ""
+      "jp": "来年 日本へ 留学する（　）です。",
+      "furigana": "らいねん にほんへ りゅうがくする（　）です。",
+      "romaji": "rainen nihon e ryūgaku suru ( ) desu."
     },
-    "options": [
-      "Grammar pattern 31-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["つもり", "よてい", "こと", "ばかり"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜31-B means \"Grammar pattern 31-B\".",
-      "bn": "〜31-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 31-B\"।"
+      "en": "動詞辞書形 + つもりです expresses a personal intention.",
+      "bn": "動詞辞書形 + つもりです ব্যক্তিগত ইচ্ছা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-031-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for an external schedule.",
+      "bn": "বাহ্যিক সময়সূচির জন্য সঠিক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "会議は 三時に 終わる（　）です。",
+      "furigana": "かいぎは さんじに おわる（　）です。",
+      "romaji": "kaigi wa sanji ni owaru ( ) desu."
+    },
+    "options": ["予定", "つもり", "こと", "ところ"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "予定です refers to an established schedule or plan.",
+      "bn": "予定です নির্ধারিত সময়সূচি বা পরিকল্পনা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-031-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for a personal decision.",
+      "bn": "ব্যক্তিগত সিদ্ধান্তের জন্য সঠিক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "毎朝 走る（　）しました。",
+      "furigana": "まいあさ はしる（　）しました。",
+      "romaji": "maiasa hashiru ( ) shimashita."
+    },
+    "options": ["ことに", "つもりに", "ように", "ために"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞辞書形 + ことにします expresses a decision made by oneself.",
+      "bn": "動詞辞書形 + ことにします নিজে নেওয়া সিদ্ধান্ত বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-031-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for a decision made by circumstances.",
+      "bn": "পরিস্থিতির কারণে নেওয়া সিদ্ধান্তের সঠিক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "来月 大阪へ 転勤する（　）なりました。",
+      "furigana": "らいげつ おおさかへ てんきんする（　）なりました。",
+      "romaji": "raigetsu Ōsaka e tenkin suru ( ) narimashita."
+    },
+    "options": ["ことに", "つもりに", "ように", "ために"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞辞書形 + ことになります means it has been decided by outside circumstances.",
+      "bn": "動詞辞書形 + ことになります বাইরের কারণে সিদ্ধান্ত হয়ে যাওয়া বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-031-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 夢.",
+      "bn": "夢 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "私の 夢は 先生に なる ことです。",
+      "furigana": "わたしの ゆめは せんせいに なる ことです।",
+      "romaji": "watashi no yume wa sensei ni naru koto desu."
+    },
+    "options": ["dream", "plan", "purpose", "future"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "夢 means dream, an aspiration.",
+      "bn": "夢 মানে স্বপ্ন, একটি উচ্চাকাঙ্ক্ষা।"
+    }
+  },
+  {
+    "id": "minna-031-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of きっと.",
+      "bn": "きっと এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "きっと 合格しますよ。",
+      "furigana": "きっと ごうかくしますよ。",
+      "romaji": "kitto gōkaku shimasu yo."
+    },
+    "options": ["surely", "maybe", "rarely", "quickly"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "きっと means surely or certainly.",
+      "bn": "きっと মানে নিশ্চয়ই বা অবশ্যই।"
+    }
+  },
+  {
+    "id": "minna-031-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of そのうち.",
+      "bn": "そのうち এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "そのうち 会いましょう。",
+      "furigana": "そのうち あいましょう。",
+      "romaji": "sonouchi aimashō."
+    },
+    "options": ["one of these days", "right now", "never", "yesterday"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "そのうち means before long or one of these days.",
+      "bn": "そのうち মানে শীঘ্রই বা কোনো এক সময়।"
     }
   }
 ]

@@ -1,26 +1,152 @@
 [
   {
-    "id": "minna-031-g001",
-    "pattern": "～つもりです",
-    "meaning_en": "intend to",
+    "id": "minna-031-g1",
+    "pattern": "動詞の意向形（書こう・食べよう・しよう）",
+    "meaning_en": "volitional form: let's do, I will do (used in casual speech and in と思っています)",
+    "meaning_bn": "ইচ্ছাসূচক রূপ: চলুন করি, আমি করব (কথ্য ভাষায় এবং と思っています এর সঙ্গে)",
     "examples": [
       {
-        "jp": "来年日本へ行くつもりです。",
-        "en": "I intend to go to Japan next year."
+        "jp": "来年、日本へ 留学しようと 思っています。",
+        "furigana": "らいねん、にほんへ りゅうがくしようと おもっています。",
+        "romaji": "rainen, nihon e ryūgaku shiyō to omotte imasu.",
+        "en": "I am thinking of studying in Japan next year.",
+        "bn": "আগামী বছর আমি জাপানে পড়াশোনা করার কথা ভাবছি।"
+      },
+      {
+        "jp": "今晩は 早く 寝よう。",
+        "furigana": "こんばんは はやく ねよう。",
+        "romaji": "konban wa hayaku neyō.",
+        "en": "Let's go to bed early tonight.",
+        "bn": "আজ রাতে তাড়াতাড়ি ঘুমাই।"
+      },
+      {
+        "jp": "週末は 家族と どこかへ 出かけようと 思います。",
+        "furigana": "しゅうまつは かぞくと どこかへ でかけようと おもいます。",
+        "romaji": "shūmatsu wa kazoku to dokoka e dekakeyō to omoimasu.",
+        "en": "I think I will go out somewhere with my family this weekend.",
+        "bn": "এই সপ্তাহান্তে পরিবারের সঙ্গে কোথাও ঘুরতে যাব বলে ভাবছি।"
       }
     ],
-    "meaning_bn": "intend to"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-031-g002",
-    "pattern": "～予定です",
-    "meaning_en": "be scheduled to",
+    "id": "minna-031-g2",
+    "pattern": "動詞辞書形／ない形 + つもりです",
+    "meaning_en": "intend to do, plan to do (personal intention)",
+    "meaning_bn": "কোনো কিছু করার ইচ্ছা বা সংকল্প থাকা",
     "examples": [
       {
-        "jp": "会議は3時からです。",
-        "en": "The meeting is scheduled from 3 o'clock."
+        "jp": "来年 大学を 卒業する つもりです。",
+        "furigana": "らいねん だいがくを そつぎょうする つもりです。",
+        "romaji": "rainen daigaku o sotsugyō suru tsumori desu.",
+        "en": "I intend to graduate from university next year.",
+        "bn": "আগামী বছর আমি বিশ্ববিদ্যালয় থেকে স্নাতক হওয়ার ইচ্ছা পোষণ করি।"
+      },
+      {
+        "jp": "お酒は もう 飲まない つもりです。",
+        "furigana": "おさけは もう のまない つもりです。",
+        "romaji": "osake wa mō nomanai tsumori desu.",
+        "en": "I intend not to drink alcohol anymore.",
+        "bn": "আমি আর মদ পান না করার সিদ্ধান্ত নিয়েছি।"
+      },
+      {
+        "jp": "いつか 自分の 店を 持つ つもりです。",
+        "furigana": "いつか じぶんの みせを もつ つもりです。",
+        "romaji": "itsuka jibun no mise o motsu tsumori desu.",
+        "en": "Someday I intend to have my own shop.",
+        "bn": "কোনো একদিন আমি নিজের একটি দোকান করার ইচ্ছা পোষণ করি।"
       }
     ],
-    "meaning_bn": "be scheduled to"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-031-g3",
+    "pattern": "動詞辞書形 + 予定です",
+    "meaning_en": "be scheduled to, be planned to (external schedule)",
+    "meaning_bn": "কোনো কাজের সময়সূচি নির্ধারিত থাকা",
+    "examples": [
+      {
+        "jp": "会議は 三時に 終わる 予定です。",
+        "furigana": "かいぎは さんじに おわる よていです。",
+        "romaji": "kaigi wa sanji ni owaru yotei desu.",
+        "en": "The meeting is scheduled to end at three.",
+        "bn": "সভাটি তিনটায় শেষ হওয়ার কথা।"
+      },
+      {
+        "jp": "田中さんは 来月 大阪へ 出張する 予定です。",
+        "furigana": "たなかさんは らいげつ おおさかへ しゅっちょうする よていです。",
+        "romaji": "tanaka-san wa raigetsu Ōsaka e shutchō suru yotei desu.",
+        "en": "Mr. Tanaka is scheduled to go to Osaka on business next month.",
+        "bn": "মি. তানাকা আগামী মাসে ওসাকায় ব্যবসায়িক সফরে যাওয়ার কথা।"
+      },
+      {
+        "jp": "飛行機は 十時に 着く 予定です。",
+        "furigana": "ひこうきは じゅうじに つく よていです。",
+        "romaji": "hikōki wa jūji ni tsuku yotei desu.",
+        "en": "The plane is scheduled to arrive at ten.",
+        "bn": "বিমানটি দশটায় পৌঁছানোর কথা।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-031-g4",
+    "pattern": "動詞辞書形／ない形 + ことにします",
+    "meaning_en": "decide to do something (personal decision made now)",
+    "meaning_bn": "নিজে সিদ্ধান্ত নেওয়া, কিছু করার মনস্থির করা",
+    "examples": [
+      {
+        "jp": "毎朝 走る ことにしました。",
+        "furigana": "まいあさ はしる ことにしました。",
+        "romaji": "maiasa hashiru koto ni shimashita.",
+        "en": "I have decided to run every morning.",
+        "bn": "আমি প্রতিদিন সকালে দৌড়ানোর সিদ্ধান্ত নিয়েছি।"
+      },
+      {
+        "jp": "来月 引っ越す ことにしました。",
+        "furigana": "らいげつ ひっこす ことにしました。",
+        "romaji": "raigetsu hikkosu koto ni shimashita.",
+        "en": "I have decided to move next month.",
+        "bn": "আমি আগামী মাসে বাসা বদলানোর সিদ্ধান্ত নিয়েছি।"
+      },
+      {
+        "jp": "今年は タバコを 吸わない ことにします。",
+        "furigana": "ことしは タバコを すわない ことにします。",
+        "romaji": "kotoshi wa tabako o suwanai koto ni shimasu.",
+        "en": "This year I will decide not to smoke.",
+        "bn": "এই বছর আমি ধূমপান না করার সিদ্ধান্ত নিয়েছি।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-031-g5",
+    "pattern": "動詞辞書形／ない形 + ことになります",
+    "meaning_en": "it has been decided (by circumstances or others, not by oneself)",
+    "meaning_bn": "পরিস্থিতি বা অন্যের কারণে সিদ্ধান্ত হয়ে যাওয়া",
+    "examples": [
+      {
+        "jp": "来月 大阪へ 転勤する ことになりました。",
+        "furigana": "らいげつ おおさかへ てんきんする ことになりました。",
+        "romaji": "raigetsu Ōsaka e tenkin suru koto ni narimashita.",
+        "en": "It has been decided that I will be transferred to Osaka next month.",
+        "bn": "আগামী মাসে আমার ওসাকায় বদলি হওয়ার সিদ্ধান্ত হয়েছে।"
+      },
+      {
+        "jp": "会議は 来週の 月曜日に なる ことになりました。",
+        "furigana": "かいぎは らいしゅうの げつようびに なる ことになりました。",
+        "romaji": "kaigi wa raishū no getsuyōbi ni naru koto ni narimashita.",
+        "en": "It has been decided that the meeting will be next Monday.",
+        "bn": "সভাটি আগামী সোমবার হওয়ার সিদ্ধান্ত হয়েছে।"
+      },
+      {
+        "jp": "今年は 海外へ 行かない ことになりました。",
+        "furigana": "ことしは かいがいへ いかない ことになりました。",
+        "romaji": "kotoshi wa kaigai e ikanai koto ni narimashita.",
+        "en": "It has been decided that we will not go abroad this year.",
+        "bn": "এই বছর বিদেশে না যাওয়ার সিদ্ধান্ত হয়েছে।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

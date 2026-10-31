@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-031-r001",
+    "id": "minna-031-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "A Letter About My Future",
+      "bn": "আমার ভবিষ্যৎ নিয়ে একটি চিঠি"
     },
     "passage": [
       {
-        "jp": "これは つづけます です。",
-        "furigana": "これは つづけます です。",
-        "romaji": "Kore wa tsuzukemasu desu.",
-        "en": "This is continue.",
-        "bn": "এটি continue।"
+        "jp": "マリさん、お元気ですか。",
+        "furigana": "マリさん、おげんきですか。",
+        "romaji": "Mari-san, ogenki desu ka.",
+        "en": "Mari, how are you?",
+        "bn": "মারি, তুমি কেমন আছ?"
+      },
+      {
+        "jp": "私は 来年 日本へ 留学する つもりです。",
+        "furigana": "わたしは らいねん にほんへ りゅうがくする つもりです。",
+        "romaji": "Watashi wa rainen nihon e ryūgaku suru tsumori desu.",
+        "en": "I intend to study in Japan next year.",
+        "bn": "আমি আগামী বছর জাপানে পড়াশোনা করার ইচ্ছা করেছি।"
+      },
+      {
+        "jp": "目的は 日本の 文化を 勉強する ことです。",
+        "furigana": "もくてきは にほんの ぶんかを べんきょうする ことです。",
+        "romaji": "Mokuteki wa nihon no bunka o benkyō suru koto desu.",
+        "en": "The purpose is to study Japanese culture.",
+        "bn": "উদ্দেশ্য হলো জাপানি সংস্কৃতি অধ্যয়ন করা।"
+      },
+      {
+        "jp": "そのために、毎日 日本語を 頑張って 勉強しています。",
+        "furigana": "そのために、まいにち にほんごを がんばって べんきょうしています。",
+        "romaji": "Sono tame ni, mainichi nihongo o ganbatte benkyō shite imasu.",
+        "en": "For that reason, I study Japanese hard every day.",
+        "bn": "সেজন্য আমি প্রতিদিন কঠোর পরিশ্রম করে জাপানি ভাষা পড়ছি।"
+      },
+      {
+        "jp": "今年の 十二月に 日本語の 試験を 受ける 予定です。",
+        "furigana": "ことしの じゅうにがつに にほんごの しけんを うける よていです。",
+        "romaji": "Kotoshi no jūnigatsu ni nihongo no shiken o ukeru yotei desu.",
+        "en": "I am scheduled to take the Japanese language exam this December.",
+        "bn": "এই বছরের ডিসেম্বরে জাপানি ভাষার পরীক্ষা দেওয়ার কথা।"
+      },
+      {
+        "jp": "合格したら、大学の 留学の 申し込みを することにしました。",
+        "furigana": "ごうかくしたら、だいがくの りゅうがくの もうしこみを することにしました。",
+        "romaji": "Gōkaku shitara, daigaku no ryūgaku no mōshikomi o suru koto ni shimashita.",
+        "en": "If I pass, I have decided to apply for study abroad through my university.",
+        "bn": "উত্তীর্ণ হলে আমি বিশ্ববিদ্যালয়ের মাধ্যমে বিদেশে পড়ার আবেদন করার সিদ্ধান্ত নিয়েছি।"
+      },
+      {
+        "jp": "そのうち、きっと 自分の 夢を 見つける ことが できます。",
+        "furigana": "そのうち、きっと じぶんの ゆめを みつける ことが できます。",
+        "romaji": "Sonouchi, kitto jibun no yume o mitsukeru koto ga dekimasu.",
+        "en": "One of these days, I will surely be able to find my own dream.",
+        "bn": "শীঘ্রই আমি নিশ্চয়ই নিজের স্বপ্ন খুঁজে পাব।"
+      },
+      {
+        "jp": "来年 会える ことを 楽しみにしています。",
+        "furigana": "らいねん あえる ことを たのしみにしています。",
+        "romaji": "Rainen aeru koto o tanoshimi ni shite imasu.",
+        "en": "I am looking forward to seeing you next year.",
+        "bn": "আগামী বছর তোমার সঙ্গে দেখা করার জন্য অপেক্ষায় আছি।"
       }
     ]
   }

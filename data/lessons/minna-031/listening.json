@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-031-l001",
+    "id": "minna-031-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Talking About Future Plans",
+      "bn": "ভবিষ্যৎ পরিকল্পনা নিয়ে আলোচনা"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "つづけます は 何 ですか。",
-        "furigana": "つづけます は なん ですか。",
-        "romaji": "tsuzukemasu wa nan desu ka.",
-        "en": "What is continue?",
-        "bn": "continue কী?"
+        "jp": "A：卒業したら、何を する つもりですか。",
+        "furigana": "A：そつぎょうしたら、なにを する つもりですか。",
+        "romaji": "A: Sotsugyō shitara, nani o suru tsumori desu ka.",
+        "en": "A: What do you intend to do after graduation?",
+        "bn": "A: স্নাতক হওয়ার পর কী করার ইচ্ছা আছে?"
+      },
+      {
+        "jp": "B：日本の 会社で 働く つもりです。",
+        "furigana": "B：にほんの かいしゃで はたらく つもりです。",
+        "romaji": "B: Nihon no kaisha de hataraku tsumori desu.",
+        "en": "B: I intend to work at a Japanese company.",
+        "bn": "B: আমি একটি জাপানি কোম্পানিতে কাজ করার ইচ্ছা পোষণ করি।"
+      },
+      {
+        "jp": "A：そうですか。もう 就職が 決まったんですか。",
+        "furigana": "A：そうですか。もう しゅうしょくが きまったんですか。",
+        "romaji": "A: Sō desu ka. Mō shūshoku ga kimatta n desu ka.",
+        "en": "A: I see. Has your job already been decided?",
+        "bn": "A: তাই নাকি। চাকরি কি ঠিক হয়ে গেছে?"
+      },
+      {
+        "jp": "B：いいえ、まだです。来月 試験を 受ける 予定です。",
+        "furigana": "B：いいえ、まだです。らいげつ しけんを うける よていです。",
+        "romaji": "B: Iie, mada desu. Raigetsu shiken o ukeru yotei desu.",
+        "en": "B: No, not yet. I am scheduled to take an exam next month.",
+        "bn": "B: না, এখনও না। আগামী মাসে পরীক্ষা দেওয়ার কথা।"
+      },
+      {
+        "jp": "A：頑張って ください。ところで、田中さんは？",
+        "furigana": "A：がんばって ください。ところで、たなかさんは？",
+        "romaji": "A: Ganbatte kudasai. Tokoro de, Tanaka-san wa?",
+        "en": "A: Good luck. By the way, what about Mr. Tanaka?",
+        "bn": "A: শুভকামনা। যাই হোক, মি. তানাকা?"
+      },
+      {
+        "jp": "B：田中さんは 来年 結婚する そうですよ。",
+        "furigana": "B：たなかさんは らいねん けっこんする そうですよ。",
+        "romaji": "B: Tanaka-san wa rainen kekkon suru sō desu yo.",
+        "en": "B: I hear Mr. Tanaka is going to get married next year.",
+        "bn": "B: শুনলাম মি. তানাকা আগামী বছর বিয়ে করবেন।"
+      },
+      {
+        "jp": "A：へえ。それで、どこに 住む ことに なったんですか。",
+        "furigana": "A：へえ。それで、どこに すむ ことに なったんですか。",
+        "romaji": "A: Hē. Sore de, doko ni sumu koto ni natta n desu ka.",
+        "en": "A: Really. So where has it been decided that they will live?",
+        "bn": "A: তাই নাকি। তাহলে কোথায় থাকার সিদ্ধান্ত হয়েছে?"
+      },
+      {
+        "jp": "B：大阪に 住む ことに なったそうです。",
+        "furigana": "B：おおさかに すむ ことに なったそうです。",
+        "romaji": "B: Ōsaka ni sumu koto ni natta sō desu.",
+        "en": "B: I hear it has been decided that they will live in Osaka.",
+        "bn": "B: শুনলাম ওসাকায় থাকার সিদ্ধান্ত হয়েছে।"
+      },
+      {
+        "jp": "A：いいですね。私も いつか 家族を 持ちたいです。",
+        "furigana": "A：いいですね。わたしも いつか かぞくを もちたいです。",
+        "romaji": "A: Ii desu ne. Watashi mo itsuka kazoku o mochitai desu.",
+        "en": "A: That is nice. Someday I want to have a family too.",
+        "bn": "A: দারুণ। আমিও কোনো একদিন পরিবার গড়তে চাই।"
       }
     ]
   }

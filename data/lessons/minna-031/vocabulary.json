@@ -1,47 +1,267 @@
 [
   {
     "id": "minna-031-v001",
-    "kanji": "続けます",
-    "furigana": "つづけます",
-    "romaji": "tsudzukemasu",
-    "english_meaning": "to continue",
-    "type": "verb",
-    "bengali_meaning": "চালিয়ে যাওয়া"
+    "kanji": "留学",
+    "furigana": "りゅうがく",
+    "romaji": "ryūgaku",
+    "english_meaning": "studying abroad",
+    "bengali_meaning": "বিদেশে পড়াশোনা",
+    "tags": ["vocabulary", "lesson-31"]
   },
   {
     "id": "minna-031-v002",
-    "kanji": "見つけます",
-    "furigana": "みつけます",
-    "romaji": "mitsukemasu",
-    "english_meaning": "to find",
-    "type": "verb",
-    "bengali_meaning": "খুঁজে পাওয়া"
+    "kanji": "目的",
+    "furigana": "もくてき",
+    "romaji": "mokuteki",
+    "english_meaning": "purpose, aim",
+    "bengali_meaning": "উদ্দেশ্য",
+    "tags": ["vocabulary", "lesson-31"]
   },
   {
     "id": "minna-031-v003",
-    "kanji": "受けます",
-    "furigana": "うけます",
-    "romaji": "ukemasu",
-    "english_meaning": "to take (an exam)",
-    "type": "verb",
-    "bengali_meaning": "(পরীক্ষা) দেওয়া"
+    "kanji": "夢",
+    "furigana": "ゆめ",
+    "romaji": "yume",
+    "english_meaning": "dream",
+    "bengali_meaning": "স্বপ্ন",
+    "tags": ["vocabulary", "lesson-31"]
   },
   {
     "id": "minna-031-v004",
-    "kanji": "入学します",
-    "furigana": "にゅうがくします",
-    "romaji": "nyuugaku shimasu",
-    "english_meaning": "to enter (a school)",
-    "type": "verb",
-    "bengali_meaning": "(স্কুলে) ভর্তি হওয়া"
+    "kanji": "目標",
+    "furigana": "もくひょう",
+    "romaji": "mokuhyō",
+    "english_meaning": "goal, target",
+    "bengali_meaning": "লক্ষ্য",
+    "tags": ["vocabulary", "lesson-31"]
   },
   {
     "id": "minna-031-v005",
-    "kanji": "卒業します",
-    "furigana": "そつぎょうします",
-    "romaji": "sotsugyou shimasu",
-    "english_meaning": "to graduate",
-    "type": "verb",
-    "bengali_meaning": "স্নাতক হওয়া / পাশ করে বের হওয়া"
+    "kanji": "計画",
+    "furigana": "けいかく",
+    "romaji": "keikaku",
+    "english_meaning": "plan",
+    "bengali_meaning": "পরিকল্পনা",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v006",
+    "kanji": "将来",
+    "furigana": "しょうらい",
+    "romaji": "shōrai",
+    "english_meaning": "future",
+    "bengali_meaning": "ভবিষ্যৎ",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v007",
+    "kanji": "決心",
+    "furigana": "けっしん",
+    "romaji": "kesshin",
+    "english_meaning": "determination, resolve",
+    "bengali_meaning": "দৃঢ়সংকল্প",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v008",
+    "kanji": "決める",
+    "furigana": "きめる",
+    "romaji": "kimeru",
+    "english_meaning": "to decide",
+    "bengali_meaning": "সিদ্ধান্ত নেওয়া",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v009",
+    "kanji": "決まる",
+    "furigana": "きまる",
+    "romaji": "kimaru",
+    "english_meaning": "to be decided",
+    "bengali_meaning": "সিদ্ধান্ত হওয়া",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v010",
+    "kanji": "続ける",
+    "furigana": "つづける",
+    "romaji": "tsuzukeru",
+    "english_meaning": "to continue",
+    "bengali_meaning": "চালিয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v011",
+    "kanji": "頑張る",
+    "furigana": "がんばる",
+    "romaji": "ganbaru",
+    "english_meaning": "to do one's best",
+    "bengali_meaning": "চেষ্টা করা, লেগে থাকা",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v012",
+    "kanji": "合格",
+    "furigana": "ごうかく",
+    "romaji": "gōkaku",
+    "english_meaning": "passing an exam",
+    "bengali_meaning": "পরীক্ষায় উত্তীর্ণ হওয়া",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v013",
+    "kanji": "試験",
+    "furigana": "しけん",
+    "romaji": "shiken",
+    "english_meaning": "examination, test",
+    "bengali_meaning": "পরীক্ষা",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v014",
+    "kanji": "就職",
+    "furigana": "しゅうしょく",
+    "romaji": "shūshoku",
+    "english_meaning": "finding employment",
+    "bengali_meaning": "চাকরি পাওয়া",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v015",
+    "kanji": "恋人",
+    "furigana": "こいびと",
+    "romaji": "koibito",
+    "english_meaning": "lover, sweetheart",
+    "bengali_meaning": "প্রেমিক বা প্রেমিকা",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v016",
+    "kanji": "結婚",
+    "furigana": "けっこん",
+    "romaji": "kekkon",
+    "english_meaning": "marriage",
+    "bengali_meaning": "বিবাহ",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v017",
+    "kanji": "引っ越す",
+    "furigana": "ひっこす",
+    "romaji": "hikkosu",
+    "english_meaning": "to move house",
+    "bengali_meaning": "বাসা বদলানো",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v018",
+    "kanji": "選ぶ",
+    "furigana": "えらぶ",
+    "romaji": "erabu",
+    "english_meaning": "to choose, to select",
+    "bengali_meaning": "বেছে নেওয়া",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v019",
+    "kanji": "考える",
+    "furigana": "かんがえる",
+    "romaji": "kangaeru",
+    "english_meaning": "to think, to consider",
+    "bengali_meaning": "চিন্তা করা",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v020",
+    "kanji": "考え",
+    "furigana": "かんがえ",
+    "romaji": "kangae",
+    "english_meaning": "idea, thought",
+    "bengali_meaning": "ধারণা, চিন্তা",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v021",
+    "kanji": "働く",
+    "furigana": "はたらく",
+    "romaji": "hataraku",
+    "english_meaning": "to work",
+    "bengali_meaning": "কাজ করা",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v022",
+    "kanji": "進む",
+    "furigana": "すすむ",
+    "romaji": "susumu",
+    "english_meaning": "to advance, to go forward",
+    "bengali_meaning": "এগিয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v023",
+    "furigana": "そのうち",
+    "romaji": "sonouchi",
+    "english_meaning": "before long, one of these days",
+    "bengali_meaning": "শীঘ্রই, কিছুদিনের মধ্যে",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v024",
+    "furigana": "きっと",
+    "romaji": "kitto",
+    "english_meaning": "surely, certainly",
+    "bengali_meaning": "নিশ্চয়ই",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v025",
+    "furigana": "ぜひ",
+    "romaji": "zehi",
+    "english_meaning": "by all means",
+    "bengali_meaning": "অবশ্যই",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v026",
+    "furigana": "いつか",
+    "romaji": "itsuka",
+    "english_meaning": "someday",
+    "bengali_meaning": "কোনো একদিন",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v027",
+    "furigana": "ずっと",
+    "romaji": "zutto",
+    "english_meaning": "all along, continuously",
+    "bengali_meaning": "সর্বদা, সবসময়",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v028",
+    "kanji": "挑戦",
+    "furigana": "ちょうせん",
+    "romaji": "chōsen",
+    "english_meaning": "challenge, attempt",
+    "bengali_meaning": "চ্যালেঞ্জ, প্রয়াস",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v029",
+    "kanji": "進学",
+    "furigana": "しんがく",
+    "romaji": "shingaku",
+    "english_meaning": "going on to higher education",
+    "bengali_meaning": "উচ্চশিক্ষায় অগ্রসর হওয়া",
+    "tags": ["vocabulary", "lesson-31"]
+  },
+  {
+    "id": "minna-031-v030",
+    "kanji": "可能性",
+    "furigana": "かのうせい",
+    "romaji": "kanōsei",
+    "english_meaning": "possibility",
+    "bengali_meaning": "সম্ভাবনা",
+    "tags": ["vocabulary", "lesson-31"]
   }
 ]
