@@ -1,235 +1,115 @@
-/* Phase 2 — layout shell. Renders header, sidebar, bottom nav, footer, drawer.
- * Config via window.SHELL_CONFIG (set before this file loads).
- * Events: shell:search (detail.q) · shell:langchange (detail.lang)
- */
-(function () {
-  'use strict';
-
-  var ICONS = {
-    menu: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>',
-    close: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>',
-    search: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>',
-    sun: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>',
-    moon: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>',
-    home: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg>',
-    book: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h7a3 3 0 0 1 3 3v13a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 4h-3a3 3 0 0 0-3 3v13a2.5 2.5 0 0 1 2.5-2.5H20z"/></svg>',
-    kanji: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="4" width="16" height="16" rx="2"/><line x1="8" y1="9" x2="16" y2="9"/><line x1="8" y1="15" x2="16" y2="15"/></svg>',
-    practice: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><polyline points="3 4 3 9 8 9"/></svg>'
-  };
-
-  var DEFAULT_CONFIG = {
+// Phase 2 + Phase 12: Shell Layout Engine
+(function() {
+  const config = window.SHELL_CONFIG || {
+    brand: { name: { en: 'JP-Club', bn: 'জেপি-ক্লাব' }, href: 'home.html' },
     navGroups: [
       { title: { en: 'Learn', bn: 'শিখুন' }, items: [
         { key: 'home', icon: 'home', href: 'home.html', label: { en: 'Home', bn: 'হোম' } },
-        { key: 'lesson', icon: 'book', href: 'lesson.html?lesson=minna-001', label: { en: 'Lessons', bn: 'পাঠ' } },
-        { key: 'flashcards', icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
-        { key: 'quiz', icon: 'practice', href: 'quiz.html', label: { en: 'Quiz', bn: 'কুইজ' } },
-        { key: 'kanji', icon: 'kanji', href: 'kanji.html', label: { en: 'Kanji', bn: 'কাঞ্জি' } }
+        { key: 'lessons', icon: 'book', href: 'lessons.html', label: { en: 'Lessons', bn: 'পাঠ' } },
+        { key: 'kanji', icon: 'kanji', href: 'kanji.html', label: { en: 'Kanji', bn: 'কানজি' } }
       ]},
-      { title: { en: 'Explore', bn: 'অন্বেষণ' }, items: [
-        { key: 'search', icon: 'search', href: 'search.html', label: { en: 'Search', bn: 'অনুসন্ধান' } },
-        { key: 'progress', icon: 'practice', href: 'progress.html', label: { en: 'Progress', bn: 'অগ্রগতি' } },
-        { key: 'placement', icon: 'book', href: 'placement.html', label: { en: 'Placement', bn: 'প্লেসমেন্ট' } }
+      { title: { en: 'Practice', bn: 'অনুশীলন' }, items: [
+        { key: 'flashcards', icon: 'cards', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
+        { key: 'quiz', icon: 'quiz', href: 'quiz.html', label: { en: 'Quiz', bn: 'কুইজ' } }
       ]}
     ],
     bottomNav: [
       { href: 'home.html', icon: 'home', label: { en: 'Home', bn: 'হোম' } },
-      { href: 'flashcards.html', icon: 'practice', label: { en: 'Cards', bn: 'কার্ড' } },
-      { href: 'search.html', icon: 'search', label: { en: 'Search', bn: 'অনুসন্ধান' } },
-      { href: 'progress.html', icon: 'practice', label: { en: 'Progress', bn: 'অগ্রগতি' } }
+      { href: 'lessons.html', icon: 'book', label: { en: 'Lessons', bn: 'পাঠ' } },
+      { href: 'flashcards.html', icon: 'cards', label: { en: 'Cards', bn: 'কার্ড' } },
+      { href: 'progress.html', icon: 'chart', label: { en: 'Progress', bn: 'অগ্রগতি' } }
     ],
     searchEnabled: true
   };
 
-  var cfg = Object.assign({}, DEFAULT_CONFIG, window.SHELL_CONFIG || {});
+  const lang = localStorage.getItem('nihongo_lang') || 'en';
+  const theme = localStorage.getItem('nihongo_theme') || 'light';
 
-  function esc(s) {
-    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  function t(obj) { return obj && obj[lang] ? obj[lang] : (obj && obj.en ? obj.en : ''); }
+
+  function renderHeader() {
+    const header = document.querySelector('[data-shell-header]');
+    if (!header) return;
+
+    header.innerHTML = `
+      <div style="display:flex;align-items:center;gap:var(--s-3);">
+        <a href="${config.brand.href}" style="display:flex;align-items:center;gap:var(--s-2);text-decoration:none;color:var(--ink);font-weight:700;font-size:var(--fs-xl);">
+          <span style="font-size:1.5rem;">日</span>
+          <span>${t(config.brand.name)}</span>
+        </a>
+      </div>
+      
+      <div style="display:flex;align-items:center;gap:var(--s-3);">
+        <!-- Language Toggle -->
+        <button id="shell-lang-toggle" class="shell-icon-btn" aria-label="Toggle language" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:var(--r-md);background:var(--surface);border:1px solid var(--border);cursor:pointer;font-weight:600;color:var(--ink);">
+          ${lang === 'en' ? 'বাং' : 'EN'}
+        </button>
+        
+        <!-- Theme Toggle -->
+        <button id="shell-theme-toggle" class="shell-icon-btn" aria-label="Toggle theme" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:var(--r-md);background:var(--surface);border:1px solid var(--border);cursor:pointer;">
+          ${theme === 'dark' 
+            ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+            : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'}
+        </button>
+
+        <!-- Auth Chip (Phase 12) -->
+        <div id="shell-auth-chip"></div>
+      </div>
+    `;
+
+    // Attach event listeners
+    document.getElementById('shell-lang-toggle').addEventListener('click', () => {
+      const newLang = lang === 'en' ? 'bn' : 'en';
+      localStorage.setItem('nihongo_lang', newLang);
+      location.reload();
     });
-  }
-  function txt(o) {
-    return '<span data-en="' + esc(o.en) + '" data-bn="' + esc(o.bn) + '">' + esc(o.en) + '</span>';
-  }
-  function currentPage() {
-    var p = location.pathname.split('/').pop() || 'home.html';
-    return p || 'home.html';
-  }
-  function isCurrent(href) {
-    return href.split('?')[0] === currentPage();
-  }
 
-  /* ---------- header ---------- */
-  function renderHeader(host) {
-    var html = '';
-    html += '<button class="ctrl shell-header__menu" type="button" data-drawer-open '
-      + 'data-aria-label-en="Open menu" data-aria-label-bn="মেনু খুলুন" aria-label="Open menu">' + ICONS.menu + '</button>';
-    html += '<a class="shell-header__brand" href="home.html">'
-      + '<span class="shell-header__mark" aria-hidden="true">日</span>'
-      + '<span>Nihongo · Bengali</span></a>';
-    html += '<span class="shell-header__spacer"></span>';
-
-    if (cfg.searchEnabled) {
-      html += '<form class="shell-search" role="search" data-shell-search>'
-        + ICONS.search
-        + '<input type="search" name="q" autocomplete="off" spellcheck="false" '
-        + 'data-placeholder-en="Search lessons, words, kanji…" data-placeholder-bn="পাঠ, শব্দ, কাঞ্জি খুঁজুন…" '
-        + 'placeholder="Search lessons, words, kanji…" '
-        + 'data-aria-label-en="Search" data-aria-label-bn="অনুসন্ধান" aria-label="Search" />'
-        + '</form>';
-    }
-
-    html += '<div class="shell-header__actions">';
-    html += '<div class="lang-toggle" role="group" data-aria-label-en="Language" data-aria-label-bn="ভাষা" aria-label="Language">'
-      + '<button type="button" data-lang-btn="en" aria-pressed="true">EN</button>'
-      + '<button type="button" data-lang-btn="bn" aria-pressed="false">বাং</button></div>';
-    html += '<button class="ctrl ctrl--desktop" type="button" data-furigana-toggle aria-pressed="true" '
-      + 'data-aria-label-en="Toggle furigana" data-aria-label-bn="ফুরিগানা চালু/বন্ধ" aria-label="Toggle furigana">'
-      + '<span style="font-family:var(--font-jp);font-weight:700">あ</span></button>';
-    html += '<button data-theme-toggle class="shell-icon-btn" aria-label="Toggle dark mode" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:var(--r-md);background:var(--surface);border:1px solid var(--border);cursor:pointer;">
-  <svg class="theme-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-  <svg class="theme-icon-dark" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-</button>';
-    html += '</div>';
-
-    host.className = 'shell-header';
-    host.innerHTML = html;
-
-    host.querySelector('[data-drawer-open]').addEventListener('click', function () { openDrawer(true); });
-    host.querySelectorAll('[data-lang-btn]').forEach(function (b) {
-      b.addEventListener('click', function () { window.I18n && window.I18n.set(b.getAttribute('data-lang-btn')); });
+    document.getElementById('shell-theme-toggle').addEventListener('click', () => {
+      const newTheme = theme === 'dark' ? 'light' : 'dark';
+      localStorage.setItem('nihongo_theme', newTheme);
+      document.documentElement.setAttribute('data-theme', newTheme);
+      // Re-render to update icon
+      renderHeader(); 
     });
-    host.querySelector('[data-theme-toggle]').addEventListener('click', function () {
-      window.Theme && window.Theme.toggle();
-      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
-      this.innerHTML = dark ? ICONS.sun : ICONS.moon;
-    });
-    var furi = host.querySelector('[data-furigana-toggle]');
-    if (furi) furi.addEventListener('click', function () { window.Theme && window.Theme.toggleFurigana(); });
 
-    var form = host.querySelector('[data-shell-search]');
-    if (form) {
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        var q = form.querySelector('input').value.trim();
-        document.dispatchEvent(new CustomEvent('shell:search', { detail: { q: q } }));
-        if (!q) return;
-        if (currentPage() !== 'search.html') {
-          location.href = 'search.html?q=' + encodeURIComponent(q);
-        }
-      });
+    // Render Auth Chip if cloud.js is present
+    if (window.renderAuthChip) {
+      window.renderAuthChip(document.getElementById('shell-auth-chip'));
+    } else {
+      // Fallback if cloud.js hasn't loaded yet
+      document.getElementById('shell-auth-chip').innerHTML = `
+        <a href="auth.html" style="padding:var(--s-2) var(--s-3);background:var(--primary);color:#fff;border-radius:var(--r-md);font-size:var(--fs-sm);font-weight:600;text-decoration:none;">
+          ${lang === 'en' ? 'Sign in' : 'সাইন ইন'}
+        </a>
+      `;
     }
   }
 
-  /* ---------- nav ---------- */
-  function navHTML() {
-    return cfg.navGroups.map(function (g) {
-      return '<div class="shell-nav__group">'
-        + '<div class="shell-nav__title">' + txt(g.title) + '</div>'
-        + g.items.map(function (it) {
-            return '<a class="shell-nav__item" href="' + esc(it.href) + '"'
-              + (isCurrent(it.href) ? ' aria-current="page"' : '') + '>'
-              + '<span class="shell-nav__icon" aria-hidden="true">' + (ICONS[it.icon] || '') + '</span>'
-              + txt(it.label) + '</a>';
-          }).join('')
-        + '</div>';
-    }).join('');
+  function renderBottomNav() {
+    const nav = document.querySelector('[data-shell-bottomnav]');
+    if (!nav || !config.bottomNav) return;
+
+    nav.innerHTML = config.bottomNav.map(item => `
+      <a href="${item.href}" class="shell-bottomnav-item" style="display:flex;flex-direction:column;align-items:center;gap:4px;text-decoration:none;color:var(--ink-muted);font-size:var(--fs-xs);padding:var(--s-2);">
+        <span style="font-size:1.25rem;">${getIcon(item.icon)}</span>
+        <span>${t(item.label)}</span>
+      </a>
+    `).join('');
   }
 
-  function renderSidebar(host) {
-    host.innerHTML = navHTML();
+  function getIcon(name) {
+    const icons = { home: '🏠', book: '📖', cards: '🃏', chart: '📊', kanji: '字', quiz: '❓' };
+    return icons[name] || '📄';
   }
 
-  function renderBottomNav(host) {
-    host.innerHTML = cfg.bottomNav.map(function (it) {
-      return '<a href="' + esc(it.href) + '"' + (isCurrent(it.href) ? ' aria-current="page"' : '') + '>'
-        + '<span aria-hidden="true">' + (ICONS[it.icon] || '') + '</span>'
-        + txt(it.label) + '</a>';
-    }).join('');
-  }
-
-function renderFooter(host) {
-    host.innerHTML = '<div class="shell-footer__inner">'
-      + '<div>'
-      + '<span>' + txt({ en: '© JP-Club — Japanese for Bengali speakers', bn: '© JP-Club — বাংলাভাষীদের জন্য জাপানিজ' }) + '</span>'
-      + '<span style="display:block; margin-top:4px; font-size:11px;">' + txt({ en: 'JLPT N5–N3', bn: 'JLPT N5–N3' }) + '</span>'
-      + '</div>'
-      + '<div class="shell-footer__nihonsync">'
-      + '<a href="https://biki76.github.io/NihonSync/" target="_blank" rel="noopener" class="nihonsync-badge" aria-label="Download the NihonSync app for JLPT N5">'
-      + '<span class="nihonsync-text">'
-      + '<span class="nihonsync-label">Free Android App · N5</span>'
-      + '<span class="nihonsync-name">🎌 Download NihonSync</span>'
-      + '</span>'
-      + '</a>'
-      + '</div>'
-      + '</div>';
-  }0
-
-  /* ---------- drawer ---------- */
-  var lastFocus = null;
-
-  function openDrawer(open) {
-    var drawer = document.querySelector('[data-shell-drawer]');
-    var scrim = document.querySelector('.shell-scrim');
-    if (!drawer) return;
-    drawer.setAttribute('data-open', String(!!open));
-    if (scrim) scrim.setAttribute('data-open', String(!!open));
-    document.body.style.overflow = open ? 'hidden' : '';
-    if (open) {
-      lastFocus = document.activeElement;
-      var first = drawer.querySelector('a, button');
-      if (first) first.focus();
-    } else if (lastFocus) {
-      lastFocus.focus();
-      lastFocus = null;
-    }
-  }
-
-  function renderDrawer(host) {
-    host.innerHTML = '<div class="shell-drawer__head">'
-      + '<strong>' + txt({ en: 'Menu', bn: 'মেনু' }) + '</strong>'
-      + '<button class="ctrl" type="button" data-drawer-close '
-      + 'data-aria-label-en="Close menu" data-aria-label-bn="মেনু বন্ধ করুন" aria-label="Close menu">'
-      + ICONS.close + '</button></div>' + navHTML();
-
-    host.querySelector('[data-drawer-close]').addEventListener('click', function () { openDrawer(false); });
-
-    // scrim
-    var scrim = document.createElement('div');
-    scrim.className = 'shell-scrim';
-    scrim.setAttribute('data-open', 'false');
-    scrim.addEventListener('click', function () { openDrawer(false); });
-    document.body.appendChild(scrim);
-
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && host.getAttribute('data-open') === 'true') openDrawer(false);
-      if (e.key !== 'Tab' || host.getAttribute('data-open') !== 'true') return;
-      var f = host.querySelectorAll('a[href], button:not([disabled])');
-      if (!f.length) return;
-      var first = f[0], last = f[f.length - 1];
-      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-    });
-  }
-
-  /* ---------- boot ---------- */
-  function init() {
-    var header = document.querySelector('[data-shell-header]');
-    var sidebar = document.querySelector('[data-shell-sidebar]');
-    var bottom = document.querySelector('[data-shell-bottomnav]');
-    var footer = document.querySelector('[data-shell-footer]');
-    var drawer = document.querySelector('[data-shell-drawer]');
-
-    if (header) renderHeader(header);
-    if (sidebar) renderSidebar(sidebar);
-    if (bottom) renderBottomNav(bottom);
-    if (footer) renderFooter(footer);
-    if (drawer) renderDrawer(drawer);
-
-    if (window.I18n) window.I18n.apply(window.I18n.get());
-  }
-
+  // Initialize
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else { init(); }
+    document.addEventListener('DOMContentLoaded', () => {
+      renderHeader();
+      renderBottomNav();
+    });
+  } else {
+    renderHeader();
+    renderBottomNav();
+  }
 })();

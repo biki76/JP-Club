@@ -1,103 +1,117 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light" data-furigana="on">
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lessons · পাঠ — JP-Club</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-en="Lessons — JP-Club" data-bn="পাঠ — জেপি-ক্লাব">Lessons — JP-Club</title>
+  
+  <!-- Pre-paint: Theme, Lang, Furigana -->
   <script>
-    (function () {
-      try {
-        var t = localStorage.getItem('nihongo_theme');
-        if (t) document.documentElement.setAttribute('data-theme', t);
-        var f = localStorage.getItem('nihongo_furigana');
-        if (f) document.documentElement.setAttribute('data-furigana', f);
-        var l = localStorage.getItem('nihongo_lang');
-        if (l) document.documentElement.setAttribute('lang', l === 'bn' ? 'bn' : 'en');
-      } catch (e) {}
+    (function() {
+      const theme = localStorage.getItem('nihongo_theme') || 'light';
+      const lang = localStorage.getItem('nihongo_lang') || 'en';
+      const furigana = localStorage.getItem('nihongo_furigana') || 'on';
+      document.documentElement.setAttribute('data-theme', theme);
+      document.documentElement.setAttribute('lang', lang);
+      if (furigana === 'off') document.documentElement.classList.add('hide-furigana');
     })();
-  </script>
-  <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
-  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/cloud.css" />
-  <link rel="stylesheet" href="css/tokens.css" />
-  <link rel="stylesheet" href="css/design-system.css" />
-  <link rel="stylesheet" href="css/shell.css" />
-  <link rel="stylesheet" href="css/a11y.css" />
-  <link rel="stylesheet" href="css/pwa.css" />
-  <link rel="stylesheet" href="css/lesson.css" />
-  <link rel="stylesheet" href="css/content-status.css" />
+  
   <script>
     window.SHELL_CONFIG = {
+      brand: { name: { en: 'JP-Club', bn: 'জেপি-ক্লাব' }, href: 'home.html' },
       navGroups: [
         { title: { en: 'Learn', bn: 'শিখুন' }, items: [
           { key: 'home', icon: 'home', href: 'home.html', label: { en: 'Home', bn: 'হোম' } },
-          { key: 'lesson', icon: 'book', href: 'lessons.html', label: { en: 'Lessons', bn: 'পাঠ' } },
-          { key: 'flashcards', icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
-          { key: 'quiz', icon: 'practice', href: 'quiz.html', label: { en: 'Quiz', bn: 'কুইজ' } },
-          { key: 'kanji', icon: 'kanji', href: 'kanji.html', label: { en: 'Kanji', bn: 'কাঞ্জি' } }
+          { key: 'lessons', icon: 'book', href: 'lessons.html', label: { en: 'Lessons', bn: 'পাঠ' } },
+          { key: 'kanji', icon: 'kanji', href: 'kanji.html', label: { en: 'Kanji', bn: 'কানজি' } }
         ]},
-        { title: { en: 'Explore', bn: 'অন্বেষণ' }, items: [
-          { key: 'search', icon: 'search', href: 'search.html', label: { en: 'Search', bn: 'অনুসন্ধান' } },
-          { key: 'progress', icon: 'practice', href: 'progress.html', label: { en: 'Progress', bn: 'অগ্রগতি' } },
-          { key: 'placement', icon: 'book', href: 'placement.html', label: { en: 'Placement', bn: 'প্লেসমেন্ট' } }
+        { title: { en: 'Practice', bn: 'অনুশীলন' }, items: [
+          { key: 'flashcards', icon: 'cards', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
+          { key: 'quiz', icon: 'quiz', href: 'quiz.html', label: { en: 'Quiz', bn: 'কুইজ' } }
         ]}
       ],
       bottomNav: [
         { href: 'home.html', icon: 'home', label: { en: 'Home', bn: 'হোম' } },
-        { href: 'flashcards.html', icon: 'practice', label: { en: 'Cards', bn: 'কার্ড' } },
-        { href: 'search.html', icon: 'search', label: { en: 'Search', bn: 'অনুসন্ধান' } },
-        { href: 'progress.html', icon: 'practice', label: { en: 'Progress', bn: 'অগ্রগতি' } }
+        { href: 'lessons.html', icon: 'book', label: { en: 'Lessons', bn: 'পাঠ' } },
+        { href: 'flashcards.html', icon: 'cards', label: { en: 'Cards', bn: 'কার্ড' } },
+        { href: 'progress.html', icon: 'chart', label: { en: 'Progress', bn: 'অগ্রগতি' } }
       ],
       searchEnabled: true
     };
   </script>
+  </script>
+
+  <!-- PWA & Fonts -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#FAFAFA" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0F19" media="(prefers-color-scheme: dark)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/cloud.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/design-system.css">
+  <link rel="stylesheet" href="css/shell.css">
+  <link rel="stylesheet" href="css/a11y.css">
+  <link rel="stylesheet" href="css/pwa.css">
+  <link rel="stylesheet" href="css/lessons.css">
 </head>
+
 <body class="shell-body">
   <header data-shell-header></header>
+  
   <div class="shell-frame">
     <aside class="shell-sidebar" data-shell-sidebar></aside>
     <main class="shell-main">
-      <section class="lp-hero">
-        <h1 class="lp-hero__title"><span data-en="Lessons" data-bn="পাঠ">Lessons</span></h1>
-        <p class="lp-hero__sub"><span data-en="All 50 lessons of Minna no Nihongo — N5 through N4." data-bn="মিন্না নো নিহোঙ্গোর ৫০টি পাঠ — N5 থেকে N4 পর্যন্ত।">All 50 lessons of Minna no Nihongo — N5 through N4.</span></p>
-      </section>
+      
+      <!-- Page Header -->
+      <div style="padding: var(--s-6, 1.5rem) var(--s-4, 1rem) 0;">
+        <h1 class="text-3xl font-bold mb-2" style="color: var(--ink);">
+          <span data-en="All Lessons" data-bn="সব পাঠ">All Lessons</span>
+        </h1>
+        <p class="text-lg mb-6" style="color: var(--ink-muted);">
+          <span data-en="Master Japanese step by step, from N5 to N3." data-bn="এন৫ থেকে এন৩ পর্যন্ত ধাপে ধাপে জাপানিজ শিখুন।">Master Japanese step by step, from N5 to N3.</span>
+        </p>
+      </div>
 
-      <section class="lp-continue" id="continue-card" aria-busy="true">
-        <div class="lp-continue__inner lp-skeleton">
-          <div class="lp-skeleton__block lp-skeleton__block--lg"></div>
-          <div class="lp-skeleton__block lp-skeleton__block--md"></div>
-          <div class="lp-skeleton__block lp-skeleton__block--sm"></div>
+      <!-- Phase 13: Skeleton Loader -->
+      <div id="lessons-skeleton" style="padding: 0 var(--s-4, 1rem) var(--s-6, 1.5rem);">
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--s-4);">
+          <!-- Skeleton Card 1 -->
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: var(--s-4); display: grid; grid-template-columns: 56px 1fr; gap: var(--s-3);">
+            <div style="width: 56px; height: 56px; background: var(--border); border-radius: var(--r-md);"></div>
+            <div style="display: flex; flex-direction: column; gap: var(--s-2);">
+              <div style="height: 20px; background: var(--border); border-radius: var(--r-sm); width: 70%;"></div>
+              <div style="height: 16px; background: var(--border); border-radius: var(--r-sm); width: 50%;"></div>
+            </div>
+          </div>
+          <!-- Skeleton Card 2 -->
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: var(--s-4); display: grid; grid-template-columns: 56px 1fr; gap: var(--s-3);">
+            <div style="width: 56px; height: 56px; background: var(--border); border-radius: var(--r-md);"></div>
+            <div style="display: flex; flex-direction: column; gap: var(--s-2);">
+              <div style="height: 20px; background: var(--border); border-radius: var(--r-sm); width: 70%;"></div>
+              <div style="height: 16px; background: var(--border); border-radius: var(--r-sm); width: 50%;"></div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
 
-      <div class="lp-filters" id="filters" role="group" aria-label="Filter lessons"></div>
-      <div class="lp-booktabs" id="book-tabs" role="group" aria-label="Book scope"></div>
-      <div class="lp-scrubber" id="scrubber" aria-label="Lesson quick jump"></div>
+      <!-- Phase 13: Lessons Grid Container -->
+      <div id="lessons-grid-container" style="padding: 0 var(--s-4, 1rem) var(--s-8, 2rem);"></div>
 
-      <section class="lp-book" id="book-1">
-        <header class="lp-book__head">
-          <h2 class="lp-book__title"><span data-en="Book I — N5 (Lessons 1–25)" data-bn="বই I — N5 (পাঠ ১–২৫)">Book I — N5 (Lessons 1–25)</span></h2>
-        </header>
-        <div class="lp-grid" id="book-1-grid" role="list" aria-busy="true"></div>
-      </section>
-
-      <section class="lp-book" id="book-2">
-        <header class="lp-book__head">
-          <h2 class="lp-book__title"><span data-en="Book II — N4 (Lessons 26–50)" data-bn="বই II — N4 (পাঠ ২৬–৫০)">Book II — N4 (Lessons 26–50)</span></h2>
-        </header>
-        <div class="lp-grid" id="book-2-grid" role="list" aria-busy="true"></div>
-      </section>
     </main>
   </div>
+
   <nav class="shell-bottomnav" data-shell-bottomnav></nav>
   <footer class="shell-footer" data-shell-footer></footer>
   <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
 
+  <!-- Scripts -->
   <script src="js/data-schemas.js" defer></script>
   <script src="js/data-loader.js" defer></script>
-  <script src="js/theme.js" defer></script>
-  <script src="js/i18n.js" defer></script>
   <script src="js/shell.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="js/supabase-config.js" defer></script>
