@@ -1,6 +1,38 @@
 [
-{"id":"minna-032-v001","kanji":"運動します","furigana":"うんどうします","romaji":"undou shimasu","english_meaning":"to exercise","type":"verb"},
-{"id":"minna-032-v002","kanji":"成功します","furigana":"せいこうします","romaji":"seikou shimasu","english_meaning":"to succeed","type":"verb"},
-{"id":"minna-032-v003","kanji":"失敗します","furigana":"しっぱいします","romaji":"shippai shimasu","english_meaning":"to fail","type":"verb"},
-{"id":"minna-032-v004","kanji":"合格します","furigana":"ごうかくします","romaji":"goukaku shimasu","english_meaning":"to pass (an exam)","type":"verb"}
+  {
+    "id": "minna-032-v001",
+    "kanji": "運動します",
+    "furigana": "うんどうします",
+    "romaji": "undou shimasu",
+    "english_meaning": "to exercise",
+    "type": "verb",
+    "bengali_meaning": "to exercise"
+  },
+  {
+    "id": "minna-032-v002",
+    "kanji": "成功します",
+    "furigana": "せいこうします",
+    "romaji": "seikou shimasu",
+    "english_meaning": "to succeed",
+    "type": "verb",
+    "bengali_meaning": "to succeed"
+  },
+  {
+    "id": "minna-032-v003",
+    "kanji": "失敗します",
+    "furigana": "しっぱいします",
+    "romaji": "shippai shimasu",
+    "english_meaning": "to fail",
+    "type": "verb",
+    "bengali_meaning": "to fail"
+  },
+  {
+    "id": "minna-032-v004",
+    "kanji": "合格します",
+    "furigana": "ごうかくします",
+    "romaji": "goukaku shimasu",
+    "english_meaning": "to pass (an exam)",
+    "type": "verb",
+    "bengali_meaning": "to pass (an exam)"
+  }
 ]

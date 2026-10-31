@@ -1,6 +1,38 @@
 [
-{"id":"minna-035-v001","kanji":"咲きます","furigana":"さきます","romaji":"sakimasu","english_meaning":"to bloom","type":"verb"},
-{"id":"minna-035-v002","kanji":"変わります","furigana":"かわります","romaji":"kawarimasu","english_meaning":"to change","type":"verb"},
-{"id":"minna-035-v003","kanji":"困ります","furigana":"こまります","romaji":"komarimasu","english_meaning":"to be in trouble","type":"verb"},
-{"id":"minna-035-v004","kanji":"治ります","furigana":"なります","romaji":"naorimasu","english_meaning":"to heal / recover","type":"verb"}
+  {
+    "id": "minna-035-v001",
+    "kanji": "咲きます",
+    "furigana": "さきます",
+    "romaji": "sakimasu",
+    "english_meaning": "to bloom",
+    "type": "verb",
+    "bengali_meaning": "to bloom"
+  },
+  {
+    "id": "minna-035-v002",
+    "kanji": "変わります",
+    "furigana": "かわります",
+    "romaji": "kawarimasu",
+    "english_meaning": "to change",
+    "type": "verb",
+    "bengali_meaning": "to change"
+  },
+  {
+    "id": "minna-035-v003",
+    "kanji": "困ります",
+    "furigana": "こまります",
+    "romaji": "komarimasu",
+    "english_meaning": "to be in trouble",
+    "type": "verb",
+    "bengali_meaning": "to be in trouble"
+  },
+  {
+    "id": "minna-035-v004",
+    "kanji": "治ります",
+    "furigana": "なります",
+    "romaji": "naorimasu",
+    "english_meaning": "to heal / recover",
+    "type": "verb",
+    "bengali_meaning": "to heal / recover"
+  }
 ]

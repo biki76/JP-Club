@@ -1,8 +1,56 @@
 [
-{"id":"minna-028-v001","kanji":"売れます","furigana":"うれます","romaji":"uremasu","english_meaning":"to sell / be sold","type":"verb"},
-{"id":"minna-028-v002","kanji":"踊ります","furigana":"おどります","romaji":"odorimasu","english_meaning":"to dance","type":"verb"},
-{"id":"minna-028-v003","kanji":"噛みます","furigana":"かみます","romaji":"kamimasu","english_meaning":"to chew / bite","type":"verb"},
-{"id":"minna-028-v004","kanji":"選びます","furigana":"えらびます","romaji":"erabimasu","english_meaning":"to choose","type":"verb"},
-{"id":"minna-028-v005","kanji":"通います","furigana":"かよいます","romaji":"kayoimasu","english_meaning":"to commute / regularly go to","type":"verb"},
-{"id":"minna-028-v006","kanji":"真面目","furigana":"まじめ","romaji":"majime","english_meaning":"serious / diligent","type":"na-adjective"}
+  {
+    "id": "minna-028-v001",
+    "kanji": "売れます",
+    "furigana": "うれます",
+    "romaji": "uremasu",
+    "english_meaning": "to sell / be sold",
+    "type": "verb",
+    "bengali_meaning": "to sell / be sold"
+  },
+  {
+    "id": "minna-028-v002",
+    "kanji": "踊ります",
+    "furigana": "おどります",
+    "romaji": "odorimasu",
+    "english_meaning": "to dance",
+    "type": "verb",
+    "bengali_meaning": "to dance"
+  },
+  {
+    "id": "minna-028-v003",
+    "kanji": "噛みます",
+    "furigana": "かみます",
+    "romaji": "kamimasu",
+    "english_meaning": "to chew / bite",
+    "type": "verb",
+    "bengali_meaning": "to chew / bite"
+  },
+  {
+    "id": "minna-028-v004",
+    "kanji": "選びます",
+    "furigana": "えらびます",
+    "romaji": "erabimasu",
+    "english_meaning": "to choose",
+    "type": "verb",
+    "bengali_meaning": "to choose"
+  },
+  {
+    "id": "minna-028-v005",
+    "kanji": "通います",
+    "furigana": "かよいます",
+    "romaji": "kayoimasu",
+    "english_meaning": "to commute / regularly go to",
+    "type": "verb",
+    "bengali_meaning": "to commute / regularly go to"
+  },
+  {
+    "id": "minna-028-v006",
+    "kanji": "真面目",
+    "furigana": "まじめ",
+    "romaji": "majime",
+    "english_meaning": "serious / diligent",
+    "type": "na-adjective",
+    "bengali_meaning": "serious / diligent"
+  }
 ]

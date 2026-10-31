@@ -1,6 +1,38 @@
 [
-{"id":"minna-033-v001","kanji":"逃げます","furigana":"にげます","romaji":"nigemasu","english_meaning":"to run away","type":"verb"},
-{"id":"minna-033-v002","kanji":"騒ぎます","furigana":"さわぎます","romaji":"sawagimasu","english_meaning":"to make noise","type":"verb"},
-{"id":"minna-033-v003","kanji":"諦めます","furigana":"あきらめます","romaji":"akiramemasu","english_meaning":"to give up","type":"verb"},
-{"id":"minna-033-v004","kanji":"守ります","furigana":"まもります","romaji":"mamorimasu","english_meaning":"to keep / obey","type":"verb"}
+  {
+    "id": "minna-033-v001",
+    "kanji": "逃げます",
+    "furigana": "にげます",
+    "romaji": "nigemasu",
+    "english_meaning": "to run away",
+    "type": "verb",
+    "bengali_meaning": "to run away"
+  },
+  {
+    "id": "minna-033-v002",
+    "kanji": "騒ぎます",
+    "furigana": "さわぎます",
+    "romaji": "sawagimasu",
+    "english_meaning": "to make noise",
+    "type": "verb",
+    "bengali_meaning": "to make noise"
+  },
+  {
+    "id": "minna-033-v003",
+    "kanji": "諦めます",
+    "furigana": "あきらめます",
+    "romaji": "akiramemasu",
+    "english_meaning": "to give up",
+    "type": "verb",
+    "bengali_meaning": "to give up"
+  },
+  {
+    "id": "minna-033-v004",
+    "kanji": "守ります",
+    "furigana": "まもります",
+    "romaji": "mamorimasu",
+    "english_meaning": "to keep / obey",
+    "type": "verb",
+    "bengali_meaning": "to keep / obey"
+  }
 ]

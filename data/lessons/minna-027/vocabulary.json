@@ -1,8 +1,56 @@
 [
-{"id":"minna-027-v001","kanji":"飼います","furigana":"かいます","romaji":"kaimasu","english_meaning":"to keep (a pet)","type":"verb"},
-{"id":"minna-027-v002","kanji":"走ります","furigana":"はしります","romaji":"hashirimasu","english_meaning":"to run / drive (along a road)","type":"verb"},
-{"id":"minna-027-v003","kanji":"見えます","furigana":"みえます","romaji":"miemasu","english_meaning":"to be visible","type":"verb"},
-{"id":"minna-027-v004","kanji":"聞こえます","furigana":"きこえます","romaji":"kikoemasu","english_meaning":"to be audible","type":"verb"},
-{"id":"minna-027-v005","kanji":"できます","furigana":"できます","romaji":"dekimasu","english_meaning":"to be able to do","type":"verb"},
-{"id":"minna-027-v006","kanji":"～ながら","furigana":"ながら","romaji":"nagara","english_meaning":"while doing","type":"grammar"}
+  {
+    "id": "minna-027-v001",
+    "kanji": "飼います",
+    "furigana": "かいます",
+    "romaji": "kaimasu",
+    "english_meaning": "to keep (a pet)",
+    "type": "verb",
+    "bengali_meaning": "to keep (a pet)"
+  },
+  {
+    "id": "minna-027-v002",
+    "kanji": "走ります",
+    "furigana": "はしります",
+    "romaji": "hashirimasu",
+    "english_meaning": "to run / drive (along a road)",
+    "type": "verb",
+    "bengali_meaning": "to run / drive (along a road)"
+  },
+  {
+    "id": "minna-027-v003",
+    "kanji": "見えます",
+    "furigana": "みえます",
+    "romaji": "miemasu",
+    "english_meaning": "to be visible",
+    "type": "verb",
+    "bengali_meaning": "to be visible"
+  },
+  {
+    "id": "minna-027-v004",
+    "kanji": "聞こえます",
+    "furigana": "きこえます",
+    "romaji": "kikoemasu",
+    "english_meaning": "to be audible",
+    "type": "verb",
+    "bengali_meaning": "to be audible"
+  },
+  {
+    "id": "minna-027-v005",
+    "kanji": "できます",
+    "furigana": "できます",
+    "romaji": "dekimasu",
+    "english_meaning": "to be able to do",
+    "type": "verb",
+    "bengali_meaning": "to be able to do"
+  },
+  {
+    "id": "minna-027-v006",
+    "kanji": "～ながら",
+    "furigana": "ながら",
+    "romaji": "nagara",
+    "english_meaning": "while doing",
+    "type": "grammar",
+    "bengali_meaning": "while doing"
+  }
 ]

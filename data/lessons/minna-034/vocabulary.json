@@ -1,6 +1,38 @@
 [
-{"id":"minna-034-v001","kanji":"磨きます","furigana":"みがきます","romaji":"migakimasu","english_meaning":"to brush (teeth) / polish","type":"verb"},
-{"id":"minna-034-v002","kanji":"組み立てます","furigana":"くみたてます","romaji":"kumitatemasu","english_meaning":"to assemble","type":"verb"},
-{"id":"minna-034-v003","kanji":"折ります","furigana":"おります","romaji":"orimasu","english_meaning":"to fold / bend","type":"verb"},
-{"id":"minna-034-v004","kanji":"気がつきます","furigana":"きがつきます","romaji":"ki ga tsukimasu","english_meaning":"to notice","type":"verb"}
+  {
+    "id": "minna-034-v001",
+    "kanji": "磨きます",
+    "furigana": "みがきます",
+    "romaji": "migakimasu",
+    "english_meaning": "to brush (teeth) / polish",
+    "type": "verb",
+    "bengali_meaning": "to brush (teeth) / polish"
+  },
+  {
+    "id": "minna-034-v002",
+    "kanji": "組み立てます",
+    "furigana": "くみたてます",
+    "romaji": "kumitatemasu",
+    "english_meaning": "to assemble",
+    "type": "verb",
+    "bengali_meaning": "to assemble"
+  },
+  {
+    "id": "minna-034-v003",
+    "kanji": "折ります",
+    "furigana": "おります",
+    "romaji": "orimasu",
+    "english_meaning": "to fold / bend",
+    "type": "verb",
+    "bengali_meaning": "to fold / bend"
+  },
+  {
+    "id": "minna-034-v004",
+    "kanji": "気がつきます",
+    "furigana": "きがつきます",
+    "romaji": "ki ga tsukimasu",
+    "english_meaning": "to notice",
+    "type": "verb",
+    "bengali_meaning": "to notice"
+  }
 ]

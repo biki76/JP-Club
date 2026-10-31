@@ -1,6 +1,38 @@
 [
-{"id":"minna-036-v001","kanji":"遭遇します","furigana":"そうぐうします","romaji":"souguu shimasu","english_meaning":"to encounter (an accident)","type":"verb"},
-{"id":"minna-036-v002","kanji":"貯金します","furigana":"ちょきんします","romaji":"chokin shimasu","english_meaning":"to save money","type":"verb"},
-{"id":"minna-036-v003","kanji":"過ぎます","furigana":"すぎます","romaji":"sugimasu","english_meaning":"to pass (time)","type":"verb"},
-{"id":"minna-036-v004","kanji":"慣れます","furigana":"なれます","romaji":"naremasu","english_meaning":"to get accustomed to","type":"verb"}
+  {
+    "id": "minna-036-v001",
+    "kanji": "遭遇します",
+    "furigana": "そうぐうします",
+    "romaji": "souguu shimasu",
+    "english_meaning": "to encounter (an accident)",
+    "type": "verb",
+    "bengali_meaning": "to encounter (an accident)"
+  },
+  {
+    "id": "minna-036-v002",
+    "kanji": "貯金します",
+    "furigana": "ちょきんします",
+    "romaji": "chokin shimasu",
+    "english_meaning": "to save money",
+    "type": "verb",
+    "bengali_meaning": "to save money"
+  },
+  {
+    "id": "minna-036-v003",
+    "kanji": "過ぎます",
+    "furigana": "すぎます",
+    "romaji": "sugimasu",
+    "english_meaning": "to pass (time)",
+    "type": "verb",
+    "bengali_meaning": "to pass (time)"
+  },
+  {
+    "id": "minna-036-v004",
+    "kanji": "慣れます",
+    "furigana": "なれます",
+    "romaji": "naremasu",
+    "english_meaning": "to get accustomed to",
+    "type": "verb",
+    "bengali_meaning": "to get accustomed to"
+  }
 ]

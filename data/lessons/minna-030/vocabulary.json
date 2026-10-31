@@ -1,8 +1,56 @@
 [
-{"id":"minna-030-v001","kanji":"貼ります","furigana":"はります","romaji":"harimasu","english_meaning":"to stick / paste","type":"verb"},
-{"id":"minna-030-v002","kanji":"掛けます","furigana":"かけます","romaji":"kakemasu","english_meaning":"to hang","type":"verb"},
-{"id":"minna-030-v003","kanji":"飾ります","furigana":"かざります","romaji":"kazarimasu","english_meaning":"to decorate","type":"verb"},
-{"id":"minna-030-v004","kanji":"並べます","furigana":"ならべます","romaji":"narabemasu","english_meaning":"to arrange / line up","type":"verb"},
-{"id":"minna-030-v005","kanji":"植えます","furigana":"うえます","romaji":"uemasu","english_meaning":"to plant","type":"verb"},
-{"id":"minna-030-v006","kanji":"戻します","furigana":"もどします","romaji":"modoshimasu","english_meaning":"to return / put back","type":"verb"}
+  {
+    "id": "minna-030-v001",
+    "kanji": "貼ります",
+    "furigana": "はります",
+    "romaji": "harimasu",
+    "english_meaning": "to stick / paste",
+    "type": "verb",
+    "bengali_meaning": "to stick / paste"
+  },
+  {
+    "id": "minna-030-v002",
+    "kanji": "掛けます",
+    "furigana": "かけます",
+    "romaji": "kakemasu",
+    "english_meaning": "to hang",
+    "type": "verb",
+    "bengali_meaning": "to hang"
+  },
+  {
+    "id": "minna-030-v003",
+    "kanji": "飾ります",
+    "furigana": "かざります",
+    "romaji": "kazarimasu",
+    "english_meaning": "to decorate",
+    "type": "verb",
+    "bengali_meaning": "to decorate"
+  },
+  {
+    "id": "minna-030-v004",
+    "kanji": "並べます",
+    "furigana": "ならべます",
+    "romaji": "narabemasu",
+    "english_meaning": "to arrange / line up",
+    "type": "verb",
+    "bengali_meaning": "to arrange / line up"
+  },
+  {
+    "id": "minna-030-v005",
+    "kanji": "植えます",
+    "furigana": "うえます",
+    "romaji": "uemasu",
+    "english_meaning": "to plant",
+    "type": "verb",
+    "bengali_meaning": "to plant"
+  },
+  {
+    "id": "minna-030-v006",
+    "kanji": "戻します",
+    "furigana": "もどします",
+    "romaji": "modoshimasu",
+    "english_meaning": "to return / put back",
+    "type": "verb",
+    "bengali_meaning": "to return / put back"
+  }
 ]

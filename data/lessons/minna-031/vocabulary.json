@@ -1,7 +1,47 @@
 [
-{"id":"minna-031-v001","kanji":"続けます","furigana":"つづけます","romaji":"tsudzukemasu","english_meaning":"to continue","type":"verb"},
-{"id":"minna-031-v002","kanji":"見つけます","furigana":"みつけます","romaji":"mitsukemasu","english_meaning":"to find","type":"verb"},
-{"id":"minna-031-v003","kanji":"受けます","furigana":"うけます","romaji":"ukemasu","english_meaning":"to take (an exam)","type":"verb"},
-{"id":"minna-031-v004","kanji":"入学します","furigana":"にゅうがくします","romaji":"nyuugaku shimasu","english_meaning":"to enter (a school)","type":"verb"},
-{"id":"minna-031-v005","kanji":"卒業します","furigana":"そつぎょうします","romaji":"sotsugyou shimasu","english_meaning":"to graduate","type":"verb"}
+  {
+    "id": "minna-031-v001",
+    "kanji": "続けます",
+    "furigana": "つづけます",
+    "romaji": "tsudzukemasu",
+    "english_meaning": "to continue",
+    "type": "verb",
+    "bengali_meaning": "to continue"
+  },
+  {
+    "id": "minna-031-v002",
+    "kanji": "見つけます",
+    "furigana": "みつけます",
+    "romaji": "mitsukemasu",
+    "english_meaning": "to find",
+    "type": "verb",
+    "bengali_meaning": "to find"
+  },
+  {
+    "id": "minna-031-v003",
+    "kanji": "受けます",
+    "furigana": "うけます",
+    "romaji": "ukemasu",
+    "english_meaning": "to take (an exam)",
+    "type": "verb",
+    "bengali_meaning": "to take (an exam)"
+  },
+  {
+    "id": "minna-031-v004",
+    "kanji": "入学します",
+    "furigana": "にゅうがくします",
+    "romaji": "nyuugaku shimasu",
+    "english_meaning": "to enter (a school)",
+    "type": "verb",
+    "bengali_meaning": "to enter (a school)"
+  },
+  {
+    "id": "minna-031-v005",
+    "kanji": "卒業します",
+    "furigana": "そつぎょうします",
+    "romaji": "sotsugyou shimasu",
+    "english_meaning": "to graduate",
+    "type": "verb",
+    "bengali_meaning": "to graduate"
+  }
 ]

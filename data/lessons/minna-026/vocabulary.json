@@ -1,11 +1,83 @@
 [
-{"id":"minna-026-v001","kanji":"診ます","furigana":"みます","romaji":"mimasu","english_meaning":"to examine (medically)","type":"verb"},
-{"id":"minna-026-v002","kanji":"探します","furigana":"さがします","romaji":"sagashimasu","english_meaning":"to search / look for","type":"verb"},
-{"id":"minna-026-v003","kanji":"遅れます","furigana":"おくれます","romaji":"okuremasu","english_meaning":"to be late / delayed","type":"verb"},
-{"id":"minna-026-v004","kanji":"間に合います","furigana":"まにあいます","romaji":"maniaimasu","english_meaning":"to be in time","type":"verb"},
-{"id":"minna-026-v005","kanji":"拾います","furigana":"ひろいます","romaji":"hiroimasu","english_meaning":"to pick up","type":"verb"},
-{"id":"minna-026-v006","kanji":"片づきます","furigana":"かたづきます","romaji":"katadzukimasu","english_meaning":"to be tidied up","type":"verb"},
-{"id":"minna-026-v007","kanji":"気分がいい","furigana":"きぶんがいい","romaji":"kibun ga ii","english_meaning":"to feel good","type":"expression"},
-{"id":"minna-026-v008","kanji":"都合がいい","furigana":"つごうがいい","romaji":"tsugou ga ii","english_meaning":"to be convenient","type":"expression"},
-{"id":"minna-026-v009","kanji":"何でも","furigana":"なんでも","romaji":"nandemo","english_meaning":"anything / whatever","type":"adverb"}
+  {
+    "id": "minna-026-v001",
+    "kanji": "診ます",
+    "furigana": "みます",
+    "romaji": "mimasu",
+    "english_meaning": "to examine (medically)",
+    "type": "verb",
+    "bengali_meaning": "to examine (medically)"
+  },
+  {
+    "id": "minna-026-v002",
+    "kanji": "探します",
+    "furigana": "さがします",
+    "romaji": "sagashimasu",
+    "english_meaning": "to search / look for",
+    "type": "verb",
+    "bengali_meaning": "to search / look for"
+  },
+  {
+    "id": "minna-026-v003",
+    "kanji": "遅れます",
+    "furigana": "おくれます",
+    "romaji": "okuremasu",
+    "english_meaning": "to be late / delayed",
+    "type": "verb",
+    "bengali_meaning": "to be late / delayed"
+  },
+  {
+    "id": "minna-026-v004",
+    "kanji": "間に合います",
+    "furigana": "まにあいます",
+    "romaji": "maniaimasu",
+    "english_meaning": "to be in time",
+    "type": "verb",
+    "bengali_meaning": "to be in time"
+  },
+  {
+    "id": "minna-026-v005",
+    "kanji": "拾います",
+    "furigana": "ひろいます",
+    "romaji": "hiroimasu",
+    "english_meaning": "to pick up",
+    "type": "verb",
+    "bengali_meaning": "to pick up"
+  },
+  {
+    "id": "minna-026-v006",
+    "kanji": "片づきます",
+    "furigana": "かたづきます",
+    "romaji": "katadzukimasu",
+    "english_meaning": "to be tidied up",
+    "type": "verb",
+    "bengali_meaning": "to be tidied up"
+  },
+  {
+    "id": "minna-026-v007",
+    "kanji": "気分がいい",
+    "furigana": "きぶんがいい",
+    "romaji": "kibun ga ii",
+    "english_meaning": "to feel good",
+    "type": "expression",
+    "bengali_meaning": "to feel good"
+  },
+  {
+    "id": "minna-026-v008",
+    "kanji": "都合がいい",
+    "furigana": "つごうがいい",
+    "romaji": "tsugou ga ii",
+    "english_meaning": "to be convenient",
+    "type": "expression",
+    "bengali_meaning": "to be convenient"
+  },
+  {
+    "id": "minna-026-v009",
+    "kanji": "何でも",
+    "furigana": "なんでも",
+    "romaji": "nandemo",
+    "english_meaning": "anything / whatever",
+    "type": "adverb",
+    "bengali_meaning": "anything / whatever"
+  }
 ]

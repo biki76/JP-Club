@@ -1,8 +1,56 @@
 [
-{"id":"minna-029-v001","kanji":"開きます","furigana":"あきます","romaji":"akimasu","english_meaning":"(a door) opens","type":"verb"},
-{"id":"minna-029-v002","kanji":"閉まります","furigana":"しまります","romaji":"shimarimasu","english_meaning":"(a door) closes","type":"verb"},
-{"id":"minna-029-v003","kanji":"点きます","furigana":"つきます","romaji":"tsukimasu","english_meaning":"(a light) comes on","type":"verb"},
-{"id":"minna-029-v004","kanji":"消えます","furigana":"きえます","romaji":"kiemasu","english_meaning":"(a light) goes off","type":"verb"},
-{"id":"minna-029-v005","kanji":"壊れます","furigana":"こわれます","romaji":"kowaremasu","english_meaning":"to break (intransitive)","type":"verb"},
-{"id":"minna-029-v006","kanji":"割れます","furigana":"われます","romaji":"waremasu","english_meaning":"(a glass) breaks","type":"verb"}
+  {
+    "id": "minna-029-v001",
+    "kanji": "開きます",
+    "furigana": "あきます",
+    "romaji": "akimasu",
+    "english_meaning": "(a door) opens",
+    "type": "verb",
+    "bengali_meaning": "(a door) opens"
+  },
+  {
+    "id": "minna-029-v002",
+    "kanji": "閉まります",
+    "furigana": "しまります",
+    "romaji": "shimarimasu",
+    "english_meaning": "(a door) closes",
+    "type": "verb",
+    "bengali_meaning": "(a door) closes"
+  },
+  {
+    "id": "minna-029-v003",
+    "kanji": "点きます",
+    "furigana": "つきます",
+    "romaji": "tsukimasu",
+    "english_meaning": "(a light) comes on",
+    "type": "verb",
+    "bengali_meaning": "(a light) comes on"
+  },
+  {
+    "id": "minna-029-v004",
+    "kanji": "消えます",
+    "furigana": "きえます",
+    "romaji": "kiemasu",
+    "english_meaning": "(a light) goes off",
+    "type": "verb",
+    "bengali_meaning": "(a light) goes off"
+  },
+  {
+    "id": "minna-029-v005",
+    "kanji": "壊れます",
+    "furigana": "こわれます",
+    "romaji": "kowaremasu",
+    "english_meaning": "to break (intransitive)",
+    "type": "verb",
+    "bengali_meaning": "to break (intransitive)"
+  },
+  {
+    "id": "minna-029-v006",
+    "kanji": "割れます",
+    "furigana": "われます",
+    "romaji": "waremasu",
+    "english_meaning": "(a glass) breaks",
+    "type": "verb",
+    "bengali_meaning": "(a glass) breaks"
+  }
 ]
