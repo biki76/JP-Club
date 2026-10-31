@@ -3,14 +3,14 @@
     "id": "minna-017-g1",
     "pattern": "〜17-A",
     "meaning_en": "Grammar pattern 17-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 17-A",
+    "meaning_bn": "দয়া করে ~ করবেন না (~ないでください)",
     "examples": [
       {
         "jp": "これは レッスン17の 文法です。",
         "en": "This is lesson 17 grammar.",
-        "bn": "This is lesson 17 grammar.",
-        "furigana": "これは レッスン17の 文法です。",
-        "romaji": ""
+        "bn": "দয়া করে এখানে ঢুকবেন না।",
+        "furigana": "ここに はいらないでください।",
+        "romaji": "koko ni hairanaide kudasai."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-017-g2",
     "pattern": "〜17-B",
     "meaning_en": "Grammar pattern 17-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 17-B",
+    "meaning_bn": "~ করতে হবে (~なければなりません)",
     "examples": [
       {
         "jp": "これは レッスン17の 文法です。",
         "en": "This is lesson 17 grammar.",
-        "bn": "This is lesson 17 grammar.",
-        "furigana": "これは レッスン17の 文法です。",
-        "romaji": ""
+        "bn": "আগামীকাল আমাকে তাড়াতাড়ি উঠতে হবে।",
+        "furigana": "あした はやく おきなければなりません।",
+        "romaji": "ashita hayaku okinakereba narimasen."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-017-g3",
+    "pattern": "〜なくてもいいです",
+    "meaning_en": "don't have to ~",
+    "meaning_bn": "~ না করলেও চলবে",
+    "examples": [
+      {
+        "jp": "明日は 来なくてもいいです。",
+        "furigana": "あしたは こなくてもいいです।",
+        "romaji": "ashita wa konakute mo ii desu.",
+        "en": "You don't have to come tomorrow.",
+        "bn": "আগামীকাল আসতে হবে না।"
+      },
+      {
+        "jp": "今日は 働かなくてもいいです。",
+        "furigana": "きょうは はたらかなくてもいいです।",
+        "romaji": "kyou wa hatarakanakute mo ii desu.",
+        "en": "You don't have to work today.",
+        "bn": "আজ কাজ করতে হবে না।"
+      },
+      {
+        "jp": "全部 覚えなくてもいいです。",
+        "furigana": "ぜんぶ おぼえなくてもいいです।",
+        "romaji": "zenbu oboenakute mo ii desu.",
+        "en": "You don't have to memorise everything.",
+        "bn": "সব মুখস্থ করতে হবে না।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-017-g4",
+    "pattern": "〜までに",
+    "meaning_en": "by (a deadline)",
+    "meaning_bn": "~ এর মধ্যে / ~ এর আগে (সময়সীমা)",
+    "examples": [
+      {
+        "jp": "明日の 朝 9時までに 来てください。",
+        "furigana": "あしたの あさ くじまでに きてください।",
+        "romaji": "ashita no asa kuji made ni kite kudasai.",
+        "en": "Please come by 9 AM tomorrow.",
+        "bn": "আগামীকাল সকাল নটার মধ্যে আসুন।"
+      },
+      {
+        "jp": "金曜日までに 返してください。",
+        "furigana": "きんようびまでに かえしてください।",
+        "romaji": "kinyoubi made ni kaeshite kudasai.",
+        "en": "Please return it by Friday.",
+        "bn": "শুক্রবারের মধ্যে ফেরত দিন।"
+      },
+      {
+        "jp": "12時までに 昼ご飯を 食べます。",
+        "furigana": "じゅうにじまでに ひるごはんを たべます।",
+        "romaji": "juuniji made ni hirugohan o tabemasu.",
+        "en": "I will eat lunch by twelve o'clock.",
+        "bn": "বারোটার মধ্যে দুপুরের খাবার খাব।"
       }
     ],
     "tags": [

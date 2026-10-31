@@ -46,5 +46,149 @@
       "en": "The pattern 〜17-B means \"Grammar pattern 17-B\".",
       "bn": "〜17-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 17-B\"।"
     }
+  },
+  {
+    "id": "minna-017-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: ここに 入らないでください।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: ここに 入らないでください।"
+    },
+    "stem": {
+      "jp": "ここに 入らないでください।",
+      "furigana": "ここに はいらないでください।",
+      "romaji": "koko ni hairanaide kudasai."
+    },
+    "options": [
+      "Please do not enter here.",
+      "Please come in here.",
+      "You must not enter here tomorrow.",
+      "I did not enter here."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vないでください is a polite negative request: \"please don't ~\".",
+      "bn": "Vないでください ভদ্র নিষেধ: \"দয়া করে ~ করবেন না\"।"
+    }
+  },
+  {
+    "id": "minna-017-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 明日 早く 起きなければなりません।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 明日 早く 起きなければなりません।"
+    },
+    "stem": {
+      "jp": "明日 早く 起きなければなりません।",
+      "furigana": "あした はやく おきなければなりません।",
+      "romaji": "ashita hayaku okinakereba narimasen."
+    },
+    "options": [
+      "I must wake up early tomorrow.",
+      "I don't have to wake up early tomorrow.",
+      "I woke up early yesterday.",
+      "I can't wake up early."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜なければなりません expresses obligation: \"must ~\".",
+      "bn": "〜なければなりません বাধ্যবাধকতা বোঝায়: \"~ করতে হবে\"।"
+    }
+  },
+  {
+    "id": "minna-017-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 明日は 来なくてもいいです।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 明日は 来なくてもいいです।"
+    },
+    "stem": {
+      "jp": "明日は 来なくてもいいです।",
+      "furigana": "あしたは こなくてもいいです।",
+      "romaji": "ashita wa konakute mo ii desu."
+    },
+    "options": [
+      "You don't have to come tomorrow.",
+      "You must come tomorrow.",
+      "Please don't come tomorrow.",
+      "I came yesterday."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜なくてもいいです means \"no need to ~\".",
+      "bn": "〜なくてもいいです মানে \"~ না করলেও চলবে\"।"
+    }
+  },
+  {
+    "id": "minna-017-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 明日の 朝 9時までに 来てください।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 明日の 朝 9時までに 来てください।"
+    },
+    "stem": {
+      "jp": "明日の 朝 9時までに 来てください।",
+      "furigana": "あしたの あさ くじまでに きてください।",
+      "romaji": "ashita no asa kuji made ni kite kudasai."
+    },
+    "options": [
+      "Please come by 9 AM tomorrow.",
+      "Please come at 9 AM tomorrow.",
+      "Please come after 9 AM tomorrow.",
+      "Please come every day at 9 AM."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜までに expresses a deadline: \"by ~\".",
+      "bn": "〜までに সময়সীমা বোঝায়: \"~ এর মধ্যে\"।"
+    }
+  },
+  {
+    "id": "minna-017-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 薬を 飲まなければなりません।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 薬を 飲まなければなりません।"
+    },
+    "stem": {
+      "jp": "薬を 飲まなければなりません।",
+      "furigana": "くすりを のまなければなりません।",
+      "romaji": "kusuri o nomanakereba narimasen."
+    },
+    "options": [
+      "I must take medicine.",
+      "I don't have to take medicine.",
+      "Please don't take medicine.",
+      "I took medicine yesterday."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜なければなりません expresses obligation.",
+      "bn": "〜なければなりません বাধ্যবাধকতা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-017-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 心配しないでください।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 心配しないでください।"
+    },
+    "stem": {
+      "jp": "心配しないでください।",
+      "furigana": "しんぱいしないでください।",
+      "romaji": "shinpai shinaide kudasai."
+    },
+    "options": [
+      "Please do not worry.",
+      "Please worry a little.",
+      "Do you worry?",
+      "I don't worry."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "する-verbs become しないでください for a negative request.",
+      "bn": "する-ক্রিয়ার না-বোধক অনুরোধে しないでください হয়।"
+    }
   }
 ]

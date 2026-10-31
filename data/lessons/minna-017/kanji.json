@@ -1,98 +1,206 @@
 [
   {
-    "character": "日",
+    "character": "忘",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "ボウ"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "わす.れる"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "forget"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "ভুলে যাওয়া"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 5,
+    "radicals": [
+      "亡",
+      "心"
+    ],
+    "strokes": 7,
+    "grade": 6,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "払",
     "onyomi": [
-      "ホン"
+      "フツ"
     ],
     "kunyomi": [
-      "もと"
+      "はら.う"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "pay"
       ],
       "bn": [
-        "বই, উৎস"
+        "পরিশোধ করা"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "扌",
+      "厶"
+    ],
     "strokes": 5,
-    "grade": 5,
+    "grade": 8,
     "jlpt": "N5"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "返",
+    "onyomi": [
+      "ヘン"
+    ],
+    "kunyomi": [
+      "かえ.す",
+      "かえ.る"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "return",
+        "give back"
       ],
       "bn": [
-        "অর্থ"
+        "ফেরত দেওয়া"
       ]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 5,
+    "radicals": [
+      "辶",
+      "反"
+    ],
+    "strokes": 7,
+    "grade": 3,
     "jlpt": "N5"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "心",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "こころ"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "heart",
+        "mind"
       ],
       "bn": [
-        "অর্থ"
+        "হৃদয়",
+        "মন"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "心"
+    ],
+    "strokes": 4,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "薬",
+    "onyomi": [
+      "ヤク"
+    ],
+    "kunyomi": [
+      "くすり"
+    ],
+    "meanings": {
+      "en": [
+        "medicine"
+      ],
+      "bn": [
+        "ঔষধ"
+      ]
+    },
+    "radicals": [
+      "艹",
+      "楽"
+    ],
+    "strokes": 16,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "病",
+    "onyomi": [
+      "ビョウ"
+    ],
+    "kunyomi": [
+      "やまい",
+      "や.む"
+    ],
+    "meanings": {
+      "en": [
+        "illness",
+        "disease"
+      ],
+      "bn": [
+        "রোগ",
+        "অসুস্থতা"
+      ]
+    },
+    "radicals": [
+      "疒",
+      "丙"
+    ],
     "strokes": 10,
-    "grade": 5,
+    "grade": 3,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "風",
+    "onyomi": [
+      "フウ"
+    ],
+    "kunyomi": [
+      "かぜ",
+      "かざ"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "wind",
+        "cold (illness)"
       ],
       "bn": [
-        "অর্থ"
+        "বাতাস",
+        "সর্দি-জ্বর"
       ]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 5,
+    "radicals": [
+      "几",
+      "虫"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "痛",
+    "onyomi": [
+      "ツウ"
+    ],
+    "kunyomi": [
+      "いた.い",
+      "いた.む"
+    ],
+    "meanings": {
+      "en": [
+        "pain",
+        "hurt"
+      ],
+      "bn": [
+        "ব্যথা",
+        "বেদনা"
+      ]
+    },
+    "radicals": [
+      "疒",
+      "甬"
+    ],
+    "strokes": 12,
+    "grade": 6,
     "jlpt": "N5"
   }
 ]
