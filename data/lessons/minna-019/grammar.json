@@ -3,14 +3,14 @@
     "id": "minna-019-g1",
     "pattern": "〜19-A",
     "meaning_en": "Grammar pattern 19-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 19-A",
+    "meaning_bn": "~ করার অভিজ্ঞতা আছে (~たことがあります)",
     "examples": [
       {
         "jp": "これは レッスン19の 文法です。",
         "en": "This is lesson 19 grammar.",
-        "bn": "This is lesson 19 grammar.",
-        "furigana": "これは レッスン19の 文法です。",
-        "romaji": ""
+        "bn": "আমি মাউন্ট ফুজিতে উঠেছি (অভিজ্ঞতা আছে)।",
+        "furigana": "ふじさんに のぼったことが あります।",
+        "romaji": "fujisan ni nobotta koto ga arimasu."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-019-g2",
     "pattern": "〜19-B",
     "meaning_en": "Grammar pattern 19-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 19-B",
+    "meaning_bn": "~ করা, ~ করা ইত্যাদি করি (~たり〜たりします)",
     "examples": [
       {
         "jp": "これは レッスン19の 文法です。",
         "en": "This is lesson 19 grammar.",
-        "bn": "This is lesson 19 grammar.",
-        "furigana": "これは レッスン19の 文法です。",
-        "romaji": ""
+        "bn": "সাপ্তাহিক ছুটিতে পরিষ্কার করি, কাপড় ধুই ইত্যাদি।",
+        "furigana": "しゅうまつは そうじしたり せんたくしたり します।",
+        "romaji": "shuumatsu wa souji shitari sentaku shitari shimasu."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-019-g3",
+    "pattern": "い形容詞 → 〜く なります / な形容詞・名詞 → 〜に なります",
+    "meaning_en": "become ~",
+    "meaning_bn": "~ হয়ে যায়",
+    "examples": [
+      {
+        "jp": "寒く なりましたね。",
+        "furigana": "さむく なりましたね।",
+        "romaji": "samuku narimashita ne.",
+        "en": "It has become cold, hasn't it?",
+        "bn": "শীত পড়ে গেছে, তাই না?"
+      },
+      {
+        "jp": "日本語が 上手に なりました。",
+        "furigana": "にほんごが じょうずに なりました।",
+        "romaji": "nihongo ga jouzu ni narimashita.",
+        "en": "Your Japanese has become good.",
+        "bn": "আপনার জাপানি ভাষা ভালো হয়ে গেছে।"
+      },
+      {
+        "jp": "部屋が きれいに なりました。",
+        "furigana": "へやが きれいに なりました।",
+        "romaji": "heya ga kirei ni narimashita.",
+        "en": "The room has become clean.",
+        "bn": "ঘরটি পরিষ্কার হয়ে গেছে।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-019-g4",
+    "pattern": "〜でしょう",
+    "meaning_en": "probably ~ / ~, right?",
+    "meaning_bn": "সম্ভবত ~ হবে / ~ হবে, তাই না?",
+    "examples": [
+      {
+        "jp": "明日は 雨でしょう。",
+        "furigana": "あしたは あめでしょう।",
+        "romaji": "ashita wa ame deshou.",
+        "en": "It will probably rain tomorrow.",
+        "bn": "আগামীকাল সম্ভবত বৃষ্টি হবে।"
+      },
+      {
+        "jp": "東京スカイツリーは とても 高いでしょう。",
+        "furigana": "とうきょうスカイツリーは とても たかいでしょう।",
+        "romaji": "toukyou sukai tsurii wa totemo takai deshou.",
+        "en": "Tokyo Sky Tree is probably very tall.",
+        "bn": "টোকিও স্কাইট্রি সম্ভবত খুব উঁচু।"
+      },
+      {
+        "jp": "山田さんも 来るでしょう。",
+        "furigana": "やまださんも くるでしょう।",
+        "romaji": "yamada san mo kuru deshou.",
+        "en": "Yamada-san will probably come too.",
+        "bn": "ইয়ামাদা-সানও সম্ভবত আসবেন।"
       }
     ],
     "tags": [

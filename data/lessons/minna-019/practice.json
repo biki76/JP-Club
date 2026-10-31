@@ -46,5 +46,149 @@
       "en": "The pattern 〜19-B means \"Grammar pattern 19-B\".",
       "bn": "〜19-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 19-B\"।"
     }
+  },
+  {
+    "id": "minna-019-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 富士山に 登ったことが あります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 富士山に 登ったことが あります。"
+    },
+    "stem": {
+      "jp": "富士山に 登ったことが あります。",
+      "furigana": "ふじさんに のぼったことが あります।",
+      "romaji": "fujisan ni nobotta koto ga arimasu."
+    },
+    "options": [
+      "I have climbed Mt. Fuji.",
+      "I will climb Mt. Fuji.",
+      "I cannot climb Mt. Fuji.",
+      "I am climbing Mt. Fuji now."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vた + ことが あります expresses past experience.",
+      "bn": "Vた + ことが あります অতীত অভিজ্ঞতা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-019-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 週末は 掃除したり 洗濯したり します。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 週末は 掃除したり 洗濯したり します。"
+    },
+    "stem": {
+      "jp": "週末は 掃除したり 洗濯したり します。",
+      "furigana": "しゅうまつは そうじしたり せんたくしたり します।",
+      "romaji": "shuumatsu wa souji shitari sentaku shitari shimasu."
+    },
+    "options": [
+      "On weekends I clean, do laundry, and so on.",
+      "On weekends I only clean.",
+      "On weekends I never clean.",
+      "I will clean next weekend."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜たり〜たりします lists representative actions.",
+      "bn": "〜たり〜たりします কয়েকটি প্রতিনিধিত্বমূলক কাজ তালিকাভুক্ত করে।"
+    }
+  },
+  {
+    "id": "minna-019-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 日本語が 上手に なりました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 日本語が 上手に なりました。"
+    },
+    "stem": {
+      "jp": "日本語が 上手に なりました。",
+      "furigana": "にほんごが じょうずに なりました।",
+      "romaji": "nihongo ga jouzu ni narimashita."
+    },
+    "options": [
+      "Your Japanese has become good.",
+      "Your Japanese was good before.",
+      "You are bad at Japanese.",
+      "You will study Japanese."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "な-adjective + に なります shows a change of state.",
+      "bn": "না-বিশেষণ + に なります অবস্থার পরিবর্তন বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-019-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 部屋が きれいに なりました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 部屋が きれいに なりました。"
+    },
+    "stem": {
+      "jp": "部屋が きれいに なりました。",
+      "furigana": "へやが きれいに なりました।",
+      "romaji": "heya ga kirei ni narimashita."
+    },
+    "options": [
+      "The room has become clean.",
+      "The room is dirty.",
+      "I cleaned the room yesterday.",
+      "The room will become clean."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "に なりました marks the completed change.",
+      "bn": "に なりました সম্পন্ন পরিবর্তন বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-019-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 相撲を 見たことが ありますか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 相撲を 見たことが ありますか。"
+    },
+    "stem": {
+      "jp": "相撲を 見たことが ありますか。",
+      "furigana": "すもうを みたことが ありますか।",
+      "romaji": "sumou o mita koto ga arimasu ka."
+    },
+    "options": [
+      "Have you ever seen sumo?",
+      "Will you see sumo?",
+      "Do you like sumo?",
+      "Are you watching sumo?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The question form asks about past experience.",
+      "bn": "প্রশ্নরূপে অতীত অভিজ্ঞতা জিজ্ঞাসা করা হয়।"
+    }
+  },
+  {
+    "id": "minna-019-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 寒く なりました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 寒く なりました。"
+    },
+    "stem": {
+      "jp": "寒く なりました。",
+      "furigana": "さむく なりました।",
+      "romaji": "samuku narimashita."
+    },
+    "options": [
+      "It has become cold.",
+      "It is hot.",
+      "It was cold yesterday.",
+      "It will not be cold."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "い-adjectives drop い and take く なります.",
+      "bn": "ই-বিশেষণ い বাদ দিয়ে く なります নেয়।"
+    }
   }
 ]

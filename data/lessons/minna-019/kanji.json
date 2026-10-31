@@ -1,98 +1,205 @@
 [
   {
-    "character": "日",
+    "character": "登",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "トウ"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "のぼ.る"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "climb",
+        "go up"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "আরোহণ করা",
+        "উঠা"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 5,
+    "radicals": [
+      "癶",
+      "豆"
+    ],
+    "strokes": 12,
+    "grade": 3,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "泊",
     "onyomi": [
-      "ホン"
+      "ハク"
     ],
     "kunyomi": [
-      "もと"
+      "と.まる",
+      "と.める"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "stay overnight"
       ],
       "bn": [
-        "বই, উৎস"
+        "রাত কাটানো"
       ]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 5,
+    "radicals": [
+      "氵",
+      "白"
+    ],
+    "strokes": 8,
+    "grade": 8,
     "jlpt": "N5"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "眠",
+    "onyomi": [
+      "ミン"
+    ],
+    "kunyomi": [
+      "ねむ.い",
+      "ねむ.る"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "sleepy",
+        "sleep"
       ],
       "bn": [
-        "অর্থ"
+        "ঘুমঘুম",
+        "ঘুমানো"
       ]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": [
+      "目",
+      "民"
+    ],
     "strokes": 10,
-    "grade": 5,
+    "grade": 8,
     "jlpt": "N5"
   },
   {
     "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": [
+      "キョウ"
+    ],
+    "kunyomi": [
+      "つよ.い"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "strong"
       ],
       "bn": [
-        "অর্থ"
+        "শক্তিশালী"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "弓",
+      "虫"
+    ],
     "strokes": 11,
-    "grade": 5,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "弱",
+    "onyomi": [
+      "ジャク"
+    ],
+    "kunyomi": [
+      "よわ.い"
+    ],
+    "meanings": {
+      "en": [
+        "weak"
+      ],
+      "bn": [
+        "দুর্বল"
+      ]
+    },
+    "radicals": [
+      "弓",
+      "冫"
+    ],
+    "strokes": 10,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "練",
+    "onyomi": [
+      "レン"
+    ],
+    "kunyomi": [
+      "ね.る"
+    ],
+    "meanings": {
+      "en": [
+        "practice",
+        "train"
+      ],
+      "bn": [
+        "অভ্যাস করা",
+        "চর্চা করা"
+      ]
+    },
+    "radicals": [
+      "糸",
+      "東"
+    ],
+    "strokes": 14,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "習",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [
+      "なら.う"
+    ],
+    "meanings": {
+      "en": [
+        "learn"
+      ],
+      "bn": [
+        "শেখা"
+      ]
+    },
+    "radicals": [
+      "羽",
+      "白"
+    ],
+    "strokes": 11,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "調",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "しら.べる"
+    ],
+    "meanings": {
+      "en": [
+        "check",
+        "tone",
+        "condition"
+      ],
+      "bn": [
+        "যাচাই করা",
+        "অবস্থা"
+      ]
+    },
+    "radicals": [
+      "言",
+      "周"
+    ],
+    "strokes": 15,
+    "grade": 3,
     "jlpt": "N5"
   }
 ]
