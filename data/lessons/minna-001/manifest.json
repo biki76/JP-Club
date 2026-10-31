@@ -3,12 +3,12 @@
   "courseId": "minna-beginner",
   "lessonNumber": 1,
   "title": {
-    "en": "Lesson 1",
-    "bn": "পাঠ 1"
+    "en": "Introductions & Identity",
+    "bn": "পরিচয় ও আত্মপরিচয়"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 1",
-    "bn": "মিন্না নো নিহোঙ্গো 1"
+    "en": "Say who you are, your job and your nationality",
+    "bn": "নিজের নাম, পেশা ও জাতীয়তা বলা"
   },
   "jlpt": "N5",
   "durationMin": 50,

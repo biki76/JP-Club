@@ -8,9 +8,23 @@
       {
         "jp": "わたしは 学生です。",
         "en": "I am a student.",
-        "bn": "I am a student.",
-        "furigana": "わたしは 学生です。",
-        "romaji": ""
+        "bn": "আমি ছাত্র।",
+        "furigana": "わたしは がくせいです。",
+        "romaji": "watashi wa gakusei desu."
+      },
+      {
+        "jp": "田中さんは 会社員です。",
+        "en": "Mr. Tanaka is a company employee.",
+        "furigana": "たなかさんは かいしゃいんです。",
+        "romaji": "tanaka san wa kaishain desu.",
+        "bn": "তানাকা-সান একজন অফিস কর্মী।"
+      },
+      {
+        "jp": "わたしは ミラーです。",
+        "en": "I am Miller.",
+        "furigana": "わたしは ミラーです。",
+        "romaji": "watashi wa miraa desu.",
+        "bn": "আমি মিলার।"
       }
     ],
     "tags": [
@@ -21,14 +35,28 @@
     "id": "minna-001-g2",
     "pattern": "N は N じゃありません",
     "meaning_en": "A is not B",
-    "meaning_bn": "A নয় B",
+    "meaning_bn": "A, B নয়",
     "examples": [
       {
         "jp": "わたしは 先生じゃありません。",
         "en": "I am not a teacher.",
-        "bn": "I am not a teacher.",
-        "furigana": "わたしは 先生じゃありません。",
-        "romaji": ""
+        "bn": "আমি শিক্ষক নই।",
+        "furigana": "わたしは せんせいじゃありません。",
+        "romaji": "watashi wa sensei ja arimasen."
+      },
+      {
+        "jp": "田中さんは 学生じゃありません。",
+        "en": "Mr. Tanaka is not a student.",
+        "furigana": "たなかさんは がくせいじゃありません。",
+        "romaji": "tanaka san wa gakusei ja arimasen.",
+        "bn": "তানাকা-সান ছাত্র নন।"
+      },
+      {
+        "jp": "わたしは エンジニアじゃありません。",
+        "en": "I am not an engineer.",
+        "furigana": "わたしは エンジニアじゃありません。",
+        "romaji": "watashi wa enjinia ja arimasen.",
+        "bn": "আমি প্রকৌশলী নই।"
       }
     ],
     "tags": [
@@ -44,9 +72,23 @@
       {
         "jp": "あなたは 学生ですか。",
         "en": "Are you a student?",
-        "bn": "Are you a student?",
-        "furigana": "あなたは 学生ですか。",
-        "romaji": ""
+        "bn": "আপনি কি ছাত্র?",
+        "furigana": "あなたは がくせいですか。",
+        "romaji": "anata wa gakusei desu ka."
+      },
+      {
+        "jp": "田中さんは 先生ですか。",
+        "en": "Is Mr. Tanaka a teacher?",
+        "furigana": "たなかさんは せんせいですか。",
+        "romaji": "tanaka san wa sensei desu ka.",
+        "bn": "তানাকা-সান কি শিক্ষক?"
+      },
+      {
+        "jp": "それは あなたの 本ですか。",
+        "en": "Is that your book?",
+        "furigana": "それは あなたの ほんですか。",
+        "romaji": "sore wa anata no hon desu ka.",
+        "bn": "ওটি কি আপনার বই?"
       }
     ],
     "tags": [
@@ -57,14 +99,28 @@
     "id": "minna-001-g4",
     "pattern": "N も",
     "meaning_en": "also / too",
-    "meaning_bn": "ও / -ও",
+    "meaning_bn": "…ও (একইভাবে)",
     "examples": [
       {
         "jp": "わたしも 学生です。",
         "en": "I am also a student.",
-        "bn": "I am also a student.",
-        "furigana": "わたしも 学生です。",
-        "romaji": ""
+        "bn": "আমিও ছাত্র।",
+        "furigana": "わたしも がくせいです。",
+        "romaji": "watashi mo gakusei desu."
+      },
+      {
+        "jp": "田中さんも 会社員です。",
+        "en": "Mr. Tanaka is also a company employee.",
+        "furigana": "たなかさんも かいしゃいんです。",
+        "romaji": "tanaka san mo kaishain desu.",
+        "bn": "তানাকা-সানও অফিস কর্মী।"
+      },
+      {
+        "jp": "これも わたしの 本です。",
+        "en": "This is also my book.",
+        "furigana": "これも わたしの ほんです。",
+        "romaji": "kore mo watashi no hon desu.",
+        "bn": "এটিও আমার বই।"
       }
     ],
     "tags": [
@@ -75,14 +131,28 @@
     "id": "minna-001-g5",
     "pattern": "N の N",
     "meaning_en": "N's N",
-    "meaning_bn": "N-এর N",
+    "meaning_bn": "N-এর N (অধিকার / সম্পর্ক)",
     "examples": [
       {
         "jp": "わたしの 本です。",
         "en": "It is my book.",
-        "bn": "It is my book.",
-        "furigana": "わたしの 本です。",
-        "romaji": ""
+        "bn": "এটি আমার বই।",
+        "furigana": "わたしの ほんです。",
+        "romaji": "watashi no hon desu."
+      },
+      {
+        "jp": "これは 田中さんの 傘です。",
+        "en": "This is Mr. Tanaka's umbrella.",
+        "furigana": "これは たなかさんの かさです。",
+        "romaji": "kore wa tanaka san no kasa desu.",
+        "bn": "এটি তানাকা-সানের ছাতা।"
+      },
+      {
+        "jp": "わたしの 父は 会社員です。",
+        "en": "My father is a company employee.",
+        "furigana": "わたしの ちちは かいしゃいんです。",
+        "romaji": "watashi no chichi wa kaishain desu.",
+        "bn": "আমার বাবা একজন অফিস কর্মী।"
       }
     ],
     "tags": [

@@ -3,12 +3,12 @@
   "courseId": "minna-beginner",
   "lessonNumber": 2,
   "title": {
-    "en": "Lesson 2",
-    "bn": "পাঠ 2"
+    "en": "This, That & Which",
+    "bn": "এটি, সেটি ও কোনটি"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 2",
-    "bn": "মিন্না নো নিহোঙ্গো 2"
+    "en": "Point at things with これ・それ・あれ and この・その・あの",
+    "bn": "これ・それ・あれ আর この・その・あの দিয়ে জিনিস দেখানো"
   },
   "jlpt": "N5",
   "durationMin": 50,

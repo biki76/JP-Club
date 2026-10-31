@@ -8,9 +8,23 @@
       {
         "jp": "これは 本です。",
         "en": "This is a book.",
-        "bn": "This is a book.",
-        "furigana": "これは 本です。",
-        "romaji": ""
+        "bn": "এটি একটি বই।",
+        "furigana": "これは ほんです。",
+        "romaji": "kore wa hon desu."
+      },
+      {
+        "jp": "それは 辞書です。",
+        "en": "That is a dictionary.",
+        "furigana": "それは じしょです。",
+        "romaji": "sore wa jisho desu.",
+        "bn": "ওটি একটি অভিধান।"
+      },
+      {
+        "jp": "あれは 雑誌です。",
+        "en": "That over there is a magazine.",
+        "furigana": "あれは ざっしです。",
+        "romaji": "are wa zasshi desu.",
+        "bn": "ওইটি একটি পত্রিকা।"
       }
     ],
     "tags": [
@@ -21,14 +35,28 @@
     "id": "minna-002-g2",
     "pattern": "この N / その N / あの N",
     "meaning_en": "this N / that N",
-    "meaning_bn": "এই N / সেই N",
+    "meaning_bn": "এই N / সেই N / ওই N",
     "examples": [
       {
         "jp": "この本は わたしのです。",
         "en": "This book is mine.",
-        "bn": "This book is mine.",
-        "furigana": "この本は わたしのです。",
-        "romaji": ""
+        "bn": "এই বইটি আমার।",
+        "furigana": "このほんは わたしのです。",
+        "romaji": "kono hon wa watashi no desu."
+      },
+      {
+        "jp": "その 辞書は 田中さんのです。",
+        "en": "That dictionary is Mr. Tanaka's.",
+        "furigana": "その じしょは たなかさんのです。",
+        "romaji": "sono jisho wa tanaka san no desu.",
+        "bn": "ওই অভিধানটি তানাকা-সানের।"
+      },
+      {
+        "jp": "あの 雑誌は 先生のです。",
+        "en": "That magazine over there is the teacher's.",
+        "furigana": "あの ざっしは せんせいのです。",
+        "romaji": "ano zasshi wa sensei no desu.",
+        "bn": "ওই পত্রিকাটি শিক্ষকের।"
       }
     ],
     "tags": [
@@ -44,9 +72,23 @@
       {
         "jp": "はい、そうです。",
         "en": "Yes, that is right.",
-        "bn": "Yes, that is right.",
+        "bn": "হ্যাঁ, তাই।",
         "furigana": "はい、そうです。",
-        "romaji": ""
+        "romaji": "hai, sou desu."
+      },
+      {
+        "jp": "いいえ、ちがいます。",
+        "en": "No, that is not right.",
+        "furigana": "いいえ、ちがいます。",
+        "romaji": "iie, chigaimasu.",
+        "bn": "না, তা নয়।"
+      },
+      {
+        "jp": "それは あなたの 本ですか。…いいえ、ちがいます。",
+        "en": "Is that your book? …No, it is not.",
+        "furigana": "それは あなたの ほんですか。…いいえ、ちがいます。",
+        "romaji": "sore wa anata no hon desu ka. …iie, chigaimasu.",
+        "bn": "ওটি কি আপনার বই? …না, তা নয়।"
       }
     ],
     "tags": [
@@ -57,14 +99,28 @@
     "id": "minna-002-g4",
     "pattern": "N の N",
     "meaning_en": "N of N / N's N",
-    "meaning_bn": "N-এর N",
+    "meaning_bn": "N-এর N (কোন ধরনের / কার)",
     "examples": [
       {
         "jp": "これは 日本語の 本です。",
         "en": "This is a Japanese book.",
-        "bn": "This is a Japanese book.",
-        "furigana": "これは 日本語の 本です。",
-        "romaji": ""
+        "bn": "এটি জাপানি ভাষার বই।",
+        "furigana": "これは にほんごの ほんです。",
+        "romaji": "kore wa nihongo no hon desu."
+      },
+      {
+        "jp": "それは 田中さんの 辞書です。",
+        "en": "That is Mr. Tanaka's dictionary.",
+        "furigana": "それは たなかさんの じしょです。",
+        "romaji": "sore wa tanaka san no jisho desu.",
+        "bn": "ওটি তানাকা-সানের অভিধান।"
+      },
+      {
+        "jp": "あれは わたしの 雑誌です。",
+        "en": "That over there is my magazine.",
+        "furigana": "あれは わたしの ざっしです。",
+        "romaji": "are wa watashi no zasshi desu.",
+        "bn": "ওইটি আমার পত্রিকা।"
       }
     ],
     "tags": [

@@ -198,5 +198,77 @@
       "vocabulary",
       "lesson-25"
     ]
+  },
+  {
+    "id": "minna-025-v018",
+    "furigana": "はれ",
+    "romaji": "hare",
+    "kanji": "晴れ",
+    "english_meaning": "fine weather, sunny",
+    "bengali_meaning": "রোদেলা আবহাওয়া",
+    "tags": [
+      "vocabulary",
+      "lesson-25"
+    ]
+  },
+  {
+    "id": "minna-025-v019",
+    "furigana": "くもり",
+    "romaji": "kumori",
+    "kanji": "曇り",
+    "english_meaning": "cloudy weather",
+    "bengali_meaning": "মেঘলা আবহাওয়া",
+    "tags": [
+      "vocabulary",
+      "lesson-25"
+    ]
+  },
+  {
+    "id": "minna-025-v020",
+    "furigana": "よてい",
+    "romaji": "yotei",
+    "kanji": "予定",
+    "english_meaning": "plan, schedule",
+    "bengali_meaning": "পরিকল্পনা / কর্মসূচি",
+    "tags": [
+      "vocabulary",
+      "lesson-25"
+    ]
+  },
+  {
+    "id": "minna-025-v021",
+    "furigana": "きせつ",
+    "romaji": "kisetsu",
+    "kanji": "季節",
+    "english_meaning": "season",
+    "bengali_meaning": "ঋতু",
+    "tags": [
+      "vocabulary",
+      "lesson-25"
+    ]
+  },
+  {
+    "id": "minna-025-v022",
+    "furigana": "てんき",
+    "romaji": "tenki",
+    "kanji": "天気",
+    "english_meaning": "weather",
+    "bengali_meaning": "আবহাওয়া",
+    "tags": [
+      "vocabulary",
+      "lesson-25"
+    ]
+  },
+  {
+    "id": "minna-025-v023",
+    "furigana": "ときどき",
+    "romaji": "tokidoki",
+    "kanji": "時々",
+    "english_meaning": "sometimes",
+    "bengali_meaning": "মাঝে মাঝে",
+    "tags": [
+      "vocabulary",
+      "lesson-25"
+    ]
   }
 ]

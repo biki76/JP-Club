@@ -44,4 +44,16 @@ for (const [s, items] of Object.entries(P.kanjiReplace || {})) {
   }
   if (out.length) { wr(f(s, 'kanji'), out); st.kanji += out.length; }
 }
+for (const [s, t] of Object.entries(P.manifestTitles || {})) {
+  const p = f(s, 'manifest'); const m = JSON.parse(fs.readFileSync(p, 'utf8'));
+  if (t.title) m.title = t.title;
+  if (t.subtitle) m.subtitle = t.subtitle;
+  wr(p, m); st.titles = (st.titles || 0) + 1;
+}
+for (const [s, items] of Object.entries(P.vocabAdd || {})) {
+  const v = rd(f(s, 'vocabulary')); const ids = new Set(v.map((x) => x.id)); const fu = new Set(v.map((x) => x.furigana));
+  for (const it of items) if (!ids.has(it.id) && !fu.has(it.furigana)) { v.push(it); st.vadd = (st.vadd || 0) + 1; }
+  wr(f(s, 'vocabulary'), v);
+}
+
 console.log(st);

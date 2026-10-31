@@ -210,5 +210,74 @@
       "lesson-24"
     ],
     "kanji": "母の日"
+  },
+  {
+    "id": "minna-024-v019",
+    "furigana": "あげます",
+    "romaji": "agemasu",
+    "english_meaning": "give (to someone)",
+    "bengali_meaning": "দিই (কাউকে)",
+    "tags": [
+      "vocabulary",
+      "lesson-24"
+    ]
+  },
+  {
+    "id": "minna-024-v020",
+    "furigana": "もらいます",
+    "romaji": "moraimasu",
+    "english_meaning": "receive",
+    "bengali_meaning": "পাই / গ্রহণ করি",
+    "tags": [
+      "vocabulary",
+      "lesson-24"
+    ]
+  },
+  {
+    "id": "minna-024-v021",
+    "furigana": "てつだいます",
+    "romaji": "tetsudaimasu",
+    "kanji": "手伝います",
+    "english_meaning": "help (a person with work)",
+    "bengali_meaning": "সাহায্য করি",
+    "tags": [
+      "vocabulary",
+      "lesson-24"
+    ]
+  },
+  {
+    "id": "minna-024-v022",
+    "furigana": "おしえます",
+    "romaji": "oshiemasu",
+    "kanji": "教えます",
+    "english_meaning": "teach, tell",
+    "bengali_meaning": "শেখাই / বলে দিই",
+    "tags": [
+      "vocabulary",
+      "lesson-24"
+    ]
+  },
+  {
+    "id": "minna-024-v023",
+    "furigana": "かします",
+    "romaji": "kashimasu",
+    "kanji": "貸します",
+    "english_meaning": "lend",
+    "bengali_meaning": "ধার দিই",
+    "tags": [
+      "vocabulary",
+      "lesson-24"
+    ]
+  },
+  {
+    "id": "minna-024-v024",
+    "furigana": "プレゼント",
+    "romaji": "purezento",
+    "english_meaning": "present, gift",
+    "bengali_meaning": "উপহার",
+    "tags": [
+      "vocabulary",
+      "lesson-24"
+    ]
   }
 ]
