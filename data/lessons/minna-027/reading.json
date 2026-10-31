@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-027-r001",
+    "id": "minna-027-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "The First Time I Saw the Sea",
+      "bn": "প্রথমবার সমুদ্র দেখা"
     },
     "passage": [
       {
-        "jp": "これは かいます です。",
-        "furigana": "これは かいます です。",
-        "romaji": "Kore wa kaimasu desu.",
-        "en": "This is keep (a pet), raise (an animal).",
-        "bn": "এটি keep (a pet), raise (an animal)।"
+        "jp": "私は 海が 大好きです。",
+        "furigana": "わたしは うみが だいすきです。",
+        "romaji": "Watashi wa umi ga daisuki desu.",
+        "en": "I love the sea.",
+        "bn": "আমি সমুদ্র খুব ভালোবাসি।"
+      },
+      {
+        "jp": "子どもの 時から、泳ぐ ことが できます。",
+        "furigana": "こどもの ときから、およぐ ことが できます。",
+        "romaji": "Kodomo no toki kara, oyogu koto ga dekimasu.",
+        "en": "I have been able to swim since I was a child.",
+        "bn": "শিশু বয়স থেকেই আমি সাঁতার কাটতে পারি।"
+      },
+      {
+        "jp": "でも、海を 見たのは 先月が 初めてでした。",
+        "furigana": "でも、うみを みたのは せんげつが はじめてでした。",
+        "romaji": "Demo, umi o mita no wa sengetsu ga hajimete deshita.",
+        "en": "But last month was the first time I saw the sea.",
+        "bn": "কিন্তু গত মাসেই প্রথমবার সমুদ্র দেখলাম।"
+      },
+      {
+        "jp": "電車の 窓から、青い 海が 見えました。",
+        "furigana": "でんしゃの まどから、あおい うみが みえました。",
+        "romaji": "Densha no mado kara, aoi umi ga miemashita.",
+        "en": "From the train window, the blue sea was visible.",
+        "bn": "ট্রেনের জানালা থেকে নীল সমুদ্র দেখা গেল।"
+      },
+      {
+        "jp": "駅に 着くと、波の 音が 聞こえました。",
+        "furigana": "えきに つくと、なみの おとが きこえました。",
+        "romaji": "Eki ni tsuku to, nami no oto ga kikoemashita.",
+        "en": "When I arrived at the station, the sound of the waves could be heard.",
+        "bn": "স্টেশনে পৌঁছাতেই ঢেউয়ের শব্দ শোনা গেল।"
+      },
+      {
+        "jp": "友だちは ギターを 弾く ことが できます。",
+        "furigana": "ともだちは ギターを ひく ことが できます。",
+        "romaji": "Tomodachi wa gitā o hiku koto ga dekimasu.",
+        "en": "My friend can play the guitar.",
+        "bn": "আমার বন্ধু গিটার বাজাতে পারে।"
+      },
+      {
+        "jp": "私たちは 海の 近くで 写真を 撮りました。",
+        "furigana": "わたしたちは うみの ちかくで しゃしんを とりました。",
+        "romaji": "Watashitachi wa umi no chikaku de shashin o torimashita.",
+        "en": "We took photographs near the sea.",
+        "bn": "আমরা সমুদ্রের কাছে ছবি তুললাম।"
+      },
+      {
+        "jp": "初めて 見た 景色は、今も 忘れられません。",
+        "furigana": "はじめて みた けしきは、いまも わすれられません。",
+        "romaji": "Hajimete mita keshiki wa, ima mo wasureraremasen.",
+        "en": "I still cannot forget the scenery I saw for the first time.",
+        "bn": "প্রথমবার দেখা সেই দৃশ্য আজও ভুলতে পারি না।"
       }
     ]
   }

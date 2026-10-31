@@ -1,26 +1,122 @@
 [
   {
-    "id": "minna-027-g001",
-    "pattern": "Potential verbs",
-    "meaning_en": "express ability / possibility",
+    "id": "minna-027-g1",
+    "pattern": "動詞の可能形（書けます・食べられます）",
+    "meaning_en": "can do something; potential form of a verb",
+    "meaning_bn": "কিছু করতে পারা; ক্রিয়ার সম্ভাব্য রূপ",
     "examples": [
       {
-        "jp": "日本語が話せます。",
-        "en": "I can speak Japanese."
+        "jp": "私は 漢字が 書けます。",
+        "furigana": "わたしは かんじが かけます。",
+        "romaji": "watashi wa kanji ga kakemasu.",
+        "en": "I can write kanji.",
+        "bn": "আমি কাঞ্জি লিখতে পারি।"
+      },
+      {
+        "jp": "この 店で 新しい 魚が 買えます。",
+        "furigana": "この みせで あたらしい さかなが かえます。",
+        "romaji": "kono mise de atarashii sakana ga kaemasu.",
+        "en": "You can buy fresh fish at this shop.",
+        "bn": "এই দোকানে তাজা মাছ কেনা যায়।"
+      },
+      {
+        "jp": "明日は 早く 起きられます。",
+        "furigana": "あしたは はやく おきられます。",
+        "romaji": "ashita wa hayaku okiraremasu.",
+        "en": "I can get up early tomorrow.",
+        "bn": "কাল আমি তাড়াতাড়ি উঠতে পারব।"
       }
     ],
-    "meaning_bn": "express ability / possibility"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-027-g002",
-    "pattern": "～しか～ない",
-    "meaning_en": "only / nothing but",
+    "id": "minna-027-g2",
+    "pattern": "動詞の辞書形 + ことが できます",
+    "meaning_en": "be able to do something; can do",
+    "meaning_bn": "কিছু করার সামর্থ্য থাকা; পারা",
     "examples": [
       {
-        "jp": "水しか飲みません。",
-        "en": "I drink only water."
+        "jp": "田中さんは ピアノを 弾く ことが できます。",
+        "furigana": "たなかさんは ピアノを ひく ことが できます。",
+        "romaji": "tanaka-san wa piano o hiku koto ga dekimasu.",
+        "en": "Mr. Tanaka can play the piano.",
+        "bn": "মি. তানাকা পিয়ানো বাজাতে পারেন।"
+      },
+      {
+        "jp": "ここで 写真を 撮る ことが できません。",
+        "furigana": "ここで しゃしんを とる ことが できません。",
+        "romaji": "koko de shashin o toru koto ga dekimasen.",
+        "en": "You cannot take photographs here.",
+        "bn": "এখানে ছবি তোলা যায় না।"
+      },
+      {
+        "jp": "私は 少し アラビア語を 話す ことが できます。",
+        "furigana": "わたしは すこし アラビアごを はなす ことが できます。",
+        "romaji": "watashi wa sukoshi arabiago o hanasu koto ga dekimasu.",
+        "en": "I can speak a little Arabic.",
+        "bn": "আমি একটু আরবি বলতে পারি।"
       }
     ],
-    "meaning_bn": "only / nothing but"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-027-g3",
+    "pattern": "名詞 + が 見えます／聞こえます",
+    "meaning_en": "something is visible; something is audible (naturally, without effort)",
+    "meaning_bn": "কিছু দেখা যায়; কিছু শোনা যায় (স্বাভাবিকভাবে, চেষ্টা ছাড়াই)",
+    "examples": [
+      {
+        "jp": "窓から 海が 見えます。",
+        "furigana": "まどから うみが みえます。",
+        "romaji": "mado kara umi ga miemasu.",
+        "en": "You can see the sea from the window.",
+        "bn": "জানালা থেকে সমুদ্র দেখা যায়।"
+      },
+      {
+        "jp": "遠くから 鳥の 声が 聞こえます。",
+        "furigana": "とおくから とりの こえが きこえます。",
+        "romaji": "tōku kara tori no koe ga kikoemasu.",
+        "en": "You can hear birds' voices from far away.",
+        "bn": "দূর থেকে পাখির ডাক শোনা যায়।"
+      },
+      {
+        "jp": "ここでは 何も 見えません。",
+        "furigana": "ここでは なにも みえません。",
+        "romaji": "koko de wa nanimo miemasen.",
+        "en": "Nothing is visible here.",
+        "bn": "এখানে কিছুই দেখা যায় না।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-027-g4",
+    "pattern": "初めて + 動詞／名詞は 初めてです",
+    "meaning_en": "for the first time",
+    "meaning_bn": "প্রথমবার",
+    "examples": [
+      {
+        "jp": "日本へ 来たのは 初めてです。",
+        "furigana": "にほんへ きたのは はじめてです。",
+        "romaji": "nihon e kita no wa hajimete desu.",
+        "en": "This is my first time coming to Japan.",
+        "bn": "জাপানে আসা এটাই আমার প্রথম।"
+      },
+      {
+        "jp": "初めて 富士山を 見ました。",
+        "furigana": "はじめて ふじさんを みました。",
+        "romaji": "hajimete fujisan o mimashita.",
+        "en": "I saw Mt. Fuji for the first time.",
+        "bn": "আমি প্রথমবার ফুজি পর্বত দেখলাম।"
+      },
+      {
+        "jp": "初めて 日本語で 手紙を 書きました。",
+        "furigana": "はじめて にほんごで てがみを かきました。",
+        "romaji": "hajimete nihongo de tegami o kakimashita.",
+        "en": "I wrote a letter in Japanese for the first time.",
+        "bn": "আমি প্রথমবার জাপানি ভাষায় চিঠি লিখলাম।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

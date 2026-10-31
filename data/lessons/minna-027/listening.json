@@ -1,18 +1,80 @@
 [
   {
-    "id": "minna-027-l001",
+    "id": "minna-027-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "What Is Your Special Skill?",
+      "bn": "আপনার বিশেষ দক্ষতা কী?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "かいます は 何 ですか。",
-        "furigana": "かいます は なん ですか。",
-        "romaji": "kaimasu wa nan desu ka.",
-        "en": "What is keep (a pet), raise (an animal)?",
-        "bn": "keep (a pet), raise (an animal) কী?"
+        "jp": "A：田中さんは 何か 特技が ありますか。",
+        "furigana": "A：たなかさんは なにか とくぎが ありますか。",
+        "romaji": "A: Tanaka-san wa nanika tokugi ga arimasu ka.",
+        "en": "A: Mr. Tanaka, do you have any special skill?",
+        "bn": "A: মি. তানাকা, আপনার কোনো বিশেষ দক্ষতা আছে কি?"
+      },
+      {
+        "jp": "B：そうですね。ピアノを 弾く ことが できます。",
+        "furigana": "B：そうですね。ピアノを ひく ことが できます。",
+        "romaji": "B: Sō desu ne. Piano o hiku koto ga dekimasu.",
+        "en": "B: Well, I can play the piano.",
+        "bn": "B: হ্যাঁ, আমি পিয়ানো বাজাতে পারি।"
+      },
+      {
+        "jp": "A：いいですね。何年 練習しましたか。",
+        "furigana": "A：いいですね。なんねん れんしゅうしましたか。",
+        "romaji": "A: Ii desu ne. Nannen renshū shimashita ka.",
+        "en": "A: That is nice. How many years did you practice?",
+        "bn": "A: দারুণ। কত বছর অনুশীলন করেছেন?"
+      },
+      {
+        "jp": "B：十年 ぐらいです。でも、歌は 下手です。",
+        "furigana": "B：じゅうねん ぐらいです。でも、うたは へたです。",
+        "romaji": "B: Jūnen gurai desu. Demo, uta wa heta desu.",
+        "en": "B: About ten years. But I am poor at singing.",
+        "bn": "B: প্রায় দশ বছর। কিন্তু গান গাওয়ায় আমি দুর্বল।"
+      },
+      {
+        "jp": "A：日本語の 歌が 歌えますか。",
+        "furigana": "A：にほんごの うたが うたえますか。",
+        "romaji": "A: Nihongo no uta ga utaemasu ka.",
+        "en": "A: Can you sing Japanese songs?",
+        "bn": "A: জাপানি গান গাইতে পারেন?"
+      },
+      {
+        "jp": "B：簡単な 歌なら 歌えますよ。",
+        "furigana": "B：かんたんな うたなら うたえますよ。",
+        "romaji": "B: Kantan na uta nara utaemasu yo.",
+        "en": "B: If it is a simple song, I can sing it.",
+        "bn": "B: সহজ গান হলে গাইতে পারি।"
+      },
+      {
+        "jp": "A：じゃ、今度 聞かせてください。",
+        "furigana": "A：じゃ、こんど きかせてください。",
+        "romaji": "A: Ja, kondo kikasete kudasai.",
+        "en": "A: Then please let me hear it next time.",
+        "bn": "A: তাহলে পরের বার শোনাবেন।"
+      },
+      {
+        "jp": "B：いいですよ。でも、大きな 声で 歌えません。",
+        "furigana": "B：いいですよ。でも、おおきな こえで うたえません。",
+        "romaji": "B: Ii desu yo. Demo, ōkina koe de utaemasen.",
+        "en": "B: Sure. But I cannot sing in a loud voice.",
+        "bn": "B: ঠিক আছে। কিন্তু জোরে গলা দিয়ে গাইতে পারি না।"
+      },
+      {
+        "jp": "A：大丈夫です。小さい 声でも 聞こえますから。",
+        "furigana": "A：だいじょうぶです。ちいさい こえでも きこえますから。",
+        "romaji": "A: Daijōbu desu. Chīsai koe demo kikoemasu kara.",
+        "en": "A: It is fine. I can hear even a quiet voice.",
+        "bn": "A: সমস্যা নেই। ছোট গলার আওয়াজও শোনা যায়।"
+      },
+      {
+        "jp": "B：じゃ、来週の 金曜日に しましょう。",
+        "furigana": "B：じゃ、らいしゅうの きんようびに しましょう。",
+        "romaji": "B: Ja, raishū no kin'yōbi ni shimashō.",
+        "en": "B: Then let us do it next Friday.",
+        "bn": "B: তাহলে আগামী শুক্রবার করা যাক।"
       }
     ]
   }

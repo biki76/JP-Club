@@ -1,56 +1,306 @@
 [
   {
     "id": "minna-027-v001",
-    "kanji": "飼います",
-    "furigana": "かいます",
-    "romaji": "kaimasu",
-    "english_meaning": "to keep (a pet)",
-    "type": "verb",
-    "bengali_meaning": "পোষা (প্রাণী পোষা)"
+    "kanji": "泳ぐ",
+    "furigana": "およぐ",
+    "romaji": "oyogu",
+    "english_meaning": "to swim",
+    "bengali_meaning": "সাঁতার কাটা",
+    "tags": ["vocabulary", "lesson-27"]
   },
   {
     "id": "minna-027-v002",
-    "kanji": "走ります",
-    "furigana": "はしります",
-    "romaji": "hashirimasu",
-    "english_meaning": "to run / drive (along a road)",
-    "type": "verb",
-    "bengali_meaning": "(রাস্তা দিয়ে) চলা / গাড়ি চালানো"
+    "kanji": "走る",
+    "furigana": "はしる",
+    "romaji": "hashiru",
+    "english_meaning": "to run",
+    "bengali_meaning": "দৌড়ানো",
+    "tags": ["vocabulary", "lesson-27"]
   },
   {
     "id": "minna-027-v003",
-    "kanji": "見えます",
-    "furigana": "みえます",
-    "romaji": "miemasu",
-    "english_meaning": "to be visible",
-    "type": "verb",
-    "bengali_meaning": "দেখা যাওয়া"
+    "kanji": "踊る",
+    "furigana": "おどる",
+    "romaji": "odoru",
+    "english_meaning": "to dance",
+    "bengali_meaning": "নাচা",
+    "tags": ["vocabulary", "lesson-27"]
   },
   {
     "id": "minna-027-v004",
-    "kanji": "聞こえます",
-    "furigana": "きこえます",
-    "romaji": "kikoemasu",
-    "english_meaning": "to be audible",
-    "type": "verb",
-    "bengali_meaning": "শোনা যাওয়া"
+    "kanji": "歌う",
+    "furigana": "うたう",
+    "romaji": "utau",
+    "english_meaning": "to sing",
+    "bengali_meaning": "গান গাওয়া",
+    "tags": ["vocabulary", "lesson-27"]
   },
   {
     "id": "minna-027-v005",
-    "kanji": "できます",
-    "furigana": "できます",
-    "romaji": "dekimasu",
-    "english_meaning": "to be able to do",
-    "type": "verb",
-    "bengali_meaning": "করতে পারা"
+    "kanji": "弾く",
+    "furigana": "ひく",
+    "romaji": "hiku",
+    "english_meaning": "to play a stringed or keyboard instrument",
+    "bengali_meaning": "বাদ্যযন্ত্র বাজানো",
+    "tags": ["vocabulary", "lesson-27"]
   },
   {
     "id": "minna-027-v006",
-    "kanji": "～ながら",
-    "furigana": "ながら",
-    "romaji": "nagara",
-    "english_meaning": "while doing",
-    "type": "grammar",
-    "bengali_meaning": "করতে করতে"
+    "furigana": "ピアノ",
+    "romaji": "piano",
+    "english_meaning": "piano",
+    "bengali_meaning": "পিয়ানো",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v007",
+    "furigana": "ギター",
+    "romaji": "gitā",
+    "english_meaning": "guitar",
+    "bengali_meaning": "গিটার",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v008",
+    "kanji": "楽器",
+    "furigana": "がっき",
+    "romaji": "gakki",
+    "english_meaning": "musical instrument",
+    "bengali_meaning": "বাদ্যযন্ত্র",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v009",
+    "kanji": "絵",
+    "furigana": "え",
+    "romaji": "e",
+    "english_meaning": "picture, painting",
+    "bengali_meaning": "ছবি, চিত্র",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v010",
+    "kanji": "描く",
+    "furigana": "かく",
+    "romaji": "kaku",
+    "english_meaning": "to draw, to paint",
+    "bengali_meaning": "আঁকা",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v011",
+    "kanji": "撮る",
+    "furigana": "とる",
+    "romaji": "toru",
+    "english_meaning": "to take a photograph",
+    "bengali_meaning": "ছবি তোলা",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v012",
+    "kanji": "写真",
+    "furigana": "しゃしん",
+    "romaji": "shashin",
+    "english_meaning": "photograph",
+    "bengali_meaning": "ফটোগ্রাফ, ছবি",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v013",
+    "kanji": "運転",
+    "furigana": "うんてん",
+    "romaji": "unten",
+    "english_meaning": "driving",
+    "bengali_meaning": "গাড়ি চালানো",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v014",
+    "kanji": "免許",
+    "furigana": "めんきょ",
+    "romaji": "menkyo",
+    "english_meaning": "license",
+    "bengali_meaning": "লাইসেন্স, অনুমতিপত্র",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v015",
+    "kanji": "外国語",
+    "furigana": "がいこくご",
+    "romaji": "gaikokugo",
+    "english_meaning": "foreign language",
+    "bengali_meaning": "বিদেশি ভাষা",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v016",
+    "kanji": "話す",
+    "furigana": "はなす",
+    "romaji": "hanasu",
+    "english_meaning": "to speak, to talk",
+    "bengali_meaning": "কথা বলা",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v017",
+    "kanji": "読む",
+    "furigana": "よむ",
+    "romaji": "yomu",
+    "english_meaning": "to read",
+    "bengali_meaning": "পড়া",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v018",
+    "kanji": "書く",
+    "furigana": "かく",
+    "romaji": "kaku",
+    "english_meaning": "to write",
+    "bengali_meaning": "লেখা",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v019",
+    "kanji": "料理",
+    "furigana": "りょうり",
+    "romaji": "ryōri",
+    "english_meaning": "cooking, dish",
+    "bengali_meaning": "রান্না, খাবার",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v020",
+    "kanji": "作る",
+    "furigana": "つくる",
+    "romaji": "tsukuru",
+    "english_meaning": "to make, to prepare",
+    "bengali_meaning": "তৈরি করা",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v021",
+    "kanji": "掃除",
+    "furigana": "そうじ",
+    "romaji": "sōji",
+    "english_meaning": "cleaning",
+    "bengali_meaning": "পরিষ্কার করা",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v022",
+    "kanji": "洗濯",
+    "furigana": "せんたく",
+    "romaji": "sentaku",
+    "english_meaning": "washing clothes, laundry",
+    "bengali_meaning": "কাপড় ধোয়া",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v023",
+    "kanji": "見える",
+    "furigana": "みえる",
+    "romaji": "mieru",
+    "english_meaning": "to be visible, to come into sight",
+    "bengali_meaning": "দেখা যাওয়া",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v024",
+    "kanji": "聞こえる",
+    "furigana": "きこえる",
+    "romaji": "kikoeru",
+    "english_meaning": "to be audible, to be heard",
+    "bengali_meaning": "শোনা যাওয়া",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v025",
+    "kanji": "音",
+    "furigana": "おと",
+    "romaji": "oto",
+    "english_meaning": "sound, noise",
+    "bengali_meaning": "শব্দ, আওয়াজ",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v026",
+    "kanji": "声",
+    "furigana": "こえ",
+    "romaji": "koe",
+    "english_meaning": "voice",
+    "bengali_meaning": "কণ্ঠস্বর, গলা",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v027",
+    "kanji": "景色",
+    "furigana": "けしき",
+    "romaji": "keshiki",
+    "english_meaning": "scenery, view",
+    "bengali_meaning": "দৃশ্য, নৈসর্গিক দৃশ্য",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v028",
+    "kanji": "山",
+    "furigana": "やま",
+    "romaji": "yama",
+    "english_meaning": "mountain",
+    "bengali_meaning": "পাহাড়",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v029",
+    "kanji": "海",
+    "furigana": "うみ",
+    "romaji": "umi",
+    "english_meaning": "sea, ocean",
+    "bengali_meaning": "সমুদ্র",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v030",
+    "kanji": "初めて",
+    "furigana": "はじめて",
+    "romaji": "hajimete",
+    "english_meaning": "for the first time",
+    "bengali_meaning": "প্রথমবার",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v031",
+    "kanji": "練習",
+    "furigana": "れんしゅう",
+    "romaji": "renshū",
+    "english_meaning": "practice",
+    "bengali_meaning": "অনুশীলন",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v032",
+    "kanji": "特技",
+    "furigana": "とくぎ",
+    "romaji": "tokugi",
+    "english_meaning": "special skill, forte",
+    "bengali_meaning": "বিশেষ দক্ষতা",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v033",
+    "kanji": "上手",
+    "furigana": "じょうず",
+    "romaji": "jōzu",
+    "english_meaning": "skillful, good at",
+    "bengali_meaning": "দক্ষ, ভালো",
+    "tags": ["vocabulary", "lesson-27"]
+  },
+  {
+    "id": "minna-027-v034",
+    "kanji": "下手",
+    "furigana": "へた",
+    "romaji": "heta",
+    "english_meaning": "unskillful, poor at",
+    "bengali_meaning": "অদক্ষ, কম পারদর্শী",
+    "tags": ["vocabulary", "lesson-27"]
   }
 ]

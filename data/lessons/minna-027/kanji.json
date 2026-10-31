@@ -1,87 +1,106 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "歌",
+    "onyomi": ["カ"],
+    "kunyomi": ["うた", "うた.う"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["song", "to sing"],
+      "bn": ["গান", "গান গাওয়া"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
+    "radicals": ["可", "欠"],
+    "strokes": 14,
+    "grade": 2,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "写",
+    "onyomi": ["シャ"],
+    "kunyomi": ["うつ.す", "うつ.る"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["copy", "photograph"],
+      "bn": ["নকল করা", "ছবি তোলা"]
     },
-    "radicals": [],
+    "radicals": ["冖", "与"],
     "strokes": 5,
-    "grade": 4,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "真",
+    "onyomi": ["シン"],
+    "kunyomi": ["ま"],
+    "meanings": {
+      "en": ["truth", "reality"],
+      "bn": ["সত্য", "বাস্তবতা"]
+    },
+    "radicals": ["十", "目", "八"],
+    "strokes": 10,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "転",
+    "onyomi": ["テン"],
+    "kunyomi": ["ころ.がる", "ころ.ぶ"],
+    "meanings": {
+      "en": ["revolve", "turn", "fall over"],
+      "bn": ["ঘোরা", "গড়িয়ে পড়া"]
+    },
+    "radicals": ["車", "云"],
+    "strokes": 11,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
     "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": ["ゴ"],
+    "kunyomi": ["かた.る"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["language", "word"],
+      "bn": ["ভাষা", "শব্দ"]
     },
-    "radicals": [],
+    "radicals": ["言", "五", "口"],
     "strokes": 14,
-    "grade": 4,
+    "grade": 2,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "読",
+    "onyomi": ["ドク", "トク"],
+    "kunyomi": ["よ.む"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["to read"],
+      "bn": ["পড়া"]
     },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
+    "radicals": ["言", "売"],
+    "strokes": 14,
+    "grade": 2,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "練",
+    "onyomi": ["レン"],
+    "kunyomi": ["ね.る"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["practice", "train", "polish"],
+      "bn": ["অনুশীলন করা", "উন্নত করা"]
     },
-    "radicals": [],
+    "radicals": ["糸", "東"],
+    "strokes": 14,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "習",
+    "onyomi": ["シュウ"],
+    "kunyomi": ["なら.う"],
+    "meanings": {
+      "en": ["to learn"],
+      "bn": ["শেখা"]
+    },
+    "radicals": ["羽", "白"],
     "strokes": 11,
-    "grade": 4,
+    "grade": 3,
     "jlpt": "N4"
   }
 ]

@@ -3,15 +3,15 @@
   "courseId": "minna-beginner",
   "lessonNumber": 27,
   "title": {
-    "en": "Lesson 27",
-    "bn": "পাঠ 27"
+    "en": "Talking About Abilities and Skills",
+    "bn": "সামর্থ্য ও দক্ষতা নিয়ে কথা বলা"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 27",
-    "bn": "মিন্না নো নিহোঙ্গো 27"
+    "en": "可能形・ことができます・見えます／聞こえます・初めて",
+    "bn": "সম্ভাব্য রূপ・ことができます・見えます／聞こえます・初めて"
   },
   "jlpt": "N4",
-  "durationMin": 50,
+  "durationMin": 55,
   "dataFiles": {
     "vocabulary": "vocabulary.json",
     "grammar": "grammar.json",

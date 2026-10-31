@@ -3,48 +3,152 @@
     "id": "minna-027-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜27-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜27-A"
+      "en": "Choose the correct potential form of 書く.",
+      "bn": "書く এর সঠিক সম্ভাব্য রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン27の 文法です。",
-      "furigana": "これは レッスン27の 文法です。",
-      "romaji": ""
+      "jp": "私は 漢字が（　）ます。",
+      "furigana": "わたしは かんじが（　）ます。",
+      "romaji": "watashi wa kanji ga ( )masu."
     },
-    "options": [
-      "Grammar pattern 27-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["書け", "書き", "書く", "書か"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜27-A means \"Grammar pattern 27-A\".",
-      "bn": "〜27-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 27-A\"।"
+      "en": "The potential form of 書く is 書ける, so the polite form is 書けます.",
+      "bn": "書く এর সম্ভাব্য রূপ 書ける, তাই বিনয়ী রূপ 書けます।"
     }
   },
   {
     "id": "minna-027-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜27-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜27-B"
+      "en": "Choose the correct ending for expressing ability.",
+      "bn": "সামর্থ্য বোঝানোর সঠিক সমাপ্তি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン27の 文法です。",
-      "furigana": "これは レッスン27の 文法です。",
-      "romaji": ""
+      "jp": "ピアノを 弾く ことが（　）。",
+      "furigana": "ピアノを ひく ことが（　）。",
+      "romaji": "piano o hiku koto ga ( )."
     },
-    "options": [
-      "Grammar pattern 27-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["できます", "います", "あります", "なります"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜27-B means \"Grammar pattern 27-B\".",
-      "bn": "〜27-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 27-B\"।"
+      "en": "動詞辞書形 + ことができます expresses ability.",
+      "bn": "動詞辞書形 + ことができます সামর্থ্য বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-027-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the verb that means something comes into sight naturally.",
+      "bn": "স্বাভাবিকভাবে চোখে পড়া বোঝায় এমন ক্রিয়াটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "窓から 海が（　）。",
+      "furigana": "まどから うみが（　）。",
+      "romaji": "mado kara umi ga ( )."
+    },
+    "options": ["見えます", "見ます", "見せます", "見ています"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "見えます means something is visible without effort.",
+      "bn": "見えます মানে চেষ্টা ছাড়াই কিছু দেখা যায়।"
+    }
+  },
+  {
+    "id": "minna-027-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the verb that means a sound reaches your ears.",
+      "bn": "শব্দ কানে পৌঁছানো বোঝায় এমন ক্রিয়াটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "遠くから 音が（　）。",
+      "furigana": "とおくから おとが（　）。",
+      "romaji": "tōku kara oto ga ( )."
+    },
+    "options": ["聞こえます", "聞きます", "聞かせます", "聞いています"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "聞こえます means something is audible naturally.",
+      "bn": "聞こえます মানে স্বাভাবিকভাবে কিছু শোনা যায়।"
+    }
+  },
+  {
+    "id": "minna-027-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word: this is the first time.",
+      "bn": "সঠিক শব্দটি বেছে নিন: এটি প্রথমবার।"
+    },
+    "stem": {
+      "jp": "日本へ 来たのは（　）です。",
+      "furigana": "にほんへ きたのは（　）です。",
+      "romaji": "nihon e kita no wa ( ) desu."
+    },
+    "options": ["初めて", "上手", "十分", "無理"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "初めてです means it is the first time.",
+      "bn": "初めてです মানে এটি প্রথমবার।"
+    }
+  },
+  {
+    "id": "minna-027-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct negative form of できます.",
+      "bn": "できます এর সঠিক নেতিবাচক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この 店では 写真を 撮る ことが（　）。",
+      "furigana": "この みせでは しゃしんを とる ことが（　）。",
+      "romaji": "kono mise de wa shashin o toru koto ga ( )."
+    },
+    "options": ["できません", "できました", "できます", "できて"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The negative form of できます is できません.",
+      "bn": "できます এর নেতিবাচক রূপ হলো できません।"
+    }
+  },
+  {
+    "id": "minna-027-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word: he is good at cooking.",
+      "bn": "সঠিক শব্দটি বেছে নিন: তিনি রান্নায় দক্ষ।"
+    },
+    "stem": {
+      "jp": "田中さんは 料理が（　）です。",
+      "furigana": "たなかさんは りょうりが（　）です。",
+      "romaji": "tanaka-san wa ryōri ga ( ) desu."
+    },
+    "options": ["上手", "初めて", "聞こえ", "練習"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "上手です means skillful or good at something.",
+      "bn": "上手です মানে দক্ষ বা কোনো কাজে ভালো।"
+    }
+  },
+  {
+    "id": "minna-027-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the dictionary form of 見えます.",
+      "bn": "見えます এর অভিধানিক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "山が 見えます。",
+      "furigana": "やまが みえます。",
+      "romaji": "yama ga miemasu."
+    },
+    "options": ["見える", "見る", "見せる", "見えれる"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "見えます is the polite form of the verb 見える.",
+      "bn": "見えます হলো 見える ক্রিয়ার বিনয়ী রূপ।"
     }
   }
 ]
