@@ -46,5 +46,149 @@
       "en": "The pattern 〜18-B means \"Grammar pattern 18-B\".",
       "bn": "〜18-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 18-B\"।"
     }
+  },
+  {
+    "id": "minna-018-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私は 日本語を 話すことが できます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私は 日本語を 話すことが できます。"
+    },
+    "stem": {
+      "jp": "私は 日本語を 話すことが できます。",
+      "furigana": "わたしは にほんごを はなすことが できます।",
+      "romaji": "watashi wa nihongo o hanasu koto ga dekimasu."
+    },
+    "options": [
+      "I can speak Japanese.",
+      "I cannot speak Japanese.",
+      "I want to speak Japanese.",
+      "I am studying Japanese."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vる + ことが できます means \"can do V\".",
+      "bn": "Vる + ことが できます মানে \"V করতে পারি\"।"
+    }
+  },
+  {
+    "id": "minna-018-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 寝る まえに、日記を 書きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 寝る まえに、日記を 書きます。"
+    },
+    "stem": {
+      "jp": "寝る まえに、日記を 書きます。",
+      "furigana": "ねる まえに、にっきを かきます।",
+      "romaji": "neru mae ni, nikki o kakimasu."
+    },
+    "options": [
+      "I write a diary before going to bed.",
+      "I sleep after writing a diary.",
+      "I write a diary while sleeping.",
+      "I do not write a diary."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vる + まえに means \"before doing V\".",
+      "bn": "Vる + まえに মানে \"V করার আগে\"।"
+    }
+  },
+  {
+    "id": "minna-018-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私の 趣味は 音楽を 聞くことです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私の 趣味は 音楽を 聞くことです。"
+    },
+    "stem": {
+      "jp": "私の 趣味は 音楽を 聞くことです。",
+      "furigana": "わたしの しゅみは おんがくを きくことです।",
+      "romaji": "watashi no shumi wa ongaku o kiku koto desu."
+    },
+    "options": [
+      "My hobby is listening to music.",
+      "My hobby is playing music.",
+      "I am listening to music now.",
+      "Music is difficult for me."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "趣味は〜ことです introduces a hobby using a verb in る-form + こと.",
+      "bn": "趣味は〜ことです শখ বোঝাতে る-রূপ + こと ব্যবহার করে।"
+    }
+  },
+  {
+    "id": "minna-018-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 車の 運転が できますか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 車の 運転が できますか。"
+    },
+    "stem": {
+      "jp": "車の 運転が できますか。",
+      "furigana": "くるまの うんてんが できますか।",
+      "romaji": "kuruma no unten ga dekimasu ka."
+    },
+    "options": [
+      "Can you drive a car?",
+      "Do you have a car?",
+      "Are you driving now?",
+      "Where is the car?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N が できますか asks about ability with a noun.",
+      "bn": "N が できますか বিশেষ্যের সাথে সামর্থ্য জিজ্ঞাসা করে।"
+    }
+  },
+  {
+    "id": "minna-018-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 食事の まえに、手を 洗います。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 食事の まえに、手を 洗います。"
+    },
+    "stem": {
+      "jp": "食事の まえに、手を 洗います。",
+      "furigana": "しょくじの まえに、てを あらいます।",
+      "romaji": "shokuji no mae ni, te o araimasu."
+    },
+    "options": [
+      "I wash my hands before meals.",
+      "I wash my hands after meals.",
+      "I eat without washing my hands.",
+      "I wash dishes after meals."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N の まえに also works with nouns: \"before N\".",
+      "bn": "N の まえに বিশেষ্যের সাথেও চলে: \"N-এর আগে\"।"
+    }
+  },
+  {
+    "id": "minna-018-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: バスが なかなか 来ません。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: バスが なかなか 来ません。"
+    },
+    "stem": {
+      "jp": "バスが なかなか 来ません。",
+      "furigana": "バスが なかなか きません।",
+      "romaji": "basu ga nakanaka kimasen."
+    },
+    "options": [
+      "The bus does not come easily.",
+      "The bus came quickly.",
+      "The bus is coming now.",
+      "There is no bus today."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "なかなか with a negative means \"not easily\".",
+      "bn": "なかなা না-বোধক রূপের সাথে মানে \"সহজে না\"।"
+    }
   }
 ]

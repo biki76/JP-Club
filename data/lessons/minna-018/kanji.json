@@ -1,98 +1,203 @@
 [
   {
-    "character": "日",
+    "character": "洗",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "セン"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "あら.う"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "wash"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "ধোয়া"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 5,
+    "radicals": [
+      "氵",
+      "先"
+    ],
+    "strokes": 9,
+    "grade": 6,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "歌",
     "onyomi": [
-      "ホン"
+      "カ"
     ],
     "kunyomi": [
-      "もと"
+      "うた",
+      "うた.う"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "song",
+        "sing"
       ],
       "bn": [
-        "বই, উৎস"
+        "গান",
+        "গাওয়া"
       ]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": [
+      "可",
+      "欠"
+    ],
     "strokes": 14,
-    "grade": 5,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "集",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [
+      "あつ.める",
+      "あつ.まる"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "collect",
+        "gather"
       ],
       "bn": [
-        "অর্থ"
+        "সংগ্রহ করা",
+        "জড়ো করা"
       ]
     },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 5,
+    "radicals": [
+      "隹",
+      "木"
+    ],
+    "strokes": 12,
+    "grade": 3,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "捨",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "す.てる"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "throw away",
+        "discard"
       ],
       "bn": [
-        "অর্থ"
+        "ফেলে দেওয়া"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "扌",
+      "舎"
+    ],
     "strokes": 11,
-    "grade": 5,
+    "grade": 6,
+    "jlpt": "N5"
+  },
+  {
+    "character": "運",
+    "onyomi": [
+      "ウン"
+    ],
+    "kunyomi": [
+      "はこ.ぶ"
+    ],
+    "meanings": {
+      "en": [
+        "carry",
+        "drive",
+        "luck"
+      ],
+      "bn": [
+        "বহন করা",
+        "চালানো"
+      ]
+    },
+    "radicals": [
+      "辶",
+      "軍"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "転",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "ころ.ぶ"
+    ],
+    "meanings": {
+      "en": [
+        "turn",
+        "roll"
+      ],
+      "bn": [
+        "ঘোরা",
+        "গড়িয়ে পড়া"
+      ]
+    },
+    "radicals": [
+      "車",
+      "云"
+    ],
+    "strokes": 11,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "馬",
+    "onyomi": [
+      "バ"
+    ],
+    "kunyomi": [
+      "うま"
+    ],
+    "meanings": {
+      "en": [
+        "horse"
+      ],
+      "bn": [
+        "ঘোড়া"
+      ]
+    },
+    "radicals": [
+      "馬"
+    ],
+    "strokes": 10,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "特",
+    "onyomi": [
+      "トク"
+    ],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "special"
+      ],
+      "bn": [
+        "বিশেষ"
+      ]
+    },
+    "radicals": [
+      "牛",
+      "寺"
+    ],
+    "strokes": 10,
+    "grade": 4,
     "jlpt": "N5"
   }
 ]

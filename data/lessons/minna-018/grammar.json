@@ -3,14 +3,14 @@
     "id": "minna-018-g1",
     "pattern": "〜18-A",
     "meaning_en": "Grammar pattern 18-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 18-A",
+    "meaning_bn": "~ করতে পারি (~ことができます)",
     "examples": [
       {
         "jp": "これは レッスン18の 文法です。",
         "en": "This is lesson 18 grammar.",
-        "bn": "This is lesson 18 grammar.",
-        "furigana": "これは レッスン18の 文法です。",
-        "romaji": ""
+        "bn": "আমি জাপানি ভাষা বলতে পারি।",
+        "furigana": "わたしは にほんごを はなすことが できます।",
+        "romaji": "watashi wa nihongo o hanasu koto ga dekimasu."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-018-g2",
     "pattern": "〜18-B",
     "meaning_en": "Grammar pattern 18-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 18-B",
+    "meaning_bn": "~ করার আগে (~まえに)",
     "examples": [
       {
         "jp": "これは レッスン18の 文法です。",
         "en": "This is lesson 18 grammar.",
-        "bn": "This is lesson 18 grammar.",
-        "furigana": "これは レッスン18の 文法です。",
-        "romaji": ""
+        "bn": "ঘুমানোর আগে ডায়েরি লিখি।",
+        "furigana": "ねる まえに、にっきを かきます।",
+        "romaji": "neru mae ni, nikki o kakimasu."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-018-g3",
+    "pattern": "趣味は 〜ことです",
+    "meaning_en": "My hobby is doing ~",
+    "meaning_bn": "আমার শখ হলো ~ করা",
+    "examples": [
+      {
+        "jp": "私の 趣味は 音楽を 聞くことです。",
+        "furigana": "わたしの しゅみは おんがくを きくことです।",
+        "romaji": "watashi no shumi wa ongaku o kiku koto desu.",
+        "en": "My hobby is listening to music.",
+        "bn": "আমার শখ হলো সঙ্গীত শোনা।"
+      },
+      {
+        "jp": "兄の 趣味は 切手を 集めることです。",
+        "furigana": "あにの しゅみは きってを あつめることです।",
+        "romaji": "ani no shumi wa kitte o atsumeru koto desu.",
+        "en": "My elder brother's hobby is collecting stamps.",
+        "bn": "আমার বড় ভাইয়ের শখ হলো ডাকটিকিট সংগ্রহ করা।"
+      },
+      {
+        "jp": "田中さんの 趣味は 写真を 撮ることです。",
+        "furigana": "たなかさんの しゅみは しゃしんを とることです।",
+        "romaji": "tanaka san no shumi wa shashin o toru koto desu.",
+        "en": "Tanaka-san's hobby is taking photographs.",
+        "bn": "তানাকা-সানের শখ হলো ছবি তোলা।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-018-g4",
+    "pattern": "なかなか 〜ません",
+    "meaning_en": "not ~ easily / not ~ readily",
+    "meaning_bn": "সহজে ~ না / কিছুতেই ~ না",
+    "examples": [
+      {
+        "jp": "バスが なかなか 来ません。",
+        "furigana": "バスが なかなか きません।",
+        "romaji": "basu ga nakanaka kimasen.",
+        "en": "The bus does not come easily.",
+        "bn": "বাসটি সহজে আসছে না।"
+      },
+      {
+        "jp": "この 漢字が なかなか 覚えられません。",
+        "furigana": "この かんじが なかなか おぼえられません।",
+        "romaji": "kono kanji ga nakanaka oboeraremasen.",
+        "en": "I cannot memorise this kanji easily.",
+        "bn": "এই কাঞ্জিটি সহজে মনে রাখতে পারছি না।"
+      },
+      {
+        "jp": "馬が なかなか 走りません。",
+        "furigana": "うまが なかなか はしりません।",
+        "romaji": "uma ga nakanaka hashirimasen.",
+        "en": "The horse does not run easily.",
+        "bn": "ঘোড়াটি সহজে দৌড়াচ্ছে না।"
       }
     ],
     "tags": [
