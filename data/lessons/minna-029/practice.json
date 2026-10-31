@@ -3,48 +3,152 @@
     "id": "minna-029-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜29-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜29-A"
+      "en": "Choose the correct form for a state that results from a past action.",
+      "bn": "অতীতের কাজের ফলাফল হিসেবে বর্তমান অবস্থার সঠিক রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン29の 文法です。",
-      "furigana": "これは レッスン29の 文法です。",
-      "romaji": ""
+      "jp": "田中さんは 結婚（　）。",
+      "furigana": "たなかさんは けっこん（　）。",
+      "romaji": "tanaka-san wa kekkon ( )."
     },
-    "options": [
-      "Grammar pattern 29-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["しています", "します", "しました", "してあります"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜29-A means \"Grammar pattern 29-A\".",
-      "bn": "〜29-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 29-A\"।"
+      "en": "動詞て形 + います describes a present state resulting from a past action.",
+      "bn": "動詞て形 + います অতীতের কাজের ফলে সৃষ্ট বর্তমান অবস্থা বোঝায়।"
     }
   },
   {
     "id": "minna-029-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜29-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜29-B"
+      "en": "Choose the correct form: something has been intentionally hung.",
+      "bn": "সঠিক রূপটি বেছে নিন: ইচ্ছাকৃতভাবে কিছু ঝুলিয়ে রাখা হয়েছে।"
     },
     "stem": {
-      "jp": "これは レッスン29の 文法です。",
-      "furigana": "これは レッスン29の 文法です。",
-      "romaji": ""
+      "jp": "壁に 写真が 掛けて（　）。",
+      "furigana": "かべに しゃしんが かけて（　）。",
+      "romaji": "kabe ni shashin ga kakete ( )."
     },
-    "options": [
-      "Grammar pattern 29-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["あります", "います", "しまいます", "おきます"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜29-B means \"Grammar pattern 29-B\".",
-      "bn": "〜29-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 29-B\"।"
+      "en": "他動詞て形 + あります shows a state left by an intentional action.",
+      "bn": "সকর্মক ক্রিয়ার て形 + あります ইচ্ছাকৃত কাজের ফলে থাকা অবস্থা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-029-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for a natural state: the window is open.",
+      "bn": "স্বাভাবিক অবস্থার সঠিক রূপটি বেছে নিন: জানালা খোলা আছে।"
+    },
+    "stem": {
+      "jp": "窓が 開いて（　）。",
+      "furigana": "まどが あいて（　）。",
+      "romaji": "mado ga aite ( )."
+    },
+    "options": ["います", "あります", "しまいます", "おきます"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "自動詞て形 + います describes a natural state.",
+      "bn": "অকর্মক ক্রিয়ার て形 + います স্বাভাবিক অবস্থা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-029-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word: the light is off.",
+      "bn": "সঠিক শব্দটি বেছে নিন: আলো নিভে আছে।"
+    },
+    "stem": {
+      "jp": "電気が（　）います。",
+      "furigana": "でんきが（　）います。",
+      "romaji": "denki ga ( ) imasu."
+    },
+    "options": ["消えて", "消して", "消す", "消し"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "消えています means the light is off (intransitive state).",
+      "bn": "消えています মানে আলো নিভে আছে (অকর্মক অবস্থা)।"
+    }
+  },
+  {
+    "id": "minna-029-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form: I already finished my homework.",
+      "bn": "সঠিক রূপটি বেছে নিন: আমি ইতিমধ্যেই বাড়ির কাজ শেষ করেছি।"
+    },
+    "stem": {
+      "jp": "宿題は もう やって（　）。",
+      "furigana": "しゅくだいは もう やって（　）。",
+      "romaji": "shukudai wa mō yatte ( )."
+    },
+    "options": ["しまいました", "おきました", "います", "ください"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "もう + 動詞て形 + しまいます shows something is already finished.",
+      "bn": "もう + 動詞て形 + しまいます ইতিমধ্যে শেষ হওয়া বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-029-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct negative form: not yet finished.",
+      "bn": "সঠিক নেতিবাচক রূপটি বেছে নিন: এখনও শেষ হয়নি।"
+    },
+    "stem": {
+      "jp": "レポートは まだ 書いて（　）。",
+      "furigana": "レポートは まだ かいて（　）。",
+      "romaji": "repōto wa mada kaite ( )."
+    },
+    "options": ["いません", "しまいません", "おきません", "ありません"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "まだ + 動詞て形 + いません means not done yet.",
+      "bn": "まだ + 動詞て形 + いません এখনও করা হয়নি বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-029-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct intransitive verb for 'the glass broke'.",
+      "bn": "'গ্লাসটি ভেঙে গেছে' এর সঠিক অকর্মক ক্রিয়া বেছে নিন।"
+    },
+    "stem": {
+      "jp": "コップが（　）しまいました。",
+      "furigana": "コップが（　）しまいました。",
+      "romaji": "koppu ga ( ) shimaimashita."
+    },
+    "options": ["割れて", "割って", "壊して", "汚して"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "割れる is the intransitive verb: something breaks (by itself).",
+      "bn": "割れる হলো অকর্মক ক্রিয়া: কিছু নিজে থেকে ভেঙে যায়।"
+    }
+  },
+  {
+    "id": "minna-029-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 壁.",
+      "bn": "壁 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "壁に 地図が 貼ってあります。",
+      "furigana": "かべに ちずが はってあります。",
+      "romaji": "kabe ni chizu ga hatte arimasu."
+    },
+    "options": ["wall", "floor", "ceiling", "window"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "壁 means wall, and 貼ってあります means a map has been stuck on it.",
+      "bn": "壁 মানে দেয়াল, এবং 貼ってあります মানে সেখানে মানচিত্র সাঁটানো আছে।"
     }
   }
 ]

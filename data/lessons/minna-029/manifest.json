@@ -3,15 +3,15 @@
   "courseId": "minna-beginner",
   "lessonNumber": 29,
   "title": {
-    "en": "Lesson 29",
-    "bn": "পাঠ 29"
+    "en": "Describing States and Results of Actions",
+    "bn": "অবস্থা ও কাজের ফলাফল বর্ণনা করা"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 29",
-    "bn": "মিন্না নো নিহোঙ্গো 29"
+    "en": "ています（状態）・てあります・てしまいます・ておきます（復習）",
+    "bn": "ています（অবস্থা）・てあります・てしまいます・ておきます（পুনরালোচনা）"
   },
   "jlpt": "N4",
-  "durationMin": 50,
+  "durationMin": 55,
   "dataFiles": {
     "vocabulary": "vocabulary.json",
     "grammar": "grammar.json",

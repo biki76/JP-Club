@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-029-l001",
+    "id": "minna-029-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "The Room and the State of Things",
+      "bn": "ঘর এবং জিনিসপত্রের অবস্থা"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "あきます［ドアが～］ は 何 ですか。",
-        "furigana": "あきます［ドアが～］ は なん ですか。",
-        "romaji": "akimasu [doaga~] wa nan desu ka.",
-        "en": "What is [a door] open?",
-        "bn": "[a door] open কী?"
+        "jp": "A：この 部屋は 広いですね。",
+        "furigana": "A：この へやは ひろいですね。",
+        "romaji": "A: Kono heya wa hiroi desu ne.",
+        "en": "A: This room is spacious, isn't it?",
+        "bn": "A: এই ঘরটি বেশ বড়, তাই না?"
+      },
+      {
+        "jp": "B：ええ。でも、窓が 閉まっていますね。",
+        "furigana": "B：ええ。でも、まどが しまっていますね。",
+        "romaji": "B: Ē. Demo, mado ga shimatte imasu ne.",
+        "en": "B: Yes. But the window is closed, isn't it?",
+        "bn": "B: হ্যাঁ। কিন্তু জানালাটা বন্ধ আছে, তাই না?"
+      },
+      {
+        "jp": "A：暑いですから、開けましょうか。",
+        "furigana": "A：あついですから、あけましょうか。",
+        "romaji": "A: Atsui desu kara, akemashō ka.",
+        "en": "A: Since it is hot, shall I open it?",
+        "bn": "A: গরম লাগছে, খুলে দিই?"
+      },
+      {
+        "jp": "B：お願いします。あ、電気も 消してありますね。",
+        "furigana": "B：おねがいします。あ、でんきも けしてありますね。",
+        "romaji": "B: Onegai shimasu. A, denki mo keshite arimasu ne.",
+        "en": "B: Please do. Oh, and the light has been turned off too.",
+        "bn": "B: দয়া করে। আহ, আলোও নিভিয়ে রাখা হয়েছে।"
+      },
+      {
+        "jp": "A：壁の 時計も 止まっていますよ。",
+        "furigana": "A：かべの とけいも とまっていますよ。",
+        "romaji": "A: Kabe no tokei mo tomatte imasu yo.",
+        "en": "A: The clock on the wall has stopped too.",
+        "bn": "A: দেয়ালের ঘড়িটাও বন্ধ হয়ে গেছে।"
+      },
+      {
+        "jp": "B：本当だ。電池が 切れてしまいましたね。",
+        "furigana": "B：ほんとうだ。でんちが きれてしまいましたね。",
+        "romaji": "B: Hontō da. Denchi ga kirete shimaimashita ne.",
+        "en": "B: You are right. The battery has run out.",
+        "bn": "B: সত্যিই। ব্যাটারি শেষ হয়ে গেছে।"
+      },
+      {
+        "jp": "A：コーヒーは もう 飲んでしまいましたか。",
+        "furigana": "A：コーヒーは もう のんでしまいましたか。",
+        "romaji": "A: Kōhī wa mō nonde shimaimashita ka.",
+        "en": "A: Have you already finished the coffee?",
+        "bn": "A: কফি কি ইতিমধ্যেই খেয়ে ফেলেছেন?"
+      },
+      {
+        "jp": "B：いいえ、まだ 飲んでいません。",
+        "furigana": "B：いいえ、まだ のんでいません。",
+        "romaji": "B: Iie, mada nonde imasen.",
+        "en": "B: No, I have not drunk it yet.",
+        "bn": "B: না, এখনও খাইনি।"
+      },
+      {
+        "jp": "A：じゃ、テーブルの 上に 置いておきますね。",
+        "furigana": "A：じゃ、テーブルの うえに おいておきますね。",
+        "romaji": "A: Ja, tēburu no ue ni oite okimasu ne.",
+        "en": "A: Then I will put it on the table for you.",
+        "bn": "A: তাহলে টেবিলের ওপরে রেখে দিচ্ছি।"
       }
     ]
   }

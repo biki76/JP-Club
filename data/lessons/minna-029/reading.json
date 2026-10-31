@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-029-r001",
+    "id": "minna-029-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "A Room Ready for Guests",
+      "bn": "অতিথিদের জন্য প্রস্তুত ঘর"
     },
     "passage": [
       {
-        "jp": "これは あきます［ドアが～］ です。",
-        "furigana": "これは あきます［ドアが～］ です。",
-        "romaji": "Kore wa akimasu [doaga~] desu.",
-        "en": "This is [a door] open.",
-        "bn": "এটি [a door] open।"
+        "jp": "明日、田中さんの 家に 友だちが 来ます。",
+        "furigana": "あした、たなかさんの いえに ともだちが きます。",
+        "romaji": "Ashita, Tanaka-san no ie ni tomodachi ga kimasu.",
+        "en": "Tomorrow, a friend is coming to Mr. Tanaka's house.",
+        "bn": "কাল মি. তানাকার বাড়িতে এক বন্ধু আসবেন।"
+      },
+      {
+        "jp": "部屋は もう きれいに 片付いています。",
+        "furigana": "へやは もう きれいに かたづいています。",
+        "romaji": "Heya wa mō kirei ni katadzuite imasu.",
+        "en": "The room is already neatly tidied up.",
+        "bn": "ঘরটি ইতিমধ্যেই পরিপাটি করে গোছানো হয়েছে।"
+      },
+      {
+        "jp": "壁には きれいな 花の 絵が 掛けてあります。",
+        "furigana": "かべには きれいな はなの えが かけてあります。",
+        "romaji": "Kabe ni wa kirei na hana no e ga kakete arimasu.",
+        "en": "A beautiful picture of flowers is hung on the wall.",
+        "bn": "দেয়ালে ফুলের একটি সুন্দর ছবি ঝুলিয়ে রাখা আছে।"
+      },
+      {
+        "jp": "机の 上には お菓子が 並べてあります。",
+        "furigana": "つくえの うえには おかしが ならべてあります。",
+        "romaji": "Tsukue no ue ni wa okashi ga narabete arimasu.",
+        "en": "Sweets are arranged on the desk.",
+        "bn": "টেবিলের ওপরে মিষ্টান্ন সাজিয়ে রাখা আছে।"
+      },
+      {
+        "jp": "窓が 開けてありますから、部屋は 明るいです。",
+        "furigana": "まどが あけてありますから、へやは あかるいです。",
+        "romaji": "Mado ga akete arimasu kara, heya wa akarui desu.",
+        "en": "Because the window has been opened, the room is bright.",
+        "bn": "জানালা খুলে রাখা হয়েছে, তাই ঘরটি আলোকিত।"
+      },
+      {
+        "jp": "冷蔵庫に 飲み物が 入れてあります。",
+        "furigana": "れいぞうこに のみものが いれてあります。",
+        "romaji": "Reizōko ni nomimono ga irete arimasu.",
+        "en": "Drinks have been put in the refrigerator.",
+        "bn": "ফ্রিজে পানীয় রাখা হয়েছে।"
+      },
+      {
+        "jp": "でも、まだ ケーキは 買ってありません。",
+        "furigana": "でも、まだ ケーキは かってありません。",
+        "romaji": "Demo, mada kēki wa katte arimasen.",
+        "en": "But the cake has not been bought yet.",
+        "bn": "কিন্তু কেক এখনও কেনা হয়নি।"
+      },
+      {
+        "jp": "田中さんは 今から 買い物に 行ってしまいます。",
+        "furigana": "たなかさんは いまから かいものに いってしまいます。",
+        "romaji": "Tanaka-san wa ima kara kaimono ni itte shimaimasu.",
+        "en": "Mr. Tanaka is going shopping now (and will finish it).",
+        "bn": "মি. তানাকা এখনই বাজার করতে চলে যাবেন।"
       }
     ]
   }

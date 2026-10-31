@@ -1,56 +1,272 @@
 [
   {
     "id": "minna-029-v001",
-    "kanji": "開きます",
-    "furigana": "あきます",
-    "romaji": "akimasu",
-    "english_meaning": "(a door) opens",
-    "type": "verb",
-    "bengali_meaning": "(দরজা) খুলে যাওয়া"
+    "kanji": "開く",
+    "furigana": "あく",
+    "romaji": "aku",
+    "english_meaning": "to open (intransitive)",
+    "bengali_meaning": "খোলা হওয়া",
+    "tags": ["vocabulary", "lesson-29"]
   },
   {
     "id": "minna-029-v002",
-    "kanji": "閉まります",
-    "furigana": "しまります",
-    "romaji": "shimarimasu",
-    "english_meaning": "(a door) closes",
-    "type": "verb",
-    "bengali_meaning": "(দরজা) বন্ধ হওয়া"
+    "kanji": "閉まる",
+    "furigana": "しまる",
+    "romaji": "shimaru",
+    "english_meaning": "to close (intransitive)",
+    "bengali_meaning": "বন্ধ হওয়া",
+    "tags": ["vocabulary", "lesson-29"]
   },
   {
     "id": "minna-029-v003",
-    "kanji": "点きます",
-    "furigana": "つきます",
-    "romaji": "tsukimasu",
-    "english_meaning": "(a light) comes on",
-    "type": "verb",
-    "bengali_meaning": "(আলো) জ্বলে ওঠা"
+    "kanji": "開ける",
+    "furigana": "あける",
+    "romaji": "akeru",
+    "english_meaning": "to open (transitive)",
+    "bengali_meaning": "খোলা (কাউকে দিয়ে)",
+    "tags": ["vocabulary", "lesson-29"]
   },
   {
     "id": "minna-029-v004",
-    "kanji": "消えます",
-    "furigana": "きえます",
-    "romaji": "kiemasu",
-    "english_meaning": "(a light) goes off",
-    "type": "verb",
-    "bengali_meaning": "(আলো) নিভে যাওয়া"
+    "kanji": "閉める",
+    "furigana": "しめる",
+    "romaji": "shimeru",
+    "english_meaning": "to close (transitive)",
+    "bengali_meaning": "বন্ধ করা",
+    "tags": ["vocabulary", "lesson-29"]
   },
   {
     "id": "minna-029-v005",
-    "kanji": "壊れます",
-    "furigana": "こわれます",
-    "romaji": "kowaremasu",
-    "english_meaning": "to break (intransitive)",
-    "type": "verb",
-    "bengali_meaning": "ভেঙে যাওয়া"
+    "kanji": "点く",
+    "furigana": "つく",
+    "romaji": "tsuku",
+    "english_meaning": "to be lit, to come on",
+    "bengali_meaning": "জ্বলে ওঠা, চালু হওয়া",
+    "tags": ["vocabulary", "lesson-29"]
   },
   {
     "id": "minna-029-v006",
-    "kanji": "割れます",
-    "furigana": "われます",
-    "romaji": "waremasu",
-    "english_meaning": "(a glass) breaks",
-    "type": "verb",
-    "bengali_meaning": "(গ্লাস) ভেঙে যাওয়া"
+    "kanji": "消える",
+    "furigana": "きえる",
+    "romaji": "kieru",
+    "english_meaning": "to go out, to be extinguished",
+    "bengali_meaning": "নিভে যাওয়া, বন্ধ হয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v007",
+    "kanji": "割れる",
+    "furigana": "われる",
+    "romaji": "wareru",
+    "english_meaning": "to break, to be cracked",
+    "bengali_meaning": "ফেটে যাওয়া, ভেঙে যাওয়া",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v008",
+    "kanji": "汚れる",
+    "furigana": "よごれる",
+    "romaji": "yogoreru",
+    "english_meaning": "to become dirty",
+    "bengali_meaning": "নোংরা হয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v009",
+    "kanji": "壊れる",
+    "furigana": "こわれる",
+    "romaji": "kowareru",
+    "english_meaning": "to break down, to be broken",
+    "bengali_meaning": "নষ্ট হয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v010",
+    "kanji": "片付く",
+    "furigana": "かたづく",
+    "romaji": "katadzuku",
+    "english_meaning": "to be tidied up",
+    "bengali_meaning": "গুছিয়ে রাখা হওয়া",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v011",
+    "kanji": "飾る",
+    "furigana": "かざる",
+    "romaji": "kazaru",
+    "english_meaning": "to decorate, to display",
+    "bengali_meaning": "সাজানো",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v012",
+    "kanji": "掛ける",
+    "furigana": "かける",
+    "romaji": "kakeru",
+    "english_meaning": "to hang, to put up",
+    "bengali_meaning": "ঝুলানো",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v013",
+    "kanji": "貼る",
+    "furigana": "はる",
+    "romaji": "haru",
+    "english_meaning": "to stick, to paste",
+    "bengali_meaning": "সাঁটানো",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v014",
+    "kanji": "置く",
+    "furigana": "おく",
+    "romaji": "oku",
+    "english_meaning": "to put, to place",
+    "bengali_meaning": "রাখা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v015",
+    "kanji": "並べる",
+    "furigana": "ならべる",
+    "romaji": "naraberu",
+    "english_meaning": "to line up, to arrange",
+    "bengali_meaning": "সারি করে সাজানো",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v016",
+    "kanji": "植える",
+    "furigana": "うえる",
+    "romaji": "ueru",
+    "english_meaning": "to plant",
+    "bengali_meaning": "রোপণ করা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v017",
+    "kanji": "知る",
+    "furigana": "しる",
+    "romaji": "shiru",
+    "english_meaning": "to know",
+    "bengali_meaning": "জানা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v018",
+    "kanji": "結婚",
+    "furigana": "けっこん",
+    "romaji": "kekkon",
+    "english_meaning": "marriage",
+    "bengali_meaning": "বিবাহ",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v019",
+    "kanji": "住む",
+    "furigana": "すむ",
+    "romaji": "sumu",
+    "english_meaning": "to live, to reside",
+    "bengali_meaning": "বাস করা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v020",
+    "kanji": "勤める",
+    "furigana": "つとめる",
+    "romaji": "tsutomeru",
+    "english_meaning": "to work for, to be employed at",
+    "bengali_meaning": "চাকরি করা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v021",
+    "kanji": "持つ",
+    "furigana": "もつ",
+    "romaji": "motsu",
+    "english_meaning": "to hold, to possess",
+    "bengali_meaning": "ধরা, থাকা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v022",
+    "kanji": "まだ",
+    "furigana": "まだ",
+    "romaji": "mada",
+    "english_meaning": "not yet, still",
+    "bengali_meaning": "এখনও",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v023",
+    "kanji": "もう",
+    "furigana": "もう",
+    "romaji": "mō",
+    "english_meaning": "already",
+    "bengali_meaning": "ইতিমধ্যেই",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v024",
+    "kanji": "割る",
+    "furigana": "わる",
+    "romaji": "waru",
+    "english_meaning": "to break, to crack (transitive)",
+    "bengali_meaning": "ভেঙে ফেলা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v025",
+    "kanji": "汚す",
+    "furigana": "よごす",
+    "romaji": "yogosu",
+    "english_meaning": "to make dirty (transitive)",
+    "bengali_meaning": "নোংরা করা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v026",
+    "kanji": "壊す",
+    "furigana": "こわす",
+    "romaji": "kowasu",
+    "english_meaning": "to break (transitive)",
+    "bengali_meaning": "ভেঙে ফেলা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v027",
+    "kanji": "消す",
+    "furigana": "けす",
+    "romaji": "kesu",
+    "english_meaning": "to turn off, to erase",
+    "bengali_meaning": "বন্ধ করা, মুছে ফেলা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v028",
+    "kanji": "つける",
+    "furigana": "つける",
+    "romaji": "tsukeru",
+    "english_meaning": "to turn on",
+    "bengali_meaning": "চালু করা",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v029",
+    "kanji": "壁",
+    "furigana": "かべ",
+    "romaji": "kabe",
+    "english_meaning": "wall",
+    "bengali_meaning": "দেয়াল",
+    "tags": ["vocabulary", "lesson-29"]
+  },
+  {
+    "id": "minna-029-v030",
+    "kanji": "窓",
+    "furigana": "まど",
+    "romaji": "mado",
+    "english_meaning": "window",
+    "bengali_meaning": "জানালা",
+    "tags": ["vocabulary", "lesson-29"]
   }
 ]

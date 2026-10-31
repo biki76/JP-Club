@@ -1,86 +1,105 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "開",
+    "onyomi": ["カイ"],
+    "kunyomi": ["あ.く", "あ.ける", "ひら.く"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["open"],
+      "bn": ["খোলা"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
+    "radicals": ["門", "開"],
+    "strokes": 12,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "閉",
+    "onyomi": ["ヘイ"],
+    "kunyomi": ["し.まる", "し.める", "と.じる"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["close", "shut"],
+      "bn": ["বন্ধ করা"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["門", "才"],
     "strokes": 11,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "消",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["き.える", "け.す"],
+    "meanings": {
+      "en": ["extinguish", "erase"],
+      "bn": ["নেভানো", "মুছে ফেলা"]
+    },
+    "radicals": ["氵", "肖"],
+    "strokes": 10,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "割",
+    "onyomi": ["カツ"],
+    "kunyomi": ["わ.る", "わ.れる", "さ.く"],
+    "meanings": {
+      "en": ["divide", "break", "split"],
+      "bn": ["ভাগ করা", "ফাটানো"]
+    },
+    "radicals": ["害", "刂"],
+    "strokes": 12,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "汚",
+    "onyomi": ["オ"],
+    "kunyomi": ["よご.れる", "よご.す", "きたな.い"],
+    "meanings": {
+      "en": ["dirty", "stain"],
+      "bn": ["নোংরা", "মলিন"]
+    },
+    "radicals": ["氵", "于"],
+    "strokes": 6,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "壊",
+    "onyomi": ["カイ"],
+    "kunyomi": ["こわ.す", "こわ.れる"],
+    "meanings": {
+      "en": ["break", "destroy"],
+      "bn": ["ভেঙে ফেলা", "ধ্বংস করা"]
+    },
+    "radicals": ["土", "褱"],
+    "strokes": 16,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "飾",
+    "onyomi": ["ショク"],
+    "kunyomi": ["かざ.る"],
+    "meanings": {
+      "en": ["decorate", "adorn"],
+      "bn": ["সাজানো"]
+    },
+    "radicals": ["飠", "布"],
+    "strokes": 13,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "置",
+    "onyomi": ["チ"],
+    "kunyomi": ["お.く"],
+    "meanings": {
+      "en": ["put", "place"],
+      "bn": ["রাখা"]
+    },
+    "radicals": ["罒", "直"],
+    "strokes": 13,
     "grade": 4,
     "jlpt": "N4"
   }

@@ -1,26 +1,122 @@
 [
   {
-    "id": "minna-029-g001",
-    "pattern": "～てしまいます",
-    "meaning_en": "completion / regret",
+    "id": "minna-029-g1",
+    "pattern": "動詞て形 + います（結果の状態）",
+    "meaning_en": "expresses a state that results from a past action",
+    "meaning_bn": "অতীতে কোনো কাজের ফলে সৃষ্ট বর্তমান অবস্থা বোঝায়",
     "examples": [
       {
-        "jp": "ケーキを全部食べてしまいました。",
-        "en": "I ate the whole cake (unfortunately)."
+        "jp": "田中さんは 結婚しています。",
+        "furigana": "たなかさんは けっこんしています。",
+        "romaji": "tanaka-san wa kekkon shite imasu.",
+        "en": "Mr. Tanaka is married.",
+        "bn": "মি. তানাকা বিবাহিত।"
+      },
+      {
+        "jp": "私は あの 人の 名前を 知っています。",
+        "furigana": "わたしは あの ひとの なまえを しっています。",
+        "romaji": "watashi wa ano hito no namae o shitte imasu.",
+        "en": "I know that person's name.",
+        "bn": "আমি ওই ব্যক্তির নাম জানি।"
+      },
+      {
+        "jp": "兄は 東京に 住んでいます。",
+        "furigana": "あには とうきょうに すんでいます。",
+        "romaji": "ani wa tōkyō ni sunde imasu.",
+        "en": "My older brother lives in Tokyo.",
+        "bn": "আমার বড় ভাই টোকিওতে থাকেন।"
       }
     ],
-    "meaning_bn": "completion / regret"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-029-g002",
-    "pattern": "～てあります",
-    "meaning_en": "state resulting from intentional action",
+    "id": "minna-029-g2",
+    "pattern": "名詞 + が + 他動詞て形 + あります",
+    "meaning_en": "something has been done and its result remains visible (intentional)",
+    "meaning_bn": "কোনো কাজ ইচ্ছাকৃতভাবে করা হয়েছে এবং তার ফল এখনও দৃশ্যমান",
     "examples": [
       {
-        "jp": "窓が開けてあります。",
-        "en": "The window has been opened (and is still open)."
+        "jp": "壁に 写真が 掛けてあります。",
+        "furigana": "かべに しゃしんが かけてあります。",
+        "romaji": "kabe ni shashin ga kakete arimasu.",
+        "en": "A photograph is hung on the wall.",
+        "bn": "দেয়ালে একটি ছবি ঝুলিয়ে রাখা আছে।"
+      },
+      {
+        "jp": "机の 上に ケーキが 並べてあります。",
+        "furigana": "つくえの うえに ケーキが ならべてあります。",
+        "romaji": "tsukue no ue ni kēki ga narabete arimasu.",
+        "en": "Cakes are lined up on the desk.",
+        "bn": "টেবিলের ওপরে কেকগুলো সাজিয়ে রাখা আছে।"
+      },
+      {
+        "jp": "窓が 開けてありますから、少し 寒いです。",
+        "furigana": "まどが あけてありますから、すこし さむいです。",
+        "romaji": "mado ga akete arimasu kara, sukoshi samui desu.",
+        "en": "The window has been left open, so it is a little cold.",
+        "bn": "জানালা খুলে রাখা হয়েছে, তাই একটু ঠান্ডা লাগছে।"
       }
     ],
-    "meaning_bn": "state resulting from intentional action"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-029-g3",
+    "pattern": "動詞て形 + しまいます（もう／まだ）",
+    "meaning_en": "already finished, or not yet finished (with もう and まだ)",
+    "meaning_bn": "ইতিমধ্যেই শেষ হয়েছে বা এখনও শেষ হয়নি (もう / まだ এর সঙ্গে)",
+    "examples": [
+      {
+        "jp": "宿題は もう やってしまいました。",
+        "furigana": "しゅくだいは もう やってしまいました。",
+        "romaji": "shukudai wa mō yatte shimaimashita.",
+        "en": "I have already finished my homework.",
+        "bn": "আমি বাড়ির কাজ ইতিমধ্যেই শেষ করেছি।"
+      },
+      {
+        "jp": "レポートは まだ 書いてしまっていません。",
+        "furigana": "レポートは まだ かいてしまっていません。",
+        "romaji": "repōto wa mada kaite shimatte imasen.",
+        "en": "I have not finished writing the report yet.",
+        "bn": "আমি এখনও রিপোর্ট লেখা শেষ করিনি।"
+      },
+      {
+        "jp": "ご飯は もう 食べてしまいましたか。",
+        "furigana": "ごはんは もう たべてしまいましたか。",
+        "romaji": "gohan wa mō tabete shimaimashita ka.",
+        "en": "Have you already finished eating your meal?",
+        "bn": "আপনি কি ইতিমধ্যেই খাওয়া শেষ করেছেন?"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-029-g4",
+    "pattern": "自動詞て形 + います と 他動詞て形 + あります の対比",
+    "meaning_en": "contrast between a natural state (intransitive + います) and an intentional state (transitive + あります)",
+    "meaning_bn": "স্বাভাবিক অবস্থা (অকর্মক + います) ও ইচ্ছাকৃত অবস্থা (সকর্মক + あります) এর পার্থক্য",
+    "examples": [
+      {
+        "jp": "窓が 開いています。",
+        "furigana": "まどが あいています。",
+        "romaji": "mado ga aite imasu.",
+        "en": "The window is open (naturally, no one's doing in particular).",
+        "bn": "জানালা খোলা আছে (স্বাভাবিকভাবে)।"
+      },
+      {
+        "jp": "窓が 開けてあります。",
+        "furigana": "まどが あけてあります。",
+        "romaji": "mado ga akete arimasu.",
+        "en": "The window has been opened on purpose (by someone).",
+        "bn": "কেউ ইচ্ছাকৃতভাবে জানালাটি খুলে রেখেছে।"
+      },
+      {
+        "jp": "電気が 消えています。",
+        "furigana": "でんきが きえています。",
+        "romaji": "denki ga kiete imasu.",
+        "en": "The light is off.",
+        "bn": "আলো নিভে আছে।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]
