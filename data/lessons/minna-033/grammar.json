@@ -1,26 +1,152 @@
 [
   {
-    "id": "minna-033-g001",
-    "pattern": "～ために",
-    "meaning_en": "in order to / because of",
+    "id": "minna-033-g1",
+    "pattern": "動詞の命令形（書け・食べろ・しろ・来い）",
+    "meaning_en": "imperative form: do it! (strong, used by men in casual situations or in signs)",
+    "meaning_bn": "আদেশসূচক রূপ: করো! (জোরালো, পুরুষরা ঘনিষ্ঠ পরিস্থিতিতে বা নির্দেশনায় ব্যবহার করে)",
     "examples": [
       {
-        "jp": "健康のために運動しています。",
-        "en": "I exercise for my health."
+        "jp": "早く 起きろ。",
+        "furigana": "はやく おきろ。",
+        "romaji": "hayaku okiro.",
+        "en": "Get up quickly!",
+        "bn": "তাড়াতাড়ি উঠে পড়ো।"
+      },
+      {
+        "jp": "もう 一度 言え。",
+        "furigana": "もう いちど いえ。",
+        "romaji": "mō ichido ie.",
+        "en": "Say it once more!",
+        "bn": "আর একবার বলো।"
+      },
+      {
+        "jp": "逃げろ。",
+        "furigana": "にげろ。",
+        "romaji": "nigero.",
+        "en": "Run away!",
+        "bn": "পালাও।"
       }
     ],
-    "meaning_bn": "in order to / because of"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-033-g002",
-    "pattern": "～ように",
-    "meaning_en": "so that",
+    "id": "minna-033-g2",
+    "pattern": "動詞の辞書形 + な（禁止形）",
+    "meaning_en": "prohibitive form: do not do! (strong prohibition, used in signs)",
+    "meaning_bn": "নিষেধসূচক রূপ: করো না! (জোরালো নিষেধ, নির্দেশনায় ব্যবহৃত)",
     "examples": [
       {
-        "jp": "聞こえるように大きい声で話してください。",
-        "en": "Please speak loudly so that I can hear."
+        "jp": "ここに 入るな。",
+        "furigana": "ここに はいるな。",
+        "romaji": "koko ni hairu na.",
+        "en": "Do not enter here.",
+        "bn": "এখানে ঢুকবে না।"
+      },
+      {
+        "jp": "触るな。危ない。",
+        "furigana": "さわるな。あぶない。",
+        "romaji": "sawaru na. abunai.",
+        "en": "Do not touch. It is dangerous.",
+        "bn": "স্পর্শ করো না। বিপজ্জনক।"
+      },
+      {
+        "jp": "ここで 写真を 撮るな。",
+        "furigana": "ここで しゃしんを とるな。",
+        "romaji": "koko de shashin o toru na.",
+        "en": "Do not take pictures here.",
+        "bn": "এখানে ছবি তুলো না।"
       }
     ],
-    "meaning_bn": "so that"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-033-g3",
+    "pattern": "動詞ます形の語幹 + なさい",
+    "meaning_en": "polite but firm command: please do (used by parents, teachers)",
+    "meaning_bn": "বিনয়ী কিন্তু দৃঢ় আদেশ: করুন (অভিভাবক, শিক্ষক ব্যবহার করেন)",
+    "examples": [
+      {
+        "jp": "早く 寝なさい。",
+        "furigana": "はやく ねなさい。",
+        "romaji": "hayaku nasai.",
+        "en": "Go to bed early.",
+        "bn": "তাড়াতাড়ি ঘুমাও।"
+      },
+      {
+        "jp": "宿題を しなさい。",
+        "furigana": "しゅくだいを しなさい。",
+        "romaji": "shukudai o shinasai.",
+        "en": "Do your homework.",
+        "bn": "তোমার বাড়ির কাজ করো।"
+      },
+      {
+        "jp": "先生の 話を よく 聞きなさい。",
+        "furigana": "せんせいの はなしを よく ききなさい。",
+        "romaji": "sensei no hanashi o yoku kikinasai.",
+        "en": "Listen carefully to the teacher.",
+        "bn": "শিক্ষকের কথা মন দিয়ে শোনো।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-033-g4",
+    "pattern": "動詞ない形 + ないでください",
+    "meaning_en": "please do not do (polite prohibition)",
+    "meaning_bn": "অনুগ্রহ করে করবেন না (বিনয়ী নিষেধ)",
+    "examples": [
+      {
+        "jp": "ここで 写真を 撮らないでください。",
+        "furigana": "ここで しゃしんを とらないでください。",
+        "romaji": "koko de shashin o toranaide kudasai.",
+        "en": "Please do not take photographs here.",
+        "bn": "এখানে ছবি তুলবেন না।"
+      },
+      {
+        "jp": "この ドアを 開けないでください。",
+        "furigana": "この ドアを あけないでください。",
+        "romaji": "kono doa o akanaide kudasai.",
+        "en": "Please do not open this door.",
+        "bn": "এই দরজাটি খুলবেন না।"
+      },
+      {
+        "jp": "ここに 車を 止めないでください。",
+        "furigana": "ここに くるまを とめないでください。",
+        "romaji": "koko ni kuruma o tomenaide kudasai.",
+        "en": "Please do not park your car here.",
+        "bn": "এখানে গাড়ি পার্ক করবেন না।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-033-g5",
+    "pattern": "「〜」は 〜という 意味です",
+    "meaning_en": "explaining what a word or sign means",
+    "meaning_bn": "কোনো শব্দ বা চিহ্নের অর্থ ব্যাখ্যা করা",
+    "examples": [
+      {
+        "jp": "「立入禁止」は 入っては いけないという 意味です。",
+        "furigana": "「たちいりきんし」は はいっては いけないという いみです。",
+        "romaji": "\"tachiiri kinshi\" wa haitte wa ikenai to iu imi desu.",
+        "en": "\"Tachiiri kinshi\" means you must not enter.",
+        "bn": "\"তাচিইরি কিনশি\" মানে প্রবেশ করা নিষেধ।"
+      },
+      {
+        "jp": "「禁煙」は タバコを 吸っては いけないという 意味です。",
+        "furigana": "「きんえん」は タバコを すっては いけないという いみです。",
+        "romaji": "\"kin'en\" wa tabako o sutte wa ikenai to iu imi desu.",
+        "en": "\"Kin'en\" means you must not smoke.",
+        "bn": "\"কিনএন\" মানে ধূমপান করা নিষেধ।"
+      },
+      {
+        "jp": "この マークは 何という 意味ですか。",
+        "furigana": "この マークは なんという いみですか。",
+        "romaji": "kono māku wa nan to iu imi desu ka.",
+        "en": "What does this symbol mean?",
+        "bn": "এই চিহ্নটির অর্থ কী?"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

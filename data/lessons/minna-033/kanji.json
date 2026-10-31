@@ -1,87 +1,132 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "禁",
+    "onyomi": ["キン"],
+    "kunyomi": ["きん.ずる"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["prohibit", "forbid"],
+      "bn": ["নিষেধ করা"]
     },
-    "radicals": [],
+    "radicals": ["林", "示"],
+    "strokes": 13,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "止",
+    "onyomi": ["シ"],
+    "kunyomi": ["と.まる", "と.める"],
+    "meanings": {
+      "en": ["stop"],
+      "bn": ["থামা", "থামানো"]
+    },
+    "radicals": ["止"],
     "strokes": 4,
-    "grade": 4,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "注",
+    "onyomi": ["チュウ"],
+    "kunyomi": ["そそ.ぐ"],
+    "meanings": {
+      "en": ["pour", "attention"],
+      "bn": ["ঢালা", "মনোযোগ"]
+    },
+    "radicals": ["氵", "主"],
+    "strokes": 8,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
+    "character": "意",
+    "onyomi": ["イ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["mind", "meaning", "intention"],
+      "bn": ["মন", "অর্থ", "উদ্দেশ্য"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
+    "radicals": ["音", "心"],
+    "strokes": 13,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "味",
+    "onyomi": ["ミ"],
+    "kunyomi": ["あじ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["taste", "flavor", "meaning"],
+      "bn": ["স্বাদ", "অর্থ"]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
+    "radicals": ["口", "未"],
+    "strokes": 8,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "危",
+    "onyomi": ["キ"],
+    "kunyomi": ["あぶ.ない", "あや.うい"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["dangerous"],
+      "bn": ["বিপজ্জনক"]
     },
-    "radicals": [],
+    "radicals": ["厃", "卩"],
+    "strokes": 6,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "押",
+    "onyomi": ["オウ"],
+    "kunyomi": ["お.す", "お.さえる"],
+    "meanings": {
+      "en": ["push", "press"],
+      "bn": ["ধাক্কা দেওয়া", "চাপা"]
+    },
+    "radicals": ["扌", "甲"],
+    "strokes": 8,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "引",
+    "onyomi": ["イン"],
+    "kunyomi": ["ひ.く", "ひ.ける"],
+    "meanings": {
+      "en": ["pull", "draw"],
+      "bn": ["টানা"]
+    },
+    "radicals": ["弓", "丨"],
+    "strokes": 4,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "座",
+    "onyomi": ["ザ"],
+    "kunyomi": ["すわ.る"],
+    "meanings": {
+      "en": ["sit"],
+      "bn": ["বসা"]
+    },
+    "radicals": ["广", "坐"],
     "strokes": 10,
-    "grade": 4,
+    "grade": 6,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "両",
+    "onyomi": ["リョウ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["both"],
+      "bn": ["উভয়"]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 4,
+    "radicals": ["一", "冂", "山"],
+    "strokes": 6,
+    "grade": 3,
     "jlpt": "N4"
   }
 ]

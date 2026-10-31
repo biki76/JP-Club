@@ -1,17 +1,73 @@
 [
   {
-    "id": "minna-033-r001",
+    "id": "minna-033-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "Signs in the Building",
+      "bn": "ভবনের ভেতরের নির্দেশনা"
     },
     "passage": [
       {
-        "jp": "これは にげます です。",
-        "furigana": "これは にげます です。",
-        "romaji": "Kore wa nigemasu desu.",
-        "en": "This is run away.",
-        "bn": "এটি run away।"
+        "jp": "この 建物には いろいろな サインが あります。",
+        "furigana": "この たてものには いろいろな サインが あります。",
+        "romaji": "Kono tatemono ni wa iroiro na sain ga arimasu.",
+        "en": "This building has various signs.",
+        "bn": "এই ভবনে নানা ধরনের নির্দেশনা আছে।"
+      },
+      {
+        "jp": "玄関の ドアに 「立入禁止」と 書いてあります。",
+        "furigana": "げんかんの ドアに「たちいりきんし」と かいてあります。",
+        "romaji": "Genkan no doa ni \"tachiiri kinshi\" to kaite arimasu.",
+        "en": "On the entrance door it says \"Tachiiri kinshi\".",
+        "bn": "প্রবেশদ্বারে লেখা আছে \"প্রবেশ নিষেধ\"।"
+      },
+      {
+        "jp": "それは 入っては いけないという 意味です。",
+        "furigana": "それは はいっては いけないという いみです。",
+        "romaji": "Sore wa haitte wa ikenai to iu imi desu.",
+        "en": "That means you must not enter.",
+        "bn": "এর অর্থ হলো ভেতরে প্রবেশ করা যাবে না।"
+      },
+      {
+        "jp": "廊下に 「走るな」と 書いてある 看板が あります。",
+        "furigana": "ろうかに「はしるな」と かいてある かんばんが あります。",
+        "romaji": "Rōka ni \"hashiru na\" to kaite aru kanban ga arimasu.",
+        "en": "In the corridor there is a sign that says \"Do not run\".",
+        "bn": "করিডোরে \"দৌড়াবে না\" লেখা একটি সাইনবোর্ড আছে।"
+      },
+      {
+        "jp": "廊下は 危ないですから、走らないでください。",
+        "furigana": "ろうかは あぶないですから、はしらないでください。",
+        "romaji": "Rōka wa abunai desu kara, hashiranaide kudasai.",
+        "en": "The corridor is dangerous, so please do not run.",
+        "bn": "করিডোর বিপজ্জনক, তাই দৌড়াবেন না।"
+      },
+      {
+        "jp": "トイレの ドアに 「使用中」と 書いてあります。",
+        "furigana": "トイレの ドアに「しようちゅう」と かいてあります。",
+        "romaji": "Toire no doa ni \"shiyōchū\" to kaite arimasu.",
+        "en": "On the toilet door it says \"Occupied\".",
+        "bn": "টয়লেটের দরজায় লেখা আছে \"ব্যবহৃত হচ্ছে\"।"
+      },
+      {
+        "jp": "それは 誰かが 中に いるという 意味です。",
+        "furigana": "それは だれかが なかに いるという いみです。",
+        "romaji": "Sore wa dareka ga naka ni iru to iu imi desu.",
+        "en": "That means someone is inside.",
+        "bn": "এর অর্থ হলো ভেতরে কেউ আছেন।"
+      },
+      {
+        "jp": "非常口の 横に 「押すな」と 書いてあります。",
+        "furigana": "ひじょうぐちの よこに「おすな」と かいてあります。",
+        "romaji": "Hijōguchi no yoko ni \"osu na\" to kaite arimasu.",
+        "en": "Next to the emergency exit it says \"Do not push\".",
+        "bn": "জরুরি নির্গমনপথের পাশে লেখা আছে \"ধাক্কা দিও না\"।"
+      },
+      {
+        "jp": "サインを よく 読んで、規則を 守りなさい。",
+        "furigana": "サインを よく よんで、きそくを まもりなさい।",
+        "romaji": "Sain o yoku yonde, kisoku o mamorinasai.",
+        "en": "Read the signs carefully and obey the rules.",
+        "bn": "নির্দেশনা মন দিয়ে পড়ো এবং নিয়ম মেনে চলো।"
       }
     ]
   }

@@ -1,38 +1,272 @@
 [
   {
     "id": "minna-033-v001",
-    "kanji": "逃げます",
-    "furigana": "にげます",
-    "romaji": "nigemasu",
-    "english_meaning": "to run away",
-    "type": "verb",
-    "bengali_meaning": "পালিয়ে যাওয়া"
+    "kanji": "禁煙",
+    "furigana": "きんえん",
+    "romaji": "kin'en",
+    "english_meaning": "no smoking",
+    "bengali_meaning": "ধূমপান নিষেধ",
+    "tags": ["vocabulary", "lesson-33"]
   },
   {
     "id": "minna-033-v002",
-    "kanji": "騒ぎます",
-    "furigana": "さわぎます",
-    "romaji": "sawagimasu",
-    "english_meaning": "to make noise",
-    "type": "verb",
-    "bengali_meaning": "হইচই করা"
+    "kanji": "立入禁止",
+    "furigana": "たちいりきんし",
+    "romaji": "tachiiri kinshi",
+    "english_meaning": "no entry, keep out",
+    "bengali_meaning": "প্রবেশ নিষেধ",
+    "tags": ["vocabulary", "lesson-33"]
   },
   {
     "id": "minna-033-v003",
-    "kanji": "諦めます",
-    "furigana": "あきらめます",
-    "romaji": "akiramemasu",
-    "english_meaning": "to give up",
-    "type": "verb",
-    "bengali_meaning": "হাল ছেড়ে দেওয়া"
+    "kanji": "禁止",
+    "furigana": "きんし",
+    "romaji": "kinshi",
+    "english_meaning": "prohibition, forbidden",
+    "bengali_meaning": "নিষিদ্ধ",
+    "tags": ["vocabulary", "lesson-33"]
   },
   {
     "id": "minna-033-v004",
-    "kanji": "守ります",
-    "furigana": "まもります",
-    "romaji": "mamorimasu",
-    "english_meaning": "to keep / obey",
-    "type": "verb",
-    "bengali_meaning": "মেনে চলা"
+    "kanji": "規則",
+    "furigana": "きそく",
+    "romaji": "kisoku",
+    "english_meaning": "rule, regulation",
+    "bengali_meaning": "নিয়ম",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v005",
+    "kanji": "注意",
+    "furigana": "ちゅうい",
+    "romaji": "chūi",
+    "english_meaning": "caution, attention",
+    "bengali_meaning": "সতর্কতা",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v006",
+    "kanji": "危ない",
+    "furigana": "あぶない",
+    "romaji": "abunai",
+    "english_meaning": "dangerous",
+    "bengali_meaning": "বিপজ্জনক",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v007",
+    "kanji": "触る",
+    "furigana": "さわる",
+    "romaji": "sawaru",
+    "english_meaning": "to touch",
+    "bengali_meaning": "স্পর্শ করা",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v008",
+    "kanji": "入る",
+    "furigana": "はいる",
+    "romaji": "hairu",
+    "english_meaning": "to enter",
+    "bengali_meaning": "প্রবেশ করা",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v009",
+    "kanji": "止まる",
+    "furigana": "とまる",
+    "romaji": "tomaru",
+    "english_meaning": "to stop",
+    "bengali_meaning": "থামা",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v010",
+    "kanji": "渡る",
+    "furigana": "わたる",
+    "romaji": "wataru",
+    "english_meaning": "to cross",
+    "bengali_meaning": "পার হওয়া",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v011",
+    "kanji": "走る",
+    "furigana": "はしる",
+    "romaji": "hashiru",
+    "english_meaning": "to run",
+    "bengali_meaning": "দৌড়ানো",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v012",
+    "kanji": "急ぐ",
+    "furigana": "いそぐ",
+    "romaji": "isogu",
+    "english_meaning": "to hurry",
+    "bengali_meaning": "তাড়াহুড়ো করা",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v013",
+    "kanji": "戻る",
+    "furigana": "もどる",
+    "romaji": "modoru",
+    "english_meaning": "to return, to go back",
+    "bengali_meaning": "ফিরে যাওয়া",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v014",
+    "kanji": "説明",
+    "furigana": "せつめい",
+    "romaji": "setsumei",
+    "english_meaning": "explanation",
+    "bengali_meaning": "ব্যাখ্যা",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v015",
+    "kanji": "意味",
+    "furigana": "いみ",
+    "romaji": "imi",
+    "english_meaning": "meaning",
+    "bengali_meaning": "অর্থ",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v016",
+    "kanji": "看板",
+    "furigana": "かんばん",
+    "romaji": "kanban",
+    "english_meaning": "signboard, sign",
+    "bengali_meaning": "সাইনবোর্ড",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v017",
+    "kanji": "標識",
+    "furigana": "ひょうしき",
+    "romaji": "hyōshiki",
+    "english_meaning": "sign, marker",
+    "bengali_meaning": "চিহ্ন, সাইন",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v018",
+    "kanji": "非常口",
+    "furigana": "ひじょうぐち",
+    "romaji": "hijōguchi",
+    "english_meaning": "emergency exit",
+    "bengali_meaning": "জরুরি নির্গমনপথ",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v019",
+    "kanji": "押す",
+    "furigana": "おす",
+    "romaji": "osu",
+    "english_meaning": "to push",
+    "bengali_meaning": "ধাক্কা দেওয়া",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v020",
+    "kanji": "引く",
+    "furigana": "ひく",
+    "romaji": "hiku",
+    "english_meaning": "to pull",
+    "bengali_meaning": "টানা",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v021",
+    "kanji": "止める",
+    "furigana": "とめる",
+    "romaji": "tomeru",
+    "english_meaning": "to stop (something)",
+    "bengali_meaning": "থামানো",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v022",
+    "kanji": "座る",
+    "furigana": "すわる",
+    "romaji": "suwaru",
+    "english_meaning": "to sit",
+    "bengali_meaning": "বসা",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v023",
+    "kanji": "立つ",
+    "furigana": "たつ",
+    "romaji": "tatsu",
+    "english_meaning": "to stand",
+    "bengali_meaning": "দাঁড়ানো",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v024",
+    "kanji": "静か",
+    "furigana": "しずか",
+    "romaji": "shizuka",
+    "english_meaning": "quiet",
+    "bengali_meaning": "শান্ত",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v025",
+    "kanji": "電気",
+    "furigana": "でんき",
+    "romaji": "denki",
+    "english_meaning": "electricity, light",
+    "bengali_meaning": "বিদ্যুৎ, আলো",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v026",
+    "kanji": "使用",
+    "furigana": "しよう",
+    "romaji": "shiyō",
+    "english_meaning": "use, usage",
+    "bengali_meaning": "ব্যবহার",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v027",
+    "kanji": "使用中",
+    "furigana": "しようちゅう",
+    "romaji": "shiyōchū",
+    "english_meaning": "in use, occupied",
+    "bengali_meaning": "ব্যবহৃত হচ্ছে",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v028",
+    "kanji": "故障",
+    "furigana": "こしょう",
+    "romaji": "koshō",
+    "english_meaning": "breakdown, out of order",
+    "bengali_meaning": "নষ্ট, বিকল",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v029",
+    "kanji": "連絡先",
+    "furigana": "れんらくさき",
+    "romaji": "renrakusaki",
+    "english_meaning": "contact address or details",
+    "bengali_meaning": "যোগাযোগের ঠিকানা",
+    "tags": ["vocabulary", "lesson-33"]
+  },
+  {
+    "id": "minna-033-v030",
+    "kanji": "両方",
+    "furigana": "りょうほう",
+    "romaji": "ryōhō",
+    "english_meaning": "both",
+    "bengali_meaning": "উভয়",
+    "tags": ["vocabulary", "lesson-33"]
   }
 ]

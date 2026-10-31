@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-033-l001",
+    "id": "minna-033-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Teacher and Student",
+      "bn": "শিক্ষক ও শিক্ষার্থী"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "にげます は 何 ですか。",
-        "furigana": "にげます は なん ですか。",
-        "romaji": "nigemasu wa nan desu ka.",
-        "en": "What is run away?",
-        "bn": "run away কী?"
+        "jp": "先生：田中君、ちょっと 来なさい。",
+        "furigana": "せんせい：たなかくん、ちょっと きなさい。",
+        "romaji": "Sensei: Tanaka-kun, chotto kinasai.",
+        "en": "Teacher: Tanaka, come here a moment.",
+        "bn": "শিক্ষক: তানাকা, একটু এদিকে এসো।"
+      },
+      {
+        "jp": "田中：はい。何ですか。",
+        "furigana": "たなか：はい。なんですか。",
+        "romaji": "Tanaka: Hai. Nan desu ka.",
+        "en": "Tanaka: Yes. What is it?",
+        "bn": "তানাকা: হ্যাঁ। কী হয়েছে?"
+      },
+      {
+        "jp": "先生：この 教室で 走るな。危ないぞ。",
+        "furigana": "せんせい：この きょうしつで はしるな。あぶないぞ。",
+        "romaji": "Sensei: Kono kyōshitsu de hashiru na. Abunai zo.",
+        "en": "Teacher: Do not run in this classroom. It is dangerous.",
+        "bn": "শিক্ষক: এই শ্রেণিকক্ষে দৌড়াবে না। বিপজ্জনক।"
+      },
+      {
+        "jp": "田中：すみません。",
+        "furigana": "たなか：すみません。",
+        "romaji": "Tanaka: Sumimasen.",
+        "en": "Tanaka: I am sorry.",
+        "bn": "তানাকা: মাফ করবেন।"
+      },
+      {
+        "jp": "先生：それから、ここで 写真を 撮らないでください。",
+        "furigana": "せんせい：それから、ここで しゃしんを とらないでください。",
+        "romaji": "Sensei: Sore kara, koko de shashin o toranaide kudasai.",
+        "en": "Teacher: Also, please do not take photographs here.",
+        "bn": "শিক্ষক: আর, এখানে ছবি তুলবেন না।"
+      },
+      {
+        "jp": "田中：あの 看板は 何という 意味ですか。",
+        "furigana": "たなか：あの かんばんは なんという いみですか。",
+        "romaji": "Tanaka: Ano kanban wa nan to iu imi desu ka.",
+        "en": "Tanaka: What does that sign mean?",
+        "bn": "তানাকা: ওই সাইনবোর্ডটির অর্থ কী?"
+      },
+      {
+        "jp": "先生：「立入禁止」は 入るなという 意味だ。",
+        "furigana": "せんせい：「たちいりきんし」は はいるなという いみだ。",
+        "romaji": "Sensei: \"Tachiiri kinshi\" wa hairu na to iu imi da.",
+        "en": "Teacher: \"Tachiiri kinshi\" means \"Do not enter\".",
+        "bn": "শিক্ষক: \"প্রবেশ নিষেধ\" মানে প্রবেশ করো না।"
+      },
+      {
+        "jp": "田中：わかりました。規則を 守りなさいと いう ことですね。",
+        "furigana": "たなか：わかりました。きそくを まもりなさいと いう ことですね。",
+        "romaji": "Tanaka: Wakarimashita. Kisoku o mamorinasai to iu koto desu ne.",
+        "en": "Tanaka: I understand. It means I should obey the rules, right?",
+        "bn": "তানাকা: বুঝেছি। মানে আমাকে নিয়ম মানতে হবে, তাই না?"
+      },
+      {
+        "jp": "先生：そうだ。よく 気をつけなさい。",
+        "furigana": "せんせい：そうだ。よく きをつけなさい。",
+        "romaji": "Sensei: Sō da. Yoku ki o tsukenasai.",
+        "en": "Teacher: That's right. Be careful.",
+        "bn": "শিক্ষক: ঠিক। ভালোভাবে সতর্ক থাকো।"
       }
     ]
   }

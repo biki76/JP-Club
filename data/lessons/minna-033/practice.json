@@ -3,48 +3,152 @@
     "id": "minna-033-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜33-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜33-A"
+      "en": "Choose the correct imperative form of 起きる.",
+      "bn": "起きる এর সঠিক আদেশসূচক রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン33の 文法です。",
-      "furigana": "これは レッスン33の 文法です。",
-      "romaji": ""
+      "jp": "早く（　）。",
+      "furigana": "はやく（　）。",
+      "romaji": "hayaku ( )."
     },
-    "options": [
-      "Grammar pattern 33-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["起きろ", "起きなさい", "起きるな", "起きないで"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜33-A means \"Grammar pattern 33-A\".",
-      "bn": "〜33-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 33-A\"।"
+      "en": "起きる is an ichidan verb; its imperative form is 起きろ.",
+      "bn": "起きる একটি ইচিদান ক্রিয়া; এর আদেশসূচক রূপ 起きろ।"
     }
   },
   {
     "id": "minna-033-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜33-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜33-B"
+      "en": "Choose the correct prohibitive form of 入る.",
+      "bn": "入る এর সঠিক নিষেধসূচক রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン33の 文法です。",
-      "furigana": "これは レッスン33の 文法です。",
-      "romaji": ""
+      "jp": "ここに（　）。",
+      "furigana": "ここに（　）。",
+      "romaji": "koko ni ( )."
     },
-    "options": [
-      "Grammar pattern 33-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["入るな", "入りなさい", "入りません", "入らないで"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜33-B means \"Grammar pattern 33-B\".",
-      "bn": "〜33-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 33-B\"।"
+      "en": "動詞辞書形 + な is a strong prohibition used in signs.",
+      "bn": "動詞辞書形 + な জোরালো নিষেধ, নির্দেশনায় ব্যবহৃত।"
+    }
+  },
+  {
+    "id": "minna-033-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form used by a teacher or parent.",
+      "bn": "শিক্ষক বা অভিভাবকের ব্যবহারের সঠিক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "宿題を（　）。",
+      "furigana": "しゅくだいを（　）。",
+      "romaji": "shukudai o ( )."
+    },
+    "options": ["しなさい", "しろ", "するな", "しないで"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞ます形の語幹 + なさい is a polite yet firm command used by teachers and parents.",
+      "bn": "動詞ます形の語幹 + なさい শিক্ষক ও অভিভাবকের বিনয়ী কিন্তু দৃঢ় আদেশ।"
+    }
+  },
+  {
+    "id": "minna-033-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct polite prohibition form.",
+      "bn": "সঠিক বিনয়ী নিষেধ রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "ここで 写真を（　）ください。",
+      "furigana": "ここで しゃしんを（　）ください。",
+      "romaji": "koko de shashin o ( )kudasai."
+    },
+    "options": ["撮らないで", "撮って", "撮り", "撮るな"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞ない形 + ないでください is a polite prohibition.",
+      "bn": "動詞ない形 + ないでください বিনয়ী নিষেধ।"
+    }
+  },
+  {
+    "id": "minna-033-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct phrase to explain a sign's meaning.",
+      "bn": "চিহ্নের অর্থ ব্যাখ্যা করার সঠিক বাক্যটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "「禁煙」は タバコを 吸っては いけない（　）意味です。",
+      "furigana": "「きんえん」は タバコを すっては いけない（　）いみです。",
+      "romaji": "\"kin'en\" wa tabako o sutte wa ikenai ( ) imi desu."
+    },
+    "options": ["という", "というの", "と", "のは"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜という意味です means \"it means that ...\".",
+      "bn": "〜という意味です মানে \"এর অর্থ হলো ...\"।"
+    }
+  },
+  {
+    "id": "minna-033-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 立入禁止.",
+      "bn": "立入禁止 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "立入禁止の 看板が あります。",
+      "furigana": "たちいりきんしの かんばんが あります。",
+      "romaji": "tachiiri kinshi no kanban ga arimasu."
+    },
+    "options": ["no entry", "no smoking", "no parking", "emergency exit"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "立入禁止 means no entry or keep out.",
+      "bn": "立入禁止 মানে প্রবেশ নিষেধ।"
+    }
+  },
+  {
+    "id": "minna-033-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct verb: do not touch.",
+      "bn": "সঠিক ক্রিয়াটি বেছে নিন: স্পর্শ করো না।"
+    },
+    "stem": {
+      "jp": "危ないから、（　）な。",
+      "furigana": "あぶないから、（　）な。",
+      "romaji": "abunai kara, ( ) na."
+    },
+    "options": ["触る", "触って", "触り", "触れ"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞辞書形 + な is prohibitive: 触るな = do not touch.",
+      "bn": "動詞辞書形 + な নিষেধসূচক: 触るな = স্পর্শ করো না।"
+    }
+  },
+  {
+    "id": "minna-033-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 非常口.",
+      "bn": "非常口 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "非常口から 出てください。",
+      "furigana": "ひじょうぐちから でてください。",
+      "romaji": "hijōguchi kara dete kudasai."
+    },
+    "options": ["emergency exit", "front door", "window", "corridor"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "非常口 means emergency exit.",
+      "bn": "非常口 মানে জরুরি নির্গমনপথ।"
     }
   }
 ]
