@@ -7,13 +7,14 @@
   var manifests = {};
   var progress = null;
   var LS_STATUS = null;
-  var BAD = /^(placeholder|draft|scaffold|planned|coming|coming-soon|soon|empty|pending|todo|none|locked)$/i;
+  var BAD = /^(placeholder|scaffold|planned|coming|coming-soon|soon|empty|pending|todo|none|locked)$/i;
   function isPlaceholder(m, n) {
     var key = 'minna-' + String(n).padStart(3, '0');
     var e = LS_STATUS && (LS_STATUS[key] || (LS_STATUS.lessons && LS_STATUS.lessons[key]));
     if (e !== undefined && e !== null) {
       if (typeof e === 'string') return BAD.test(e);
       if (typeof e === 'object') {
+        var MIN_VOCAB = 10; if (typeof e.vocab === 'number' && e.vocab < MIN_VOCAB) return true;
         if (e.ready === false || e.complete === false || e.published === false) return true;
         var v = e.status || e.state || e.content;
         if (typeof v === 'string') return BAD.test(v);
