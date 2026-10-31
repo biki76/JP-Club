@@ -46,5 +46,149 @@
       "en": "The pattern 〜25-B means \"Grammar pattern 25-B\".",
       "bn": "〜25-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 25-B\"।"
     }
+  },
+  {
+    "id": "minna-025-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 雨が 降ったら、行きません。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 雨が 降ったら、行きません。"
+    },
+    "stem": {
+      "jp": "雨が 降ったら、行きません。",
+      "furigana": "あめが ふったら、いきません।",
+      "romaji": "ame ga futtara, ikimasen."
+    },
+    "options": [
+      "If it rains, I will not go.",
+      "Even if it rains, I will go.",
+      "It rained, so I did not go.",
+      "It will not rain, so I will go."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜たら sets a condition: \"if / when ~\".",
+      "bn": "〜たら শর্ত স্থাপন করে: \"~ হলে\"।"
+    }
+  },
+  {
+    "id": "minna-025-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 雨が 降っても、試合は あります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 雨が 降っても、試合は あります।"
+    },
+    "stem": {
+      "jp": "雨が 降っても、試合は あります。",
+      "furigana": "あめが ふっても、しあいは あります।",
+      "romaji": "ame ga futtemo, shiai wa arimasu."
+    },
+    "options": [
+      "Even if it rains, the match will be held.",
+      "If it rains, the match will be cancelled.",
+      "The match was held because it rained.",
+      "The match will be held if it is sunny."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜ても means \"even if ~\".",
+      "bn": "〜ても মানে \"~ হলেও\"।"
+    }
+  },
+  {
+    "id": "minna-025-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 時間が なかったら、タクシーで 行きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 時間が なかったら、タクシーで 行きます।"
+    },
+    "stem": {
+      "jp": "時間が なかったら、タクシーで 行きます。",
+      "furigana": "じかんが なかったら、タクシーで いきます।",
+      "romaji": "jikan ga nakattara, takushii de ikimasu."
+    },
+    "options": [
+      "If I don't have time, I will go by taxi.",
+      "If I have time, I will walk.",
+      "I had no time, so I did not go.",
+      "I will go by taxi even if I have time."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜なかったら is the negative conditional of 〜たら.",
+      "bn": "〜なかったら হলো 〜たら এর না-বোধক রূপ।"
+    }
+  },
+  {
+    "id": "minna-025-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 窓を 開けたら、雪が 降っていました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 窓を 開けたら、雪が 降っていました।"
+    },
+    "stem": {
+      "jp": "窓を 開けたら、雪が 降っていました。",
+      "furigana": "まどを あけたら、ゆきが ふっていました।",
+      "romaji": "mado o aketara, yuki ga futte imashita."
+    },
+    "options": [
+      "When I opened the window, it was snowing.",
+      "I will open the window if it snows.",
+      "It snowed, so I closed the window.",
+      "I opened the window before it snowed."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜たら can report a discovery made after an action.",
+      "bn": "〜たら কাজের পর পাওয়া আবিষ্কার বর্ণনা করতে পারে।"
+    }
+  },
+  {
+    "id": "minna-025-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 分からなかったら、先生に 聞いて ください。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 分からなかったら、先生に 聞いて ください।"
+    },
+    "stem": {
+      "jp": "分からなかったら、先生に 聞いて ください。",
+      "furigana": "わからなかったら、せんせいに きいて ください।",
+      "romaji": "wakaranakattara, sensei ni kiite kudasai."
+    },
+    "options": [
+      "If you don't understand, please ask the teacher.",
+      "Even if you understand, ask the teacher.",
+      "I did not understand, so I asked the teacher.",
+      "Please explain it to the teacher."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜なかったら + request gives advice under a condition.",
+      "bn": "〜なかったら + অনুরোধ শর্তসাপেক্ষে পরামর্শ দেয়।"
+    }
+  },
+  {
+    "id": "minna-025-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 寒くても、毎朝 走ります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 寒くても、毎朝 走ります।"
+    },
+    "stem": {
+      "jp": "寒くても、毎朝 走ります。",
+      "furigana": "さむくても、まいあさ はしります।",
+      "romaji": "samukutemo, maiasa hashirimasu."
+    },
+    "options": [
+      "Even if it is cold, I run every morning.",
+      "If it is cold, I run every morning.",
+      "I run because it is cold.",
+      "I do not run when it is cold."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "い-adjective 〜くても means \"even if it is ~\".",
+      "bn": "ই-বিশেষণের 〜くても মানে \"~ হলেও\"।"
+    }
   }
 ]

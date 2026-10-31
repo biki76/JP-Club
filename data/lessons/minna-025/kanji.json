@@ -1,98 +1,207 @@
 [
   {
-    "character": "日",
+    "character": "考",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "コウ"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "かんが.える"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "think",
+        "consider"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "ভাবা",
+        "বিচার করা"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 5,
+    "radicals": [
+      "耂",
+      "丂"
+    ],
+    "strokes": 6,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "着",
     "onyomi": [
-      "ホン"
+      "チャク"
     ],
     "kunyomi": [
-      "もと"
+      "き.る",
+      "つ.く"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "wear",
+        "arrive"
       ],
       "bn": [
-        "বই, উৎস"
+        "পরা",
+        "পৌঁছানো"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "羊",
+      "目"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "取",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "と.る"
+    ],
+    "meanings": {
+      "en": [
+        "take",
+        "get"
+      ],
+      "bn": [
+        "নেওয়া",
+        "গ্রহণ করা"
+      ]
+    },
+    "radicals": [
+      "耳",
+      "又"
+    ],
+    "strokes": 8,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "足",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "た.りる"
+    ],
+    "meanings": {
+      "en": [
+        "foot",
+        "leg",
+        "be enough"
+      ],
+      "bn": [
+        "পা",
+        "যথেষ্ট হওয়া"
+      ]
+    },
+    "radicals": [
+      "口",
+      "止"
+    ],
+    "strokes": 7,
+    "grade": 1,
+    "jlpt": "N5"
+  },
+  {
+    "character": "田",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "た"
+    ],
+    "meanings": {
+      "en": [
+        "rice field"
+      ],
+      "bn": [
+        "ধানক্ষেত"
+      ]
+    },
+    "radicals": [
+      "田"
+    ],
     "strokes": 5,
-    "grade": 5,
+    "grade": 1,
     "jlpt": "N5"
   },
   {
-    "character": "語",
-    "onyomi": [],
+    "character": "億",
+    "onyomi": [
+      "オク"
+    ],
     "kunyomi": [],
     "meanings": {
       "en": [
-        "Meaning"
+        "hundred million"
       ],
       "bn": [
-        "অর্থ"
+        "দশ কোটি"
       ]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 5,
+    "radicals": [
+      "亻",
+      "意"
+    ],
+    "strokes": 15,
+    "grade": 4,
     "jlpt": "N5"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "味",
+    "onyomi": [
+      "ミ"
+    ],
+    "kunyomi": [
+      "あじ"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "taste",
+        "meaning"
       ],
       "bn": [
+        "স্বাদ",
         "অর্থ"
       ]
     },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 5,
+    "radicals": [
+      "口",
+      "未"
+    ],
+    "strokes": 8,
+    "grade": 3,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "転",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "ころ.ぶ"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "turn",
+        "roll",
+        "transfer"
       ],
       "bn": [
-        "অর্থ"
+        "ঘোরা",
+        "বদলি"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "車",
+      "云"
+    ],
     "strokes": 11,
-    "grade": 5,
+    "grade": 3,
     "jlpt": "N5"
   }
 ]

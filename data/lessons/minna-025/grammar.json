@@ -3,14 +3,14 @@
     "id": "minna-025-g1",
     "pattern": "〜25-A",
     "meaning_en": "Grammar pattern 25-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 25-A",
+    "meaning_bn": "~ হলে / ~ করলে (শর্ত: ~たら)",
     "examples": [
       {
         "jp": "これは レッスン25の 文法です。",
         "en": "This is lesson 25 grammar.",
-        "bn": "This is lesson 25 grammar.",
-        "furigana": "これは レッスン25の 文法です。",
-        "romaji": ""
+        "bn": "বৃষ্টি হলে যাব না।",
+        "furigana": "あめが ふったら、いきません।",
+        "romaji": "ame ga futtara, ikimasen."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-025-g2",
     "pattern": "〜25-B",
     "meaning_en": "Grammar pattern 25-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 25-B",
+    "meaning_bn": "~ হলেও / ~ করলেও (তবুও: ~ても)",
     "examples": [
       {
         "jp": "これは レッスン25の 文法です。",
         "en": "This is lesson 25 grammar.",
-        "bn": "This is lesson 25 grammar.",
-        "furigana": "これは レッスン25の 文法です。",
-        "romaji": ""
+        "bn": "বৃষ্টি হলেও খেলা হবে।",
+        "furigana": "あめが ふっても、しあいは あります।",
+        "romaji": "ame ga futtemo, shiai wa arimasu."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-025-g3",
+    "pattern": "〜なかったら",
+    "meaning_en": "if not ~ / when ~ does not happen",
+    "meaning_bn": "~ না হলে / ~ না করলে",
+    "examples": [
+      {
+        "jp": "時間が なかったら、タクシーで 行きます。",
+        "furigana": "じかんが なかったら、タクシーで いきます।",
+        "romaji": "jikan ga nakattara, takushii de ikimasu.",
+        "en": "If I don't have time, I will go by taxi.",
+        "bn": "সময় না থাকলে ট্যাক্সিতে যাব।"
+      },
+      {
+        "jp": "雨が 降らなかったら、公園へ 行きましょう。",
+        "furigana": "あめが ふらなかったら、こうえんへ いきましょう।",
+        "romaji": "ame ga furanakattara, kouen e ikimashou.",
+        "en": "If it does not rain, let's go to the park.",
+        "bn": "বৃষ্টি না হলে পার্কে যাই।"
+      },
+      {
+        "jp": "分からなかったら、先生に 聞いて ください。",
+        "furigana": "わからなかったら、せんせいに きいて ください।",
+        "romaji": "wakaranakattara, sensei ni kiite kudasai.",
+        "en": "If you don't understand, please ask the teacher.",
+        "bn": "না বুঝলে শিক্ষককে জিজ্ঞাসা করুন।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-025-g4",
+    "pattern": "〜たら、〜でした (発見)",
+    "meaning_en": "when I did ~, I found that…",
+    "meaning_bn": "~ করে দেখলাম যে… (আবিষ্কার)",
+    "examples": [
+      {
+        "jp": "家に 帰ったら、友達が 来ていました。",
+        "furigana": "いえに かえったら、ともだちが きていました।",
+        "romaji": "ie ni kaettara, tomodachi ga kite imashita.",
+        "en": "When I got home, my friend was there.",
+        "bn": "বাড়ি ফিরে দেখলাম বন্ধু এসে আছে।"
+      },
+      {
+        "jp": "窓を 開けたら、雪が 降っていました。",
+        "furigana": "まどを あけたら、ゆきが ふっていました।",
+        "romaji": "mado o aketara, yuki ga futte imashita.",
+        "en": "When I opened the window, it was snowing.",
+        "bn": "জানালা খুলে দেখলাম বরফ পড়ছে।"
+      },
+      {
+        "jp": "駅に 着いたら、電車は もう 出ていました。",
+        "furigana": "えきに ついたら、でんしゃは もう でていました।",
+        "romaji": "eki ni tsuitara, densha wa mou dete imashita.",
+        "en": "When I arrived at the station, the train had already left.",
+        "bn": "স্টেশনে পৌঁছে দেখলাম ট্রেন তো বেরিয়ে গেছে।"
       }
     ],
     "tags": [
