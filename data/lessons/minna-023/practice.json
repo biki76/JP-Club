@@ -46,5 +46,149 @@
       "en": "The pattern 〜23-B means \"Grammar pattern 23-B\".",
       "bn": "〜23-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 23-B\"।"
     }
+  },
+  {
+    "id": "minna-023-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 子どもの とき、よく 公園で 遊びました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 子どもの とき、よく 公園で 遊びました。"
+    },
+    "stem": {
+      "jp": "子どもの とき、よく 公園で 遊びました。",
+      "furigana": "こどもの とき、よく こうえんで あそびました।",
+      "romaji": "kodomo no toki, yoku kouen de asobimashita."
+    },
+    "options": [
+      "When I was a child, I often played in the park.",
+      "I will play in the park as a child.",
+      "I never played in the park.",
+      "Children are playing in the park now."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N の とき means \"when I was / at the time of N\".",
+      "bn": "N の とき মানে \"যখন N ছিলাম / N-এর সময়\"।"
+    }
+  },
+  {
+    "id": "minna-023-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この ボタンを 押すと、ドアが 開きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この ボタンを 押すと、ドアが 開きます。"
+    },
+    "stem": {
+      "jp": "この ボタンを 押すと、ドアが 開きます。",
+      "furigana": "この ボタンを おすと、ドアが あきます।",
+      "romaji": "kono botan o osu to, doa ga akimasu."
+    },
+    "options": [
+      "When you press this button, the door opens.",
+      "The door opens by itself.",
+      "Please do not press this button.",
+      "I pressed the button and nothing happened."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vる + と expresses a natural or automatic result.",
+      "bn": "Vる + と স্বাভাবিক বা স্বয়ংক্রিয় ফলাফল বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-023-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 橋を 渡って、まっすぐ 行って ください。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 橋を 渡って、まっすぐ 行って ください。"
+    },
+    "stem": {
+      "jp": "橋を 渡って、まっすぐ 行って ください。",
+      "furigana": "はしを わたって、まっすぐ いって ください।",
+      "romaji": "hashi o watatte, massugu itte kudasai."
+    },
+    "options": [
+      "Cross the bridge and go straight.",
+      "Turn back at the bridge.",
+      "Go straight and then cross the bridge.",
+      "The bridge is straight ahead."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "を marks the place passed through with verbs of movement.",
+      "bn": "গমনের ক্রিয়ার সাথে を চলার পথ বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-023-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 駅の 前の 2つ目の 角を 右へ 曲がって ください。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 駅の 前の 2つ目の 角を 右へ 曲がって ください。"
+    },
+    "stem": {
+      "jp": "駅の 前の 2つ目の 角を 右へ 曲がって ください。",
+      "furigana": "えきの まえの ふたつめの かどを みぎへ まがって ください।",
+      "romaji": "eki no mae no futatsume no kado o migi e magatte kudasai."
+    },
+    "options": [
+      "Please turn right at the second corner in front of the station.",
+      "Please turn left at the first corner.",
+      "The station is on the right corner.",
+      "Please go straight past two corners."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜目 shows order: 2つ目 = \"the second\".",
+      "bn": "〜目 ক্রম বোঝায়: 2つ目 = \"দ্বিতীয়টি\"।"
+    }
+  },
+  {
+    "id": "minna-023-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 信号が 青に なると、道を 渡ります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 信号が 青に なると、道を 渡ります。"
+    },
+    "stem": {
+      "jp": "信号が 青に なると、道を 渡ります。",
+      "furigana": "しんごうが あおに なると、みちを わたります।",
+      "romaji": "shingou ga ao ni naru to, michi o watarimasu."
+    },
+    "options": [
+      "When the light turns green, I cross the road.",
+      "I cross the road while the light is red.",
+      "The traffic light is broken.",
+      "I never cross at the lights."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜と links a condition with its natural result.",
+      "bn": "〜と শর্তের সাথে তার স্বাভাবিক ফলাফল যুক্ত করে।"
+    }
+  },
+  {
+    "id": "minna-023-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 家を 出るとき、電気を 消します。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 家を 出るとき、電気を 消します。"
+    },
+    "stem": {
+      "jp": "家を 出るとき、電気を 消します。",
+      "furigana": "いえを でるとき、でんきを けします।",
+      "romaji": "ie o deru toki, denki o keshimasu."
+    },
+    "options": [
+      "When I leave the house, I turn off the lights.",
+      "After leaving the house, I turn on the lights.",
+      "I turn off the lights after coming home.",
+      "I never turn off the lights."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vる + とき means \"when doing V\" (before the action).",
+      "bn": "Vる + とき মানে \"V করার সময়\" (কাজের আগে)।"
+    }
   }
 ]

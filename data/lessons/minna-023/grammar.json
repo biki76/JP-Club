@@ -3,14 +3,14 @@
     "id": "minna-023-g1",
     "pattern": "〜23-A",
     "meaning_en": "Grammar pattern 23-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 23-A",
+    "meaning_bn": "~ করার সময় (~とき)",
     "examples": [
       {
         "jp": "これは レッスン23の 文法です。",
         "en": "This is lesson 23 grammar.",
-        "bn": "This is lesson 23 grammar.",
-        "furigana": "これは レッスン23の 文法です。",
-        "romaji": ""
+        "bn": "শিশু বয়সে আমি প্রায়ই পার্কে খেলতাম।",
+        "furigana": "こどもの とき、よく こうえんで あそびました।",
+        "romaji": "kodomo no toki, yoku kouen de asobimashita."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-023-g2",
     "pattern": "〜23-B",
     "meaning_en": "Grammar pattern 23-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 23-B",
+    "meaning_bn": "~ করলে / ~ হলে (~と)",
     "examples": [
       {
         "jp": "これは レッスン23の 文法です。",
         "en": "This is lesson 23 grammar.",
-        "bn": "This is lesson 23 grammar.",
-        "furigana": "これは レッスン23の 文法です。",
-        "romaji": ""
+        "bn": "এই বোতাম টিপলে দরজা খুলে যায়।",
+        "furigana": "この ボタンを おすと、ドアが あきます।",
+        "romaji": "kono botan o osu to, doa ga akimasu."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-023-g3",
+    "pattern": "N を 〜 (移動)",
+    "meaning_en": "move through / along N",
+    "meaning_bn": "N দিয়ে (পথ ধরে) চলা",
+    "examples": [
+      {
+        "jp": "公園を 散歩します。",
+        "furigana": "こうえんを さんぽします।",
+        "romaji": "kouen o sanpo shimasu.",
+        "en": "I take a walk in the park.",
+        "bn": "আমি পার্কে হাঁটাহাঁটি করি।"
+      },
+      {
+        "jp": "橋を 渡ります。",
+        "furigana": "はしを わたります।",
+        "romaji": "hashi o watarimasu.",
+        "en": "I cross the bridge.",
+        "bn": "আমি সেতু পার হই।"
+      },
+      {
+        "jp": "道を まっすぐ 歩きます。",
+        "furigana": "みちを まっすぐ あるきます।",
+        "romaji": "michi o massugu arukimasu.",
+        "en": "I walk straight along the road.",
+        "bn": "আমি রাস্তা ধরে সোজা হাঁটি।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-023-g4",
+    "pattern": "〜目 (順序)",
+    "meaning_en": "the ~th (in order)",
+    "meaning_bn": "~তম (ক্রম)",
+    "examples": [
+      {
+        "jp": "駅の 前の 2つ目の 角を 右へ 曲がって ください。",
+        "furigana": "えきの まえの ふたつめの かどを みぎへ まがって ください।",
+        "romaji": "eki no mae no futatsume no kado o migi e magatte kudasai.",
+        "en": "Please turn right at the second corner in front of the station.",
+        "bn": "স্টেশনের সামনে দ্বিতীয় মোড়ে ডানে ঘুরুন।"
+      },
+      {
+        "jp": "3つ目の 交差点を 左へ 曲がります。",
+        "furigana": "みっつめの こうさてんを ひだりへ まがります।",
+        "romaji": "mittsume no kousaten o hidari e magarimasu.",
+        "en": "I turn left at the third intersection.",
+        "bn": "আমি তৃতীয় মোড়ে বাঁয়ে ঘুরি।"
+      },
+      {
+        "jp": "この 建物の 5階目に 駐車場が あります。",
+        "furigana": "この たてものの ごかいめに ちゅうしゃじょうが あります।",
+        "romaji": "kono tatemono no gokaime ni chuushajou ga arimasu.",
+        "en": "The parking lot is on the fifth floor of this building.",
+        "bn": "এই ভবনের পঞ্চম তলায় পার্কিং আছে।"
       }
     ],
     "tags": [

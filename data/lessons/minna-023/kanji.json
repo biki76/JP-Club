@@ -1,98 +1,213 @@
 [
   {
-    "character": "日",
+    "character": "聞",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "ブン",
+      "モン"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "き.く",
+      "き.こえる"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "hear",
+        "ask",
+        "listen"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "শোনা",
+        "জিজ্ঞাসা করা"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "本",
-    "onyomi": [
-      "ホン"
+    "radicals": [
+      "門",
+      "耳"
     ],
-    "kunyomi": [
-      "もと"
-    ],
-    "meanings": {
-      "en": [
-        "book, origin"
-      ],
-      "bn": [
-        "বই, উৎস"
-      ]
-    },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
     "strokes": 14,
-    "grade": 5,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "回",
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [
+      "まわ.る",
+      "まわ.す"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "turn",
+        "times"
       ],
       "bn": [
-        "অর্থ"
+        "ঘোরানো",
+        "বার"
       ]
     },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 5,
+    "radicals": [
+      "囗",
+      "口"
+    ],
+    "strokes": 6,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "引",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "ひ.く"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "pull"
       ],
       "bn": [
-        "অর্থ"
+        "টানা"
       ]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 5,
+    "radicals": [
+      "弓",
+      "丨"
+    ],
+    "strokes": 4,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "変",
+    "onyomi": [
+      "ヘン"
+    ],
+    "kunyomi": [
+      "か.わる",
+      "か.える"
+    ],
+    "meanings": {
+      "en": [
+        "change",
+        "strange"
+      ],
+      "bn": [
+        "পরিবর্তন",
+        "অদ্ভুত"
+      ]
+    },
+    "radicals": [
+      "亦",
+      "夂"
+    ],
+    "strokes": 9,
+    "grade": 4,
+    "jlpt": "N5"
+  },
+  {
+    "character": "歩",
+    "onyomi": [
+      "ホ",
+      "ブ"
+    ],
+    "kunyomi": [
+      "ある.く"
+    ],
+    "meanings": {
+      "en": [
+        "walk"
+      ],
+      "bn": [
+        "হাঁটা"
+      ]
+    },
+    "radicals": [
+      "止",
+      "少"
+    ],
+    "strokes": 8,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "渡",
+    "onyomi": [
+      "ト"
+    ],
+    "kunyomi": [
+      "わた.る",
+      "わた.す"
+    ],
+    "meanings": {
+      "en": [
+        "cross",
+        "hand over"
+      ],
+      "bn": [
+        "পার হওয়া",
+        "হস্তান্তর করা"
+      ]
+    },
+    "radicals": [
+      "氵",
+      "度"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "jlpt": "N5"
+  },
+  {
+    "character": "曲",
+    "onyomi": [
+      "キョク"
+    ],
+    "kunyomi": [
+      "ま.がる",
+      "ま.げる"
+    ],
+    "meanings": {
+      "en": [
+        "bend",
+        "turn",
+        "melody"
+      ],
+      "bn": [
+        "বাঁকানো",
+        "সুর"
+      ]
+    },
+    "radicals": [
+      "曰",
+      "丨"
+    ],
+    "strokes": 6,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "橋",
+    "onyomi": [
+      "キョウ"
+    ],
+    "kunyomi": [
+      "はし"
+    ],
+    "meanings": {
+      "en": [
+        "bridge"
+      ],
+      "bn": [
+        "সেতু"
+      ]
+    },
+    "radicals": [
+      "木",
+      "喬"
+    ],
+    "strokes": 16,
+    "grade": 3,
     "jlpt": "N5"
   }
 ]
