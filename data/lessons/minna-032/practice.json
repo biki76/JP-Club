@@ -3,48 +3,152 @@
     "id": "minna-032-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜32-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜32-A"
+      "en": "Choose the correct word: it will probably rain tomorrow.",
+      "bn": "সঠিক শব্দটি বেছে নিন: কাল সম্ভবত বৃষ্টি হবে।"
     },
     "stem": {
-      "jp": "これは レッスン32の 文法です。",
-      "furigana": "これは レッスン32の 文法です。",
-      "romaji": ""
+      "jp": "明日は 雨が 降る（　）。",
+      "furigana": "あしたは あめが ふる（　）。",
+      "romaji": "ashita wa ame ga furu ( )."
     },
-    "options": [
-      "Grammar pattern 32-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["でしょう", "かもしれません", "つもりです", "ことにします"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜32-A means \"Grammar pattern 32-A\".",
-      "bn": "〜32-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 32-A\"।"
+      "en": "でしょう expresses a probable guess.",
+      "bn": "でしょう সম্ভাব্য অনুমান বোঝায়।"
     }
   },
   {
     "id": "minna-032-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜32-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜32-B"
+      "en": "Choose the correct word: it might rain.",
+      "bn": "সঠিক শব্দটি বেছে নিন: বৃষ্টি হতে পারে।"
     },
     "stem": {
-      "jp": "これは レッスン32の 文法です。",
-      "furigana": "これは レッスン32の 文法です。",
-      "romaji": ""
+      "jp": "午後は 雨が 降る（　）。",
+      "furigana": "ごごは あめが ふる（　）。",
+      "romaji": "gogo wa ame ga furu ( )."
     },
-    "options": [
-      "Grammar pattern 32-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["かもしれません", "でしょう", "つもりです", "はずです"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜32-B means \"Grammar pattern 32-B\".",
-      "bn": "〜32-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 32-B\"।"
+      "en": "かもしれません shows a lower degree of possibility than でしょう.",
+      "bn": "かもしれません でしょう থেকে কম নিশ্চয়তার সম্ভাবনা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-032-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form with a na-adjective: the town is probably quiet.",
+      "bn": "না-বিশেষণের সঙ্গে সঠিক রূপটি বেছে নিন: শহরটি সম্ভবত শান্ত।"
+    },
+    "stem": {
+      "jp": "この 町は 静か（　）。",
+      "furigana": "この まちは しずか（　）。",
+      "romaji": "kono machi wa shizuka ( )."
+    },
+    "options": ["でしょう", "だでしょう", "なでしょう", "いでしょう"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "With na-adjectives, だ is dropped before でしょう.",
+      "bn": "না-বিশেষণের পরে でしょう এর আগে だ বাদ পড়ে।"
+    }
+  },
+  {
+    "id": "minna-032-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form with a noun: he is probably a teacher.",
+      "bn": "বিশেষ্যের সঙ্গে সঠিক রূপটি বেছে নিন: তিনি সম্ভবত শিক্ষক।"
+    },
+    "stem": {
+      "jp": "あの 人は 先生（　）。",
+      "furigana": "あの ひとは せんせい（　）。",
+      "romaji": "ano hito wa sensei ( )."
+    },
+    "options": ["でしょう", "だでしょう", "なでしょう", "いでしょう"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "With nouns, だ is dropped before でしょう.",
+      "bn": "বিশেষ্যের পরে でしょう এর আগে だ বাদ পড়ে।"
+    }
+  },
+  {
+    "id": "minna-032-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of でしょう？ (rising tone).",
+      "bn": "でしょう？ (উদাত্ত সুরে) এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "この 料理は おいしいでしょう？",
+      "furigana": "この りょうりは おいしいでしょう？",
+      "romaji": "kono ryōri wa oishii deshō?"
+    },
+    "options": ["This dish is delicious, isn't it?", "I will cook this dish.", "This dish is not delicious.", "Is this dish expensive?"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "でしょう with rising intonation seeks agreement.",
+      "bn": "উদাত্ত সুরে でしょう সম্মতি চায়।"
+    }
+  },
+  {
+    "id": "minna-032-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 台風.",
+      "bn": "台風 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "台風が 来る かもしれません。",
+      "furigana": "たいふうが くる かもしれません।",
+      "romaji": "taifū ga kuru kamo shiremasen."
+    },
+    "options": ["typhoon", "snow", "earthquake", "festival"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "台風 means typhoon, a tropical storm.",
+      "bn": "台風 মানে টাইফুন, একটি গ্রীষ্মমণ্ডলীয় ঝড়।"
+    }
+  },
+  {
+    "id": "minna-032-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of たぶん.",
+      "bn": "たぶん এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "たぶん 行くでしょう。",
+      "furigana": "たぶん いくでしょう。",
+      "romaji": "tabun iku deshō."
+    },
+    "options": ["probably", "surely", "never", "suddenly"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "たぶん means probably or perhaps.",
+      "bn": "たぶん মানে সম্ভবত বা হয়তো।"
+    }
+  },
+  {
+    "id": "minna-032-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct reading of 季節.",
+      "bn": "季節 এর সঠিক পাঠ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "日本の 春は いい 季節です。",
+      "furigana": "にほんの はるは いい きせつです。",
+      "romaji": "nihon no haru wa ii kisetsu desu."
+    },
+    "options": ["きせつ", "きせち", "けせつ", "きぜつ"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "季節 is read as きせつ.",
+      "bn": "季節 এর পাঠ きせつ।"
     }
   }
 ]

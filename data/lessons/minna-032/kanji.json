@@ -1,87 +1,132 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "天",
+    "onyomi": ["テン"],
+    "kunyomi": ["あま", "あめ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["heaven", "sky"],
+      "bn": ["আকাশ", "স্বর্গ"]
     },
-    "radicals": [],
+    "radicals": ["大", "一"],
     "strokes": 4,
-    "grade": 4,
+    "grade": 1,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "気",
+    "onyomi": ["キ", "ケ"],
+    "kunyomi": ["いき"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["spirit", "air", "mood"],
+      "bn": ["আত্মা", "বাতাস", "মেজাজ"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
+    "radicals": ["气", "乂"],
+    "strokes": 6,
+    "grade": 1,
+    "jlpt": "N5"
+  },
+  {
+    "character": "晴",
+    "onyomi": ["セイ"],
+    "kunyomi": ["は.れる", "は.らす"],
+    "meanings": {
+      "en": ["clear weather", "sunny"],
+      "bn": ["পরিষ্কার", "রৌদ্রোজ্জ্বল"]
+    },
+    "radicals": ["日", "青"],
+    "strokes": 12,
+    "grade": 2,
     "jlpt": "N4"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "雪",
+    "onyomi": ["セツ"],
+    "kunyomi": ["ゆき"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["snow"],
+      "bn": ["তুষার"]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["雨", "彐"],
     "strokes": 11,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "風",
+    "onyomi": ["フウ", "フ"],
+    "kunyomi": ["かぜ", "かざ"],
+    "meanings": {
+      "en": ["wind", "style"],
+      "bn": ["বাতাস", "ধরন"]
+    },
+    "radicals": ["几", "虫"],
+    "strokes": 9,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "季",
+    "onyomi": ["キ"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["season"],
+      "bn": ["ঋতু"]
+    },
+    "radicals": ["禾", "子"],
+    "strokes": 8,
     "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "節",
+    "onyomi": ["セツ", "セチ"],
+    "kunyomi": ["ふし"],
+    "meanings": {
+      "en": ["season", "joint", "node"],
+      "bn": ["ঋতু", "গিঁট"]
+    },
+    "radicals": ["竹", "即"],
+    "strokes": 13,
+    "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "台",
+    "onyomi": ["ダイ", "タイ"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["stand", "platform", "counter for machines"],
+      "bn": ["মঞ্চ", "যন্ত্রের গণনা"]
+    },
+    "radicals": ["厶", "口"],
+    "strokes": 5,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "然",
+    "onyomi": ["ゼン", "ネン"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["so", "thus", "nature"],
+      "bn": ["সেরূপ", "প্রকৃতি"]
+    },
+    "radicals": ["月", "犬", "灬"],
+    "strokes": 12,
+    "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "多",
+    "onyomi": ["タ"],
+    "kunyomi": ["おお.い"],
+    "meanings": {
+      "en": ["many", "much"],
+      "bn": ["অনেক", "বহু"]
+    },
+    "radicals": ["夕"],
+    "strokes": 6,
+    "grade": 2,
     "jlpt": "N4"
   }
 ]

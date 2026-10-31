@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-032-l001",
+    "id": "minna-032-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Talking About the Weekend Weather",
+      "bn": "সাপ্তাহিক ছুটির আবহাওয়া নিয়ে আলোচনা"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "うんどうします は 何 ですか。",
-        "furigana": "うんどうします は なん ですか。",
-        "romaji": "undōshimasu wa nan desu ka.",
-        "en": "What is (take) exercise?",
-        "bn": "(take) exercise কী?"
+        "jp": "A：明日の 天気は どうでしょうね。",
+        "furigana": "A：あしたの てんきは どうでしょうね。",
+        "romaji": "A: Ashita no tenki wa dō deshō ne.",
+        "en": "A: I wonder what tomorrow's weather will be like.",
+        "bn": "A: কালকের আবহাওয়া কেমন হবে বলুন তো।"
+      },
+      {
+        "jp": "B：予報では、晴れるでしょうと 言っていましたよ。",
+        "furigana": "B：よほうでは、はれるでしょうと いっていましたよ。",
+        "romaji": "B: Yohō de wa, hareru deshō to itte imashita yo.",
+        "en": "B: The forecast said it would probably be sunny.",
+        "bn": "B: পূর্বাভাসে বলা হয়েছে আকাশ পরিষ্কার থাকতে পারে।"
+      },
+      {
+        "jp": "A：そうですか。じゃ、山登りに 行けるでしょうね。",
+        "furigana": "A：そうですか。じゃ、やまのぼりに いけるでしょうね。",
+        "romaji": "A: Sō desu ka. Ja, yamanobori ni ikeru deshō ne.",
+        "en": "A: Really. Then we will probably be able to go mountain climbing, right?",
+        "bn": "A: তাই নাকি। তাহলে আমরা সম্ভবত পাহাড়ে উঠতে পারব, তাই না?"
+      },
+      {
+        "jp": "B：でも、午後は 雨が 降るかもしれません。",
+        "furigana": "B：でも、ごごは あめが ふるかもしれません。",
+        "romaji": "B: Demo, gogo wa ame ga furu kamo shiremasen.",
+        "en": "B: But it might rain in the afternoon.",
+        "bn": "B: কিন্তু বিকেলে বৃষ্টি হতে পারে।"
+      },
+      {
+        "jp": "A：じゃ、傘を 持って 行きましょう。",
+        "furigana": "A：じゃ、かさを もって いきましょう。",
+        "romaji": "A: Ja, kasa o motte ikimashō.",
+        "en": "A: Then let's take an umbrella.",
+        "bn": "A: তাহলে ছাতা নিয়ে যাই।"
+      },
+      {
+        "jp": "B：そうですね。それに、山の 上は 寒いでしょう。",
+        "furigana": "B：そうですね。それに、やまの うえは さむいでしょう。",
+        "romaji": "B: Sō desu ne. Sore ni, yama no ue wa samui deshō.",
+        "en": "B: That's right. Besides, it will probably be cold on the mountain.",
+        "bn": "B: ঠিক। তা ছাড়া পাহাড়ের ওপরে ঠান্ডা লাগবে।"
+      },
+      {
+        "jp": "A：上着も 持って 行った ほうが いいでしょうね。",
+        "furigana": "A：うわぎも もって いった ほうが いいでしょうね。",
+        "romaji": "A: Uwagi mo motte itta hō ga ii deshō ne.",
+        "en": "A: It is probably better to take a jacket too.",
+        "bn": "A: জ্যাকেটও নিয়ে যাওয়া ভালো হবে।"
+      },
+      {
+        "jp": "B：はい。田中さんも 一緒に 行くでしょう？",
+        "furigana": "B：はい。たなかさんも いっしょに いくでしょう？",
+        "romaji": "B: Hai. Tanaka-san mo issho ni iku deshō?",
+        "en": "B: Yes. Mr. Tanaka will come too, won't he?",
+        "bn": "B: হ্যাঁ। মি. তানাকাও একসঙ্গে যাবেন, তাই না?"
+      },
+      {
+        "jp": "A：たぶん 行くでしょう。今晩 電話して みます。",
+        "furigana": "A：たぶん いくでしょう。こんばん でんわして みます。",
+        "romaji": "A: Tabun iku deshō. Konban denwa shite mimasu.",
+        "en": "A: He will probably go. I will try calling him tonight.",
+        "bn": "A: সম্ভবত যাবেন। আজ রাতে ফোন করে দেখি।"
       }
     ]
   }

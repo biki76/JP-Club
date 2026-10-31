@@ -1,26 +1,122 @@
 [
   {
-    "id": "minna-032-g001",
-    "pattern": "～かもしれません",
-    "meaning_en": "might / perhaps",
+    "id": "minna-032-g1",
+    "pattern": "普通形 + でしょう（推量）",
+    "meaning_en": "probably, I think (used to express a guess or probability)",
+    "meaning_bn": "সম্ভবত, সম্ভবত হবে (অনুমান বা সম্ভাবনা প্রকাশে)",
     "examples": [
       {
-        "jp": "雨が降るかもしれません。",
-        "en": "It might rain."
+        "jp": "明日は 雨が 降るでしょう。",
+        "furigana": "あしたは あめが ふるでしょう。",
+        "romaji": "ashita wa ame ga furu deshō.",
+        "en": "It will probably rain tomorrow.",
+        "bn": "কাল সম্ভবত বৃষ্টি হবে।"
+      },
+      {
+        "jp": "この 店は 安くて おいしいですから、人気が あるでしょう。",
+        "furigana": "この みせは やすくて おいしいですから、にんきが あるでしょう。",
+        "romaji": "kono mise wa yasukute oishii desu kara, ninki ga aru deshō.",
+        "en": "This shop is cheap and tasty, so it is probably popular.",
+        "bn": "এই দোকানটি সস্তা ও সুস্বাদু, তাই সম্ভবত জনপ্রিয় হবে।"
+      },
+      {
+        "jp": "彼は もう 家に 帰ったでしょう。",
+        "furigana": "かれは もう いえに かえったでしょう。",
+        "romaji": "kare wa mō ie ni kaetta deshō.",
+        "en": "He has probably already gone home.",
+        "bn": "তিনি সম্ভবত ইতিমধ্যে বাড়ি ফিরে গেছেন।"
       }
     ],
-    "meaning_bn": "might / perhaps"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-032-g002",
-    "pattern": "～でしょう",
-    "meaning_en": "probably",
+    "id": "minna-032-g2",
+    "pattern": "普通形 + かもしれません",
+    "meaning_en": "might, may (expresses a lower degree of possibility than でしょう)",
+    "meaning_bn": "হতে পারে, হতে পারে (でしょう থেকে কম নিশ্চয়তার সম্ভাবনা)",
     "examples": [
       {
-        "jp": "明日は晴れるでしょう。",
-        "en": "It will probably be sunny tomorrow."
+        "jp": "明日は 雪が 降るかもしれません。",
+        "furigana": "あしたは ゆきが ふるかもしれません。",
+        "romaji": "ashita wa yuki ga furu kamo shiremasen.",
+        "en": "It might snow tomorrow.",
+        "bn": "কাল তুষারপাত হতে পারে।"
+      },
+      {
+        "jp": "この 問題は 難しいかもしれません。",
+        "furigana": "この もんだいは むずかしいかもしれません。",
+        "romaji": "kono mondai wa muzukashii kamo shiremasen.",
+        "en": "This problem might be difficult.",
+        "bn": "এই সমস্যাটি কঠিন হতে পারে।"
+      },
+      {
+        "jp": "田中さんは 来ないかもしれません。",
+        "furigana": "たなかさんは こないかもしれません。",
+        "romaji": "tanaka-san wa konai kamo shiremasen.",
+        "en": "Mr. Tanaka might not come.",
+        "bn": "মি. তানাকা নাও আসতে পারেন।"
       }
     ],
-    "meaning_bn": "probably"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-032-g3",
+    "pattern": "普通形 + でしょう？（上昇調）",
+    "meaning_en": "right? isn't it? (used to seek agreement or confirmation)",
+    "meaning_bn": "তাই না? ঠিক আছে না? (সম্মতি বা নিশ্চিতকরণ চাইতে)",
+    "examples": [
+      {
+        "jp": "明日の パーティーに 来るでしょう？",
+        "furigana": "あしたの パーティーに くるでしょう？",
+        "romaji": "ashita no pātī ni kuru deshō?",
+        "en": "You will come to the party tomorrow, right?",
+        "bn": "তুমি কালকের পার্টিতে আসবে, তাই না?"
+      },
+      {
+        "jp": "この 料理は おいしいでしょう？",
+        "furigana": "この りょうりは おいしいでしょう？",
+        "romaji": "kono ryōri wa oishii deshō?",
+        "en": "This dish is delicious, isn't it?",
+        "bn": "এই খাবারটি সুস্বাদু, তাই না?"
+      },
+      {
+        "jp": "寒いでしょう？窓を 閉めましょうか。",
+        "furigana": "さむいでしょう？まどを しめましょうか。",
+        "romaji": "samui deshō? mado o shimemashō ka.",
+        "en": "It is cold, isn't it? Shall I close the window?",
+        "bn": "ঠান্ডা লাগছে, তাই না? জানালা বন্ধ করে দিই?"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-032-g4",
+    "pattern": "名詞／な形容詞 + でしょう（名詞＋でしょう／な形＋でしょう）",
+    "meaning_en": "probably is (with nouns and na-adjectives, no だ before でしょう)",
+    "meaning_bn": "সম্ভবত হবে (বিশেষ্য ও না-বিশেষণের সঙ্গে でしょう, আগে だ বসে না)",
+    "examples": [
+      {
+        "jp": "明日は いい 天気でしょう。",
+        "furigana": "あしたは いい てんきでしょう。",
+        "romaji": "ashita wa ii tenki deshō.",
+        "en": "Tomorrow will probably be fine weather.",
+        "bn": "কাল সম্ভবত ভালো আবহাওয়া থাকবে।"
+      },
+      {
+        "jp": "あの 人は 先生でしょう。",
+        "furigana": "あの ひとは せんせいでしょう。",
+        "romaji": "ano hito wa sensei deshō.",
+        "en": "That person is probably a teacher.",
+        "bn": "ওই ব্যক্তি সম্ভবত শিক্ষক।"
+      },
+      {
+        "jp": "この 町は 静かでしょう。",
+        "furigana": "この まちは しずかでしょう。",
+        "romaji": "kono machi wa shizuka deshō.",
+        "en": "This town is probably quiet.",
+        "bn": "এই শহরটি সম্ভবত শান্ত।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

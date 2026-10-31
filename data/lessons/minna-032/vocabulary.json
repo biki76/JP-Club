@@ -1,38 +1,269 @@
 [
   {
     "id": "minna-032-v001",
-    "kanji": "運動します",
-    "furigana": "うんどうします",
-    "romaji": "undou shimasu",
-    "english_meaning": "to exercise",
-    "type": "verb",
-    "bengali_meaning": "ব্যায়াম করা"
+    "kanji": "天気",
+    "furigana": "てんき",
+    "romaji": "tenki",
+    "english_meaning": "weather",
+    "bengali_meaning": "আবহাওয়া",
+    "tags": ["vocabulary", "lesson-32"]
   },
   {
     "id": "minna-032-v002",
-    "kanji": "成功します",
-    "furigana": "せいこうします",
-    "romaji": "seikou shimasu",
-    "english_meaning": "to succeed",
-    "type": "verb",
-    "bengali_meaning": "সফল হওয়া"
+    "kanji": "予報",
+    "furigana": "よほう",
+    "romaji": "yohō",
+    "english_meaning": "forecast",
+    "bengali_meaning": "পূর্বাভাস",
+    "tags": ["vocabulary", "lesson-32"]
   },
   {
     "id": "minna-032-v003",
-    "kanji": "失敗します",
-    "furigana": "しっぱいします",
-    "romaji": "shippai shimasu",
-    "english_meaning": "to fail",
-    "type": "verb",
-    "bengali_meaning": "ব্যর্থ হওয়া"
+    "kanji": "晴れる",
+    "furigana": "はれる",
+    "romaji": "hareru",
+    "english_meaning": "to clear up (weather)",
+    "bengali_meaning": "আকাশ পরিষ্কার হওয়া",
+    "tags": ["vocabulary", "lesson-32"]
   },
   {
     "id": "minna-032-v004",
-    "kanji": "合格します",
-    "furigana": "ごうかくします",
-    "romaji": "goukaku shimasu",
-    "english_meaning": "to pass (an exam)",
-    "type": "verb",
-    "bengali_meaning": "(পরীক্ষায়) পাশ করা"
+    "kanji": "曇る",
+    "furigana": "くもる",
+    "romaji": "kumoru",
+    "english_meaning": "to become cloudy",
+    "bengali_meaning": "মেঘলা হওয়া",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v005",
+    "kanji": "降る",
+    "furigana": "ふる",
+    "romaji": "furu",
+    "english_meaning": "to fall (rain, snow)",
+    "bengali_meaning": "বৃষ্টি বা তুষার পড়া",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v006",
+    "kanji": "雪",
+    "furigana": "ゆき",
+    "romaji": "yuki",
+    "english_meaning": "snow",
+    "bengali_meaning": "তুষার",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v007",
+    "kanji": "風",
+    "furigana": "かぜ",
+    "romaji": "kaze",
+    "english_meaning": "wind",
+    "bengali_meaning": "বাতাস",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v008",
+    "kanji": "暑い",
+    "furigana": "あつい",
+    "romaji": "atsui",
+    "english_meaning": "hot (weather)",
+    "bengali_meaning": "গরম",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v009",
+    "kanji": "寒い",
+    "furigana": "さむい",
+    "romaji": "samui",
+    "english_meaning": "cold (weather)",
+    "bengali_meaning": "ঠান্ডা",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v010",
+    "kanji": "涼しい",
+    "furigana": "すずしい",
+    "romaji": "suzushii",
+    "english_meaning": "cool",
+    "bengali_meaning": "শীতল",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v011",
+    "kanji": "暖かい",
+    "furigana": "あたたかい",
+    "romaji": "atatakai",
+    "english_meaning": "warm",
+    "bengali_meaning": "উষ্ণ",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v012",
+    "kanji": "春",
+    "furigana": "はる",
+    "romaji": "haru",
+    "english_meaning": "spring",
+    "bengali_meaning": "বসন্ত",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v013",
+    "kanji": "夏",
+    "furigana": "なつ",
+    "romaji": "natsu",
+    "english_meaning": "summer",
+    "bengali_meaning": "গ্রীষ্ম",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v014",
+    "kanji": "秋",
+    "furigana": "あき",
+    "romaji": "aki",
+    "english_meaning": "autumn",
+    "bengali_meaning": "শরৎ",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v015",
+    "kanji": "冬",
+    "furigana": "ふゆ",
+    "romaji": "fuyu",
+    "english_meaning": "winter",
+    "bengali_meaning": "শীত",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v016",
+    "kanji": "季節",
+    "furigana": "きせつ",
+    "romaji": "kisetsu",
+    "english_meaning": "season",
+    "bengali_meaning": "ঋতু",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v017",
+    "kanji": "台風",
+    "furigana": "たいふう",
+    "romaji": "taifū",
+    "english_meaning": "typhoon",
+    "bengali_meaning": "টাইফুন, ঘূর্ণিঝড়",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v018",
+    "kanji": "多分",
+    "furigana": "たぶん",
+    "romaji": "tabun",
+    "english_meaning": "probably, perhaps",
+    "bengali_meaning": "সম্ভবত",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v019",
+    "furigana": "きっと",
+    "romaji": "kitto",
+    "english_meaning": "surely, certainly",
+    "bengali_meaning": "নিশ্চয়ই",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v020",
+    "furigana": "もしかしたら",
+    "romaji": "moshikashitara",
+    "english_meaning": "maybe, perhaps",
+    "bengali_meaning": "হয়তো",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v021",
+    "furigana": "たぶん",
+    "romaji": "tabun",
+    "english_meaning": "probably",
+    "bengali_meaning": "সম্ভবত",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v022",
+    "kanji": "雪国",
+    "furigana": "ゆきぐに",
+    "romaji": "yukiguni",
+    "english_meaning": "snow country, snowy region",
+    "bengali_meaning": "তুষারময় অঞ্চল",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v023",
+    "kanji": "自然",
+    "furigana": "しぜん",
+    "romaji": "shizen",
+    "english_meaning": "nature",
+    "bengali_meaning": "প্রকৃতি",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v024",
+    "kanji": "景色",
+    "furigana": "けしき",
+    "romaji": "keshiki",
+    "english_meaning": "scenery, view",
+    "bengali_meaning": "দৃশ্য",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v025",
+    "kanji": "山登り",
+    "furigana": "やまのぼり",
+    "romaji": "yamanobori",
+    "english_meaning": "mountain climbing",
+    "bengali_meaning": "পাহাড়ে ওঠা",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v026",
+    "kanji": "旅行",
+    "furigana": "りょこう",
+    "romaji": "ryokō",
+    "english_meaning": "travel, trip",
+    "bengali_meaning": "ভ্রমণ",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v027",
+    "kanji": "荷物",
+    "furigana": "にもつ",
+    "romaji": "nimotsu",
+    "english_meaning": "luggage, baggage",
+    "bengali_meaning": "মালপত্র",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v028",
+    "kanji": "都合",
+    "furigana": "つごう",
+    "romaji": "tsugō",
+    "english_meaning": "convenience, circumstances",
+    "bengali_meaning": "সুবিধা, পরিস্থিতি",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v029",
+    "kanji": "遅刻",
+    "furigana": "ちこく",
+    "romaji": "chikoku",
+    "english_meaning": "tardiness, being late",
+    "bengali_meaning": "দেরি",
+    "tags": ["vocabulary", "lesson-32"]
+  },
+  {
+    "id": "minna-032-v030",
+    "kanji": "迎え",
+    "furigana": "むかえ",
+    "romaji": "mukae",
+    "english_meaning": "picking someone up, meeting",
+    "bengali_meaning": "এগিয়ে নিতে যাওয়া",
+    "tags": ["vocabulary", "lesson-32"]
   }
 ]

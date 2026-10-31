@@ -3,15 +3,15 @@
   "courseId": "minna-beginner",
   "lessonNumber": 32,
   "title": {
-    "en": "Lesson 32",
-    "bn": "পাঠ 32"
+    "en": "Making Guesses and Predictions",
+    "bn": "অনুমান ও ভবিষ্যদ্বাণী করা"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 32",
-    "bn": "মিন্না নো নিহোঙ্গো 32"
+    "en": "でしょう（推量）・かもしれません（可能性）・でしょう（確認）",
+    "bn": "でしょう（অনুমান）・かもしれません（সম্ভাবনা）・でしょう（নিশ্চিতকরণ）"
   },
   "jlpt": "N4",
-  "durationMin": 50,
+  "durationMin": 55,
   "dataFiles": {
     "vocabulary": "vocabulary.json",
     "grammar": "grammar.json",

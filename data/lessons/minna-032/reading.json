@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-032-r001",
+    "id": "minna-032-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "Tomorrow's Weather and Weekend Plans",
+      "bn": "আগামীকালের আবহাওয়া ও সাপ্তাহিক ছুটির পরিকল্পনা"
     },
     "passage": [
       {
-        "jp": "これは うんどうします です。",
-        "furigana": "これは うんどうします です。",
-        "romaji": "Kore wa undōshimasu desu.",
-        "en": "This is (take) exercise.",
-        "bn": "এটি (take) exercise।"
+        "jp": "今日の 天気予報を 聞きました。",
+        "furigana": "きょうの てんきよほうを ききました。",
+        "romaji": "Kyō no tenki yohō o kikimashita.",
+        "en": "I listened to today's weather forecast.",
+        "bn": "আমি আজকের আবহাওয়ার পূর্বাভাস শুনলাম।"
+      },
+      {
+        "jp": "明日は 朝から 曇るでしょう。",
+        "furigana": "あしたは あさから くもるでしょう。",
+        "romaji": "Ashita wa asa kara kumoru deshō.",
+        "en": "Tomorrow it will probably be cloudy from the morning.",
+        "bn": "কাল সকাল থেকে আকাশ মেঘলা থাকবে।"
+      },
+      {
+        "jp": "午後は 雨が 降るかもしれません。",
+        "furigana": "ごごは あめが ふるかもしれません。",
+        "romaji": "Gogo wa ame ga furu kamo shiremasen.",
+        "en": "In the afternoon it might rain.",
+        "bn": "বিকেলে বৃষ্টি হতে পারে।"
+      },
+      {
+        "jp": "夜は 風が 強くなるでしょう。",
+        "furigana": "よるは かぜが つよくなるでしょう。",
+        "romaji": "Yoru wa kaze ga tsuyoku naru deshō.",
+        "en": "At night the wind will probably become strong.",
+        "bn": "রাতে বাতাস সম্ভবত জোরে বইবে।"
+      },
+      {
+        "jp": "私は 週末に 友だちと 山登りを する 予定です。",
+        "furigana": "わたしは しゅうまつに ともだちと やまのぼりを する よていです。",
+        "romaji": "Watashi wa shūmatsu ni tomodachi to yamanobori o suru yotei desu.",
+        "en": "I am scheduled to go mountain climbing with friends this weekend.",
+        "bn": "আমি এই সপ্তাহান্তে বন্ধুদের সঙ্গে পাহাড়ে ওঠার পরিকল্পনা করেছি।"
+      },
+      {
+        "jp": "でも、雨が 降ったら、旅行を 中止する つもりです。",
+        "furigana": "でも、あめが ふったら、りょこうを ちゅうしする つもりです。",
+        "romaji": "Demo, ame ga futtara, ryokō o chūshi suru tsumori desu.",
+        "en": "But if it rains, I intend to cancel the trip.",
+        "bn": "কিন্তু বৃষ্টি হলে আমি ভ্রমণ বাতিল করার ইচ্ছা করেছি।"
+      },
+      {
+        "jp": "もしかしたら、台風が 来るかもしれません。",
+        "furigana": "もしかしたら、たいふうが くるかもしれません。",
+        "romaji": "Moshikashitara, taifū ga kuru kamo shiremasen.",
+        "en": "Perhaps a typhoon might come.",
+        "bn": "হয়তো টাইফুন আসতে পারে।"
+      },
+      {
+        "jp": "天気が よかったら、きっと 楽しいでしょう。",
+        "furigana": "てんきが よかったら、きっと たのしいでしょう。",
+        "romaji": "Tenki ga yokattara, kitto tanoshii deshō.",
+        "en": "If the weather is good, it will surely be fun.",
+        "bn": "আবহাওয়া ভালো থাকলে নিশ্চয়ই আনন্দময় হবে।"
       }
     ]
   }
