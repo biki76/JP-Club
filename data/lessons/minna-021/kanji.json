@@ -1,97 +1,204 @@
 [
   {
-    "character": "日",
+    "character": "思",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "シ"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "おも.う"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "think"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "ভাবা",
+        "মনে করা"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 5,
+    "radicals": [
+      "田",
+      "心"
+    ],
+    "strokes": 9,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "言",
     "onyomi": [
-      "ホン"
+      "ゲン",
+      "ゴン"
     ],
     "kunyomi": [
-      "もと"
+      "い.う"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "say",
+        "word"
       ],
       "bn": [
-        "বই, উৎস"
+        "বলা",
+        "শব্দ"
       ]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 5,
+    "radicals": [
+      "言"
+    ],
+    "strokes": 7,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "勝",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "か.つ"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "win"
       ],
       "bn": [
-        "অর্থ"
+        "জেতা"
       ]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 5,
+    "radicals": [
+      "月",
+      "力"
+    ],
+    "strokes": 12,
+    "grade": 3,
     "jlpt": "N5"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "負",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ま.ける",
+      "お.う"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "lose",
+        "be beaten"
       ],
       "bn": [
-        "অর্থ"
+        "হারা"
       ]
     },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 5,
+    "radicals": [
+      "ク",
+      "貝"
+    ],
+    "strokes": 9,
+    "grade": 3,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "役",
+    "onyomi": [
+      "ヤク"
+    ],
     "kunyomi": [],
     "meanings": {
       "en": [
-        "Meaning"
+        "role",
+        "useful"
       ],
       "bn": [
-        "অর্থ"
+        "ভূমিকা",
+        "উপকারী"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "彳",
+      "殳"
+    ],
+    "strokes": 7,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "動",
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [
+      "うご.く"
+    ],
+    "meanings": {
+      "en": [
+        "move",
+        "work"
+      ],
+      "bn": [
+        "নড়া",
+        "চলা"
+      ]
+    },
+    "radicals": [
+      "重",
+      "力"
+    ],
     "strokes": 11,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "気",
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "spirit",
+        "mind",
+        "air"
+      ],
+      "bn": [
+        "মন",
+        "আত্মা",
+        "বাতাস"
+      ]
+    },
+    "radicals": [
+      "气",
+      "乂"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "jlpt": "N5"
+  },
+  {
+    "character": "夢",
+    "onyomi": [
+      "ム"
+    ],
+    "kunyomi": [
+      "ゆめ"
+    ],
+    "meanings": {
+      "en": [
+        "dream"
+      ],
+      "bn": [
+        "স্বপ্ন"
+      ]
+    },
+    "radicals": [
+      "艹",
+      "罒",
+      "夕"
+    ],
+    "strokes": 13,
     "grade": 5,
     "jlpt": "N5"
   }

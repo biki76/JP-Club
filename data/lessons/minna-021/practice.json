@@ -46,5 +46,149 @@
       "en": "The pattern 〜21-B means \"Grammar pattern 21-B\".",
       "bn": "〜21-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 21-B\"।"
     }
+  },
+  {
+    "id": "minna-021-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 明日は 雨だと 思います。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 明日は 雨だと 思います。"
+    },
+    "stem": {
+      "jp": "明日は 雨だと 思います。",
+      "furigana": "あしたは あめだと おもいます।",
+      "romaji": "ashita wa ame da to omoimasu."
+    },
+    "options": [
+      "I think it will rain tomorrow.",
+      "I know it rained yesterday.",
+      "It will not rain tomorrow.",
+      "Do you think it will rain?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Plain form + と思います expresses an opinion.",
+      "bn": "সাধারণ রূপ + と思います মতামত প্রকাশ করে।"
+    }
+  },
+  {
+    "id": "minna-021-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 先生は 明日 テストが あると 言いました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 先生は 明日 テストが あると 言いました。"
+    },
+    "stem": {
+      "jp": "先生は 明日 テストが あると 言いました。",
+      "furigana": "せんせいは あした テストが あると いいました।",
+      "romaji": "sensei wa ashita tesuto ga aru to iimashita."
+    },
+    "options": [
+      "The teacher said there is a test tomorrow.",
+      "The teacher asked about tomorrow's test.",
+      "The teacher thinks the test is easy.",
+      "There was a test yesterday."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Plain form + と言います reports what someone said.",
+      "bn": "সাধারণ রূপ + と言います কারও বলা কথা উদ্ধৃত করে।"
+    }
+  },
+  {
+    "id": "minna-021-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 試合は 日本が 勝つでしょう？",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 試合は 日本が 勝つでしょう？"
+    },
+    "stem": {
+      "jp": "この 試合は 日本が 勝つでしょう？",
+      "furigana": "この しあいは にほんが かつでしょう？",
+      "romaji": "kono shiai wa nihon ga katsu deshou?"
+    },
+    "options": [
+      "Japan will probably win this match, right?",
+      "Did Japan win this match?",
+      "Japan will lose this match.",
+      "Will Japan play a match?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜でしょう？ asks for agreement about a guess.",
+      "bn": "〜でしょう？ অনুমানের বিষয়ে সম্মতি চায়।"
+    }
+  },
+  {
+    "id": "minna-021-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: もう 帰らないと……",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: もう 帰らないと……"
+    },
+    "stem": {
+      "jp": "もう 帰らないと……",
+      "furigana": "もう かえらないと……",
+      "romaji": "mou kaeranai to……"
+    },
+    "options": [
+      "I must get home now…",
+      "I will not go home.",
+      "I have already gone home.",
+      "Shall we go home together?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜ないと is a casual way of saying \"I must ~\".",
+      "bn": "〜ないと কথ্য ভাষায় \"~ করতে হবে\" বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-021-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私は 彼の 意見が 正しいと 思います。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私は 彼の 意見が 正しいと 思います。"
+    },
+    "stem": {
+      "jp": "私は 彼の 意見が 正しいと 思います。",
+      "furigana": "わたしは かれの いけんが ただしいと おもいます।",
+      "romaji": "watashi wa kare no iken ga tadashii to omoimasu."
+    },
+    "options": [
+      "I think his opinion is correct.",
+      "I do not know his opinion.",
+      "He thinks my opinion is correct.",
+      "His opinion is wrong."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "i-adjective plain form + と思います expresses a judgment.",
+      "bn": "ই-বিশেষণের সাধারণ রূপ + と思います বিচার প্রকাশ করে।"
+    }
+  },
+  {
+    "id": "minna-021-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 最近 物価が 高いと 言われています。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 最近 物価が 高いと 言われています。"
+    },
+    "stem": {
+      "jp": "最近 物価が 高いと 言われています。",
+      "furigana": "さいきん ぶっかが たかいと いわれています।",
+      "romaji": "saikin bukka ga takai to iwarete imasu."
+    },
+    "options": [
+      "These days it is said that prices are high.",
+      "These days prices have become cheap.",
+      "I said prices would rise.",
+      "Prices were high long ago."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "と言われています means \"it is said that ~\".",
+      "bn": "と言われています মানে \"বলা হয় যে ~\"।"
+    }
   }
 ]

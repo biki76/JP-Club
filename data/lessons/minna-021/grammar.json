@@ -3,14 +3,14 @@
     "id": "minna-021-g1",
     "pattern": "〜21-A",
     "meaning_en": "Grammar pattern 21-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 21-A",
+    "meaning_bn": "~ মনে করি / ~ ভাবি (~と思います)",
     "examples": [
       {
         "jp": "これは レッスン21の 文法です。",
         "en": "This is lesson 21 grammar.",
-        "bn": "This is lesson 21 grammar.",
-        "furigana": "これは レッスン21の 文法です。",
-        "romaji": ""
+        "bn": "আগামীকাল বৃষ্টি হবে বলে আমি মনে করি।",
+        "furigana": "あしたは あめだと おもいます।",
+        "romaji": "ashita wa ame da to omoimasu."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-021-g2",
     "pattern": "〜21-B",
     "meaning_en": "Grammar pattern 21-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 21-B",
+    "meaning_bn": "~ বলে / ~ বলেন (~と言います)",
     "examples": [
       {
         "jp": "これは レッスン21の 文法です。",
         "en": "This is lesson 21 grammar.",
-        "bn": "This is lesson 21 grammar.",
-        "furigana": "これは レッスン21の 文法です。",
-        "romaji": ""
+        "bn": "শিক্ষক বলেছিলেন আগামীকাল পরীক্ষা আছে।",
+        "furigana": "せんせいは あした テストが あると いいました।",
+        "romaji": "sensei wa ashita tesuto ga aru to iimashita."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-021-g3",
+    "pattern": "〜でしょう？",
+    "meaning_en": "~, right? / probably ~",
+    "meaning_bn": "~ হবে, তাই না? / সম্ভবত ~",
+    "examples": [
+      {
+        "jp": "明日も 寒いでしょう？",
+        "furigana": "あしたも さむいでしょう？",
+        "romaji": "ashita mo samui deshou?",
+        "en": "It will be cold tomorrow too, right?",
+        "bn": "আগামীকালও শীত থাকবে, তাই না?"
+      },
+      {
+        "jp": "この 試合は 日本が 勝つでしょう？",
+        "furigana": "この しあいは にほんが かつでしょう？",
+        "romaji": "kono shiai wa nihon ga katsu deshou?",
+        "en": "Japan will probably win this match, right?",
+        "bn": "এই ম্যাচে জাপান জিতবে, তাই না?"
+      },
+      {
+        "jp": "彼は もう 帰ったでしょう？",
+        "furigana": "かれは もう かえったでしょう？",
+        "romaji": "kare wa mou kaetta deshou?",
+        "en": "He has probably gone home already, right?",
+        "bn": "সে সম্ভবত ইতিমধ্যে বাড়ি ফিরে গেছে, তাই না?"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-021-g4",
+    "pattern": "〜ないと……",
+    "meaning_en": "I must ~, so… (casual)",
+    "meaning_bn": "~ করতে হবে, তাই… (কথ্য)",
+    "examples": [
+      {
+        "jp": "もう 帰らないと……",
+        "furigana": "もう かえらないと……",
+        "romaji": "mou kaeranai to……",
+        "en": "I must get home now…",
+        "bn": "এখন আমাকে বাড়ি ফিরতে হবে…"
+      },
+      {
+        "jp": "明日 早いから、もう 寝ないと。",
+        "furigana": "あした はやいから、もう ねないと।",
+        "romaji": "ashita hayai kara, mou nenai to.",
+        "en": "Tomorrow is early, so I must sleep now.",
+        "bn": "কাল তাড়াতাড়ি উঠতে হবে, তাই এখন ঘুমানো দরকার।"
+      },
+      {
+        "jp": "電車に 乗らないと。",
+        "furigana": "でんしゃに のらないと।",
+        "romaji": "densha ni noranai to.",
+        "en": "I have to catch the train.",
+        "bn": "আমাকে ট্রেন ধরতে হবে।"
       }
     ],
     "tags": [
