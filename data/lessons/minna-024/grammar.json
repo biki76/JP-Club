@@ -3,14 +3,14 @@
     "id": "minna-024-g1",
     "pattern": "〜24-A",
     "meaning_en": "Grammar pattern 24-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 24-A",
+    "meaning_bn": "কারও জন্য ~ করে দিই (~てあげます)",
     "examples": [
       {
         "jp": "これは レッスン24の 文法です。",
         "en": "This is lesson 24 grammar.",
-        "bn": "This is lesson 24 grammar.",
-        "furigana": "これは レッスン24の 文法です。",
-        "romaji": ""
+        "bn": "আমি ছোট বোনের জন্য মিষ্টি বানিয়ে দিয়েছিলাম।",
+        "furigana": "わたしは いもうとに おかしを つくって あげました।",
+        "romaji": "watashi wa imouto ni okashi o tsukutte agemashita."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-024-g2",
     "pattern": "〜24-B",
     "meaning_en": "Grammar pattern 24-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 24-B",
+    "meaning_bn": "কারও কাছে ~ করিয়ে নিই (~てもらいます)",
     "examples": [
       {
         "jp": "これは レッスン24の 文法です。",
         "en": "This is lesson 24 grammar.",
-        "bn": "This is lesson 24 grammar.",
-        "furigana": "これは レッスン24の 文法です。",
-        "romaji": ""
+        "bn": "আমি বন্ধুর কাছে ছবি তুলিয়ে নিলাম।",
+        "furigana": "わたしは ともだちに しゃしんを とって もらいました।",
+        "romaji": "watashi wa tomodachi ni shashin o totte moraimashita."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-024-g3",
+    "pattern": "〜てくれます",
+    "meaning_en": "someone does ~ for me (a favour to me)",
+    "meaning_bn": "কেউ আমার জন্য ~ করে দেয় (~てくれます)",
+    "examples": [
+      {
+        "jp": "友達が 私の 引っ越しを 手伝って くれました。",
+        "furigana": "ともだちが わたしの ひっこしを てつだって くれました।",
+        "romaji": "tomodachi ga watashi no hikkoshi o tetsudatte kuremashita.",
+        "en": "My friend helped me move house.",
+        "bn": "বন্ধু আমার বাড়ি বদলাতে সাহায্য করেছিল।"
+      },
+      {
+        "jp": "母が おいしい 料理を 作って くれました。",
+        "furigana": "ははが おいしい りょうりを つくって くれました।",
+        "romaji": "haha ga oishii ryouri o tsukutte kuremashita.",
+        "en": "My mother cooked a delicious meal for me.",
+        "bn": "মা আমার জন্য সুস্বাদু রান্না করে দিলেন।"
+      },
+      {
+        "jp": "田中さんが 駅まで 案内して くれました。",
+        "furigana": "たなかさんが えきまで あんないして くれました।",
+        "romaji": "tanaka san ga eki made annai shite kuremashita.",
+        "en": "Tanaka-san showed me the way to the station.",
+        "bn": "তানাকা-সান স্টেশন পর্যন্ত পথ দেখিয়ে নিয়ে গেলেন।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-024-g4",
+    "pattern": "〜てくれませんか / 〜てもらいませんか",
+    "meaning_en": "would you please do ~? / could I have you do ~?",
+    "meaning_bn": "একটু ~ করে দেবেন? / ~ করিয়ে নেবেন?",
+    "examples": [
+      {
+        "jp": "この 漢字の 意味を 説明して くれませんか。",
+        "furigana": "この かんじの いみを せつめいして くれませんか।",
+        "romaji": "kono kanji no imi o setsumei shite kuremasen ka.",
+        "en": "Would you explain the meaning of this kanji?",
+        "bn": "এই কাঞ্জিটির অর্থ একটু বুঝিয়ে দেবেন?"
+      },
+      {
+        "jp": "すみません、写真を 撮って くれませんか。",
+        "furigana": "すみません、しゃしんを とって くれませんか।",
+        "romaji": "sumimasen, shashin o totte kuremasen ka.",
+        "en": "Excuse me, could you take a photo for me?",
+        "bn": "মাফ করবেন, একটি ছবি তুলে দেবেন?"
+      },
+      {
+        "jp": "先生に この 書類を 直して もらいませんか。",
+        "furigana": "せんせいに この しょるいを なおして もらいませんか।",
+        "romaji": "sensei ni kono shorui o naoshite moraimasen ka.",
+        "en": "Shall we have the teacher correct these documents?",
+        "bn": "শিক্ষকের কাছে এই কাগজপত্রগুলো ঠিক করিয়ে নেবেন না?"
       }
     ],
     "tags": [

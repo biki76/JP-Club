@@ -1,98 +1,208 @@
 [
   {
-    "character": "日",
+    "character": "直",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "チョク"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "なお.す",
+      "なお.る"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "fix",
+        "correct",
+        "straight"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "সংশোধন করা",
+        "সোজা"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 5,
+    "radicals": [
+      "十",
+      "目",
+      "一"
+    ],
+    "strokes": 8,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "連",
     "onyomi": [
-      "ホン"
+      "レン"
     ],
     "kunyomi": [
-      "もと"
+      "つ.れる"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "take along",
+        "connect"
       ],
       "bn": [
-        "বই, উৎস"
+        "সাথে নিয়ে যাওয়া"
       ]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": [
+      "辶",
+      "車"
+    ],
     "strokes": 10,
-    "grade": 5,
+    "grade": 4,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "送",
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "おく.る"
+    ],
+    "meanings": {
+      "en": [
+        "send",
+        "escort"
+      ],
+      "bn": [
+        "পাঠানো",
+        "এগিয়ে দেওয়া"
+      ]
+    },
+    "radicals": [
+      "辶",
+      "关"
+    ],
+    "strokes": 9,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "紹",
+    "onyomi": [
+      "ショウ"
+    ],
     "kunyomi": [],
     "meanings": {
       "en": [
-        "Meaning"
+        "introduce"
       ],
       "bn": [
-        "অর্থ"
+        "পরিচয় করানো"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "糸",
+      "召"
+    ],
     "strokes": 11,
-    "grade": 5,
+    "grade": 8,
+    "jlpt": "N5"
+  },
+  {
+    "character": "案",
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "plan",
+        "idea"
+      ],
+      "bn": [
+        "পরিকল্পনা",
+        "ধারণা"
+      ]
+    },
+    "radicals": [
+      "宀",
+      "女",
+      "木"
+    ],
+    "strokes": 10,
+    "grade": 4,
+    "jlpt": "N5"
+  },
+  {
+    "character": "説",
+    "onyomi": [
+      "セツ"
+    ],
+    "kunyomi": [
+      "と.く"
+    ],
+    "meanings": {
+      "en": [
+        "explain",
+        "theory"
+      ],
+      "bn": [
+        "ব্যাখ্যা করা",
+        "তত্ত্ব"
+      ]
+    },
+    "radicals": [
+      "言",
+      "丷",
+      "兄"
+    ],
+    "strokes": 14,
+    "grade": 4,
+    "jlpt": "N5"
+  },
+  {
+    "character": "明",
+    "onyomi": [
+      "メイ"
+    ],
+    "kunyomi": [
+      "あか.るい",
+      "あき.らか"
+    ],
+    "meanings": {
+      "en": [
+        "bright",
+        "clear"
+      ],
+      "bn": [
+        "উজ্জ্বল",
+        "স্পষ্ট"
+      ]
+    },
+    "radicals": [
+      "日",
+      "月"
+    ],
+    "strokes": 8,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "部",
+    "onyomi": [
+      "ブ"
+    ],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "part",
+        "department"
+      ],
+      "bn": [
+        "অংশ",
+        "বিভাগ"
+      ]
+    },
+    "radicals": [
+      "立",
+      "口",
+      "阝"
+    ],
+    "strokes": 11,
+    "grade": 3,
     "jlpt": "N5"
   }
 ]

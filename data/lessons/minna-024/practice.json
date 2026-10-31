@@ -46,5 +46,149 @@
       "en": "The pattern 〜24-B means \"Grammar pattern 24-B\".",
       "bn": "〜24-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 24-B\"।"
     }
+  },
+  {
+    "id": "minna-024-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私は 妹に お菓子を 作って あげました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私は 妹に お菓子を 作って あげました।"
+    },
+    "stem": {
+      "jp": "私は 妹に お菓子を 作って あげました。",
+      "furigana": "わたしは いもうとに おかしを つくって あげました।",
+      "romaji": "watashi wa imouto ni okashi o tsukutte agemashita."
+    },
+    "options": [
+      "I made sweets for my younger sister.",
+      "My younger sister made sweets for me.",
+      "I asked my sister to make sweets.",
+      "My sister bought me sweets."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜てあげます means the speaker does something for someone else.",
+      "bn": "〜てあげます মানে বক্তা অন্যের জন্য কিছু করে দেন।"
+    }
+  },
+  {
+    "id": "minna-024-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私は 友達に 写真を 撮って もらいました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私は 友達に 写真を 撮って もらいました।"
+    },
+    "stem": {
+      "jp": "私は 友達に 写真を 撮って もらいました。",
+      "furigana": "わたしは ともだちに しゃしんを とって もらいました।",
+      "romaji": "watashi wa tomodachi ni shashin o totte moraimashita."
+    },
+    "options": [
+      "I had my friend take a photo for me.",
+      "I took a photo for my friend.",
+      "My friend asked me to take a photo.",
+      "I took a photo of my friend."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜てもらいます means receiving a favour from someone.",
+      "bn": "〜てもらいます কারও কাছ থেকে উপকার পাওয়া বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-024-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 母が おいしい 料理を 作って くれました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 母が おいしい 料理を 作って くれました।"
+    },
+    "stem": {
+      "jp": "母が おいしい 料理を 作って くれました。",
+      "furigana": "ははが おいしい りょうりを つくって くれました।",
+      "romaji": "haha ga oishii ryouri o tsukutte kuremashita."
+    },
+    "options": [
+      "My mother cooked a delicious meal for me.",
+      "I cooked a delicious meal for my mother.",
+      "My mother asked me to cook.",
+      "My mother ate a delicious meal."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜てくれます means someone does something for the speaker.",
+      "bn": "〜てくれます মানে কেউ বক্তার জন্য কিছু করে।"
+    }
+  },
+  {
+    "id": "minna-024-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 写真を 撮って くれませんか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 写真を 撮って くれませんか।"
+    },
+    "stem": {
+      "jp": "写真を 撮って くれませんか。",
+      "furigana": "しゃしんを とって くれませんか।",
+      "romaji": "shashin o totte kuremasen ka."
+    },
+    "options": [
+      "Would you take a photo for me?",
+      "Shall I take a photo for you?",
+      "Do you like taking photos?",
+      "I do not take photos."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜てくれませんか politely asks someone for a favour.",
+      "bn": "〜てくれませんか ভদ্রভাবে কারও কাছে উপকার চায়।"
+    }
+  },
+  {
+    "id": "minna-024-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 田中さんは 私に 日本語を 教えて くれました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 田中さんは 私に 日本語を 教えて くれました।"
+    },
+    "stem": {
+      "jp": "田中さんは 私に 日本語を 教えて くれました。",
+      "furigana": "たなかさんは わたしに にほんごを おしえて くれました।",
+      "romaji": "tanaka san wa watashi ni nihongo o oshiete kuremashita."
+    },
+    "options": [
+      "Tanaka-san taught me Japanese.",
+      "I taught Tanaka-san Japanese.",
+      "Tanaka-san learned Japanese from me.",
+      "Tanaka-san asked me about Japanese."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "私に marks the speaker as the receiver of the favour.",
+      "bn": "私に বক্তাকে উপকার গ্রহীতা হিসেবে চিহ্নিত করে।"
+    }
+  },
+  {
+    "id": "minna-024-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私は 兄に 自転車を 直して もらいました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私は 兄に 自転車を 直して もらいました।"
+    },
+    "stem": {
+      "jp": "私は 兄に 自転車を 直して もらいました。",
+      "furigana": "わたしは あにに じてんしゃを なおして もらいました।",
+      "romaji": "watashi wa ani ni jitensha o naoshite moraimashita."
+    },
+    "options": [
+      "I had my elder brother fix my bicycle.",
+      "I fixed my elder brother's bicycle.",
+      "My elder brother borrowed my bicycle.",
+      "I sold my bicycle to my brother."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "兄に + 〜てもらいました shows the brother performed the favour.",
+      "bn": "兄に + 〜てもらいました বোঝায় ভাই উপকারটি করেছিলেন।"
+    }
   }
 ]
