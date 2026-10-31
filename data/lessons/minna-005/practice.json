@@ -94,5 +94,101 @@
       "en": "The pattern いつ means \"when\".",
       "bn": "いつ এর অর্থ \"কখন\"।"
     }
+  },
+  {
+    "id": "minna-005-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 日本へ 行きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 日本へ 行きます।"
+    },
+    "stem": {
+      "jp": "日本へ 行きます。",
+      "furigana": "にほんへ いきます。",
+      "romaji": "nihon e ikimasu."
+    },
+    "options": [
+      "I will go to Japan.",
+      "I came from Japan.",
+      "I will return to Japan.",
+      "I live in Japan."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The particle へ marks the direction of movement, and 行きます means \"go\".",
+      "bn": "কণা へ গন্তব্যের দিক বোঝায়, আর 行きます মানে \"যাই\"।"
+    }
+  },
+  {
+    "id": "minna-005-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 電車で 行きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 電車で 行きます।"
+    },
+    "stem": {
+      "jp": "電車で 行きます。",
+      "furigana": "でんしゃで いきます。",
+      "romaji": "densha de ikimasu."
+    },
+    "options": [
+      "I will go by train.",
+      "I will go to the train.",
+      "The train will come.",
+      "I will wait for the train."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The particle で marks the means of transport: \"by train\".",
+      "bn": "কণা で যানবাহনের মাধ্যম বোঝায়: \"ট্রেনে\"।"
+    }
+  },
+  {
+    "id": "minna-005-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 友達と 行きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 友達と 行きます।"
+    },
+    "stem": {
+      "jp": "友達と 行きます。",
+      "furigana": "ともだちと いきます。",
+      "romaji": "tomodachi to ikimasu."
+    },
+    "options": [
+      "I will go with a friend.",
+      "I will go to a friend.",
+      "A friend will come.",
+      "I will go alone."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The particle と means \"together with\" a person.",
+      "bn": "কণা と কোনো ব্যক্তির সাথে যাওয়া বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-005-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: いつ 日本へ 行きますか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: いつ 日本へ 行きますか।"
+    },
+    "stem": {
+      "jp": "いつ 日本へ 行きますか。",
+      "furigana": "いつ にほんへ いきますか。",
+      "romaji": "itsu nihon e ikimasu ka."
+    },
+    "options": [
+      "When will you go to Japan?",
+      "Where will you go in Japan?",
+      "Who will go to Japan?",
+      "Why will you go to Japan?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "いつ means \"when\" and does not take a particle in this question.",
+      "bn": "いつ মানে \"কখন\" এবং এই প্রশ্নে এর সাথে কোনো কণা বসে না।"
+    }
   }
 ]

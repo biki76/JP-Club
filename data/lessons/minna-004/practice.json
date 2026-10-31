@@ -94,5 +94,101 @@
       "en": "The pattern 〜ました / 〜ませんでした means \"polite past aff. / neg.\".",
       "bn": "〜ました / 〜ませんでした এর অর্থ \"ভদ্র অতীত হ্যাঁ / না\"।"
     }
+  },
+  {
+    "id": "minna-004-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 今、4時です。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 今、4時です。"
+    },
+    "stem": {
+      "jp": "今、4時です。",
+      "furigana": "いま、よじです。",
+      "romaji": "ima, yoji desu."
+    },
+    "options": [
+      "It is 4 o'clock now.",
+      "It is 4 minutes now.",
+      "It was 4 o'clock yesterday.",
+      "It is 4 days from now."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "時 means \"o'clock\". 4時 is read よじ.",
+      "bn": "時 মানে \"টা\" (ঘণ্টা)। 4時 পড়া হয় よじ।"
+    }
+  },
+  {
+    "id": "minna-004-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 9時から 5時まで 働きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 9時から 5時まで 働きます।"
+    },
+    "stem": {
+      "jp": "9時から 5時まで 働きます。",
+      "furigana": "くじから ごじまで はたらきます。",
+      "romaji": "kuji kara goji made hatarakimasu."
+    },
+    "options": [
+      "I work from 9 to 5.",
+      "I rest from 9 to 5.",
+      "I study from 9 to 5.",
+      "I go home at 9 and 5."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜から 〜まで means \"from ~ to ~\", and 働きます means \"work\".",
+      "bn": "〜から 〜まで মানে \"~ থেকে ~ পর্যন্ত\", আর 働きます মানে \"কাজ করি\"।"
+    }
+  },
+  {
+    "id": "minna-004-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 昨日 勉強しました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 昨日 勉強しました。"
+    },
+    "stem": {
+      "jp": "昨日 勉強しました。",
+      "furigana": "きのう べんきょうしました。",
+      "romaji": "kinou benkyou shimashita."
+    },
+    "options": [
+      "I studied yesterday.",
+      "I study every day.",
+      "I will study tomorrow.",
+      "I did not study yesterday."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜ました is the polite past form, so the action happened in the past.",
+      "bn": "〜ました হলো ভদ্র অতীত রূপ, তাই কাজটি অতীতে ঘটেছে।"
+    }
+  },
+  {
+    "id": "minna-004-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 今日は 働きません。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 今日は 働きません।"
+    },
+    "stem": {
+      "jp": "今日は 働きません。",
+      "furigana": "きょうは はたらきません。",
+      "romaji": "kyou wa hatarakimasen."
+    },
+    "options": [
+      "I do not work today.",
+      "I worked today.",
+      "I work today.",
+      "I will work tomorrow."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜ません is the polite negative form of 〜ます.",
+      "bn": "〜ません হলো 〜ます এর ভদ্র না-বোধক রূপ।"
+    }
   }
 ]

@@ -94,5 +94,101 @@
       "en": "The pattern N を お願いします means \"N, please\".",
       "bn": "N を お願いします এর অর্থ \"N, দয়া করে\"।"
     }
+  },
+  {
+    "id": "minna-003-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: ここは 教室です。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: ここは 教室です。"
+    },
+    "stem": {
+      "jp": "ここは 教室です。",
+      "furigana": "ここは きょうしつです。",
+      "romaji": "koko wa kyoushitsu desu."
+    },
+    "options": [
+      "This (place) is a classroom.",
+      "That (place) is a classroom.",
+      "Where is the classroom?",
+      "Is this a classroom?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "ここ means \"here\". ここは 教室です means \"Here is a classroom.\"",
+      "bn": "ここ মানে \"এখানে\"। ここは 教室です মানে \"এখানে ক্লাসরুম\"।"
+    }
+  },
+  {
+    "id": "minna-003-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: トイレは どこですか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: トイレは どこですか。"
+    },
+    "stem": {
+      "jp": "トイレは どこですか。",
+      "furigana": "トイレは どこですか。",
+      "romaji": "toire wa doko desu ka."
+    },
+    "options": [
+      "Where is the toilet?",
+      "The toilet is here.",
+      "Is this the toilet?",
+      "The toilet is over there."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "どこですか asks for a place, so the sentence means \"Where is the toilet?\"",
+      "bn": "どこですか দিয়ে স্থান জিজ্ঞাসা করা হয়, তাই বাক্যটির অর্থ \"টয়লেট কোথায়?\"।"
+    }
+  },
+  {
+    "id": "minna-003-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: これを ください。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: これを ください。"
+    },
+    "stem": {
+      "jp": "これを ください。",
+      "furigana": "これを ください。",
+      "romaji": "kore o kudasai."
+    },
+    "options": [
+      "Please give me this.",
+      "Please show me this.",
+      "Where is this?",
+      "This is mine."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N を ください is used to ask for something politely: \"Please give me N.\"",
+      "bn": "N を ください দিয়ে ভদ্রভাবে কিছু চাওয়া হয়: \"N দিন\"।"
+    }
+  },
+  {
+    "id": "minna-003-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: コーヒーを お願いします。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: コーヒーを お願いします。"
+    },
+    "stem": {
+      "jp": "コーヒーを お願いします。",
+      "furigana": "コーヒーを おねがいします。",
+      "romaji": "koohii o onegaishimasu."
+    },
+    "options": [
+      "Coffee, please.",
+      "I don't want coffee.",
+      "Is there coffee?",
+      "The coffee is here."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N を お願いします is a polite way to order or request something.",
+      "bn": "N を お願いします হলো কিছু অর্ডার বা অনুরোধ করার ভদ্র উপায়।"
+    }
   }
 ]

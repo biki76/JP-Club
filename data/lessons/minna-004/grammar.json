@@ -3,14 +3,14 @@
     "id": "minna-004-g1",
     "pattern": "〜時 / 〜分",
     "meaning_en": "hour / minute",
-    "meaning_bn": "ঘণ্টা / মিনিট",
+    "meaning_bn": "~টা / ~মিনিট (সময়)",
     "examples": [
       {
         "jp": "今、4時です。",
         "en": "It is 4 o'clock now.",
-        "bn": "It is 4 o'clock now.",
-        "furigana": "今、4時です。",
-        "romaji": ""
+        "bn": "এখন চারটা বাজে।",
+        "furigana": "いま、よじです。",
+        "romaji": "ima, yoji desu."
       }
     ],
     "tags": [
@@ -26,9 +26,9 @@
       {
         "jp": "9時から 5時まで 働きます。",
         "en": "I work from 9 to 5.",
-        "bn": "I work from 9 to 5.",
-        "furigana": "9時から 5時まで 働きます。",
-        "romaji": ""
+        "bn": "আমি নটা থেকে পাঁচটা পর্যন্ত কাজ করি।",
+        "furigana": "くじから ごじまで はたらきます。",
+        "romaji": "kuji kara goji made hatarakimasu."
       }
     ],
     "tags": [
@@ -39,14 +39,14 @@
     "id": "minna-004-g3",
     "pattern": "〜ます / 〜ません",
     "meaning_en": "polite present aff. / neg.",
-    "meaning_bn": "ভদ্র বর্তমান হ্যাঁ / না",
+    "meaning_bn": "ভদ্র বর্তমান কাল (হ্যাঁ-বোধক / না-বোধক)",
     "examples": [
       {
         "jp": "毎日 勉強します。",
         "en": "I study every day.",
-        "bn": "I study every day.",
-        "furigana": "毎日 勉強します。",
-        "romaji": ""
+        "bn": "আমি প্রতিদিন পড়াশোনা করি।",
+        "furigana": "まいにち べんきょうします。",
+        "romaji": "mainichi benkyou shimasu."
       }
     ],
     "tags": [
@@ -57,14 +57,14 @@
     "id": "minna-004-g4",
     "pattern": "〜ました / 〜ませんでした",
     "meaning_en": "polite past aff. / neg.",
-    "meaning_bn": "ভদ্র অতীত হ্যাঁ / না",
+    "meaning_bn": "ভদ্র অতীত কাল (হ্যাঁ-বোধক / না-বোধক)",
     "examples": [
       {
         "jp": "昨日 勉強しました。",
         "en": "I studied yesterday.",
-        "bn": "I studied yesterday.",
-        "furigana": "昨日 勉強しました。",
-        "romaji": ""
+        "bn": "আমি গতকাল পড়াশোনা করেছিলাম।",
+        "furigana": "きのう べんきょうしました。",
+        "romaji": "kinou benkyou shimashita."
       }
     ],
     "tags": [

@@ -8,9 +8,9 @@
       {
         "jp": "ここは 教室です。",
         "en": "Here is a classroom.",
-        "bn": "Here is a classroom.",
-        "furigana": "ここは 教室です。",
-        "romaji": ""
+        "bn": "এখানে ক্লাসরুম।",
+        "furigana": "ここは きょうしつです。",
+        "romaji": "koko wa kyoushitsu desu."
       }
     ],
     "tags": [
@@ -26,9 +26,9 @@
       {
         "jp": "トイレは どこですか。",
         "en": "Where is the toilet?",
-        "bn": "Where is the toilet?",
+        "bn": "টয়লেট কোথায়?",
         "furigana": "トイレは どこですか。",
-        "romaji": ""
+        "romaji": "toire wa doko desu ka."
       }
     ],
     "tags": [
@@ -39,14 +39,14 @@
     "id": "minna-003-g3",
     "pattern": "N を ください",
     "meaning_en": "Please give me N",
-    "meaning_bn": "N দিন",
+    "meaning_bn": "N দিন (দয়া করে)",
     "examples": [
       {
         "jp": "これを ください。",
         "en": "Please give me this.",
-        "bn": "Please give me this.",
+        "bn": "এটা আমাকে দিন।",
         "furigana": "これを ください。",
-        "romaji": ""
+        "romaji": "kore o kudasai."
       }
     ],
     "tags": [
@@ -57,14 +57,14 @@
     "id": "minna-003-g4",
     "pattern": "N を お願いします",
     "meaning_en": "N, please",
-    "meaning_bn": "N, দয়া করে",
+    "meaning_bn": "N, দয়া করে দিন",
     "examples": [
       {
         "jp": "コーヒーを お願いします。",
         "en": "Coffee, please.",
-        "bn": "Coffee, please.",
-        "furigana": "コーヒーを お願いします。",
-        "romaji": ""
+        "bn": "কফি দয়া করে দিন।",
+        "furigana": "コーヒーを おねがいします。",
+        "romaji": "koohii o onegaishimasu."
       }
     ],
     "tags": [

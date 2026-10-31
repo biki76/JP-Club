@@ -3,14 +3,14 @@
     "id": "minna-005-g1",
     "pattern": "N へ 行きます",
     "meaning_en": "go to N",
-    "meaning_bn": "N-তে যাই",
+    "meaning_bn": "N-এ যাই",
     "examples": [
       {
         "jp": "日本へ 行きます。",
         "en": "I will go to Japan.",
-        "bn": "I will go to Japan.",
-        "furigana": "日本へ 行きます。",
-        "romaji": ""
+        "bn": "আমি জাপানে যাব।",
+        "furigana": "にほんへ いきます。",
+        "romaji": "nihon e ikimasu."
       }
     ],
     "tags": [
@@ -21,14 +21,14 @@
     "id": "minna-005-g2",
     "pattern": "N で 行きます",
     "meaning_en": "go by N",
-    "meaning_bn": "N দিয়ে যাই",
+    "meaning_bn": "N দিয়ে (যানবাহনে) যাই",
     "examples": [
       {
         "jp": "電車で 行きます。",
         "en": "I will go by train.",
-        "bn": "I will go by train.",
-        "furigana": "電車で 行きます。",
-        "romaji": ""
+        "bn": "আমি ট্রেনে যাব।",
+        "furigana": "でんしゃで いきます。",
+        "romaji": "densha de ikimasu."
       }
     ],
     "tags": [
@@ -44,9 +44,9 @@
       {
         "jp": "友達と 行きます。",
         "en": "I will go with a friend.",
-        "bn": "I will go with a friend.",
-        "furigana": "友達と 行きます。",
-        "romaji": ""
+        "bn": "আমি বন্ধুর সাথে যাব।",
+        "furigana": "ともだちと いきます。",
+        "romaji": "tomodachi to ikimasu."
       }
     ],
     "tags": [
@@ -62,9 +62,9 @@
       {
         "jp": "いつ 日本へ 行きますか。",
         "en": "When will you go to Japan?",
-        "bn": "When will you go to Japan?",
-        "furigana": "いつ 日本へ 行きますか。",
-        "romaji": ""
+        "bn": "তুমি কখন জাপানে যাবে?",
+        "furigana": "いつ にほんへ いきますか。",
+        "romaji": "itsu nihon e ikimasu ka."
       }
     ],
     "tags": [
