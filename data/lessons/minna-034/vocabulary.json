@@ -1,38 +1,272 @@
 [
   {
     "id": "minna-034-v001",
-    "kanji": "磨きます",
-    "furigana": "みがきます",
-    "romaji": "migakimasu",
-    "english_meaning": "to brush (teeth) / polish",
-    "type": "verb",
-    "bengali_meaning": "(দাঁত) মাজা / পালিশ করা"
+    "kanji": "経験",
+    "furigana": "けいけん",
+    "romaji": "keiken",
+    "english_meaning": "experience",
+    "bengali_meaning": "অভিজ্ঞতা",
+    "tags": ["vocabulary", "lesson-34"]
   },
   {
     "id": "minna-034-v002",
-    "kanji": "組み立てます",
-    "furigana": "くみたてます",
-    "romaji": "kumitatemasu",
-    "english_meaning": "to assemble",
-    "type": "verb",
-    "bengali_meaning": "জোড়া লাগানো"
+    "kanji": "今",
+    "furigana": "いま",
+    "romaji": "ima",
+    "english_meaning": "now",
+    "bengali_meaning": "এখন",
+    "tags": ["vocabulary", "lesson-34"]
   },
   {
     "id": "minna-034-v003",
-    "kanji": "折ります",
-    "furigana": "おります",
-    "romaji": "orimasu",
-    "english_meaning": "to fold / bend",
-    "type": "verb",
-    "bengali_meaning": "ভাঁজ করা / বাঁকানো"
+    "kanji": "先",
+    "furigana": "さき",
+    "romaji": "saki",
+    "english_meaning": "ahead, before",
+    "bengali_meaning": "সামনে, আগে",
+    "tags": ["vocabulary", "lesson-34"]
   },
   {
     "id": "minna-034-v004",
-    "kanji": "気がつきます",
-    "furigana": "きがつきます",
-    "romaji": "ki ga tsukimasu",
-    "english_meaning": "to notice",
-    "type": "verb",
-    "bengali_meaning": "খেয়াল করা"
+    "kanji": "最近",
+    "furigana": "さいきん",
+    "romaji": "saikin",
+    "english_meaning": "recently, lately",
+    "bengali_meaning": "সাম্প্রতিককালে",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v005",
+    "kanji": "昔",
+    "furigana": "むかし",
+    "romaji": "mukashi",
+    "english_meaning": "old times, long ago",
+    "bengali_meaning": "অতীতে, অনেক আগে",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v006",
+    "kanji": "今度",
+    "furigana": "こんど",
+    "romaji": "kondo",
+    "english_meaning": "this time, next time",
+    "bengali_meaning": "এবার, পরের বার",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v007",
+    "kanji": "一度",
+    "furigana": "いちど",
+    "romaji": "ichido",
+    "english_meaning": "once, one time",
+    "bengali_meaning": "একবার",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v008",
+    "kanji": "何度も",
+    "furigana": "なんども",
+    "romaji": "nandomo",
+    "english_meaning": "many times",
+    "bengali_meaning": "অনেকবার",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v009",
+    "kanji": "始める",
+    "furigana": "はじめる",
+    "romaji": "hajimeru",
+    "english_meaning": "to begin",
+    "bengali_meaning": "শুরু করা",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v010",
+    "kanji": "始まる",
+    "furigana": "はじまる",
+    "romaji": "hajimaru",
+    "english_meaning": "to begin (intransitive)",
+    "bengali_meaning": "শুরু হওয়া",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v011",
+    "kanji": "終わる",
+    "furigana": "おわる",
+    "romaji": "owaru",
+    "english_meaning": "to end, to finish",
+    "bengali_meaning": "শেষ হওয়া",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v012",
+    "kanji": "終える",
+    "furigana": "おえる",
+    "romaji": "oeru",
+    "english_meaning": "to finish (transitive)",
+    "bengali_meaning": "শেষ করা",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v013",
+    "kanji": "着く",
+    "furigana": "つく",
+    "romaji": "tsuku",
+    "english_meaning": "to arrive",
+    "bengali_meaning": "পৌঁছানো",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v014",
+    "kanji": "出発",
+    "furigana": "しゅっぱつ",
+    "romaji": "shuppatsu",
+    "english_meaning": "departure",
+    "bengali_meaning": "যাত্রা শুরু",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v015",
+    "kanji": "到着",
+    "furigana": "とうちゃく",
+    "romaji": "tōchaku",
+    "english_meaning": "arrival",
+    "bengali_meaning": "আগমন",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v016",
+    "kanji": "食事",
+    "furigana": "しょくじ",
+    "romaji": "shokuji",
+    "english_meaning": "meal, dining",
+    "bengali_meaning": "খাবার, আহার",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v017",
+    "kanji": "支度",
+    "furigana": "したく",
+    "romaji": "shitaku",
+    "english_meaning": "preparation, getting ready",
+    "bengali_meaning": "প্রস্তুতি",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v018",
+    "kanji": "戻る",
+    "furigana": "もどる",
+    "romaji": "modoru",
+    "english_meaning": "to return",
+    "bengali_meaning": "ফিরে আসা",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v019",
+    "kanji": "用事",
+    "furigana": "ようじ",
+    "romaji": "yōji",
+    "english_meaning": "errand, business",
+    "bengali_meaning": "কাজ, দরকার",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v020",
+    "kanji": "先週",
+    "furigana": "せんしゅう",
+    "romaji": "senshū",
+    "english_meaning": "last week",
+    "bengali_meaning": "গত সপ্তাহে",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v021",
+    "kanji": "今週",
+    "furigana": "こんしゅう",
+    "romaji": "konshū",
+    "english_meaning": "this week",
+    "bengali_meaning": "এই সপ্তাহে",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v022",
+    "kanji": "来週",
+    "furigana": "らいしゅう",
+    "romaji": "raishū",
+    "english_meaning": "next week",
+    "bengali_meaning": "আগামী সপ্তাহে",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v023",
+    "kanji": "先月",
+    "furigana": "せんげつ",
+    "romaji": "sengetsu",
+    "english_meaning": "last month",
+    "bengali_meaning": "গত মাসে",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v024",
+    "kanji": "来月",
+    "furigana": "らいげつ",
+    "romaji": "raigetsu",
+    "english_meaning": "next month",
+    "bengali_meaning": "আগামী মাসে",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v025",
+    "kanji": "去年",
+    "furigana": "きょねん",
+    "romaji": "kyonen",
+    "english_meaning": "last year",
+    "bengali_meaning": "গত বছর",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v026",
+    "kanji": "今年",
+    "furigana": "ことし",
+    "romaji": "kotoshi",
+    "english_meaning": "this year",
+    "bengali_meaning": "এই বছর",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v027",
+    "kanji": "来年",
+    "furigana": "らいねん",
+    "romaji": "rainen",
+    "english_meaning": "next year",
+    "bengali_meaning": "আগামী বছর",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v028",
+    "kanji": "もうすぐ",
+    "furigana": "もうすぐ",
+    "romaji": "mō sugu",
+    "english_meaning": "soon, before long",
+    "bengali_meaning": "শীঘ্রই",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v029",
+    "kanji": "すぐに",
+    "furigana": "すぐに",
+    "romaji": "sugu ni",
+    "english_meaning": "immediately",
+    "bengali_meaning": "সঙ্গে সঙ্গে",
+    "tags": ["vocabulary", "lesson-34"]
+  },
+  {
+    "id": "minna-034-v030",
+    "kanji": "たった今",
+    "furigana": "たったいま",
+    "romaji": "tatta ima",
+    "english_meaning": "just now, right this moment",
+    "bengali_meaning": "এইমাত্র",
+    "tags": ["vocabulary", "lesson-34"]
   }
 ]

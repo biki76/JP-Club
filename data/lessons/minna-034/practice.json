@@ -3,48 +3,152 @@
     "id": "minna-034-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜34-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜34-A"
+      "en": "Choose the correct form: I have just eaten lunch.",
+      "bn": "সঠিক রূপটি বেছে নিন: আমি এইমাত্র দুপুরের খাবার খেলাম।"
     },
     "stem": {
-      "jp": "これは レッスン34の 文法です。",
-      "furigana": "これは レッスン34の 文法です。",
-      "romaji": ""
+      "jp": "昼ご飯を 食べた（　）です。",
+      "furigana": "ひるごはんを たべた（　）です。",
+      "romaji": "hirugohan o tabeta ( ) desu."
     },
-    "options": [
-      "Grammar pattern 34-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["ばかり", "ところ", "こと", "つもり"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜34-A means \"Grammar pattern 34-A\".",
-      "bn": "〜34-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 34-A\"।"
+      "en": "動詞た形 + ばかりです expresses that something just happened recently.",
+      "bn": "動詞た形 + ばかりです এইমাত্র কিছু ঘটেছে বোঝায়।"
     }
   },
   {
     "id": "minna-034-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜34-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜34-B"
+      "en": "Choose the correct form: I am about to go out.",
+      "bn": "সঠিক রূপটি বেছে নিন: আমি এখনই বের হতে যাচ্ছি।"
     },
     "stem": {
-      "jp": "これは レッスン34の 文法です。",
-      "furigana": "これは レッスン34の 文法です。",
-      "romaji": ""
+      "jp": "今から 出かける（　）です。",
+      "furigana": "いまから でかける（　）です。",
+      "romaji": "ima kara dekakeru ( ) desu."
     },
-    "options": [
-      "Grammar pattern 34-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["ところ", "ばかり", "こと", "つもり"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜34-B means \"Grammar pattern 34-B\".",
-      "bn": "〜34-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 34-B\"।"
+      "en": "動詞辞書形 + ところです expresses an action about to happen.",
+      "bn": "動詞辞書形 + ところです ঠিক এইমাত্র ঘটতে যাওয়া কাজ বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-034-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form: I am in the middle of eating.",
+      "bn": "সঠিক রূপটি বেছে নিন: আমি এখন খাচ্ছি।"
+    },
+    "stem": {
+      "jp": "今 昼ご飯を 食べている（　）です。",
+      "furigana": "いま ひるごはんを たべている（　）です。",
+      "romaji": "ima hirugohan o tabete iru ( ) desu."
+    },
+    "options": ["ところ", "ばかり", "こと", "つもり"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞ている形 + ところです means the action is in progress.",
+      "bn": "動詞ている形 + ところです কাজ চলছে বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-034-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form: the bus has just left.",
+      "bn": "সঠিক রূপটি বেছে নিন: বাসটি এইমাত্র ছেড়ে গেছে।"
+    },
+    "stem": {
+      "jp": "たった今 バスが 出た（　）です。",
+      "furigana": "たったいま バスが でた（　）です。",
+      "romaji": "tatta ima basu ga deta ( ) desu."
+    },
+    "options": ["ところ", "ばかり", "こと", "つもり"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞た形 + ところです means something just finished a moment ago.",
+      "bn": "動詞た形 + ところです এইমাত্র কাজ শেষ হয়েছে বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-034-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form to express experience.",
+      "bn": "অভিজ্ঞতা প্রকাশের সঠিক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "私は 富士山に 登った（　）が あります。",
+      "furigana": "わたしは ふじさんに のぼった（　）が あります。",
+      "romaji": "watashi wa fujisan ni nobotta ( ) ga arimasu."
+    },
+    "options": ["こと", "ばかり", "ところ", "つもり"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞た形 + ことがあります expresses having done something before.",
+      "bn": "動詞た形 + ことがあります পূর্বে কিছু করার অভিজ্ঞতা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-034-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct negative form for lack of experience.",
+      "bn": "অভিজ্ঞতা না থাকার সঠিক নেতিবাচক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "私は まだ 納豆を 食べた ことが（　）。",
+      "furigana": "わたしは まだ なっとうを たべた ことが（　）。",
+      "romaji": "watashi wa mada nattō o tabeta koto ga ( )."
+    },
+    "options": ["ありません", "いません", "ありませんでした", "ある"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The negative form of ことがあります is ことがありません.",
+      "bn": "ことがあります এর নেতিবাচক রূপ ことがありません।"
+    }
+  },
+  {
+    "id": "minna-034-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 最近.",
+      "bn": "最近 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "最近 忙しいです。",
+      "furigana": "さいきん いそがしいです。",
+      "romaji": "saikin isogashii desu."
+    },
+    "options": ["recently", "long ago", "next year", "immediately"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "最近 means recently or lately.",
+      "bn": "最近 মানে সাম্প্রতিককালে।"
+    }
+  },
+  {
+    "id": "minna-034-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of たった今.",
+      "bn": "たった今 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "たった今 帰りました。",
+      "furigana": "たったいま かえりました。",
+      "romaji": "tatta ima kaerimashita."
+    },
+    "options": ["just now", "long ago", "tomorrow", "later"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "たった今 means just now, this very moment.",
+      "bn": "たった今 মানে এইমাত্র।"
     }
   }
 ]

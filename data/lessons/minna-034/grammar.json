@@ -1,26 +1,152 @@
 [
   {
-    "id": "minna-034-g001",
-    "pattern": "～たばかり",
-    "meaning_en": "just did",
+    "id": "minna-034-g1",
+    "pattern": "動詞た形 + ばかりです",
+    "meaning_en": "just did something (recently)",
+    "meaning_bn": "এইমাত্র কিছু করা (সাম্প্রতিক)",
     "examples": [
       {
-        "jp": "今、食べたばかりです。",
-        "en": "I just ate."
+        "jp": "昼ご飯を 食べたばかりです。",
+        "furigana": "ひるごはんを たべたばかりです。",
+        "romaji": "hirugohan o tabeta bakari desu.",
+        "en": "I have just eaten lunch.",
+        "bn": "আমি এইমাত্র দুপুরের খাবার খেলাম।"
+      },
+      {
+        "jp": "田中さんは 先週 日本へ 来たばかりです。",
+        "furigana": "たなかさんは せんしゅう にほんへ きたばかりです。",
+        "romaji": "tanaka-san wa senshū nihon e kita bakari desu.",
+        "en": "Mr. Tanaka came to Japan just last week.",
+        "bn": "মি. তানাকা গত সপ্তাহেই জাপানে এসেছেন।"
+      },
+      {
+        "jp": "この 車は 買ったばかりですから、とても きれいです。",
+        "furigana": "この くるまは かったばかりですから、とても きれいです。",
+        "romaji": "kono kuruma wa katta bakari desu kara, totemo kirei desu.",
+        "en": "Since this car was just bought, it is very clean.",
+        "bn": "এই গাড়িটি এইমাত্র কেনা, তাই খুব পরিষ্কার।"
       }
     ],
-    "meaning_bn": "just did"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-034-g002",
-    "pattern": "～たところ",
-    "meaning_en": "just did / just finished",
+    "id": "minna-034-g2",
+    "pattern": "動詞辞書形 + ところです",
+    "meaning_en": "be about to do something",
+    "meaning_bn": "কিছু করতে যাচ্ছে, ঠিক এখনই করবে",
     "examples": [
       {
-        "jp": "今、終わったところです。",
-        "en": "I just finished."
+        "jp": "今から 出かける ところです。",
+        "furigana": "いまから でかける ところです。",
+        "romaji": "ima kara dekakeru tokoro desu.",
+        "en": "I am about to go out now.",
+        "bn": "আমি এখনই বাইরে বের হতে যাচ্ছি।"
+      },
+      {
+        "jp": "会議は これから 始まる ところです。",
+        "furigana": "かいぎは これから はじまる ところです。",
+        "romaji": "kaigi wa kore kara hajimaru tokoro desu.",
+        "en": "The meeting is about to begin now.",
+        "bn": "সভাটি এখনই শুরু হতে যাচ্ছে।"
+      },
+      {
+        "jp": "今 家を 出る ところです。",
+        "furigana": "いま いえを でる ところです。",
+        "romaji": "ima ie o deru tokoro desu.",
+        "en": "I am about to leave home now.",
+        "bn": "আমি এখনই বাড়ি থেকে বেরোচ্ছি।"
       }
     ],
-    "meaning_bn": "just did / just finished"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-034-g3",
+    "pattern": "動詞ている形 + ところです",
+    "meaning_en": "be in the middle of doing something",
+    "meaning_bn": "কোনো কাজ চলছে এই মুহূর্তে",
+    "examples": [
+      {
+        "jp": "今 昼ご飯を 食べている ところです。",
+        "furigana": "いま ひるごはんを たべている ところです。",
+        "romaji": "ima hirugohan o tabete iru tokoro desu.",
+        "en": "I am in the middle of eating lunch now.",
+        "bn": "আমি এখন দুপুরের খাবার খাচ্ছি।"
+      },
+      {
+        "jp": "田中さんは 今 電話して いる ところです。",
+        "furigana": "たなかさんは いま でんわして いる ところです。",
+        "romaji": "tanaka-san wa ima denwa shite iru tokoro desu.",
+        "en": "Mr. Tanaka is on the phone right now.",
+        "bn": "মি. তানাকা এখন ফোনে কথা বলছেন।"
+      },
+      {
+        "jp": "部屋を 掃除している ところですから、少し 待って ください。",
+        "furigana": "へやを そうじしている ところですから、すこし まって ください。",
+        "romaji": "heya o sōji shite iru tokoro desu kara, sukoshi matte kudasai.",
+        "en": "I am in the middle of cleaning the room, so please wait a moment.",
+        "bn": "আমি ঘর পরিষ্কার করছি, তাই একটু অপেক্ষা করুন।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-034-g4",
+    "pattern": "動詞た形 + ところです",
+    "meaning_en": "have just done something (a moment ago)",
+    "meaning_bn": "এইমাত্র কিছু শেষ হয়েছে",
+    "examples": [
+      {
+        "jp": "たった今 バスが 出た ところです。",
+        "furigana": "たったいま バスが でた ところです。",
+        "romaji": "tatta ima basu ga deta tokoro desu.",
+        "en": "The bus left just now.",
+        "bn": "বাসটি এইমাত্র ছেড়ে গেল।"
+      },
+      {
+        "jp": "宿題が 終わった ところです。",
+        "furigana": "しゅくだいが おわった ところです。",
+        "romaji": "shukudai ga owatta tokoro desu.",
+        "en": "I have just finished my homework.",
+        "bn": "আমি এইমাত্র বাড়ির কাজ শেষ করলাম।"
+      },
+      {
+        "jp": "今 駅に 着いた ところです。",
+        "furigana": "いま えきに ついた ところです。",
+        "romaji": "ima eki ni tsuita tokoro desu.",
+        "en": "I have just arrived at the station.",
+        "bn": "আমি এইমাত্র স্টেশনে পৌঁছেছি।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-034-g5",
+    "pattern": "動詞た形 + ことが あります",
+    "meaning_en": "have the experience of doing something (ever)",
+    "meaning_bn": "কোনো কাজ করার অভিজ্ঞতা থাকা (কখনো)",
+    "examples": [
+      {
+        "jp": "私は 富士山に 登った ことが あります。",
+        "furigana": "わたしは ふじさんに のぼった ことが あります。",
+        "romaji": "watashi wa fujisan ni nobotta koto ga arimasu.",
+        "en": "I have climbed Mt. Fuji before.",
+        "bn": "আমি একবার ফুজি পর্বতে উঠেছি।"
+      },
+      {
+        "jp": "田中さんは 外国で 働いた ことが ありますか。",
+        "furigana": "たなかさんは がいこくで はたらいた ことが ありますか。",
+        "romaji": "tanaka-san wa gaikoku de haraita koto ga arimasu ka.",
+        "en": "Has Mr. Tanaka ever worked abroad?",
+        "bn": "মি. তানাকা কি কখনো বিদেশে কাজ করেছেন?"
+      },
+      {
+        "jp": "私は まだ 納豆を 食べた ことが ありません。",
+        "furigana": "わたしは まだ なっとうを たべた ことが ありません。",
+        "romaji": "watashi wa mada nattō o tabeta koto ga arimasen.",
+        "en": "I have never eaten natto.",
+        "bn": "আমি কখনো নাত্তো খাইনি।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

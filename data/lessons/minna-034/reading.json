@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-034-r001",
+    "id": "minna-034-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "A Busy Morning",
+      "bn": "ব্যস্ত একটি সকাল"
     },
     "passage": [
       {
-        "jp": "これは みがきます［はを～］ です。",
-        "furigana": "これは みがきます［はを～］ です。",
-        "romaji": "Kore wa migakimasu [hawo~] desu.",
-        "en": "This is brush [one's teeth], polish.",
-        "bn": "এটি brush [one's teeth], polish।"
+        "jp": "今朝は 忙しい 朝でした。",
+        "furigana": "けさは いそがしい あさでした。",
+        "romaji": "Kesa wa isogashii asa deshita.",
+        "en": "This morning was a busy morning.",
+        "bn": "আজ সকালটা বেশ ব্যস্ত ছিল।"
+      },
+      {
+        "jp": "私は 七時に 起きたばかりです。",
+        "furigana": "わたしは しちじに おきたばかりです。",
+        "romaji": "Watashi wa shichiji ni okita bakari desu.",
+        "en": "I just got up at seven.",
+        "bn": "আমি সাতটায় এইমাত্র উঠলাম।"
+      },
+      {
+        "jp": "顔を 洗って いると、電話が 鳴りました。",
+        "furigana": "かおを あらっていると、でんわが なりました。",
+        "romaji": "Kao o aratte iru to, denwa ga narimashita.",
+        "en": "While I was washing my face, the phone rang.",
+        "bn": "মুখ ধোয়ার সময় ফোন বেজে উঠল।"
+      },
+      {
+        "jp": "それは 会社の 人からでした。",
+        "furigana": "それは かいしゃの ひとからでした。",
+        "romaji": "Sore wa kaisha no hito kara deshita.",
+        "en": "It was from someone at the company.",
+        "bn": "ফোনটি অফিসের কারও কাছ থেকে এসেছিল।"
+      },
+      {
+        "jp": "「今 駅に 着いた ところです。」と 言いました。",
+        "furigana": "「いま えきに ついた ところです。」と いいました。",
+        "romaji": "\"ima eki ni tsuita tokoro desu\" to iimashita.",
+        "en": "He said, \"I have just arrived at the station.\"",
+        "bn": "তিনি বললেন, \"আমি এইমাত্র স্টেশনে পৌঁছেছি।\""
+      },
+      {
+        "jp": "私は 「今から 出かける ところです」と 答えました。",
+        "furigana": "わたしは「いまから でかける ところです」と こたえました。",
+        "romaji": "Watashi wa \"ima kara dekakeru tokoro desu\" to kotaemashita.",
+        "en": "I answered, \"I am about to leave now.\"",
+        "bn": "আমি উত্তর দিলাম, \"আমি এখনই বের হচ্ছি।\""
+      },
+      {
+        "jp": "それから、急いで 準備して、八時に 家を 出ました。",
+        "furigana": "それから、いそいで じゅんびして、はちじに いえを でました。",
+        "romaji": "Sore kara, isoide junbi shite, hachiji ni ie o demashita.",
+        "en": "Then I prepared quickly and left home at eight.",
+        "bn": "তারপর তাড়াহুড়ো করে প্রস্তুতি নিয়ে আটটায় বাড়ি থেকে বের হলাম।"
+      },
+      {
+        "jp": "私は 一度も 遅刻した ことが ありません。",
+        "furigana": "わたしは いちども ちこくした ことが ありません。",
+        "romaji": "Watashi wa ichido mo chikoku shita koto ga arimasen.",
+        "en": "I have never been late even once.",
+        "bn": "আমি একবারও দেরি করিনি।"
       }
     ]
   }

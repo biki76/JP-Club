@@ -3,15 +3,15 @@
   "courseId": "minna-beginner",
   "lessonNumber": 34,
   "title": {
-    "en": "Lesson 34",
-    "bn": "পাঠ 34"
+    "en": "Talking About Timing and Experience",
+    "bn": "সময় ও অভিজ্ঞতা নিয়ে কথা বলা"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 34",
-    "bn": "মিন্না নো নিহোঙ্গো 34"
+    "en": "たばかり・ところです・たことがあります・ながら（復習）",
+    "bn": "たばかり・ところです・たことがあります・ながら（পুনরালোচনা）"
   },
   "jlpt": "N4",
-  "durationMin": 50,
+  "durationMin": 55,
   "dataFiles": {
     "vocabulary": "vocabulary.json",
     "grammar": "grammar.json",

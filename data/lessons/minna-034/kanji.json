@@ -1,87 +1,106 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "経",
+    "onyomi": ["ケイ", "キョウ"],
+    "kunyomi": ["へ.る"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["pass through", "experience"],
+      "bn": ["অতিক্রম করা", "অভিজ্ঞতা"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["糸", "圣"],
     "strokes": 11,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "験",
+    "onyomi": ["ケン", "ゲン"],
+    "kunyomi": ["ため.す"],
+    "meanings": {
+      "en": ["test", "experience"],
+      "bn": ["পরীক্ষা", "অভিজ্ঞতা"]
+    },
+    "radicals": ["馬", "僉"],
+    "strokes": 18,
     "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "最",
+    "onyomi": ["サイ"],
+    "kunyomi": ["もっと.も"],
+    "meanings": {
+      "en": ["most", "extreme"],
+      "bn": ["সর্বাধিক", "অতি"]
+    },
+    "radicals": ["曰", "取"],
+    "strokes": 12,
+    "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "近",
+    "onyomi": ["キン"],
+    "kunyomi": ["ちか.い"],
+    "meanings": {
+      "en": ["near", "close"],
+      "bn": ["নিকট", "কাছে"]
+    },
+    "radicals": ["辶", "斤"],
+    "strokes": 7,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "昔",
+    "onyomi": ["セキ", "シャク"],
+    "kunyomi": ["むかし"],
+    "meanings": {
+      "en": ["old times", "long ago"],
+      "bn": ["অতীত", "অনেক আগে"]
+    },
+    "radicals": ["日", "廿"],
+    "strokes": 8,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "度",
+    "onyomi": ["ド", "ト"],
+    "kunyomi": ["たび"],
+    "meanings": {
+      "en": ["degree", "time", "occurrence"],
+      "bn": ["ডিগ্রি", "বার"]
+    },
+    "radicals": ["广", "廿", "又"],
+    "strokes": 9,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "発",
+    "onyomi": ["ハツ", "ホツ"],
+    "kunyomi": ["た.つ"],
+    "meanings": {
+      "en": ["depart", "emit"],
+      "bn": ["যাত্রা করা", "নির্গত হওয়া"]
+    },
+    "radicals": ["癶", "弓", "殳"],
+    "strokes": 9,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "着",
+    "onyomi": ["チャク"],
+    "kunyomi": ["き.る", "つ.く", "つ.ける"],
+    "meanings": {
+      "en": ["arrive", "wear"],
+      "bn": ["পৌঁছানো", "পরিধান করা"]
+    },
+    "radicals": ["羊", "目"],
+    "strokes": 12,
+    "grade": 3,
     "jlpt": "N4"
   }
 ]

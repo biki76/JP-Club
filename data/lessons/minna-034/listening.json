@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-034-l001",
+    "id": "minna-034-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "A Phone Call at Noon",
+      "bn": "দুপুরের একটি ফোন কল"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "みがきます［はを～］ は 何 ですか。",
-        "furigana": "みがきます［はを～］ は なん ですか。",
-        "romaji": "migakimasu [hawo~] wa nan desu ka.",
-        "en": "What is brush [one's teeth], polish?",
-        "bn": "brush [one's teeth], polish কী?"
+        "jp": "A：もしもし、田中さんですか。",
+        "furigana": "A：もしもし、たなかさんですか。",
+        "romaji": "A: Moshi moshi, Tanaka-san desu ka.",
+        "en": "A: Hello, is this Mr. Tanaka?",
+        "bn": "A: হ্যালো, মি. তানাকা?"
+      },
+      {
+        "jp": "B：はい。田中です。",
+        "furigana": "B：はい。たなかです。",
+        "romaji": "B: Hai. Tanaka desu.",
+        "en": "B: Yes, this is Tanaka.",
+        "bn": "B: হ্যাঁ, তানাকা বলছি।"
+      },
+      {
+        "jp": "A：今 何を していますか。",
+        "furigana": "A：いま なにを していますか。",
+        "romaji": "A: Ima nani o shite imasu ka.",
+        "en": "A: What are you doing now?",
+        "bn": "A: এখন কী করছেন?"
+      },
+      {
+        "jp": "B：ちょうど 昼ご飯を 食べている ところです。",
+        "furigana": "B：ちょうど ひるごはんを たべている ところです。",
+        "romaji": "B: Chōdo hirugohan o tabete iru tokoro desu.",
+        "en": "B: I am in the middle of eating lunch right now.",
+        "bn": "B: এই মুহূর্তে দুপুরের খাবার খাচ্ছি।"
+      },
+      {
+        "jp": "A：そうですか。実は、会議は もう 始まった ところです。",
+        "furigana": "A：そうですか。じつは、かいぎは もう はじまった ところです。",
+        "romaji": "A: Sō desu ka. Jitsu wa, kaigi wa mō hajimatta tokoro desu.",
+        "en": "A: I see. Actually, the meeting has just started.",
+        "bn": "A: তাই নাকি। আসলে সভাটি এইমাত্র শুরু হয়েছে।"
+      },
+      {
+        "jp": "B：えっ。すみません。すぐ 行きます。",
+        "furigana": "B：えっ。すみません。すぐ いきます。",
+        "romaji": "B: E. Sumimasen. Sugu ikimasu.",
+        "en": "B: What? I am sorry. I will come at once.",
+        "bn": "B: কী! মাফ করবেন। এখনই আসছি।"
+      },
+      {
+        "jp": "A：会議室に 着いたら、電話して ください。",
+        "furigana": "A：かいぎしつに ついたら、でんわして ください。",
+        "romaji": "A: Kaigishitsu ni tsuitara, denwa shite kudasai.",
+        "en": "A: When you arrive at the meeting room, please call me.",
+        "bn": "A: সভাকক্ষে পৌঁছে ফোন করুন।"
+      },
+      {
+        "jp": "B：はい。今から 出かける ところです。",
+        "furigana": "B：はい。いまから でかける ところです。",
+        "romaji": "B: Hai. Ima kara dekakeru tokoro desu.",
+        "en": "B: Yes. I am about to leave now.",
+        "bn": "B: হ্যাঁ। আমি এখনই বের হচ্ছি।"
+      },
+      {
+        "jp": "A：田中さんは 一度も 遅刻した ことが ありませんから、大丈夫でしょう。",
+        "furigana": "A：たなかさんは いちども ちこくした ことが ありませんから、だいじょうぶでしょう。",
+        "romaji": "A: Tanaka-san wa ichido mo chikoku shita koto ga arimasen kara, daijōbu deshō.",
+        "en": "A: Mr. Tanaka has never been late, so it will probably be fine.",
+        "bn": "A: মি. তানাকা কখনো দেরি করেননি, তাই সমস্যা হবে না।"
       }
     ]
   }
