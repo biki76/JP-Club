@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-044-l001",
+    "id": "minna-044-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "A Broken Machine",
+      "bn": "নষ্ট যন্ত্র"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "なきます は 何 ですか。",
-        "furigana": "なきます は なん ですか。",
-        "romaji": "nakimasu wa nan desu ka.",
-        "en": "What is cry?",
-        "bn": "cry কী?"
+        "jp": "もしもし、あの、この コンピューター、動かなく なったんです。",
+        "furigana": "もしもし、あの、この こんぴゅーたー、うごかなく なったんです。",
+        "romaji": "Moshimoshi, ano, kono konpyūtā, ugokanaku natta n desu.",
+        "en": "Hello, um, this computer has stopped working.",
+        "bn": "হ্যালো, আচ্ছা, এই কম্পিউটারটি চলা বন্ধ হয়ে গেছে।"
+      },
+      {
+        "jp": "いつからですか。",
+        "furigana": "いつからですか。",
+        "romaji": "Itsu kara desu ka.",
+        "en": "Since when?",
+        "bn": "কখন থেকে?"
+      },
+      {
+        "jp": "今朝からです。電源の ボタンを 押しても、何も 起こりません。",
+        "furigana": "けさからです。でんげんの ぼたんを おしても、なにも おこりません。",
+        "romaji": "Kesa kara desu. Dengen no botan o oshite mo, nanimo okorimasen.",
+        "en": "Since this morning. Even when I press the power button, nothing happens.",
+        "bn": "আজ সকাল থেকে। পাওয়ার বোতাম চাপলেও কিছুই হয় না।"
+      },
+      {
+        "jp": "説明書は 読んで みましたか。",
+        "furigana": "せつめいしょは よんで みましたか。",
+        "romaji": "Setsumeisho wa yonde mimashita ka.",
+        "en": "Did you try reading the manual?",
+        "bn": "নির্দেশিকা পড়ে দেখেছেন?"
+      },
+      {
+        "jp": "はい。でも、漢字が 多くて、わかりにくかったです。",
+        "furigana": "はい。でも、かんじが おおくて、わかりにくかったです。",
+        "romaji": "Hai. Demo, kanji ga ōkute, wakarinikukatta desu.",
+        "en": "Yes. But there was a lot of kanji and it was hard to understand.",
+        "bn": "হ্যাঁ। কিন্তু অনেক কাঞ্জি ছিল, বোঝা কঠিন ছিল।"
+      },
+      {
+        "jp": "かしこまりました。では、こちらから 修理の 人を 送ります。",
+        "furigana": "かしこまりました。では、こちらから しゅうりの ひとを おくります。",
+        "romaji": "Kashikomarimashita. De wa, kochira kara shūri no hito o okurimasu.",
+        "en": "Understood. Then we will send a repair person from here.",
+        "bn": "বুঝেছি। তাহলে আমরা এখান থেকে মেরামতকারী পাঠাব।"
+      },
+      {
+        "jp": "ありがとうございます。でも、今日は 使い過ぎて、少し 心配です。",
+        "furigana": "ありがとうございます。でも、きょうは つかいすぎて、すこし しんぱいです。",
+        "romaji": "Arigatō gozaimasu. Demo, kyō wa tsukaisugite, sukoshi shinpai desu.",
+        "en": "Thank you. But today I used it too much, so I am a little worried.",
+        "bn": "ধন্যবাদ। তবে আজ অতিরিক্ত ব্যবহার করেছি, তাই একটু দুশ্চিন্তা হচ্ছে।"
+      },
+      {
+        "jp": "では、修理の 後で、使い方を もう 一度 説明しますね。",
+        "furigana": "では、しゅうりの あとで、つかいかたを もう いちど せつめいしますね。",
+        "romaji": "De wa, shūri no ato de, tsukaikata o mō ichido setsumei shimasu ne.",
+        "en": "Then, after the repair, I will explain how to use it once more.",
+        "bn": "তাহলে মেরামতের পরে ব্যবহারের নিয়মটি আরেকবার বুঝিয়ে দেব।"
+      },
+      {
+        "jp": "それは 助かります。よろしく お願いします。",
+        "furigana": "それは たすかります。よろしく おねがいします。",
+        "romaji": "Sore wa tasukarimasu. Yoroshiku onegai shimasu.",
+        "en": "That helps a lot. Thank you in advance.",
+        "bn": "খুব উপকার হবে। দয়া করে দেখবেন।"
       }
     ]
   }

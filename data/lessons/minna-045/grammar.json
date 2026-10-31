@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-045-g1",
-    "pattern": "〜45-A",
-    "meaning_en": "Grammar pattern 45-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 45-A",
+    "pattern": "V-る / V-た / イA / ナA な / N の 場合（は）",
+    "meaning_en": "in the case of, if it happens that",
+    "meaning_bn": "যদি এমন হয়, সেই ক্ষেত্রে",
     "examples": [
       {
-        "jp": "これは レッスン45の 文法です。",
-        "en": "This is lesson 45 grammar.",
-        "bn": "This is lesson 45 grammar.",
-        "furigana": "これは レッスン45の 文法です。",
-        "romaji": ""
+        "jp": "雨が 降る 場合は、試合は 中止に なります。",
+        "furigana": "あめが ふる ばあいは、しあいは ちゅうしに なります。",
+        "romaji": "Ame ga furu baai wa, shiai wa chūshi ni narimasu.",
+        "en": "In the case that it rains, the match will be cancelled.",
+        "bn": "যদি বৃষ্টি হয়, তাহলে খেলাটি বাতিল হবে।"
+      },
+      {
+        "jp": "地震の 場合は、すぐに 外へ 出て ください。",
+        "furigana": "じしんの ばあいは、すぐに そとへ でて ください。",
+        "romaji": "Jishin no baai wa, sugu ni soto e dete kudasai.",
+        "en": "In the case of an earthquake, please go outside immediately.",
+        "bn": "ভূমিকম্পের ক্ষেত্রে সঙ্গে সঙ্গে বাইরে চলে যান।"
+      },
+      {
+        "jp": "パソコンが 故障した 場合は、この 番号に 電話して ください。",
+        "furigana": "ぱそこんが こしょうした ばあいは、この ばんごうに でんわして ください。",
+        "romaji": "Pasokon ga koshō shita baai wa, kono bangō ni denwa shite kudasai.",
+        "en": "If your computer breaks down, please call this number.",
+        "bn": "কম্পিউটার নষ্ট হলে এই নম্বরে ফোন করুন।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-045-g2",
-    "pattern": "〜45-B",
-    "meaning_en": "Grammar pattern 45-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 45-B",
+    "pattern": "V-ても / イA-くても / ナA・N でも",
+    "meaning_en": "even if, even though",
+    "meaning_bn": "যদিও, এমন হলেও",
     "examples": [
       {
-        "jp": "これは レッスン45の 文法です。",
-        "en": "This is lesson 45 grammar.",
-        "bn": "This is lesson 45 grammar.",
-        "furigana": "これは レッスン45の 文法です。",
-        "romaji": ""
+        "jp": "雨が 降っても、試合は 行います。",
+        "furigana": "あめが ふっても、しあいは おこないます。",
+        "romaji": "Ame ga futte mo, shiai wa okonaimasu.",
+        "en": "Even if it rains, the match will be held.",
+        "bn": "বৃষ্টি হলেও খেলাটি হবে।"
+      },
+      {
+        "jp": "この 問題は 難しくても、最後まで やって みます。",
+        "furigana": "この もんだいは むずかしくても、さいごまで やって みます。",
+        "romaji": "Kono mondai wa muzukashikute mo, saigo made yatte mimasu.",
+        "en": "Even if this problem is difficult, I will try to solve it to the end.",
+        "bn": "এই সমস্যাটি কঠিন হলেও শেষ পর্যন্ত চেষ্টা করব।"
+      },
+      {
+        "jp": "日曜日でも、会社へ 行きます。",
+        "furigana": "にちようびでも、かいしゃへ いきます。",
+        "romaji": "Nichiyōbi demo, kaisha e ikimasu.",
+        "en": "Even on Sunday, I go to the office.",
+        "bn": "রবিবার হলেও অফিসে যাই।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-045-g3",
+    "pattern": "疑问词 + ても",
+    "meaning_en": "no matter what/who/where/how",
+    "meaning_bn": "যাই হোক, যে কেউ, যেখানেই, যেভাবেই",
+    "examples": [
+      {
+        "jp": "何を 食べても、とても おいしいです。",
+        "furigana": "なにを たべても、とても おいしいです。",
+        "romaji": "Nani o tabete mo, totemo oishii desu.",
+        "en": "No matter what I eat, it is very delicious.",
+        "bn": "যা-ই খাই, সবই খুব সুস্বাদু।"
+      },
+      {
+        "jp": "どこへ 行っても、人が 多いです。",
+        "furigana": "どこへ いっても、ひとが おおいです。",
+        "romaji": "Doko e itte mo, hito ga ōi desu.",
+        "en": "No matter where I go, there are many people.",
+        "bn": "যেখানেই যাই, অনেক মানুষ।"
+      },
+      {
+        "jp": "だれが 来ても、わたしは 会いません。",
+        "furigana": "だれが きても、わたしは あいません。",
+        "romaji": "Dare ga kite mo, watashi wa aimasen.",
+        "en": "No matter who comes, I will not meet them.",
+        "bn": "যে-ই আসুক, আমি দেখা করব না।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-045-g4",
+    "pattern": "V-ます stem + ながら",
+    "meaning_en": "while doing something",
+    "meaning_bn": "করি করতে করতে",
+    "examples": [
+      {
+        "jp": "音楽を 聞きながら、勉強します。",
+        "furigana": "おんがくを ききながら、べんきょうします。",
+        "romaji": "Ongaku o kikinagara, benkyō shimasu.",
+        "en": "I study while listening to music.",
+        "bn": "সংগীত শুনতে শুনতে পড়াশোনা করি।"
+      },
+      {
+        "jp": "コーヒーを 飲みながら、話しましょう。",
+        "furigana": "こーひーを のみながら、はなしましょう。",
+        "romaji": "Kōhī o nominagara, hanashimashō.",
+        "en": "Let us talk while drinking coffee.",
+        "bn": "কফি খেতে খেতে কথা বলি।"
+      },
+      {
+        "jp": "彼は 笑いながら、答えました。",
+        "furigana": "かれは わらいながら、こたえました。",
+        "romaji": "Kare wa warainagara, kotaemashita.",
+        "en": "He answered while smiling.",
+        "bn": "সে হাসতে হাসতে উত্তর দিল।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-045-g5",
+    "pattern": "V-ない + ない と / V-ない と",
+    "meaning_en": "if not, unless",
+    "meaning_bn": "যদি না হয়, না হলে",
+    "examples": [
+      {
+        "jp": "早く 起きないと、電車に 間に合いません。",
+        "furigana": "はやく おきないと、でんしゃに まにあいません。",
+        "romaji": "Hayaku okinai to, densha ni maniaimasen.",
+        "en": "If you do not get up early, you will not catch the train.",
+        "bn": "তাড়াতাড়ি না উঠলে ট্রেন ধরতে পারবে না।"
+      },
+      {
+        "jp": "傘を 持たないと、濡れますよ。",
+        "furigana": "かさを もたないと、ぬれますよ。",
+        "romaji": "Kasa o motanai to, nuremasu yo.",
+        "en": "If you do not take an umbrella, you will get wet.",
+        "bn": "ছাতা না নিলে ভিজে যাবে।"
+      },
+      {
+        "jp": "今 出かけないと、会議に 遅れます。",
+        "furigana": "いま でかけないと、かいぎに おくれます。",
+        "romaji": "Ima dekakenai to, kaigi ni okuremasu.",
+        "en": "If I do not go out now, I will be late for the meeting.",
+        "bn": "এখন বের না হলে সভায় দেরি হবে।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

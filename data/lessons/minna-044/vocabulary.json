@@ -1,5 +1,270 @@
 [
-{"id":"minna-044-v001","kanji":"美しい","furigana":"うつくしい","romaji":"utsukushii","english_meaning":"beautiful","bengali_meaning":"সুন্দর","type":"i-adjective"},
-{"id":"minna-044-v002","kanji":"世界中","furigana":"せかいじゅう","romaji":"sekai juu","english_meaning":"all over the world","bengali_meaning":"সারা বিশ্বে","type":"noun"},
-{"id":"minna-044-v003","kanji":"自然","furigana":"しぜん","romaji":"shizen","english_meaning":"nature","bengali_meaning":"প্রকৃতি","type":"noun"}
+  {
+    "id": "minna-044-v001",
+    "furigana": "でんきせいひん",
+    "kanji": "電気製品",
+    "romaji": "denki seihin",
+    "english_meaning": "electrical appliances",
+    "bengali_meaning": "বিদ্যুৎচালিত যন্ত্র",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v002",
+    "furigana": "こんぴゅーたー",
+    "romaji": "konpyūtā",
+    "english_meaning": "computer",
+    "bengali_meaning": "কম্পিউটার",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v003",
+    "furigana": "そうさ",
+    "kanji": "操作",
+    "romaji": "sōsa",
+    "english_meaning": "operation, handling",
+    "bengali_meaning": "পরিচালনা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v004",
+    "furigana": "せつめいしょ",
+    "kanji": "説明書",
+    "romaji": "setsumeisho",
+    "english_meaning": "manual, instructions",
+    "bengali_meaning": "নির্দেশিকা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v005",
+    "furigana": "きのう",
+    "kanji": "機能",
+    "romaji": "kinō",
+    "english_meaning": "function, feature",
+    "bengali_meaning": "কার্যকারিতা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v006",
+    "furigana": "こしょう",
+    "kanji": "故障",
+    "romaji": "koshō",
+    "english_meaning": "breakdown, failure",
+    "bengali_meaning": "নষ্ট হওয়া",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v007",
+    "furigana": "しゅうり",
+    "kanji": "修理",
+    "romaji": "shūri",
+    "english_meaning": "repair",
+    "bengali_meaning": "মেরামত",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v008",
+    "furigana": "べんり",
+    "kanji": "便利",
+    "romaji": "benri",
+    "english_meaning": "convenient",
+    "bengali_meaning": "সুবিধাজনক",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v009",
+    "furigana": "ふべん",
+    "kanji": "不便",
+    "romaji": "fuben",
+    "english_meaning": "inconvenient",
+    "bengali_meaning": "অসুবিধাজনক",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v010",
+    "furigana": "かんたん",
+    "kanji": "簡単",
+    "romaji": "kantan",
+    "english_meaning": "simple, easy",
+    "bengali_meaning": "সহজ",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v011",
+    "furigana": "ふくざつ",
+    "kanji": "複雑",
+    "romaji": "fukuzatsu",
+    "english_meaning": "complicated",
+    "bengali_meaning": "জটিল",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v012",
+    "furigana": "うごく",
+    "kanji": "動く",
+    "romaji": "ugoku",
+    "english_meaning": "to move, to work (machine)",
+    "bengali_meaning": "চলা, কাজ করা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v013",
+    "furigana": "うごかす",
+    "kanji": "動かす",
+    "romaji": "ugokasu",
+    "english_meaning": "to move something, to operate",
+    "bengali_meaning": "চালানো, সরানো",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v014",
+    "furigana": "なおす",
+    "kanji": "直す",
+    "romaji": "naosu",
+    "english_meaning": "to fix, to repair",
+    "bengali_meaning": "ঠিক করা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v015",
+    "furigana": "なおる",
+    "kanji": "直る",
+    "romaji": "naoru",
+    "english_meaning": "to be fixed, to be repaired",
+    "bengali_meaning": "ঠিক হওয়া",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v016",
+    "furigana": "おもい",
+    "kanji": "重い",
+    "romaji": "omoi",
+    "english_meaning": "heavy",
+    "bengali_meaning": "ভারী",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v017",
+    "furigana": "かるい",
+    "kanji": "軽い",
+    "romaji": "karui",
+    "english_meaning": "light (weight)",
+    "bengali_meaning": "হালকা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v018",
+    "furigana": "たかい",
+    "kanji": "高い",
+    "romaji": "takai",
+    "english_meaning": "expensive, high",
+    "bengali_meaning": "দামি, উঁচু",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v019",
+    "furigana": "やすい",
+    "kanji": "安い",
+    "romaji": "yasui",
+    "english_meaning": "cheap, inexpensive",
+    "bengali_meaning": "সস্তা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v020",
+    "furigana": "はやい",
+    "kanji": "速い",
+    "romaji": "hayai",
+    "english_meaning": "fast, quick",
+    "bengali_meaning": "দ্রুত",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v021",
+    "furigana": "おそい",
+    "kanji": "遅い",
+    "romaji": "osoi",
+    "english_meaning": "slow, late",
+    "bengali_meaning": "ধীর, দেরি",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v022",
+    "furigana": "ながい",
+    "kanji": "長い",
+    "romaji": "nagai",
+    "english_meaning": "long",
+    "bengali_meaning": "লম্বা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v023",
+    "furigana": "みじかい",
+    "kanji": "短い",
+    "romaji": "mijikai",
+    "english_meaning": "short",
+    "bengali_meaning": "খাটো",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v024",
+    "furigana": "あつい",
+    "kanji": "暑い",
+    "romaji": "atsui",
+    "english_meaning": "hot (weather)",
+    "bengali_meaning": "গরম (আবহাওয়া)",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v025",
+    "furigana": "さむい",
+    "kanji": "寒い",
+    "romaji": "samui",
+    "english_meaning": "cold (weather)",
+    "bengali_meaning": "ঠান্ডা (আবহাওয়া)",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v026",
+    "furigana": "たべすぎる",
+    "kanji": "食べ過ぎる",
+    "romaji": "tabesugiru",
+    "english_meaning": "to eat too much",
+    "bengali_meaning": "অতিরিক্ত খাওয়া",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v027",
+    "furigana": "のみすぎる",
+    "kanji": "飲み過ぎる",
+    "romaji": "nomisugiru",
+    "english_meaning": "to drink too much",
+    "bengali_meaning": "অতিরিক্ত পান করা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v028",
+    "furigana": "はたらきすぎる",
+    "kanji": "働き過ぎる",
+    "romaji": "hatarakisugiru",
+    "english_meaning": "to work too much",
+    "bengali_meaning": "অতিরিক্ত কাজ করা",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v029",
+    "furigana": "よみやすい",
+    "kanji": "読みやすい",
+    "romaji": "yomiyasui",
+    "english_meaning": "easy to read",
+    "bengali_meaning": "পড়তে সহজ",
+    "tags": ["vocabulary", "lesson-44"]
+  },
+  {
+    "id": "minna-044-v030",
+    "furigana": "わかりにくい",
+    "romaji": "wakarinikui",
+    "english_meaning": "hard to understand",
+    "bengali_meaning": "বোঝা কঠিন",
+    "tags": ["vocabulary", "lesson-44"]
+  }
 ]

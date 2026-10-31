@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-045-r001",
+    "id": "minna-045-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "Typhoon Season",
+      "bn": "টাইফুনের মরসুম"
     },
     "passage": [
       {
-        "jp": "これは しんじます です。",
-        "furigana": "これは しんじます です。",
-        "romaji": "Kore wa shinjimasu desu.",
-        "en": "This is believe, trust.",
-        "bn": "এটি believe, trust।"
+        "jp": "日本では、夏から 秋に かけて、台風が 多く 来ます。",
+        "furigana": "にほんでは、なつから あきに かけて、たいふうが おおく きます。",
+        "romaji": "Nihon de wa, natsu kara aki ni kakete, taifū ga ōku kimasu.",
+        "en": "In Japan, many typhoons come from summer to autumn.",
+        "bn": "জাপানে গ্রীষ্ম থেকে শরৎ পর্যন্ত অনেক টাইফুন আসে।"
+      },
+      {
+        "jp": "天気予報を 見ながら、わたしは 毎日 天気を チェックして います。",
+        "furigana": "てんきよほうを みながら、わたしは まいにち てんきを ちぇっくして います。",
+        "romaji": "Tenkiyohō o minagara, watashi wa mainichi tenki o chekku shite imasu.",
+        "en": "While watching the weather forecast, I check the weather every day.",
+        "bn": "আবহাওয়ার পূর্বাভাস দেখতে দেখতে প্রতিদিন আবহাওয়া যাচাই করি।"
+      },
+      {
+        "jp": "台風が 来る 場合は、家の 外に 出ない ように して ください。",
+        "furigana": "たいふうが くる ばあいは、いえの そとに でない ように して ください。",
+        "romaji": "Taifū ga kuru baai wa, ie no soto ni denai yō ni shite kudasai.",
+        "en": "In the case that a typhoon comes, please try not to go outside.",
+        "bn": "টাইফুন এলে বাড়ির বাইরে না যাওয়ার চেষ্টা করুন।"
+      },
+      {
+        "jp": "雨が ひどくても、ニュースは 必ず 見ます。",
+        "furigana": "あめが ひどくても、にゅーすは かならず みます。",
+        "romaji": "Ame ga hidokute mo, nyūsu wa kanarazu mimasu.",
+        "en": "Even if the rain is severe, I always watch the news.",
+        "bn": "বৃষ্টি তীব্র হলেও খবর অবশ্যই দেখি।"
+      },
+      {
+        "jp": "もし 洪水に なったら、すぐに 避難しなければ なりません。",
+        "furigana": "もし こうずいに なったら、すぐに ひなんしなければ なりません。",
+        "romaji": "Moshi kōzui ni nattara, sugu ni hinan shinakereba narimasen.",
+        "en": "If it turns into a flood, we must evacuate immediately.",
+        "bn": "বন্যা হলে সঙ্গে সঙ্গে আশ্রয় নিতে হবে।"
+      },
+      {
+        "jp": "何が 起こっても、落ち着いて 行動する ことが 大切です。",
+        "furigana": "なにが おこっても、おちついて こうどうする ことが たいせつです。",
+        "romaji": "Nani ga okotte mo, ochitsuite kōdō suru koto ga taisetsu desu.",
+        "en": "No matter what happens, it is important to act calmly.",
+        "bn": "যাই ঘটুক, শান্তভাবে কাজ করা গুরুত্বপূর্ণ।"
+      },
+      {
+        "jp": "家族と 連絡しながら、安全な 場所を 探します。",
+        "furigana": "かぞくと れんらくしながら、あんぜんな ばしょを さがします。",
+        "romaji": "Kazoku to renraku shinagara, anzen na basho o sagashimasu.",
+        "en": "While contacting my family, I look for a safe place.",
+        "bn": "পরিবারের সঙ্গে যোগাযোগ করতে করতে নিরাপদ জায়গা খুঁজি।"
+      },
+      {
+        "jp": "危険な 場合は、だれかに 助けを 頼んで ください。",
+        "furigana": "きけんな ばあいは、だれかに たすけを たのんで ください。",
+        "romaji": "Kiken na baai wa, dareka ni tasuke o tanonde kudasai.",
+        "en": "In a dangerous case, please ask someone for help.",
+        "bn": "বিপদজনক হলে কারো কাছে সাহায্য চান।"
       }
     ]
   }

@@ -3,48 +3,159 @@
     "id": "minna-045-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜45-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜45-A"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン45の 文法です。",
-      "furigana": "これは レッスン45の 文法です。",
-      "romaji": ""
+      "jp": "雨が 降る ＿＿ は、試合は 中止です。",
+      "furigana": "あめが ふる ＿＿ は、しあいは ちゅうしです。",
+      "romaji": "Ame ga furu ＿＿ wa, shiai wa chūshi desu."
     },
-    "options": [
-      "Grammar pattern 45-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["場合", "時", "間", "中"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜45-A means \"Grammar pattern 45-A\".",
-      "bn": "〜45-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 45-A\"।"
+      "en": "～場合は means in the case that something happens.",
+      "bn": "～場合は মানে এমন কিছু ঘটলে সেই ক্ষেত্রে।"
     }
   },
   {
     "id": "minna-045-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜45-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜45-B"
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン45の 文法です。",
-      "furigana": "これは レッスン45の 文法です。",
-      "romaji": ""
+      "jp": "雨が 降っ＿＿、試合は 行います。",
+      "furigana": "あめが ふっ＿＿、しあいは おこないます。",
+      "romaji": "Ame ga fu＿＿, shiai wa okonaimasu."
+    },
+    "options": ["ても", "たら", "れば", "なら"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-ても means even if.",
+      "bn": "V-ても মানে যদিও বা হলেও।"
+    }
+  },
+  {
+    "id": "minna-045-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この 問題は 難し＿＿、最後まで やって みます。",
+      "furigana": "この もんだいは むずかし＿＿、さいごまで やって みます。",
+      "romaji": "Kono mondai wa muzukashi＿＿, saigo made yatte mimasu."
+    },
+    "options": ["くても", "くて", "くてもいい", "くないで"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "For i-adjectives we use ～くても to mean even if.",
+      "bn": "ই-বিশেষণের ক্ষেত্রে ～くても দিয়ে যদিও বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-045-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "＿＿を 食べても、とても おいしいです。",
+      "furigana": "＿＿を たべても、とても おいしいです。",
+      "romaji": "＿＿ o tabete mo, totemo oishii desu."
+    },
+    "options": ["何", "いつ", "どこ", "だれ"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "何を 食べても means no matter what I eat.",
+      "bn": "何を 食べても মানে যা-ই খাই না কেন।"
+    }
+  },
+  {
+    "id": "minna-045-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "音楽を 聞き＿＿、勉強します。",
+      "furigana": "おんがくを きき＿＿、べんきょうします。",
+      "romaji": "Ongaku o kiki＿＿, benkyō shimasu."
+    },
+    "options": ["ながら", "すぎて", "やすい", "にくい"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-ます stem + ながら means while doing something.",
+      "bn": "V-ます stem + ながら মানে করতে করতে।"
+    }
+  },
+  {
+    "id": "minna-045-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "早く 起きないと、電車に 間に合いません。",
+      "furigana": "はやく おきないと、でんしゃに まにあいません。",
+      "romaji": "Hayaku okinai to, densha ni maniaimasen."
     },
     "options": [
-      "Grammar pattern 45-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "If you do not get up early, you will not catch the train.",
+      "Even if you get up early, you will miss the train.",
+      "When you get up early, the train comes.",
+      "You cannot take the train early in the morning."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜45-B means \"Grammar pattern 45-B\".",
-      "bn": "〜45-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 45-B\"।"
+      "en": "V-ないと expresses a negative condition: if not.",
+      "bn": "V-ないと নেতিবাচক শর্ত বোঝায়, অর্থাৎ না হলে।"
+    }
+  },
+  {
+    "id": "minna-045-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "地震の ＿＿ は、すぐに 外へ 出て ください。",
+      "furigana": "じしんの ＿＿ は、すぐに そとへ でて ください。",
+      "romaji": "Jishin no ＿＿ wa, sugu ni soto e dete kudasai."
+    },
+    "options": ["場合", "時間", "中", "前"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N の 場合は means in the case of a noun event.",
+      "bn": "N の 場合は কোনো ঘটনার ক্ষেত্রে বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-045-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 危険.",
+      "bn": "危険 এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "ここは 危険です。入らないで ください。",
+      "furigana": "ここは きけんです。はいらないで ください。",
+      "romaji": "Koko wa kiken desu. Hairanai de kudasai.",
+      "en": "This place is dangerous. Please do not enter.",
+      "bn": "এ জায়গাটি বিপদজনক। ঢুকবেন না।"
+    },
+    "options": ["danger", "safety", "silence", "noise"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "危険 means danger or dangerous.",
+      "bn": "危険 মানে বিপদ বা বিপজ্জনক।"
     }
   }
 ]

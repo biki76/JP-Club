@@ -3,48 +3,157 @@
     "id": "minna-044-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜44-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜44-A"
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン44の 文法です。",
-      "furigana": "これは レッスン44の 文法です。",
-      "romaji": ""
+      "jp": "きのうの 夜、食べ＿＿、お腹が 痛く なりました。",
+      "furigana": "きのうの よる、たべ＿＿、おなかが いたく なりました。",
+      "romaji": "Kinō no yoru, tabe＿＿, onaka ga itaku narimashita."
     },
-    "options": [
-      "Grammar pattern 44-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["すぎて", "やすくて", "にくくて", "ながら"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜44-A means \"Grammar pattern 44-A\".",
-      "bn": "〜44-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 44-A\"।"
+      "en": "V-ます stem + すぎる means to do too much.",
+      "bn": "V-ます stem + すぎる মানে অতিরিক্ত কিছু করা।"
     }
   },
   {
     "id": "minna-044-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜44-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜44-B"
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン44の 文法です。",
-      "furigana": "これは レッスン44の 文法です。",
-      "romaji": ""
+      "jp": "この 問題は 難し＿＿です。",
+      "furigana": "この もんだいは むずかし＿＿です。",
+      "romaji": "Kono mondai wa muzukashi＿＿ desu."
+    },
+    "options": ["すぎ", "やすい", "にくい", "そう"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "For i-adjectives, drop い and add すぎる to say too much.",
+      "bn": "ই-বিশেষণের ক্ষেত্রে い বাদ দিয়ে すぎる যোগ করলে অতিরিক্ত বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-044-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この 本は 字が 大きくて、とても 読み＿＿です。",
+      "furigana": "この ほんは じが おおきくて、とても よみ＿＿です。",
+      "romaji": "Kono hon wa ji ga ōkikute, totemo yomi＿＿ desu."
+    },
+    "options": ["やすい", "にくい", "すぎる", "たい"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-ます stem + やすい means easy to do.",
+      "bn": "V-ます stem + やすい মানে করা সহজ।"
+    }
+  },
+  {
+    "id": "minna-044-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この 説明書は 漢字が 多くて、わかり＿＿です。",
+      "furigana": "この せつめいしょは かんじが おおくて、わかり＿＿です。",
+      "romaji": "Kono setsumeisho wa kanji ga ōkute, wakari＿＿ desu."
+    },
+    "options": ["にくい", "やすい", "すぎる", "たい"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-ます stem + にくい means hard to do.",
+      "bn": "V-ます stem + にくい মানে করা কঠিন।"
+    }
+  },
+  {
+    "id": "minna-044-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "だんだん 寒く ＿＿ ね。",
+      "furigana": "だんだん さむく ＿＿ ね。",
+      "romaji": "Dandan samuku ＿＿ ne."
+    },
+    "options": ["なりました", "しました", "いました", "ありました"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "For i-adjectives, use ～く なります to express becoming.",
+      "bn": "ই-বিশেষণের ক্ষেত্রে ～く なります দিয়ে পরিবর্তন বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-044-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "田中さんは 大学を 出て、先生に ＿＿。",
+      "furigana": "たなかさんは だいがくを でて、せんせいに ＿＿。",
+      "romaji": "Tanaka-san wa daigaku o dete, sensei ni ＿＿."
+    },
+    "options": ["なりました", "しました", "くれました", "ありました"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N に なります means to become a noun.",
+      "bn": "N に なります মানে কোনো পদে পরিণত হওয়া।"
+    }
+  },
+  {
+    "id": "minna-044-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "この くつは 軽くて、歩きやすいです。",
+      "furigana": "この くつは かるくて、あるきやすいです。",
+      "romaji": "Kono kutsu wa karukute, arukiyasui desu."
     },
     "options": [
-      "Grammar pattern 44-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "These shoes are light and easy to walk in.",
+      "These shoes are heavy and hard to walk in.",
+      "These shoes are new and expensive.",
+      "These shoes are too big for walking."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜44-B means \"Grammar pattern 44-B\".",
-      "bn": "〜44-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 44-B\"।"
+      "en": "軽い means light, and 歩きやすい means easy to walk.",
+      "bn": "軽い মানে হালকা এবং 歩きやすい মানে হাঁটতে সহজ।"
+    }
+  },
+  {
+    "id": "minna-044-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 故障.",
+      "bn": "故障 এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "コンピューターが 故障しました。",
+      "furigana": "こんぴゅーたーが こしょうしました。",
+      "romaji": "Konpyūtā ga koshō shimashita."
+    },
+    "options": ["breakdown", "arrival", "purchase", "repair"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "故障 means a breakdown or mechanical failure.",
+      "bn": "故障 মানে যন্ত্র বিকল হওয়া বা নষ্ট হওয়া।"
     }
   }
 ]

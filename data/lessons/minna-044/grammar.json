@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-044-g1",
-    "pattern": "〜44-A",
-    "meaning_en": "Grammar pattern 44-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 44-A",
+    "pattern": "V-ます stem + すぎます",
+    "meaning_en": "to do something too much",
+    "meaning_bn": "অতিরিক্ত কিছু করা",
     "examples": [
       {
-        "jp": "これは レッスン44の 文法です。",
-        "en": "This is lesson 44 grammar.",
-        "bn": "This is lesson 44 grammar.",
-        "furigana": "これは レッスン44の 文法です。",
-        "romaji": ""
+        "jp": "きのうの 夜、食べ過ぎて、お腹が 痛く なりました。",
+        "furigana": "きのうの よる、たべすぎて、おなかが いたく なりました。",
+        "romaji": "Kinō no yoru, tabesugite, onaka ga itaku narimashita.",
+        "en": "Last night I ate too much and my stomach started hurting.",
+        "bn": "গতরাতে অতিরিক্ত খেয়ে পেটে ব্যথা শুরু হলো।"
+      },
+      {
+        "jp": "お酒を 飲み過ぎないで ください。",
+        "furigana": "おさけを のみすぎないで ください。",
+        "romaji": "Osake o nomisuginai de kudasai.",
+        "en": "Please do not drink too much alcohol.",
+        "bn": "অতিরিক্ত মদ খাবেন না।"
+      },
+      {
+        "jp": "彼は 最近 働き過ぎて、とても 疲れて います。",
+        "furigana": "かれは さいきん はたらきすぎて、とても つかれて います。",
+        "romaji": "Kare wa saikin hatarakisugite, totemo tsukarete imasu.",
+        "en": "He has been working too much recently and is very tired.",
+        "bn": "সে ইদানীং অতিরিক্ত কাজ করছে, তাই খুব ক্লান্ত।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-044-g2",
-    "pattern": "〜44-B",
-    "meaning_en": "Grammar pattern 44-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 44-B",
+    "pattern": "イA(-い) + すぎます / ナA + すぎます",
+    "meaning_en": "too (adjective)",
+    "meaning_bn": "অতিরিক্ত ...",
     "examples": [
       {
-        "jp": "これは レッスン44の 文法です。",
-        "en": "This is lesson 44 grammar.",
-        "bn": "This is lesson 44 grammar.",
-        "furigana": "これは レッスン44の 文法です。",
-        "romaji": ""
+        "jp": "この 問題は 難しすぎます。",
+        "furigana": "この もんだいは むずかしすぎます。",
+        "romaji": "Kono mondai wa muzukashisugimasu.",
+        "en": "This problem is too difficult.",
+        "bn": "এই সমস্যাটি অতিরিক্ত কঠিন।"
+      },
+      {
+        "jp": "この 荷物は 重すぎて、一人では 持てません。",
+        "furigana": "この にもつは おもすぎて、ひとりでは もてません。",
+        "romaji": "Kono nimotsu wa omosugite, hitori de wa motemasen.",
+        "en": "This luggage is too heavy; I cannot carry it alone.",
+        "bn": "এই মালপত্রটি অতিরিক্ত ভারী, একা ধরতে পারব না।"
+      },
+      {
+        "jp": "この 部屋は 静かすぎて、少し 寂しいです。",
+        "furigana": "この へやは しずかすぎて、すこし さびしいです。",
+        "romaji": "Kono heya wa shizukasugite, sukoshi sabishii desu.",
+        "en": "This room is too quiet, so it feels a little lonely.",
+        "bn": "এই ঘরটি অতিরিক্ত নিঃশব্দ, তাই একটু একাকী লাগে।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-044-g3",
+    "pattern": "V-ます stem + やすい",
+    "meaning_en": "easy to do",
+    "meaning_bn": "করা সহজ",
+    "examples": [
+      {
+        "jp": "この 本は 字が 大きくて、とても 読みやすいです。",
+        "furigana": "この ほんは じが おおきくて、とても よみやすいです。",
+        "romaji": "Kono hon wa ji ga ōkikute, totemo yomiyasui desu.",
+        "en": "This book has large letters, so it is very easy to read.",
+        "bn": "এই বইয়ের অক্ষর বড়, তাই পড়তে খুব সহজ।"
+      },
+      {
+        "jp": "この くつは 軽くて 歩きやすいです。",
+        "furigana": "この くつは かるくて あるきやすいです。",
+        "romaji": "Kono kutsu wa karukute arukiyasui desu.",
+        "en": "These shoes are light and easy to walk in.",
+        "bn": "এই জুতো হালকা এবং হাঁটতে সহজ।"
+      },
+      {
+        "jp": "この 機械は 使いやすいですか。",
+        "furigana": "この きかいは つかいやすいですか。",
+        "romaji": "Kono kikai wa tsukaiyasui desu ka.",
+        "en": "Is this machine easy to use?",
+        "bn": "এই যন্ত্রটি ব্যবহার করা কি সহজ?"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-044-g4",
+    "pattern": "V-ます stem + にくい",
+    "meaning_en": "hard to do, difficult to do",
+    "meaning_bn": "করা কঠিন",
+    "examples": [
+      {
+        "jp": "この 説明書は 漢字が 多くて、わかりにくいです。",
+        "furigana": "この せつめいしょは かんじが おおくて、わかりにくいです。",
+        "romaji": "Kono setsumeisho wa kanji ga ōkute, wakarinikui desu.",
+        "en": "This manual has many kanji and is hard to understand.",
+        "bn": "এই নির্দেশিকায় অনেক কাঞ্জি, বোঝা কঠিন।"
+      },
+      {
+        "jp": "この ペンは 細くて 書きにくいです。",
+        "furigana": "この ぺんは ほそくて かきにくいです。",
+        "romaji": "Kono pen wa hosokute kakinikui desu.",
+        "en": "This pen is thin and hard to write with.",
+        "bn": "এই কলমটি চিকন, লিখতে কঠিন।"
+      },
+      {
+        "jp": "この 道は 暗くて 歩きにくいですね。",
+        "furigana": "この みちは くらくて あるきにくいですね。",
+        "romaji": "Kono michi wa kurakute arukinikui desu ne.",
+        "en": "This road is dark and hard to walk on.",
+        "bn": "এই রাস্তাটি অন্ধকার, হাঁটা কঠিন।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-044-g5",
+    "pattern": "イA-く なります / ナA・N に なります",
+    "meaning_en": "to become (adjective or noun)",
+    "meaning_bn": "... হয়ে যাওয়া",
+    "examples": [
+      {
+        "jp": "だんだん 寒く なりましたね。",
+        "furigana": "だんだん さむく なりましたね。",
+        "romaji": "Dandan samuku narimashita ne.",
+        "en": "It has gradually become cold, hasn't it?",
+        "bn": "ধীরে ধীরে ঠান্ডা হয়ে গেছে, তাই না?"
+      },
+      {
+        "jp": "田中さんは 大学を 出て、先生に なりました。",
+        "furigana": "たなかさんは だいがくを でて、せんせいに なりました。",
+        "romaji": "Tanaka-san wa daigaku o dete, sensei ni narimashita.",
+        "en": "Tanaka graduated from university and became a teacher.",
+        "bn": "তানাকা বিশ্ববিদ্যালয় শেষ করে শিক্ষক হয়েছেন।"
+      },
+      {
+        "jp": "この 町は 前より 便利に なりました。",
+        "furigana": "この まちは まえより べんりに なりました。",
+        "romaji": "Kono machi wa mae yori benri ni narimashita.",
+        "en": "This town has become more convenient than before.",
+        "bn": "এই শহরটি আগের চেয়ে সুবিধাজনক হয়ে গেছে।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

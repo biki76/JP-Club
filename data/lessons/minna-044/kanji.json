@@ -1,86 +1,131 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
+    "character": "製",
+    "onyomi": ["セイ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["manufacture", "made"],
+      "bn": ["নির্মাণ", "প্রস্তুত"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["制", "衣"],
     "strokes": 14,
-    "grade": 4,
+    "grade": 5,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "品",
+    "onyomi": ["ヒン"],
+    "kunyomi": ["しな"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["goods", "item", "quality"],
+      "bn": ["পণ্য", "মান"]
     },
-    "radicals": [],
+    "radicals": ["口"],
+    "strokes": 9,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "操",
+    "onyomi": ["ソウ"],
+    "kunyomi": ["あやつ.る"],
+    "meanings": {
+      "en": ["operate", "manipulate"],
+      "bn": ["পরিচালনা করা", "চালানো"]
+    },
+    "radicals": ["扌"],
+    "strokes": 16,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "作",
+    "onyomi": ["サク", "サ"],
+    "kunyomi": ["つく.る"],
+    "meanings": {
+      "en": ["make", "produce"],
+      "bn": ["তৈরি করা", "নির্মাণ"]
+    },
+    "radicals": ["亻"],
+    "strokes": 7,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "障",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["さわ.る"],
+    "meanings": {
+      "en": ["obstacle", "hinder"],
+      "bn": ["বাধা", "বাধা দেওয়া"]
+    },
+    "radicals": ["阝"],
+    "strokes": 14,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "修",
+    "onyomi": ["シュウ", "シュ"],
+    "kunyomi": ["おさ.める"],
+    "meanings": {
+      "en": ["repair", "discipline"],
+      "bn": ["মেরামত", "শৃঙ্খলা"]
+    },
+    "radicals": ["亻"],
     "strokes": 10,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "便",
+    "onyomi": ["ベン", "ビン"],
+    "kunyomi": ["たよ.り"],
+    "meanings": {
+      "en": ["convenience", "mail"],
+      "bn": ["সুবিধা", "ডাক"]
+    },
+    "radicals": ["亻"],
+    "strokes": 9,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "利",
+    "onyomi": ["リ"],
+    "kunyomi": ["き.く"],
+    "meanings": {
+      "en": ["profit", "sharp"],
+      "bn": ["লাভ", "ধারালো"]
+    },
+    "radicals": ["禾", "刂"],
+    "strokes": 7,
+    "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "簡",
+    "onyomi": ["カン"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["simple", "brief"],
+      "bn": ["সহজ", "সংক্ষিপ্ত"]
     },
-    "radicals": [],
-    "strokes": 11,
+    "radicals": ["竹"],
+    "strokes": 18,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "単",
+    "onyomi": ["タン"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["simple", "single"],
+      "bn": ["সরল", "একক"]
+    },
+    "radicals": ["十"],
+    "strokes": 9,
     "grade": 4,
     "jlpt": "N4"
   }

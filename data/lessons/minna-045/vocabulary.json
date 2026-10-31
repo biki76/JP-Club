@@ -1,5 +1,272 @@
 [
-{"id":"minna-045-v001","kanji":"何語","furigana":"なにご","romaji":"nanigo","english_meaning":"which language","bengali_meaning":"কোন ভাষা","type":"noun"},
-{"id":"minna-045-v002","kanji":"宇宙","furigana":"うちゅう","romaji":"uchuu","english_meaning":"universe / space","bengali_meaning":"মহাবিশ্ব","type":"noun"},
-{"id":"minna-045-v003","kanji":"人類","furigana":"じんるい","romaji":"jinrui","english_meaning":"humanity","bengali_meaning":"মানবজাতি","type":"noun"}
+  {
+    "id": "minna-045-v001",
+    "furigana": "きせつ",
+    "kanji": "季節",
+    "romaji": "kisetsu",
+    "english_meaning": "season",
+    "bengali_meaning": "ঋতু",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v002",
+    "furigana": "はる",
+    "kanji": "春",
+    "romaji": "haru",
+    "english_meaning": "spring",
+    "bengali_meaning": "বসন্ত",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v003",
+    "furigana": "なつ",
+    "kanji": "夏",
+    "romaji": "natsu",
+    "english_meaning": "summer",
+    "bengali_meaning": "গ্রীষ্ম",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v004",
+    "furigana": "あき",
+    "kanji": "秋",
+    "romaji": "aki",
+    "english_meaning": "autumn",
+    "bengali_meaning": "শরৎ",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v005",
+    "furigana": "ふゆ",
+    "kanji": "冬",
+    "romaji": "fuyu",
+    "english_meaning": "winter",
+    "bengali_meaning": "শীত",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v006",
+    "furigana": "てんきよほう",
+    "kanji": "天気予報",
+    "romaji": "tenkiyohō",
+    "english_meaning": "weather forecast",
+    "bengali_meaning": "আবহাওয়ার পূর্বাভাস",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v007",
+    "furigana": "たいふう",
+    "kanji": "台風",
+    "romaji": "taifū",
+    "english_meaning": "typhoon",
+    "bengali_meaning": "টাইফুন",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v008",
+    "furigana": "じしん",
+    "kanji": "地震",
+    "romaji": "jishin",
+    "english_meaning": "earthquake",
+    "bengali_meaning": "ভূমিকম্প",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v009",
+    "furigana": "こうずい",
+    "kanji": "洪水",
+    "romaji": "kōzui",
+    "english_meaning": "flood",
+    "bengali_meaning": "বন্যা",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v010",
+    "furigana": "ひなん",
+    "kanji": "避難",
+    "romaji": "hinan",
+    "english_meaning": "evacuation, taking shelter",
+    "bengali_meaning": "আশ্রয় নেওয়া",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v011",
+    "furigana": "あんぜん",
+    "kanji": "安全",
+    "romaji": "anzen",
+    "english_meaning": "safe, safety",
+    "bengali_meaning": "নিরাপদ",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v012",
+    "furigana": "きけん",
+    "kanji": "危険",
+    "romaji": "kiken",
+    "english_meaning": "danger, dangerous",
+    "bengali_meaning": "বিপদ",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v013",
+    "furigana": "ちゅうい",
+    "kanji": "注意",
+    "romaji": "chūi",
+    "english_meaning": "caution, attention",
+    "bengali_meaning": "সতর্কতা",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v014",
+    "furigana": "けいこく",
+    "kanji": "警告",
+    "romaji": "keikoku",
+    "english_meaning": "warning",
+    "bengali_meaning": "সতর্কবার্তা",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v015",
+    "furigana": "よそう",
+    "kanji": "予想",
+    "romaji": "yosō",
+    "english_meaning": "prediction, forecast",
+    "bengali_meaning": "পূর্বানুমান",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v016",
+    "furigana": "おこる",
+    "kanji": "起こる",
+    "romaji": "okoru",
+    "english_meaning": "to happen, to occur",
+    "bengali_meaning": "ঘটা",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v017",
+    "furigana": "きおん",
+    "kanji": "気温",
+    "romaji": "kion",
+    "english_meaning": "temperature (air)",
+    "bengali_meaning": "তাপমাত্রা",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v018",
+    "furigana": "しつど",
+    "kanji": "湿度",
+    "romaji": "shitsudo",
+    "english_meaning": "humidity",
+    "bengali_meaning": "আর্দ্রতা",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v019",
+    "furigana": "かぜ",
+    "kanji": "風",
+    "romaji": "kaze",
+    "english_meaning": "wind",
+    "bengali_meaning": "বাতাস",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v020",
+    "furigana": "かみなり",
+    "kanji": "雷",
+    "romaji": "kaminari",
+    "english_meaning": "thunder, lightning",
+    "bengali_meaning": "বজ্রপাত",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v021",
+    "furigana": "あらし",
+    "kanji": "嵐",
+    "romaji": "arashi",
+    "english_meaning": "storm",
+    "bengali_meaning": "ঝড়",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v022",
+    "furigana": "ゆき",
+    "kanji": "雪",
+    "romaji": "yuki",
+    "english_meaning": "snow",
+    "bengali_meaning": "বরফ",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v023",
+    "furigana": "はれ",
+    "kanji": "晴れ",
+    "romaji": "hare",
+    "english_meaning": "clear weather, sunny",
+    "bengali_meaning": "পরিষ্কার আবহাওয়া",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v024",
+    "furigana": "くもり",
+    "kanji": "曇り",
+    "romaji": "kumori",
+    "english_meaning": "cloudy weather",
+    "bengali_meaning": "মেঘলা আবহাওয়া",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v025",
+    "furigana": "あめ",
+    "kanji": "雨",
+    "romaji": "ame",
+    "english_meaning": "rain",
+    "bengali_meaning": "বৃষ্টি",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v026",
+    "furigana": "そら",
+    "kanji": "空",
+    "romaji": "sora",
+    "english_meaning": "sky",
+    "bengali_meaning": "আকাশ",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v027",
+    "furigana": "かわ",
+    "kanji": "川",
+    "romaji": "kawa",
+    "english_meaning": "river",
+    "bengali_meaning": "নদী",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v028",
+    "furigana": "うみ",
+    "kanji": "海",
+    "romaji": "umi",
+    "english_meaning": "sea",
+    "bengali_meaning": "সমুদ্র",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v029",
+    "furigana": "やま",
+    "kanji": "山",
+    "romaji": "yama",
+    "english_meaning": "mountain",
+    "bengali_meaning": "পর্বত",
+    "tags": ["vocabulary", "lesson-45"]
+  },
+  {
+    "id": "minna-045-v030",
+    "furigana": "はし",
+    "kanji": "橋",
+    "romaji": "hashi",
+    "english_meaning": "bridge",
+    "bengali_meaning": "সেতু",
+    "tags": ["vocabulary", "lesson-45"]
+  }
 ]

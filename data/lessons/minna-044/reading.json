@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-044-r001",
+    "id": "minna-044-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "My New Computer",
+      "bn": "আমার নতুন কম্পিউটার"
     },
     "passage": [
       {
-        "jp": "これは なきます です。",
-        "furigana": "これは なきます です。",
-        "romaji": "Kore wa nakimasu desu.",
-        "en": "This is cry.",
-        "bn": "এটি cry।"
+        "jp": "先週、新しい コンピューターを 買いました。",
+        "furigana": "せんしゅう、あたらしい こんぴゅーたーを かいました。",
+        "romaji": "Senshū, atarashii konpyūtā o kaimashita.",
+        "en": "Last week I bought a new computer.",
+        "bn": "গত সপ্তাহে নতুন কম্পিউটার কিনেছি।"
+      },
+      {
+        "jp": "前の コンピューターは 古くて、とても 動きにくかったです。",
+        "furigana": "まえの こんぴゅーたーは ふるくて、とても うごきにくかったです。",
+        "romaji": "Mae no konpyūtā wa furukute, totemo ugokinikukatta desu.",
+        "en": "My previous computer was old and very hard to operate.",
+        "bn": "আগের কম্পিউটারটি পুরোনো ছিল, চালানো খুব কঠিন ছিল।"
+      },
+      {
+        "jp": "新しい 機械は 軽くて、持ちやすいです。",
+        "furigana": "あたらしい きかいは かるくて、もちやすいです。",
+        "romaji": "Atarashii kikai wa karukute, mochiyasui desu.",
+        "en": "The new machine is light and easy to carry.",
+        "bn": "নতুন যন্ত্রটি হালকা এবং বহন করা সহজ।"
+      },
+      {
+        "jp": "ボタンも 大きくて、押しやすいです。",
+        "furigana": "ぼたんも おおきくて、おしやすいです。",
+        "romaji": "Botan mo ōkikute, oshiyasui desu.",
+        "en": "The buttons are also large and easy to press.",
+        "bn": "বোতামগুলোও বড়, চাপা সহজ।"
+      },
+      {
+        "jp": "でも、説明書の 漢字が 多くて、わかりにくいです。",
+        "furigana": "でも、せつめいしょの かんじが おおくて、わかりにくいです。",
+        "romaji": "Demo, setsumeisho no kanji ga ōkute, wakarinikui desu.",
+        "en": "But there are many kanji in the manual, so it is hard to understand.",
+        "bn": "কিন্তু নির্দেশিকায় অনেক কাঞ্জি, বোঝা কঠিন।"
+      },
+      {
+        "jp": "昨日 一日中 使いましたから、少し 疲れました。",
+        "furigana": "きのう いちにちじゅう つかいましたから、すこし つかれました。",
+        "romaji": "Kinō ichinichijū tsukaimashita kara, sukoshi tsukaremashita.",
+        "en": "I used it all day yesterday, so I got a little tired.",
+        "bn": "গতকাল সারাদিন ব্যবহার করেছি, তাই একটু ক্লান্ত হয়েছি।"
+      },
+      {
+        "jp": "それでも、前より ずっと 便利に なりました。",
+        "furigana": "それでも、まえより ずっと べんりに なりました。",
+        "romaji": "Sore demo, mae yori zutto benri ni narimashita.",
+        "en": "Even so, it has become much more convenient than before.",
+        "bn": "তবুও আগের চেয়ে অনেক সুবিধাজনক হয়েছে।"
+      },
+      {
+        "jp": "これからは 使い過ぎない ように、気を つけます。",
+        "furigana": "これからは つかいすぎない ように、きを つけます。",
+        "romaji": "Kore kara wa tsukaisuginai yō ni, ki o tsukemasu.",
+        "en": "From now on I will be careful not to use it too much.",
+        "bn": "এখন থেকে অতিরিক্ত ব্যবহার না করার দিকে খেয়াল রাখব।"
       }
     ]
   }

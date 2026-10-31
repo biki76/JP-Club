@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-045-l001",
+    "id": "minna-045-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "What If It Rains?",
+      "bn": "যদি বৃষ্টি হয়?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "しんじます は 何 ですか。",
-        "furigana": "しんじます は なん ですか。",
-        "romaji": "shinjimasu wa nan desu ka.",
-        "en": "What is believe, trust?",
-        "bn": "believe, trust কী?"
+        "jp": "あしたの 遠足は どう なりますか。",
+        "furigana": "あしたの えんそくは どう なりますか。",
+        "romaji": "Ashita no ensoku wa dō narimasu ka.",
+        "en": "What will happen to tomorrow's excursion?",
+        "bn": "আগামীকালের ভ্রমণ কী হবে?"
+      },
+      {
+        "jp": "雨が 降る 場合は、学校で 映画を 見ます。",
+        "furigana": "あめが ふる ばあいは、がっこうで えいがを みます。",
+        "romaji": "Ame ga furu baai wa, gakkō de eiga o mimasu.",
+        "en": "In the case it rains, we will watch a movie at school.",
+        "bn": "বৃষ্টি হলে স্কুলে সিনেমা দেখব।"
+      },
+      {
+        "jp": "少し 降っても、遠足は ありますか。",
+        "furigana": "すこし ふっても、えんそくは ありますか。",
+        "romaji": "Sukoshi futte mo, ensoku wa arimasu ka.",
+        "en": "Even if it rains a little, will the excursion take place?",
+        "bn": "একটু বৃষ্টি হলেও ভ্রমণ হবে?"
+      },
+      {
+        "jp": "いいえ、少しでも 降ったら、中止です。",
+        "furigana": "いいえ、すこしでも ふったら、ちゅうしです。",
+        "romaji": "Iie, sukoshi demo futtara, chūshi desu.",
+        "en": "No, if it rains even a little, it will be cancelled.",
+        "bn": "না, একটু হলেও বৃষ্টি হলে বাতিল।"
+      },
+      {
+        "jp": "そうですか。じゃ、何を 用意すれば いいですか。",
+        "furigana": "そうですか。じゃ、なにを よういすれば いいですか。",
+        "romaji": "Sō desu ka. Ja, nani o yōi sureba ii desu ka.",
+        "en": "Is that so. Then what should I prepare?",
+        "bn": "তাই নাকি। তাহলে কী প্রস্তুত করব?"
+      },
+      {
+        "jp": "お弁当と 水筒を 持って きて ください。",
+        "furigana": "おべんとうと すいとうを もって きて ください。",
+        "romaji": "Obentō to suitō o motte kite kudasai.",
+        "en": "Please bring a lunch box and a water bottle.",
+        "bn": "টিফিন ও পানির বোতল নিয়ে আসুন।"
+      },
+      {
+        "jp": "わかりました。雨の 場合は、何時に 学校へ 行きますか。",
+        "furigana": "わかりました。あめの ばあいは、なんじに がっこうへ いきますか。",
+        "romaji": "Wakarimashita. Ame no baai wa, nanji ni gakkō e ikimasu ka.",
+        "en": "Understood. In the case of rain, what time do we go to school?",
+        "bn": "বুঝেছি। বৃষ্টি হলে কয়টায় স্কুলে যাব?"
+      },
+      {
+        "jp": "いつも と同じ、八時です。",
+        "furigana": "いつも と おなじ、はちじです。",
+        "romaji": "Itsumo to onaji, hachi-ji desu.",
+        "en": "Same as usual, eight o'clock.",
+        "bn": "সবসময়ের মতো, আটটা।"
+      },
+      {
+        "jp": "だれが 来ても、同じ 時間ですね。わかりました。",
+        "furigana": "だれが きても、おなじ じかんですね。わかりました。",
+        "romaji": "Dare ga kite mo, onaji jikan desu ne. Wakarimashita.",
+        "en": "No matter who comes, it is the same time. Understood.",
+        "bn": "যে-ই আসুক, সময় একই। বুঝেছি।"
       }
     ]
   }
