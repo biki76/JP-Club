@@ -46,5 +46,149 @@
       "en": "The pattern 〜12-B means \"Grammar pattern 12-B\".",
       "bn": "〜12-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 12-B\"।"
     }
+  },
+  {
+    "id": "minna-012-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 夏は 冬より 暑いです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 夏は 冬より 暑いです।"
+    },
+    "stem": {
+      "jp": "夏は 冬より 暑いです。",
+      "furigana": "なつは ふゆより あついです।",
+      "romaji": "natsu wa fuyu yori atsui desu."
+    },
+    "options": [
+      "Summer is hotter than winter.",
+      "Winter is hotter than summer.",
+      "Summer is as hot as winter.",
+      "Summer and winter are cold."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A は B より 〜 means \"A is more ~ than B\".",
+      "bn": "A は B より 〜 মানে \"A, B-এর চেয়ে বেশি ~\"।"
+    }
+  },
+  {
+    "id": "minna-012-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 昨日は 寒かったです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 昨日は 寒かったです।"
+    },
+    "stem": {
+      "jp": "昨日は 寒かったです。",
+      "furigana": "きのうは さむかったです।",
+      "romaji": "kinou wa samukatta desu."
+    },
+    "options": [
+      "Yesterday was cold.",
+      "Today is cold.",
+      "Yesterday was hot.",
+      "Tomorrow will be cold."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "I-adjectives take 〜かったです for the past.",
+      "bn": "ই-বিশেষণের অতীত রূপে 〜かったです বসে।"
+    }
+  },
+  {
+    "id": "minna-012-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 一年で 春が 一番 好きです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 一年で 春が 一番 好きです।"
+    },
+    "stem": {
+      "jp": "一年で 春が 一番 好きです。",
+      "furigana": "いちねんで はるが いちばん すきです।",
+      "romaji": "ichinen de haru ga ichiban suki desu."
+    },
+    "options": [
+      "I like spring the most in the year.",
+      "I like winter the most in the year.",
+      "I like all seasons equally.",
+      "I do not like spring."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "一番 with a liking expression means \"the most\".",
+      "bn": "一番 পছন্দ বোঝাতে \"সবচেয়ে বেশি\" অর্থ দেয়।"
+    }
+  },
+  {
+    "id": "minna-012-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 駅は 銀行より 近いです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 駅は 銀行より 近いです।"
+    },
+    "stem": {
+      "jp": "駅は 銀行より 近いです。",
+      "furigana": "えきは ぎんこうより ちかいです।",
+      "romaji": "eki wa ginkou yori chikai desu."
+    },
+    "options": [
+      "The station is closer than the bank.",
+      "The bank is closer than the station.",
+      "The station is far from the bank.",
+      "The station and the bank are near."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "より marks the standard of comparison.",
+      "bn": "より তুলনার ভিত্তি চিহ্নিত করে।"
+    }
+  },
+  {
+    "id": "minna-012-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 今日は 雨でした。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 今日は 雨でした।"
+    },
+    "stem": {
+      "jp": "今日は 雨でした。",
+      "furigana": "きょうは あめでした।",
+      "romaji": "kyou wa ame deshita."
+    },
+    "options": [
+      "It was rainy today.",
+      "It is snowy today.",
+      "It will rain tomorrow.",
+      "Today is cloudy."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Nouns take でした for the past: \"was N\".",
+      "bn": "বিশেষ্যের অতীত রূপে でした বসে: \"N ছিল\"।"
+    }
+  },
+  {
+    "id": "minna-012-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 東京は 大阪より 人が 多いです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 東京は 大阪より 人が 多いです।"
+    },
+    "stem": {
+      "jp": "東京は 大阪より 人が 多いです。",
+      "furigana": "とうきょうは おおさかより ひとが おおいです।",
+      "romaji": "toukyou wa oosaka yori hito ga ooi desu."
+    },
+    "options": [
+      "Tokyo has more people than Osaka.",
+      "Osaka has more people than Tokyo.",
+      "Tokyo and Osaka have the same people.",
+      "Tokyo has fewer people than Osaka."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "多い means \"many\"; A より B shows the comparison.",
+      "bn": "多い মানে \"অনেক\"; A より B তুলনা দেখায়।"
+    }
   }
 ]

@@ -3,14 +3,14 @@
     "id": "minna-012-g1",
     "pattern": "〜12-A",
     "meaning_en": "Grammar pattern 12-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 12-A",
+    "meaning_bn": "পাঠ ১২-এর ব্যাকরণ প্যাটার্ন A",
     "examples": [
       {
         "jp": "これは レッスン12の 文法です。",
         "en": "This is lesson 12 grammar.",
-        "bn": "This is lesson 12 grammar.",
-        "furigana": "これは レッスン12の 文法です。",
-        "romaji": ""
+        "bn": "এটি পাঠ ১২-এর ব্যাকরণ।",
+        "furigana": "これは レッスンじゅうにの ぶんぽうです。",
+        "romaji": "kore wa ressun juuni no bunpou desu."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-012-g2",
     "pattern": "〜12-B",
     "meaning_en": "Grammar pattern 12-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 12-B",
+    "meaning_bn": "পাঠ ১২-এর ব্যাকরণ প্যাটার্ন B",
     "examples": [
       {
         "jp": "これは レッスン12の 文法です。",
         "en": "This is lesson 12 grammar.",
-        "bn": "This is lesson 12 grammar.",
-        "furigana": "これは レッスン12の 文法です。",
-        "romaji": ""
+        "bn": "এটি পাঠ ১২-এর ব্যাকরণ।",
+        "furigana": "これは レッスンじゅうにの ぶんぽうです。",
+        "romaji": "kore wa ressun juuni no bunpou desu."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-012-g3",
+    "pattern": "A は B より 〜です",
+    "meaning_en": "A is more ~ than B",
+    "meaning_bn": "A, B-এর চেয়ে বেশি ~",
+    "examples": [
+      {
+        "jp": "東京は 大阪より 人が 多いです。",
+        "furigana": "とうきょうは おおさかより ひとが おおいです।",
+        "romaji": "toukyou wa oosaka yori hito ga ooi desu.",
+        "en": "Tokyo has more people than Osaka.",
+        "bn": "টোকিওতে ওসাকার চেয়ে বেশি মানুষ আছে।"
+      },
+      {
+        "jp": "今日は 昨日より 暖かいです。",
+        "furigana": "きょうは きのうより あたたかいです।",
+        "romaji": "kyou wa kinou yori atatakai desu.",
+        "en": "Today is warmer than yesterday.",
+        "bn": "আজ গতকালের চেয়ে উষ্ণ।"
+      },
+      {
+        "jp": "駅は 銀行より 近いです。",
+        "furigana": "えきは ぎんこうより ちかいです।",
+        "romaji": "eki wa ginkou yori chikai desu.",
+        "en": "The station is closer than the bank.",
+        "bn": "স্টেশন ব্যাংকের চেয়ে কাছে।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-012-g4",
+    "pattern": "N で 一番 〜",
+    "meaning_en": "the most ~ in N",
+    "meaning_bn": "N-এর মধ্যে সবচেয়ে ~",
+    "examples": [
+      {
+        "jp": "一年で 春が 一番 好きです。",
+        "furigana": "いちねんで はるが いちばん すきです।",
+        "romaji": "ichinen de haru ga ichiban suki desu.",
+        "en": "I like spring the most in the year.",
+        "bn": "বছরের মধ্যে আমি বসন্তকে সবচেয়ে বেশি পছন্দ করি।"
+      },
+      {
+        "jp": "世界で 富士山が 一番 高いです。",
+        "furigana": "せかいで ふじさんが いちばん たかいです।",
+        "romaji": "sekai de fujisan ga ichiban takai desu.",
+        "en": "Mt. Fuji is the highest in the world.",
+        "bn": "বিশ্বে মাউন্ট ফুজি সবচেয়ে উঁচু।"
+      },
+      {
+        "jp": "この 町で あの 店が 一番 近いです。",
+        "furigana": "この まちで あの みせが いちばん ちかいです।",
+        "romaji": "kono machi de ano mise ga ichiban chikai desu.",
+        "en": "That shop is the closest in this town.",
+        "bn": "এই শহরে ওই দোকানটি সবচেয়ে কাছে।"
       }
     ],
     "tags": [

@@ -1,98 +1,203 @@
 [
   {
-    "character": "日",
+    "character": "近",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "キン"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "ちか.い"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "near",
+        "close"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "কাছে",
+        "নিকটে"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "辶",
+      "斤"
+    ],
+    "strokes": 7,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "遠",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "とお.い"
+    ],
+    "meanings": {
+      "en": [
+        "far"
+      ],
+      "bn": [
+        "দূরে"
+      ]
+    },
+    "radicals": [
+      "辶",
+      "袁"
+    ],
+    "strokes": 13,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "多",
+    "onyomi": [
+      "タ"
+    ],
+    "kunyomi": [
+      "おお.い"
+    ],
+    "meanings": {
+      "en": [
+        "many",
+        "much"
+      ],
+      "bn": [
+        "অনেক",
+        "বহু"
+      ]
+    },
+    "radicals": [
+      "夕"
+    ],
+    "strokes": 6,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "少",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "すこ.し",
+      "すく.ない"
+    ],
+    "meanings": {
+      "en": [
+        "few",
+        "a little"
+      ],
+      "bn": [
+        "অল্প",
+        "কম"
+      ]
+    },
+    "radicals": [
+      "小",
+      "丿"
+    ],
     "strokes": 4,
-    "grade": 5,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "春",
     "onyomi": [
-      "ホン"
+      "シュン"
     ],
     "kunyomi": [
-      "もと"
+      "はる"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "spring"
       ],
       "bn": [
-        "বই, উৎস"
+        "বসন্ত"
       ]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 5,
+    "radicals": [
+      "日",
+      "三",
+      "人"
+    ],
+    "strokes": 9,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "夏",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なつ"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "summer"
       ],
       "bn": [
-        "অর্থ"
+        "গ্রীষ্ম"
       ]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": [
+      "一",
+      "自",
+      "夂"
+    ],
     "strokes": 10,
-    "grade": 5,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "秋",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [
+      "あき"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "autumn",
+        "fall"
       ],
       "bn": [
-        "অর্থ"
+        "শরৎ"
       ]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 5,
+    "radicals": [
+      "禾",
+      "火"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "冬",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ふゆ"
+    ],
+    "meanings": {
+      "en": [
+        "winter"
+      ],
+      "bn": [
+        "শীত"
+      ]
+    },
+    "radicals": [
+      "夂",
+      "冫"
+    ],
+    "strokes": 5,
+    "grade": 2,
     "jlpt": "N5"
   }
 ]
