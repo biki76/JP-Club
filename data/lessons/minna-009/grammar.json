@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "id": "minna-009-g1",
+    "pattern": "N が 好きです / 嫌いです",
+    "meaning_en": "like / dislike N",
+    "meaning_bn": "N পছন্দ করি / অপছন্দ করি",
+    "examples": [
+      {
+        "jp": "私は 音楽が 好きです。",
+        "furigana": "わたしは おんがくが すきです。",
+        "romaji": "watashi wa ongaku ga suki desu.",
+        "en": "I like music.",
+        "bn": "আমি সঙ্গীত পছন্দ করি।"
+      },
+      {
+        "jp": "弟は 野球が 嫌いです。",
+        "furigana": "おとうとは やきゅうが きらいです。",
+        "romaji": "otouto wa yakyuu ga kirai desu.",
+        "en": "My younger brother dislikes baseball.",
+        "bn": "আমার ছোট ভাই বেসবল অপছন্দ করে।"
+      },
+      {
+        "jp": "妻は 料理が 好きです。",
+        "furigana": "つまは りょうりが すきです。",
+        "romaji": "tsuma wa ryouri ga suki desu.",
+        "en": "My wife likes cooking.",
+        "bn": "আমার স্ত্রী রান্না পছন্দ করেন।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-009-g2",
+    "pattern": "N が 上手です / 下手です",
+    "meaning_en": "be good at / poor at N",
+    "meaning_bn": "N-এ দক্ষ / অদক্ষ",
+    "examples": [
+      {
+        "jp": "姉は 歌が 上手です。",
+        "furigana": "あねは うたが じょうずです。",
+        "romaji": "ane wa uta ga jouzu desu.",
+        "en": "My elder sister is good at singing.",
+        "bn": "আমার বড় বোন গানে দক্ষ।"
+      },
+      {
+        "jp": "私は 絵が 下手です。",
+        "furigana": "わたしは えが へたです।",
+        "romaji": "watashi wa e ga heta desu.",
+        "en": "I am poor at drawing.",
+        "bn": "আমি আঁকায় অদক্ষ।"
+      },
+      {
+        "jp": "夫は 漢字が 上手です。",
+        "furigana": "おっとは かんじが じょうずです।",
+        "romaji": "otto wa kanji ga jouzu desu.",
+        "en": "My husband is good at kanji.",
+        "bn": "আমার স্বামী কাঞ্জিতে দক্ষ।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-009-g3",
+    "pattern": "N が 分かります",
+    "meaning_en": "understand N",
+    "meaning_bn": "N বুঝি / জানি",
+    "examples": [
+      {
+        "jp": "私は 日本語が 少し 分かります。",
+        "furigana": "わたしは にほんごが すこし わかります。",
+        "romaji": "watashi wa nihongo ga sukoshi wakarimasu.",
+        "en": "I understand a little Japanese.",
+        "bn": "আমি একটু জাপানি ভাষা বুঝি।"
+      },
+      {
+        "jp": "ローマ字が 分かりますか。",
+        "furigana": "ローマじが わかりますか。",
+        "romaji": "roomaji ga wakarimasu ka.",
+        "en": "Do you understand the Roman alphabet?",
+        "bn": "আপনি রোমান হরফ বুঝেন কি?"
+      },
+      {
+        "jp": "この 漢字が 分かりません。",
+        "furigana": "この かんじが わかりません。",
+        "romaji": "kono kanji ga wakarimasen.",
+        "en": "I do not understand this kanji.",
+        "bn": "আমি এই কাঞ্জিটি বুঝি না।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-009-g4",
+    "pattern": "〜から (理由)",
+    "meaning_en": "because ~",
+    "meaning_bn": "কারণ ~ / ~ তাই",
+    "examples": [
+      {
+        "jp": "時間が ありませんから、早く 帰ります。",
+        "furigana": "じかんが ありませんから、はやく かえります。",
+        "romaji": "jikan ga arimasen kara, hayaku kaerimasu.",
+        "en": "Because I have no time, I will go home early.",
+        "bn": "সময় নেই, তাই তাড়াতাড়ি বাড়ি ফিরব।"
+      },
+      {
+        "jp": "用事が ありますから、今日は 行きません。",
+        "furigana": "ようじが ありますから、きょうは いきません。",
+        "romaji": "youji ga arimasu kara, kyou wa ikimasen.",
+        "en": "Because I have an errand, I will not go today.",
+        "bn": "কাজ আছে, তাই আজ যাব না।"
+      },
+      {
+        "jp": "音楽が 好きですから、毎日 聞きます。",
+        "furigana": "おんがくが すきですから、まいにち ききます。",
+        "romaji": "ongaku ga suki desu kara, mainichi kikimasu.",
+        "en": "Because I like music, I listen to it every day.",
+        "bn": "সঙ্গীত পছন্দ করি, তাই প্রতিদিন শুনি।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

@@ -1,1 +1,194 @@
-[]
+[
+  {
+    "id": "minna-010-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 部屋に 猫が います。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 部屋に 猫が います。"
+    },
+    "stem": {
+      "jp": "部屋に 猫が います。",
+      "furigana": "へやに ねこが います।",
+      "romaji": "heya ni neko ga imasu."
+    },
+    "options": [
+      "There is a cat in the room.",
+      "There is a cat outside the room.",
+      "The cat likes the room.",
+      "I have a cat in my bag."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "います is used for living things such as cats and people.",
+      "bn": "বিড়াল, মানুষ ইত্যাদি প্রাণীর ক্ষেত্রে います ব্যবহৃত হয়।"
+    }
+  },
+  {
+    "id": "minna-010-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 机の 上に 本が あります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 机の 上に 本が あります。"
+    },
+    "stem": {
+      "jp": "机の 上に 本が あります。",
+      "furigana": "つくえの うえに ほんが あります।",
+      "romaji": "tsukue no ue ni hon ga arimasu."
+    },
+    "options": [
+      "There is a book on the desk.",
+      "There is a book under the desk.",
+      "The book is interesting.",
+      "I read a book at the desk."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "あります is used for things; 上 means \"on/above\".",
+      "bn": "বস্তুর ক্ষেত্রে あります ব্যবহৃত হয়; 上 মানে \"উপরে\"।"
+    }
+  },
+  {
+    "id": "minna-010-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 冷蔵庫は 台所に あります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 冷蔵庫は 台所に あります。"
+    },
+    "stem": {
+      "jp": "冷蔵庫は 台所に あります。",
+      "furigana": "れいぞうこは だいどころに あります।",
+      "romaji": "reizouko wa daidokoro ni arimasu."
+    },
+    "options": [
+      "The refrigerator is in the kitchen.",
+      "The refrigerator is new.",
+      "The kitchen is next to the refrigerator.",
+      "There is food in the refrigerator."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N は place に あります tells where a thing is.",
+      "bn": "N は স্থান に あります কোনো বস্তু কোথায় আছে তা বলে।"
+    }
+  },
+  {
+    "id": "minna-010-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 銀行は 駅の 隣に あります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 銀行は 駅の 隣に あります。"
+    },
+    "stem": {
+      "jp": "銀行は 駅の 隣に あります。",
+      "furigana": "ぎんこうは えきの となりに あります।",
+      "romaji": "ginkou wa eki no tonari ni arimasu."
+    },
+    "options": [
+      "The bank is next to the station.",
+      "The bank is far from the station.",
+      "The station is inside the bank.",
+      "The bank is in front of the station."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "隣 means \"next to\".",
+      "bn": "隣 মানে \"পাশে\"।"
+    }
+  },
+  {
+    "id": "minna-010-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 箱の 中に 電池が あります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 箱の 中に 電池が あります。"
+    },
+    "stem": {
+      "jp": "箱の 中に 電池が あります。",
+      "furigana": "はこの なかに でんちが あります।",
+      "romaji": "hako no naka ni denchi ga arimasu."
+    },
+    "options": [
+      "There are batteries inside the box.",
+      "There are batteries outside the box.",
+      "The box is made of batteries.",
+      "The batteries are new."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "中 means \"inside\".",
+      "bn": "中 মানে \"ভিতরে\"।"
+    }
+  },
+  {
+    "id": "minna-010-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 公園に 子どもが います。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 公園に 子どもが います。"
+    },
+    "stem": {
+      "jp": "公園に 子どもが います。",
+      "furigana": "こうえんに こどもが います।",
+      "romaji": "kouen ni kodomo ga imasu."
+    },
+    "options": [
+      "There are children in the park.",
+      "The children are at school.",
+      "The park has no children.",
+      "There is a park near the children."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "People are living things, so います is used.",
+      "bn": "মানুষ প্রাণী, তাই います ব্যবহৃত হয়।"
+    }
+  },
+  {
+    "id": "minna-010-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 箱の 中に ペンや 消しゴムが あります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 箱の 中に ペンや 消しゴムが あります。"
+    },
+    "stem": {
+      "jp": "箱の 中に ペンや 消しゴムが あります。",
+      "furigana": "はこの なかに ペンや けしゴムが あります।",
+      "romaji": "hako no naka ni pen ya keshigomu ga arimasu."
+    },
+    "options": [
+      "Inside the box there are pens, erasers and so on.",
+      "Inside the box there is only a pen.",
+      "There is no pen in the box.",
+      "The pens are on top of the box."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N や N lists examples without naming everything.",
+      "bn": "N や N সব কিছু না বলে কয়েকটি উদাহরণ তালিকাভুক্ত করে।"
+    }
+  },
+  {
+    "id": "minna-010-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 木の 下に 犬が います。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 木の 下に 犬が います。"
+    },
+    "stem": {
+      "jp": "木の 下に 犬が います。",
+      "furigana": "きの したに いぬが います।",
+      "romaji": "ki no shita ni inu ga imasu."
+    },
+    "options": [
+      "There is a dog under the tree.",
+      "There is a dog near the tree.",
+      "The dog is on the tree.",
+      "The tree is behind the dog."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "下 means \"under/below\".",
+      "bn": "下 মানে \"নিচে\"।"
+    }
+  }
+]

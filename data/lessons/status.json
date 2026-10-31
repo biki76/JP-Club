@@ -58,18 +58,18 @@
       "practice": 8
     },
     "minna-009": {
-      "status": "draft",
+      "status": "ready",
       "vocab": 55,
-      "grammar": 0,
+      "grammar": 4,
       "kanji": 9,
-      "practice": 0
+      "practice": 8
     },
     "minna-010": {
-      "status": "draft",
+      "status": "ready",
       "vocab": 49,
-      "grammar": 0,
+      "grammar": 4,
       "kanji": 10,
-      "practice": 0
+      "practice": 8
     },
     "minna-011": {
       "status": "draft",

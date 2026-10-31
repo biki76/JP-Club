@@ -1,1 +1,194 @@
-[]
+[
+  {
+    "id": "minna-009-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私は 音楽が 好きです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私は 音楽が 好きです。"
+    },
+    "stem": {
+      "jp": "私は 音楽が 好きです。",
+      "furigana": "わたしは おんがくが すきです।",
+      "romaji": "watashi wa ongaku ga suki desu."
+    },
+    "options": [
+      "I like music.",
+      "I dislike music.",
+      "I listen to music.",
+      "I play music."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N が 好きです means \"I like N\".",
+      "bn": "N が 好きです মানে \"আমি N পছন্দ করি\"।"
+    }
+  },
+  {
+    "id": "minna-009-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 姉は 歌が 上手です。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 姉は 歌が 上手です。"
+    },
+    "stem": {
+      "jp": "姉は 歌が 上手です。",
+      "furigana": "あねは うたが じょうずです।",
+      "romaji": "ane wa uta ga jouzu desu."
+    },
+    "options": [
+      "My elder sister is good at singing.",
+      "My elder sister is poor at singing.",
+      "My elder sister likes songs.",
+      "My elder sister is a singer."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "上手です means \"good at\", so the sentence praises her singing.",
+      "bn": "上手です মানে \"দক্ষ\", তাই বাক্যটি তার গান গাওয়ার প্রশংসা করে।"
+    }
+  },
+  {
+    "id": "minna-009-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私は 日本語が 少し 分かります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私は 日本語が 少し 分かります。"
+    },
+    "stem": {
+      "jp": "私は 日本語が 少し 分かります。",
+      "furigana": "わたしは にほんごが すこし わかります।",
+      "romaji": "watashi wa nihongo ga sukoshi wakarimasu."
+    },
+    "options": [
+      "I understand a little Japanese.",
+      "I do not understand Japanese.",
+      "I speak Japanese very well.",
+      "I am studying Japanese."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "分かります means \"understand\" and 少し means \"a little\".",
+      "bn": "分かります মানে \"বুঝি\" আর 少し মানে \"একটু\"।"
+    }
+  },
+  {
+    "id": "minna-009-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 時間が ありませんから、早く 帰ります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 時間が ありませんから、早く 帰ります。"
+    },
+    "stem": {
+      "jp": "時間が ありませんから、早く 帰ります。",
+      "furigana": "じかんが ありませんから、はやく かえります।",
+      "romaji": "jikan ga arimasen kara, hayaku kaerimasu."
+    },
+    "options": [
+      "Because I have no time, I go home early.",
+      "I have time, so I go home slowly.",
+      "I have no time, so I do not go home.",
+      "Because I go home early, I have no time."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜から gives the reason for the following clause.",
+      "bn": "〜から পরবর্তী বাক্যাংশের কারণ বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-009-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 弟は 野球が 嫌いです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 弟は 野球が 嫌いです。"
+    },
+    "stem": {
+      "jp": "弟は 野球が 嫌いです。",
+      "furigana": "おとうとは やきゅうが きらいです।",
+      "romaji": "otouto wa yakyuu ga kirai desu."
+    },
+    "options": [
+      "My younger brother dislikes baseball.",
+      "My younger brother likes baseball.",
+      "My younger brother plays baseball.",
+      "My younger brother is good at baseball."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "嫌いです means \"dislike\".",
+      "bn": "嫌いです মানে \"অপছন্দ করি\"।"
+    }
+  },
+  {
+    "id": "minna-009-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私は 絵が 下手です。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私は 絵が 下手です。"
+    },
+    "stem": {
+      "jp": "私は 絵が 下手です。",
+      "furigana": "わたしは えが へたです।",
+      "romaji": "watashi wa e ga heta desu."
+    },
+    "options": [
+      "I am poor at drawing.",
+      "I am good at drawing.",
+      "I like pictures.",
+      "I draw every day."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "下手です means \"poor at\".",
+      "bn": "下手です মানে \"অদক্ষ\"।"
+    }
+  },
+  {
+    "id": "minna-009-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 漢字が 分かりません。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 漢字が 分かりません。"
+    },
+    "stem": {
+      "jp": "この 漢字が 分かりません。",
+      "furigana": "この かんじが わかりません।",
+      "romaji": "kono kanji ga wakarimasen."
+    },
+    "options": [
+      "I do not understand this kanji.",
+      "I understand this kanji.",
+      "I write this kanji.",
+      "This kanji is difficult."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "分かりません is the negative of 分かります.",
+      "bn": "分かりません হলো 分かります এর না-বোধক রূপ।"
+    }
+  },
+  {
+    "id": "minna-009-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 用事が ありますから、今日は 行きません。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 用事が ありますから、今日は 行きません。"
+    },
+    "stem": {
+      "jp": "用事が ありますから、今日は 行きません。",
+      "furigana": "ようじが ありますから、きょうは いきません।",
+      "romaji": "youji ga arimasu kara, kyou wa ikimasen."
+    },
+    "options": [
+      "Because I have an errand, I will not go today.",
+      "I have an errand, so I will go today.",
+      "I have no errands today.",
+      "I will do an errand today."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜から marks the reason; 行きません is negative.",
+      "bn": "〜から কারণ বোঝায়; 行きません না-বোধক।"
+    }
+  }
+]

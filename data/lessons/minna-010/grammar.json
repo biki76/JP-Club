@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "id": "minna-010-g1",
+    "pattern": "N が あります / います",
+    "meaning_en": "there is N (thing / living thing)",
+    "meaning_bn": "N আছে (বস্তু / প্রাণী)",
+    "examples": [
+      {
+        "jp": "部屋に 猫が います。",
+        "furigana": "へやに ねこが います।",
+        "romaji": "heya ni neko ga imasu.",
+        "en": "There is a cat in the room.",
+        "bn": "ঘরে একটি বিড়াল আছে।"
+      },
+      {
+        "jp": "机の 上に 本が あります。",
+        "furigana": "つくえの うえに ほんが あります।",
+        "romaji": "tsukue no ue ni hon ga arimasu.",
+        "en": "There is a book on the desk.",
+        "bn": "টেবিলের উপরে একটি বই আছে।"
+      },
+      {
+        "jp": "公園に 子どもが います。",
+        "furigana": "こうえんに こどもが います।",
+        "romaji": "kouen ni kodomo ga imasu.",
+        "en": "There are children in the park.",
+        "bn": "পার্কে শিশুরা আছে।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-010-g2",
+    "pattern": "N は 場所に あります / います",
+    "meaning_en": "N is in / at a place",
+    "meaning_bn": "N কোনো স্থানে আছে",
+    "examples": [
+      {
+        "jp": "冷蔵庫は 台所に あります。",
+        "furigana": "れいぞうこは だいどころに あります।",
+        "romaji": "reizouko wa daidokoro ni arimasu.",
+        "en": "The refrigerator is in the kitchen.",
+        "bn": "ফ্রিজটি রান্নাঘরে আছে।"
+      },
+      {
+        "jp": "犬は 庭に います。",
+        "furigana": "いぬは にわに います।",
+        "romaji": "inu wa niwa ni imasu.",
+        "en": "The dog is in the garden.",
+        "bn": "কুকুরটি বাগানে আছে।"
+      },
+      {
+        "jp": "東京ディズニーランドは 千葉県に あります。",
+        "furigana": "とうきょうディズニーランドは ちばけんに あります।",
+        "romaji": "toukyou dizuniirando wa chibaken ni arimasu.",
+        "en": "Tokyo Disneyland is in Chiba Prefecture.",
+        "bn": "টোকিও ডিজনিল্যান্ড চিবা প্রশাসনিক অঞ্চলে অবস্থিত।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-010-g3",
+    "pattern": "N の 上 / 下 / 前 / 後ろ / 中 / 外 / 隣 / 近く / 間",
+    "meaning_en": "position words: on, under, in front of, behind, inside, outside, next to, near, between",
+    "meaning_bn": "স্থানবাচক শব্দ: উপরে, নিচে, সামনে, পিছনে, ভিতরে, বাইরে, পাশে, কাছে, মাঝে",
+    "examples": [
+      {
+        "jp": "箱の 中に 電池が あります。",
+        "furigana": "はこの なかに でんちが あります।",
+        "romaji": "hako no naka ni denchi ga arimasu.",
+        "en": "There are batteries inside the box.",
+        "bn": "বাক্সের ভিতরে ব্যাটারি আছে।"
+      },
+      {
+        "jp": "銀行は 駅の 隣に あります。",
+        "furigana": "ぎんこうは えきの となりに あります।",
+        "romaji": "ginkou wa eki no tonari ni arimasu.",
+        "en": "The bank is next to the station.",
+        "bn": "ব্যাংকটি স্টেশনের পাশে আছে।"
+      },
+      {
+        "jp": "木の 下に 犬が います。",
+        "furigana": "きの したに いぬが います।",
+        "romaji": "ki no shita ni inu ga imasu.",
+        "en": "There is a dog under the tree.",
+        "bn": "গাছের নিচে একটি কুকুর আছে।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-010-g4",
+    "pattern": "N や N (など)",
+    "meaning_en": "N and N (and so on)",
+    "meaning_bn": "N আর N (ইত্যাদি)",
+    "examples": [
+      {
+        "jp": "箱の 中に ペンや 消しゴムが あります。",
+        "furigana": "はこの なかに ペンや けしゴムが あります।",
+        "romaji": "hako no naka ni pen ya keshigomu ga arimasu.",
+        "en": "Inside the box there are pens, erasers and so on.",
+        "bn": "বাক্সের ভিতরে কলম, রাবার ইত্যাদি আছে।"
+      },
+      {
+        "jp": "公園に 犬や 猫が います。",
+        "furigana": "こうえんに いぬや ねこが います।",
+        "romaji": "kouen ni inu ya neko ga imasu.",
+        "en": "In the park there are dogs, cats and so on.",
+        "bn": "পার্কে কুকুর, বিড়াল ইত্যাদি আছে।"
+      },
+      {
+        "jp": "机の 上に 本や ノートが あります。",
+        "furigana": "つくえの うえに ほんや ノートが あります।",
+        "romaji": "tsukue no ue ni hon ya nooto ga arimasu.",
+        "en": "On the desk there are books, notebooks and so on.",
+        "bn": "টেবিলের উপরে বই, খাতা ইত্যাদি আছে।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]
