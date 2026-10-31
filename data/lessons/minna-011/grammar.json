@@ -3,14 +3,14 @@
     "id": "minna-011-g1",
     "pattern": "〜11-A",
     "meaning_en": "Grammar pattern 11-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 11-A",
+    "meaning_bn": "সংখ্যা ও গণনাকারী: কতজন / কতটা / কতটি",
     "examples": [
       {
         "jp": "これは レッスン11の 文法です。",
         "en": "This is lesson 11 grammar.",
-        "bn": "This is lesson 11 grammar.",
-        "furigana": "これは レッスン11の 文法です。",
-        "romaji": ""
+        "bn": "ক্লাসরুমে পাঁচজন ছাত্র আছে।",
+        "furigana": "きょうしつに がくせいが ごにん います।",
+        "romaji": "kyoushitsu ni gakusei ga gonin imasu."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-011-g2",
     "pattern": "〜11-B",
     "meaning_en": "Grammar pattern 11-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 11-B",
+    "meaning_bn": "সময়কাল: কত ঘণ্টা / কত দিন / কত বছর",
     "examples": [
       {
         "jp": "これは レッスン11の 文法です。",
         "en": "This is lesson 11 grammar.",
-        "bn": "This is lesson 11 grammar.",
-        "furigana": "これは レッスン11の 文法です。",
-        "romaji": ""
+        "bn": "আমি প্রতিদিন দুই ঘণ্টা জাপানি পড়াশোনা করি।",
+        "furigana": "まいにち にじかん にほんごを べんきょうします।",
+        "romaji": "mainichi nijikan nihongo o benkyou shimasu."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-011-g3",
+    "pattern": "どのくらい 〜ますか",
+    "meaning_en": "how long / how much does it take?",
+    "meaning_bn": "কত সময় / কত পরিমাণ লাগে?",
+    "examples": [
+      {
+        "jp": "東京から 大阪まで どのくらい かかりますか。",
+        "furigana": "とうきょうから おおさかまで どのくらい かかりますか。",
+        "romaji": "toukyou kara oosaka made dono kurai kakarimasu ka.",
+        "en": "How long does it take from Tokyo to Osaka?",
+        "bn": "টোকিও থেকে ওসাকা পর্যন্ত কত সময় লাগে?"
+      },
+      {
+        "jp": "毎晩 どのくらい 寝ますか。",
+        "furigana": "まいばん どのくらい ねますか。",
+        "romaji": "maiban dono kurai nemasu ka.",
+        "en": "How long do you sleep every night?",
+        "bn": "আপনি প্রতি রাতে কতক্ষণ ঘুমান?"
+      },
+      {
+        "jp": "会社まで どのくらい かかりますか。",
+        "furigana": "かいしゃまで どのくらい かかりますか。",
+        "romaji": "kaisha made dono kurai kakarimasu ka.",
+        "en": "How long does it take to the company?",
+        "bn": "অফিস পর্যন্ত কত সময় লাগে?"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-011-g4",
+    "pattern": "数量 + ぐらい",
+    "meaning_en": "about (an approximate quantity)",
+    "meaning_bn": "প্রায় ~ (আনুমানিক পরিমাণ)",
+    "examples": [
+      {
+        "jp": "家から 駅まで 10分ぐらい かかります。",
+        "furigana": "いえから えきまで じゅっぷんぐらい かかります。",
+        "romaji": "ie kara eki made juppun gurai kakarimasu.",
+        "en": "It takes about ten minutes from my house to the station.",
+        "bn": "বাড়ি থেকে স্টেশন পর্যন্ত প্রায় দশ মিনিট লাগে।"
+      },
+      {
+        "jp": "教室に 学生が 20人ぐらい います。",
+        "furigana": "きょうしつに がくせいが にじゅうにんぐらい います。",
+        "romaji": "kyoushitsu ni gakusei ga nijuunin gurai imasu.",
+        "en": "There are about twenty students in the classroom.",
+        "bn": "ক্লাসরুমে প্রায় বিশজন ছাত্র আছে।"
+      },
+      {
+        "jp": "1週間ぐらい 休みます。",
+        "furigana": "いっしゅうかんぐらい やすみます。",
+        "romaji": "isshuukan gurai yasumimasu.",
+        "en": "I will take about one week off.",
+        "bn": "আমি প্রায় এক সপ্তাহ ছুটি নেব।"
       }
     ],
     "tags": [

@@ -46,5 +46,149 @@
       "en": "The pattern 〜11-B means \"Grammar pattern 11-B\".",
       "bn": "〜11-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 11-B\"।"
     }
+  },
+  {
+    "id": "minna-011-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 教室に 学生が 5人 います。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 教室に 学生が 5人 います。"
+    },
+    "stem": {
+      "jp": "教室に 学生が 5人 います。",
+      "furigana": "きょうしつに がくせいが ごにん います।",
+      "romaji": "kyoushitsu ni gakusei ga gonin imasu."
+    },
+    "options": [
+      "There are five students in the classroom.",
+      "There are two students in the classroom.",
+      "There are no students in the classroom.",
+      "There are five classrooms for students."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "5人 is read ごにん and counts people.",
+      "bn": "5人 পড়া হয় ごにん এবং এটি মানুষ গণনা করে।"
+    }
+  },
+  {
+    "id": "minna-011-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 机の 上に 紙が 3枚 あります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 机の 上に 紙が 3枚 あります。"
+    },
+    "stem": {
+      "jp": "机の 上に 紙が 3枚 あります。",
+      "furigana": "つくえの うえに かみが さんまい あります।",
+      "romaji": "tsukue no ue ni kami ga sanmai arimasu."
+    },
+    "options": [
+      "There are three sheets of paper on the desk.",
+      "There are three desks made of paper.",
+      "There is one sheet of paper on the desk.",
+      "The paper is under the desk."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "枚 counts flat things such as paper and stamps.",
+      "bn": "枚 কাগজ, টিকিট ইত্যাদি সমতল বস্তু গণনা করে।"
+    }
+  },
+  {
+    "id": "minna-011-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 毎日 2時間 日本語を 勉強します。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 毎日 2時間 日本語を 勉強します。"
+    },
+    "stem": {
+      "jp": "毎日 2時間 日本語を 勉強します。",
+      "furigana": "まいにち にじかん にほんごを べんきょうします।",
+      "romaji": "mainichi nijikan nihongo o benkyou shimasu."
+    },
+    "options": [
+      "I study Japanese for two hours every day.",
+      "I study Japanese twice a day.",
+      "I studied Japanese for two hours yesterday.",
+      "I do not study Japanese every day."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜時間 means \"hours\" of duration.",
+      "bn": "〜時間 মানে কত ঘণ্টা সময়কাল।"
+    }
+  },
+  {
+    "id": "minna-011-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 日本に 1年 います。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 日本に 1年 います।"
+    },
+    "stem": {
+      "jp": "日本に 1年 います。",
+      "furigana": "にほんに いちねん います।",
+      "romaji": "nihon ni ichinen imasu."
+    },
+    "options": [
+      "I will stay in Japan for one year.",
+      "I have one year of holiday.",
+      "I go to Japan once a year.",
+      "I lived in Japan one year ago."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜年 expresses the length of time spent somewhere.",
+      "bn": "〜年 কোথাও কত সময় থাকা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-011-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 家から 駅まで 10分ぐらい かかります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 家から 駅まで 10分ぐらい かかります。"
+    },
+    "stem": {
+      "jp": "家から 駅まで 10分ぐらい かかります。",
+      "furigana": "いえから えきまで じゅっぷんぐらい かかります।",
+      "romaji": "ie kara eki made juppun gurai kakarimasu."
+    },
+    "options": [
+      "It takes about ten minutes from my house to the station.",
+      "It takes exactly ten minutes to my house.",
+      "The station is ten minutes away by car only.",
+      "It takes about ten hours to the station."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "ぐらい makes the quantity approximate: \"about\".",
+      "bn": "ぐらい পরিমাণ আনুমানিক করে: \"প্রায়\"।"
+    }
+  },
+  {
+    "id": "minna-011-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 教室に 学生が 20人ぐらい います。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 教室に 学生が 20人ぐらい います。"
+    },
+    "stem": {
+      "jp": "教室に 学生が 20人ぐらい います。",
+      "furigana": "きょうしつに がくせいが にじゅうにんぐらい います।",
+      "romaji": "kyoushitsu ni gakusei ga nijuunin gurai imasu."
+    },
+    "options": [
+      "There are about twenty students in the classroom.",
+      "There are exactly twenty teachers in the classroom.",
+      "There are about twelve students in the classroom.",
+      "There are no students in the classroom."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "20人 is read にじゅうにん, and ぐらい means \"about\".",
+      "bn": "20人 পড়া হয় にじゅうにん, আর ぐらい মানে \"প্রায়\"।"
+    }
   }
 ]
