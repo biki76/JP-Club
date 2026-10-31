@@ -94,5 +94,101 @@
       "en": "The pattern N が 好きです / 嫌いです means \"like / dislike N\".",
       "bn": "N が 好きです / 嫌いです এর অর্থ \"N পছন্দ / অপছন্দ\"।"
     }
+  },
+  {
+    "id": "minna-006-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: ご飯を 食べます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: ご飯を 食べます。"
+    },
+    "stem": {
+      "jp": "ご飯を 食べます。",
+      "furigana": "ごはんを たべます।",
+      "romaji": "gohan o tabemasu."
+    },
+    "options": [
+      "I eat a meal.",
+      "I drink water.",
+      "I cook a meal.",
+      "I buy a meal."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N を 〜ます shows the object of the action; 食べます means \"eat\".",
+      "bn": "N を 〜ます কাজের কর্ম বোঝায়; 食べます মানে \"খাই\"।"
+    }
+  },
+  {
+    "id": "minna-006-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 一緒に 行きませんか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 一緒に 行きませんか。"
+    },
+    "stem": {
+      "jp": "一緒に 行きませんか。",
+      "furigana": "いっしょに いきませんか।",
+      "romaji": "issho ni ikimasen ka."
+    },
+    "options": [
+      "Won't you go together?",
+      "Let's not go together.",
+      "I went together.",
+      "Do you go alone?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜ませんか is used to invite someone politely.",
+      "bn": "〜ませんか দিয়ে ভদ্রভাবে কাউকে আমন্ত্রণ জানানো হয়।"
+    }
+  },
+  {
+    "id": "minna-006-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 一緒に 行きましょう。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 一緒に 行きましょう。"
+    },
+    "stem": {
+      "jp": "一緒に 行きましょう。",
+      "furigana": "いっしょに いきましょう।",
+      "romaji": "issho ni ikimashou."
+    },
+    "options": [
+      "Let's go together.",
+      "I will not go.",
+      "Did you go together?",
+      "Please go alone."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜ましょう suggests doing something together.",
+      "bn": "〜ましょう একসাথে কিছু করার প্রস্তাব দেয়।"
+    }
+  },
+  {
+    "id": "minna-006-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 寿司が 好きです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 寿司が 好きです。"
+    },
+    "stem": {
+      "jp": "寿司が 好きです。",
+      "furigana": "すしが すきです।",
+      "romaji": "sushi ga suki desu."
+    },
+    "options": [
+      "I like sushi.",
+      "I dislike sushi.",
+      "I eat sushi every day.",
+      "Is sushi delicious?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N が 好きです means \"I like N\"; 嫌いです would mean \"dislike\".",
+      "bn": "N が 好きです মানে \"আমি N পছন্দ করি\"; 嫌いです হলে হতো \"অপছন্দ করি\"।"
+    }
   }
 ]

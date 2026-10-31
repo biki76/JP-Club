@@ -3,14 +3,14 @@
     "id": "minna-006-g1",
     "pattern": "N を 〜ます",
     "meaning_en": "do ~ (with object N)",
-    "meaning_bn": "N ~ করি",
+    "meaning_bn": "N খাই / N করি (কর্ম)",
     "examples": [
       {
         "jp": "ご飯を 食べます。",
         "en": "I eat a meal.",
-        "bn": "I eat a meal.",
-        "furigana": "ご飯を 食べます。",
-        "romaji": ""
+        "bn": "আমি ভাত খাই।",
+        "furigana": "ごはんを たべます。",
+        "romaji": "gohan o tabemasu."
       }
     ],
     "tags": [
@@ -21,14 +21,14 @@
     "id": "minna-006-g2",
     "pattern": "〜ませんか",
     "meaning_en": "won't you ~? (invitation)",
-    "meaning_bn": "~ করবেন না?",
+    "meaning_bn": "~ করবেন না? (আমন্ত্রণ)",
     "examples": [
       {
         "jp": "一緒に 行きませんか。",
         "en": "Won't you go together?",
-        "bn": "Won't you go together?",
-        "furigana": "一緒に 行きませんか。",
-        "romaji": ""
+        "bn": "একসাথে যাবেন না?",
+        "furigana": "いっしょに いきませんか。",
+        "romaji": "issho ni ikimasen ka."
       }
     ],
     "tags": [
@@ -39,14 +39,14 @@
     "id": "minna-006-g3",
     "pattern": "〜ましょう",
     "meaning_en": "let's ~",
-    "meaning_bn": "~ করি",
+    "meaning_bn": "চলুন ~ করি",
     "examples": [
       {
         "jp": "一緒に 行きましょう。",
         "en": "Let's go together.",
-        "bn": "Let's go together.",
-        "furigana": "一緒に 行きましょう。",
-        "romaji": ""
+        "bn": "চলুন একসাথে যাই।",
+        "furigana": "いっしょに いきましょう。",
+        "romaji": "issho ni ikimashou."
       }
     ],
     "tags": [
@@ -62,9 +62,9 @@
       {
         "jp": "寿司が 好きです。",
         "en": "I like sushi.",
-        "bn": "I like sushi.",
-        "furigana": "寿司が 好きです。",
-        "romaji": ""
+        "bn": "আমি সুশি পছন্দ করি।",
+        "furigana": "すしが すきです。",
+        "romaji": "sushi ga suki desu."
       }
     ],
     "tags": [

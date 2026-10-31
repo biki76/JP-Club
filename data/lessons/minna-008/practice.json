@@ -1,1 +1,194 @@
-[]
+[
+  {
+    "id": "minna-008-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 山は 高いです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 山は 高いです。"
+    },
+    "stem": {
+      "jp": "この 山は 高いです。",
+      "furigana": "この やまは たかいです।",
+      "romaji": "kono yama wa takai desu."
+    },
+    "options": [
+      "This mountain is high.",
+      "This mountain is low.",
+      "This mountain is famous.",
+      "Is this mountain high?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "高い is an i-adjective meaning \"high/tall/expensive\".",
+      "bn": "高い একটি ই-বিশেষণ, যার অর্থ \"উঁচু/লম্বা/দামি\"।"
+    }
+  },
+  {
+    "id": "minna-008-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 町は 静かです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 町は 静かです。"
+    },
+    "stem": {
+      "jp": "町は 静かです。",
+      "furigana": "まちは しずかです।",
+      "romaji": "machi wa shizuka desu."
+    },
+    "options": [
+      "The town is quiet.",
+      "The town is busy.",
+      "The town is famous.",
+      "The town is not quiet."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "静か is a na-adjective meaning \"quiet\".",
+      "bn": "静か একটি না-বিশেষণ, যার অর্থ \"শান্ত\"।"
+    }
+  },
+  {
+    "id": "minna-008-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 町は 静かじゃないです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 町は 静かじゃないです。"
+    },
+    "stem": {
+      "jp": "この 町は 静かじゃないです。",
+      "furigana": "この まちは しずかじゃないです।",
+      "romaji": "kono machi wa shizuka ja nai desu."
+    },
+    "options": [
+      "This town is not quiet.",
+      "This town is quiet.",
+      "This town is very quiet.",
+      "Is this town quiet?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Na-adjectives take じゃないです for the negative form.",
+      "bn": "না-বিশেষণের না-বোধক রূপে じゃないです বসে।"
+    }
+  },
+  {
+    "id": "minna-008-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 食べ物は 美味しいです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 食べ物は 美味しいです。"
+    },
+    "stem": {
+      "jp": "この 食べ物は 美味しいです。",
+      "furigana": "この たべものは おいしいです।",
+      "romaji": "kono tabemono wa oishii desu."
+    },
+    "options": [
+      "This food is delicious.",
+      "This food is expensive.",
+      "This food is not delicious.",
+      "This food is cold."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "美味しい means \"delicious/tasty\".",
+      "bn": "美味しい মানে \"সুস্বাদু\"।"
+    }
+  },
+  {
+    "id": "minna-008-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 山は とても 高いです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 山は とても 高いです。"
+    },
+    "stem": {
+      "jp": "この 山は とても 高いです。",
+      "furigana": "この やまは とても たかいです।",
+      "romaji": "kono yama wa totemo takai desu."
+    },
+    "options": [
+      "This mountain is very high.",
+      "This mountain is not very high.",
+      "This mountain is a little high.",
+      "Is this mountain high?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "とても strengthens an adjective: \"very\".",
+      "bn": "とても বিশেষণের তীব্রতা বাড়ায়: \"খুব\"।"
+    }
+  },
+  {
+    "id": "minna-008-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 食べ物は あまり 美味しくないです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 食べ物は あまり 美味しくないです。"
+    },
+    "stem": {
+      "jp": "この 食べ物は あまり 美味しくないです。",
+      "furigana": "この たべものは あまり おいしくないです।",
+      "romaji": "kono tabemono wa amari oishikunai desu."
+    },
+    "options": [
+      "This food is not very delicious.",
+      "This food is very delicious.",
+      "This food is delicious.",
+      "Is this food delicious?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "あまり is used with a negative form: \"not very\".",
+      "bn": "あまり না-বোধক রূপের সাথে ব্যবহৃত হয়: \"তেমন না\"।"
+    }
+  },
+  {
+    "id": "minna-008-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 町は どうですか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 町は どうですか。"
+    },
+    "stem": {
+      "jp": "この 町は どうですか。",
+      "furigana": "この まちは どうですか।",
+      "romaji": "kono machi wa dou desu ka."
+    },
+    "options": [
+      "How is this town?",
+      "Where is this town?",
+      "Is this town big?",
+      "What is this town?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "どうですか asks for an impression: \"How is ~?\"",
+      "bn": "どうですか ধারণা জিজ্ঞাসা করে: \"~ কেমন?\"।"
+    }
+  },
+  {
+    "id": "minna-008-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 部屋は 便利じゃないです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 部屋は 便利じゃないです。"
+    },
+    "stem": {
+      "jp": "この 部屋は 便利じゃないです。",
+      "furigana": "この へやは べんりじゃないです।",
+      "romaji": "kono heya wa benri ja nai desu."
+    },
+    "options": [
+      "This room is not convenient.",
+      "This room is convenient.",
+      "This room is very convenient.",
+      "Is this room convenient?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "便利 is a na-adjective; the negative is 便利じゃないです.",
+      "bn": "便利 একটি না-বিশেষণ; এর না-বোধক রূপ 便利じゃないです।"
+    }
+  }
+]

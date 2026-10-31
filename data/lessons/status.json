@@ -41,21 +41,21 @@
       "vocab": 56,
       "grammar": 4,
       "kanji": 10,
-      "practice": 4
+      "practice": 8
     },
     "minna-007": {
-      "status": "draft",
+      "status": "ready",
       "vocab": 46,
-      "grammar": 0,
+      "grammar": 4,
       "kanji": 9,
-      "practice": 0
+      "practice": 8
     },
     "minna-008": {
-      "status": "draft",
+      "status": "ready",
       "vocab": 61,
-      "grammar": 0,
+      "grammar": 4,
       "kanji": 10,
-      "practice": 0
+      "practice": 8
     },
     "minna-009": {
       "status": "draft",

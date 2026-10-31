@@ -1,1 +1,194 @@
-[]
+[
+  {
+    "id": "minna-007-p1",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 箸で ご飯を 食べます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 箸で ご飯を 食べます。"
+    },
+    "stem": {
+      "jp": "箸で ご飯を 食べます。",
+      "furigana": "はしで ごはんを たべます।",
+      "romaji": "hashi de gohan o tabemasu."
+    },
+    "options": [
+      "I eat rice with chopsticks.",
+      "I buy chopsticks.",
+      "I wash chopsticks.",
+      "I eat rice with a spoon."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The particle で marks the tool used for an action.",
+      "bn": "কণা で কাজের জন্য ব্যবহৃত যন্ত্র বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-007-p2",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 日本語で 手紙を 書きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 日本語で 手紙を 書きます。"
+    },
+    "stem": {
+      "jp": "日本語で 手紙を 書きます。",
+      "furigana": "にほんごで てがみを かきます।",
+      "romaji": "nihongo de tegami o kakimasu."
+    },
+    "options": [
+      "I write a letter in Japanese.",
+      "I read a Japanese letter.",
+      "I send a Japanese letter.",
+      "I study Japanese."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "で marks the language used: \"in Japanese\".",
+      "bn": "で ব্যবহৃত ভাষা বোঝায়: \"জাপানি ভাষায়\"।"
+    }
+  },
+  {
+    "id": "minna-007-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 友達に 本を 貸します。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 友達に 本を 貸します。"
+    },
+    "stem": {
+      "jp": "友達に 本を 貸します。",
+      "furigana": "ともだちに ほんを かします।",
+      "romaji": "tomodachi ni hon o kashimasu."
+    },
+    "options": [
+      "I lend a book to a friend.",
+      "I borrow a book from a friend.",
+      "I give a book to my teacher.",
+      "I read a friend's book."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "貸します means \"lend\", and に marks the receiver.",
+      "bn": "貸します মানে \"ধার দিই\", আর に গ্রহীতাকে বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-007-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 友達に 本を 借ります。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 友達に 本を 借ります。"
+    },
+    "stem": {
+      "jp": "友達に 本を 借ります。",
+      "furigana": "ともだちに ほんを かります।",
+      "romaji": "tomodachi ni hon o karimasu."
+    },
+    "options": [
+      "I borrow a book from a friend.",
+      "I lend a book to a friend.",
+      "I buy a book for a friend.",
+      "I write a book with a friend."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "借ります means \"borrow\"; the source is marked with に or から.",
+      "bn": "借ります মানে \"ধার নিই\"; উৎস に বা から দিয়ে বোঝানো হয়।"
+    }
+  },
+  {
+    "id": "minna-007-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: もう 宿題を しました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: もう 宿題を しました。"
+    },
+    "stem": {
+      "jp": "もう 宿題を しました。",
+      "furigana": "もう しゅくだいを しました।",
+      "romaji": "mou shukudai o shimashita."
+    },
+    "options": [
+      "I have already done my homework.",
+      "I will do my homework now.",
+      "I have not done my homework yet.",
+      "I did my homework tomorrow."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "もう with the past form means \"already\".",
+      "bn": "もう এর সাথে অতীত রূপ মানে \"ইতিমধ্যে\"।"
+    }
+  },
+  {
+    "id": "minna-007-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 母に 花を あげます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 母に 花を あげます。"
+    },
+    "stem": {
+      "jp": "母に 花を あげます。",
+      "furigana": "ははに はなを あげます।",
+      "romaji": "haha ni hana o agemasu."
+    },
+    "options": [
+      "I give flowers to my mother.",
+      "I receive flowers from my mother.",
+      "I buy flowers for myself.",
+      "My mother gives me flowers."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "あげます means \"give\" (from the speaker's side).",
+      "bn": "あげます মানে \"দিই\" (বক্তার পক্ষ থেকে)।"
+    }
+  },
+  {
+    "id": "minna-007-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 父に お金を もらいます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 父に お金を もらいます。"
+    },
+    "stem": {
+      "jp": "父に お金を もらいます。",
+      "furigana": "ちちに おかねを もらいます।",
+      "romaji": "chichi ni okane o moraimasu."
+    },
+    "options": [
+      "I receive money from my father.",
+      "I give money to my father.",
+      "I lend money to my father.",
+      "My father borrows money."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "もらいます means \"receive\"; に marks the giver.",
+      "bn": "もらいます মানে \"গ্রহণ করি\"; に দাতাকে বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-007-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 電車で 会社へ 行きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 電車で 会社へ 行きます。"
+    },
+    "stem": {
+      "jp": "電車で 会社へ 行きます。",
+      "furigana": "でんしゃで かいしゃへ いきます।",
+      "romaji": "densha de kaisha e ikimasu."
+    },
+    "options": [
+      "I go to the company by train.",
+      "I go to the station by train.",
+      "The train goes to the company.",
+      "I work on the train."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "で marks the means of transport, and へ marks the destination.",
+      "bn": "で যানবাহনের মাধ্যম বোঝায়, আর へ গন্তব্য বোঝায়।"
+    }
+  }
+]

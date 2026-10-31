@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "id": "minna-008-g1",
+    "pattern": "い形容詞 / な形容詞 + です",
+    "meaning_en": "describe something with i- and na-adjectives",
+    "meaning_bn": "বিশেষণ দিয়ে কিছু বর্ণনা করা",
+    "examples": [
+      {
+        "jp": "この 山は 高いです。",
+        "furigana": "この やまは たかいです।",
+        "romaji": "kono yama wa takai desu.",
+        "en": "This mountain is high.",
+        "bn": "এই পাহাড়টি উঁচু।"
+      },
+      {
+        "jp": "町は 静かです。",
+        "furigana": "まちは しずかです।",
+        "romaji": "machi wa shizuka desu.",
+        "en": "The town is quiet.",
+        "bn": "শহরটি শান্ত।"
+      },
+      {
+        "jp": "この 食べ物は 美味しいです।",
+        "furigana": "この たべものは おいしいです।",
+        "romaji": "kono tabemono wa oishii desu.",
+        "en": "This food is delicious.",
+        "bn": "এই খাবারটি সুস্বাদু।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-008-g2",
+    "pattern": "〜くないです / 〜じゃないです",
+    "meaning_en": "negative form of adjectives",
+    "meaning_bn": "বিশেষণের না-বোধক রূপ",
+    "examples": [
+      {
+        "jp": "この 町は 静かじゃないです।",
+        "furigana": "この まちは しずかじゃないです।",
+        "romaji": "kono machi wa shizuka ja nai desu.",
+        "en": "This town is not quiet.",
+        "bn": "এই শহরটি শান্ত নয়।"
+      },
+      {
+        "jp": "この 山は 高くないです।",
+        "furigana": "この やまは たかくないです।",
+        "romaji": "kono yama wa takakunai desu.",
+        "en": "This mountain is not high.",
+        "bn": "এই পাহাড়টি উঁচু নয়।"
+      },
+      {
+        "jp": "この 部屋は 便利じゃないです।",
+        "furigana": "この へやは べんりじゃないです।",
+        "romaji": "kono heya wa benri ja nai desu.",
+        "en": "This room is not convenient.",
+        "bn": "এই ঘরটি সুবিধাজনক নয়।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-008-g3",
+    "pattern": "とても / あまり〜ません",
+    "meaning_en": "very / not very",
+    "meaning_bn": "খুব / তেমন ~ না",
+    "examples": [
+      {
+        "jp": "この 山は とても 高いです।",
+        "furigana": "この やまは とても たかいです।",
+        "romaji": "kono yama wa totemo takai desu.",
+        "en": "This mountain is very high.",
+        "bn": "এই পাহাড়টি খুব উঁচু।"
+      },
+      {
+        "jp": "この 町は あまり 静かじゃないです।",
+        "furigana": "この まちは あまり しずかじゃないです।",
+        "romaji": "kono machi wa amari shizuka ja nai desu.",
+        "en": "This town is not very quiet.",
+        "bn": "এই শহরটি তেমন শান্ত নয়।"
+      },
+      {
+        "jp": "この 食べ物は あまり 美味しくないです।",
+        "furigana": "この たべものは あまり おいしくないです।",
+        "romaji": "kono tabemono wa amari oishikunai desu.",
+        "en": "This food is not very delicious.",
+        "bn": "এই খাবারটি তেমন সুস্বাদু নয়।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-008-g4",
+    "pattern": "N は どうですか",
+    "meaning_en": "How is N?",
+    "meaning_bn": "N কেমন?",
+    "examples": [
+      {
+        "jp": "この 町は どうですか।",
+        "furigana": "この まちは どうですか।",
+        "romaji": "kono machi wa dou desu ka.",
+        "en": "How is this town?",
+        "bn": "এই শহরটি কেমন?"
+      },
+      {
+        "jp": "日本は どうですか।",
+        "furigana": "にほんは どうですか।",
+        "romaji": "nihon wa dou desu ka.",
+        "en": "How is Japan?",
+        "bn": "জাপান কেমন?"
+      },
+      {
+        "jp": "お仕事は どうですか।",
+        "furigana": "おしごとは どうですか।",
+        "romaji": "oshigoto wa dou desu ka.",
+        "en": "How is your work?",
+        "bn": "আপনার কাজ কেমন?"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]

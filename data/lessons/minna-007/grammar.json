@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "id": "minna-007-g1",
+    "pattern": "N で 〜ます",
+    "meaning_en": "do ~ with / by means of N",
+    "meaning_bn": "N দিয়ে / N-এ (মাধ্যম) ~ করি",
+    "examples": [
+      {
+        "jp": "箸で ご飯を 食べます。",
+        "furigana": "はしで ごはんを たべます。",
+        "romaji": "hashi de gohan o tabemasu.",
+        "en": "I eat rice with chopsticks.",
+        "bn": "আমি চপস্টিক দিয়ে ভাত খাই।"
+      },
+      {
+        "jp": "日本語で 手紙を 書きます。",
+        "furigana": "にほんごで てがみを かきます。",
+        "romaji": "nihongo de tegami o kakimasu.",
+        "en": "I write a letter in Japanese.",
+        "bn": "আমি জাপানি ভাষায় চিঠি লিখি।"
+      },
+      {
+        "jp": "電車で 会社へ 行きます。",
+        "furigana": "でんしゃで かいしゃへ いきます。",
+        "romaji": "densha de kaisha e ikimasu.",
+        "en": "I go to the company by train.",
+        "bn": "আমি ট্রেনে করে অফিসে যাই।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-007-g2",
+    "pattern": "N に あげます / 貸します",
+    "meaning_en": "give / lend something to N",
+    "meaning_bn": "N-কে দিই / ধার দিই",
+    "examples": [
+      {
+        "jp": "友達に 本を 貸します。",
+        "furigana": "ともだちに ほんを かします。",
+        "romaji": "tomodachi ni hon o kashimasu.",
+        "en": "I lend a book to a friend.",
+        "bn": "আমি বন্ধুকে বই ধার দিই।"
+      },
+      {
+        "jp": "母に 花を あげます。",
+        "furigana": "ははに はなを あげます。",
+        "romaji": "haha ni hana o agemasu.",
+        "en": "I give flowers to my mother.",
+        "bn": "আমি মাকে ফুল দিই।"
+      },
+      {
+        "jp": "先生に 手紙を 送ります。",
+        "furigana": "せんせいに てがみを おくります।",
+        "romaji": "sensei ni tegami o okurimasu.",
+        "en": "I send a letter to the teacher.",
+        "bn": "আমি শিক্ষককে চিঠি পাঠাই।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-007-g3",
+    "pattern": "N に / N から もらいます・借ります",
+    "meaning_en": "receive / borrow something from N",
+    "meaning_bn": "N-এর কাছ থেকে গ্রহণ করি / ধার নিই",
+    "examples": [
+      {
+        "jp": "友達に 本を 借ります。",
+        "furigana": "ともだちに ほんを かります。",
+        "romaji": "tomodachi ni hon o karimasu.",
+        "en": "I borrow a book from a friend.",
+        "bn": "আমি বন্ধুর কাছ থেকে বই ধার নিই।"
+      },
+      {
+        "jp": "父に お金を もらいます。",
+        "furigana": "ちちに おかねを もらいます।",
+        "romaji": "chichi ni okane o moraimasu.",
+        "en": "I receive money from my father.",
+        "bn": "আমি বাবার কাছ থেকে টাকা পাই।"
+      },
+      {
+        "jp": "会社から 切符を もらいます।",
+        "furigana": "かいしゃから きっぷを もらいます।",
+        "romaji": "kaisha kara kippu o moraimasu.",
+        "en": "I receive a ticket from the company.",
+        "bn": "আমি কোম্পানির কাছ থেকে টিকিট পাই।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-007-g4",
+    "pattern": "もう 〜ました",
+    "meaning_en": "have already done ~",
+    "meaning_bn": "ইতিমধ্যে ~ করেছি",
+    "examples": [
+      {
+        "jp": "もう 宿題を しました。",
+        "furigana": "もう しゅくだいを しました।",
+        "romaji": "mou shukudai o shimashita.",
+        "en": "I have already done my homework.",
+        "bn": "আমি ইতিমধ্যে বাড়ির কাজ শেষ করেছি।"
+      },
+      {
+        "jp": "もう 昼ご飯を 食べました।",
+        "furigana": "もう ひるごはんを たべました।",
+        "romaji": "mou hirugohan o tabemashita.",
+        "en": "I have already eaten lunch.",
+        "bn": "আমি ইতিমধ্যে দুপুরের খাবার খেয়েছি।"
+      },
+      {
+        "jp": "もう 手紙を 送りました।",
+        "furigana": "もう てがみを おくりました।",
+        "romaji": "mou tegami o okurimashita.",
+        "en": "I have already sent the letter.",
+        "bn": "আমি ইতিমধ্যে চিঠি পাঠিয়েছি।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  }
+]
