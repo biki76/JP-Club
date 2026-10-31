@@ -3,48 +3,157 @@
     "id": "minna-048-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜48-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜48-A"
+      "en": "Choose the correct causative form.",
+      "bn": "সঠিক কারক রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン48の 文法です。",
-      "furigana": "これは レッスン48の 文法です。",
-      "romaji": ""
+      "jp": "母は 弟に 部屋を 掃除＿＿。",
+      "furigana": "ははは おとうとに へやを そうじ＿＿。",
+      "romaji": "Haha wa otōto ni heya o sōji＿＿."
     },
-    "options": [
-      "Grammar pattern 48-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["させました", "しました", "されました", "しましたか"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜48-A means \"Grammar pattern 48-A\".",
-      "bn": "〜48-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 48-A\"।"
+      "en": "V-させる is the causative form, here 掃除させました.",
+      "bn": "V-させる কারক রূপ, এখানে 掃除させました।"
     }
   },
   {
     "id": "minna-048-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜48-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜48-B"
+      "en": "Choose the correct particle.",
+      "bn": "সঠিক অব্যয় বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン48の 文法です。",
-      "furigana": "これは レッスン48の 文法です。",
-      "romaji": ""
+      "jp": "先生は 生徒＿＿ 漢字を 書かせます。",
+      "furigana": "せんせいは せいと＿＿ かんじを かかせます。",
+      "romaji": "Sensei wa seito＿＿ kanji o kakasemasu."
+    },
+    "options": ["に", "を", "が", "で"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The person made to act is marked with に in the causative.",
+      "bn": "কারক বাক্যে যে কাজ করে তাকে に দিয়ে চিহ্নিত করা হয়।"
+    }
+  },
+  {
+    "id": "minna-048-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この 仕事は わたしに やらせて ＿＿。",
+      "furigana": "この しごとは わたしに やらせて ＿＿。",
+      "romaji": "Kono shigoto wa watashi ni yarasete ＿＿."
+    },
+    "options": ["ください", "しまいます", "おきます", "みます"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-させてください means please let me do something.",
+      "bn": "V-させてください মানে দয়া করে আমাকে করতে দিন।"
+    }
+  },
+  {
+    "id": "minna-048-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "先生が わたしに 自由に 話させて ＿＿。",
+      "furigana": "せんせいが わたしに じゆうに はなさせて ＿＿。",
+      "romaji": "Sensei ga watashi ni jiyū ni hanasasete ＿＿."
+    },
+    "options": ["くれました", "あげました", "もらいました", "やりました"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "When someone lets me do something, we use させてくれます.",
+      "bn": "কেউ আমাকে কিছু করতে দিলে させてくれます ব্যবহৃত হয়।"
+    }
+  },
+  {
+    "id": "minna-048-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of the sentence.",
+      "bn": "বাক্যটির সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "親は 子どもを 一人で 遠くへ 行かせません。",
+      "furigana": "おやは こどもを ひとりで とおくへ いかせません。",
+      "romaji": "Oya wa kodomo o hitori de tōku e ikasemasen."
     },
     "options": [
-      "Grammar pattern 48-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Parents do not let their children go far alone.",
+      "Parents let their children go far alone.",
+      "Children want to go far alone.",
+      "Children do not want to go far alone."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜48-B means \"Grammar pattern 48-B\".",
-      "bn": "〜48-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 48-B\"।"
+      "en": "させません is the negative causative, meaning do not let.",
+      "bn": "させません নেতিবাচক কারক, অর্থাৎ করতে দেয় না।"
+    }
+  },
+  {
+    "id": "minna-048-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "わたしは 両親に 塾へ 行かせて ＿＿。",
+      "furigana": "わたしは りょうしんに じゅくへ いかせて ＿＿。",
+      "romaji": "Watashi wa ryōshin ni juku e ikasete ＿＿."
+    },
+    "options": ["もらいました", "あげました", "くれました", "くださいました"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "させてもらう means to have someone let me do something.",
+      "bn": "させてもらう মানে কাউকে দিয়ে আমাকে কিছু করতে দেওয়ানো।"
+    }
+  },
+  {
+    "id": "minna-048-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the most polite request form.",
+      "bn": "সবচেয়ে ভদ্র অনুরোধের রূপ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この 資料を コピーさせて ＿＿ か。",
+      "furigana": "この しりょうを こぴーさせて ＿＿ か。",
+      "romaji": "Kono shiryō o kopī sasete ＿＿ ka."
+    },
+    "options": ["いただけません", "くれません", "あげません", "しまいません"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "させていただけませんか is the most polite way to ask permission.",
+      "bn": "させていただけませんか অনুমতি চাওয়ার সবচেয়ে ভদ্র রূপ।"
+    }
+  },
+  {
+    "id": "minna-048-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 叱る.",
+      "bn": "叱る এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "先生は 遅刻した 生徒を 叱りました。",
+      "furigana": "せんせいは ちこくした せいとを しかりました。",
+      "romaji": "Sensei wa chikoku shita seito o shikarimashita."
+    },
+    "options": ["scolded", "praised", "forgave", "helped"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "叱る means to scold someone.",
+      "bn": "叱る মানে কাউকে বকা দেওয়া।"
     }
   }
 ]

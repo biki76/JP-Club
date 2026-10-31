@@ -1,5 +1,266 @@
 [
-{"id":"minna-049-v001","kanji":"尊敬語","furigana":"そんけいご","romaji":"sonkeigo","english_meaning":"respectful language","bengali_meaning":"সম্মানসূচক ভাষা","type":"noun"},
-{"id":"minna-049-v002","kanji":"いらっしゃいます","furigana":"いらっしゃいます","romaji":"irasshaimasu","english_meaning":"to go / come / be (respectful)","bengali_meaning":"যাওয়া / আসা / থাকা (সম্মানসূচক)","type":"verb"},
-{"id":"minna-049-v003","kanji":"召し上がります","furigana":"めしあがります","romaji":"meshiagarimasu","english_meaning":"to eat / drink (respectful)","bengali_meaning":"খাওয়া / পান করা (সম্মানসূচক)","type":"verb"}
+  {
+    "id": "minna-049-v001",
+    "furigana": "いらっしゃる",
+    "romaji": "irassharu",
+    "english_meaning": "to go, come, be (honorific)",
+    "bengali_meaning": "যাওয়া, আসা, থাকা (সম্মানসূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v002",
+    "furigana": "おっしゃる",
+    "romaji": "ossharu",
+    "english_meaning": "to say (honorific)",
+    "bengali_meaning": "বলা (সম্মানসূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v003",
+    "furigana": "めしあがる",
+    "kanji": "召し上がる",
+    "romaji": "meshiagaru",
+    "english_meaning": "to eat, to drink (honorific)",
+    "bengali_meaning": "খাওয়া, পান করা (সম্মানসূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v004",
+    "furigana": "ごらんになる",
+    "kanji": "ご覧になる",
+    "romaji": "goran ni naru",
+    "english_meaning": "to look, to see (honorific)",
+    "bengali_meaning": "দেখা (সম্মানসূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v005",
+    "furigana": "なさる",
+    "romaji": "nasaru",
+    "english_meaning": "to do (honorific)",
+    "bengali_meaning": "করা (সম্মানসূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v006",
+    "furigana": "くださる",
+    "romaji": "kudasaru",
+    "english_meaning": "to give (honorific)",
+    "bengali_meaning": "দেওয়া (সম্মানসূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v007",
+    "furigana": "ごぞんじ",
+    "kanji": "ご存じ",
+    "romaji": "gozonji",
+    "english_meaning": "knowing (honorific)",
+    "bengali_meaning": "জানা (সম্মানসূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v008",
+    "furigana": "そんけい",
+    "kanji": "尊敬",
+    "romaji": "sonkei",
+    "english_meaning": "respect",
+    "bengali_meaning": "সম্মান",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v009",
+    "furigana": "けいご",
+    "kanji": "敬語",
+    "romaji": "keigo",
+    "english_meaning": "honorific language",
+    "bengali_meaning": "সম্মানসূচক ভাষা",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v010",
+    "furigana": "めうえ",
+    "kanji": "目上",
+    "romaji": "meue",
+    "english_meaning": "one's superior",
+    "bengali_meaning": "উর্ধ্বতন",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v011",
+    "furigana": "おきゃくさま",
+    "kanji": "お客様",
+    "romaji": "okyakusama",
+    "english_meaning": "guest, customer (polite)",
+    "bengali_meaning": "অতিথি (ভদ্র)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v012",
+    "furigana": "せんぱい",
+    "kanji": "先輩",
+    "romaji": "senpai",
+    "english_meaning": "senior colleague",
+    "bengali_meaning": "সিনিয়র",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v013",
+    "furigana": "かちょう",
+    "kanji": "課長",
+    "romaji": "kachō",
+    "english_meaning": "section chief",
+    "bengali_meaning": "শাখা প্রধান",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v014",
+    "furigana": "ぶちょう",
+    "kanji": "部長",
+    "romaji": "buchō",
+    "english_meaning": "department manager",
+    "bengali_meaning": "বিভাগীয় প্রধান",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v015",
+    "furigana": "しゃちょう",
+    "kanji": "社長",
+    "romaji": "shachō",
+    "english_meaning": "company president",
+    "bengali_meaning": "কোম্পানির সভাপতি",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v016",
+    "furigana": "こちら",
+    "romaji": "kochira",
+    "english_meaning": "this way, this person (polite)",
+    "bengali_meaning": "এই দিক, ইনি (ভদ্র)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v017",
+    "furigana": "おたく",
+    "kanji": "お宅",
+    "romaji": "otaku",
+    "english_meaning": "your home (polite)",
+    "bengali_meaning": "আপনার বাড়ি (ভদ্র)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v018",
+    "furigana": "おなまえ",
+    "kanji": "お名前",
+    "romaji": "onamae",
+    "english_meaning": "your name (polite)",
+    "bengali_meaning": "আপনার নাম (ভদ্র)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v019",
+    "furigana": "ごかぞく",
+    "kanji": "ご家族",
+    "romaji": "gokazoku",
+    "english_meaning": "your family (polite)",
+    "bengali_meaning": "আপনার পরিবার (ভদ্র)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v020",
+    "furigana": "ごいけん",
+    "kanji": "ご意見",
+    "romaji": "goiken",
+    "english_meaning": "your opinion (polite)",
+    "bengali_meaning": "আপনার মতামত (ভদ্র)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v021",
+    "furigana": "ごしょうかい",
+    "kanji": "ご紹介",
+    "romaji": "goshōkai",
+    "english_meaning": "introduction (polite)",
+    "bengali_meaning": "পরিচয় করানো (ভদ্র)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v022",
+    "furigana": "おまちください",
+    "kanji": "お待ちください",
+    "romaji": "omachi kudasai",
+    "english_meaning": "please wait (polite)",
+    "bengali_meaning": "অনুগ্রহ করে অপেক্ষা করুন",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v023",
+    "furigana": "おねがい",
+    "kanji": "お願い",
+    "romaji": "onegai",
+    "english_meaning": "request, favour",
+    "bengali_meaning": "অনুরোধ",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v024",
+    "furigana": "あいさつ",
+    "kanji": "挨拶",
+    "romaji": "aisatsu",
+    "english_meaning": "greeting",
+    "bengali_meaning": "শুভেচ্ছা বিনিময়",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v025",
+    "furigana": "れい",
+    "kanji": "礼",
+    "romaji": "rei",
+    "english_meaning": "bow, courtesy",
+    "bengali_meaning": "নমস্কার, ভদ্রতা",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v026",
+    "furigana": "しつれい",
+    "kanji": "失礼",
+    "romaji": "shitsurei",
+    "english_meaning": "rudeness, excuse me",
+    "bengali_meaning": "অভদ্রতা, মাফ করবেন",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v027",
+    "furigana": "かしこまりました",
+    "romaji": "kashikomarimashita",
+    "english_meaning": "certainly (humble)",
+    "bengali_meaning": "নিশ্চয়ই (বিনয়সূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v028",
+    "furigana": "もうしあげる",
+    "kanji": "申し上げる",
+    "romaji": "mōshiageru",
+    "english_meaning": "to say (humble)",
+    "bengali_meaning": "বলা (বিনয়সূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v029",
+    "furigana": "うかがう",
+    "kanji": "伺う",
+    "romaji": "ukagau",
+    "english_meaning": "to ask, to visit (humble)",
+    "bengali_meaning": "জিজ্ঞাসা করা, যাওয়া (বিনয়সূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  },
+  {
+    "id": "minna-049-v030",
+    "furigana": "ぞんじる",
+    "kanji": "存じる",
+    "romaji": "zonjiru",
+    "english_meaning": "to know (humble)",
+    "bengali_meaning": "জানা (বিনয়সূচক)",
+    "tags": ["vocabulary", "lesson-49"]
+  }
 ]

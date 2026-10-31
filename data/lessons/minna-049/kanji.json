@@ -1,87 +1,132 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "敬",
+    "onyomi": ["ケイ"],
+    "kunyomi": ["うやま.う"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["respect", "revere"],
+      "bn": ["সম্মান", "শ্রদ্ধা"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
+    "radicals": ["苟", "攵"],
+    "strokes": 12,
+    "grade": 6,
     "jlpt": "N4"
   },
   {
     "character": "語",
-    "onyomi": [],
+    "onyomi": ["ゴ"],
+    "kunyomi": ["かた.る"],
+    "meanings": {
+      "en": ["language", "word"],
+      "bn": ["ভাষা", "শব্দ"]
+    },
+    "radicals": ["言", "五", "口"],
+    "strokes": 14,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "客",
+    "onyomi": ["キャク", "カク"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["guest", "customer"],
+      "bn": ["অতিথি", "ক্রেতা"]
     },
-    "radicals": [],
+    "radicals": ["宀", "各"],
+    "strokes": 9,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "様",
+    "onyomi": ["ヨウ"],
+    "kunyomi": ["さま"],
+    "meanings": {
+      "en": ["manner", "Mr., Mrs."],
+      "bn": ["ধরন", "মহোদয়"]
+    },
+    "radicals": ["木", "羊", "水"],
     "strokes": 14,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "先",
+    "onyomi": ["セン"],
+    "kunyomi": ["さき"],
+    "meanings": {
+      "en": ["ahead", "previous"],
+      "bn": ["সামনে", "পূর্ববর্তী"]
+    },
+    "radicals": ["牛", "儿"],
+    "strokes": 6,
+    "grade": 1,
+    "jlpt": "N5"
+  },
+  {
+    "character": "課",
+    "onyomi": ["カ"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["section", "lesson"],
+      "bn": ["শাখা", "পাঠ"]
+    },
+    "radicals": ["言", "果"],
+    "strokes": 15,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
+    "character": "長",
+    "onyomi": ["チョウ"],
+    "kunyomi": ["なが.い"],
+    "meanings": {
+      "en": ["long", "chief"],
+      "bn": ["লম্বা", "প্রধান"]
+    },
+    "radicals": ["長"],
+    "strokes": 8,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "宅",
+    "onyomi": ["タク"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["house", "home"],
+      "bn": ["বাড়ি", "আবাস"]
     },
-    "radicals": [],
+    "radicals": ["宀", "乇"],
+    "strokes": 6,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "族",
+    "onyomi": ["ゾク"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["family", "tribe"],
+      "bn": ["পরিবার", "গোষ্ঠী"]
+    },
+    "radicals": ["方", "矢"],
     "strokes": 10,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "名",
+    "onyomi": ["メイ", "ミョウ"],
+    "kunyomi": ["な"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["name", "famous"],
+      "bn": ["নাম", "বিখ্যাত"]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 4,
-    "jlpt": "N4"
+    "radicals": ["夕", "口"],
+    "strokes": 6,
+    "grade": 1,
+    "jlpt": "N5"
   }
 ]

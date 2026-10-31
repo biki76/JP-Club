@@ -1,5 +1,271 @@
 [
-{"id":"minna-048-v001","kanji":"いつでも","furigana":"いつでも","romaji":"itsudemo","english_meaning":"anytime","bengali_meaning":"যখনই","type":"adverb"},
-{"id":"minna-048-v002","kanji":"あんな","furigana":"あんな","romaji":"anna","english_meaning":"that kind of","bengali_meaning":"সেরকম","type":"adnominal"},
-{"id":"minna-048-v003","kanji":"こんな","furigana":"こんな","romaji":"konna","english_meaning":"this kind of","bengali_meaning":"এরকম","type":"adnominal"}
+  {
+    "id": "minna-048-v001",
+    "furigana": "しつもん",
+    "kanji": "質問",
+    "romaji": "shitsumon",
+    "english_meaning": "question",
+    "bengali_meaning": "প্রশ্ন",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v002",
+    "furigana": "こたえ",
+    "kanji": "答え",
+    "romaji": "kotae",
+    "english_meaning": "answer",
+    "bengali_meaning": "উত্তর",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v003",
+    "furigana": "せいと",
+    "kanji": "生徒",
+    "romaji": "seito",
+    "english_meaning": "pupil, student",
+    "bengali_meaning": "শিক্ষার্থী",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v004",
+    "furigana": "せんせい",
+    "kanji": "先生",
+    "romaji": "sensei",
+    "english_meaning": "teacher",
+    "bengali_meaning": "শিক্ষক",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v005",
+    "furigana": "おや",
+    "kanji": "親",
+    "romaji": "oya",
+    "english_meaning": "parent",
+    "bengali_meaning": "অভিভাবক",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v006",
+    "furigana": "こども",
+    "kanji": "子ども",
+    "romaji": "kodomo",
+    "english_meaning": "child",
+    "bengali_meaning": "শিশু",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v007",
+    "furigana": "ぶかつ",
+    "kanji": "部活",
+    "romaji": "bukatsu",
+    "english_meaning": "club activity",
+    "bengali_meaning": "ক্লাব কার্যক্রম",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v008",
+    "furigana": "じゅく",
+    "kanji": "塾",
+    "romaji": "juku",
+    "english_meaning": "cram school",
+    "bengali_meaning": "কোচিং সেন্টার",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v009",
+    "furigana": "しかる",
+    "kanji": "叱る",
+    "romaji": "shikaru",
+    "english_meaning": "to scold",
+    "bengali_meaning": "বকা দেওয়া",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v010",
+    "furigana": "ほめる",
+    "kanji": "褒める",
+    "romaji": "homeru",
+    "english_meaning": "to praise",
+    "bengali_meaning": "প্রশংসা করা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v011",
+    "furigana": "ゆるす",
+    "kanji": "許す",
+    "romaji": "yurusu",
+    "english_meaning": "to forgive, to allow",
+    "bengali_meaning": "ক্ষমা করা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v012",
+    "furigana": "ことわる",
+    "kanji": "断る",
+    "romaji": "kotowaru",
+    "english_meaning": "to refuse",
+    "bengali_meaning": "প্রত্যাখ্যান করা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v013",
+    "furigana": "さんせい",
+    "kanji": "賛成",
+    "romaji": "sansei",
+    "english_meaning": "agreement, approval",
+    "bengali_meaning": "সমর্থন",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v014",
+    "furigana": "はんたい",
+    "kanji": "反対",
+    "romaji": "hantai",
+    "english_meaning": "opposition",
+    "bengali_meaning": "বিরোধিতা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v015",
+    "furigana": "むり",
+    "kanji": "無理",
+    "romaji": "muri",
+    "english_meaning": "impossible, unreasonable",
+    "bengali_meaning": "অসম্ভব",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v016",
+    "furigana": "じゆう",
+    "kanji": "自由",
+    "romaji": "jiyū",
+    "english_meaning": "freedom, free",
+    "bengali_meaning": "স্বাধীনতা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v017",
+    "furigana": "せきにん",
+    "kanji": "責任",
+    "romaji": "sekinin",
+    "english_meaning": "responsibility",
+    "bengali_meaning": "দায়িত্ব",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v018",
+    "furigana": "たいへん",
+    "kanji": "大変",
+    "romaji": "taihen",
+    "english_meaning": "hard, very",
+    "bengali_meaning": "কষ্টকর",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v019",
+    "furigana": "ざんねん",
+    "kanji": "残念",
+    "romaji": "zannen",
+    "english_meaning": "regrettable, a pity",
+    "bengali_meaning": "দুঃখজনক",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v020",
+    "furigana": "かんどう",
+    "kanji": "感動",
+    "romaji": "kandō",
+    "english_meaning": "being deeply moved",
+    "bengali_meaning": "আবেগপ্রবণ হওয়া",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v021",
+    "furigana": "なみだ",
+    "kanji": "涙",
+    "romaji": "namida",
+    "english_meaning": "tears",
+    "bengali_meaning": "অশ্রু",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v022",
+    "furigana": "おこる",
+    "kanji": "怒る",
+    "romaji": "okoru",
+    "english_meaning": "to get angry",
+    "bengali_meaning": "রাগ করা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v023",
+    "furigana": "わらう",
+    "kanji": "笑う",
+    "romaji": "warau",
+    "english_meaning": "to laugh",
+    "bengali_meaning": "হাসা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v024",
+    "furigana": "なく",
+    "kanji": "泣く",
+    "romaji": "naku",
+    "english_meaning": "to cry",
+    "bengali_meaning": "কাঁদা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v025",
+    "furigana": "せいちょう",
+    "kanji": "成長",
+    "romaji": "seichō",
+    "english_meaning": "growth",
+    "bengali_meaning": "বৃদ্ধি",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v026",
+    "furigana": "けいけん",
+    "kanji": "経験",
+    "romaji": "keiken",
+    "english_meaning": "experience",
+    "bengali_meaning": "অভিজ্ঞতা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v027",
+    "furigana": "めんどう",
+    "kanji": "面倒",
+    "romaji": "mendō",
+    "english_meaning": "trouble, bother",
+    "bengali_meaning": "ঝামেলা",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v028",
+    "furigana": "せわ",
+    "kanji": "世話",
+    "romaji": "sewa",
+    "english_meaning": "care, looking after",
+    "bengali_meaning": "যত্ন",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v029",
+    "furigana": "やめる",
+    "romaji": "yameru",
+    "english_meaning": "to quit, to stop",
+    "bengali_meaning": "ছেড়ে দেওয়া",
+    "tags": ["vocabulary", "lesson-48"]
+  },
+  {
+    "id": "minna-048-v030",
+    "furigana": "つづける",
+    "kanji": "続ける",
+    "romaji": "tsuzukeru",
+    "english_meaning": "to continue",
+    "bengali_meaning": "চালিয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-48"]
+  }
 ]

@@ -1,38 +1,173 @@
 [
   {
     "id": "minna-049-g1",
-    "pattern": "〜49-A",
-    "meaning_en": "Grammar pattern 49-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 49-A",
+    "pattern": "お + V-ます stem + になります",
+    "meaning_en": "honorific form of an action by a superior",
+    "meaning_bn": "উর্ধ্বতনের কাজের সম্মানসূচক রূপ",
     "examples": [
       {
-        "jp": "これは レッスン49の 文法です。",
-        "en": "This is lesson 49 grammar.",
-        "bn": "This is lesson 49 grammar.",
-        "furigana": "これは レッスン49の 文法です。",
-        "romaji": ""
+        "jp": "社長は もう お帰りに なりました。",
+        "furigana": "しゃちょうは もう おかえりに なりました。",
+        "romaji": "Shachō wa mō okaeri ni narimashita.",
+        "en": "The company president has already gone home.",
+        "bn": "সভাপতি ইতিমধ্যে বাড়ি চলে গেছেন।"
+      },
+      {
+        "jp": "先生は この 本を お読みに なりましたか。",
+        "furigana": "せんせいは この ほんを およみに なりましたか。",
+        "romaji": "Sensei wa kono hon o oyomi ni narimashita ka.",
+        "en": "Has the teacher read this book?",
+        "bn": "শিক্ষক কি এই বইটি পড়েছেন?"
+      },
+      {
+        "jp": "お客様は ロビーで お待ちに なって います。",
+        "furigana": "おきゃくさまは ろびーで おまちに なって います。",
+        "romaji": "Okyakusama wa robī de omachi ni natte imasu.",
+        "en": "The guest is waiting in the lobby.",
+        "bn": "অতিথি লবিতে অপেক্ষা করছেন।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-049-g2",
-    "pattern": "〜49-B",
-    "meaning_en": "Grammar pattern 49-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 49-B",
+    "pattern": "特殊な尊敬語（いらっしゃる・おっしゃる など）",
+    "meaning_en": "special honorific verbs",
+    "meaning_bn": "বিশেষ সম্মানসূচক ক্রিয়া",
     "examples": [
       {
-        "jp": "これは レッスン49の 文法です。",
-        "en": "This is lesson 49 grammar.",
-        "bn": "This is lesson 49 grammar.",
-        "furigana": "これは レッスン49の 文法です。",
-        "romaji": ""
+        "jp": "社長は 来週 東京へ いらっしゃいます。",
+        "furigana": "しゃちょうは らいしゅう とうきょうへ いらっしゃいます。",
+        "romaji": "Shachō wa raishū Tōkyō e irasshaimasu.",
+        "en": "The president will go to Tokyo next week.",
+        "bn": "সভাপতি আগামী সপ্তাহে টোকিও যাবেন।"
+      },
+      {
+        "jp": "先生は 何と おっしゃいましたか。",
+        "furigana": "せんせいは なんと おっしゃいましたか。",
+        "romaji": "Sensei wa nan to osshaimashita ka.",
+        "en": "What did the teacher say?",
+        "bn": "শিক্ষক কী বললেন?"
+      },
+      {
+        "jp": "どうぞ 召し上がって ください。",
+        "furigana": "どうぞ めしあがって ください。",
+        "romaji": "Dōzo meshiagatte kudasai.",
+        "en": "Please go ahead and eat.",
+        "bn": "দয়া করে খান।"
+      },
+      {
+        "jp": "この 写真を ご覧に なって ください。",
+        "furigana": "この しゃしんを ごらんに なって ください。",
+        "romaji": "Kono shashin o goran ni natte kudasai.",
+        "en": "Please have a look at this photograph.",
+        "bn": "এই ছবিটি দেখুন।"
+      },
+      {
+        "jp": "田中さんは ゴルフを なさいますか。",
+        "furigana": "たなかさんは ごるふを なさいますか。",
+        "romaji": "Tanaka-san wa gorufu o nasaimasu ka.",
+        "en": "Does Tanaka play golf?",
+        "bn": "তানাকা কি গলফ খেলেন?"
+      },
+      {
+        "jp": "先生は わたしの 手紙を ご存じです。",
+        "furigana": "せんせいは わたしの てがみを ごぞんじです。",
+        "romaji": "Sensei wa watashi no tegami o gozonji desu.",
+        "en": "The teacher knows about my letter.",
+        "bn": "শিক্ষক আমার চিঠির কথা জানেন।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-049-g3",
+    "pattern": "V-(ら)れます（尊敬）",
+    "meaning_en": "honorific form using the passive shape",
+    "meaning_bn": "কর্মবাচক রূপ ব্যবহার করে সম্মান প্রকাশ",
+    "examples": [
+      {
+        "jp": "先生は もう 帰られました。",
+        "furigana": "せんせいは もう かえられました。",
+        "romaji": "Sensei wa mō kaeraremashita.",
+        "en": "The teacher has already gone home.",
+        "bn": "শিক্ষক ইতিমধ্যে বাড়ি চলে গেছেন।"
+      },
+      {
+        "jp": "社長は 何時に 来られますか。",
+        "furigana": "しゃちょうは なんじに こられますか。",
+        "romaji": "Shachō wa nanji ni koraremasu ka.",
+        "en": "What time will the president come?",
+        "bn": "সভাপতি কয়টায় আসবেন?"
+      },
+      {
+        "jp": "部長は この 問題を 知られて いますか。",
+        "furigana": "ぶちょうは この もんだいを しられて いますか。",
+        "romaji": "Buchō wa kono mondai o shirarete imasu ka.",
+        "en": "Does the department manager know about this problem?",
+        "bn": "বিভাগীয় প্রধান কি এই সমস্যাটি জানেন?"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-049-g4",
+    "pattern": "お + V-ます stem + ください",
+    "meaning_en": "polite request to a superior",
+    "meaning_bn": "উর্ধ্বতনকে ভদ্র অনুরোধ",
+    "examples": [
+      {
+        "jp": "こちらで お待ち ください。",
+        "furigana": "こちらで おまち ください。",
+        "romaji": "Kochira de omachi kudasai.",
+        "en": "Please wait here.",
+        "bn": "এখানে অপেক্ষা করুন।"
+      },
+      {
+        "jp": "どうぞ お入り ください。",
+        "furigana": "どうぞ おはいり ください。",
+        "romaji": "Dōzo ohairi kudasai.",
+        "en": "Please come in.",
+        "bn": "দয়া করে ভেতরে আসুন।"
+      },
+      {
+        "jp": "ゆっくり お休み ください。",
+        "furigana": "ゆっくり おやすみ ください。",
+        "romaji": "Yukkuri oyasumi kudasai.",
+        "en": "Please rest well.",
+        "bn": "ভালোভাবে বিশ্রাম নিন।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-049-g5",
+    "pattern": "謙譲語（伺う・申し上げる・存じる）",
+    "meaning_en": "humble forms used when the speaker is the actor",
+    "meaning_bn": "বক্তা নিজে কাজ করলে ব্যবহৃত বিনয়সূচক রূপ",
+    "examples": [
+      {
+        "jp": "あした そちらへ 伺います。",
+        "furigana": "あした そちらへ うかがいます。",
+        "romaji": "Ashita sochira e ukagaimasu.",
+        "en": "I will visit you tomorrow.",
+        "bn": "আগামীকাল আমি আপনার কাছে যাব।"
+      },
+      {
+        "jp": "その 件は わたしから 社長に 申し上げます。",
+        "furigana": "その けんは わたしから しゃちょうに もうしあげます。",
+        "romaji": "Sono ken wa watashi kara shachō ni mōshiagemasu.",
+        "en": "I will tell the president about that matter myself.",
+        "bn": "সেই বিষয়টি আমি নিজেই সভাপতিকে জানাব।"
+      },
+      {
+        "jp": "わたしは 社長の お宅を 存じて います。",
+        "furigana": "わたしは しゃちょうの おたくを ぞんじて います。",
+        "romaji": "Watashi wa shachō no otaku o zonjite imasu.",
+        "en": "I know where the president's house is.",
+        "bn": "আমি সভাপতির বাড়ির ঠিকানা জানি।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

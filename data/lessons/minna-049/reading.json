@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-049-r001",
+    "id": "minna-049-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "A Visit to the Company",
+      "bn": "কোম্পানিতে একটি পরিদর্শন"
     },
     "passage": [
       {
-        "jp": "これは りようします です。",
-        "furigana": "これは りようします です。",
-        "romaji": "Kore wa riyōshimasu desu.",
-        "en": "This is use.",
-        "bn": "এটি use।"
+        "jp": "きのう、わたしは はじめて 大きな 会社へ 伺いました。",
+        "furigana": "きのう、わたしは はじめて おおきな かいしゃへ うかがいました。",
+        "romaji": "Kinō, watashi wa hajimete ōkina kaisha e ukagaimashita.",
+        "en": "Yesterday I visited a large company for the first time.",
+        "bn": "গতকাল আমি প্রথমবার একটি বড় কোম্পানিতে গিয়েছিলাম।"
+      },
+      {
+        "jp": "受付で お名前を 言うと、係の 人が 二階へ 案内して くれました。",
+        "furigana": "うけつけで おなまえを いうと、かかりの ひとが にかいへ あんないして くれました。",
+        "romaji": "Uketsuke de onamae o iu to, kakari no hito ga nikai e annai shite kuremashita.",
+        "en": "When I gave my name at the reception, the staff member showed me to the second floor.",
+        "bn": "রিসেপশনে নাম বললে কর্মী আমাকে দ্বিতীয় তলায় নিয়ে গেলেন।"
+      },
+      {
+        "jp": "部長は にこやかに 笑って、わたしの 話を 聞いて くださいました。",
+        "furigana": "ぶちょうは にこやかに わらって、わたしの はなしを きいて くださいました。",
+        "romaji": "Buchō wa nikoyaka ni waratte, watashi no hanashi o kiite kudasaimashita.",
+        "en": "The department manager smiled warmly and listened to what I had to say.",
+        "bn": "বিভাগীয় প্রধান হাসিমুখে আমার কথা শুনলেন।"
+      },
+      {
+        "jp": "「ご意見が あったら、ぜひ お聞かせ ください」と おっしゃいました。",
+        "furigana": "「ごいけんが あったら、ぜひ おきかせ ください」と おっしゃいました。",
+        "romaji": "\"Goiken ga attara, zehi okikase kudasai\" to osshaimashita.",
+        "en": "He said, \"If you have any opinions, please do let me hear them.\"",
+        "bn": "তিনি বললেন, \"আপনার কোনো মতামত থাকলে অবশ্যই জানাবেন।\""
+      },
+      {
+        "jp": "それから、社長室にも 通されました。",
+        "furigana": "それから、しゃちょうしつにも とおされました。",
+        "romaji": "Sore kara, shachōshitsu ni mo tōsaremashita.",
+        "en": "After that, I was also shown into the president's office.",
+        "bn": "এরপর আমাকে সভাপতির কক্ষেও নিয়ে যাওয়া হলো।"
+      },
+      {
+        "jp": "社長は わたしの 計画を ご覧に なって、「いい 考えですね」と おっしゃいました。",
+        "furigana": "しゃちょうは わたしの けいかくを ごらんに なって、「いい かんがえですね」と おっしゃいました。",
+        "romaji": "Shachō wa watashi no keikaku o goran ni natte, \"Ii kangae desu ne\" to osshaimashita.",
+        "en": "The president looked at my plan and said, \"That is a good idea.\"",
+        "bn": "সভাপতি আমার পরিকল্পনা দেখে বললেন, \"ভালো ভাবনা।\""
+      },
+      {
+        "jp": "帰る とき、部長は エレベーターまで 見送って くださいました。",
+        "furigana": "かえる とき、ぶちょうは えれべーたーまで みおくって くださいました。",
+        "romaji": "Kaeru toki, buchō wa erebētā made miokutte kudasaimashita.",
+        "en": "When I left, the department manager kindly saw me off to the elevator.",
+        "bn": "ফেরার সময় বিভাগীয় প্রধান আমাকে লিফট পর্যন্ত এগিয়ে দিলেন।"
+      },
+      {
+        "jp": "敬語は まだ 難しいですが、毎日 少しずつ 覚えて います。",
+        "furigana": "けいごは まだ むずかしいですが、まいにち すこしずつ おぼえて います。",
+        "romaji": "Keigo wa mada muzukashii desu ga, mainichi sukoshi zutsu oboete imasu.",
+        "en": "Honorific language is still difficult, but I am learning it a little every day.",
+        "bn": "সম্মানসূচক ভাষা এখনো কঠিন, তবে প্রতিদিন একটু একটু করে শিখছি।"
       }
     ]
   }

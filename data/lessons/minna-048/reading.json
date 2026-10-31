@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-048-r001",
+    "id": "minna-048-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "My Mother and the Daily Hour",
+      "bn": "আমার মা ও প্রতিদিনের এক ঘণ্টা"
     },
     "passage": [
       {
-        "jp": "これは おろします です。",
-        "furigana": "これは おろします です。",
-        "romaji": "Kore wa oroshimasu desu.",
-        "en": "This is put down, lower, unload.",
-        "bn": "এটি put down, lower, unload।"
+        "jp": "わたしの 母は 教育に とても 厳しい 人でした。",
+        "furigana": "わたしの ははは きょういくに とても きびしい ひとでした。",
+        "romaji": "Watashi no haha wa kyōiku ni totemo kibishii hito deshita.",
+        "en": "My mother was a person who was very strict about education.",
+        "bn": "আমার মা শিক্ষার ব্যাপারে খুব কঠোর ছিলেন।"
+      },
+      {
+        "jp": "子どもの とき、母は わたしに 毎日 一時間 本を 読ませました。",
+        "furigana": "こどもの とき、ははは わたしに まいにち いちじかん ほんを よませました。",
+        "romaji": "Kodomo no toki, haha wa watashi ni mainichi ichijikan hon o yomasemashita.",
+        "en": "When I was a child, my mother made me read books for one hour every day.",
+        "bn": "শিশু বয়সে মা আমাকে প্রতিদিন এক ঘণ্টা বই পড়াতেন।"
+      },
+      {
+        "jp": "その ときは とても 嫌でした。",
+        "furigana": "その ときは とても いやでした。",
+        "romaji": "Sono toki wa totemo iya deshita.",
+        "en": "At that time I hated it very much.",
+        "bn": "সেই সময় আমার খুব অপছন্দ লাগত।"
+      },
+      {
+        "jp": "でも、今は 母に 心から 感謝して います。",
+        "furigana": "でも、いまは ははに こころから かんしゃして います。",
+        "romaji": "Demo, ima wa haha ni kokoro kara kansha shite imasu.",
+        "en": "But now I am sincerely grateful to my mother.",
+        "bn": "কিন্তু এখন আমি মায়ের কাছে আন্তরিকভাবে কৃতজ্ঞ।"
+      },
+      {
+        "jp": "先週、妹から 電話が ありました。",
+        "furigana": "せんしゅう、いもうとから でんわが ありました。",
+        "romaji": "Senshū, imōto kara denwa ga arimashita.",
+        "en": "Last week I got a phone call from my younger sister.",
+        "bn": "গত সপ্তাহে ছোট বোনের কাছ থেকে ফোন এলো।"
+      },
+      {
+        "jp": "妹は「お母さんは 毎日 わたしに 塾へ 行かせるの」と 言いました。",
+        "furigana": "いもうとは「おかあさんは まいにち わたしに じゅくへ いかせるの」と いいました。",
+        "romaji": "Imōto wa \"Okāsan wa mainichi watashi ni juku e ikaseru no\" to iimashita.",
+        "en": "My sister said, \"Mother makes me go to cram school every day.\"",
+        "bn": "বোন বলল, \"মা আমাকে প্রতিদিন কোচিংয়ে যেতে দেন।\""
+      },
+      {
+        "jp": "わたしは 笑いながら、「それは あなたの ためだよ」と 答えました。",
+        "furigana": "わたしは わらいながら、「それは あなたの ためだよ」と こたえました。",
+        "romaji": "Watashi wa warainagara, \"Sore wa anata no tame da yo\" to kotaemashita.",
+        "en": "While laughing, I answered, \"That is for your own good.\"",
+        "bn": "হাসতে হাসতে আমি উত্তর দিলাম, \"সেটা তোর নিজের জন্যই।\""
+      },
+      {
+        "jp": "親は 子どもに いろいろな 経験を させたいのです。",
+        "furigana": "おやは こどもに いろいろな けいけんを させたいのです。",
+        "romaji": "Oya wa kodomo ni iroirona keiken o sasetai no desu.",
+        "en": "Parents want to let their children have all kinds of experiences.",
+        "bn": "অভিভাবকরা চান সন্তানরা নানা রকম অভিজ্ঞতা অর্জন করুক।"
       }
     ]
   }

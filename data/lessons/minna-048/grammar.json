@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-048-g1",
-    "pattern": "〜48-A",
-    "meaning_en": "Grammar pattern 48-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 48-A",
+    "pattern": "V-させる / V-せる（使役形）",
+    "meaning_en": "to make or let someone do something",
+    "meaning_bn": "কাউকে দিয়ে কিছু করানো বা করতে দেওয়া",
     "examples": [
       {
-        "jp": "これは レッスン48の 文法です。",
-        "en": "This is lesson 48 grammar.",
-        "bn": "This is lesson 48 grammar.",
-        "furigana": "これは レッスン48の 文法です。",
-        "romaji": ""
+        "jp": "母は 弟に 部屋を 掃除させました。",
+        "furigana": "ははは おとうとに へやを そうじさせました。",
+        "romaji": "Haha wa otōto ni heya o sōji sasemashita.",
+        "en": "My mother made my younger brother clean the room.",
+        "bn": "মা ছোট ভাইকে দিয়ে ঘর পরিষ্কার করালেন।"
+      },
+      {
+        "jp": "先生は 生徒に 漢字を 五回 書かせます。",
+        "furigana": "せんせいは せいとに かんじを ごかい かかせます。",
+        "romaji": "Sensei wa seito ni kanji o gokai kakasemasu.",
+        "en": "The teacher makes the pupils write the kanji five times.",
+        "bn": "শিক্ষক শিক্ষার্থীদের পাঁচবার কাঞ্জি লিখতে দেন।"
+      },
+      {
+        "jp": "部長は 田中さんを 大阪へ 出張させました。",
+        "furigana": "ぶちょうは たなかさんを おおさかへ しゅっちょうさせました。",
+        "romaji": "Buchō wa Tanaka-san o Ōsaka e shutchō sasemashita.",
+        "en": "The department manager sent Tanaka on a business trip to Osaka.",
+        "bn": "বিভাগীয় প্রধান তানাকাকে ওসাকায় কর্মসূত্রে পাঠালেন।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-048-g2",
-    "pattern": "〜48-B",
-    "meaning_en": "Grammar pattern 48-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 48-B",
+    "pattern": "V-させて あげます / くれます / もらいます",
+    "meaning_en": "to let someone do something as a favour",
+    "meaning_bn": "অনুগ্রহ করে কাউকে কিছু করতে দেওয়া",
     "examples": [
       {
-        "jp": "これは レッスン48の 文法です。",
-        "en": "This is lesson 48 grammar.",
-        "bn": "This is lesson 48 grammar.",
-        "furigana": "これは レッスン48の 文法です。",
-        "romaji": ""
+        "jp": "子どもに 好きな ことを させて あげました。",
+        "furigana": "こどもに すきな ことを させて あげました。",
+        "romaji": "Kodomo ni suki na koto o sasete agemashita.",
+        "en": "I let my child do what he likes.",
+        "bn": "শিশুটিকে তার পছন্দের কাজ করতে দিলাম।"
+      },
+      {
+        "jp": "先生が わたしに 自由に 話させて くれました。",
+        "furigana": "せんせいが わたしに じゆうに はなさせて くれました。",
+        "romaji": "Sensei ga watashi ni jiyū ni hanasasete kuremashita.",
+        "en": "The teacher kindly let me speak freely.",
+        "bn": "শিক্ষক আমাকে স্বাধীনভাবে বলতে দিলেন।"
+      },
+      {
+        "jp": "わたしは 両親に 塾へ 行かせて もらいました。",
+        "furigana": "わたしは りょうしんに じゅくへ いかせて もらいました。",
+        "romaji": "Watashi wa ryōshin ni juku e ikasete moraimashita.",
+        "en": "I got my parents to let me go to cram school.",
+        "bn": "আমি বাবা-মাকে দিয়ে কোচিংয়ে যাওয়ার অনুমতি নিয়েছি।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-048-g3",
+    "pattern": "V-させて ください",
+    "meaning_en": "please let me do something",
+    "meaning_bn": "দয়া করে আমাকে কিছু করতে দিন",
+    "examples": [
+      {
+        "jp": "この 仕事は わたしに やらせて ください。",
+        "furigana": "この しごとは わたしに やらせて ください。",
+        "romaji": "Kono shigoto wa watashi ni yarasete kudasai.",
+        "en": "Please let me do this job.",
+        "bn": "এই কাজটি আমাকে করতে দিন।"
+      },
+      {
+        "jp": "もう 少し 考えさせて ください。",
+        "furigana": "もう すこし かんがえさせて ください。",
+        "romaji": "Mō sukoshi kangaesasete kudasai.",
+        "en": "Please let me think a little more.",
+        "bn": "আরেকটু ভাবার সুযোগ দিন।"
+      },
+      {
+        "jp": "週末は ゆっくり 休ませて ください。",
+        "furigana": "しゅうまつは ゆっくり やすませて ください。",
+        "romaji": "Shūmatsu wa yukkuri yasumasete kudasai.",
+        "en": "Please let me rest quietly on the weekend.",
+        "bn": "সপ্তাহান্তে আমাকে আরাম করে বিশ্রাম নিতে দিন।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-048-g4",
+    "pattern": "V-させません / V-させない",
+    "meaning_en": "to not let someone do something",
+    "meaning_bn": "কাউকে কিছু করতে না দেওয়া",
+    "examples": [
+      {
+        "jp": "親は 子どもを 一人で 遠くへ 行かせません。",
+        "furigana": "おやは こどもを ひとりで とおくへ いかせません。",
+        "romaji": "Oya wa kodomo o hitori de tōku e ikasemasen.",
+        "en": "Parents do not let their children go far alone.",
+        "bn": "অভিভাবকরা শিশুকে একা দূরে যেতে দেন না।"
+      },
+      {
+        "jp": "先生は 授業中に だれも 話させません。",
+        "furigana": "せんせいは じゅぎょうちゅうに だれも はなさせません。",
+        "romaji": "Sensei wa jugyōchū ni daremo hanasasemasen.",
+        "en": "The teacher does not let anyone talk during class.",
+        "bn": "শিক্ষক ক্লাসের সময় কাউকে কথা বলতে দেন না।"
+      },
+      {
+        "jp": "わたしは 妹に わたしの 服を 着させません。",
+        "furigana": "わたしは いもうとに わたしの ふくを きさせません。",
+        "romaji": "Watashi wa imōto ni watashi no fuku o kisemasen.",
+        "en": "I do not let my younger sister wear my clothes.",
+        "bn": "আমি ছোট বোনকে আমার জামা পরতে দিই না।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-048-g5",
+    "pattern": "V-させて いただけませんか",
+    "meaning_en": "could you kindly let me do something?",
+    "meaning_bn": "দয়া করে আমাকে কিছু করার অনুমতি দেবেন কি?",
+    "examples": [
+      {
+        "jp": "わたしにも 一度 説明させて いただけませんか。",
+        "furigana": "わたしにも いちど せつめいさせて いただけませんか。",
+        "romaji": "Watashi ni mo ichido setsumei sasete itadakemasen ka.",
+        "en": "Could you kindly let me explain once too?",
+        "bn": "আমাকেও একবার ব্যাখ্যা করার সুযোগ দেবেন কি?"
+      },
+      {
+        "jp": "この 資料を コピーさせて いただけませんか。",
+        "furigana": "この しりょうを こぴーさせて いただけませんか。",
+        "romaji": "Kono shiryō o kopī sasete itadakemasen ka.",
+        "en": "Could you kindly let me copy these documents?",
+        "bn": "এই নথিপত্রগুলো কপি করার অনুমতি দেবেন কি?"
+      },
+      {
+        "jp": "早く 帰らせて いただけませんか。",
+        "furigana": "はやく かえらせて いただけませんか。",
+        "romaji": "Hayaku kaerasete itadakemasen ka.",
+        "en": "Could you kindly let me go home early?",
+        "bn": "দয়া করে আমাকে তাড়াতাড়ি বাড়ি যেতে দেবেন কি?"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

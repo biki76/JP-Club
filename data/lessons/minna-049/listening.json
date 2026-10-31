@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-049-l001",
+    "id": "minna-049-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Is the President In?",
+      "bn": "সভাপতি কি আছেন?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "りようします は 何 ですか。",
-        "furigana": "りようします は なん ですか。",
-        "romaji": "riyōshimasu wa nan desu ka.",
-        "en": "What is use?",
-        "bn": "use কী?"
+        "jp": "はい、山田商事で ございます。",
+        "furigana": "はい、やまだしょうじで ございます。",
+        "romaji": "Hai, Yamada Shōji de gozaimasu.",
+        "en": "Yes, this is Yamada Trading.",
+        "bn": "হ্যাঁ, ইয়ামাদা ট্রেডিং বলছি।"
+      },
+      {
+        "jp": "いつも お世話に なって おります。田中と 申します。",
+        "furigana": "いつも おせわに なって おります。たなかと もうします。",
+        "romaji": "Itsumo osewa ni natte orimasu. Tanaka to mōshimasu.",
+        "en": "Thank you for your continued support. My name is Tanaka.",
+        "bn": "সবসময় সহযোগিতার জন্য ধন্যবাদ। আমার নাম তানাকা।"
+      },
+      {
+        "jp": "田中様、いつも ありがとう ございます。",
+        "furigana": "たなかさま、いつも ありがとう ございます。",
+        "romaji": "Tanaka-sama, itsumo arigatō gozaimasu.",
+        "en": "Mr. Tanaka, thank you as always.",
+        "bn": "তানাকা মহোদয়, সবসময় ধন্যবাদ।"
+      },
+      {
+        "jp": "社長は いらっしゃいますか。",
+        "furigana": "しゃちょうは いらっしゃいますか。",
+        "romaji": "Shachō wa irasshaimasu ka.",
+        "en": "Is the president in?",
+        "bn": "সভাপতি কি আছেন?"
+      },
+      {
+        "jp": "申し訳 ございません。社長は ただ今 会議中で いらっしゃいます。",
+        "furigana": "もうしわけ ございません。しゃちょうは ただいま かいぎちゅうで いらっしゃいます。",
+        "romaji": "Mōshiwake gozaimasen. Shachō wa tadaima kaigichū de irasshaimasu.",
+        "en": "I am very sorry. The president is currently in a meeting.",
+        "bn": "খুব দুঃখিত। সভাপতি এখন সভায় আছেন।"
+      },
+      {
+        "jp": "そうですか。何時ごろ お戻りに なりますか。",
+        "furigana": "そうですか。なんじごろ おもどりに なりますか。",
+        "romaji": "Sō desu ka. Nanji goro omodori ni narimasu ka.",
+        "en": "Is that so. Around what time will he return?",
+        "bn": "তাই নাকি। তিনি কয়টার দিকে ফিরবেন?"
+      },
+      {
+        "jp": "三時ごろ 戻られると 思います。",
+        "furigana": "さんじごろ もどられると おもいます。",
+        "romaji": "San-ji goro modorareru to omoimasu.",
+        "en": "I think he will return around three.",
+        "bn": "আমার মনে হয় তিনটার দিকে ফিরবেন।"
+      },
+      {
+        "jp": "では、三時ごろ もう 一度 お電話 いたします。",
+        "furigana": "では、さんじごろ もう いちど おでんわ いたします。",
+        "romaji": "De wa, san-ji goro mō ichido odenwa itashimasu.",
+        "en": "Then I will call again around three.",
+        "bn": "তাহলে তিনটার দিকে আবার ফোন করব।"
+      },
+      {
+        "jp": "かしこまりました。お電話 お待ちして おります。",
+        "furigana": "かしこまりました。おでんわ おまちして おります。",
+        "romaji": "Kashikomarimashita. Odenwa omachi shite orimasu.",
+        "en": "Certainly. We will be waiting for your call.",
+        "bn": "নিশ্চয়ই। আমরা আপনার ফোনের অপেক্ষায় থাকব।"
       }
     ]
   }

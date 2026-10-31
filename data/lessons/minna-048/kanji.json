@@ -1,87 +1,132 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
+    "character": "質",
+    "onyomi": ["シツ", "シチ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["quality", "matter"],
+      "bn": ["গুণ", "বিষয়"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
+    "radicals": ["斤", "貝"],
+    "strokes": 15,
+    "grade": 5,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "問",
+    "onyomi": ["モン"],
+    "kunyomi": ["と.う"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["ask", "problem"],
+      "bn": ["জিজ্ঞাসা করা", "সমস্যা"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["門", "口"],
     "strokes": 11,
-    "grade": 4,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "答",
+    "onyomi": ["トウ"],
+    "kunyomi": ["こた.える"],
+    "meanings": {
+      "en": ["answer"],
+      "bn": ["উত্তর"]
+    },
+    "radicals": ["竹", "合"],
+    "strokes": 12,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "親",
+    "onyomi": ["シン"],
+    "kunyomi": ["おや", "した.しい"],
+    "meanings": {
+      "en": ["parent", "close"],
+      "bn": ["অভিভাবক", "ঘনিষ্ঠ"]
+    },
+    "radicals": ["立", "木", "見"],
+    "strokes": 16,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "子",
+    "onyomi": ["シ"],
+    "kunyomi": ["こ"],
+    "meanings": {
+      "en": ["child"],
+      "bn": ["শিশু"]
+    },
+    "radicals": ["子"],
+    "strokes": 3,
+    "grade": 1,
+    "jlpt": "N5"
+  },
+  {
+    "character": "部",
+    "onyomi": ["ブ"],
+    "kunyomi": ["べ"],
+    "meanings": {
+      "en": ["part", "section"],
+      "bn": ["অংশ", "বিভাগ"]
+    },
+    "radicals": ["立", "口", "阝"],
+    "strokes": 11,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "叱",
+    "onyomi": ["シツ"],
+    "kunyomi": ["しか.る"],
+    "meanings": {
+      "en": ["scold"],
+      "bn": ["বকা দেওয়া"]
+    },
+    "radicals": ["口", "七"],
+    "strokes": 5,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "褒",
+    "onyomi": ["ホウ"],
+    "kunyomi": ["ほ.める"],
+    "meanings": {
+      "en": ["praise"],
+      "bn": ["প্রশংসা করা"]
+    },
+    "radicals": ["亠", "保", "衣"],
+    "strokes": 15,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "許",
+    "onyomi": ["キョ"],
+    "kunyomi": ["ゆる.す"],
+    "meanings": {
+      "en": ["permit", "forgive"],
+      "bn": ["অনুমতি দেওয়া", "ক্ষমা করা"]
+    },
+    "radicals": ["言", "午"],
+    "strokes": 11,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "断",
+    "onyomi": ["ダン"],
+    "kunyomi": ["ことわ.る", "た.つ"],
+    "meanings": {
+      "en": ["refuse", "cut off"],
+      "bn": ["প্রত্যাখ্যান করা", "কেটে ফেলা"]
+    },
+    "radicals": ["斤", "米", "乚"],
+    "strokes": 11,
+    "grade": 5,
     "jlpt": "N4"
   }
 ]

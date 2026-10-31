@@ -3,48 +3,157 @@
     "id": "minna-049-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜49-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜49-A"
+      "en": "Choose the correct honorific form.",
+      "bn": "সঠিক সম্মানসূচক রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン49の 文法です。",
-      "furigana": "これは レッスン49の 文法です。",
-      "romaji": ""
+      "jp": "社長は もう ＿＿ に なりました。",
+      "furigana": "しゃちょうは もう ＿＿ に なりました。",
+      "romaji": "Shachō wa mō ＿＿ ni narimashita."
     },
-    "options": [
-      "Grammar pattern 49-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["お帰り", "帰り", "帰って", "帰った"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜49-A means \"Grammar pattern 49-A\".",
-      "bn": "〜49-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 49-A\"।"
+      "en": "The honorific pattern is お + V-ます stem + になります.",
+      "bn": "সম্মানসূচক নকশা হলো お + V-ます stem + になります।"
     }
   },
   {
     "id": "minna-049-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜49-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜49-B"
+      "en": "Choose the correct honorific verb.",
+      "bn": "সঠিক সম্মানসূচক ক্রিয়াটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン49の 文法です。",
-      "furigana": "これは レッスン49の 文法です。",
-      "romaji": ""
+      "jp": "先生は 何と ＿＿ いましたか。",
+      "furigana": "せんせいは なんと ＿＿ いましたか。",
+      "romaji": "Sensei wa nan to ＿＿ imashita ka."
+    },
+    "options": ["おっしゃって", "言って", "話して", "申して"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "おっしゃる is the honorific verb for 言う.",
+      "bn": "おっしゃる হলো 言う এর সম্মানসূচক রূপ।"
+    }
+  },
+  {
+    "id": "minna-049-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct honorific verb.",
+      "bn": "সঠিক সম্মানসূচক ক্রিয়াটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "どうぞ ＿＿ ください。",
+      "furigana": "どうぞ ＿＿ ください。",
+      "romaji": "Dōzo ＿＿ kudasai."
+    },
+    "options": ["召し上がって", "食べて", "飲んで", "いただいて"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "召し上がる is the honorific verb for eating or drinking.",
+      "bn": "召し上がる হলো খাওয়া বা পান করার সম্মানসূচক রূপ।"
+    }
+  },
+  {
+    "id": "minna-049-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct polite request form.",
+      "bn": "সঠিক ভদ্র অনুরোধ রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "こちらで ＿＿ ください。",
+      "furigana": "こちらで ＿＿ ください。",
+      "romaji": "Kochira de ＿＿ kudasai."
+    },
+    "options": ["お待ち", "待ち", "待って", "待た"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern お + V-ます stem + ください is a polite request.",
+      "bn": "お + V-ます stem + ください নকশাটি ভদ্র অনুরোধ।"
+    }
+  },
+  {
+    "id": "minna-049-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct humble verb.",
+      "bn": "সঠিক বিনয়সূচক ক্রিয়াটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "あした そちらへ ＿＿。",
+      "furigana": "あした そちらへ ＿＿。",
+      "romaji": "Ashita sochira e ＿＿."
+    },
+    "options": ["伺います", "いらっしゃいます", "行きます", "なさいます"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "伺う is the humble verb for visiting or going.",
+      "bn": "伺う হলো যাওয়া বা দেখা করতে যাওয়ার বিনয়সূচক রূপ।"
+    }
+  },
+  {
+    "id": "minna-049-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct honorific form with the passive shape.",
+      "bn": "কর্মবাচক রূপের সম্মানসূচক ব্যবহারটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "社長は 何時に ＿＿ か。",
+      "furigana": "しゃちょうは なんじに ＿＿ か。",
+      "romaji": "Shachō wa nanji ni ＿＿ ka."
+    },
+    "options": ["来られます", "来ます", "来させます", "来て います"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The passive shape 来られます is used as an honorific form.",
+      "bn": "来られます কর্মবাচক রূপটি সম্মানসূচক হিসেবে ব্যবহৃত হয়।"
+    }
+  },
+  {
+    "id": "minna-049-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "先生は わたしの 手紙を ご存じです。",
+      "furigana": "せんせいは わたしの てがみを ごぞんじです。",
+      "romaji": "Sensei wa watashi no tegami o gozonji desu."
     },
     "options": [
-      "Grammar pattern 49-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "The teacher knows about my letter.",
+      "The teacher wrote my letter.",
+      "The teacher received my letter.",
+      "The teacher forgot my letter."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜49-B means \"Grammar pattern 49-B\".",
-      "bn": "〜49-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 49-B\"।"
+      "en": "ご存じです is the honorific form of 知っています.",
+      "bn": "ご存じです হলো 知っています এর সম্মানসূচক রূপ।"
+    }
+  },
+  {
+    "id": "minna-049-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 目上.",
+      "bn": "目上 এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "目上の 人には 敬語を 使います。",
+      "furigana": "めうえの ひとには けいごを つかいます。",
+      "romaji": "Meue no hito ni wa keigo o tsukaimasu."
+    },
+    "options": ["superior", "stranger", "younger person", "neighbour"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "目上 means a person of higher status or age.",
+      "bn": "目上 মানে পদমর্যাদা বা বয়সে উর্ধ্বতন ব্যক্তি।"
     }
   }
 ]

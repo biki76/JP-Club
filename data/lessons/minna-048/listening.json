@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-048-l001",
+    "id": "minna-048-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Please Let Me Try",
+      "bn": "আমাকে চেষ্টা করতে দিন"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "おろします は 何 ですか。",
-        "furigana": "おろします は なん ですか。",
-        "romaji": "oroshimasu wa nan desu ka.",
-        "en": "What is put down, lower, unload?",
-        "bn": "put down, lower, unload কী?"
+        "jp": "部長、この 新しい 仕事の ことですが。",
+        "furigana": "ぶちょう、この あたらしい しごとの ことですが。",
+        "romaji": "Buchō, kono atarashii shigoto no koto desu ga.",
+        "en": "Manager, about this new job.",
+        "bn": "স্যার, এই নতুন কাজটি সম্পর্কে।"
+      },
+      {
+        "jp": "ああ、田中さんに 頼もうと 思って います。",
+        "furigana": "ああ、たなかさんに たのもうと おもって います。",
+        "romaji": "Ā, Tanaka-san ni tanomō to omotte imasu.",
+        "en": "Ah, I was thinking of asking Tanaka to do it.",
+        "bn": "আচ্ছা, তানাকাকে অনুরোধ করার কথা ভাবছিলাম।"
+      },
+      {
+        "jp": "すみません、この 仕事は わたしに やらせて いただけませんか。",
+        "furigana": "すみません、この しごとは わたしに やらせて いただけませんか。",
+        "romaji": "Sumimasen, kono shigoto wa watashi ni yarasete itadakemasen ka.",
+        "en": "Excuse me, could you kindly let me do this job?",
+        "bn": "মাফ করবেন, এই কাজটি আমাকে করার সুযোগ দেবেন কি?"
+      },
+      {
+        "jp": "そうですか。でも、この 仕事は とても 大変ですよ。",
+        "furigana": "そうですか。でも、この しごとは とても たいへんですよ。",
+        "romaji": "Sō desu ka. Demo, kono shigoto wa totemo taihen desu yo.",
+        "en": "Is that so. But this job is very hard.",
+        "bn": "তাই নাকি। তবে এই কাজটি খুব কষ্টকর।"
+      },
+      {
+        "jp": "大丈夫です。ぜひ 経験させて ください。",
+        "furigana": "だいじょうぶです。ぜひ けいけんさせて ください。",
+        "romaji": "Daijōbu desu. Zehi keiken sasete kudasai.",
+        "en": "It is fine. Please let me experience it.",
+        "bn": "সমস্যা নেই। অবশ্যই আমাকে অভিজ্ঞতা নিতে দিন।"
+      },
+      {
+        "jp": "わかりました。じゃ、田中さんにも 手伝わせましょう。",
+        "furigana": "わかりました。じゃ、たなかさんにも てつだわせましょう。",
+        "romaji": "Wakarimashita. Ja, Tanaka-san ni mo tetsudawasemashō.",
+        "en": "Understood. Then let us have Tanaka help too.",
+        "bn": "বুঝেছি। তাহলে তানাকাকেও সাহায্য করতে দিই।"
+      },
+      {
+        "jp": "ありがとうございます。責任を 持って 頑張ります。",
+        "furigana": "ありがとうございます。せきにんを もって がんばります。",
+        "romaji": "Arigatō gozaimasu. Sekinin o motte ganbarimasu.",
+        "en": "Thank you. I will do my best with responsibility.",
+        "bn": "ধন্যবাদ। দায়িত্ব নিয়ে চেষ্টা করব।"
+      },
+      {
+        "jp": "何か 困った ことが あったら、すぐに 言って ください。",
+        "furigana": "なにか こまった ことが あったら、すぐに いって ください。",
+        "romaji": "Nanika komatta koto ga attara, sugu ni itte kudasai.",
+        "en": "If you have any trouble, please tell me right away.",
+        "bn": "কোনো সমস্যা হলে সঙ্গে সঙ্গে বলবেন।"
+      },
+      {
+        "jp": "はい。よろしく お願いします。",
+        "furigana": "はい。よろしく おねがいします。",
+        "romaji": "Hai. Yoroshiku onegai shimasu.",
+        "en": "Yes. Thank you in advance.",
+        "bn": "হ্যাঁ। দয়া করে দেখবেন।"
       }
     ]
   }
