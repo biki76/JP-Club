@@ -46,5 +46,149 @@
       "en": "The pattern 〜20-B means \"Grammar pattern 20-B\".",
       "bn": "〜20-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 20-B\"।"
     }
+  },
+  {
+    "id": "minna-020-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 僕は 学生じゃない。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 僕は 学生じゃない。"
+    },
+    "stem": {
+      "jp": "僕は 学生じゃない。",
+      "furigana": "ぼくは がくせいじゃない।",
+      "romaji": "boku wa gakusei ja nai."
+    },
+    "options": [
+      "I am not a student. (casual)",
+      "I am a student. (casual)",
+      "Are you a student? (casual)",
+      "I was a student. (casual)"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "じゃない is the casual negative of です/だ for nouns.",
+      "bn": "বিশেষ্যের ক্ষেত্রে じゃない হলো です/だ এর অনানুষ্ঠানিক না-বোধক রূপ।"
+    }
+  },
+  {
+    "id": "minna-020-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: どこへ 行くんですか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: どこへ 行くんですか。"
+    },
+    "stem": {
+      "jp": "どこへ 行くんですか。",
+      "furigana": "どこへ いくんですか।",
+      "romaji": "doko e iku n desu ka."
+    },
+    "options": [
+      "Where are you going?",
+      "Where did you go?",
+      "When are you going?",
+      "Why did you go?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜んですか asks for an explanation or confirmation.",
+      "bn": "〜んですか ব্যাখ্যা বা নিশ্চিতকরণ চায়।"
+    }
+  },
+  {
+    "id": "minna-020-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 明日 試験が あるんです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 明日 試験が あるんです。"
+    },
+    "stem": {
+      "jp": "明日 試験が あるんです。",
+      "furigana": "あした しけんが あるんです।",
+      "romaji": "ashita shiken ga aru n desu."
+    },
+    "options": [
+      "The thing is, I have an exam tomorrow.",
+      "I had an exam yesterday.",
+      "I have no exam tomorrow.",
+      "Do you have an exam tomorrow?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜んです gives background or explanation for the situation.",
+      "bn": "〜んです পরিস্থিতির পটভূমি বা ব্যাখ্যা দেয়।"
+    }
+  },
+  {
+    "id": "minna-020-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 言葉の 意味が 分からないんですが…",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 言葉の 意味が 分からないんですが…"
+    },
+    "stem": {
+      "jp": "この 言葉の 意味が 分からないんですが…",
+      "furigana": "この ことばの いみが わからないんですが…",
+      "romaji": "kono kotoba no imi ga wakaranai n desu ga…"
+    },
+    "options": [
+      "I don't understand the meaning of this word, so…",
+      "This word means nothing to anyone.",
+      "Do you know this word?",
+      "I will explain this word."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜んですが introduces a request or topic politely.",
+      "bn": "〜んですが ভদ্রভাবে অনুরোধ বা প্রসঙ্গ উপস্থাপন করে।"
+    }
+  },
+  {
+    "id": "minna-020-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: すしは おいしい。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: すしは おいしい।"
+    },
+    "stem": {
+      "jp": "すしは おいしい。",
+      "furigana": "すしは おいしい।",
+      "romaji": "sushi wa oishii."
+    },
+    "options": [
+      "Sushi is delicious. (casual)",
+      "Sushi is not delicious. (casual)",
+      "Is sushi delicious? (casual)",
+      "Sushi was delicious. (casual)"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In casual speech, i-adjectives end the sentence without です.",
+      "bn": "কথ্য ভাষায় ই-বিশেষণ です ছাড়াই বাক্য শেষ করে।"
+    }
+  },
+  {
+    "id": "minna-020-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: お腹が いっぱいです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: お腹が いっぱいです。"
+    },
+    "stem": {
+      "jp": "お腹が いっぱいです。",
+      "furigana": "おなかが いっぱいです।",
+      "romaji": "onaka ga ippai desu."
+    },
+    "options": [
+      "I am full.",
+      "I am hungry.",
+      "My stomach hurts.",
+      "I want to eat more."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "お腹が いっぱいです means \"I'm full\".",
+      "bn": "お腹が いっぱいです মানে \"পেট ভরে গেছে\"।"
+    }
   }
 ]

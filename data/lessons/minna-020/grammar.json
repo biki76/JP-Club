@@ -3,14 +3,14 @@
     "id": "minna-020-g1",
     "pattern": "〜20-A",
     "meaning_en": "Grammar pattern 20-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 20-A",
+    "meaning_bn": "সাধারণ রূপ (普通形) — বন্ধুত্বপূর্ণ ভাষায় ব্যবহৃত ক্রিয়া-রূপ",
     "examples": [
       {
         "jp": "これは レッスン20の 文法です。",
         "en": "This is lesson 20 grammar.",
-        "bn": "This is lesson 20 grammar.",
-        "furigana": "これは レッスン20の 文法です。",
-        "romaji": ""
+        "bn": "আগামীকাল টোকিওতে যাব।",
+        "furigana": "あした とうきょうへ いく।",
+        "romaji": "ashita toukyou e iku."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-020-g2",
     "pattern": "〜20-B",
     "meaning_en": "Grammar pattern 20-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 20-B",
+    "meaning_bn": "সাধারণ কথ্য ভাষা: ~だ / ~じゃない",
     "examples": [
       {
         "jp": "これは レッスン20の 文法です。",
         "en": "This is lesson 20 grammar.",
-        "bn": "This is lesson 20 grammar.",
-        "furigana": "これは レッスン20の 文法です。",
-        "romaji": ""
+        "bn": "আমি ছাত্র নই।",
+        "furigana": "ぼくは がくせいじゃない।",
+        "romaji": "boku wa gakusei ja nai."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-020-g3",
+    "pattern": "〜んですか",
+    "meaning_en": "so ~, is that right? (asking for explanation)",
+    "meaning_bn": "তাহলে ~ নাকি? (ব্যাখ্যা জানতে চাওয়া)",
+    "examples": [
+      {
+        "jp": "どこへ 行くんですか。",
+        "furigana": "どこへ いくんですか।",
+        "romaji": "doko e iku n desu ka.",
+        "en": "Where are you going?",
+        "bn": "আপনি কোথায় যাচ্ছেন?"
+      },
+      {
+        "jp": "どうして 日本語を 勉強しているんですか。",
+        "furigana": "どうして にほんごを べんきょうしているんですか।",
+        "romaji": "doushite nihongo o benkyou shite iru n desu ka.",
+        "en": "Why are you studying Japanese?",
+        "bn": "আপনি কেন জাপানি ভাষা পড়ছেন?"
+      },
+      {
+        "jp": "この 着物は いくらなんですか。",
+        "furigana": "この きものは いくらなんですか।",
+        "romaji": "kono kimono wa ikura nan desu ka.",
+        "en": "How much is this kimono?",
+        "bn": "এই কিমোনোটির দাম কত?"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-020-g4",
+    "pattern": "〜んですが、…",
+    "meaning_en": "I have a situation where ~, so…",
+    "meaning_bn": "আসলে ~, তাই… (ভদ্রভাবে প্রসঙ্গ তোলা)",
+    "examples": [
+      {
+        "jp": "日本語を 習いたいんですが、いい 学校を 知りませんか。",
+        "furigana": "にほんごを ならいたいんですが、いい がっこうを しりませんか।",
+        "romaji": "nihongo o naraitai n desu ga, ii gakkou o shirimasen ka.",
+        "en": "I would like to learn Japanese — do you know a good school?",
+        "bn": "আমি জাপানি ভাষা শিখতে চাই — কোনো ভালো স্কুল চেনেন?"
+      },
+      {
+        "jp": "すみません、道が 分からないんですが…",
+        "furigana": "すみません、みちが わからないんですが…",
+        "romaji": "sumimasen, michi ga wakaranai n desu ga…",
+        "en": "Excuse me, I don't know the way…",
+        "bn": "মাফ করবেন, আমি পথ চিনি না…"
+      },
+      {
+        "jp": "この 言葉の 意味が 分からないんですが、教えて ください。",
+        "furigana": "この ことばの いみが わからないんですが、おしえて ください।",
+        "romaji": "kono kotoba no imi ga wakaranai n desu ga, oshiete kudasai.",
+        "en": "I don't understand the meaning of this word — please tell me.",
+        "bn": "এই শব্দটির অর্থ বুঝি না — দয়া করে বলুন।"
       }
     ],
     "tags": [

@@ -1,98 +1,208 @@
 [
   {
-    "character": "日",
+    "character": "要",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "ヨウ"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "い.る",
+      "かなめ"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "need",
+        "require"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "প্রয়োজন"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 5,
+    "radicals": [
+      "覀",
+      "女"
+    ],
+    "strokes": 9,
+    "grade": 4,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "修",
     "onyomi": [
-      "ホン"
+      "シュウ"
     ],
     "kunyomi": [
-      "もと"
+      "おさ.める"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "repair",
+        "study"
       ],
       "bn": [
-        "বই, উৎস"
+        "মেরামত করা",
+        "অধ্যয়ন করা"
       ]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": [
+      "亻",
+      "攵",
+      "彡"
+    ],
     "strokes": 10,
     "grade": 5,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "理",
+    "onyomi": [
+      "リ"
+    ],
     "kunyomi": [],
     "meanings": {
       "en": [
-        "Meaning"
+        "reason",
+        "logic"
       ],
       "bn": [
-        "অর্থ"
+        "যুক্তি",
+        "কারণ"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "王",
+      "里"
+    ],
     "strokes": 11,
-    "grade": 5,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "僕",
+    "onyomi": [
+      "ボク"
+    ],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "I (male, informal)"
+      ],
+      "bn": [
+        "আমি (পুরুষ, অনানুষ্ঠানিক)"
+      ]
+    },
+    "radicals": [
+      "亻",
+      "业",
+      "羊",
+      "大"
+    ],
+    "strokes": 14,
+    "grade": 8,
+    "jlpt": "N5"
+  },
+  {
+    "character": "君",
+    "onyomi": [
+      "クン"
+    ],
+    "kunyomi": [
+      "きみ"
+    ],
+    "meanings": {
+      "en": [
+        "you (informal)",
+        "boy"
+      ],
+      "bn": [
+        "তুমি (অনানুষ্ঠানিক)"
+      ]
+    },
+    "radicals": [
+      "尹",
+      "口"
+    ],
+    "strokes": 7,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "言",
+    "onyomi": [
+      "ゲン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "い.う",
+      "こと"
+    ],
+    "meanings": {
+      "en": [
+        "say",
+        "word"
+      ],
+      "bn": [
+        "বলা",
+        "শব্দ"
+      ]
+    },
+    "radicals": [
+      "言"
+    ],
+    "strokes": 7,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "葉",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [
+      "は"
+    ],
+    "meanings": {
+      "en": [
+        "leaf",
+        "word (in 言葉)"
+      ],
+      "bn": [
+        "পাতা",
+        "শব্দ (言葉-এ)"
+      ]
+    },
+    "radicals": [
+      "艹",
+      "世",
+      "木"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "終",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [
+      "お.わる",
+      "お.える"
+    ],
+    "meanings": {
+      "en": [
+        "end",
+        "finish"
+      ],
+      "bn": [
+        "শেষ হওয়া"
+      ]
+    },
+    "radicals": [
+      "糸",
+      "冬"
+    ],
+    "strokes": 11,
+    "grade": 3,
     "jlpt": "N5"
   }
 ]
