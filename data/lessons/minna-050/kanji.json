@@ -1,86 +1,131 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "世",
+    "onyomi": ["セイ", "セ"],
+    "kunyomi": ["よ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["world", "society", "generation"],
+      "bn": ["বিশ্ব", "সমাজ", "প্রজন্ম"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["一", "十", "廿"],
     "strokes": 5,
-    "grade": 4,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "語",
-    "onyomi": [],
+    "character": "礼",
+    "onyomi": ["レイ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["courtesy", "bow", "thanks"],
+      "bn": ["ভদ্রতা", "নমস্কার", "ধন্যবাদ"]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
+    "radicals": ["礻", "乚"],
+    "strokes": 5,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
+    "character": "感",
+    "onyomi": ["カン"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["feeling", "emotion"],
+      "bn": ["অনুভূতি", "ভাব"]
     },
-    "radicals": [],
+    "radicals": ["咸", "心"],
+    "strokes": 13,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "謝",
+    "onyomi": ["シャ"],
+    "kunyomi": ["あやま.る"],
+    "meanings": {
+      "en": ["thank", "apologize"],
+      "bn": ["ধন্যবাদ দেওয়া", "ক্ষমা চাওয়া"]
+    },
+    "radicals": ["言", "射"],
+    "strokes": 17,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "恩",
+    "onyomi": ["オン"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["favour", "kindness"],
+      "bn": ["উপকার", "দয়া"]
+    },
+    "radicals": ["因", "心"],
     "strokes": 10,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "別",
+    "onyomi": ["ベツ"],
+    "kunyomi": ["わか.れる"],
+    "meanings": {
+      "en": ["separate", "different"],
+      "bn": ["আলাদা", "বিচ্ছিন্ন"]
+    },
+    "radicals": ["口", "刀", "刂"],
+    "strokes": 7,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "卒",
+    "onyomi": ["ソツ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["graduate", "soldier"],
+      "bn": ["স্নাতক", "সৈনিক"]
     },
-    "radicals": [],
-    "strokes": 11,
+    "radicals": ["亠", "人", "十"],
+    "strokes": 8,
+    "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "業",
+    "onyomi": ["ギョウ", "ゴウ"],
+    "kunyomi": ["わざ"],
+    "meanings": {
+      "en": ["business", "industry", "work"],
+      "bn": ["ব্যবসা", "শিল্প", "কাজ"]
+    },
+    "radicals": ["丵", "木"],
+    "strokes": 13,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "記",
+    "onyomi": ["キ"],
+    "kunyomi": ["しる.す"],
+    "meanings": {
+      "en": ["record", "write down"],
+      "bn": ["লেখা", "লিপিবদ্ধ করা"]
+    },
+    "radicals": ["言", "己"],
+    "strokes": 10,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "念",
+    "onyomi": ["ネン"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["thought", "wish"],
+      "bn": ["ভাবনা", "ইচ্ছা"]
+    },
+    "radicals": ["今", "心"],
+    "strokes": 8,
     "grade": 4,
     "jlpt": "N4"
   }

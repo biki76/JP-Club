@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-050-l001",
+    "id": "minna-050-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "At the Farewell Party",
+      "bn": "বিদায় অনুষ্ঠানে"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "まいります は 何 ですか。",
-        "furigana": "まいります は なん ですか。",
-        "romaji": "mairimasu wa nan desu ka.",
-        "en": "What is go, come (humble equivalent of いきます and きます)?",
-        "bn": "go, come (humble equivalent of いきます and きます) কী?"
+        "jp": "みなさん、本日は お忙しい ところを お集まり いただき、ありがとう ございます。",
+        "furigana": "みなさん、ほんじつは おいそがしい ところを おあつまり いただき、ありがとう ございます。",
+        "romaji": "Minasan, honjitsu wa oisogashii tokoro o oatsumari itadaki, arigatō gozaimasu.",
+        "en": "Everyone, thank you for gathering here today despite being busy.",
+        "bn": "সকলে, আজ ব্যস্ত থাকা সত্ত্বেও এখানে জড়ো হওয়ার জন্য ধন্যবাদ।"
+      },
+      {
+        "jp": "田中さん、一年間 本当に お疲れさまでした。",
+        "furigana": "たなかさん、いちねんかん ほんとうに おつかれさまでした。",
+        "romaji": "Tanaka-san, ichinenkan hontō ni otsukaresama deshita.",
+        "en": "Tanaka, thank you for your hard work over the whole year.",
+        "bn": "তানাকা, সারাবছর সত্যিই অনেক পরিশ্রম করেছেন।"
+      },
+      {
+        "jp": "こちらこそ、本当に お世話に なりました。",
+        "furigana": "こちらこそ、ほんとうに おせわに なりました。",
+        "romaji": "Kochira koso, hontō ni osewa ni narimashita.",
+        "en": "It is I who should thank you; you have done so much for me.",
+        "bn": "আমিই বরং কৃতজ্ঞ; আপনি আমার অনেক যত্ন নিয়েছেন।"
+      },
+      {
+        "jp": "何か 困った ことが あったら、いつでも ご連絡 ください。",
+        "furigana": "なにか こまった ことが あったら、いつでも ごれんらく ください。",
+        "romaji": "Nanika komatta koto ga attara, itsudemo gorenraku kudasai.",
+        "en": "If you are ever in trouble, please contact us any time.",
+        "bn": "কোনো সমস্যায় পড়লে যখন তখন যোগাযোগ করবেন।"
+      },
+      {
+        "jp": "ありがとう ございます。国へ 帰っても、みなさんの ことは 忘れません。",
+        "furigana": "ありがとう ございます。くにへ かえっても、みなさんの ことは わすれません。",
+        "romaji": "Arigatō gozaimasu. Kuni e kaette mo, minasan no koto wa wasuremasen.",
+        "en": "Thank you. Even after returning home, I will not forget all of you.",
+        "bn": "ধন্যবাদ। দেশে ফিরে গেলেও আপনাদের কথা ভুলব না।"
+      },
+      {
+        "jp": "これは みなさんからの 記念品で ございます。",
+        "furigana": "これは みなさんからの きねんひんで ございます。",
+        "romaji": "Kore wa minasan kara no kinenhin de gozaimasu.",
+        "en": "This is a farewell gift from all of us.",
+        "bn": "এটি সবার পক্ষ থেকে একটি স্মারক উপহার।"
+      },
+      {
+        "jp": "わあ、すてきですね。大切に します。",
+        "furigana": "わあ、すてきですね。たいせつに します。",
+        "romaji": "Wā, suteki desu ne. Taisetsu ni shimasu.",
+        "en": "Wow, it is lovely. I will treasure it.",
+        "bn": "বাহ, চমৎকার। আমি এটি যত্নে রাখব।"
+      },
+      {
+        "jp": "では、最後に みなさんで 写真を 撮りましょう。",
+        "furigana": "では、さいごに みなさんで しゃしんを とりましょう。",
+        "romaji": "De wa, saigo ni minasan de shashin o torimashō.",
+        "en": "Then finally, let us take a photo together.",
+        "bn": "তাহলে শেষে, সবাই মিলে ছবি তোলা যাক।"
+      },
+      {
+        "jp": "はい、お願いします。いい 思い出に なりますね。",
+        "furigana": "はい、おねがいします。いい おもいでに なりますね。",
+        "romaji": "Hai, onegai shimasu. Ii omoide ni narimasu ne.",
+        "en": "Yes, please. It will make a good memory.",
+        "bn": "হ্যাঁ, দয়া করে। এটা ভালো স্মৃতি হয়ে থাকবে।"
       }
     ]
   }

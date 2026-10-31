@@ -1,5 +1,271 @@
 [
-{"id":"minna-050-v001","kanji":"謙譲語","furigana":"けんじょうご","romaji":"kenjougo","english_meaning":"humble language","bengali_meaning":"বিনয়সূচক ভাষা","type":"noun"},
-{"id":"minna-050-v002","kanji":"おります","furigana":"おります","romaji":"orimasu","english_meaning":"to be (humble)","bengali_meaning":"থাকা (বিনয়সূচক)","type":"verb"},
-{"id":"minna-050-v003","kanji":"参ります","furigana":"まいります","romaji":"mairimasu","english_meaning":"to go / come (humble)","bengali_meaning":"যাওয়া / আসা (বিনয়সূচক)","type":"verb"}
+  {
+    "id": "minna-050-v001",
+    "furigana": "せわ",
+    "kanji": "世話",
+    "romaji": "sewa",
+    "english_meaning": "care, looking after",
+    "bengali_meaning": "যত্ন, দেখাশোনা",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v002",
+    "furigana": "あいさつ",
+    "kanji": "挨拶",
+    "romaji": "aisatsu",
+    "english_meaning": "greeting",
+    "bengali_meaning": "শুভেচ্ছা বিনিময়",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v003",
+    "furigana": "れい",
+    "kanji": "礼",
+    "romaji": "rei",
+    "english_meaning": "bow, courtesy",
+    "bengali_meaning": "নমস্কার, ভদ্রতা",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v004",
+    "furigana": "かんしゃ",
+    "kanji": "感謝",
+    "romaji": "kansha",
+    "english_meaning": "gratitude, thanks",
+    "bengali_meaning": "কৃতজ্ঞতা",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v005",
+    "furigana": "おん",
+    "kanji": "恩",
+    "romaji": "on",
+    "english_meaning": "favour, debt of gratitude",
+    "bengali_meaning": "উপকার, ঋণ",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v006",
+    "furigana": "おんじん",
+    "kanji": "恩人",
+    "romaji": "onjin",
+    "english_meaning": "benefactor",
+    "bengali_meaning": "উপকারী ব্যক্তি",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v007",
+    "furigana": "ささえる",
+    "kanji": "支える",
+    "romaji": "sasaeru",
+    "english_meaning": "to support",
+    "bengali_meaning": "সমর্থন করা",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v008",
+    "furigana": "ささえ",
+    "kanji": "支え",
+    "romaji": "sasae",
+    "english_meaning": "support, backing",
+    "bengali_meaning": "সমর্থন",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v009",
+    "furigana": "わかれ",
+    "kanji": "別れ",
+    "romaji": "wakare",
+    "english_meaning": "parting, farewell",
+    "bengali_meaning": "বিদায়",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v010",
+    "furigana": "わかれる",
+    "kanji": "別れる",
+    "romaji": "wakareru",
+    "english_meaning": "to part, to separate",
+    "bengali_meaning": "বিচ্ছিন্ন হওয়া",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v011",
+    "furigana": "そつぎょう",
+    "kanji": "卒業",
+    "romaji": "sotsugyō",
+    "english_meaning": "graduation",
+    "bengali_meaning": "পাঠ সম্পন্ন করা",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v012",
+    "furigana": "そつぎょうしき",
+    "kanji": "卒業式",
+    "romaji": "sotsugyōshiki",
+    "english_meaning": "graduation ceremony",
+    "bengali_meaning": "স্নাতক অনুষ্ঠান",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v013",
+    "furigana": "そうべつかい",
+    "kanji": "送別会",
+    "romaji": "sōbetsukai",
+    "english_meaning": "farewell party",
+    "bengali_meaning": "বিদায় অনুষ্ঠান",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v014",
+    "furigana": "きねん",
+    "kanji": "記念",
+    "romaji": "kinen",
+    "english_meaning": "commemoration, memory",
+    "bengali_meaning": "স্মরণ",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v015",
+    "furigana": "きねんひん",
+    "kanji": "記念品",
+    "romaji": "kinenhin",
+    "english_meaning": "souvenir, memento",
+    "bengali_meaning": "স্মারক",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v016",
+    "furigana": "おもいで",
+    "kanji": "思い出",
+    "romaji": "omoide",
+    "english_meaning": "memory",
+    "bengali_meaning": "স্মৃতি",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v017",
+    "furigana": "おもいだす",
+    "kanji": "思い出す",
+    "romaji": "omoidasu",
+    "english_meaning": "to recall, to remember",
+    "bengali_meaning": "স্মরণ করা",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v018",
+    "furigana": "おかげ",
+    "romaji": "okage",
+    "english_meaning": "thanks to, owing to",
+    "bengali_meaning": "কৃপায়",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v019",
+    "furigana": "めいわく",
+    "kanji": "迷惑",
+    "romaji": "meiwaku",
+    "english_meaning": "trouble, nuisance",
+    "bengali_meaning": "ঝামেলা",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v020",
+    "furigana": "おれい",
+    "kanji": "お礼",
+    "romaji": "orei",
+    "english_meaning": "thanks, expression of gratitude",
+    "bengali_meaning": "ধন্যবাদ জ্ঞাপন",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v021",
+    "furigana": "こころから",
+    "kanji": "心から",
+    "romaji": "kokoro kara",
+    "english_meaning": "from the heart, sincerely",
+    "bengali_meaning": "হৃদয় থেকে",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v022",
+    "furigana": "いっしょうけんめい",
+    "kanji": "一生懸命",
+    "romaji": "isshōkenmei",
+    "english_meaning": "with all one's might",
+    "bengali_meaning": "প্রাণপণ",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v023",
+    "furigana": "きたい",
+    "kanji": "期待",
+    "romaji": "kitai",
+    "english_meaning": "expectation, hope",
+    "bengali_meaning": "প্রত্যাশা",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v024",
+    "furigana": "しんじる",
+    "kanji": "信じる",
+    "romaji": "shinjiru",
+    "english_meaning": "to believe",
+    "bengali_meaning": "বিশ্বাস করা",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v025",
+    "furigana": "おうえん",
+    "kanji": "応援",
+    "romaji": "ōen",
+    "english_meaning": "support, cheering",
+    "bengali_meaning": "সমর্থন জোগানো",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v026",
+    "furigana": "さいご",
+    "kanji": "最後",
+    "romaji": "saigo",
+    "english_meaning": "the last, the end",
+    "bengali_meaning": "শেষ",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v027",
+    "furigana": "であい",
+    "kanji": "出会い",
+    "romaji": "deai",
+    "english_meaning": "encounter, meeting",
+    "bengali_meaning": "সাক্ষাৎ",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v028",
+    "furigana": "であう",
+    "kanji": "出会う",
+    "romaji": "deau",
+    "english_meaning": "to meet, to encounter",
+    "bengali_meaning": "দেখা হওয়া",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v029",
+    "furigana": "おわかれ",
+    "kanji": "お別れ",
+    "romaji": "owakare",
+    "english_meaning": "farewell, parting",
+    "bengali_meaning": "বিদায়",
+    "tags": ["vocabulary", "lesson-50"]
+  },
+  {
+    "id": "minna-050-v030",
+    "furigana": "おせわになりました",
+    "kanji": "お世話になりました",
+    "romaji": "osewa ni narimashita",
+    "english_meaning": "thank you for everything (set phrase)",
+    "bengali_meaning": "সব কিছুর জন্য ধন্যবাদ (প্রচলিত বাক্য)",
+    "tags": ["vocabulary", "lesson-50"]
+  }
 ]

@@ -3,48 +3,167 @@
     "id": "minna-050-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜50-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜50-A"
+      "en": "Choose the correct humble form.",
+      "bn": "সঠিক বিনয়সূচক রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン50の 文法です。",
-      "furigana": "これは レッスン50の 文法です。",
-      "romaji": ""
+      "jp": "お荷物を ＿＿。",
+      "furigana": "おにもつを ＿＿。",
+      "romaji": "Onimotsu o ＿＿."
     },
-    "options": [
-      "Grammar pattern 50-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["お持ちします", "持ちます", "持って ください", "持たれます"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜50-A means \"Grammar pattern 50-A\".",
-      "bn": "〜50-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 50-A\"।"
+      "en": "The humble pattern is お + V-ます stem + します.",
+      "bn": "বিনয়সূচক নকশা হলো お + V-ます stem + します।"
     }
   },
   {
     "id": "minna-050-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜50-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜50-B"
+      "en": "Choose the correct humble form with a Chinese-origin noun.",
+      "bn": "চীনা উৎসের বিশেষ্যের সঙ্গে সঠিক বিনয়সূচক রূপ বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン50の 文法です。",
-      "furigana": "これは レッスン50の 文法です。",
-      "romaji": ""
+      "jp": "資料の 内容を ＿＿。",
+      "furigana": "しりょうの ないようを ＿＿。",
+      "romaji": "Shiryō no naiyō o ＿＿."
+    },
+    "options": ["ご説明します", "説明します", "説明されます", "説明して ください"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "ご + noun + します is the humble pattern for nouns of Chinese origin.",
+      "bn": "চীনা উৎসের বিশেষ্যের জন্য বিনয়সূচক নকশা হলো ご + বিশেষ্য + します।"
+    }
+  },
+  {
+    "id": "minna-050-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct humble progressive form.",
+      "bn": "সঠিক বিনয়সূচক চলমান রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "課長は ただ今 外出して ＿＿。",
+      "furigana": "かちょうは ただいま がいしゅつして ＿＿。",
+      "romaji": "Kachō wa tadaima gaishutsu shite ＿＿."
+    },
+    "options": ["おります", "います", "なります", "あります"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "～ております is the humble form of ～ています.",
+      "bn": "～ております হলো ～ています এর বিনয়সূচক রূপ।"
+    }
+  },
+  {
+    "id": "minna-050-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct humble permission form.",
+      "bn": "অনুমতি চাওয়ার সঠিক বিনয়সূচক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "では、わたしから ご説明 ＿＿ いただきます。",
+      "furigana": "では、わたしから ごせつめい ＿＿ いただきます。",
+      "romaji": "De wa, watashi kara gosetsumei ＿＿ itadakimasu."
+    },
+    "options": ["させて", "されて", "して", "させられて"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The causative させて + いただきます expresses humble permission.",
+      "bn": "কারক রূপ させて + いただきます বিনয়ের সঙ্গে অনুমতি প্রকাশ করে।"
+    }
+  },
+  {
+    "id": "minna-050-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the most polite copula.",
+      "bn": "সবচেয়ে ভদ্র সমাপিকা রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "こちらが 受付 ＿＿。",
+      "furigana": "こちらが うけつけ ＿＿。",
+      "romaji": "Kochira ga uketsuke ＿＿."
+    },
+    "options": ["で ございます", "です", "で います", "で あります"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N でございます is the most polite form of です.",
+      "bn": "N でございます হলো です এর সবচেয়ে ভদ্র রূপ।"
+    }
+  },
+  {
+    "id": "minna-050-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "みなさまの おかげで、仕事が できる ように なりました。",
+      "furigana": "みなさまの おかげで、しごとが できる ように なりました。",
+      "romaji": "Minasama no okage de, shigoto ga dekiru yō ni narimashita."
     },
     "options": [
-      "Grammar pattern 50-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Thanks to everyone, I became able to do the work.",
+      "Because of everyone, I gave up the work.",
+      "Thanks to everyone, I quit the job.",
+      "Everyone helped me finish the work today."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜50-B means \"Grammar pattern 50-B\".",
-      "bn": "〜50-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 50-B\"।"
+      "en": "おかげで expresses gratitude for a good result caused by others.",
+      "bn": "おかげで অন্যের কারণে ভালো ফল হলে কৃতজ্ঞতা প্রকাশ করে।"
+    }
+  },
+  {
+    "id": "minna-050-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct set phrase for a farewell.",
+      "bn": "বিদায়ের জন্য সঠিক প্রচলিত বাক্যটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "一年間、本当に ＿＿。",
+      "furigana": "いちねんかん、ほんとうに ＿＿。",
+      "romaji": "Ichinenkan, hontō ni ＿＿."
+    },
+    "options": [
+      "お世話に なりました",
+      "お世話しました",
+      "世話します",
+      "世話に なります"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "お世話になりました is the standard phrase to thank someone for their care.",
+      "bn": "お世話になりました কারো যত্নের জন্য ধন্যবাদ জানানোর প্রচলিত বাক্য।"
+    }
+  },
+  {
+    "id": "minna-050-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 一生懸命.",
+      "bn": "一生懸命 এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "これからも 一生懸命 頑張ります。",
+      "furigana": "これからも いっしょうけんめい がんばります。",
+      "romaji": "Kore kara mo isshōkenmei ganbarimasu."
+    },
+    "options": [
+      "with all my might",
+      "without any effort",
+      "very slowly",
+      "only occasionally"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "一生懸命 means doing something with all one's might.",
+      "bn": "一生懸命 মানে প্রাণপণ চেষ্টা করে কিছু করা।"
     }
   }
 ]

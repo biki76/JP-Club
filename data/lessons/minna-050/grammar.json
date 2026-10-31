@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-050-g1",
-    "pattern": "〜50-A",
-    "meaning_en": "Grammar pattern 50-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 50-A",
+    "pattern": "お + V-ます stem + します",
+    "meaning_en": "humble form for doing something for someone",
+    "meaning_bn": "কারো জন্য বিনয়ের সঙ্গে কিছু করা",
     "examples": [
       {
-        "jp": "これは レッスン50の 文法です。",
-        "en": "This is lesson 50 grammar.",
-        "bn": "This is lesson 50 grammar.",
-        "furigana": "これは レッスン50の 文法です。",
-        "romaji": ""
+        "jp": "お荷物を お持ちします。",
+        "furigana": "おにもつを おもちします。",
+        "romaji": "Onimotsu o omochi shimasu.",
+        "en": "I will carry your luggage for you.",
+        "bn": "আপনার মালপত্র আমি বহন করব।"
+      },
+      {
+        "jp": "駅まで お送りします。",
+        "furigana": "えきまで おおくりします。",
+        "romaji": "Eki made ookuri shimasu.",
+        "en": "I will see you off to the station.",
+        "bn": "স্টেশন পর্যন্ত আমি আপনাকে এগিয়ে দেব।"
+      },
+      {
+        "jp": "お客様の お部屋まで ご案内します。",
+        "furigana": "おきゃくさまの おへやまで ごあんないします。",
+        "romaji": "Okyakusama no oheya made goannai shimasu.",
+        "en": "I will show you to your room.",
+        "bn": "অতিথির কক্ষ পর্যন্ত আমি পথ দেখাব।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-050-g2",
-    "pattern": "〜50-B",
-    "meaning_en": "Grammar pattern 50-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 50-B",
+    "pattern": "ご + N + します",
+    "meaning_en": "humble form with nouns of Chinese origin",
+    "meaning_bn": "চীনা উৎসের বিশেষ্যের সঙ্গে বিনয়সূচক রূপ",
     "examples": [
       {
-        "jp": "これは レッスン50の 文法です。",
-        "en": "This is lesson 50 grammar.",
-        "bn": "This is lesson 50 grammar.",
-        "furigana": "これは レッスン50の 文法です。",
-        "romaji": ""
+        "jp": "資料の 内容を ご説明します。",
+        "furigana": "しりょうの ないようを ごせつめいします。",
+        "romaji": "Shiryō no naiyō o gosetsumei shimasu.",
+        "en": "I will explain the contents of the documents.",
+        "bn": "নথির বিষয়বস্তু আমি ব্যাখ্যা করব।"
+      },
+      {
+        "jp": "あとで こちらから ご連絡します。",
+        "furigana": "あとで こちらから ごれんらくします。",
+        "romaji": "Ato de kochira kara gorenraku shimasu.",
+        "en": "I will contact you later.",
+        "bn": "পরে আমি আপনার সঙ্গে যোগাযোগ করব।"
+      },
+      {
+        "jp": "その 件は 明日 ご相談します。",
+        "furigana": "その けんは あした ごそうだんします。",
+        "romaji": "Sono ken wa ashita gosōdan shimasu.",
+        "en": "I will discuss that matter tomorrow.",
+        "bn": "সেই বিষয়টি আগামীকাল পরামর্শ করব।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-050-g3",
+    "pattern": "V-ております",
+    "meaning_en": "humble progressive form of ～ています",
+    "meaning_bn": "～ています এর বিনয়সূচক চলমান রূপ",
+    "examples": [
+      {
+        "jp": "課長は ただ今 外出して おります。",
+        "furigana": "かちょうは ただいま がいしゅつして おります。",
+        "romaji": "Kachō wa tadaima gaishutsu shite orimasu.",
+        "en": "The section chief is out right now.",
+        "bn": "শাখা প্রধান এখন বাইরে আছেন।"
+      },
+      {
+        "jp": "わたしは 大阪に 住んで おります。",
+        "furigana": "わたしは おおさかに すんで おります。",
+        "romaji": "Watashi wa Ōsaka ni sunde orimasu.",
+        "en": "I live in Osaka.",
+        "bn": "আমি ওসাকায় থাকি।"
+      },
+      {
+        "jp": "みなさまの お越しを お待ちして おります。",
+        "furigana": "みなさまの おこしを おまちして おります。",
+        "romaji": "Minasama no okoshi o omachi shite orimasu.",
+        "en": "We are waiting for everyone's arrival.",
+        "bn": "আমরা সবার আগমন প্রতীক্ষা করছি।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-050-g4",
+    "pattern": "使役形 + て いただきます",
+    "meaning_en": "humbly asking permission to do something",
+    "meaning_bn": "বিনয়ের সঙ্গে কিছু করার অনুমতি নেওয়া",
+    "examples": [
+      {
+        "jp": "では、わたしから ご説明させて いただきます。",
+        "furigana": "では、わたしから ごせつめいさせて いただきます。",
+        "romaji": "De wa, watashi kara gosetsumei sasete itadakimasu.",
+        "en": "Then allow me to explain.",
+        "bn": "তাহলে আমাকে ব্যাখ্যা করার অনুমতি দিন।"
+      },
+      {
+        "jp": "お先に 失礼させて いただきます。",
+        "furigana": "おさきに しつれいさせて いただきます。",
+        "romaji": "Osaki ni shitsurei sasete itadakimasu.",
+        "en": "Allow me to excuse myself first.",
+        "bn": "আমাকে আগে বিদায় নেওয়ার অনুমতি দিন।"
+      },
+      {
+        "jp": "この 件は わたしが 担当させて いただきます。",
+        "furigana": "この けんは わたしが たんとうさせて いただきます。",
+        "romaji": "Kono ken wa watashi ga tantō sasete itadakimasu.",
+        "en": "Allow me to take charge of this matter.",
+        "bn": "এই বিষয়টির দায়িত্ব আমাকে নিতে দিন।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-050-g5",
+    "pattern": "N でございます",
+    "meaning_en": "very polite form of です",
+    "meaning_bn": "です এর অত্যন্ত ভদ্র রূপ",
+    "examples": [
+      {
+        "jp": "こちらが 受付で ございます。",
+        "furigana": "こちらが うけつけで ございます。",
+        "romaji": "Kochira ga uketsuke de gozaimasu.",
+        "en": "This is the reception desk.",
+        "bn": "এটিই রিসেপশন।"
+      },
+      {
+        "jp": "山田様で ございますね。お待ちして おりました。",
+        "furigana": "やまださまで ございますね。おまちして おりました。",
+        "romaji": "Yamada-sama de gozaimasu ne. Omachi shite orimashita.",
+        "en": "You are Mr. Yamada, I believe. We have been expecting you.",
+        "bn": "আপনি ইয়ামাদা মহোদয়, তাই না? আমরা আপনার অপেক্ষায় ছিলাম।"
+      },
+      {
+        "jp": "あしたの 会議は 三時からで ございます。",
+        "furigana": "あしたの かいぎは さんじからで ございます。",
+        "romaji": "Ashita no kaigi wa san-ji kara de gozaimasu.",
+        "en": "Tomorrow's meeting is from three o'clock.",
+        "bn": "আগামীকালের সভা তিনটা থেকে শুরু।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

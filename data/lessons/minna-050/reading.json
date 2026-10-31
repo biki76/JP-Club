@@ -1,17 +1,73 @@
 [
   {
-    "id": "minna-050-r001",
+    "id": "minna-050-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "A Farewell Thank-You",
+      "bn": "বিদায়ী ধন্যবাদবার্তা"
     },
     "passage": [
       {
-        "jp": "これは まいります です。",
-        "furigana": "これは まいります です。",
-        "romaji": "Kore wa mairimasu desu.",
-        "en": "This is go, come (humble equivalent of いきます and きます).",
-        "bn": "এটি go, come (humble equivalent of いきます and きます)।"
+        "jp": "みなさま、本日は お忙しい ところを お集まり いただき、ありがとう ございます。",
+        "furigana": "みなさま、ほんじつは おいそがしい ところを おあつまり いただき、ありがとう ございます。",
+        "romaji": "Minasama, honjitsu wa oisogashii tokoro o oatsumari itadaki, arigatō gozaimasu.",
+        "en": "Everyone, thank you for gathering here today despite being busy.",
+        "bn": "সকলে, আজ ব্যস্ত থাকা সত্ত্বেও এখানে জড়ো হওয়ার জন্য ধন্যবাদ।"
+      },
+      {
+        "jp": "わたしは 一年間 この 会社で 働いて まいりました。",
+        "furigana": "わたしは いちねんかん この かいしゃで はたらいて まいりました。",
+        "romaji": "Watashi wa ichinenkan kono kaisha de hataraite mairimashita.",
+        "en": "I have worked at this company for one year.",
+        "bn": "আমি এক বছর ধরে এই কোম্পানিতে কাজ করেছি।"
+      },
+      {
+        "jp": "はじめは 日本語も 下手で、みなさまに たくさん ご迷惑を おかけしました。",
+        "furigana": "はじめは にほんごも へたで、みなさまに たくさん ごめいわくを おかけしました。",
+        "romaji": "Hajime wa Nihongo mo heta de, minasama ni takusan gomeiwaku o okake shimashita.",
+        "en": "At first my Japanese was poor, and I caused everyone a lot of trouble.",
+        "bn": "শুরুতে জাপানি ভাষায় দুর্বল ছিলাম, তাই সবার অনেক ঝামেলা করেছি।"
+      },
+      {
+        "jp": "でも、みなさまの おかげで、少しずつ 仕事が できる ように なりました。",
+        "furigana": "でも、みなさまの おかげで、すこしずつ しごとが できる ように なりました。",
+        "romaji": "Demo, minasama no okage de, sukoshi zutsu shigoto ga dekiru yō ni narimashita.",
+        "en": "But thanks to everyone, I gradually became able to do the work.",
+        "bn": "তবে সবার কৃপায় ধীরে ধীরে কাজ করতে পারতে শুরু করলাম।"
+      },
+      {
+        "jp": "一緒に 働いた 日々は、わたしの 大切な 思い出で ございます。",
+        "furigana": "いっしょに はたらいた ひびは、わたしの たいせつな おもいでで ございます。",
+        "romaji": "Issho ni hataraita hibi wa, watashi no taisetsu na omoide de gozaimasu.",
+        "en": "The days we worked together are precious memories for me.",
+        "bn": "একসঙ্গে কাজ করা দিনগুলো আমার কাছে মূল্যবান স্মৃতি।"
+      },
+      {
+        "jp": "みなさまに 心から 感謝して おります。",
+        "furigana": "みなさまに こころから かんしゃして おります。",
+        "romaji": "Minasama ni kokoro kara kansha shite orimasu.",
+        "en": "I sincerely thank everyone from the bottom of my heart.",
+        "bn": "আমি হৃদয় থেকে সবার প্রতি কৃতজ্ঞ।"
+      },
+      {
+        "jp": "国へ 帰っても、ここで 学んだ ことを 忘れません。",
+        "furigana": "くにへ かえっても、ここで まなんだ ことを わすれません。",
+        "romaji": "Kuni e kaette mo, koko de mananda koto o wasuremasen.",
+        "en": "Even after returning home, I will not forget what I learned here.",
+        "bn": "দেশে ফিরে গেলেও এখানে যা শিখেছি তা ভুলব না।"
+      },
+      {
+        "jp": "最後に、みなさまの ご健康と ご活躍を お祈りして おります。",
+        "furigana": "さいごに、みなさまの ごけんこうと ごかつやくを おいのりして おります。",
+        "romaji": "Saigo ni, minasama no gokenkō to gokatsuyaku o oinori shite orimasu.",
+        "en": "Finally, I pray for everyone's good health and continued success.",
+        "bn": "শেষে, সবার সুস্বাস্থ্য ও সাফল্য কামনা করি।"
+      },
+      {
+        "jp": "短い 間でしたが、本当に お世話に なりました。",
+        "furigana": "みじかい あいだでしたが、ほんとうに おせわに なりました。",
+        "romaji": "Mijikai aida deshita ga, hontō ni osewa ni narimashita.",
+        "en": "It was a short time, but thank you sincerely for everything.",
+        "bn": "সময়টা কম ছিল, তবে সত্যিই সব কিছুর জন্য ধন্যবাদ।"
       }
     ]
   }
