@@ -1,98 +1,204 @@
 [
   {
-    "character": "日",
+    "character": "遊",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "ユウ"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "あそ.ぶ"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "play",
+        "enjoy oneself"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "খেলা করা",
+        "আনন্দ করা"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 5,
+    "radicals": [
+      "辶",
+      "方",
+      "子"
+    ],
+    "strokes": 12,
+    "grade": 3,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "泳",
     "onyomi": [
-      "ホン"
+      "エイ"
     ],
     "kunyomi": [
-      "もと"
+      "およ.ぐ"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "swim"
       ],
       "bn": [
-        "বই, উৎস"
+        "সাঁতার কাটা"
       ]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 5,
+    "radicals": [
+      "氵",
+      "永"
+    ],
+    "strokes": 8,
+    "grade": 3,
     "jlpt": "N5"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "迎",
+    "onyomi": [
+      "ゲイ"
+    ],
+    "kunyomi": [
+      "むか.える"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "welcome",
+        "go to meet"
       ],
       "bn": [
-        "অর্থ"
+        "অভ্যর্থনা জানানো",
+        "আগে গিয়ে আনা"
       ]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 5,
+    "radicals": [
+      "辶",
+      "卬"
+    ],
+    "strokes": 7,
+    "grade": 8,
     "jlpt": "N5"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "疲",
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "つか.れる"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "get tired"
       ],
       "bn": [
-        "অর্থ"
+        "ক্লান্ত হওয়া"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "疒",
+      "皮"
+    ],
     "strokes": 10,
-    "grade": 5,
+    "grade": 8,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "結",
+    "onyomi": [
+      "ケツ"
+    ],
+    "kunyomi": [
+      "むす.ぶ",
+      "ゆ.う"
+    ],
+    "meanings": {
+      "en": [
+        "tie",
+        "bind"
+      ],
+      "bn": [
+        "বাঁধা",
+        "গ্রন্থিবদ্ধ করা"
+      ]
+    },
+    "radicals": [
+      "糸",
+      "吉"
+    ],
+    "strokes": 12,
+    "grade": 4,
+    "jlpt": "N5"
+  },
+  {
+    "character": "婚",
+    "onyomi": [
+      "コン"
+    ],
     "kunyomi": [],
     "meanings": {
       "en": [
-        "Meaning"
+        "marriage"
       ],
       "bn": [
-        "অর্থ"
+        "বিবাহ"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "女",
+      "昏"
+    ],
     "strokes": 11,
-    "grade": 5,
+    "grade": 8,
+    "jlpt": "N5"
+  },
+  {
+    "character": "広",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "ひろ.い"
+    ],
+    "meanings": {
+      "en": [
+        "wide",
+        "spacious"
+      ],
+      "bn": [
+        "প্রশস্ত",
+        "বিশাল"
+      ]
+    },
+    "radicals": [
+      "广",
+      "厶"
+    ],
+    "strokes": 5,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "狭",
+    "onyomi": [
+      "キョウ"
+    ],
+    "kunyomi": [
+      "せま.い"
+    ],
+    "meanings": {
+      "en": [
+        "narrow",
+        "small"
+      ],
+      "bn": [
+        "সংকীর্ণ",
+        "ছোট"
+      ]
+    },
+    "radicals": [
+      "犭",
+      "夾"
+    ],
+    "strokes": 9,
+    "grade": 8,
     "jlpt": "N5"
   }
 ]

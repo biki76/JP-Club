@@ -46,5 +46,149 @@
       "en": "The pattern 〜13-B means \"Grammar pattern 13-B\".",
       "bn": "〜13-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 13-B\"।"
     }
+  },
+  {
+    "id": "minna-013-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 水が 飲みたいです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 水が 飲みたいです।"
+    },
+    "stem": {
+      "jp": "水が 飲みたいです。",
+      "furigana": "みずが のみたいです।",
+      "romaji": "mizu ga nomitai desu."
+    },
+    "options": [
+      "I want to drink water.",
+      "I drank water.",
+      "I do not want water.",
+      "I will drink water tomorrow."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜たいです expresses the speaker's wish to do something.",
+      "bn": "〜たいです বক্তার কিছু করার ইচ্ছা প্রকাশ করে।"
+    }
+  },
+  {
+    "id": "minna-013-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 新しい 車が 欲しいです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 新しい 車が 欲しいです。"
+    },
+    "stem": {
+      "jp": "新しい 車が 欲しいです。",
+      "furigana": "あたらしい くるまが ほしいです।",
+      "romaji": "atarashii kuruma ga hoshii desu."
+    },
+    "options": [
+      "I want a new car.",
+      "I bought a new car.",
+      "I want to drive a car.",
+      "The new car is expensive."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N が 欲しいです means \"I want N\" (a thing).",
+      "bn": "N が 欲しいです মানে \"আমার N চাই\" (কোনো বস্তু)।"
+    }
+  },
+  {
+    "id": "minna-013-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: デパートへ 買い物に 行きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: デパートへ 買い物に 行きます।"
+    },
+    "stem": {
+      "jp": "デパートへ 買い物に 行きます。",
+      "furigana": "デパートへ かいものに いきます।",
+      "romaji": "depaato e kaimono ni ikimasu."
+    },
+    "options": [
+      "I go to the department store to shop.",
+      "I shop at home.",
+      "I go to the department store to study.",
+      "I do not go shopping."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Verb stem + に 行きます shows the purpose of going.",
+      "bn": "ক্রিয়ার কান্ড + に 行きます যাওয়ার উদ্দেশ্য বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-013-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 週末は 公園を 散歩します。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 週末は 公園を 散歩します।"
+    },
+    "stem": {
+      "jp": "週末は 公園を 散歩します。",
+      "furigana": "しゅうまつは こうえんを さんぽします।",
+      "romaji": "shuumatsu wa kouen o sanpo shimasu."
+    },
+    "options": [
+      "On weekends I take a walk in the park.",
+      "On weekends I swim in the park.",
+      "On weekends I study in the park.",
+      "I walk to the park every day."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "散歩します means \"take a walk\"; を marks the place walked through.",
+      "bn": "散歩します মানে \"হাঁটাহাঁটি করি\"; を চলার স্থান বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-013-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 友達と 泳ぎに 行きます。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 友達と 泳ぎに 行きます।"
+    },
+    "stem": {
+      "jp": "友達と 泳ぎに 行きます。",
+      "furigana": "ともだちと およぎに いきます।",
+      "romaji": "tomodachi to oyogi ni ikimasu."
+    },
+    "options": [
+      "I go swimming with a friend.",
+      "I go to meet a friend.",
+      "I swim alone.",
+      "My friend goes swimming."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "泳ぎに 行きます means \"go in order to swim\".",
+      "bn": "泳ぎに 行きます মানে \"সাঁতার কাটতে যাই\"।"
+    }
+  },
+  {
+    "id": "minna-013-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 私は 結婚したいです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 私は 結婚したいです।"
+    },
+    "stem": {
+      "jp": "私は 結婚したいです。",
+      "furigana": "わたしは けっこんしたいです।",
+      "romaji": "watashi wa kekkon shitai desu."
+    },
+    "options": [
+      "I want to get married.",
+      "I got married.",
+      "I do not want to get married.",
+      "My friend is married."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "したいです is the 〜たい form of します, meaning \"want to do\".",
+      "bn": "したいです হলো します এর 〜たい রূপ, অর্থ \"করতে চাই\"।"
+    }
   }
 ]

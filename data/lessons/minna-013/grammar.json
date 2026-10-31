@@ -3,14 +3,14 @@
     "id": "minna-013-g1",
     "pattern": "〜13-A",
     "meaning_en": "Grammar pattern 13-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 13-A",
+    "meaning_bn": "পাঠ ১৩-এর ব্যাকরণ প্যাটার্ন A",
     "examples": [
       {
         "jp": "これは レッスン13の 文法です。",
         "en": "This is lesson 13 grammar.",
-        "bn": "This is lesson 13 grammar.",
-        "furigana": "これは レッスン13の 文法です。",
-        "romaji": ""
+        "bn": "এটি পাঠ ১৩-এর ব্যাকরণ।",
+        "furigana": "これは レッスンじゅうさんの ぶんぽうです।",
+        "romaji": "kore wa ressun juusan no bunpou desu."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-013-g2",
     "pattern": "〜13-B",
     "meaning_en": "Grammar pattern 13-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 13-B",
+    "meaning_bn": "পাঠ ১৩-এর ব্যাকরণ প্যাটার্ন B",
     "examples": [
       {
         "jp": "これは レッスン13の 文法です。",
         "en": "This is lesson 13 grammar.",
-        "bn": "This is lesson 13 grammar.",
-        "furigana": "これは レッスン13の 文法です。",
-        "romaji": ""
+        "bn": "এটি পাঠ ১৩-এর ব্যাকরণ।",
+        "furigana": "これは レッスンじゅうさんの ぶんぽうです।",
+        "romaji": "kore wa ressun juusan no bunpou desu."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-013-g3",
+    "pattern": "〜たいです",
+    "meaning_en": "want to do ~",
+    "meaning_bn": "~ করতে চাই",
+    "examples": [
+      {
+        "jp": "私は 日本へ 行きたいです。",
+        "furigana": "わたしは にほんへ いきたいです।",
+        "romaji": "watashi wa nihon e ikitai desu.",
+        "en": "I want to go to Japan.",
+        "bn": "আমি জাপানে যেতে চাই।"
+      },
+      {
+        "jp": "水が 飲みたいです。",
+        "furigana": "みずが のみたいです।",
+        "romaji": "mizu ga nomitai desu.",
+        "en": "I want to drink water.",
+        "bn": "আমি পানি খেতে চাই।"
+      },
+      {
+        "jp": "週末に 何を したいですか。",
+        "furigana": "しゅうまつに なにを したいですか।",
+        "romaji": "shuumatsu ni nani o shitai desu ka.",
+        "en": "What do you want to do on the weekend?",
+        "bn": "সাপ্তাহিক ছুটিতে আপনি কী করতে চান?"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-013-g4",
+    "pattern": "N が 欲しいです",
+    "meaning_en": "want N (something)",
+    "meaning_bn": "N চাই (কোনো বস্তু)",
+    "examples": [
+      {
+        "jp": "新しい 車が 欲しいです。",
+        "furigana": "あたらしい くるまが ほしいです।",
+        "romaji": "atarashii kuruma ga hoshii desu.",
+        "en": "I want a new car.",
+        "bn": "আমি একটি নতুন গাড়ি চাই।"
+      },
+      {
+        "jp": "今 何が 欲しいですか。",
+        "furigana": "いま なにが ほしいですか।",
+        "romaji": "ima nani ga hoshii desu ka.",
+        "en": "What do you want now?",
+        "bn": "এখন আপনার কী চাই?"
+      },
+      {
+        "jp": "私は 大きい 部屋が 欲しいです。",
+        "furigana": "わたしは おおきい へやが ほしいです।",
+        "romaji": "watashi wa ookii heya ga hoshii desu.",
+        "en": "I want a big room.",
+        "bn": "আমি একটি বড় ঘর চাই।"
       }
     ],
     "tags": [
