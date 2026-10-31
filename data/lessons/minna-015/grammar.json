@@ -3,14 +3,14 @@
     "id": "minna-015-g1",
     "pattern": "〜15-A",
     "meaning_en": "Grammar pattern 15-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 15-A",
+    "meaning_bn": "অনুমতি চাওয়া: ~ করলেও কি চলবে? (~てもいいですか)",
     "examples": [
       {
         "jp": "これは レッスン15の 文法です。",
         "en": "This is lesson 15 grammar.",
-        "bn": "This is lesson 15 grammar.",
-        "furigana": "これは レッスン15の 文法です。",
-        "romaji": ""
+        "bn": "ছবি তুললেও কি চলবে?",
+        "furigana": "しゃしんを とってもいいですか।",
+        "romaji": "shashin o totte mo ii desu ka."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-015-g2",
     "pattern": "〜15-B",
     "meaning_en": "Grammar pattern 15-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 15-B",
+    "meaning_bn": "নিষেধ: ~ করা যাবে না (~てはいけません)",
     "examples": [
       {
         "jp": "これは レッスン15の 文法です。",
         "en": "This is lesson 15 grammar.",
-        "bn": "This is lesson 15 grammar.",
-        "furigana": "これは レッスン15の 文法です。",
-        "romaji": ""
+        "bn": "এখানে ছবি তোলা যাবে না।",
+        "furigana": "ここで しゃしんを とってはいけません।",
+        "romaji": "koko de shashin o totte wa ikemasen."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-015-g3",
+    "pattern": "〜てから",
+    "meaning_en": "after doing ~",
+    "meaning_bn": "~ করার পর",
+    "examples": [
+      {
+        "jp": "家に 帰ってから、宿題を します。",
+        "furigana": "いえに かえってから、しゅくだいを します।",
+        "romaji": "ie ni kaette kara, shukudai o shimasu.",
+        "en": "After I return home, I do my homework.",
+        "bn": "বাড়ি ফিরে গিয়ে পড়াশোনা করি।"
+      },
+      {
+        "jp": "朝 起きてから、シャワーを 浴びます।",
+        "furigana": "あさ おきてから、シャワーを あびます।",
+        "romaji": "asa okite kara, shawaa o abimasu.",
+        "en": "After waking up in the morning, I take a shower.",
+        "bn": "সকালে উঠে গোসল করি।"
+      },
+      {
+        "jp": "昼ご飯を 食べてから、出かけます।",
+        "furigana": "ひるごはんを たべてから、でかけます।",
+        "romaji": "hirugohan o tabete kara, dekakemasu.",
+        "en": "After eating lunch, I go out.",
+        "bn": "দুপুরের খাবার খেয়ে বাইরে যাই।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-015-g4",
+    "pattern": "〜ています (状態)",
+    "meaning_en": "be in a state of ~ (~te iru for state)",
+    "meaning_bn": "~ অবস্থায় আছি (~ています)",
+    "examples": [
+      {
+        "jp": "田中さんは 結婚しています。",
+        "furigana": "たなかさんは けっこんしています।",
+        "romaji": "tanaka san wa kekkon shite imasu.",
+        "en": "Mr. Tanaka is married.",
+        "bn": "মি. তানাকা বিবাহিত।"
+      },
+      {
+        "jp": "私は 東京に 住んでいます。",
+        "furigana": "わたしは とうきょうに すんでいます।",
+        "romaji": "watashi wa toukyou ni sunde imasu.",
+        "en": "I live in Tokyo.",
+        "bn": "আমি টোকিওতে থাকি।"
+      },
+      {
+        "jp": "彼は 車を 持っています。",
+        "furigana": "かれは くるまを もっています।",
+        "romaji": "kare wa kuruma o motte imasu.",
+        "en": "He has a car.",
+        "bn": "তার একটি গাড়ি আছে।"
       }
     ],
     "tags": [

@@ -46,5 +46,149 @@
       "en": "The pattern 〜15-B means \"Grammar pattern 15-B\".",
       "bn": "〜15-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 15-B\"।"
     }
+  },
+  {
+    "id": "minna-015-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 写真を 撮ってもいいですか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 写真を 撮ってもいいですか。"
+    },
+    "stem": {
+      "jp": "写真を 撮ってもいいですか。",
+      "furigana": "しゃしんを とってもいいですか।",
+      "romaji": "shashin o totte mo ii desu ka."
+    },
+    "options": [
+      "May I take a photo?",
+      "You must not take photos.",
+      "I took a photo.",
+      "Do you like photos?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜てもいいですか asks for permission.",
+      "bn": "〜てもいいですか অনুমতি চায়।"
+    }
+  },
+  {
+    "id": "minna-015-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: ここで 写真を 撮ってはいけません。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: ここで 写真を 撮ってはいけません।"
+    },
+    "stem": {
+      "jp": "ここで 写真を 撮ってはいけません。",
+      "furigana": "ここで しゃしんを とってはいけません।",
+      "romaji": "koko de shashin o totte wa ikemasen."
+    },
+    "options": [
+      "You must not take photos here.",
+      "You may take photos here.",
+      "Take photos here, please.",
+      "Where do you take photos?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜てはいけません expresses prohibition.",
+      "bn": "〜てはいけません নিষেধ বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-015-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 家に 帰ってから、宿題を します।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 家に 帰ってから、宿題を します।"
+    },
+    "stem": {
+      "jp": "家に 帰ってから、宿題を します।",
+      "furigana": "いえに かえってから、しゅくだいを します।",
+      "romaji": "ie ni kaette kara, shukudai o shimasu."
+    },
+    "options": [
+      "After returning home, I do my homework.",
+      "I do my homework before going home.",
+      "I go home with my homework.",
+      "I do my homework at school."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vてから means \"after doing V\".",
+      "bn": "Vてから মানে \"V করার পর\"।"
+    }
+  },
+  {
+    "id": "minna-015-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 田中さんは 結婚しています。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 田中さんは 結婚しています।"
+    },
+    "stem": {
+      "jp": "田中さんは 結婚しています。",
+      "furigana": "たなかさんは けっこんしています।",
+      "romaji": "tanaka san wa kekkon shite imasu."
+    },
+    "options": [
+      "Mr. Tanaka is married.",
+      "Mr. Tanaka will marry.",
+      "Mr. Tanaka is not married.",
+      "Mr. Tanaka married yesterday."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜ています here shows a continuing state, not an action in progress.",
+      "bn": "এখানে 〜ています চলমান অবস্থা বোঝায়, কাজ নয়।"
+    }
+  },
+  {
+    "id": "minna-015-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 部屋に 入ってはいけません。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 部屋に 入ってはいけません।"
+    },
+    "stem": {
+      "jp": "この 部屋に 入ってはいけません。",
+      "furigana": "この へやに はいってはいけません।",
+      "romaji": "kono heya ni haitte wa ikemasen."
+    },
+    "options": [
+      "You must not enter this room.",
+      "You may enter this room.",
+      "Please come into this room.",
+      "I entered this room."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜てはいけません is used for prohibition.",
+      "bn": "〜てはいけません নিষেধের জন্য ব্যবহৃত হয়।"
+    }
+  },
+  {
+    "id": "minna-015-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 朝 起きてから、シャワーを 浴びます।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 朝 起きてから、シャワーを 浴びます।"
+    },
+    "stem": {
+      "jp": "朝 起きてから、シャワーを 浴びます।",
+      "furigana": "あさ おきてから、シャワーを あびます।",
+      "romaji": "asa okite kara, shawaa o abimasu."
+    },
+    "options": [
+      "After I wake up, I take a shower.",
+      "I take a shower before I wake up.",
+      "I wake up while taking a shower.",
+      "I don't take a shower in the morning."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜てから shows that the second action happens after the first.",
+      "bn": "〜てから প্রথম কাজের পর দ্বিতীয় কাজ হয় তা বোঝায়।"
+    }
   }
 ]
