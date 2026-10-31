@@ -1,87 +1,106 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "前",
+    "onyomi": ["ゼン"],
+    "kunyomi": ["まえ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["before", "front"],
+      "bn": ["আগে", "সামনে"]
     },
-    "radicals": [],
-    "strokes": 4,
+    "radicals": ["月", "刂"],
+    "strokes": 9,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "試",
+    "onyomi": ["シ"],
+    "kunyomi": ["こころ.みる", "ため.す"],
+    "meanings": {
+      "en": ["try", "test"],
+      "bn": ["চেষ্টা করা", "পরীক্ষা"]
+    },
+    "radicals": ["言", "式"],
+    "strokes": 13,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
+    "character": "験",
+    "onyomi": ["ケン"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["test", "verification"],
+      "bn": ["পরীক্ষা", "যাচাই"]
     },
-    "radicals": [],
-    "strokes": 5,
+    "radicals": ["馬", "僉"],
+    "strokes": 18,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "力",
+    "onyomi": ["リョク", "リキ"],
+    "kunyomi": ["ちから"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["power", "strength"],
+      "bn": ["শক্তি", "ক্ষমতা"]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
+    "radicals": ["力"],
+    "strokes": 2,
+    "grade": 1,
+    "jlpt": "N5"
+  },
+  {
+    "character": "泳",
+    "onyomi": ["エイ"],
+    "kunyomi": ["およ.ぐ"],
+    "meanings": {
+      "en": ["swim"],
+      "bn": ["সাঁতার কাটা"]
+    },
+    "radicals": ["氵", "永"],
+    "strokes": 8,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "考",
+    "onyomi": ["コウ"],
+    "kunyomi": ["かんが.える"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["think", "consider"],
+      "bn": ["ভাবা", "বিচার করা"]
     },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
+    "radicals": ["耂", "丂"],
+    "strokes": 6,
+    "grade": 2,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "使",
+    "onyomi": ["シ"],
+    "kunyomi": ["つか.う"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["use"],
+      "bn": ["ব্যবহার করা"]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 4,
+    "radicals": ["亻", "吏"],
+    "strokes": 8,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "思",
+    "onyomi": ["シ"],
+    "kunyomi": ["おも.う"],
+    "meanings": {
+      "en": ["think", "feel"],
+      "bn": ["ভাবা", "মনে করা"]
+    },
+    "radicals": ["田", "心"],
+    "strokes": 9,
+    "grade": 2,
     "jlpt": "N4"
   }
 ]

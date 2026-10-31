@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-041-g1",
-    "pattern": "〜41-A",
-    "meaning_en": "Grammar pattern 41-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 41-A",
+    "pattern": "V-て くださいませんか",
+    "meaning_en": "could you please do ...? (polite request)",
+    "meaning_bn": "দয়া করে একটু ... করবেন কি? (ভদ্র অনুরোধ)",
     "examples": [
       {
-        "jp": "これは レッスン41の 文法です。",
-        "en": "This is lesson 41 grammar.",
-        "bn": "This is lesson 41 grammar.",
-        "furigana": "これは レッスン41の 文法です。",
-        "romaji": ""
+        "jp": "すみません、この 漢字の 読み方を 教えて くださいませんか。",
+        "furigana": "すみません、この かんじの よみかたを おしえて くださいませんか。",
+        "romaji": "Sumimasen, kono kanji no yomikata o oshiete kudasaimasen ka.",
+        "en": "Excuse me, could you please teach me the reading of this kanji?",
+        "bn": "মাফ করবেন, এই কাঞ্জিটির পড়ার নিয়মটি দয়া করে শিখিয়ে দেবেন কি?"
+      },
+      {
+        "jp": "この 箱を 持って くださいませんか。",
+        "furigana": "この はこを もって くださいませんか。",
+        "romaji": "Kono hako o motte kudasaimasen ka.",
+        "en": "Could you please carry this box?",
+        "bn": "এই বাক্সটি দয়া করে ধরবেন কি?"
+      },
+      {
+        "jp": "あした 電話して くださいませんか。",
+        "furigana": "あした でんわして くださいませんか。",
+        "romaji": "Ashita denwa shite kudasaimasen ka.",
+        "en": "Could you please call me tomorrow?",
+        "bn": "আগামীকাল কি ফোন করবেন?"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-041-g2",
-    "pattern": "〜41-B",
-    "meaning_en": "Grammar pattern 41-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 41-B",
+    "pattern": "V-て いただけませんか",
+    "meaning_en": "would you kindly do ...? (very polite request)",
+    "meaning_bn": "একটু ... করে দেবেন কি? (অত্যন্ত ভদ্র অনুরোধ)",
     "examples": [
       {
-        "jp": "これは レッスン41の 文法です。",
-        "en": "This is lesson 41 grammar.",
-        "bn": "This is lesson 41 grammar.",
-        "furigana": "これは レッスン41の 文法です。",
-        "romaji": ""
+        "jp": "先生、もう 一度 説明して いただけませんか。",
+        "furigana": "せんせい、もう いちど せつめいして いただけませんか。",
+        "romaji": "Sensei, mō ichido setsumei shite itadakemasen ka.",
+        "en": "Teacher, would you kindly explain it once more?",
+        "bn": "স্যার, আরেকবার বুঝিয়ে দেবেন কি?"
+      },
+      {
+        "jp": "駅まで 道を 教えて いただけませんか。",
+        "furigana": "えきまで みちを おしえて いただけませんか。",
+        "romaji": "Eki made michi o oshiete itadakemasen ka.",
+        "en": "Would you kindly tell me the way to the station?",
+        "bn": "স্টেশন পর্যন্ত পথটি বলে দেবেন কি?"
+      },
+      {
+        "jp": "この 手紙を 出して いただけませんか。",
+        "furigana": "この てがみを だして いただけませんか。",
+        "romaji": "Kono tegami o dashite itadakemasen ka.",
+        "en": "Would you kindly post this letter for me?",
+        "bn": "এই চিঠিটি পোস্ট করে দেবেন কি?"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-041-g3",
+    "pattern": "V-て あげます / V-て くれます / V-て もらいます",
+    "meaning_en": "to do something for someone / someone does for me / to have someone do for me",
+    "meaning_bn": "কারো জন্য কিছু করা / কেউ আমার জন্য করা / কাউকে দিয়ে করানো",
+    "examples": [
+      {
+        "jp": "わたしは 友だちに 本を 貸して あげました。",
+        "furigana": "わたしは ともだちに ほんを かして あげました。",
+        "romaji": "Watashi wa tomodachi ni hon o kashite agemashita.",
+        "en": "I lent a book to my friend.",
+        "bn": "আমি বন্ধুকে বই ধার দিয়েছি।"
+      },
+      {
+        "jp": "母が おいしい 料理を 作って くれました。",
+        "furigana": "ははが おいしい りょうりを つくって くれました。",
+        "romaji": "Haha ga oishii ryōri o tsukutte kuremashita.",
+        "en": "My mother made a delicious meal for me.",
+        "bn": "মা আমার জন্য সুস্বাদু খাবার তৈরি করেছেন।"
+      },
+      {
+        "jp": "わたしは 田中さんに 荷物を 持って もらいました。",
+        "furigana": "わたしは たなかさんに にもつを もって もらいました。",
+        "romaji": "Watashi wa Tanaka-san ni nimotsu o motte moraimashita.",
+        "en": "I had Tanaka carry my luggage for me.",
+        "bn": "তানাকাকে দিয়ে আমার মালপত্র বহন করিয়েছি।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-041-g4",
+    "pattern": "N に あげます / N に もらいます / N が くれます",
+    "meaning_en": "to give to someone / to receive from someone / someone gives me",
+    "meaning_bn": "কাউকে দেওয়া / কারো কাছ থেকে পাওয়া / কেউ আমাকে দেওয়া",
+    "examples": [
+      {
+        "jp": "わたしは 友だちに お土産を あげました。",
+        "furigana": "わたしは ともだちに おみやげを あげました。",
+        "romaji": "Watashi wa tomodachi ni omiyage o agemashita.",
+        "en": "I gave a souvenir to my friend.",
+        "bn": "আমি বন্ধুকে স্যুভেনির দিয়েছি।"
+      },
+      {
+        "jp": "田中さんに 絵葉書を もらいました。",
+        "furigana": "たなかさんに えはがきを もらいました。",
+        "romaji": "Tanaka-san ni ehagaki o moraimashita.",
+        "en": "I received a picture postcard from Tanaka.",
+        "bn": "তানাকার কাছ থেকে একটি পোস্টকার্ড পেয়েছি।"
+      },
+      {
+        "jp": "妹が 花を くれました。",
+        "furigana": "いもうとが はなを くれました。",
+        "romaji": "Imōto ga hana o kuremashita.",
+        "en": "My younger sister gave me flowers.",
+        "bn": "ছোট বোন আমাকে ফুল দিয়েছে।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-041-g5",
+    "pattern": "V-て もらえませんか",
+    "meaning_en": "could you do me the favour of ...?",
+    "meaning_bn": "... করে দিতে পারবেন কি?",
+    "examples": [
+      {
+        "jp": "この 荷物を 送って もらえませんか。",
+        "furigana": "この にもつを おくって もらえませんか。",
+        "romaji": "Kono nimotsu o okutte moraemasen ka.",
+        "en": "Could you send this luggage for me?",
+        "bn": "এই মালপত্র পাঠিয়ে দিতে পারবেন কি?"
+      },
+      {
+        "jp": "あした 駅まで 迎えに 来て もらえませんか。",
+        "furigana": "あした えきまで むかえに きて もらえませんか。",
+        "romaji": "Ashita eki made mukae ni kite moraemasen ka.",
+        "en": "Could you come to pick me up at the station tomorrow?",
+        "bn": "আগামীকাল স্টেশনে আমাকে আনতে আসতে পারবেন কি?"
+      },
+      {
+        "jp": "この 書類を 見て もらえませんか。",
+        "furigana": "この しょるいを みて もらえませんか。",
+        "romaji": "Kono shorui o mite moraemasen ka.",
+        "en": "Could you take a look at this document for me?",
+        "bn": "এই নথিটি একবার দেখে দিতে পারবেন কি?"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

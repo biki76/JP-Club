@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-040-g1",
-    "pattern": "〜40-A",
-    "meaning_en": "Grammar pattern 40-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 40-A",
+    "pattern": "V-る こと が できます",
+    "meaning_en": "can do something, to be able to do something",
+    "meaning_bn": "কিছু করতে পারা",
     "examples": [
       {
-        "jp": "これは レッスン40の 文法です。",
-        "en": "This is lesson 40 grammar.",
-        "bn": "This is lesson 40 grammar.",
-        "furigana": "これは レッスン40の 文法です。",
-        "romaji": ""
+        "jp": "わたしは 少し ピアノを 弾く こと が できます。",
+        "furigana": "わたしは すこし ぴあのを ひく こと が できます。",
+        "romaji": "Watashi wa sukoshi piano o hiku koto ga dekimasu.",
+        "en": "I can play the piano a little.",
+        "bn": "আমি একটু পিয়ানো বাজাতে পারি।"
+      },
+      {
+        "jp": "この 川では 泳ぐ こと が できますか。",
+        "furigana": "この かわでは およぐ こと が できますか。",
+        "romaji": "Kono kawa de wa oyogu koto ga dekimasu ka.",
+        "en": "Can we swim in this river?",
+        "bn": "এই নদীতে কি সাঁতার কাটা যায়?"
+      },
+      {
+        "jp": "あしたは 忙しいので、行く こと が できません。",
+        "furigana": "あしたは いそがしいので、いく こと が できません。",
+        "romaji": "Ashita wa isogashii node, iku koto ga dekimasen.",
+        "en": "Because I am busy tomorrow, I cannot go.",
+        "bn": "আগামীকাল ব্যস্ত থাকব, তাই যেতে পারব না।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-040-g2",
-    "pattern": "〜40-B",
-    "meaning_en": "Grammar pattern 40-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 40-B",
+    "pattern": "V-る 前に ～",
+    "meaning_en": "before doing something",
+    "meaning_bn": "কোনো কাজ করার আগে",
     "examples": [
       {
-        "jp": "これは レッスン40の 文法です。",
-        "en": "This is lesson 40 grammar.",
-        "bn": "This is lesson 40 grammar.",
-        "furigana": "これは レッスン40の 文法です。",
-        "romaji": ""
+        "jp": "寝る 前に、必ず 歯を みがきます。",
+        "furigana": "ねる まえに、かならず はを みがきます。",
+        "romaji": "Neru mae ni, kanarazu ha o migakimasu.",
+        "en": "Before going to bed, I always brush my teeth.",
+        "bn": "ঘুমানোর আগে অবশ্যই দাঁত মাজি।"
+      },
+      {
+        "jp": "旅行へ 行く 前に、ホテルを 予約しました。",
+        "furigana": "りょこうへ いく まえに、ほてるを よやくしました。",
+        "romaji": "Ryokō e iku mae ni, hoteru o yoyaku shimashita.",
+        "en": "Before going on the trip, I booked a hotel.",
+        "bn": "ভ্রমণে যাওয়ার আগে হোটেল বুক করেছি।"
+      },
+      {
+        "jp": "試験の 前に、よく 復習して ください。",
+        "furigana": "しけんの まえに、よく ふくしゅうして ください。",
+        "romaji": "Shiken no mae ni, yoku fukushū shite kudasai.",
+        "en": "Please review well before the examination.",
+        "bn": "পরীক্ষার আগে ভালোভাবে পুনরালোচনা করুন।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-040-g3",
+    "pattern": "疑问词 + か（どこか・だれか・なにか・いつか）",
+    "meaning_en": "indefinite words such as somewhere, someone, something, someday",
+    "meaning_bn": "কোথাও, কেউ, কিছু, কোনো একদিন ধরনের অনির্দিষ্ট শব্দ",
+    "examples": [
+      {
+        "jp": "休みの 日に どこかへ 行きたいです。",
+        "furigana": "やすみの ひに どこかへ いきたいです。",
+        "romaji": "Yasumi no hi ni dokoka e ikitai desu.",
+        "en": "On my day off I want to go somewhere.",
+        "bn": "ছুটির দিনে কোথাও যেতে চাই।"
+      },
+      {
+        "jp": "だれかが ドアを ノックしています。",
+        "furigana": "だれかが どあを のっくしています。",
+        "romaji": "Dareka ga doa o nokku shite imasu.",
+        "en": "Someone is knocking on the door.",
+        "bn": "কেউ দরজায় টোকা দিচ্ছে।"
+      },
+      {
+        "jp": "いつか 日本へ 留学したいと 思っています。",
+        "furigana": "いつか にほんへ りゅうがくしたいと おもっています。",
+        "romaji": "Itsuka Nihon e ryūgaku shitai to omotte imasu.",
+        "en": "Someday I want to study in Japan.",
+        "bn": "কোনো একদিন জাপানে পড়াশোনা করতে চাই।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-040-g4",
+    "pattern": "疑问词 + も + 否定",
+    "meaning_en": "nothing, nobody (with a negative verb)",
+    "meaning_bn": "কিছুই না, কেউই না (নেতিবাচক ক্রিয়ার সঙ্গে)",
+    "examples": [
+      {
+        "jp": "きのうは 何も 食べませんでした。",
+        "furigana": "きのうは なにも たべませんでした。",
+        "romaji": "Kinō wa nanimo tabemasen deshita.",
+        "en": "Yesterday I ate nothing.",
+        "bn": "গতকাল কিছুই খাইনি।"
+      },
+      {
+        "jp": "教室には だれも いません。",
+        "furigana": "きょうしつには だれも いません。",
+        "romaji": "Kyōshitsu ni wa daremo imasen.",
+        "en": "There is nobody in the classroom.",
+        "bn": "শ্রেণিকক্ষে কেউ নেই।"
+      },
+      {
+        "jp": "日曜日は どこも 込んでいました。",
+        "furigana": "にちようびは どこも こんでいました。",
+        "romaji": "Nichiyōbi wa dokomo konde imashita.",
+        "en": "On Sunday everywhere was crowded.",
+        "bn": "রবিবার সব জায়গায় ভিড় ছিল।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-040-g5",
+    "pattern": "N の 前に / N の 後で",
+    "meaning_en": "before a noun event / after a noun event",
+    "meaning_bn": "কোনো ঘটনার আগে / পরে",
+    "examples": [
+      {
+        "jp": "食事の 前に、手を 洗って ください。",
+        "furigana": "しょくじの まえに、てを あらって ください。",
+        "romaji": "Shokuji no mae ni, te o aratte kudasai.",
+        "en": "Please wash your hands before the meal.",
+        "bn": "খাওয়ার আগে হাত ধুয়ে নিন।"
+      },
+      {
+        "jp": "会議の 後で、資料を 送ります。",
+        "furigana": "かいぎの あとで、しりょうを おくります。",
+        "romaji": "Kaigi no ato de, shiryō o okurimasu.",
+        "en": "After the meeting I will send the documents.",
+        "bn": "সভার পরে নথিপত্র পাঠাব।"
+      },
+      {
+        "jp": "試験の 前に、宿題を 全部 やって しまいました。",
+        "furigana": "しけんの まえに、しゅくだいを ぜんぶ やって しまいました。",
+        "romaji": "Shiken no mae ni, shukudai o zenbu yatte shimaimashita.",
+        "en": "Before the examination I finished all my homework.",
+        "bn": "পরীক্ষার আগে সব বাড়ির কাজ শেষ করে ফেলেছি।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

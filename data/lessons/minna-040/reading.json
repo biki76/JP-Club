@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-040-r001",
+    "id": "minna-040-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "Things I Want to Try",
+      "bn": "যা যা করতে চাই"
     },
     "passage": [
       {
-        "jp": "これは かぞえます です。",
-        "furigana": "これは かぞえます です。",
-        "romaji": "Kore wa kazoemasu desu.",
-        "en": "This is count.",
-        "bn": "এটি count।"
+        "jp": "わたしは 来月、日本へ 旅行に 行きます。",
+        "furigana": "わたしは らいげつ、にほんへ りょこうに いきます。",
+        "romaji": "Watashi wa raigetsu, Nihon e ryokō ni ikimasu.",
+        "en": "Next month I will go on a trip to Japan.",
+        "bn": "আগামী মাসে আমি জাপানে ভ্রমণে যাব।"
+      },
+      {
+        "jp": "旅行の 前に、少し 日本語を 勉強しました。",
+        "furigana": "りょこうの まえに、すこし にほんごを べんきょうしました。",
+        "romaji": "Ryokō no mae ni, sukoshi Nihongo o benkyō shimashita.",
+        "en": "Before the trip I studied a little Japanese.",
+        "bn": "ভ্রমণের আগে একটু জাপানি পড়েছি।"
+      },
+      {
+        "jp": "今は 簡単な 会話を する こと が できます。",
+        "furigana": "いまは かんたんな かいわを する こと が できます。",
+        "romaji": "Ima wa kantan na kaiwa o suru koto ga dekimasu.",
+        "en": "Now I can have simple conversations.",
+        "bn": "এখন সহজ কথাবার্তা বলতে পারি।"
+      },
+      {
+        "jp": "でも、漢字を 読む こと は まだ できません。",
+        "furigana": "でも、かんじを よむ こと は まだ できません。",
+        "romaji": "Demo, kanji o yomu koto wa mada dekimasen.",
+        "en": "But I still cannot read kanji.",
+        "bn": "কিন্তু কাঞ্জি পড়তে এখনো পারি না।"
+      },
+      {
+        "jp": "日本で どこかへ 行きたいです。",
+        "furigana": "にほんで どこかへ いきたいです。",
+        "romaji": "Nihon de dokoka e ikitai desu.",
+        "en": "I want to go somewhere in Japan.",
+        "bn": "জাপানে কোথাও যেতে চাই।"
+      },
+      {
+        "jp": "だれか 親切な 人に 会えると いいですね。",
+        "furigana": "だれか しんせつな ひとに あえると いいですね。",
+        "romaji": "Dareka shinsetsu na hito ni aeru to ii desu ne.",
+        "en": "I hope I can meet someone kind.",
+        "bn": "আশা করি কোনো দয়ালু মানুষের সঙ্গে দেখা হবে।"
+      },
+      {
+        "jp": "いつか 日本の 大学で 勉強する こと も 夢です。",
+        "furigana": "いつか にほんの だいがくで べんきょうする こと も ゆめです。",
+        "romaji": "Itsuka Nihon no daigaku de benkyō suru koto mo yume desu.",
+        "en": "Someday studying at a Japanese university is also my dream.",
+        "bn": "কোনো একদিন জাপানের বিশ্ববিদ্যালয়ে পড়াও আমার স্বপ্ন।"
+      },
+      {
+        "jp": "だから、毎日 少しずつ 復習する ことに しました。",
+        "furigana": "だから、まいにち すこしずつ ふくしゅうする ことに しました。",
+        "romaji": "Dakara, mainichi sukoshi zutsu fukushū suru koto ni shimashita.",
+        "en": "That is why I decided to review a little every day.",
+        "bn": "তাই প্রতিদিন একটু একটু করে পুনরালোচনার সিদ্ধান্ত নিয়েছি।"
       }
     ]
   }

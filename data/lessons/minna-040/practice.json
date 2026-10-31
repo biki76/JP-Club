@@ -3,48 +3,157 @@
     "id": "minna-040-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜40-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜40-A"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン40の 文法です。",
-      "furigana": "これは レッスン40の 文法です。",
-      "romaji": ""
+      "jp": "わたしは 少し ピアノを 弾く ＿＿ が できます。",
+      "furigana": "わたしは すこし ぴあのを ひく ＿＿ が できます。",
+      "romaji": "Watashi wa sukoshi piano o hiku ＿＿ ga dekimasu."
     },
-    "options": [
-      "Grammar pattern 40-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["こと", "の", "もの", "ところ"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜40-A means \"Grammar pattern 40-A\".",
-      "bn": "〜40-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 40-A\"।"
+      "en": "V-る ことが できます expresses ability.",
+      "bn": "V-る ことが できます সামর্থ্য প্রকাশ করে।"
     }
   },
   {
     "id": "minna-040-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜40-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜40-B"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン40の 文法です。",
-      "furigana": "これは レッスン40の 文法です。",
-      "romaji": ""
+      "jp": "寝る ＿＿ に、必ず 歯を みがきます。",
+      "furigana": "ねる ＿＿ に、かならず はを みがきます。",
+      "romaji": "Neru ＿＿ ni, kanarazu ha o migakimasu."
+    },
+    "options": ["まえ", "あと", "とき", "まで"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-る 前に means before doing something.",
+      "bn": "V-る 前に মানে কিছু করার আগে।"
+    }
+  },
+  {
+    "id": "minna-040-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "休みの 日に ＿＿ へ 行きたいです。",
+      "furigana": "やすみの ひに ＿＿ へ いきたいです。",
+      "romaji": "Yasumi no hi ni ＿＿ e ikitai desu."
+    },
+    "options": ["どこか", "どこも", "どこかへ", "だれか"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "どこか means somewhere, used with a positive sentence.",
+      "bn": "どこか মানে কোথাও, ইতিবাচক বাক্যে ব্যবহৃত হয়।"
+    }
+  },
+  {
+    "id": "minna-040-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "きのうは 何も 食べ＿＿。",
+      "furigana": "きのうは なにも たべ＿＿。",
+      "romaji": "Kinō wa nanimo tabe＿＿."
+    },
+    "options": ["ませんでした", "ました", "たいです", "ます"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "何も must be followed by a negative verb.",
+      "bn": "何も এর পরে নেতিবাচক ক্রিয়া বসে।"
+    }
+  },
+  {
+    "id": "minna-040-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "教室には だれも いません。",
+      "furigana": "きょうしつには だれも いません。",
+      "romaji": "Kyōshitsu ni wa daremo imasen."
     },
     "options": [
-      "Grammar pattern 40-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "There is nobody in the classroom.",
+      "Someone is in the classroom.",
+      "Everyone is in the classroom.",
+      "The classroom is closed."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜40-B means \"Grammar pattern 40-B\".",
-      "bn": "〜40-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 40-B\"।"
+      "en": "だれも with a negative verb means nobody.",
+      "bn": "だれも নেতিবাচক ক্রিয়ার সঙ্গে কেউই না বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-040-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "食事の ＿＿ に、手を 洗って ください。",
+      "furigana": "しょくじの ＿＿ に、てを あらって ください。",
+      "romaji": "Shokuji no ＿＿ ni, te o aratte kudasai."
+    },
+    "options": ["まえ", "あと", "うえ", "そと"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N の 前に means before a noun event such as a meal.",
+      "bn": "N の 前に খাওয়ার মতো ঘটনার আগে বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-040-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "＿＿ 日本へ 留学したいと 思っています。",
+      "furigana": "＿＿ にほんへ りゅうがくしたいと おもっています。",
+      "romaji": "＿＿ Nihon e ryūgaku shitai to omotte imasu."
+    },
+    "options": ["いつか", "いつも", "いつかも", "いつまで"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "いつか means someday or at some time in the future.",
+      "bn": "いつか মানে কোনো একদিন বা ভবিষ্যতে কখনো।"
+    }
+  },
+  {
+    "id": "minna-040-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 無理.",
+      "bn": "無理 এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "わたしは 歌は 無理です。",
+      "furigana": "わたしは うたは むりです。",
+      "romaji": "Watashi wa uta wa muri desu."
+    },
+    "options": ["impossible", "easy", "interesting", "necessary"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "無理 means impossible or unreasonable.",
+      "bn": "無理 মানে অসম্ভব বা অস্বাভাবিক।"
     }
   }
 ]

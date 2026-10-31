@@ -1,87 +1,106 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "貸",
+    "onyomi": ["タイ"],
+    "kunyomi": ["か.す"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["lend"],
+      "bn": ["ধার দেওয়া"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
+    "radicals": ["代", "貝"],
+    "strokes": 12,
+    "grade": 5,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "借",
+    "onyomi": ["シャク"],
+    "kunyomi": ["か.りる"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["borrow", "rent"],
+      "bn": ["ধার নেওয়া", "ভাড়া করা"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["亻", "昔"],
     "strokes": 10,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "返",
+    "onyomi": ["ヘン"],
+    "kunyomi": ["かえ.す", "かえ.る"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["return"],
+      "bn": ["ফিরিয়ে দেওয়া"]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 4,
+    "radicals": ["辶", "反"],
+    "strokes": 7,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "送",
+    "onyomi": ["ソウ"],
+    "kunyomi": ["おく.る"],
+    "meanings": {
+      "en": ["send", "escort"],
+      "bn": ["পাঠানো", "বিদায় জানানো"]
+    },
+    "radicals": ["辶", "关"],
+    "strokes": 9,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "手",
+    "onyomi": ["シュ"],
+    "kunyomi": ["て"],
+    "meanings": {
+      "en": ["hand"],
+      "bn": ["হাত"]
+    },
+    "radicals": ["手"],
+    "strokes": 4,
+    "grade": 1,
+    "jlpt": "N5"
+  },
+  {
+    "character": "紙",
+    "onyomi": ["シ"],
+    "kunyomi": ["かみ"],
+    "meanings": {
+      "en": ["paper"],
+      "bn": ["কাগজ"]
+    },
+    "radicals": ["糸", "氏"],
+    "strokes": 10,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "助",
+    "onyomi": ["ジョ"],
+    "kunyomi": ["たす.ける", "たす.かる"],
+    "meanings": {
+      "en": ["help", "save"],
+      "bn": ["সাহায্য করা", "রক্ষা করা"]
+    },
+    "radicals": ["且", "力"],
+    "strokes": 7,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "持",
+    "onyomi": ["ジ"],
+    "kunyomi": ["も.つ"],
+    "meanings": {
+      "en": ["hold", "have"],
+      "bn": ["ধরা", "আছে"]
+    },
+    "radicals": ["扌", "寺"],
+    "strokes": 9,
+    "grade": 3,
     "jlpt": "N4"
   }
 ]

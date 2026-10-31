@@ -1,6 +1,266 @@
 [
-{"id":"minna-041-v001","kanji":"いただきます","furigana":"いただきます","romaji":"itadakimasu","english_meaning":"to receive / eat (humble)","bengali_meaning":"গ্রহণ করা / খাওয়া (নম্র)","type":"verb"},
-{"id":"minna-041-v002","kanji":"くださいます","furigana":"くださいます","romaji":"kudasaimasu","english_meaning":"to give (respectful)","bengali_meaning":"দেওয়া (সম্মানসূচক)","type":"verb"},
-{"id":"minna-041-v003","kanji":"呼びます","furigana":"よびます","romaji":"yobimasu","english_meaning":"to invite / call","bengali_meaning":"ডাকা / আমন্ত্রণ জানানো","type":"verb"},
-{"id":"minna-041-v004","kanji":"取り替えます","furigana":"とりかえます","romaji":"torikaemasu","english_meaning":"to exchange / replace","bengali_meaning":"বদলানো","type":"verb"}
+  {
+    "id": "minna-041-v001",
+    "furigana": "かす",
+    "kanji": "貸す",
+    "romaji": "kasu",
+    "english_meaning": "to lend",
+    "bengali_meaning": "ধার দেওয়া",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v002",
+    "furigana": "かりる",
+    "kanji": "借りる",
+    "romaji": "kariru",
+    "english_meaning": "to borrow",
+    "bengali_meaning": "ধার নেওয়া",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v003",
+    "furigana": "かえす",
+    "kanji": "返す",
+    "romaji": "kaesu",
+    "english_meaning": "to return something",
+    "bengali_meaning": "ফিরিয়ে দেওয়া",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v004",
+    "furigana": "おくる",
+    "kanji": "送る",
+    "romaji": "okuru",
+    "english_meaning": "to send, to see off",
+    "bengali_meaning": "পাঠানো, বিদায় জানানো",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v005",
+    "furigana": "てがみ",
+    "kanji": "手紙",
+    "romaji": "tegami",
+    "english_meaning": "letter",
+    "bengali_meaning": "চিঠি",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v006",
+    "furigana": "にもつ",
+    "kanji": "荷物",
+    "romaji": "nimotsu",
+    "english_meaning": "luggage, baggage",
+    "bengali_meaning": "মালপত্র",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v007",
+    "furigana": "てつだう",
+    "kanji": "手伝う",
+    "romaji": "tetsudau",
+    "english_meaning": "to help out",
+    "bengali_meaning": "সাহায্য করা",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v008",
+    "furigana": "もつ",
+    "kanji": "持つ",
+    "romaji": "motsu",
+    "english_meaning": "to hold, to carry",
+    "bengali_meaning": "ধরা, বহন করা",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v009",
+    "furigana": "みせる",
+    "kanji": "見せる",
+    "romaji": "miseru",
+    "english_meaning": "to show",
+    "bengali_meaning": "দেখানো",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v010",
+    "furigana": "おしえる",
+    "kanji": "教える",
+    "romaji": "oshieru",
+    "english_meaning": "to teach, to tell",
+    "bengali_meaning": "শেখানো",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v011",
+    "furigana": "あげる",
+    "romaji": "ageru",
+    "english_meaning": "to give (to someone else)",
+    "bengali_meaning": "দান করা (অন্যকে)",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v012",
+    "furigana": "くれる",
+    "romaji": "kureru",
+    "english_meaning": "to give (to me or my side)",
+    "bengali_meaning": "দেওয়া (আমাকে বা আমার পক্ষে)",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v013",
+    "furigana": "もらう",
+    "romaji": "morau",
+    "english_meaning": "to receive",
+    "bengali_meaning": "গ্রহণ করা",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v014",
+    "furigana": "おくる",
+    "kanji": "贈る",
+    "romaji": "okuru",
+    "english_meaning": "to present, to give as a gift",
+    "bengali_meaning": "উপহার দেওয়া",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v015",
+    "furigana": "おみやげ",
+    "kanji": "お土産",
+    "romaji": "omiyage",
+    "english_meaning": "souvenir, local gift",
+    "bengali_meaning": "স্যুভেনির",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v016",
+    "furigana": "ぷれぜんと",
+    "romaji": "purezento",
+    "english_meaning": "present, gift",
+    "bengali_meaning": "উপহার",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v017",
+    "furigana": "はな",
+    "kanji": "花",
+    "romaji": "hana",
+    "english_meaning": "flower",
+    "bengali_meaning": "ফুল",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v018",
+    "furigana": "はこ",
+    "kanji": "箱",
+    "romaji": "hako",
+    "english_meaning": "box",
+    "bengali_meaning": "বাক্স",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v019",
+    "furigana": "かみ",
+    "kanji": "紙",
+    "romaji": "kami",
+    "english_meaning": "paper",
+    "bengali_meaning": "কাগজ",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v020",
+    "furigana": "えはがき",
+    "kanji": "絵葉書",
+    "romaji": "ehagaki",
+    "english_meaning": "picture postcard",
+    "bengali_meaning": "ছবিওয়ালা পোস্টকার্ড",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v021",
+    "furigana": "でんわ",
+    "kanji": "電話",
+    "romaji": "denwa",
+    "english_meaning": "telephone, phone call",
+    "bengali_meaning": "টেলিফোন",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v022",
+    "furigana": "むかえる",
+    "kanji": "迎える",
+    "romaji": "mukaeru",
+    "english_meaning": "to pick up, to welcome",
+    "bengali_meaning": "আনতে যাওয়া, স্বাগত জানানো",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v023",
+    "furigana": "みち",
+    "kanji": "道",
+    "romaji": "michi",
+    "english_meaning": "road, way",
+    "bengali_meaning": "রাস্তা, পথ",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v024",
+    "furigana": "じゅんばん",
+    "kanji": "順番",
+    "romaji": "junban",
+    "english_meaning": "order, turn",
+    "bengali_meaning": "ক্রম, পালা",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v025",
+    "furigana": "てつだい",
+    "kanji": "手伝い",
+    "romaji": "tetsudai",
+    "english_meaning": "help, assistance",
+    "bengali_meaning": "সাহায্য",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v026",
+    "furigana": "せわ",
+    "kanji": "世話",
+    "romaji": "sewa",
+    "english_meaning": "care, looking after",
+    "bengali_meaning": "দেখাশোনা",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v027",
+    "furigana": "おねがい",
+    "kanji": "お願い",
+    "romaji": "onegai",
+    "english_meaning": "request, favour",
+    "bengali_meaning": "অনুরোধ",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v028",
+    "furigana": "どうぞ",
+    "romaji": "dōzo",
+    "english_meaning": "please, go ahead",
+    "bengali_meaning": "দয়া করে, এই যে",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v029",
+    "furigana": "すみません",
+    "romaji": "sumimasen",
+    "english_meaning": "excuse me, I am sorry",
+    "bengali_meaning": "মাফ করবেন",
+    "tags": ["vocabulary", "lesson-41"]
+  },
+  {
+    "id": "minna-041-v030",
+    "furigana": "ほんとうに",
+    "kanji": "本当に",
+    "romaji": "hontō ni",
+    "english_meaning": "really, truly",
+    "bengali_meaning": "সত্যিই",
+    "tags": ["vocabulary", "lesson-41"]
+  }
 ]

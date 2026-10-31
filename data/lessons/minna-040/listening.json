@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-040-l001",
+    "id": "minna-040-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "What Can You Do?",
+      "bn": "আপনি কী কী করতে পারেন?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "かぞえます は 何 ですか。",
-        "furigana": "かぞえます は なん ですか。",
-        "romaji": "kazoemasu wa nan desu ka.",
-        "en": "What is count?",
-        "bn": "count কী?"
+        "jp": "田中さんは 何か スポーツを する こと が できますか。",
+        "furigana": "たなかさんは なにか すぽーつを する こと が できますか。",
+        "romaji": "Tanaka-san wa nanika supōtsu o suru koto ga dekimasu ka.",
+        "en": "Tanaka, can you do any sports?",
+        "bn": "তানাকা, আপনি কি কোনো খেলা খেলতে পারেন?"
+      },
+      {
+        "jp": "はい、水泳なら できます。子どもの ときから 泳いでいます。",
+        "furigana": "はい、すいえいなら できます。こどもの ときから およいでいます。",
+        "romaji": "Hai, suiei nara dekimasu. Kodomo no toki kara oyoide imasu.",
+        "en": "Yes, I can swim. I have been swimming since childhood.",
+        "bn": "হ্যাঁ, সাঁতার পারি। শৈশব থেকেই সাঁতার কাটছি।"
+      },
+      {
+        "jp": "いいですね。ピアノは どうですか。",
+        "furigana": "いいですね。ぴあのは どうですか。",
+        "romaji": "Ii desu ne. Piano wa dō desu ka.",
+        "en": "Nice. How about the piano?",
+        "bn": "ভালো। পিয়ানো কেমন?"
+      },
+      {
+        "jp": "ピアノは 弾く こと が できません。ギターなら 少し できます。",
+        "furigana": "ぴあのは ひく こと が できません。ぎたーなら すこし できます。",
+        "romaji": "Piano wa hiku koto ga dekimasen. Gitā nara sukoshi dekimasu.",
+        "en": "I cannot play the piano. I can play the guitar a little.",
+        "bn": "পিয়ানো বাজাতে পারি না। গিটার একটু পারি।"
+      },
+      {
+        "jp": "じゃ、こんどの パーティーで 弾いて ください。",
+        "furigana": "じゃ、こんどの ぱーてぃーで ひいて ください。",
+        "romaji": "Ja, kondo no pātī de hiite kudasai.",
+        "en": "Then please play at the next party.",
+        "bn": "তাহলে পরের পার্টিতে বাজিয়ে দিন।"
+      },
+      {
+        "jp": "パーティーの 前に、練習して おきます。",
+        "furigana": "ぱーてぃーの まえに、れんしゅうして おきます。",
+        "romaji": "Pātī no mae ni, renshū shite okimasu.",
+        "en": "I will practice in advance before the party.",
+        "bn": "পার্টির আগে আগেই অনুশীলন করে নেব।"
+      },
+      {
+        "jp": "パーティーで だれか 歌う 人を 探して います。",
+        "furigana": "ぱーてぃーで だれか うたう ひとを さがして います。",
+        "romaji": "Pātī de dareka utau hito o sagashite imasu.",
+        "en": "We are looking for someone to sing at the party.",
+        "bn": "পার্টিতে গান গাইবে এমন কাউকে খুঁজছি।"
+      },
+      {
+        "jp": "わたしは 歌は 無理です。でも、ギターは できますよ。",
+        "furigana": "わたしは うたは むりです。でも、ぎたーは できますよ。",
+        "romaji": "Watashi wa uta wa muri desu. Demo, gitā wa dekimasu yo.",
+        "en": "Singing is impossible for me. But I can play the guitar.",
+        "bn": "গান গাওয়া আমার পক্ষে অসম্ভব। তবে গিটার পারি।"
+      },
+      {
+        "jp": "それは 助かります。ぜひ お願いします。",
+        "furigana": "それは たすかります。ぜひ おねがいします。",
+        "romaji": "Sore wa tasukarimasu. Zehi onegai shimasu.",
+        "en": "That helps a lot. Please do it by all means.",
+        "bn": "খুব উপকার হবে। দয়া করে করুন।"
       }
     ]
   }

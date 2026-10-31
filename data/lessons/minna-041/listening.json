@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-041-l001",
+    "id": "minna-041-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Could You Help Me?",
+      "bn": "একটু সাহায্য করবেন কি?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "いただきます は 何 ですか。",
-        "furigana": "いただきます は なん ですか。",
-        "romaji": "itadakimasu wa nan desu ka.",
-        "en": "What is receive (humble equivalent of もらいます)?",
-        "bn": "receive (humble equivalent of もらいます) কী?"
+        "jp": "すみません、この 箱を 持って いただけませんか。",
+        "furigana": "すみません、この はこを もって いただけませんか。",
+        "romaji": "Sumimasen, kono hako o motte itadakemasen ka.",
+        "en": "Excuse me, would you kindly carry this box for me?",
+        "bn": "মাফ করবেন, এই বাক্সটি একটু ধরবেন কি?"
+      },
+      {
+        "jp": "いいですよ。どこまで 運びましょうか。",
+        "furigana": "いいですよ。どこまで はこびましょうか。",
+        "romaji": "Ii desu yo. Doko made hakobimashō ka.",
+        "en": "Sure. How far shall I carry it?",
+        "bn": "অবশ্যই। কোথায় পর্যন্ত নিয়ে যাব?"
+      },
+      {
+        "jp": "駅の 近くまで お願いします。",
+        "furigana": "えきの ちかくまで おねがいします。",
+        "romaji": "Eki no chikaku made onegai shimasu.",
+        "en": "Up to near the station, please.",
+        "bn": "স্টেশনের কাছ পর্যন্ত দয়া করে।"
+      },
+      {
+        "jp": "重いですね。手伝いますよ。",
+        "furigana": "おもいですね。てつだいますよ。",
+        "romaji": "Omoi desu ne. Tetsudaimasu yo.",
+        "en": "It is heavy. I will help you.",
+        "bn": "ভারী তো। আমি সাহায্য করব।"
+      },
+      {
+        "jp": "ありがとうございます。本当に 助かります。",
+        "furigana": "ありがとうございます。ほんとうに たすかります。",
+        "romaji": "Arigatō gozaimasu. Hontō ni tasukarimasu.",
+        "en": "Thank you. It really helps.",
+        "bn": "ধন্যবাদ। সত্যিই উপকার হলো।"
+      },
+      {
+        "jp": "どうぞ、こちらへ。",
+        "furigana": "どうぞ、こちらへ。",
+        "romaji": "Dōzo, kochira e.",
+        "en": "Please, this way.",
+        "bn": "এই দিকে, দয়া করে।"
+      },
+      {
+        "jp": "あのう、この 手紙も 出して いただけませんか。",
+        "furigana": "あのう、この てがみも だして いただけませんか。",
+        "romaji": "Anō, kono tegami mo dashite itadakemasen ka.",
+        "en": "Um, would you kindly post this letter too?",
+        "bn": "আচ্ছা, এই চিঠিটিও পোস্ট করে দেবেন কি?"
+      },
+      {
+        "jp": "いいですよ。ポストは 駅の 前に ありますから、順番に やりましょう。",
+        "furigana": "いいですよ。ぽすとは えきの まえに ありますから、じゅんばんに やりましょう。",
+        "romaji": "Ii desu yo. Posuto wa eki no mae ni arimasu kara, junban ni yarimashō.",
+        "en": "Sure. The postbox is in front of the station, so let us do them in order.",
+        "bn": "অবশ্যই। ডাকবাক্স স্টেশনের সামনে আছে, তাই ক্রমে করে নিই।"
+      },
+      {
+        "jp": "本当に ありがとうございます。わたしも 何か お返ししますね。",
+        "furigana": "ほんとうに ありがとうございます。わたしも なにか おかえししますね。",
+        "romaji": "Hontō ni arigatō gozaimasu. Watashi mo nanika okaeshi shimasu ne.",
+        "en": "Thank you very much. I will give you something in return.",
+        "bn": "অনেক ধন্যবাদ। আমি ঘুরেও কিছু দেব।"
       }
     ]
   }

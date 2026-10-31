@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-041-r001",
+    "id": "minna-041-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "A Thank-You Letter",
+      "bn": "একটি ধন্যবাদপত্র"
     },
     "passage": [
       {
-        "jp": "これは いただきます です。",
-        "furigana": "これは いただきます です。",
-        "romaji": "Kore wa itadakimasu desu.",
-        "en": "This is receive (humble equivalent of もらいます).",
-        "bn": "এটি receive (humble equivalent of もらいます)।"
+        "jp": "田中さん、こんにちは。お元気ですか。",
+        "furigana": "たなかさん、こんにちは。おげんきですか。",
+        "romaji": "Tanaka-san, konnichiwa. Ogenki desu ka.",
+        "en": "Hello Tanaka, how are you?",
+        "bn": "তানাকা, নমস্কার। আপনি কেমন আছেন?"
+      },
+      {
+        "jp": "先週は 駅まで 迎えに 来て くれて、本当に ありがとうございました。",
+        "furigana": "せんしゅうは えきまで むかえに きて くれて、ほんとうに ありがとうございました。",
+        "romaji": "Senshū wa eki made mukae ni kite kurete, hontō ni arigatō gozaimashita.",
+        "en": "Thank you very much for coming to pick me up at the station last week.",
+        "bn": "গত সপ্তাহে স্টেশনে এসে আমাকে আনতে যাওয়ার জন্য সত্যিই ধন্যবাদ।"
+      },
+      {
+        "jp": "あなたの 車が なかったら、とても 困って いました。",
+        "furigana": "あなたの くるまが なかったら、とても こまって いました。",
+        "romaji": "Anata no kuruma ga nakattara, totemo komatte imashita.",
+        "en": "If your car had not been there, I would have been in great trouble.",
+        "bn": "আপনার গাড়ি না থাকলে আমি খুব সমস্যায় পড়তাম।"
+      },
+      {
+        "jp": "あの 日は 荷物が 多くて、一人では 持てませんでした。",
+        "furigana": "あの ひは にもつが おおくて、ひとりでは もてませんでした。",
+        "romaji": "Ano hi wa nimotsu ga ōkute, hitori de wa motemasen deshita.",
+        "en": "That day I had a lot of luggage and could not carry it alone.",
+        "bn": "সেদিন অনেক মালপত্র ছিল, একা বহন করতে পারিনি।"
+      },
+      {
+        "jp": "今度 わたしが 時間を 作って、お土産を 送って あげますね。",
+        "furigana": "こんど わたしが じかんを つくって、おみやげを おくって あげますね。",
+        "romaji": "Kondo watashi ga jikan o tsukutte, omiyage o okutte agemasu ne.",
+        "en": "Next time I will make time and send you a souvenir.",
+        "bn": "পরেরবার আমি সময় করে আপনাকে একটি স্যুভেনির পাঠাব।"
+      },
+      {
+        "jp": "母も あなたに 花を あげたいと 言って いました。",
+        "furigana": "ははも あなたに はなを あげたいと いって いました。",
+        "romaji": "Haha mo anata ni hana o agetai to itte imashita.",
+        "en": "My mother also said she wants to give you flowers.",
+        "bn": "মাও বলেছেন আপনাকে ফুল দিতে চান।"
+      },
+      {
+        "jp": "こんど 家へ 来て もらえませんか。",
+        "furigana": "こんど いえへ きて もらえませんか。",
+        "romaji": "Kondo ie e kite moraemasen ka.",
+        "en": "Could you come to my house next time?",
+        "bn": "পরেরবার আমাদের বাড়িতে আসতে পারবেন কি?"
+      },
+      {
+        "jp": "わたしが 料理を 作って おきますから、ぜひ 来て ください。",
+        "furigana": "わたしが りょうりを つくって おきますから、ぜひ きて ください。",
+        "romaji": "Watashi ga ryōri o tsukutte okimasu kara, zehi kite kudasai.",
+        "en": "I will prepare the food in advance, so please do come.",
+        "bn": "আমি আগেই খাবার তৈরি করে রাখব, তাই অবশ্যই আসবেন।"
       }
     ]
   }

@@ -3,48 +3,157 @@
     "id": "minna-041-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜41-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜41-A"
+      "en": "Choose the most polite request form.",
+      "bn": "সবচেয়ে ভদ্র অনুরোধের রূপটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン41の 文法です。",
-      "furigana": "これは レッスン41の 文法です。",
-      "romaji": ""
+      "jp": "先生、もう 一度 説明して ＿＿ か。",
+      "furigana": "せんせい、もう いちど せつめいして ＿＿ か。",
+      "romaji": "Sensei, mō ichido setsumei shite ＿＿ ka."
     },
-    "options": [
-      "Grammar pattern 41-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["いただけません", "くれません", "あげません", "もらいません"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜41-A means \"Grammar pattern 41-A\".",
-      "bn": "〜41-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 41-A\"।"
+      "en": "V-ていただけませんか is a very polite way of asking a favour.",
+      "bn": "V-ていただけませんか অত্যন্ত ভদ্রভাবে অনুরোধ করার রূপ।"
     }
   },
   {
     "id": "minna-041-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜41-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜41-B"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン41の 文法です。",
-      "furigana": "これは レッスン41の 文法です。",
-      "romaji": ""
+      "jp": "この 箱を 持って ＿＿ か。",
+      "furigana": "この はこを もって ＿＿ か。",
+      "romaji": "Kono hako o motte ＿＿ ka."
+    },
+    "options": ["くださいません", "もらいません", "あげません", "くれませんでした"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-てくださいませんか politely asks someone to do something.",
+      "bn": "V-てくださいませんか ভদ্রভাবে কাউকে কিছু করতে অনুরোধ করে।"
+    }
+  },
+  {
+    "id": "minna-041-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct verb.",
+      "bn": "সঠিক ক্রিয়াটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "わたしは 友だちに 本を 貸して ＿＿。",
+      "furigana": "わたしは ともだちに ほんを かして ＿＿。",
+      "romaji": "Watashi wa tomodachi ni hon o kashite ＿＿."
+    },
+    "options": ["あげました", "くれました", "もらいました", "くださいました"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "When I do something for someone else, we use V-てあげます.",
+      "bn": "আমি অন্যের জন্য কিছু করলে V-てあげます ব্যবহৃত হয়।"
+    }
+  },
+  {
+    "id": "minna-041-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct verb.",
+      "bn": "সঠিক ক্রিয়াটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "母が おいしい 料理を 作って ＿＿。",
+      "furigana": "ははが おいしい りょうりを つくって ＿＿。",
+      "romaji": "Haha ga oishii ryōri o tsukutte ＿＿."
+    },
+    "options": ["くれました", "あげました", "もらいました", "やりました"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "When someone does something for me, we use V-てくれます.",
+      "bn": "কেউ আমার জন্য কিছু করলে V-てくれます ব্যবহৃত হয়।"
+    }
+  },
+  {
+    "id": "minna-041-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct verb.",
+      "bn": "সঠিক ক্রিয়াটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "わたしは 田中さんに 荷物を 持って ＿＿。",
+      "furigana": "わたしは たなかさんに にもつを もって ＿＿。",
+      "romaji": "Watashi wa Tanaka-san ni nimotsu o motte ＿＿."
+    },
+    "options": ["もらいました", "あげました", "くれました", "くださいました"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-てもらいます means to have someone do something for me.",
+      "bn": "V-てもらいます মানে কাউকে দিয়ে আমার জন্য কিছু করানো।"
+    }
+  },
+  {
+    "id": "minna-041-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct particle.",
+      "bn": "সঠিক অব্যয় বেছে নিন।"
+    },
+    "stem": {
+      "jp": "わたしは 友だち ＿＿ お土産を あげました。",
+      "furigana": "わたしは ともだち ＿＿ おみやげを あげました。",
+      "romaji": "Watashi wa tomodachi ＿＿ omiyage o agemashita."
+    },
+    "options": ["に", "が", "を", "で"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The receiver of a gift is marked with に.",
+      "bn": "উপহার গ্রহণকারীকে に দিয়ে চিহ্নিত করা হয়।"
+    }
+  },
+  {
+    "id": "minna-041-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "妹が 花を くれました。",
+      "furigana": "いもうとが はなを くれました。",
+      "romaji": "Imōto ga hana o kuremashita."
     },
     "options": [
-      "Grammar pattern 41-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "My younger sister gave me flowers.",
+      "I gave flowers to my younger sister.",
+      "I borrowed flowers from my younger sister.",
+      "My younger sister received flowers."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜41-B means \"Grammar pattern 41-B\".",
-      "bn": "〜41-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 41-B\"।"
+      "en": "くれる describes someone giving something to the speaker.",
+      "bn": "くれる বোঝায় কেউ বক্তাকে কিছু দিচ্ছে।"
+    }
+  },
+  {
+    "id": "minna-041-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 手伝う.",
+      "bn": "手伝う এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "重いですね。手伝いますよ。",
+      "furigana": "おもいですね。てつだいますよ。",
+      "romaji": "Omoi desu ne. Tetsudaimasu yo."
+    },
+    "options": ["help", "carry away", "buy", "return"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "手伝う means to help someone with a task.",
+      "bn": "手伝う মানে কাজে সাহায্য করা।"
     }
   }
 ]
