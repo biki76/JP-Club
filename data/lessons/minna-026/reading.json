@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-026-r001",
+    "id": "minna-026-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "A Day Off Because of a Fever",
+      "bn": "জ্বরের কারণে একদিনের ছুটি"
     },
     "passage": [
       {
-        "jp": "これは みます です。",
-        "furigana": "これは みます です。",
-        "romaji": "Kore wa mimasu desu.",
-        "en": "This is check, take a look at.",
-        "bn": "এটি check, take a look at।"
+        "jp": "田中さんは 今日 会社を 休みました。",
+        "furigana": "たなかさんは きょう かいしゃを やすみました。",
+        "romaji": "Tanaka-san wa kyō kaisha o yasumimashita.",
+        "en": "Mr. Tanaka took the day off from work today.",
+        "bn": "মি. তানাকা আজ অফিস থেকে ছুটি নিয়েছেন।"
+      },
+      {
+        "jp": "朝から 熱が あったんです。",
+        "furigana": "あさから ねつが あったんです。",
+        "romaji": "asa kara netsu ga atta n desu.",
+        "en": "He had a fever from the morning.",
+        "bn": "সকাল থেকেই তার জ্বর ছিল।"
+      },
+      {
+        "jp": "それで、病院へ 行きました。",
+        "furigana": "それで、びょういんへ いきました。",
+        "romaji": "sore de, byōin e ikimashita.",
+        "en": "So he went to the hospital.",
+        "bn": "তাই তিনি হাসপাতালে গেলেন।"
+      },
+      {
+        "jp": "医者は ゆっくり 休んだ ほうがいいと 言いました。",
+        "furigana": "いしゃは ゆっくり やすんだ ほうがいいと いいました。",
+        "romaji": "isha wa yukkuri yasunda hō ga ii to iimashita.",
+        "en": "The doctor said that he had better rest well.",
+        "bn": "ডাক্তার বললেন যে তার ভালোভাবে বিশ্রাম নেওয়া উচিত।"
+      },
+      {
+        "jp": "田中さんは 薬を 買って、家へ 帰りました。",
+        "furigana": "たなかさんは くすりを かって、いえへ かえりました。",
+        "romaji": "Tanaka-san wa kusuri o katte, ie e kaerimashita.",
+        "en": "Mr. Tanaka bought medicine and went home.",
+        "bn": "মি. তানাকা ওষুধ কিনে বাড়ি ফিরে গেলেন।"
+      },
+      {
+        "jp": "でも、仕事が たくさん あったので、少し 心配しました。",
+        "furigana": "でも、しごとが たくさん あったので、すこし しんぱいしました。",
+        "romaji": "demo, shigoto ga takusan atta node, sukoshi shinpai shimashita.",
+        "en": "But since he had a lot of work, he was a little worried.",
+        "bn": "কিন্তু অনেক কাজ বাকি ছিল, তাই তিনি একটু দুশ্চিন্তা করলেন।"
+      },
+      {
+        "jp": "夜、同僚に 電話して、相談しました。",
+        "furigana": "よる、どうりょうに でんわして、そうだんしました。",
+        "romaji": "yoru, dōryō ni denwa shite, sōdan shimashita.",
+        "en": "At night he called a colleague and asked for advice.",
+        "bn": "রাতে সহকর্মীকে ফোন করে পরামর্শ নিলেন।"
+      },
+      {
+        "jp": "次の日、体は もう 十分に よくなりました。",
+        "furigana": "つぎのひ、からだは もう じゅうぶんに よくなりました。",
+        "romaji": "tsugi no hi, karada wa mō jūbun ni yoku narimashita.",
+        "en": "The next day, his body had already recovered enough.",
+        "bn": "পরদিন তার শরীর যথেষ্ট ভালো হয়ে গিয়েছিল।"
       }
     ]
   }

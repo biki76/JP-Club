@@ -3,15 +3,15 @@
   "courseId": "minna-beginner",
   "lessonNumber": 26,
   "title": {
-    "en": "Lesson 26",
-    "bn": "পাঠ 26"
+    "en": "Explaining Reasons and Giving Advice",
+    "bn": "কারণ ব্যাখ্যা করা ও পরামর্শ দেওয়া"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 26",
-    "bn": "মিন্না নো নিহোঙ্গো 26"
+    "en": "んです・すぎます・ほうがいいです・ていただけませんか・ので",
+    "bn": "んです・すぎます・ほうがいいです・ていただけませんか・ので"
   },
   "jlpt": "N4",
-  "durationMin": 50,
+  "durationMin": 55,
   "dataFiles": {
     "vocabulary": "vocabulary.json",
     "grammar": "grammar.json",

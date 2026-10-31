@@ -1,87 +1,106 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "合",
+    "onyomi": ["ゴウ", "ガッ"],
+    "kunyomi": ["あ.う", "あ.わす"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["fit", "match", "combine"],
+      "bn": ["মেলা", "মিলিত হওয়া"]
     },
-    "radicals": [],
-    "strokes": 4,
+    "radicals": ["人", "口"],
+    "strokes": 6,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "熱",
+    "onyomi": ["ネツ"],
+    "kunyomi": ["あつ.い"],
+    "meanings": {
+      "en": ["heat", "fever"],
+      "bn": ["তাপ", "জ্বর"]
+    },
+    "radicals": ["火", "丸", "灬"],
+    "strokes": 15,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "薬",
+    "onyomi": ["ヤク"],
+    "kunyomi": ["くすり"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["medicine", "drug"],
+      "bn": ["ওষুধ"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
+    "radicals": ["艹", "木", "白"],
+    "strokes": 16,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "病",
+    "onyomi": ["ビョウ"],
+    "kunyomi": ["や.む", "やまい"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["illness", "sickness"],
+      "bn": ["রোগ", "অসুস্থতা"]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["疒", "丙"],
     "strokes": 10,
-    "grade": 4,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "医",
+    "onyomi": ["イ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["medicine", "doctor"],
+      "bn": ["চিকিৎসা", "চিকিৎসক"]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 4,
+    "radicals": ["匚", "矢"],
+    "strokes": 7,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "体",
+    "onyomi": ["タイ", "テイ"],
+    "kunyomi": ["からだ"],
+    "meanings": {
+      "en": ["body"],
+      "bn": ["শরীর"]
+    },
+    "radicals": ["亻", "本"],
+    "strokes": 7,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "味",
+    "onyomi": ["ミ"],
+    "kunyomi": ["あじ", "あじ.わう"],
+    "meanings": {
+      "en": ["taste", "flavor"],
+      "bn": ["স্বাদ"]
+    },
+    "radicals": ["口", "未"],
+    "strokes": 8,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "運",
+    "onyomi": ["ウン"],
+    "kunyomi": ["はこ.ぶ"],
+    "meanings": {
+      "en": ["carry", "move", "luck"],
+      "bn": ["বহন করা", "ভাগ্য"]
+    },
+    "radicals": ["辶", "軍"],
+    "strokes": 12,
+    "grade": 3,
     "jlpt": "N4"
   }
 ]

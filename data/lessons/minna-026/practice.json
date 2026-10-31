@@ -3,48 +3,152 @@
     "id": "minna-026-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜26-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜26-A"
+      "en": "Choose the correct word: a reason is given in the sentence.",
+      "bn": "সঠিক শব্দটি বেছে নিন: বাক্যটিতে কারণ বলা হয়েছে।"
     },
     "stem": {
-      "jp": "これは レッスン26の 文法です。",
-      "furigana": "これは レッスン26の 文法です。",
-      "romaji": ""
+      "jp": "熱が ある（　）、今日は 休みます。",
+      "furigana": "ねつが ある（　）、きょうは やすみます。",
+      "romaji": "netsu ga aru ( ), kyō wa yasumimasu."
     },
-    "options": [
-      "Grammar pattern 26-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["ので", "すぎ", "ほう", "まで"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜26-A means \"Grammar pattern 26-A\".",
-      "bn": "〜26-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 26-A\"।"
+      "en": "ので connects a reason to a result: because I have a fever, I will rest.",
+      "bn": "ので কারণ ও ফলাফল যুক্ত করে: জ্বর আছে, তাই বিশ্রাম নেব।"
     }
   },
   {
     "id": "minna-026-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜26-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜26-B"
+      "en": "Choose the correct word: the soup is too hot.",
+      "bn": "সঠিক শব্দটি বেছে নিন: স্যুপটি খুব বেশি গরম।"
     },
     "stem": {
-      "jp": "これは レッスン26の 文法です。",
-      "furigana": "これは レッスン26の 文法です。",
-      "romaji": ""
+      "jp": "この スープは 熱（　）です。",
+      "furigana": "この スープは あつ（　）です。",
+      "romaji": "kono sūpu wa atsu( ) desu."
     },
-    "options": [
-      "Grammar pattern 26-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["すぎ", "ので", "くらい", "ほど"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜26-B means \"Grammar pattern 26-B\".",
-      "bn": "〜26-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 26-B\"।"
+      "en": "すぎます after an adjective stem means too much: 熱すぎます = too hot.",
+      "bn": "বিশেষণের পরে すぎます মানে অতিরিক্ত: 熱すぎます = খুব বেশি গরম।"
+    }
+  },
+  {
+    "id": "minna-026-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word to give advice.",
+      "bn": "পরামর্শ দেওয়ার জন্য সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "早く 寝た（　）が いいですよ。",
+      "furigana": "はやく ねた（　）が いいですよ。",
+      "romaji": "hayaku neta ( ) ga ii desu yo."
+    },
+    "options": ["ほう", "ので", "すぎ", "の"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞た形 + ほうがいいです means you had better do something.",
+      "bn": "動詞た形 + ほうがいいです মানে করা ভালো বা করা উচিত।"
+    }
+  },
+  {
+    "id": "minna-026-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct polite request form.",
+      "bn": "সঠিক বিনয়ী অনুরোধের রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "すみません、この 漢字を 教えて（　）ませんか。",
+      "furigana": "すみません、この かんじを おしえて（　）ませんか。",
+      "romaji": "sumimasen, kono kanji o oshiete ( )masen ka."
+    },
+    "options": ["いただけ", "ください", "もらい", "あげ"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞て形 + いただけませんか is a polite way to ask a favour.",
+      "bn": "動詞て形 + いただけませんか হলো অনুগ্রহ চাওয়ার বিনয়ী রূপ।"
+    }
+  },
+  {
+    "id": "minna-026-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for explaining your situation.",
+      "bn": "নিজের পরিস্থিতি ব্যাখ্যা করার সঠিক রূপটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "頭が 痛い（　）です。",
+      "furigana": "あたまが いたい（　）です。",
+      "romaji": "atama ga itai ( ) desu."
+    },
+    "options": ["ん", "の", "こと", "もの"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "普通形 + んです explains the situation or the reason.",
+      "bn": "普通形 + んです পরিস্থিতি বা কারণ ব্যাখ্যা করে।"
+    }
+  },
+  {
+    "id": "minna-026-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for asking a reason.",
+      "bn": "কারণ জিজ্ঞাসা করার সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "どうして 来なかった（　）ですか。",
+      "furigana": "どうして こなかった（　）ですか。",
+      "romaji": "dōshite konakatta ( ) desu ka."
+    },
+    "options": ["ん", "の", "こと", "はず"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "どうして～んですか asks for the reason behind something.",
+      "bn": "どうして～んですか কোনো কিছুর কারণ জিজ্ঞাসা করে।"
+    }
+  },
+  {
+    "id": "minna-026-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 無理.",
+      "bn": "無理 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "無理を しないで ください。",
+      "furigana": "むりを しないで ください。",
+      "romaji": "muri o shinaide kudasai."
+    },
+    "options": ["something impossible or too much", "medicine", "a meeting", "a schedule"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "無理 means something impossible or beyond one's strength.",
+      "bn": "無理 মানে অসম্ভব কিছু বা সামর্থ্যের বাইরে।"
+    }
+  },
+  {
+    "id": "minna-026-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct reason for the sentence.",
+      "bn": "বাক্যটির সঠিক কারণটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "熱が あるので、会社を 休みます。",
+      "furigana": "ねつが あるので、かいしゃを やすみます。",
+      "romaji": "netsu ga aru node, kaisha o yasumimasu."
+    },
+    "options": ["He has a fever", "He has a meeting", "He is sleepy", "He likes his office"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The clause before ので gives the reason: because he has a fever.",
+      "bn": "ので এর আগের অংশ কারণ বোঝায়: কারণ তার জ্বর আছে।"
     }
   }
 ]

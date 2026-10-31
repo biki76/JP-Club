@@ -1,83 +1,272 @@
 [
   {
     "id": "minna-026-v001",
-    "kanji": "診ます",
-    "furigana": "みます",
-    "romaji": "mimasu",
-    "english_meaning": "to examine (medically)",
-    "type": "verb",
-    "bengali_meaning": "পরীক্ষা করা (ডাক্তারি)"
+    "kanji": "具合",
+    "furigana": "ぐあい",
+    "romaji": "guai",
+    "english_meaning": "condition, state of health",
+    "bengali_meaning": "অবস্থা, শরীরের অবস্থা",
+    "tags": ["vocabulary", "lesson-26"]
   },
   {
     "id": "minna-026-v002",
-    "kanji": "探します",
-    "furigana": "さがします",
-    "romaji": "sagashimasu",
-    "english_meaning": "to search / look for",
-    "type": "verb",
-    "bengali_meaning": "খোঁজা"
+    "kanji": "熱",
+    "furigana": "ねつ",
+    "romaji": "netsu",
+    "english_meaning": "fever",
+    "bengali_meaning": "জ্বর",
+    "tags": ["vocabulary", "lesson-26"]
   },
   {
     "id": "minna-026-v003",
-    "kanji": "遅れます",
-    "furigana": "おくれます",
-    "romaji": "okuremasu",
-    "english_meaning": "to be late / delayed",
-    "type": "verb",
-    "bengali_meaning": "দেরি হওয়া"
+    "kanji": "風邪",
+    "furigana": "かぜ",
+    "romaji": "kaze",
+    "english_meaning": "cold, common cold",
+    "bengali_meaning": "সর্দি, ঠান্ডা লেগে যাওয়া",
+    "tags": ["vocabulary", "lesson-26"]
   },
   {
     "id": "minna-026-v004",
-    "kanji": "間に合います",
-    "furigana": "まにあいます",
-    "romaji": "maniaimasu",
-    "english_meaning": "to be in time",
-    "type": "verb",
-    "bengali_meaning": "সময়মতো পৌঁছানো"
+    "kanji": "痛い",
+    "furigana": "いたい",
+    "romaji": "itai",
+    "english_meaning": "painful, sore",
+    "bengali_meaning": "ব্যথাযুক্ত",
+    "tags": ["vocabulary", "lesson-26"]
   },
   {
     "id": "minna-026-v005",
-    "kanji": "拾います",
-    "furigana": "ひろいます",
-    "romaji": "hiroimasu",
-    "english_meaning": "to pick up",
-    "type": "verb",
-    "bengali_meaning": "তুলে নেওয়া / আনতে যাওয়া"
+    "kanji": "喉",
+    "furigana": "のど",
+    "romaji": "nodo",
+    "english_meaning": "throat",
+    "bengali_meaning": "গলা",
+    "tags": ["vocabulary", "lesson-26"]
   },
   {
     "id": "minna-026-v006",
-    "kanji": "片づきます",
-    "furigana": "かたづきます",
-    "romaji": "katadzukimasu",
-    "english_meaning": "to be tidied up",
-    "type": "verb",
-    "bengali_meaning": "গোছানো হওয়া"
+    "kanji": "咳",
+    "furigana": "せき",
+    "romaji": "seki",
+    "english_meaning": "cough",
+    "bengali_meaning": "কাশি",
+    "tags": ["vocabulary", "lesson-26"]
   },
   {
     "id": "minna-026-v007",
-    "kanji": "気分がいい",
-    "furigana": "きぶんがいい",
-    "romaji": "kibun ga ii",
-    "english_meaning": "to feel good",
-    "type": "expression",
-    "bengali_meaning": "ভালো লাগা"
+    "kanji": "薬",
+    "furigana": "くすり",
+    "romaji": "kusuri",
+    "english_meaning": "medicine",
+    "bengali_meaning": "ওষুধ",
+    "tags": ["vocabulary", "lesson-26"]
   },
   {
     "id": "minna-026-v008",
-    "kanji": "都合がいい",
-    "furigana": "つごうがいい",
-    "romaji": "tsugou ga ii",
-    "english_meaning": "to be convenient",
-    "type": "expression",
-    "bengali_meaning": "সুবিধাজনক হওয়া"
+    "kanji": "病院",
+    "furigana": "びょういん",
+    "romaji": "byōin",
+    "english_meaning": "hospital",
+    "bengali_meaning": "হাসপাতাল",
+    "tags": ["vocabulary", "lesson-26"]
   },
   {
     "id": "minna-026-v009",
-    "kanji": "何でも",
-    "furigana": "なんでも",
-    "romaji": "nandemo",
-    "english_meaning": "anything / whatever",
-    "type": "adverb",
-    "bengali_meaning": "যেকোনো কিছু"
+    "kanji": "医者",
+    "furigana": "いしゃ",
+    "romaji": "isha",
+    "english_meaning": "doctor",
+    "bengali_meaning": "ডাক্তার",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v010",
+    "kanji": "無理",
+    "furigana": "むり",
+    "romaji": "muri",
+    "english_meaning": "impossible, too much for one",
+    "bengali_meaning": "অসম্ভব, সামর্থ্যের অতিরিক্ত",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v011",
+    "kanji": "残業",
+    "furigana": "ざんぎょう",
+    "romaji": "zangyō",
+    "english_meaning": "overtime work",
+    "bengali_meaning": "নির্ধারিত সময়ের পরে অতিরিক্ত কাজ",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v012",
+    "kanji": "会議",
+    "furigana": "かいぎ",
+    "romaji": "kaigi",
+    "english_meaning": "meeting, conference",
+    "bengali_meaning": "সভা, বৈঠক",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v013",
+    "kanji": "予定",
+    "furigana": "よてい",
+    "romaji": "yotei",
+    "english_meaning": "plan, schedule",
+    "bengali_meaning": "পরিকল্পনা, সময়সূচি",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v014",
+    "kanji": "用事",
+    "furigana": "ようじ",
+    "romaji": "yōji",
+    "english_meaning": "errand, business to do",
+    "bengali_meaning": "জরুরি কাজ, দরকার",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v015",
+    "kanji": "理由",
+    "furigana": "りゆう",
+    "romaji": "riyū",
+    "english_meaning": "reason",
+    "bengali_meaning": "কারণ",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v016",
+    "kanji": "説明",
+    "furigana": "せつめい",
+    "romaji": "setsumei",
+    "english_meaning": "explanation",
+    "bengali_meaning": "ব্যাখ্যা",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v017",
+    "kanji": "遅れる",
+    "furigana": "おくれる",
+    "romaji": "okureru",
+    "english_meaning": "to be late",
+    "bengali_meaning": "দেরি হওয়া",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v018",
+    "kanji": "疲れる",
+    "furigana": "つかれる",
+    "romaji": "tsukareru",
+    "english_meaning": "to get tired",
+    "bengali_meaning": "ক্লান্ত হওয়া",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v019",
+    "kanji": "眠い",
+    "furigana": "ねむい",
+    "romaji": "nemui",
+    "english_meaning": "sleepy",
+    "bengali_meaning": "ঘুমঘুম ভাব, ঘুম পাচ্ছে এমন",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v020",
+    "kanji": "甘い",
+    "furigana": "あまい",
+    "romaji": "amai",
+    "english_meaning": "sweet",
+    "bengali_meaning": "মিষ্টি",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v021",
+    "kanji": "辛い",
+    "furigana": "からい",
+    "romaji": "karai",
+    "english_meaning": "spicy, hot to the taste",
+    "bengali_meaning": "ঝাল",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v022",
+    "kanji": "塩",
+    "furigana": "しお",
+    "romaji": "shio",
+    "english_meaning": "salt",
+    "bengali_meaning": "লবণ",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v023",
+    "kanji": "砂糖",
+    "furigana": "さとう",
+    "romaji": "satō",
+    "english_meaning": "sugar",
+    "bengali_meaning": "চিনি",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v024",
+    "kanji": "味",
+    "furigana": "あじ",
+    "romaji": "aji",
+    "english_meaning": "taste, flavor",
+    "bengali_meaning": "স্বাদ",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v025",
+    "kanji": "運動",
+    "furigana": "うんどう",
+    "romaji": "undō",
+    "english_meaning": "exercise, physical activity",
+    "bengali_meaning": "ব্যায়াম",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v026",
+    "kanji": "十分",
+    "furigana": "じゅうぶん",
+    "romaji": "jūbun",
+    "english_meaning": "enough, sufficient",
+    "bengali_meaning": "যথেষ্ট",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v027",
+    "kanji": "体",
+    "furigana": "からだ",
+    "romaji": "karada",
+    "english_meaning": "body",
+    "bengali_meaning": "শরীর",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v028",
+    "kanji": "生活",
+    "furigana": "せいかつ",
+    "romaji": "seikatsu",
+    "english_meaning": "daily life, lifestyle",
+    "bengali_meaning": "দৈনন্দিন জীবন, জীবনযাপন",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v029",
+    "kanji": "相談",
+    "furigana": "そうだん",
+    "romaji": "sōdan",
+    "english_meaning": "consultation, discussing",
+    "bengali_meaning": "পরামর্শ, আলোচনা",
+    "tags": ["vocabulary", "lesson-26"]
+  },
+  {
+    "id": "minna-026-v030",
+    "kanji": "心配",
+    "furigana": "しんぱい",
+    "romaji": "shinpai",
+    "english_meaning": "worry, concern",
+    "bengali_meaning": "চিন্তা, দুশ্চিন্তা",
+    "tags": ["vocabulary", "lesson-26"]
   }
 ]

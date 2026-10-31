@@ -1,18 +1,87 @@
 [
   {
-    "id": "minna-026-l001",
+    "id": "minna-026-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "At the Clinic",
+      "bn": "ক্লিনিকে"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "みます は 何 ですか。",
-        "furigana": "みます は なん ですか。",
-        "romaji": "mimasu wa nan desu ka.",
-        "en": "What is check, take a look at?",
-        "bn": "check, take a look at কী?"
+        "jp": "医者：どうしましたか。",
+        "furigana": "いしゃ：どうしましたか。",
+        "romaji": "isha: dō shimashita ka.",
+        "en": "Doctor: What is the matter?",
+        "bn": "ডাক্তার: কী হয়েছে?"
+      },
+      {
+        "jp": "患者：昨日から 喉が 痛いんです。",
+        "furigana": "かんじゃ：きのうから のどが いたいんです。",
+        "romaji": "kanja: kinō kara nodo ga itai n desu.",
+        "en": "Patient: My throat has hurt since yesterday.",
+        "bn": "রোগী: গতকাল থেকে আমার গলা ব্যথা করছে।"
+      },
+      {
+        "jp": "医者：熱は ありますか。",
+        "furigana": "いしゃ：ねつは ありますか。",
+        "romaji": "isha: netsu wa arimasu ka.",
+        "en": "Doctor: Do you have a fever?",
+        "bn": "ডাক্তার: জ্বর আছে কি?"
+      },
+      {
+        "jp": "患者：はい、少し あります。",
+        "furigana": "かんじゃ：はい、すこし あります。",
+        "romaji": "kanja: hai, sukoshi arimasu.",
+        "en": "Patient: Yes, a little.",
+        "bn": "রোগী: হ্যাঁ, একটু আছে।"
+      },
+      {
+        "jp": "医者：咳は どうですか。",
+        "furigana": "いしゃ：せきは どうですか。",
+        "romaji": "isha: seki wa dō desu ka.",
+        "en": "Doctor: How about a cough?",
+        "bn": "ডাক্তার: কাশি কেমন?"
+      },
+      {
+        "jp": "患者：咳も 出ます。それに、とても 眠いんです。",
+        "furigana": "かんじゃ：せきも でます。それに、とても ねむいんです。",
+        "romaji": "kanja: seki mo demasu. sore ni, totemo nemui n desu.",
+        "en": "Patient: I have a cough too. Besides, I feel very sleepy.",
+        "bn": "রোগী: কাশিও হয়। তা ছাড়া খুব ঘুম পাচ্ছে।"
+      },
+      {
+        "jp": "医者：それは 風邪ですね。この 薬を 飲んでください。",
+        "furigana": "いしゃ：それは かぜですね。この くすりを のんでください。",
+        "romaji": "isha: sore wa kaze desu ne. kono kusuri o nonde kudasai.",
+        "en": "Doctor: That is a cold. Please take this medicine.",
+        "bn": "ডাক্তার: এটা ঠান্ডা লেগেছে। এই ওষুধটি খান।"
+      },
+      {
+        "jp": "患者：一日に 何回 飲みますか。",
+        "furigana": "かんじゃ：いちにちに なんかい のみますか。",
+        "romaji": "kanja: ichinichi ni nankai nomimasu ka.",
+        "en": "Patient: How many times a day do I take it?",
+        "bn": "রোগী: দিনে কতবার খাব?"
+      },
+      {
+        "jp": "医者：一日に 三回、食事の あとで 飲んでください。",
+        "furigana": "いしゃ：いちにちに さんかい、しょくじの あとで のんでください。",
+        "romaji": "isha: ichinichi ni sankai, shokuji no ato de nonde kudasai.",
+        "en": "Doctor: Please take it three times a day, after meals.",
+        "bn": "ডাক্তার: দিনে তিনবার, খাওয়ার পরে খান।"
+      },
+      {
+        "jp": "患者：わかりました。無理を しない ほうがいいですか。",
+        "furigana": "かんじゃ：わかりました。むりを しない ほうがいいですか。",
+        "romaji": "kanja: wakarimashita. muri o shinai hō ga ii desu ka.",
+        "en": "Patient: I understand. Should I avoid overdoing it?",
+        "bn": "রোগী: বুঝেছি। বেশি পরিশ্রম না করাই ভালো কি?"
+      },
+      {
+        "jp": "医者：ええ、今日は 早く 寝た ほうがいいですよ。",
+        "furigana": "いしゃ：ええ、きょうは はやく ねた ほうがいいですよ。",
+        "romaji": "isha: ē, kyō wa hayaku neta hō ga ii desu yo.",
+        "en": "Doctor: Yes, you had better go to bed early today.",
+        "bn": "ডাক্তার: হ্যাঁ, আজ তাড়াতাড়ি ঘুমিয়ে পড়াই ভালো।"
       }
     ]
   }

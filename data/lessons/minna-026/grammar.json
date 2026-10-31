@@ -1,26 +1,152 @@
 [
   {
-    "id": "minna-026-g001",
-    "pattern": "～んです",
-    "meaning_en": "explaining cause / reason",
+    "id": "minna-026-g1",
+    "pattern": "普通形 + んです／んですか",
+    "meaning_en": "used to explain a situation, give a reason, or ask for an explanation",
+    "meaning_bn": "পরিস্থিতি ব্যাখ্যা করা, কারণ বলা বা কারণ জিজ্ঞাসা করার জন্য ব্যবহৃত হয়",
     "examples": [
       {
-        "jp": "どうしておくれたんですか。",
-        "en": "Why were you late?"
+        "jp": "どうして 遅れたんですか。",
+        "furigana": "どうして おくれたんですか。",
+        "romaji": "dōshite okureta n desu ka.",
+        "en": "Why were you late?",
+        "bn": "আপনি কেন দেরি করলেন?"
+      },
+      {
+        "jp": "バスが 来なかったんです。",
+        "furigana": "バスが こなかったんです。",
+        "romaji": "basu ga konakatta n desu.",
+        "en": "Because the bus did not come.",
+        "bn": "কারণ বাসটি আসেনি।"
+      },
+      {
+        "jp": "頭が 痛いんです。",
+        "furigana": "あたまが いたいんです。",
+        "romaji": "atama ga itai n desu.",
+        "en": "The thing is, I have a headache.",
+        "bn": "আসলে আমার মাথা ব্যথা করছে।"
       }
     ],
-    "meaning_bn": "explaining cause / reason"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-026-g002",
-    "pattern": "～ていただけませんか",
-    "meaning_en": "polite request",
+    "id": "minna-026-g2",
+    "pattern": "動詞ます形の語幹／い形容詞（い→）／な形容詞 + すぎます",
+    "meaning_en": "too much, excessively",
+    "meaning_bn": "অতিরিক্ত, মাত্রার চেয়ে বেশি",
     "examples": [
       {
-        "jp": "ちょっと待っていただけませんか。",
-        "en": "Could you please wait a moment?"
+        "jp": "この カレーは 辛すぎます。",
+        "furigana": "この カレーは からすぎます。",
+        "romaji": "kono karē wa karasugimasu.",
+        "en": "This curry is too spicy.",
+        "bn": "এই কারিটি খুব বেশি ঝাল।"
+      },
+      {
+        "jp": "昨日 お酒を 飲みすぎました。",
+        "furigana": "きのう おさけを のみすぎました。",
+        "romaji": "kinō osake o nomisugimashita.",
+        "en": "Yesterday I drank too much alcohol.",
+        "bn": "গতকাল আমি খুব বেশি মদ পান করেছিলাম।"
+      },
+      {
+        "jp": "この 問題は 難しすぎます。",
+        "furigana": "この もんだいは むずかしすぎます。",
+        "romaji": "kono mondai wa muzukashisugimasu.",
+        "en": "This problem is too difficult.",
+        "bn": "এই সমস্যাটি খুব বেশি কঠিন।"
       }
     ],
-    "meaning_bn": "polite request"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-026-g3",
+    "pattern": "動詞た形／動詞ない形 + ほうがいいです",
+    "meaning_en": "had better do, it is better to do",
+    "meaning_bn": "করা ভালো, করা উচিত",
+    "examples": [
+      {
+        "jp": "早く 寝た ほうがいいですよ。",
+        "furigana": "はやく ねた ほうがいいですよ。",
+        "romaji": "hayaku neta hō ga ii desu yo.",
+        "en": "You had better go to bed early.",
+        "bn": "আপনার তাড়াতাড়ি ঘুমিয়ে পড়া ভালো।"
+      },
+      {
+        "jp": "お酒を 飲まない ほうがいいです。",
+        "furigana": "おさけを のまない ほうがいいです。",
+        "romaji": "osake o nomanai hō ga ii desu.",
+        "en": "You had better not drink alcohol.",
+        "bn": "মদ পান না করাই ভালো।"
+      },
+      {
+        "jp": "病院へ 行った ほうがいいです。",
+        "furigana": "びょういんへ いった ほうがいいです。",
+        "romaji": "byōin e itta hō ga ii desu.",
+        "en": "You should go to the hospital.",
+        "bn": "আপনার হাসপাতালে যাওয়া উচিত।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-026-g4",
+    "pattern": "動詞て形 + いただけませんか",
+    "meaning_en": "could you please do something (polite request)",
+    "meaning_bn": "অনুগ্রহ করে কিছু করতে পারবেন কি (বিনয়ী অনুরোধ)",
+    "examples": [
+      {
+        "jp": "すみません、ちょっと 教えていただけませんか。",
+        "furigana": "すみません、ちょっと おしえていただけませんか。",
+        "romaji": "sumimasen, chotto oshiete itadakemasen ka.",
+        "en": "Excuse me, could you please teach me a little?",
+        "bn": "মাফ করবেন, একটু শিখিয়ে দেবেন কি?"
+      },
+      {
+        "jp": "この 書類を 見ていただけませんか。",
+        "furigana": "この しょるいを みていただけませんか。",
+        "romaji": "kono shorui o mite itadakemasen ka.",
+        "en": "Could you please look at this document?",
+        "bn": "এই নথিটি একবার দেখে দেবেন কি?"
+      },
+      {
+        "jp": "駅まで 送っていただけませんか。",
+        "furigana": "えきまで おくっていただけませんか。",
+        "romaji": "eki made okutte itadakemasen ka.",
+        "en": "Could you please take me to the station?",
+        "bn": "স্টেশন পর্যন্ত পৌঁছে দেবেন কি?"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-026-g5",
+    "pattern": "普通形 + ので",
+    "meaning_en": "because, since (a softer reason)",
+    "meaning_bn": "কারণ, যেহেতু (নরম ভঙ্গিতে কারণ বলা)",
+    "examples": [
+      {
+        "jp": "熱が あるので、今日は 休みます。",
+        "furigana": "ねつが あるので、きょうは やすみます。",
+        "romaji": "netsu ga aru node, kyō wa yasumimasu.",
+        "en": "Because I have a fever, I will rest today.",
+        "bn": "জ্বর আছে, তাই আজ বিশ্রাম নেব।"
+      },
+      {
+        "jp": "用事が あるので、先に 帰ります。",
+        "furigana": "ようじが あるので、さきに かえります。",
+        "romaji": "yōji ga aru node, saki ni kaerimasu.",
+        "en": "Because I have an errand, I will go home first.",
+        "bn": "কাজ আছে, তাই আগে বাড়ি ফিরে যাব।"
+      },
+      {
+        "jp": "静かなので、よく 眠れます。",
+        "furigana": "しずかなので、よく ねむれます。",
+        "romaji": "shizuka na node, yoku nemuremasu.",
+        "en": "Because it is quiet, I can sleep well.",
+        "bn": "শান্ত থাকায় ভালোভাবে ঘুমাতে পারি।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]
