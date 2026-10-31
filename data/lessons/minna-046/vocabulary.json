@@ -1,5 +1,267 @@
 [
-{"id":"minna-046-v001","kanji":"焼きます","furigana":"やきます","romaji":"yakimasu","english_meaning":"to bake / grill","bengali_meaning":"সেঁকা / ঝলসানো","type":"verb"},
-{"id":"minna-046-v002","kanji":"渡します","furigana":"わたします","romaji":"watashimasu","english_meaning":"to hand over","bengali_meaning":"হস্তান্তর করা","type":"verb"},
-{"id":"minna-046-v003","kanji":"帰ってきます","furigana":"かえってきます","romaji":"kaette kimasu","english_meaning":"to come back / return","bengali_meaning":"ফিরে আসা","type":"verb"}
+  {
+    "id": "minna-046-v001",
+    "furigana": "ばしょ",
+    "kanji": "場所",
+    "romaji": "basho",
+    "english_meaning": "place",
+    "bengali_meaning": "জায়গা",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v002",
+    "furigana": "しゅっぱつ",
+    "kanji": "出発",
+    "romaji": "shuppatsu",
+    "english_meaning": "departure",
+    "bengali_meaning": "যাত্রা শুরু",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v003",
+    "furigana": "とうちゃく",
+    "kanji": "到着",
+    "romaji": "tōchaku",
+    "english_meaning": "arrival",
+    "bengali_meaning": "পৌঁছানো",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v004",
+    "furigana": "かいじょう",
+    "kanji": "会場",
+    "romaji": "kaijō",
+    "english_meaning": "venue, hall",
+    "bengali_meaning": "অনুষ্ঠানস্থল",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v005",
+    "furigana": "うけつけ",
+    "kanji": "受付",
+    "romaji": "uketsuke",
+    "english_meaning": "reception, front desk",
+    "bengali_meaning": "রিসেপশন",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v006",
+    "furigana": "はじまる",
+    "kanji": "始まる",
+    "romaji": "hajimaru",
+    "english_meaning": "to begin",
+    "bengali_meaning": "শুরু হওয়া",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v007",
+    "furigana": "おわる",
+    "kanji": "終わる",
+    "romaji": "owaru",
+    "english_meaning": "to end, to finish",
+    "bengali_meaning": "শেষ হওয়া",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v008",
+    "furigana": "きゅうよう",
+    "kanji": "急用",
+    "romaji": "kyūyō",
+    "english_meaning": "urgent business",
+    "bengali_meaning": "জরুরি কাজ",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v009",
+    "furigana": "つごう",
+    "kanji": "都合",
+    "romaji": "tsugō",
+    "english_meaning": "circumstances, convenience",
+    "bengali_meaning": "পরিস্থিতি, সুবিধা",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v010",
+    "furigana": "そうだん",
+    "kanji": "相談",
+    "romaji": "sōdan",
+    "english_meaning": "consultation, discussion",
+    "bengali_meaning": "পরামর্শ",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v011",
+    "furigana": "しゅっちょう",
+    "kanji": "出張",
+    "romaji": "shutchō",
+    "english_meaning": "business trip",
+    "bengali_meaning": "কর্মসূত্রে ভ্রমণ",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v012",
+    "furigana": "きこく",
+    "kanji": "帰国",
+    "romaji": "kikoku",
+    "english_meaning": "returning to one's country",
+    "bengali_meaning": "দেশে ফেরা",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v013",
+    "furigana": "ひっこし",
+    "kanji": "引っ越し",
+    "romaji": "hikkoshi",
+    "english_meaning": "moving house",
+    "bengali_meaning": "বাসা বদল",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v014",
+    "furigana": "けんがく",
+    "kanji": "見学",
+    "romaji": "kengaku",
+    "english_meaning": "study visit, tour of inspection",
+    "bengali_meaning": "পরিদর্শন",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v015",
+    "furigana": "けんぶつ",
+    "kanji": "見物",
+    "romaji": "kenbutsu",
+    "english_meaning": "sightseeing",
+    "bengali_meaning": "দর্শন",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v016",
+    "furigana": "つく",
+    "kanji": "着く",
+    "romaji": "tsuku",
+    "english_meaning": "to arrive",
+    "bengali_meaning": "পৌঁছানো",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v017",
+    "furigana": "でかける",
+    "kanji": "出かける",
+    "romaji": "dekakeru",
+    "english_meaning": "to go out",
+    "bengali_meaning": "বাইরে যাওয়া",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v018",
+    "furigana": "もうすぐ",
+    "romaji": "mōsugu",
+    "english_meaning": "soon, before long",
+    "bengali_meaning": "শীঘ্রই",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v019",
+    "furigana": "ちょうど",
+    "romaji": "chōdo",
+    "english_meaning": "just, exactly",
+    "bengali_meaning": "ঠিক",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v020",
+    "furigana": "きっと",
+    "romaji": "kitto",
+    "english_meaning": "surely, certainly",
+    "bengali_meaning": "নিশ্চয়ই",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v021",
+    "furigana": "ずいぶん",
+    "romaji": "zuibun",
+    "english_meaning": "considerably, quite",
+    "bengali_meaning": "বেশ অনেক",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v022",
+    "furigana": "ところで",
+    "romaji": "tokoro de",
+    "english_meaning": "by the way",
+    "bengali_meaning": "প্রসঙ্গত",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v023",
+    "furigana": "このまえ",
+    "kanji": "この前",
+    "romaji": "kono mae",
+    "english_meaning": "the other day",
+    "bengali_meaning": "কয়েকদিন আগে",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v024",
+    "furigana": "こんど",
+    "kanji": "今度",
+    "romaji": "kondo",
+    "english_meaning": "next time, this time",
+    "bengali_meaning": "পরেরবার, এবার",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v025",
+    "furigana": "さいきん",
+    "kanji": "最近",
+    "romaji": "saikin",
+    "english_meaning": "recently",
+    "bengali_meaning": "ইদানীং",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v026",
+    "furigana": "せんしゅう",
+    "kanji": "先週",
+    "romaji": "senshū",
+    "english_meaning": "last week",
+    "bengali_meaning": "গত সপ্তাহ",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v027",
+    "furigana": "こんしゅう",
+    "kanji": "今週",
+    "romaji": "konshū",
+    "english_meaning": "this week",
+    "bengali_meaning": "এই সপ্তাহ",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v028",
+    "furigana": "いっしゅうかん",
+    "kanji": "一週間",
+    "romaji": "isshūkan",
+    "english_meaning": "one week",
+    "bengali_meaning": "এক সপ্তাহ",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v029",
+    "furigana": "けいかく",
+    "kanji": "計画",
+    "romaji": "keikaku",
+    "english_meaning": "plan",
+    "bengali_meaning": "পরিকল্পনা",
+    "tags": ["vocabulary", "lesson-46"]
+  },
+  {
+    "id": "minna-046-v030",
+    "furigana": "したく",
+    "kanji": "支度",
+    "romaji": "shitaku",
+    "english_meaning": "preparation, getting ready",
+    "bengali_meaning": "প্রস্তুতি",
+    "tags": ["vocabulary", "lesson-46"]
+  }
 ]

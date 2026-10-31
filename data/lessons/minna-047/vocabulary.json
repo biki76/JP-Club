@@ -1,5 +1,269 @@
 [
-{"id":"minna-047-v001","kanji":"ごみ","furigana":"ごみ","romaji":"gomi","english_meaning":"garbage / trash","bengali_meaning":"আবর্জনা","type":"noun"},
-{"id":"minna-047-v002","kanji":"気分","furigana":"きぶん","romaji":"kibun","english_meaning":"feeling / mood","bengali_meaning":"মেজাজ","type":"noun"},
-{"id":"minna-047-v003","kanji":"資源","furigana":"しげん","romaji":"shigen","english_meaning":"resources","bengali_meaning":"সম্পদ","type":"noun"}
+  {
+    "id": "minna-047-v001",
+    "furigana": "うわさ",
+    "kanji": "噂",
+    "romaji": "uwasa",
+    "english_meaning": "rumour, gossip",
+    "bengali_meaning": "গুজব",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v002",
+    "furigana": "はなし",
+    "kanji": "話",
+    "romaji": "hanashi",
+    "english_meaning": "talk, story",
+    "bengali_meaning": "কথা, গল্প",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v003",
+    "furigana": "しんぶん",
+    "kanji": "新聞",
+    "romaji": "shinbun",
+    "english_meaning": "newspaper",
+    "bengali_meaning": "সংবাদপত্র",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v004",
+    "furigana": "にゅーす",
+    "romaji": "nyūsu",
+    "english_meaning": "news",
+    "bengali_meaning": "সংবাদ",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v005",
+    "furigana": "ほうそう",
+    "kanji": "放送",
+    "romaji": "hōsō",
+    "english_meaning": "broadcast",
+    "bengali_meaning": "সম্প্রচার",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v006",
+    "furigana": "ばんぐみ",
+    "kanji": "番組",
+    "romaji": "bangumi",
+    "english_meaning": "programme (TV, radio)",
+    "bengali_meaning": "অনুষ্ঠান",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v007",
+    "furigana": "けっか",
+    "kanji": "結果",
+    "romaji": "kekka",
+    "english_meaning": "result",
+    "bengali_meaning": "ফলাফল",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v008",
+    "furigana": "げんいん",
+    "kanji": "原因",
+    "romaji": "gen'in",
+    "english_meaning": "cause",
+    "bengali_meaning": "কারণ",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v009",
+    "furigana": "いけん",
+    "kanji": "意見",
+    "romaji": "iken",
+    "english_meaning": "opinion",
+    "bengali_meaning": "মতামত",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v010",
+    "furigana": "かんがえ",
+    "kanji": "考え",
+    "romaji": "kangae",
+    "english_meaning": "idea, thought",
+    "bengali_meaning": "ভাবনা",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v011",
+    "furigana": "じょうほう",
+    "kanji": "情報",
+    "romaji": "jōhō",
+    "english_meaning": "information",
+    "bengali_meaning": "তথ্য",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v012",
+    "furigana": "よほう",
+    "kanji": "予報",
+    "romaji": "yohō",
+    "english_meaning": "forecast",
+    "bengali_meaning": "পূর্বাভাস",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v013",
+    "furigana": "おおあめ",
+    "kanji": "大雨",
+    "romaji": "ōame",
+    "english_meaning": "heavy rain",
+    "bengali_meaning": "ভারী বৃষ্টি",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v014",
+    "furigana": "かんそう",
+    "kanji": "感想",
+    "romaji": "kansō",
+    "english_meaning": "impressions",
+    "bengali_meaning": "মন্তব্য",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v015",
+    "furigana": "かくにん",
+    "kanji": "確認",
+    "romaji": "kakunin",
+    "english_meaning": "confirmation, checking",
+    "bengali_meaning": "যাচাই",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v016",
+    "furigana": "しょうかい",
+    "kanji": "紹介",
+    "romaji": "shōkai",
+    "english_meaning": "introduction",
+    "bengali_meaning": "পরিচয় করানো",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v017",
+    "furigana": "せつめい",
+    "kanji": "説明",
+    "romaji": "setsumei",
+    "english_meaning": "explanation",
+    "bengali_meaning": "ব্যাখ্যা",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v018",
+    "furigana": "こたえる",
+    "kanji": "答える",
+    "romaji": "kotaeru",
+    "english_meaning": "to answer",
+    "bengali_meaning": "উত্তর দেওয়া",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v019",
+    "furigana": "たずねる",
+    "kanji": "尋ねる",
+    "romaji": "tazuneru",
+    "english_meaning": "to ask, to inquire",
+    "bengali_meaning": "জিজ্ঞাসা করা",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v020",
+    "furigana": "つたえる",
+    "kanji": "伝える",
+    "romaji": "tsutaeru",
+    "english_meaning": "to convey, to tell",
+    "bengali_meaning": "জানানো",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v021",
+    "furigana": "しらせる",
+    "kanji": "知らせる",
+    "romaji": "shiraseru",
+    "english_meaning": "to inform",
+    "bengali_meaning": "খবর দেওয়া",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v022",
+    "furigana": "おどろく",
+    "kanji": "驚く",
+    "romaji": "odoroku",
+    "english_meaning": "to be surprised",
+    "bengali_meaning": "আশ্চর্য হওয়া",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v023",
+    "furigana": "よろこぶ",
+    "kanji": "喜ぶ",
+    "romaji": "yorokobu",
+    "english_meaning": "to be glad",
+    "bengali_meaning": "খুশি হওয়া",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v024",
+    "furigana": "ほんとう",
+    "kanji": "本当",
+    "romaji": "hontō",
+    "english_meaning": "truth, real",
+    "bengali_meaning": "সত্য",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v025",
+    "furigana": "うそ",
+    "kanji": "嘘",
+    "romaji": "uso",
+    "english_meaning": "lie",
+    "bengali_meaning": "মিথ্যা",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v026",
+    "furigana": "たしか",
+    "kanji": "確か",
+    "romaji": "tashika",
+    "english_meaning": "if I remember rightly, certain",
+    "bengali_meaning": "যদি ঠিক মনে থাকে",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v027",
+    "furigana": "ぜんぜん",
+    "kanji": "全然",
+    "romaji": "zenzen",
+    "english_meaning": "not at all",
+    "bengali_meaning": "একেবারেই না",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v028",
+    "furigana": "ほとんど",
+    "romaji": "hotondo",
+    "english_meaning": "almost, hardly",
+    "bengali_meaning": "প্রায়",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v029",
+    "furigana": "やはり",
+    "romaji": "yahari",
+    "english_meaning": "as expected, after all",
+    "bengali_meaning": "যেমনটা ভেবেছিলাম",
+    "tags": ["vocabulary", "lesson-47"]
+  },
+  {
+    "id": "minna-047-v030",
+    "furigana": "いがい",
+    "kanji": "意外",
+    "romaji": "igai",
+    "english_meaning": "unexpected",
+    "bengali_meaning": "অপ্রত্যাশিত",
+    "tags": ["vocabulary", "lesson-47"]
+  }
 ]

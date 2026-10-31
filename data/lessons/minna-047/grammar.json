@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-047-g1",
-    "pattern": "〜47-A",
-    "meaning_en": "Grammar pattern 47-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 47-A",
+    "pattern": "普通形 + そうです（伝聞）",
+    "meaning_en": "I heard that ..., they say that ...",
+    "meaning_bn": "শুনেছি যে ..., বলা হয় যে ...",
     "examples": [
       {
-        "jp": "これは レッスン47の 文法です。",
-        "en": "This is lesson 47 grammar.",
-        "bn": "This is lesson 47 grammar.",
-        "furigana": "これは レッスン47の 文法です。",
-        "romaji": ""
+        "jp": "友だちの 話では、この 店は とても おいしい そうです。",
+        "furigana": "ともだちの はなしでは、この みせは とても おいしい そうです。",
+        "romaji": "Tomodachi no hanashi de wa, kono mise wa totemo oishii sō desu.",
+        "en": "According to my friend, this restaurant is very delicious.",
+        "bn": "বন্ধুর কথামতে, এই রেস্তোরাঁর খাবার খুব সুস্বাদু।"
+      },
+      {
+        "jp": "田中さんは 来月 結婚する そうです。",
+        "furigana": "たなかさんは らいげつ けっこんする そうです。",
+        "romaji": "Tanaka-san wa raigetsu kekkon suru sō desu.",
+        "en": "I heard that Tanaka is getting married next month.",
+        "bn": "শুনেছি তানাকা আগামী মাসে বিয়ে করছেন।"
+      },
+      {
+        "jp": "あの 番組は 若い 人に 人気が ある そうです。",
+        "furigana": "あの ばんぐみは わかい ひとに にんきが ある そうです。",
+        "romaji": "Ano bangumi wa wakai hito ni ninki ga aru sō desu.",
+        "en": "They say that programme is popular among young people.",
+        "bn": "বলা হয় ওই অনুষ্ঠানটি তরুণদের মধ্যে জনপ্রিয়।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-047-g2",
-    "pattern": "〜47-B",
-    "meaning_en": "Grammar pattern 47-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 47-B",
+    "pattern": "～に よると ～そうです",
+    "meaning_en": "according to ..., ... is said",
+    "meaning_bn": "... এর মতে ...",
     "examples": [
       {
-        "jp": "これは レッスン47の 文法です。",
-        "en": "This is lesson 47 grammar.",
-        "bn": "This is lesson 47 grammar.",
-        "furigana": "これは レッスン47の 文法です。",
-        "romaji": ""
+        "jp": "新聞に よると、来週 大きい 台風が 来る そうです。",
+        "furigana": "しんぶんに よると、らいしゅう おおきい たいふうが くる そうです。",
+        "romaji": "Shinbun ni yoru to, raishū ōkii taifū ga kuru sō desu.",
+        "en": "According to the newspaper, a big typhoon is coming next week.",
+        "bn": "সংবাদপত্রের মতে, আগামী সপ্তাহে বড় টাইফুন আসছে।"
+      },
+      {
+        "jp": "天気予報に よると、あしたは 大雨に なる そうです。",
+        "furigana": "てんきよほうに よると、あしたは おおあめに なる そうです。",
+        "romaji": "Tenkiyohō ni yoru to, ashita wa ōame ni naru sō desu.",
+        "en": "According to the weather forecast, there will be heavy rain tomorrow.",
+        "bn": "আবহাওয়ার পূর্বাভাসের মতে, আগামীকাল ভারী বৃষ্টি হবে।"
+      },
+      {
+        "jp": "先生の 話に よると、試験は 思ったより 簡単だ そうです。",
+        "furigana": "せんせいの はなしに よると、しけんは おもったより かんたんだ そうです。",
+        "romaji": "Sensei no hanashi ni yoru to, shiken wa omotta yori kantan da sō desu.",
+        "en": "According to the teacher, the examination is easier than expected.",
+        "bn": "শিক্ষকের কথামতে, পরীক্ষা ভাবার চেয়ে সহজ।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-047-g3",
+    "pattern": "普通形 + ようです / みたいです",
+    "meaning_en": "it seems that, it looks like",
+    "meaning_bn": "মনে হচ্ছে যে",
+    "examples": [
+      {
+        "jp": "外が 暗いです。雨が 降って いる ようです。",
+        "furigana": "そとが くらいです。あめが ふって いる ようです。",
+        "romaji": "Soto ga kurai desu. Ame ga futte iru yō desu.",
+        "en": "It is dark outside. It seems to be raining.",
+        "bn": "বাইরে অন্ধকার। বৃষ্টি হচ্ছে বলে মনে হচ্ছে।"
+      },
+      {
+        "jp": "この ケーキは 少し 古い みたいです。",
+        "furigana": "この けーきは すこし ふるい みたいです。",
+        "romaji": "Kono kēki wa sukoshi furui mitai desu.",
+        "en": "This cake seems to be a little old.",
+        "bn": "এই কেকটি একটু পুরোনো মনে হচ্ছে।"
+      },
+      {
+        "jp": "彼は 風邪を ひいた ようで、きょうは 会社を 休んで います。",
+        "furigana": "かれは かぜを ひいた ようで、きょうは かいしゃを やすんで います。",
+        "romaji": "Kare wa kaze o hiita yō de, kyō wa kaisha o yasunde imasu.",
+        "en": "It seems he caught a cold, so he is absent from work today.",
+        "bn": "মনে হচ্ছে তার ঠান্ডা লেগেছে, তাই আজ অফিসে আসেনি।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-047-g4",
+    "pattern": "普通形 + らしいです",
+    "meaning_en": "apparently, it seems (based on what one hears or sees)",
+    "meaning_bn": "শোনা যায়, মনে হয়",
+    "examples": [
+      {
+        "jp": "うわさに よると、あの 二人は 結婚する らしいです。",
+        "furigana": "うわさに よると、あの ふたりは けっこんする らしいです。",
+        "romaji": "Uwasa ni yoru to, ano futari wa kekkon suru rashii desu.",
+        "en": "According to the rumour, those two are apparently getting married.",
+        "bn": "গুজব অনুযায়ী, ওই দুজনে নাকি বিয়ে করছে।"
+      },
+      {
+        "jp": "きょうは 雨が 降る らしいですから、傘を 持って 行きましょう。",
+        "furigana": "きょうは あめが ふる らしいですから、かさを もって いきましょう。",
+        "romaji": "Kyō wa ame ga furu rashii desu kara, kasa o motte ikimashō.",
+        "en": "Apparently it will rain today, so let us take an umbrella.",
+        "bn": "আজ নাকি বৃষ্টি হবে, তাই ছাতা নিয়ে যাই।"
+      },
+      {
+        "jp": "この 店は 夜 遅くまで やって いる らしいです。",
+        "furigana": "この みせは よる おそくまで やって いる らしいです。",
+        "romaji": "Kono mise wa yoru osoku made yatte iru rashii desu.",
+        "en": "Apparently this shop stays open until late at night.",
+        "bn": "শোনা যায় এই দোকান রাত দেরি পর্যন্ত খোলা থাকে।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-047-g5",
+    "pattern": "N / ナA + の・な + ようです、N / ナA + みたいです",
+    "meaning_en": "seems to be (with nouns and na-adjectives)",
+    "meaning_bn": "বিশেষ্য ও না-বিশেষণের সঙ্গে মনে হওয়া",
+    "examples": [
+      {
+        "jp": "あの 人は 日本人の ようです。",
+        "furigana": "あの ひとは にほんじんの ようです。",
+        "romaji": "Ano hito wa Nihonjin no yō desu.",
+        "en": "That person seems to be Japanese.",
+        "bn": "ওই ব্যক্তি জাপানি মনে হচ্ছে।"
+      },
+      {
+        "jp": "この 部屋は 静かな みたいです。",
+        "furigana": "この へやは しずかな みたいです。",
+        "romaji": "Kono heya wa shizuka na mitai desu.",
+        "en": "This room seems to be quiet.",
+        "bn": "এই ঘরটি নিঃশব্দ মনে হচ্ছে।"
+      },
+      {
+        "jp": "この 問題は 意外に 簡単な ようですね。",
+        "furigana": "この もんだいは いがいに かんたんな ようですね。",
+        "romaji": "Kono mondai wa igai ni kantan na yō desu ne.",
+        "en": "This problem seems to be unexpectedly easy.",
+        "bn": "এই সমস্যাটি অপ্রত্যাশিতভাবে সহজ মনে হচ্ছে।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

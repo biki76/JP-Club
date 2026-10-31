@@ -3,48 +3,157 @@
     "id": "minna-047-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜47-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜47-A"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン47の 文法です。",
-      "furigana": "これは レッスン47の 文法です。",
-      "romaji": ""
+      "jp": "新聞 ＿＿ よると、来週 台風が 来る そうです。",
+      "furigana": "しんぶん ＿＿ よると、らいしゅう たいふうが くる そうです。",
+      "romaji": "Shinbun ＿＿ yoru to, raishū taifū ga kuru sō desu."
     },
-    "options": [
-      "Grammar pattern 47-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["に", "で", "を", "が"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜47-A means \"Grammar pattern 47-A\".",
-      "bn": "〜47-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 47-A\"।"
+      "en": "The pattern is ～によると, with the particle に.",
+      "bn": "নকশাটি হলো ～によると, যেখানে に অব্যয় বসে।"
     }
   },
   {
     "id": "minna-047-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜47-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜47-B"
+      "en": "Choose the correct ending for reported speech.",
+      "bn": "শোনা কথা বোঝাতে সঠিক সমাপ্তি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン47の 文法です。",
-      "furigana": "これは レッスン47の 文法です。",
-      "romaji": ""
+      "jp": "田中さんは 来月 結婚する ＿＿。",
+      "furigana": "たなかさんは らいげつ けっこんする ＿＿。",
+      "romaji": "Tanaka-san wa raigetsu kekkon suru ＿＿."
+    },
+    "options": ["そうです", "ようです", "みたいです", "はずです"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Plain form + そうです reports what one heard.",
+      "bn": "সাধারণ রূপ + そうです শোনা কথা জানায়।"
+    }
+  },
+  {
+    "id": "minna-047-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "外が 暗いです。雨が 降って いる ＿＿です。",
+      "furigana": "そとが くらいです。あめが ふって いる ＿＿です。",
+      "romaji": "Soto ga kurai desu. Ame ga futte iru ＿＿ desu."
+    },
+    "options": ["よう", "そう", "はず", "ばかり"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "～ようです expresses the speaker's conjecture based on observation.",
+      "bn": "～ようです পর্যবেক্ষণের ভিত্তিতে অনুমান প্রকাশ করে।"
+    }
+  },
+  {
+    "id": "minna-047-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この ケーキは 少し 古い ＿＿です。",
+      "furigana": "この けーきは すこし ふるい ＿＿です。",
+      "romaji": "Kono kēki wa sukoshi furui ＿＿ desu."
+    },
+    "options": ["みたい", "そう", "はず", "つもり"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "～みたいです is a casual way of saying it seems.",
+      "bn": "～みたいです মনে হওয়া বোঝানোর সহজ রূপ।"
+    }
+  },
+  {
+    "id": "minna-047-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "うわさに よると、あの 二人は 結婚する ＿＿です。",
+      "furigana": "うわさに よると、あの ふたりは けっこんする ＿＿です。",
+      "romaji": "Uwasa ni yoru to, ano futari wa kekkon suru ＿＿ desu."
+    },
+    "options": ["らしい", "よう", "そう", "はず"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "～らしいです reports information heard or seen indirectly.",
+      "bn": "～らしいです পরোক্ষভাবে পাওয়া তথ্য জানায়।"
+    }
+  },
+  {
+    "id": "minna-047-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "あの 人は 日本人の ようです。",
+      "furigana": "あの ひとは にほんじんの ようです。",
+      "romaji": "Ano hito wa Nihonjin no yō desu."
     },
     "options": [
-      "Grammar pattern 47-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "That person seems to be Japanese.",
+      "That person is definitely Japanese.",
+      "I heard that person is Japanese.",
+      "That person was Japanese long ago."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜47-B means \"Grammar pattern 47-B\".",
-      "bn": "〜47-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 47-B\"।"
+      "en": "N の ようです expresses a guess based on appearance.",
+      "bn": "N の ようです চেহারা দেখে অনুমান প্রকাশ করে।"
+    }
+  },
+  {
+    "id": "minna-047-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for a na-adjective.",
+      "bn": "না-বিশেষণের জন্য সঠিক রূপ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この 部屋は 静か ＿＿ みたいです。",
+      "furigana": "この へやは しずか ＿＿ みたいです。",
+      "romaji": "Kono heya wa shizuka ＿＿ mitai desu."
+    },
+    "options": ["な", "の", "に", "で"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "With na-adjectives before みたいです we use な.",
+      "bn": "みたいです এর আগে না-বিশেষণের সঙ্গে な বসে।"
+    }
+  },
+  {
+    "id": "minna-047-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 予報.",
+      "bn": "予報 এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "天気の 予報を 毎朝 チェックします。",
+      "furigana": "てんきの よほうを まいあさ ちぇっくします。",
+      "romaji": "Tenki no yohō o maiasa chekku shimasu."
+    },
+    "options": ["forecast", "report card", "newspaper", "rumour"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "予報 means a forecast, especially of weather.",
+      "bn": "予報 মানে পূর্বাভাস, বিশেষত আবহাওয়ার।"
     }
   }
 ]

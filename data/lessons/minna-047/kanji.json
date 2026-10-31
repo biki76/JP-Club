@@ -1,87 +1,132 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "新",
+    "onyomi": ["シン"],
+    "kunyomi": ["あたら.しい", "あら.た"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["new"],
+      "bn": ["নতুন"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
-    "jlpt": "N4"
+    "radicals": ["立", "木", "斤"],
+    "strokes": 13,
+    "grade": 2,
+    "jlpt": "N5"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "聞",
+    "onyomi": ["ブン"],
+    "kunyomi": ["き.く", "き.こえる"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["hear", "ask"],
+      "bn": ["শোনা", "জিজ্ঞাসা করা"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["門", "耳"],
     "strokes": 14,
-    "grade": 4,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "放",
+    "onyomi": ["ホウ"],
+    "kunyomi": ["はな.す", "はな.つ"],
+    "meanings": {
+      "en": ["release", "broadcast"],
+      "bn": ["ছেড়ে দেওয়া", "সম্প্রচার"]
+    },
+    "radicals": ["攵", "方"],
+    "strokes": 8,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
+    "character": "番",
+    "onyomi": ["バン"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["number", "turn"],
+      "bn": ["নম্বর", "পালা"]
     },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
+    "radicals": ["釆", "田"],
+    "strokes": 12,
+    "grade": 2,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "組",
+    "onyomi": ["ソ"],
+    "kunyomi": ["く.む", "くみ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["group", "assemble"],
+      "bn": ["দল", "জোড়া লাগানো"]
     },
-    "radicals": [],
+    "radicals": ["糸", "且"],
     "strokes": 11,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "結",
+    "onyomi": ["ケツ"],
+    "kunyomi": ["むす.ぶ", "ゆ.う"],
+    "meanings": {
+      "en": ["tie", "conclude"],
+      "bn": ["বাঁধা", "সমাপ্ত করা"]
+    },
+    "radicals": ["糸", "吉"],
+    "strokes": 12,
     "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "果",
+    "onyomi": ["カ"],
+    "kunyomi": ["は.たす", "は.てる"],
+    "meanings": {
+      "en": ["fruit", "result"],
+      "bn": ["ফল", "ফলাফল"]
+    },
+    "radicals": ["田", "木"],
+    "strokes": 8,
+    "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "因",
+    "onyomi": ["イン"],
+    "kunyomi": ["よ.る"],
+    "meanings": {
+      "en": ["cause", "depend on"],
+      "bn": ["কারণ", "নির্ভর করা"]
+    },
+    "radicals": ["囗", "大"],
+    "strokes": 6,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "情",
+    "onyomi": ["ジョウ"],
+    "kunyomi": ["なさ.け"],
+    "meanings": {
+      "en": ["feeling", "information"],
+      "bn": ["অনুভূতি", "তথ্য"]
+    },
+    "radicals": ["忄", "青"],
+    "strokes": 11,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "報",
+    "onyomi": ["ホウ"],
+    "kunyomi": ["むく.いる"],
+    "meanings": {
+      "en": ["report", "reward"],
+      "bn": ["প্রতিবেদন", "পুরস্কার"]
+    },
+    "radicals": ["土", "幸", "又"],
+    "strokes": 12,
+    "grade": 5,
     "jlpt": "N4"
   }
 ]

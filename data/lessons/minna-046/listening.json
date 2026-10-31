@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-046-l001",
+    "id": "minna-046-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Where Is Tanaka Now?",
+      "bn": "তানাকা এখন কোথায়?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "わたします は 何 ですか。",
-        "furigana": "わたします は なん ですか。",
-        "romaji": "watashimasu wa nan desu ka.",
-        "en": "What is hand over?",
-        "bn": "hand over কী?"
+        "jp": "もしもし、田中さんは 今 何を して いますか。",
+        "furigana": "もしもし、たなかさんは いま なにを して いますか。",
+        "romaji": "Moshimoshi, Tanaka-san wa ima nani o shite imasu ka.",
+        "en": "Hello, what is Tanaka doing now?",
+        "bn": "হ্যালো, তানাকা এখন কী করছেন?"
+      },
+      {
+        "jp": "今、空港へ 向かって いる ところです。",
+        "furigana": "いま、くうこうへ むかって いる ところです。",
+        "romaji": "Ima, kūkō e mukatte iru tokoro desu.",
+        "en": "He is on his way to the airport right now.",
+        "bn": "এখন তিনি বিমানবন্দরের দিকে যাচ্ছেন।"
+      },
+      {
+        "jp": "そうですか。何時の 飛行機ですか。",
+        "furigana": "そうですか。なんじの ひこうきですか。",
+        "romaji": "Sō desu ka. Nanji no hikōki desu ka.",
+        "en": "Is that so. What time is the flight?",
+        "bn": "তাই নাকি। কয়টার বিমান?"
+      },
+      {
+        "jp": "十一時です。もうすぐ 出発する ところです。",
+        "furigana": "じゅういちじです。もうすぐ しゅっぱつする ところです。",
+        "romaji": "Jūichi-ji desu. Mōsugu shuppatsu suru tokoro desu.",
+        "en": "It is eleven o'clock. It is just about to depart.",
+        "bn": "এগারোটা। এখনই যাত্রা শুরু করতে যাচ্ছে।"
+      },
+      {
+        "jp": "空港には もう 着いて いる はずですね。",
+        "furigana": "くうこうには もう ついて いる はずですね。",
+        "romaji": "Kūkō ni wa mō tsuite iru hazu desu ne.",
+        "en": "He should have already arrived at the airport, right?",
+        "bn": "তিনি ইতিমধ্যে বিমানবন্দরে পৌঁছে থাকার কথা, তাই না?"
+      },
+      {
+        "jp": "はい、さっき 着いた ばかりです。",
+        "furigana": "はい、さっき ついた ばかりです。",
+        "romaji": "Hai, sakki tsuita bakari desu.",
+        "en": "Yes, he arrived just a moment ago.",
+        "bn": "হ্যাঁ, এইমাত্র পৌঁছেছেন।"
+      },
+      {
+        "jp": "出張は 一週間 くらいですか。",
+        "furigana": "しゅっちょうは いっしゅうかん くらいですか。",
+        "romaji": "Shutchō wa isshūkan kurai desu ka.",
+        "en": "Is the business trip about one week?",
+        "bn": "কর্মসূত্রে ভ্রমণ প্রায় এক সপ্তাহ?"
+      },
+      {
+        "jp": "いいえ、急用が あったので、三日で 帰国する 計画です。",
+        "furigana": "いいえ、きゅうようが あったので、みっかで きこくする けいかくです。",
+        "romaji": "Iie, kyūyō ga atta node, mikka de kikoku suru keikaku desu.",
+        "en": "No, because something urgent came up, the plan is to return in three days.",
+        "bn": "না, জরুরি কাজ পড়ায় তিন দিনেই দেশে ফেরার পরিকল্পনা।"
+      },
+      {
+        "jp": "なるほど。じゃ、帰ったら また 連絡して ください。",
+        "furigana": "なるほど。じゃ、かえったら また れんらくして ください。",
+        "romaji": "Naruhodo. Ja, kaettara mata renraku shite kudasai.",
+        "en": "I see. Then please contact me again after returning.",
+        "bn": "বুঝলাম। তাহলে ফিরে এসে আবার যোগাযোগ করবেন।"
       }
     ]
   }

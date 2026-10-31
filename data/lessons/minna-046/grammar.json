@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-046-g1",
-    "pattern": "〜46-A",
-    "meaning_en": "Grammar pattern 46-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 46-A",
+    "pattern": "V-る ところです",
+    "meaning_en": "to be just about to do something",
+    "meaning_bn": "এইমাত্র করতে যাচ্ছি",
     "examples": [
       {
-        "jp": "これは レッスン46の 文法です。",
-        "en": "This is lesson 46 grammar.",
-        "bn": "This is lesson 46 grammar.",
-        "furigana": "これは レッスン46の 文法です。",
-        "romaji": ""
+        "jp": "今から 昼ご飯を 食べる ところです。",
+        "furigana": "いまから ひるごはんを たべる ところです。",
+        "romaji": "Ima kara hirugohan o taberu tokoro desu.",
+        "en": "I am just about to eat lunch.",
+        "bn": "এখনই দুপুরের খাবার খেতে যাচ্ছি।"
+      },
+      {
+        "jp": "飛行機は もうすぐ 到着する ところです。",
+        "furigana": "ひこうきは もうすぐ とうちゃくする ところです。",
+        "romaji": "Hikōki wa mōsugu tōchaku suru tokoro desu.",
+        "en": "The plane is about to arrive.",
+        "bn": "বিমানটি শীঘ্রই পৌঁছাতে যাচ্ছে।"
+      },
+      {
+        "jp": "これから 会議が 始まる ところです。",
+        "furigana": "これから かいぎが はじまる ところです。",
+        "romaji": "Kore kara kaigi ga hajimaru tokoro desu.",
+        "en": "The meeting is just about to begin.",
+        "bn": "এখনই সভা শুরু হতে যাচ্ছে।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-046-g2",
-    "pattern": "〜46-B",
-    "meaning_en": "Grammar pattern 46-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 46-B",
+    "pattern": "V-ている ところです",
+    "meaning_en": "to be in the middle of doing something",
+    "meaning_bn": "এখন ... করছি",
     "examples": [
       {
-        "jp": "これは レッスン46の 文法です。",
-        "en": "This is lesson 46 grammar.",
-        "bn": "This is lesson 46 grammar.",
-        "furigana": "これは レッスン46の 文法です。",
-        "romaji": ""
+        "jp": "今 電話して いるところです。",
+        "furigana": "いま でんわして いるところです。",
+        "romaji": "Ima denwa shite iru tokoro desu.",
+        "en": "I am on the phone right now.",
+        "bn": "এখন ফোনে কথা বলছি।"
+      },
+      {
+        "jp": "会議の 資料を 準備して いる ところです。",
+        "furigana": "かいぎの しりょうを じゅんびして いるところです。",
+        "romaji": "Kaigi no shiryō o junbi shite iru tokoro desu.",
+        "en": "I am in the middle of preparing the meeting documents.",
+        "bn": "সভার নথিপত্র প্রস্তুত করছি।"
+      },
+      {
+        "jp": "駅へ 向かって 歩いて いる ところです。",
+        "furigana": "えきへ むかって あるいて いるところです。",
+        "romaji": "Eki e mukatte aruite iru tokoro desu.",
+        "en": "I am walking towards the station right now.",
+        "bn": "এখন স্টেশনের দিকে হেঁটে যাচ্ছি।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-046-g3",
+    "pattern": "V-た ところです",
+    "meaning_en": "to have just done something",
+    "meaning_bn": "এইমাত্র ... করেছি",
+    "examples": [
+      {
+        "jp": "たった今 駅に 着いた ところです。",
+        "furigana": "たったいま えきに ついた ところです。",
+        "romaji": "Tatta ima eki ni tsuita tokoro desu.",
+        "en": "I have just arrived at the station.",
+        "bn": "এইমাত্র স্টেশনে পৌঁছেছি।"
+      },
+      {
+        "jp": "さっき 昼ご飯を 食べた ところです。",
+        "furigana": "さっき ひるごはんを たべた ところです。",
+        "romaji": "Sakki hirugohan o tabeta tokoro desu.",
+        "en": "I finished eating lunch just a moment ago.",
+        "bn": "একটু আগেই দুপুরের খাবার খেয়েছি।"
+      },
+      {
+        "jp": "今 会議が 終わった ところです。",
+        "furigana": "いま かいぎが おわった ところです。",
+        "romaji": "Ima kaigi ga owatta tokoro desu.",
+        "en": "The meeting has just ended.",
+        "bn": "এইমাত্র সভা শেষ হয়েছে।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-046-g4",
+    "pattern": "V-た ばかりです",
+    "meaning_en": "to have just done something (recently)",
+    "meaning_bn": "সদ্য ... করেছি",
+    "examples": [
+      {
+        "jp": "日本に 来た ばかりですから、まだ 慣れて いません。",
+        "furigana": "にほんに きた ばかりですから、まだ なれていません。",
+        "romaji": "Nihon ni kita bakari desu kara, mada narete imasen.",
+        "en": "I have just come to Japan, so I am not used to it yet.",
+        "bn": "সদ্য জাপানে এসেছি, তাই এখনো অভ্যস্ত হইনি।"
+      },
+      {
+        "jp": "この パソコンは 先週 買った ばかりです。",
+        "furigana": "この ぱそこんは せんしゅう かった ばかりです。",
+        "romaji": "Kono pasokon wa senshū katta bakari desu.",
+        "en": "I bought this computer only last week.",
+        "bn": "এই কম্পিউটারটি গত সপ্তাহেই কিনেছি।"
+      },
+      {
+        "jp": "昼ご飯を 食べた ばかりなので、お腹が いっぱいです。",
+        "furigana": "ひるごはんを たべた ばかりなので、おなかが いっぱいです。",
+        "romaji": "Hirugohan o tabeta bakari na node, onaka ga ippai desu.",
+        "en": "I have just eaten lunch, so I am full.",
+        "bn": "সদ্য দুপুরের খাবার খেয়েছি, তাই পেট ভরা।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-046-g5",
+    "pattern": "～はずです / ～はずがありません",
+    "meaning_en": "should be, is expected to / cannot possibly be",
+    "meaning_bn": "... হওয়ার কথা / ... হওয়া অসম্ভব",
+    "examples": [
+      {
+        "jp": "田中さんは もう 駅に 着いて いる はずです。",
+        "furigana": "たなかさんは もう えきに ついて いる はずです。",
+        "romaji": "Tanaka-san wa mō eki ni tsuite iru hazu desu.",
+        "en": "Tanaka should have already arrived at the station.",
+        "bn": "তানাকা ইতিমধ্যে স্টেশনে পৌঁছে থাকার কথা।"
+      },
+      {
+        "jp": "彼が そんな ことを 言う はずが ありません。",
+        "furigana": "かれが そんな ことを いう はずが ありません。",
+        "romaji": "Kare ga sonna koto o iu hazu ga arimasen.",
+        "en": "There is no way he would say such a thing.",
+        "bn": "সে এমন কথা বলার কোনো সম্ভাবনাই নেই।"
+      },
+      {
+        "jp": "この レポートは 金曜日までに 出せる はずです。",
+        "furigana": "この れぽーとは きんようびまでに だせる はずです。",
+        "romaji": "Kono repōto wa kin'yōbi made ni daseru hazu desu.",
+        "en": "This report should be ready by Friday.",
+        "bn": "এই রিপোর্টটি শুক্রবারের মধ্যে জমা দেওয়া সম্ভব হওয়ার কথা।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

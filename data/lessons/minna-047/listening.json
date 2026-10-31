@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-047-l001",
+    "id": "minna-047-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "What Does the Forecast Say?",
+      "bn": "পূর্বাভাস কী বলছে?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "ふきます［かぜが～］ は 何 ですか。",
-        "furigana": "ふきます［かぜが～］ は なん ですか。",
-        "romaji": "fukimasu [kazega~] wa nan desu ka.",
-        "en": "What is [wind] blow?",
-        "bn": "[wind] blow কী?"
+        "jp": "あしたの 天気は どう なる そうですか。",
+        "furigana": "あしたの てんきは どう なる そうですか。",
+        "romaji": "Ashita no tenki wa dō naru sō desu ka.",
+        "en": "What do they say tomorrow's weather will be like?",
+        "bn": "আগামীকালের আবহাওয়া কেমন হবে বলা হচ্ছে?"
+      },
+      {
+        "jp": "天気予報に よると、あしたは 大雨に なる そうです。",
+        "furigana": "てんきよほうに よると、あしたは おおあめに なる そうです。",
+        "romaji": "Tenkiyohō ni yoru to, ashita wa ōame ni naru sō desu.",
+        "en": "According to the forecast, there will be heavy rain tomorrow.",
+        "bn": "পূর্বাভাস অনুযায়ী, আগামীকাল ভারী বৃষ্টি হবে।"
+      },
+      {
+        "jp": "本当ですか。それは 困りますね。",
+        "furigana": "ほんとうですか。それは こまりますね。",
+        "romaji": "Hontō desu ka. Sore wa komarimasu ne.",
+        "en": "Really? That is a problem.",
+        "bn": "সত্যি? তাহলে তো সমস্যা।"
+      },
+      {
+        "jp": "でも、午後は 晴れる らしいですよ。",
+        "furigana": "でも、ごごは はれる らしいですよ。",
+        "romaji": "Demo, gogo wa hareru rashii desu yo.",
+        "en": "But apparently it will clear up in the afternoon.",
+        "bn": "তবে নাকি বিকেলে রোদ উঠবে।"
+      },
+      {
+        "jp": "そうですか。テレビの 番組でも 言って いましたか。",
+        "furigana": "そうですか。てれびの ばんぐみでも いって いましたか。",
+        "romaji": "Sō desu ka. Terebi no bangumi demo itte imashita ka.",
+        "en": "Is that so. Did they say that on a TV programme too?",
+        "bn": "তাই নাকি। টেলিভিশনের অনুষ্ঠানেও কি বলা হয়েছে?"
+      },
+      {
+        "jp": "はい。この 番組は 天気の 情報が くわしい ようです。",
+        "furigana": "はい。この ばんぐみは てんきの じょうほうが くわしい ようです。",
+        "romaji": "Hai. Kono bangumi wa tenki no jōhō ga kuwashii yō desu.",
+        "en": "Yes. This programme seems to have detailed weather information.",
+        "bn": "হ্যাঁ। এই অনুষ্ঠানে আবহাওয়ার বিস্তারিত তথ্য থাকে বলে মনে হয়।"
+      },
+      {
+        "jp": "それは 便利ですね。じゃ、傘は 要りませんね。",
+        "furigana": "それは べんりですね。じゃ、かさは いりませんね。",
+        "romaji": "Sore wa benri desu ne. Ja, kasa wa irimasen ne.",
+        "en": "That is convenient. Then we do not need an umbrella.",
+        "bn": "সুবিধাজনক তো। তাহলে ছাতা লাগবে না।"
+      },
+      {
+        "jp": "いいえ、午前中は 降る みたいですから、持って 行った ほうが いいですよ。",
+        "furigana": "いいえ、ごぜんちゅうは ふる みたいですから、もって いった ほうが いいですよ。",
+        "romaji": "Iie, gozenchū wa furu mitai desu kara, motte itta hō ga ii desu yo.",
+        "en": "No, it seems it will rain in the morning, so you had better take one.",
+        "bn": "না, সকালে বৃষ্টি হবে বলে মনে হচ্ছে, তাই নিয়ে যাওয়াই ভালো।"
+      },
+      {
+        "jp": "なるほど。教えて くれて ありがとうございます。",
+        "furigana": "なるほど。おしえて くれて ありがとうございます。",
+        "romaji": "Naruhodo. Oshiete kurete arigatō gozaimasu.",
+        "en": "I see. Thank you for telling me.",
+        "bn": "বুঝলাম। জানানোর জন্য ধন্যবাদ।"
       }
     ]
   }

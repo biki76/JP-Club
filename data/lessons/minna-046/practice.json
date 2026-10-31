@@ -3,48 +3,162 @@
     "id": "minna-046-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜46-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜46-A"
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン46の 文法です。",
-      "furigana": "これは レッスン46の 文法です。",
-      "romaji": ""
+      "jp": "今から 昼ご飯を ＿＿ ところです。",
+      "furigana": "いまから ひるごはんを ＿＿ ところです。",
+      "romaji": "Ima kara hirugohan o ＿＿ tokoro desu."
     },
-    "options": [
-      "Grammar pattern 46-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["食べる", "食べた", "食べて", "食べます"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜46-A means \"Grammar pattern 46-A\".",
-      "bn": "〜46-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 46-A\"।"
+      "en": "V-る ところです means just about to do something.",
+      "bn": "V-る ところです মানে এইমাত্র করতে যাচ্ছি।"
     }
   },
   {
     "id": "minna-046-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜46-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜46-B"
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン46の 文法です。",
-      "furigana": "これは レッスン46の 文法です。",
-      "romaji": ""
+      "jp": "今 電話して ＿＿ ところです。",
+      "furigana": "いま でんわして ＿＿ ところです。",
+      "romaji": "Ima denwa shite ＿＿ tokoro desu."
+    },
+    "options": ["いる", "ある", "しまう", "おく"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-ている ところです means in the middle of doing.",
+      "bn": "V-ている ところです মানে এখন কাজটি করছি।"
+    }
+  },
+  {
+    "id": "minna-046-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "たった今 駅に ＿＿ ところです。",
+      "furigana": "たったいま えきに ＿＿ ところです。",
+      "romaji": "Tatta ima eki ni ＿＿ tokoro desu."
+    },
+    "options": ["着いた", "着く", "着いて", "着きます"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-た ところです means just finished doing something.",
+      "bn": "V-た ところです মানে এইমাত্র কাজটি শেষ হয়েছে।"
+    }
+  },
+  {
+    "id": "minna-046-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "日本に 来た ＿＿ ですから、まだ 慣れて いません。",
+      "furigana": "にほんに きた ＿＿ ですから、まだ なれていません。",
+      "romaji": "Nihon ni kita ＿＿ desu kara, mada narete imasen."
+    },
+    "options": ["ばかり", "ところ", "はず", "つもり"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-た ばかり means have just done something recently.",
+      "bn": "V-た ばかり মানে সদ্য কিছু করা।"
+    }
+  },
+  {
+    "id": "minna-046-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "田中さんは もう 駅に 着いて いる ＿＿ です。",
+      "furigana": "たなかさんは もう えきに ついて いる ＿＿ です。",
+      "romaji": "Tanaka-san wa mō eki ni tsuite iru ＿＿ desu."
+    },
+    "options": ["はず", "ばかり", "ところ", "ため"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "～はずです expresses expectation or logical certainty.",
+      "bn": "～はずです প্রত্যাশা বা যৌক্তিক নিশ্চয়তা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-046-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "彼が そんな ことを 言う はずが ありません。",
+      "furigana": "かれが そんな ことを いう はずが ありません。",
+      "romaji": "Kare ga sonna koto o iu hazu ga arimasen."
     },
     "options": [
-      "Grammar pattern 46-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "There is no way he would say such a thing.",
+      "He should say such a thing soon.",
+      "He said such a thing just now.",
+      "He is about to say such a thing."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜46-B means \"Grammar pattern 46-B\".",
-      "bn": "〜46-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 46-B\"।"
+      "en": "～はずがありません strongly denies a possibility.",
+      "bn": "～はずがありません কোনো সম্ভাবনাকে জোরালোভাবে অস্বীকার করে।"
+    }
+  },
+  {
+    "id": "minna-046-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of the sentence.",
+      "bn": "বাক্যটির সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "さっき 昼ご飯を 食べた ところです。",
+      "furigana": "さっき ひるごはんを たべた ところです。",
+      "romaji": "Sakki hirugohan o tabeta tokoro desu."
+    },
+    "options": [
+      "I finished eating lunch just a moment ago.",
+      "I am about to eat lunch.",
+      "I am eating lunch right now.",
+      "I have not eaten lunch yet."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-た ところです shows an action that has just finished.",
+      "bn": "V-た ところです এইমাত্র শেষ হওয়া কাজ বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-046-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 受付.",
+      "bn": "受付 এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "受付は 会場の 入り口に あります。",
+      "furigana": "うけつけは かいじょうの いりぐちに あります。",
+      "romaji": "Uketsuke wa kaijō no iriguchi ni arimasu."
+    },
+    "options": ["reception desk", "kitchen", "exit", "stage"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "受付 means a reception desk or the reception staff.",
+      "bn": "受付 মানে রিসেপশন ডেস্ক বা রিসেপশনের দায়িত্বে থাকা ব্যক্তি।"
     }
   }
 ]

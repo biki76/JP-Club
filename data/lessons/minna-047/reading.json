@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-047-r001",
+    "id": "minna-047-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "News from the Newspaper",
+      "bn": "সংবাদপত্রের খবর"
     },
     "passage": [
       {
-        "jp": "これは ふきます［かぜが～］ です。",
-        "furigana": "これは ふきます［かぜが～］ です。",
-        "romaji": "Kore wa fukimasu [kazega~] desu.",
-        "en": "This is [wind] blow.",
-        "bn": "এটি [wind] blow।"
+        "jp": "けさの 新聞に よると、来週 この 町で 大きい 祭りが ある そうです。",
+        "furigana": "けさの しんぶんに よると、らいしゅう この まちで おおきい まつりが ある そうです。",
+        "romaji": "Kesa no shinbun ni yoru to, raishū kono machi de ōkii matsuri ga aru sō desu.",
+        "en": "According to this morning's newspaper, there is a big festival in this town next week.",
+        "bn": "আজ সকালের সংবাদপত্রের মতে, আগামী সপ্তাহে এই শহরে বড় উৎসব হবে।"
+      },
+      {
+        "jp": "わたしは それを 聞いて、とても 驚きました。",
+        "furigana": "わたしは それを きいて、とても おどろきました。",
+        "romaji": "Watashi wa sore o kiite, totemo odorokimashita.",
+        "en": "When I heard that, I was very surprised.",
+        "bn": "এটা শুনে আমি খুব আশ্চর্য হলাম।"
+      },
+      {
+        "jp": "天気予報に よると、その 日は 晴れる らしいです。",
+        "furigana": "てんきよほうに よると、その ひは はれる らしいです。",
+        "romaji": "Tenkiyohō ni yoru to, sono hi wa hareru rashii desu.",
+        "en": "According to the weather forecast, it apparently will be sunny that day.",
+        "bn": "আবহাওয়ার পূর্বাভাস অনুযায়ী, সেদিন নাকি রোদ থাকবে।"
+      },
+      {
+        "jp": "友だちの 話では、この 祭りは 三百年前から 続いて いる そうです。",
+        "furigana": "ともだちの はなしでは、この まつりは さんびゃくねんまえから つづいて いる そうです。",
+        "romaji": "Tomodachi no hanashi de wa, kono matsuri wa sanbyaku-nen mae kara tsuzuite iru sō desu.",
+        "en": "According to my friend, this festival has apparently continued since three hundred years ago.",
+        "bn": "বন্ধুর কথামতে, এই উৎসব নাকি তিনশ বছর আগে থেকে চলছে।"
+      },
+      {
+        "jp": "町の 人は みんな この 日を 楽しみに して いる ようです。",
+        "furigana": "まちの ひとは みんな この ひを たのしみに して いる ようです。",
+        "romaji": "Machi no hito wa minna kono hi o tanoshimi ni shite iru yō desu.",
+        "en": "It seems everyone in the town is looking forward to this day.",
+        "bn": "মনে হচ্ছে শহরের সবাই এই দিনটির জন্য অপেক্ষা করছে।"
+      },
+      {
+        "jp": "わたしも 参加したいですが、その 日は 出張の 予定が ある みたいです。",
+        "furigana": "わたしも さんかしたいですが、その ひは しゅっちょうの よていが ある みたいです。",
+        "romaji": "Watashi mo sanka shitai desu ga, sono hi wa shutchō no yotei ga aru mitai desu.",
+        "en": "I want to take part too, but it seems I have a business trip scheduled that day.",
+        "bn": "আমিও অংশ নিতে চাই, কিন্তু সেদিন কর্মসূত্রে ভ্রমণের পরিকল্পনা আছে বলে মনে হচ্ছে।"
+      },
+      {
+        "jp": "本当か どうか、もう 一度 確認して みます。",
+        "furigana": "ほんとうか どうか、もう いちど かくにんして みます。",
+        "romaji": "Hontō ka dō ka, mō ichido kakunin shite mimasu.",
+        "en": "I will check once more whether it is true or not.",
+        "bn": "সত্যি কি না, আরেকবার যাচাই করে দেখব।"
+      },
+      {
+        "jp": "もし 時間が あったら、みんなの 感想も 聞いて みたいです。",
+        "furigana": "もし じかんが あったら、みんなの かんそうも きいて みたいです。",
+        "romaji": "Moshi jikan ga attara, minna no kansō mo kiite mitai desu.",
+        "en": "If I have time, I want to ask everyone about their impressions too.",
+        "bn": "সময় পেলে সবার মন্তব্যও শুনতে চাই।"
       }
     ]
   }

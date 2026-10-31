@@ -1,17 +1,73 @@
 [
   {
-    "id": "minna-046-r001",
+    "id": "minna-046-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "The Day of the Event",
+      "bn": "অনুষ্ঠানের দিন"
     },
     "passage": [
       {
-        "jp": "これは わたします です。",
-        "furigana": "これは わたします です。",
-        "romaji": "Kore wa watashimasu desu.",
-        "en": "This is hand over.",
-        "bn": "এটি hand over।"
+        "jp": "あしたは 会社の 大切な イベントの 日です。",
+        "furigana": "あしたは かいしゃの たいせつな いべんとの ひです。",
+        "romaji": "Ashita wa kaisha no taisetsu na ibento no hi desu.",
+        "en": "Tomorrow is the day of our company's important event.",
+        "bn": "আগামীকাল আমাদের কোম্পানির গুরুত্বপূর্ণ অনুষ্ঠানের দিন।"
+      },
+      {
+        "jp": "今、わたしは 会場で 準備して いる ところです。",
+        "furigana": "いま、わたしは かいじょうで じゅんびして いるところです。",
+        "romaji": "Ima, watashi wa kaijō de junbi shite iru tokoro desu.",
+        "en": "I am now in the middle of preparing at the venue.",
+        "bn": "এখন আমি অনুষ্ঠানস্থলে প্রস্তুতি নিচ্ছি।"
+      },
+      {
+        "jp": "いすは もう 並べ終わった ばかりです。",
+        "furigana": "いすは もう ならべおわった ばかりです。",
+        "romaji": "Isu wa mō narabeowatta bakari desu.",
+        "en": "The chairs have just finished being arranged.",
+        "bn": "চেয়ারগুলো সদ্য সাজানো শেষ হয়েছে।"
+      },
+      {
+        "jp": "受付の 担当者は もうすぐ 来る はずです。",
+        "furigana": "うけつけの たんとうしゃは もうすぐ くる はずです。",
+        "romaji": "Uketsuke no tantōsha wa mōsugu kuru hazu desu.",
+        "en": "The person in charge of reception should come soon.",
+        "bn": "রিসেপশনের দায়িত্বপ্রাপ্ত ব্যক্তি শীঘ্রই আসার কথা।"
+      },
+      {
+        "jp": "この 会場は 二百人 入れますから、問題ない はずです。",
+        "furigana": "この かいじょうは にひゃくにん はいれますから、もんだいない はずです。",
+        "romaji": "Kono kaijō wa nihyaku-nin hairemasu kara, mondai nai hazu desu.",
+        "en": "This venue can hold two hundred people, so there should be no problem.",
+        "bn": "এই অনুষ্ঠানস্থলে দুইশ মানুষ ধরে, তাই সমস্যা হওয়ার কথা নয়।"
+      },
+      {
+        "jp": "ところで、出発の 時間は もう 決まりましたか。",
+        "furigana": "ところで、しゅっぱつの じかんは もう きまりましたか。",
+        "romaji": "Tokoro de, shuppatsu no jikan wa mō kimari mashita ka.",
+        "en": "By the way, has the departure time been decided yet?",
+        "bn": "প্রসঙ্গত, যাত্রার সময় ঠিক হয়েছে কি?"
+      },
+      {
+        "jp": "はい、九時に 出発する ところです。",
+        "furigana": "はい、くじに しゅっぱつする ところです。",
+        "romaji": "Hai, ku-ji ni shuppatsu suru tokoro desu.",
+        "en": "Yes, we are just about to leave at nine.",
+        "bn": "হ্যাঁ, নয়টায় যাত্রা শুরু করতে যাচ্ছি।"
+      },
+      {
+        "jp": "何か 急用が あったら、すぐに 相談して ください。",
+        "furigana": "なにか きゅうようが あったら、すぐに そうだんして ください。",
+        "romaji": "Nanika kyūyō ga attara, sugu ni sōdan shite kudasai.",
+        "en": "If anything urgent comes up, please consult me right away.",
+        "bn": "কোনো জরুরি কাজ থাকলে সঙ্গে সঙ্গে পরামর্শ করুন।"
+      },
+      {
+        "jp": "わかりました。みんなで 頑張りましょう。",
+        "furigana": "わかりました。みんなで がんばりましょう。",
+        "romaji": "Wakarimashita. Minna de ganbarimashō.",
+        "en": "Understood. Let us all do our best.",
+        "bn": "বুঝেছি। সবাই মিলে চেষ্টা করি।"
       }
     ]
   }
