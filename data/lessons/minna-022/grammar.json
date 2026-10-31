@@ -3,14 +3,14 @@
     "id": "minna-022-g1",
     "pattern": "〜22-A",
     "meaning_en": "Grammar pattern 22-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 22-A",
+    "meaning_bn": "বিশেষ্যকে বাক্যাংশ দিয়ে বর্ণনা করা (N が V / N の N)",
     "examples": [
       {
         "jp": "これは レッスン22の 文法です。",
         "en": "This is lesson 22 grammar.",
-        "bn": "This is lesson 22 grammar.",
-        "furigana": "これは レッスン22の 文法です。",
-        "romaji": ""
+        "bn": "এটি আমার তৈরি করা লাঞ্চবক্স।",
+        "furigana": "これは わたしが つくった おべんとうです।",
+        "romaji": "kore wa watashi ga tsukutta obentou desu."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-022-g2",
     "pattern": "〜22-B",
     "meaning_en": "Grammar pattern 22-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 22-B",
+    "meaning_bn": "~ করা ভুলে যাই (~のを忘れます)",
     "examples": [
       {
         "jp": "これは レッスン22の 文法です。",
         "en": "This is lesson 22 grammar.",
-        "bn": "This is lesson 22 grammar.",
-        "furigana": "これは レッスン22の 文法です。",
-        "romaji": ""
+        "bn": "আমি ফোন করতে ভুলে গেছি।",
+        "furigana": "でんわを かけるのを わすれました।",
+        "romaji": "denwa o kakeru no o wasuremashita."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-022-g3",
+    "pattern": "N は V ところです",
+    "meaning_en": "N is the place where ~",
+    "meaning_bn": "N হলো সেখানে যেখানে ~ হয়",
+    "examples": [
+      {
+        "jp": "ここは 写真を 撮る ところです。",
+        "furigana": "ここは しゃしんを とる ところです।",
+        "romaji": "koko wa shashin o toru tokoro desu.",
+        "en": "This is the place where we take photos.",
+        "bn": "এটি সেই জায়গা যেখানে ছবি তোলা হয়।"
+      },
+      {
+        "jp": "あそこは 家賃が 安い ところです。",
+        "furigana": "あそこは やちんが やすい ところです।",
+        "romaji": "asoko wa yachin ga yasui tokoro desu.",
+        "en": "That place is one with cheap rent.",
+        "bn": "ওই জায়গাটিতে ভাড়া কম।"
+      },
+      {
+        "jp": "ここは 静かな ところです。",
+        "furigana": "ここは しずかな ところです।",
+        "romaji": "koko wa shizuka na tokoro desu.",
+        "en": "This is a quiet place.",
+        "bn": "এটি একটি শান্ত জায়গা।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-022-g4",
+    "pattern": "〜のを 知っていますか",
+    "meaning_en": "do you know that ~?",
+    "meaning_bn": "আপনি কি জানেন যে ~?",
+    "examples": [
+      {
+        "jp": "田中さんが 結婚したのを 知っていますか。",
+        "furigana": "たなかさんが けっこんしたのを しっていますか।",
+        "romaji": "tanaka san ga kekkon shita no o shitte imasu ka.",
+        "en": "Do you know that Tanaka-san got married?",
+        "bn": "তানাকা-সান বিয়ে করেছেন — আপনি জানেন?"
+      },
+      {
+        "jp": "ここが 和室だというのを 知りませんでした。",
+        "furigana": "ここが わしつだというのを しりませんでした।",
+        "romaji": "koko ga washitsu da to iu no o shirimasen deshita.",
+        "en": "I did not know that this is a Japanese-style room.",
+        "bn": "এটি যে জাপানি ধাঁচের ঘর তা আমি জানতাম না।"
+      },
+      {
+        "jp": "明日 試験が あるのを 忘れました。",
+        "furigana": "あした しけんが あるのを わすれました।",
+        "romaji": "ashita shiken ga aru no o wasuremashita.",
+        "en": "I forgot that there is an exam tomorrow.",
+        "bn": "আমি ভুলে গেছি যে আগামীকাল পরীক্ষা আছে।"
       }
     ],
     "tags": [

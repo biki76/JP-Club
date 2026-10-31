@@ -1,98 +1,205 @@
 [
   {
-    "character": "日",
+    "character": "着",
     "onyomi": [
-      "ニチ",
-      "ジツ"
+      "チャク"
     ],
     "kunyomi": [
-      "ひ",
-      "-び",
-      "-か"
+      "き.る",
+      "つ.く"
     ],
     "meanings": {
       "en": [
-        "day, sun, Japan"
+        "wear",
+        "arrive"
       ],
       "bn": [
-        "দিন, সূর্য"
+        "পরা",
+        "পৌঁছানো"
       ]
     },
-    "radicals": [],
-    "strokes": 4,
+    "radicals": [
+      "羊",
+      "目"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "jlpt": "N5"
+  },
+  {
+    "character": "帽",
+    "onyomi": [
+      "ボウ"
+    ],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "hat",
+        "cap"
+      ],
+      "bn": [
+        "টুপি"
+      ]
+    },
+    "radicals": [
+      "巾",
+      "冒"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "jlpt": "N5"
+  },
+  {
+    "character": "眼",
+    "onyomi": [
+      "ガン"
+    ],
+    "kunyomi": [
+      "まなこ"
+    ],
+    "meanings": {
+      "en": [
+        "eye"
+      ],
+      "bn": [
+        "চোখ"
+      ]
+    },
+    "radicals": [
+      "目",
+      "艮"
+    ],
+    "strokes": 11,
     "grade": 5,
     "jlpt": "N5"
   },
   {
-    "character": "本",
+    "character": "鏡",
     "onyomi": [
-      "ホン"
+      "キョウ"
     ],
     "kunyomi": [
-      "もと"
+      "かがみ"
     ],
     "meanings": {
       "en": [
-        "book, origin"
+        "mirror"
       ],
       "bn": [
-        "বই, উৎস"
+        "আয়না"
       ]
     },
-    "radicals": [],
+    "radicals": [
+      "金",
+      "竟"
+    ],
+    "strokes": 19,
+    "grade": 4,
+    "jlpt": "N5"
+  },
+  {
+    "character": "生",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い.きる",
+      "う.まれる"
+    ],
+    "meanings": {
+      "en": [
+        "life",
+        "be born"
+      ],
+      "bn": [
+        "জীবন",
+        "জন্মানো"
+      ]
+    },
+    "radicals": [
+      "生"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "jlpt": "N5"
+  },
+  {
+    "character": "弁",
+    "onyomi": [
+      "ベン"
+    ],
+    "kunyomi": [],
+    "meanings": {
+      "en": [
+        "speech",
+        "valve",
+        "box lunch (弁当)"
+      ],
+      "bn": [
+        "বক্তৃতা",
+        "বেন্টো (弁当)"
+      ]
+    },
+    "radicals": [
+      "厶",
+      "廾"
+    ],
     "strokes": 5,
     "grade": 5,
     "jlpt": "N5"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "家",
+    "onyomi": [
+      "カ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "いえ",
+      "や"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "house",
+        "home"
       ],
       "bn": [
-        "অর্থ"
+        "বাড়ি",
+        "ঘর"
       ]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 5,
-    "jlpt": "N5"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": [
+      "宀",
+      "豕"
+    ],
     "strokes": 10,
-    "grade": 5,
+    "grade": 2,
     "jlpt": "N5"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "室",
+    "onyomi": [
+      "シツ"
+    ],
+    "kunyomi": [
+      "むろ"
+    ],
     "meanings": {
       "en": [
-        "Meaning"
+        "room"
       ],
       "bn": [
-        "অর্থ"
+        "ঘর",
+        "কক্ষ"
       ]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 5,
+    "radicals": [
+      "宀",
+      "至"
+    ],
+    "strokes": 9,
+    "grade": 2,
     "jlpt": "N5"
   }
 ]

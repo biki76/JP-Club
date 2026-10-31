@@ -46,5 +46,149 @@
       "en": "The pattern 〜22-B means \"Grammar pattern 22-B\".",
       "bn": "〜22-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 22-B\"।"
     }
+  },
+  {
+    "id": "minna-022-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: これは 私が 作った お弁当です。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: これは 私が 作った お弁当です。"
+    },
+    "stem": {
+      "jp": "これは 私が 作った お弁当です。",
+      "furigana": "これは わたしが つくった おべんとうです।",
+      "romaji": "kore wa watashi ga tsukutta obentou desu."
+    },
+    "options": [
+      "This is the box lunch I made.",
+      "This is a box lunch I want to make.",
+      "Someone made this box lunch for me.",
+      "I will make a box lunch tomorrow."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A plain-form clause can directly modify a noun.",
+      "bn": "সাধারণ রূপের বাক্যাংশ সরাসরি বিশেষ্যকে বর্ণনা করতে পারে।"
+    }
+  },
+  {
+    "id": "minna-022-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 電話を かけるのを 忘れました。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 電話を かけるのを 忘れました。"
+    },
+    "stem": {
+      "jp": "電話を かけるのを 忘れました。",
+      "furigana": "でんわを かけるのを わすれました।",
+      "romaji": "denwa o kakeru no o wasuremashita."
+    },
+    "options": [
+      "I forgot to make a phone call.",
+      "I remembered to call.",
+      "I made the phone call.",
+      "I don't want to call."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vる + のを 忘れます means \"forget to do V\".",
+      "bn": "Vる + のを 忘れます মানে \"V করতে ভুলে যাই\"।"
+    }
+  },
+  {
+    "id": "minna-022-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: ここは 写真を 撮る ところです。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: ここは 写真を 撮る ところです。"
+    },
+    "stem": {
+      "jp": "ここは 写真を 撮る ところです。",
+      "furigana": "ここは しゃしんを とる ところです।",
+      "romaji": "koko wa shashin o toru tokoro desu."
+    },
+    "options": [
+      "This is the place where photos are taken.",
+      "I took a photo here yesterday.",
+      "Photos are not allowed here.",
+      "This is a photograph of a place."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A verb clause before ところ describes the place's purpose.",
+      "bn": "ところ এর আগের ক্রিয়া-বাক্যাংশ স্থানের উদ্দেশ্য বর্ণনা করে।"
+    }
+  },
+  {
+    "id": "minna-022-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 田中さんが 結婚したのを 知っていますか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 田中さんが 結婚したのを 知っていますか。"
+    },
+    "stem": {
+      "jp": "田中さんが 結婚したのを 知っていますか。",
+      "furigana": "たなかさんが けっこんしたのを しっていますか।",
+      "romaji": "tanaka san ga kekkon shita no o shitte imasu ka."
+    },
+    "options": [
+      "Do you know that Tanaka-san got married?",
+      "Did Tanaka-san invite you to the wedding?",
+      "Are you going to Tanaka-san's wedding?",
+      "Does Tanaka-san know about my marriage?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜の nominalises the clause before を 知っています.",
+      "bn": "〜の を 知っています এর আগের বাক্যাংশকে বিশেষ্যে পরিণত করে।"
+    }
+  },
+  {
+    "id": "minna-022-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 眼鏡を かけた 人は 私の 兄です。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 眼鏡を かけた 人は 私の 兄です。"
+    },
+    "stem": {
+      "jp": "眼鏡を かけた 人は 私の 兄です。",
+      "furigana": "めがねを かけた ひとは わたしの あにです।",
+      "romaji": "megane o kaketa hito wa watashi no ani desu."
+    },
+    "options": [
+      "The person wearing glasses is my elder brother.",
+      "My elder brother wears glasses.",
+      "The person with glasses is a stranger.",
+      "My elder brother bought glasses."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A past-plain clause modifies a noun to describe a state.",
+      "bn": "অতীত-সাধারণ বাক্যাংশ বিশেষ্যকে বর্ণনা করে অবস্থা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-022-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 家賃が 安い 部屋を 探しています。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 家賃が 安い 部屋を 探しています।"
+    },
+    "stem": {
+      "jp": "家賃が 安い 部屋を 探しています。",
+      "furigana": "やちんが やすい へやを さがしています।",
+      "romaji": "yachin ga yasui heya o sagashite imasu."
+    },
+    "options": [
+      "I am looking for a room with cheap rent.",
+      "I found a cheap room.",
+      "The rent of my room is high.",
+      "I will rent a room tomorrow."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The clause 家賃が 安い modifies 部屋 directly.",
+      "bn": "家賃が 安い বাক্যাংশটি সরাসরি 部屋-কে বর্ণনা করে।"
+    }
   }
 ]
