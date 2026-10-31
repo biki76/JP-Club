@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-037-r001",
+    "id": "minna-037-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "A Small Change",
+      "bn": "একটি ছোট পরিবর্তন"
     },
     "passage": [
       {
-        "jp": "これは ほめます です。",
-        "furigana": "これは ほめます です。",
-        "romaji": "Kore wa homemasu desu.",
-        "en": "This is praise.",
-        "bn": "এটি praise।"
+        "jp": "わたしは 去年まで 朝が とても 苦手でした。",
+        "furigana": "わたしは きょねんまで あさが とても にがてでした。",
+        "romaji": "Watashi wa kyonen made asa ga totemo nigate deshita.",
+        "en": "Until last year I was very bad at mornings.",
+        "bn": "গত বছর পর্যন্ত আমি সকালে ওঠায় খুব দুর্বল ছিলাম।"
+      },
+      {
+        "jp": "毎晩 遅くまで 起きていたので、いつも 寝坊していました。",
+        "furigana": "まいばん おそくまで おきていたので、いつも ねぼうしていました。",
+        "romaji": "Maiban osoku made okite ita node, itsumo nebō shite imashita.",
+        "en": "Because I stayed up late every night, I always overslept.",
+        "bn": "প্রতি রাতে দেরি পর্যন্ত জেগে থাকতাম, তাই সবসময় দেরিতে উঠতাম।"
+      },
+      {
+        "jp": "ある日、健康に よくないと 思って、生活を 変える ことにしました。",
+        "furigana": "あるひ、けんこうに よくないと おもって、せいかつを かえる ことにしました。",
+        "romaji": "Aru hi, kenkō ni yokunai to omotte, seikatsu o kaeru koto ni shimashita.",
+        "en": "One day I thought it was bad for my health and decided to change my lifestyle.",
+        "bn": "একদিন মনে হলো এটি স্বাস্থ্যের জন্যে ভালো নয়, তাই জীবনযাত্রা বদলানোর সিদ্ধান্ত নিলাম।"
+      },
+      {
+        "jp": "まず、夜 十一時までに 寝る ように しました。",
+        "furigana": "まず、よる じゅういちじまでに ねる ように しました。",
+        "romaji": "Mazu, yoru jūichi-ji made ni neru yō ni shimashita.",
+        "en": "First, I tried to go to bed by eleven at night.",
+        "bn": "প্রথমে রাত এগারোটার মধ্যে ঘুমানোর চেষ্টা শুরু করলাম।"
+      },
+      {
+        "jp": "そして、朝 六時に 起きて、少し 運動する ように なりました。",
+        "furigana": "そして、あさ ろくじに おきて、すこし うんどうする ように なりました。",
+        "romaji": "Soshite, asa roku-ji ni okite, sukoshi undō suru yō ni narimashita.",
+        "en": "And I came to get up at six and exercise a little.",
+        "bn": "তারপর সকাল ছয়টায় উঠে একটু ব্যায়াম করতে শুরু করলাম।"
+      },
+      {
+        "jp": "初めは とても 大変でしたが、一か月で 体が 慣れました。",
+        "furigana": "はじめは とても たいへんでしたが、いっかげつで からだが なれました。",
+        "romaji": "Hajime wa totemo taihen deshita ga, ikkagetsu de karada ga naremashita.",
+        "en": "At first it was very hard, but my body got used to it in one month.",
+        "bn": "শুরুতে খুব কষ্ট হলেও এক মাসে শরীর অভ্যস্ত হয়ে গেল।"
+      },
+      {
+        "jp": "今では 早起きが 習慣に なりました。",
+        "furigana": "いまでは はやおきが しゅうかんに なりました。",
+        "romaji": "Ima de wa hayaoki ga shūkan ni narimashita.",
+        "en": "Now getting up early has become a habit.",
+        "bn": "এখন সকালে তাড়াতাড়ি ওঠা অভ্যাসে পরিণত হয়েছে।"
+      },
+      {
+        "jp": "目標を 決めて、少しずつ 続けることが 大切だと 思います。",
+        "furigana": "もくひょうを きめて、すこしずつ つづけることが たいせつだと おもいます。",
+        "romaji": "Mokuhyō o kimete, sukoshi zutsu tsuzukeru koto ga taisetsu da to omoimasu.",
+        "en": "I think it is important to set a goal and continue little by little.",
+        "bn": "লক্ষ্য ঠিক করে অল্প অল্প করে চালিয়ে যাওয়াটাই গুরুত্বপূর্ণ বলে আমি মনে করি।"
       }
     ]
   }

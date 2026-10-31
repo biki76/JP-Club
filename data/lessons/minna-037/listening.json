@@ -1,18 +1,80 @@
 [
   {
-    "id": "minna-037-l001",
+    "id": "minna-037-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Trying Something New",
+      "bn": "নতুন কিছু করার চেষ্টা"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "ほめます は 何 ですか。",
-        "furigana": "ほめます は なん ですか。",
-        "romaji": "homemasu wa nan desu ka.",
-        "en": "What is praise?",
-        "bn": "praise কী?"
+        "jp": "山田さん、最近 何か 新しいことを 始めましたか。",
+        "furigana": "やまださん、さいきん なにか あたらしいことを はじめましたか。",
+        "romaji": "Yamada-san, saikin nanika atarashii koto o hajimemashita ka.",
+        "en": "Yamada, have you started anything new recently?",
+        "bn": "ইয়ামাদা, ইদানীং নতুন কিছু শুরু করেছেন?"
+      },
+      {
+        "jp": "はい、ギターを 習い始めました。",
+        "furigana": "はい、ぎたーを ならいはじめました。",
+        "romaji": "Hai, gitā o naraihajimemashita.",
+        "en": "Yes, I started learning the guitar.",
+        "bn": "হ্যাঁ, গিটার শেখা শুরু করেছি।"
+      },
+      {
+        "jp": "いいですね。どうして 始めたんですか。",
+        "furigana": "いいですね。どうして はじめたんですか。",
+        "romaji": "Ii desu ne. Dōshite hajimeta n desu ka.",
+        "en": "That is nice. Why did you start?",
+        "bn": "ভালো তো। কেন শুরু করলেন?"
+      },
+      {
+        "jp": "前から 興味が あったので、一度 やってみたかったんです。",
+        "furigana": "まえから きょうみが あったので、いちど やってみたかったんです。",
+        "romaji": "Mae kara kyōmi ga atta node, ichido yatte mitakatta n desu.",
+        "en": "I had been interested for a long time, so I wanted to try it once.",
+        "bn": "আগে থেকেই আগ্রহ ছিল, তাই একবার করে দেখতে চেয়েছিলাম।"
+      },
+      {
+        "jp": "難しいですか。",
+        "furigana": "むずかしいですか。",
+        "romaji": "Muzukashii desu ka.",
+        "en": "Is it difficult?",
+        "bn": "কঠিন?"
+      },
+      {
+        "jp": "最初は 全然 弾けませんでしたが、毎日 練習して、少し 弾ける ように なりました。",
+        "furigana": "さいしょは ぜんぜん ひけませんでしたが、まいにち れんしゅうして、すこし ひける ように なりました。",
+        "romaji": "Saisho wa zenzen hikemasen deshita ga, mainichi renshū shite, sukoshi hikeru yō ni narimashita.",
+        "en": "At first I could not play at all, but I practiced every day and became able to play a little.",
+        "bn": "শুরুতে একেবারেই বাজাতে পারতাম না, কিন্তু প্রতিদিন অনুশীলন করে এখন একটু বাজাতে পারি।"
+      },
+      {
+        "jp": "すごいですね。わたしも 何か 挑戦してみたいです。",
+        "furigana": "すごいですね。わたしも なにか ちょうせんしてみたいです。",
+        "romaji": "Sugoi desu ne. Watashi mo nanika chōsen shite mitai desu.",
+        "en": "That is great. I also want to try some challenge.",
+        "bn": "দুর্দান্ত। আমিও কিছু একটা করার চেষ্টা করে দেখতে চাই।"
+      },
+      {
+        "jp": "失敗しても 大丈夫ですよ。まず 小さな 目標を 決めてみてください。",
+        "furigana": "しっぱいしても だいじょうぶですよ。まず ちいさな もくひょうを きめてみてください。",
+        "romaji": "Shippai shite mo daijōbu desu yo. Mazu chiisana mokuhyō o kimete mite kudasai.",
+        "en": "It is fine even if you fail. First try setting a small goal.",
+        "bn": "ব্যর্থ হলেও সমস্যা নেই। প্রথমে একটি ছোট লক্ষ্য ঠিক করে দেখুন।"
+      },
+      {
+        "jp": "わかりました。じゃ、来週から 早起きを する ことにします。",
+        "furigana": "わかりました。じゃ、らいしゅうから はやおきを する ことにします。",
+        "romaji": "Wakarimashita. Ja, raishū kara hayaoki o suru koto ni shimasu.",
+        "en": "Understood. Then I will decide to get up early from next week.",
+        "bn": "বুঝেছি। তাহলে আগামী সপ্তাহ থেকে সকালে তাড়াতাড়ি ওঠার সিদ্ধান্ত নিলাম।"
+      },
+      {
+        "jp": "いい 習慣に なるといいですね。",
+        "furigana": "いい しゅうかんに なるといいですね。",
+        "romaji": "Ii shūkan ni naru to ii desu ne.",
+        "en": "I hope it becomes a good habit.",
+        "bn": "ভালো অভ্যাস হয়ে গেলে ভালো হয়।"
       }
     ]
   }

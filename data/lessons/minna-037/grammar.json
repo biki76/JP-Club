@@ -1,26 +1,152 @@
 [
   {
-    "id": "minna-037-g001",
-    "pattern": "～させます",
-    "meaning_en": "causative (make/let someone do)",
+    "id": "minna-037-g1",
+    "pattern": "V-る / V-ない ように なる",
+    "meaning_en": "to come to do, to become able to do",
+    "meaning_bn": "করে উঠতে শুরু করা, পারতে শুরু করা",
     "examples": [
       {
-        "jp": "子供に野菜を食べさせます。",
-        "en": "I make my child eat vegetables."
+        "jp": "毎日 練習して、日本語が 少し 話せる ように なりました。",
+        "furigana": "まいにち れんしゅうして、にほんごが すこし はなせる ように なりました。",
+        "romaji": "Mainichi renshū shite, Nihongo ga sukoshi hanaseru yō ni narimashita.",
+        "en": "I practiced every day and became able to speak a little Japanese.",
+        "bn": "প্রতিদিন অনুশীলন করে আমি এখন একটু জাপানি বলতে পারি।"
+      },
+      {
+        "jp": "この 町も ずいぶん 変わった ように なりました。",
+        "furigana": "この まちも ずいぶん かわった ように なりました。",
+        "romaji": "Kono machi mo zuibun kawatta yō ni narimashita.",
+        "en": "This town has also changed a great deal.",
+        "bn": "এই শহরটিও অনেকখানি বদলে গেছে।"
+      },
+      {
+        "jp": "最近、朝 早く 起きる ように なりました。",
+        "furigana": "さいきん、あさ はやく おきる ように なりました。",
+        "romaji": "Saikin, asa hayaku okiru yō ni narimashita.",
+        "en": "Recently I have started getting up early in the morning.",
+        "bn": "ইদানীং আমি সকালে তাড়াতাড়ি উঠতে শুরু করেছি।"
       }
     ],
-    "meaning_bn": "causative (make/let someone do)"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-037-g002",
-    "pattern": "～ていただきます",
-    "meaning_en": "receive the favor of doing",
+    "id": "minna-037-g2",
+    "pattern": "V-る / V-ない ように する",
+    "meaning_en": "to try to, to make an effort to",
+    "meaning_bn": "চেষ্টা করা, যত্ন নেওয়া",
     "examples": [
       {
-        "jp": "先生に教えていただきました。",
-        "en": "I received the favor of being taught by the teacher."
+        "jp": "健康の ために、毎日 運動する ように しています。",
+        "furigana": "けんこうの ために、まいにち うんどうする ように しています。",
+        "romaji": "Kenkō no tame ni, mainichi undō suru yō ni shite imasu.",
+        "en": "For my health, I try to exercise every day.",
+        "bn": "স্বাস্থ্যের জন্যে প্রতিদিন ব্যায়াম করার চেষ্টা করি।"
+      },
+      {
+        "jp": "寝坊しない ように してください。",
+        "furigana": "ねぼうしない ように してください。",
+        "romaji": "Nebō shinai yō ni shite kudasai.",
+        "en": "Please try not to oversleep.",
+        "bn": "দয়া করে দেরিতে ঘুম থেকে ওঠা এড়িয়ে চলুন।"
+      },
+      {
+        "jp": "途中で 諦めない ように しましょう。",
+        "furigana": "とちゅうで あきらめない ように しましょう。",
+        "romaji": "Tochū de akiramenai yō ni shimashō.",
+        "en": "Let us try not to give up halfway.",
+        "bn": "চলুন, পথের মাঝে হাল না ছাড়ার চেষ্টা করি।"
       }
     ],
-    "meaning_bn": "receive the favor of doing"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-037-g3",
+    "pattern": "V-て しまう",
+    "meaning_en": "to do completely, to do accidentally",
+    "meaning_bn": "সম্পূর্ণ করে ফেলা, ভুলে হয়ে যাওয়া",
+    "examples": [
+      {
+        "jp": "ケーキを 全部 食べてしまいました。",
+        "furigana": "けーきを ぜんぶ たべてしまいました。",
+        "romaji": "Kēki o zenbu tabete shimaimashita.",
+        "en": "I ate the whole cake.",
+        "bn": "পুরো কেকটি খেয়ে ফেলেছি।"
+      },
+      {
+        "jp": "電車の 中に 傘を 忘れてしまいました。",
+        "furigana": "でんしゃの なかに かさを わすれてしまいました。",
+        "romaji": "Densha no naka ni kasa o wasurete shimaimashita.",
+        "en": "I accidentally left my umbrella on the train.",
+        "bn": "ট্রেনের ভেতরে ছাতা রেখে ভুলে গেছি।"
+      },
+      {
+        "jp": "宿題は もう やってしまいました。",
+        "furigana": "しゅくだいは もう やってしまいました。",
+        "romaji": "Shukudai wa mō yatte shimaimashita.",
+        "en": "I have already finished my homework.",
+        "bn": "বাড়ির কাজ ইতিমধ্যে শেষ করে ফেলেছি।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-037-g4",
+    "pattern": "V-て みる",
+    "meaning_en": "to try doing something",
+    "meaning_bn": "করে দেখা",
+    "examples": [
+      {
+        "jp": "新しい 趣味を 始めてみたいです。",
+        "furigana": "あたらしい しゅみを はじめてみたいです。",
+        "romaji": "Atarashii shumi o hajimete mitai desu.",
+        "en": "I want to try starting a new hobby.",
+        "bn": "নতুন একটি শখ শুরু করে দেখতে চাই।"
+      },
+      {
+        "jp": "この 料理は 初めてなので、少し 食べてみてください。",
+        "furigana": "この りょうりは はじめてなので、すこし たべてみてください。",
+        "romaji": "Kono ryōri wa hajimete na node, sukoshi tabete mite kudasai.",
+        "en": "This dish is new to you, so please try a little.",
+        "bn": "এই খাবারটি আপনার জন্য নতুন, তাই একটু খেয়ে দেখুন।"
+      },
+      {
+        "jp": "失敗しても いいですから、挑戦してみましょう。",
+        "furigana": "しっぱいしても いいですから、ちょうせんしてみましょう。",
+        "romaji": "Shippai shite mo ii desu kara, chōsen shite mimashō.",
+        "en": "It is fine even if you fail, so let us try the challenge.",
+        "bn": "ব্যর্থ হলেও সমস্যা নেই, চলুন চেষ্টা করে দেখি।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-037-g5",
+    "pattern": "V-る / V-ない こと に する",
+    "meaning_en": "to decide to do something",
+    "meaning_bn": "কোনো কিছু করার সিদ্ধান্ত নেওয়া",
+    "examples": [
+      {
+        "jp": "来月から 早起きを する ことにしました。",
+        "furigana": "らいげつから はやおきを する ことにしました。",
+        "romaji": "Raigetsu kara hayaoki o suru koto ni shimashita.",
+        "en": "I decided to get up early starting next month.",
+        "bn": "আগামী মাস থেকে সকালে তাড়াতাড়ি ওঠার সিদ্ধান্ত নিয়েছি।"
+      },
+      {
+        "jp": "将来の ために、毎日 日本語を 勉強することにしました。",
+        "furigana": "しょうらいの ために、まいにち にほんごを べんきょうすることにしました。",
+        "romaji": "Shōrai no tame ni, mainichi Nihongo o benkyō suru koto ni shimashita.",
+        "en": "I decided to study Japanese every day for my future.",
+        "bn": "ভবিষ্যতের জন্যে প্রতিদিন জাপানি পড়ার সিদ্ধান্ত নিয়েছি।"
+      },
+      {
+        "jp": "健康に よくないので、夜 遅く 食べない ことにしています。",
+        "furigana": "けんこうに よくないので、よる おそく たべない ことにしています。",
+        "romaji": "Kenkō ni yokunai node, yoru osoku tabenai koto ni shite imasu.",
+        "en": "Since it is not good for my health, I make it a rule not to eat late at night.",
+        "bn": "স্বাস্থ্যের জন্যে ভালো নয় বলে রাতে দেরিতে খাওয়া বন্ধ রাখার নিয়ম করেছি।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

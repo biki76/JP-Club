@@ -1,85 +1,104 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "習",
+    "onyomi": ["シュウ"],
+    "kunyomi": ["なら.う"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["learn"],
+      "bn": ["শেখা"]
     },
-    "radicals": [],
-    "strokes": 4,
-    "grade": 4,
+    "radicals": ["羽", "白"],
+    "strokes": 11,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "慣",
+    "onyomi": ["カン"],
+    "kunyomi": ["な.れる", "な.らす"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["get used to", "custom"],
+      "bn": ["অভ্যস্ত হওয়া", "রীতি"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["忄", "貫"],
     "strokes": 14,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "生",
+    "onyomi": ["セイ", "ショウ"],
+    "kunyomi": ["い.きる", "う.まれる", "なま"],
+    "meanings": {
+      "en": ["life", "birth", "raw"],
+      "bn": ["জীবন", "জন্ম", "কাঁচা"]
+    },
+    "radicals": ["生"],
+    "strokes": 5,
+    "grade": 1,
+    "jlpt": "N5"
+  },
+  {
+    "character": "活",
+    "onyomi": ["カツ"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["active", "living"],
+      "bn": ["সক্রিয়", "জীবনযাপন"]
+    },
+    "radicals": ["氵", "舌"],
+    "strokes": 9,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "決",
+    "onyomi": ["ケツ"],
+    "kunyomi": ["き.める", "き.まる"],
+    "meanings": {
+      "en": ["decide"],
+      "bn": ["সিদ্ধান্ত নেওয়া"]
+    },
+    "radicals": ["氵", "夬"],
+    "strokes": 7,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "変",
+    "onyomi": ["ヘン"],
+    "kunyomi": ["か.わる", "か.える"],
+    "meanings": {
+      "en": ["change", "strange"],
+      "bn": ["পরিবর্তন", "অদ্ভুত"]
+    },
+    "radicals": ["亦", "夂"],
+    "strokes": 9,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "続",
+    "onyomi": ["ゾク"],
+    "kunyomi": ["つづ.く", "つづ.ける"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["continue"],
+      "bn": ["চালিয়ে যাওয়া"]
     },
-    "radicals": [],
-    "strokes": 10,
+    "radicals": ["糸", "売"],
+    "strokes": 13,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "健",
+    "onyomi": ["ケン"],
+    "kunyomi": ["すこ.やか"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["healthy", "strong"],
+      "bn": ["সুস্থ", "শক্তিশালী"]
     },
-    "radicals": [],
+    "radicals": ["亻", "建"],
     "strokes": 11,
     "grade": 4,
     "jlpt": "N4"

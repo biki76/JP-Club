@@ -1,6 +1,272 @@
 [
-{"id":"minna-037-v001","kanji":"褒めます","furigana":"ほめます","romaji":"homemasu","english_meaning":"to praise","bengali_meaning":"প্রশংসা করা","type":"verb"},
-{"id":"minna-037-v002","kanji":"叱ります","furigana":"しかります","romaji":"shikarimasu","english_meaning":"to scold","bengali_meaning":"বকা / তিরস্কার করা","type":"verb"},
-{"id":"minna-037-v003","kanji":"誘います","furigana":"さそいます","romaji":"sasoimasu","english_meaning":"to invite","bengali_meaning":"আমন্ত্রণ জানানো","type":"verb"},
-{"id":"minna-037-v004","kanji":"輸入します","furigana":"ゆにゅうします","romaji":"yunyuu shimasu","english_meaning":"to import","bengali_meaning":"আমদানি করা","type":"verb"}
+  {
+    "id": "minna-037-v001",
+    "furigana": "しゅうかん",
+    "kanji": "習慣",
+    "romaji": "shūkan",
+    "english_meaning": "habit, custom",
+    "bengali_meaning": "অভ্যাস",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v002",
+    "furigana": "せいかつ",
+    "kanji": "生活",
+    "romaji": "seikatsu",
+    "english_meaning": "life, daily living",
+    "bengali_meaning": "জীবনযাত্রা",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v003",
+    "furigana": "きそく",
+    "kanji": "規則",
+    "romaji": "kisoku",
+    "english_meaning": "rule, regulation",
+    "bengali_meaning": "নিয়ম",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v004",
+    "furigana": "きめる",
+    "kanji": "決める",
+    "romaji": "kimeru",
+    "english_meaning": "to decide",
+    "bengali_meaning": "সিদ্ধান্ত নেওয়া",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v005",
+    "furigana": "きまる",
+    "kanji": "決まる",
+    "romaji": "kimaru",
+    "english_meaning": "to be decided",
+    "bengali_meaning": "ঠিক হয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v006",
+    "furigana": "かわる",
+    "kanji": "変わる",
+    "romaji": "kawaru",
+    "english_meaning": "to change, to be altered",
+    "bengali_meaning": "পরিবর্তিত হওয়া",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v007",
+    "furigana": "かえる",
+    "kanji": "変える",
+    "romaji": "kaeru",
+    "english_meaning": "to change something",
+    "bengali_meaning": "পরিবর্তন করা",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v008",
+    "furigana": "ふえる",
+    "kanji": "増える",
+    "romaji": "fueru",
+    "english_meaning": "to increase",
+    "bengali_meaning": "বৃদ্ধি পাওয়া",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v009",
+    "furigana": "へる",
+    "kanji": "減る",
+    "romaji": "heru",
+    "english_meaning": "to decrease",
+    "bengali_meaning": "কমে যাওয়া",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v010",
+    "furigana": "つづける",
+    "kanji": "続ける",
+    "romaji": "tsuzukeru",
+    "english_meaning": "to continue something",
+    "bengali_meaning": "চালিয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v011",
+    "furigana": "つづく",
+    "kanji": "続く",
+    "romaji": "tsuzuku",
+    "english_meaning": "to continue, to last",
+    "bengali_meaning": "চলতে থাকা",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v012",
+    "furigana": "どりょく",
+    "kanji": "努力",
+    "romaji": "doryoku",
+    "english_meaning": "effort",
+    "bengali_meaning": "প্রচেষ্টা",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v013",
+    "furigana": "れんしゅう",
+    "kanji": "練習",
+    "romaji": "renshū",
+    "english_meaning": "practice",
+    "bengali_meaning": "অনুশীলন",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v014",
+    "furigana": "ちょうせん",
+    "kanji": "挑戦",
+    "romaji": "chōsen",
+    "english_meaning": "challenge, attempt",
+    "bengali_meaning": "চ্যালেঞ্জ",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v015",
+    "furigana": "しっぱい",
+    "kanji": "失敗",
+    "romaji": "shippai",
+    "english_meaning": "failure, mistake",
+    "bengali_meaning": "ব্যর্থতা",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v016",
+    "furigana": "せいこう",
+    "kanji": "成功",
+    "romaji": "seikō",
+    "english_meaning": "success",
+    "bengali_meaning": "সাফল্য",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v017",
+    "furigana": "けいけん",
+    "kanji": "経験",
+    "romaji": "keiken",
+    "english_meaning": "experience",
+    "bengali_meaning": "অভিজ্ঞতা",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v018",
+    "furigana": "きょうみ",
+    "kanji": "興味",
+    "romaji": "kyōmi",
+    "english_meaning": "interest",
+    "bengali_meaning": "আগ্রহ",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v019",
+    "furigana": "しゅみ",
+    "kanji": "趣味",
+    "romaji": "shumi",
+    "english_meaning": "hobby",
+    "bengali_meaning": "শখ",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v020",
+    "furigana": "けんこう",
+    "kanji": "健康",
+    "romaji": "kenkō",
+    "english_meaning": "health",
+    "bengali_meaning": "স্বাস্থ্য",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v021",
+    "furigana": "うんどう",
+    "kanji": "運動",
+    "romaji": "undō",
+    "english_meaning": "exercise, physical activity",
+    "bengali_meaning": "ব্যায়াম",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v022",
+    "furigana": "はやおき",
+    "kanji": "早起き",
+    "romaji": "hayaoki",
+    "english_meaning": "getting up early",
+    "bengali_meaning": "সকালে তাড়াতাড়ি ওঠা",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v023",
+    "furigana": "ねぼう",
+    "kanji": "寝坊",
+    "romaji": "nebō",
+    "english_meaning": "oversleeping",
+    "bengali_meaning": "দেরিতে ঘুম থেকে ওঠা",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v024",
+    "furigana": "とちゅう",
+    "kanji": "途中",
+    "romaji": "tochū",
+    "english_meaning": "on the way, halfway",
+    "bengali_meaning": "পথের মাঝে",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v025",
+    "furigana": "あきらめる",
+    "kanji": "諦める",
+    "romaji": "akirameru",
+    "english_meaning": "to give up",
+    "bengali_meaning": "হাল ছেড়ে দেওয়া",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v026",
+    "furigana": "なれる",
+    "kanji": "慣れる",
+    "romaji": "nareru",
+    "english_meaning": "to get used to",
+    "bengali_meaning": "অভ্যস্ত হওয়া",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v027",
+    "furigana": "ちがう",
+    "kanji": "違う",
+    "romaji": "chigau",
+    "english_meaning": "to differ, to be wrong",
+    "bengali_meaning": "আলাদা হওয়া",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v028",
+    "furigana": "じぶん",
+    "kanji": "自分",
+    "romaji": "jibun",
+    "english_meaning": "oneself",
+    "bengali_meaning": "নিজে",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v029",
+    "furigana": "しょうらい",
+    "kanji": "将来",
+    "romaji": "shōrai",
+    "english_meaning": "future",
+    "bengali_meaning": "ভবিষ্যৎ",
+    "tags": ["vocabulary", "lesson-37"]
+  },
+  {
+    "id": "minna-037-v030",
+    "furigana": "もくひょう",
+    "kanji": "目標",
+    "romaji": "mokuhyō",
+    "english_meaning": "goal, target",
+    "bengali_meaning": "লক্ষ্য",
+    "tags": ["vocabulary", "lesson-37"]
+  }
 ]
