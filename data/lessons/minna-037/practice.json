@@ -3,48 +3,157 @@
     "id": "minna-037-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜37-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜37-A"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン37の 文法です。",
-      "furigana": "これは レッスン37の 文法です。",
-      "romaji": ""
+      "jp": "日本語が 話せる ＿＿ なりました。",
+      "furigana": "にほんごが はなせる ＿＿ なりました。",
+      "romaji": "Nihongo ga hanaseru ＿＿ narimashita."
     },
-    "options": [
-      "Grammar pattern 37-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
-    "correctIndex": 0,
+    "options": ["ために", "ように", "ことに", "まま"],
+    "correctIndex": 1,
     "explanation": {
-      "en": "The pattern 〜37-A means \"Grammar pattern 37-A\".",
-      "bn": "〜37-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 37-A\"।"
+      "en": "V-る ように なる means to become able to do something.",
+      "bn": "V-る ように なる মানে কোনো কিছু করতে পারা শুরু করা।"
     }
   },
   {
     "id": "minna-037-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜37-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜37-B"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン37の 文法です。",
-      "furigana": "これは レッスン37の 文法です。",
-      "romaji": ""
+      "jp": "健康の ために、毎日 運動する ＿＿ しています。",
+      "furigana": "けんこうの ために、まいにち うんどうする ＿＿ しています。",
+      "romaji": "Kenkō no tame ni, mainichi undō suru ＿＿ shite imasu."
+    },
+    "options": ["ために", "ように", "ことに", "そうに"],
+    "correctIndex": 1,
+    "explanation": {
+      "en": "V-る ように する means to try to or make an effort to do something.",
+      "bn": "V-る ように する মানে কোনো কিছু করার চেষ্টা করা।"
+    }
+  },
+  {
+    "id": "minna-037-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "ケーキを 全部 食べて＿＿。",
+      "furigana": "けーきを ぜんぶ たべて＿＿。",
+      "romaji": "Kēki o zenbu tabete ＿＿."
+    },
+    "options": ["おきました", "しまいました", "みました", "ありました"],
+    "correctIndex": 1,
+    "explanation": {
+      "en": "V-て しまう shows an action done completely or accidentally.",
+      "bn": "V-て しまう সম্পূর্ণ বা ভুলে হয়ে যাওয়া কাজ বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-037-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "新しい 趣味を 始めて＿＿です。",
+      "furigana": "あたらしい しゅみを はじめて＿＿です。",
+      "romaji": "Atarashii shumi o hajimete ＿＿ desu."
+    },
+    "options": ["たい", "みたい", "しまう", "おく"],
+    "correctIndex": 1,
+    "explanation": {
+      "en": "V-て みたい means to want to try doing something.",
+      "bn": "V-て みたい মানে করে দেখতে চাওয়া।"
+    }
+  },
+  {
+    "id": "minna-037-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "来月から 早起きを する ＿＿ しました。",
+      "furigana": "らいげつから はやおきを する ＿＿ しました。",
+      "romaji": "Raigetsu kara hayaoki o suru ＿＿ shimashita."
+    },
+    "options": ["ことに", "ように", "ために", "そうに"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-る ことにする means to decide to do something.",
+      "bn": "V-る ことにする মানে কিছু করার সিদ্ধান্ত নেওয়া।"
+    }
+  },
+  {
+    "id": "minna-037-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "電車の 中に 傘を 忘れてしまいました。",
+      "furigana": "でんしゃの なかに かさを わすれてしまいました。",
+      "romaji": "Densha no naka ni kasa o wasurete shimaimashita."
     },
     "options": [
-      "Grammar pattern 37-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "I accidentally left my umbrella on the train.",
+      "I will leave my umbrella on the train on purpose.",
+      "I found an umbrella on the train.",
+      "I bought an umbrella on the train."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜37-B means \"Grammar pattern 37-B\".",
-      "bn": "〜37-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 37-B\"।"
+      "en": "V-て しまう with 忘れる shows an accidental or regrettable action.",
+      "bn": "忘れる এর সঙ্গে V-て しまう ভুলে হয়ে যাওয়া বা অনুতাপের কাজ বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-037-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form to express a continued effort.",
+      "bn": "চলমান প্রচেষ্টা বোঝানোর জন্য সঠিক রূপ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "途中で 諦めない ＿＿ しましょう。",
+      "furigana": "とちゅうで あきらめない ＿＿ しましょう。",
+      "romaji": "Tochū de akiramenai ＿＿ shimashō."
+    },
+    "options": ["ことに", "ように", "ために", "まま"],
+    "correctIndex": 1,
+    "explanation": {
+      "en": "V-ない ように する means to try not to do something.",
+      "bn": "V-ない ように する মানে কিছু না করার চেষ্টা করা।"
+    }
+  },
+  {
+    "id": "minna-037-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 慣れる.",
+      "bn": "慣れる এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "一か月で 体が 慣れました。",
+      "furigana": "いっかげつで からだが なれました。",
+      "romaji": "Ikkagetsu de karada ga naremashita."
+    },
+    "options": ["got used to", "got tired", "got sick", "got bigger"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "慣れる means to get used to something after some time.",
+      "bn": "慣れる মানে সময় নিয়ে কোনো কিছুতে অভ্যস্ত হয়ে যাওয়া।"
     }
   }
 ]
