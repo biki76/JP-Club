@@ -1,104 +1,26 @@
-/* Phase 13: Lessons Page Styles */
-
-/* Sticky Filters (if you add them later) */
-.lessons-filters {
-  position: sticky;
-  top: var(--header-height, 64px);
-  z-index: 20;
-  background: var(--bg);
-  padding: var(--s-3) var(--s-4);
-  border-bottom: 1px solid var(--border);
-}
-
-/* Lesson Card Base (overrides inline fallback) */
-.lesson-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--r-lg);
-  padding: var(--s-4);
-  display: grid;
-  grid-template-columns: 56px 1fr;
-  gap: var(--s-3);
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.lesson-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
-
-.lesson-card:focus-visible {
-  outline: 2px solid var(--focus);
-  outline-offset: 2px;
-}
-
-.lesson-card__number {
-  width: 56px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--r-md);
-  background: var(--bg);
-  color: var(--ink);
-  font-size: var(--fs-2xl);
-  font-weight: 700;
-}
-
-.lesson-card__number--completed {
-  background: var(--success);
-  color: #FFFFFF;
-}
-
-.lesson-card__number--in-progress {
-  background: var(--primary);
-  color: #FFFFFF;
-}
-
-.lesson-card__content {
-  display: flex;
-  flex-direction: column;
-  gap: var(--s-1);
-  min-width: 0;
-}
-
-.lesson-card__title {
-  margin: 0;
-  font-size: var(--fs-lg);
-  font-weight: 600;
-  color: var(--ink);
-  line-height: var(--lh-en);
-}
-
-.lesson-card__status {
-  margin: 0;
-  font-size: var(--fs-sm);
-  color: var(--ink-muted);
-}
-
-.lesson-card__meta {
-  display: flex;
-  gap: var(--s-2);
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: var(--s-1);
-}
-
-.lesson-card__badge {
-  font-size: var(--fs-xs);
-  padding: var(--s-1) var(--s-2);
-  border-radius: var(--r-sm);
-  background: var(--bg);
-  border: 1px solid var(--border);
-  color: var(--ink-muted);
-  font-weight: 500;
-}
-
-.lesson-card__badge--jlpt {
-  background: var(--primary-glow);
-  color: var(--primary);
-  border-color: var(--primary);
-}
+.ls-resume{margin:24px 0 16px;min-height:96px}
+.ls-resume .v2-card{min-height:96px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 24px}
+.ls-filters{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 24px;position:sticky;top:var(--v2-header-h);z-index:5;padding:8px 0;background:color-mix(in srgb,var(--v2-bg) 85%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.ls-chip{min-height:44px;min-width:44px;padding:0 16px;border-radius:var(--v2-r-pill);border:1px solid var(--v2-border);background:var(--v2-surface);color:var(--v2-text);font-weight:600;cursor:pointer;transition:background-color 200ms var(--v2-ease),transform 120ms var(--v2-ease)}
+.ls-chip:active{transform:scale(.98)}
+.ls-chip[aria-pressed="true"]{background:var(--v2-brand);color:var(--v2-brand-ink);border-color:var(--v2-brand)}
+.ls-chip:focus-visible,.ls-card:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.ls-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));padding-bottom:96px}
+.ls-card{position:relative;display:flex;flex-direction:column;justify-content:space-between;min-height:168px;padding:16px;border-radius:var(--v2-r-lg);border:1px solid var(--v2-border);background:var(--v2-surface);color:var(--v2-text);text-decoration:none;box-shadow:var(--v2-shadow-1);transition:transform 200ms var(--v2-ease),box-shadow 200ms var(--v2-ease)}
+a.ls-card:hover{transform:translateY(-2px);box-shadow:var(--v2-shadow-3)}
+a.ls-card:active{transform:scale(.98)}
+.ls-card[aria-disabled="true"]{opacity:.55;cursor:not-allowed}
+.ls-card--current{border-color:var(--v2-brand);box-shadow:0 0 0 1px var(--v2-brand),var(--v2-shadow-2)}
+.ls-top{display:flex;align-items:center;justify-content:space-between}
+.ls-num{font-size:var(--v2-fs-xl);font-weight:700;line-height:1}
+.ls-title{font-size:var(--v2-fs-sm);font-weight:600;margin-top:8px}
+.ls-sub{font-size:var(--v2-fs-xs);color:var(--v2-text-2);margin-top:2px}
+.ls-foot{display:flex;align-items:center;justify-content:space-between;margin-top:12px;gap:8px}
+.ls-jlpt{font-size:var(--v2-fs-xs);font-weight:700;padding:2px 8px;border-radius:var(--v2-r-pill);border:1px solid var(--v2-border);color:var(--v2-text-2)}
+.ls-ring{width:44px;height:44px}
+.ls-ring .v2-ring{width:44px;height:44px}
+.ls-state{font-size:var(--v2-fs-xs);font-weight:600;display:inline-flex;align-items:center;gap:4px}
+.ls-state--done{color:var(--v2-ok)}
+.ls-state--soon{color:var(--v2-text-2)}
+.ls-empty{grid-column:1/-1;text-align:center;padding:48px 16px;color:var(--v2-text-2)}
+@media (prefers-reduced-motion:reduce){a.ls-card:hover{transform:none}}

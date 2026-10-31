@@ -66,7 +66,7 @@
       + 'data-aria-label-en="Open menu" data-aria-label-bn="মেনু খুলুন" aria-label="Open menu">' + ICONS.menu + '</button>';
     html += '<a class="shell-header__brand" href="home.html">'
       + '<span class="shell-header__mark" aria-hidden="true">日</span>'
-      + '<span>Nihongo · Bengali</span></a>';
+      + '<span>JP-Club</span></a>';
     html += '<span class="shell-header__spacer"></span>';
 
     if (cfg.searchEnabled) {
@@ -149,7 +149,7 @@
 
   function renderFooter(host) {
     host.innerHTML = '<div class="shell-footer__inner">'
-      + '<span>' + txt({ en: '© Nihongo · Bengali — Japanese for Bengali speakers', bn: '© নিহোঙ্গো · বাংলা — বাংলাভাষীদের জন্য জাপানিজ' }) + '</span>'
+      + '<span>' + txt({ en: '© JP-Club — Japanese for Bengali speakers', bn: '© জেপি-ক্লাব — বাংলাভাষীদের জন্য জাপানিজ' }) + '</span>'
       + '<span>' + txt({ en: 'JLPT N5–N3', bn: 'JLPT N5–N3' }) + '</span>'
       + '</div>';
   }

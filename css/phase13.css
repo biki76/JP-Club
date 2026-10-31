@@ -1,0 +1,88 @@
+/* Phase 13 — mobile-first responsive hardening (additive, token-only) */
+
+/* 1. Overflow guards */
+html, body { overflow-x: hidden; max-width: 100%; }
+img, svg, video, canvas { max-width: 100%; height: auto; }
+
+/* 2. Fluid root type — scales gently on large screens */
+html { font-size: 16px; }
+@media (min-width: 1024px) { html { font-size: 16.5px; } }
+@media (min-width: 1440px) { html { font-size: 17px; } }
+
+/* 3. Fluid headings (never overflow 320px) */
+h1 { font-size: clamp(1.75rem, 1.3rem + 2.2vw, 2.75rem); }
+h2 { font-size: clamp(1.375rem, 1.15rem + 1.2vw, 1.875rem); }
+h3 { font-size: clamp(1.125rem, 1.05rem + 0.5vw, 1.375rem); }
+html[lang="bn"] h1, html[lang="bn"] h2, html[lang="bn"] h3 { line-height: var(--lh-bn); }
+
+/* 4. Header: compact, wrap-safe down to 320px */
+[data-shell-header] {
+  gap: var(--s-2);
+  padding-inline: clamp(0.5rem, 3vw, 1.25rem);
+  min-height: 56px;
+}
+[data-shell-header] a, [data-shell-header] button { flex-shrink: 0; }
+[data-shell-header] a span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 360px) {
+  [data-shell-header] { gap: var(--s-1); }
+}
+
+/* 5. Main column: fluid gutters, centered on desktop, nav-safe bottom */
+.shell-main {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: clamp(0.875rem, 4vw, 2rem);
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom, 0px));
+}
+
+/* 6. Bottom nav: iOS safe-area + 48px targets */
+[data-shell-bottomnav] {
+  padding-bottom: calc(var(--s-2) + env(safe-area-inset-bottom, 0px));
+}
+[data-shell-bottomnav] a { min-height: 48px; justify-content: center; }
+
+/* 7. Any card grid never overflows small screens */
+[class*="grid"] { grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
+
+/* 8. Long strings wrap instead of pushing layout */
+p, li, td, th, .lv-jp, [class*="__jp"] { overflow-wrap: break-word; }
+pre, code { max-width: 100%; overflow-x: auto; }
+
+/* 9. Tablet/desktop: breathe, don't stretch */
+@media (min-width: 768px) {
+  [data-shell-header] { min-height: 64px; }
+}
+
+/* Phase 13b — sticky header (all viewports) */
+[data-shell-header] {
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  background: var(--surface-glass, var(--surface));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+
+/* Phase 13b — drawer Settings block (mobile) */
+[data-shell-drawer] { overflow-y: auto; }
+.p13-settings {
+  padding: var(--s-4);
+  border-top: 1px solid var(--border);
+  margin-top: var(--s-2);
+}
+.p13-settings h3 {
+  margin: 0 0 var(--s-3);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-subtle);
+}
+.p13-settings__row {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  flex-wrap: wrap;
+}

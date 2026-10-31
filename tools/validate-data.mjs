@@ -57,7 +57,7 @@ async function main() {
   const seenManifests = new Set();
   const seenSlugs     = new Set();
 
-  for (const mPath of index.manifests) {
+  for (const mPath0 of index.manifests) { const mPath = mPath0.endsWith('.json') ? mPath0 : mPath0 + '/manifest.json';
     seenManifests.add(mPath);
     const full = join(DATA_ROOT, mPath);
     console.log(`\n▸ ${mPath}`);

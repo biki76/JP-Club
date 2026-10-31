@@ -15,7 +15,7 @@
   </script>
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
-  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/cloud.css" />
   <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/design-system.css" />
@@ -75,6 +75,8 @@
       searchEnabled: true
     };
   </script>
+  <link rel="stylesheet" href="css/phase13.css">
+  <link rel="stylesheet" href="css/theme-v2.css">
 </head>
 <body class="shell-body">
   <header data-shell-header></header>
@@ -104,6 +106,7 @@
   <script src="js/theme.js" defer></script>
   <script src="js/i18n.js" defer></script>
   <script src="js/shell.js" defer></script>
+  <!-- DISABLED: <script src="js/phase13-shell.js" defer></script> -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="js/supabase-config.js" defer></script>
   <script src="js/cloud.js" defer></script>
@@ -353,5 +356,7 @@
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true });
     else boot();
   </script>
+  <script src="js/v2-motion.js" defer></script>
+  <script src="js/nav-extra.js" defer></script>
 </body>
 </html>

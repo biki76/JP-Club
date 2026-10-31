@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nihongo · Bengali — Japanese for Bengali speakers</title>
+  <title>JP-Club — Japanese for Bengali speakers</title>
   <script>
     (function () {
       try {
@@ -21,12 +21,10 @@
   <meta name="theme-color" content="#15161a" media="(prefers-color-scheme: dark)" />
   <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
   <link rel="apple-touch-icon" href="icons/icon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="canonical" href="https://biki76.github.io/JP-Club/home.html" />
   <meta name="description" content="Learn Japanese from Bengali with Minna no Nihongo, spaced-repetition flashcards, kanji stroke order, and quizzes. JLPT N5/N4." />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/tailwind.css">
   <link rel="stylesheet" href="css/cloud.css" />
   <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/design-system.css" />
@@ -59,6 +57,8 @@
       searchEnabled: true
     };
   </script>
+  <link rel="stylesheet" href="css/phase13.css">
+  <link rel="stylesheet" href="css/theme-v2.css">
 </head>
 <body class="shell-body">
 <noscript data-noscript-fallback>
@@ -159,11 +159,15 @@
   <script src="js/theme.js" defer></script>
   <script src="js/i18n.js" defer></script>
   <script src="js/shell.js" defer></script>
+  <!-- DISABLED: <script src="js/phase13-shell.js" defer></script> -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="js/supabase-config.js" defer></script>
   <script src="js/cloud.js" defer></script>
   <script src="js/a11y.js" defer></script>
   <script src="js/pwa.js" defer></script>
+  <script src="js/force-update.js" defer></script>
   <script src="js/home.js" defer></script>
+  <script src="js/v2-motion.js" defer></script>
+  <script src="js/nav-extra.js" defer></script>
 </body>
 </html>

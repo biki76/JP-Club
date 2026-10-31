@@ -1,81 +1,106 @@
-// Phase 13: Lessons Index Page Logic (Schema Compliant)
-document.addEventListener('DOMContentLoaded', async () => {
-  const container = document.getElementById('lessons-grid-container');
-  const skeleton = document.getElementById('lessons-skeleton');
-  if (!container) return;
+(function () {
+  'use strict';
+  var TOTAL = 50;
+  var grid = document.getElementById('ls-grid');
+  var resume = document.getElementById('ls-resume');
+  var filter = 'all';
+  var manifests = {};
+  var progress = null;
 
-  try {
-    const res = await fetch('data/lessons/index.json');
-    const data = await res.json();
-    const slugs = data.manifests || []; // Array of strings per schema
-
-    // Fetch manifests in parallel to get titles/JLPT
-    const manifests = await Promise.all(slugs.map(async (slug) => {
-      try {
-        const r = await fetch(`data/lessons/${slug}/manifest.json`);
-        if (!r.ok) throw new Error('Not found');
-        return await r.json();
-      } catch (e) {
-        const num = parseInt(slug.split('-')[1], 10);
-        return { slug, lessonNumber: num, title: { en: `Lesson ${num}` }, jlpt: num <= 25 ? 'N5' : 'N4' };
-      }
-    }));
-
-    if (skeleton) skeleton.style.display = 'none';
-
-    let progress = { completedLessons: 0, currentLesson: 1 };
-    try { progress = JSON.parse(localStorage.getItem('nihongo_progress') || '{}'); } catch(e) {}
-
-    const book1 = manifests.filter(m => Number(m.lessonNumber) <= 25);
-    const book2 = manifests.filter(m => Number(m.lessonNumber) > 25);
-
-    renderBookSection('Book I — N5 (Lessons 1–25)', book1, container, progress);
-    renderBookSection('Book II — N4 (Lessons 26–50)', book2, container, progress);
-
-  } catch (err) {
-    console.error('[Lessons] Failed:', err);
-    if (skeleton) skeleton.innerHTML = `<p style="padding:2rem;text-align:center;color:var(--danger);">Failed to load lessons.</p>`;
+  function txt(en, bn) {
+    var l = document.documentElement.lang === 'bn' ? 'bn' : 'en';
+    return '<span data-en="' + esc(en) + '" data-bn="' + esc(bn) + '">' + esc(l === 'bn' ? bn : en) + '</span>';
   }
-});
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function slug(n) { return 'minna-' + String(n).padStart(3, '0'); }
+  function jlpt(n) { return n <= 25 ? 'N5' : 'N4'; }
+  function bnNum(n) { return String(n).replace(/\d/g, function (d) { return '০১২৩৪৫৬৭৮৯'[d]; }); }
 
-function renderBookSection(title, lessons, container, progress) {
-  if (!lessons || lessons.length === 0) return;
-  const section = document.createElement('section');
-  section.style.marginBottom = 'var(--s-8, 2rem)';
-  const header = document.createElement('h2');
-  header.textContent = title;
-  header.style.cssText = 'font-size:var(--fs-2xl);font-weight:700;margin-bottom:var(--s-4);color:var(--ink);';
-  section.appendChild(header);
+  function readProgress() {
+    try { progress = JSON.parse(localStorage.getItem('nihongo_progress') || 'null'); } catch (e) { progress = null; }
+  }
 
-  const grid = document.createElement('div');
-  grid.style.cssText = 'display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:var(--s-4);';
+  function ring(p) {
+    return '<span class="ls-ring" aria-hidden="true"><svg class="v2-ring" viewBox="0 0 50 50" style="--p:' + p + '">' +
+      '<circle class="bg" cx="25" cy="25" r="22"/><circle class="fg" cx="25" cy="25" r="22"/></svg></span>';
+  }
 
-  lessons.forEach(m => {
-    const num = Number(m.lessonNumber);
-    const isCompleted = progress.completedLessons >= num;
-    const isCurrent = num === (progress.currentLesson || 1);
-    const statusText = isCompleted ? 'Completed' : (isCurrent ? 'In progress' : 'Not started');
-    const statusColor = isCompleted ? 'var(--success)' : (isCurrent ? 'var(--primary)' : 'var(--ink-muted)');
-    const bgColor = isCompleted ? 'var(--success)' : (isCurrent ? 'var(--primary)' : 'var(--bg)');
-    const textColor = (isCompleted || isCurrent) ? '#fff' : 'var(--ink)';
+  function cardFor(n) {
+    var s = slug(n);
+    var m = manifests[s];
+    var available = !!m;
+    var done = progress && n <= (progress.completedLessons || 0);
+    var current = progress && n === progress.currentLesson;
+    var p = done ? 1 : (current ? (progress.currentLessonProgress || 0) : 0);
+    var title = m ? m.title : { en: 'Lesson ' + n, bn: 'পাঠ ' + bnNum(n) };
+    var level = (m && m.jlpt) || jlpt(n);
+    var tag = available ? 'a' : 'div';
+    var attrs = available
+      ? ' href="lesson.html?lesson=' + s + '"'
+      : ' aria-disabled="true"';
+    var state = done
+      ? '<span class="ls-state ls-state--done"><span aria-hidden="true">✓</span>' + txt('Done', 'শেষ') + '</span>'
+      : available
+        ? '<span class="ls-state">' + txt(current ? 'In progress' : 'Start', current ? 'চলমান' : 'শুরু') + '</span>'
+        : '<span class="ls-state ls-state--soon"><span aria-hidden="true">🔒</span>' + txt('Coming soon', 'শীঘ্রই আসছে') + '</span>';
+    return '<' + tag + ' class="ls-card v2-reveal' + (current ? ' ls-card--current' : '') + '" data-level="' + level + '" data-available="' + available + '"' + attrs + '>' +
+      '<div class="ls-top"><span class="ls-num">' + n + '</span>' + (available ? ring(p) : '') + '</div>' +
+      '<div><div class="ls-title">' + txt(title.en, title.bn) + '</div>' +
+      (m && m.subtitle ? '<div class="ls-sub">' + txt(m.subtitle.en, m.subtitle.bn) + '</div>' : '') + '</div>' +
+      '<div class="ls-foot"><span class="ls-jlpt">' + level + '</span>' + state + '</div>' +
+      '</' + tag + '>';
+  }
 
-    const card = document.createElement('a');
-    card.href = `lesson.html?lesson=${m.slug}`;
-    card.className = 'lesson-card';
-    card.style.cssText = 'background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);padding:var(--s-4);display:grid;grid-template-columns:56px 1fr;gap:var(--s-3);align-items:center;text-decoration:none;color:inherit;';
-    
-    card.innerHTML = `
-      <div style="width:56px;height:56px;display:flex;align-items:center;justify-content:center;border-radius:var(--r-md);background:${bgColor};color:${textColor};font-size:var(--fs-2xl);font-weight:700;">${num}</div>
-      <div>
-        <h3 style="margin:0;font-size:var(--fs-lg);font-weight:600;color:var(--ink);">${m.title?.en || 'Lesson ' + num}</h3>
-        <p style="margin:0.25rem 0 0;font-size:var(--fs-sm);color:${statusColor};">${statusText}</p>
-        <div style="display:flex;gap:var(--s-2);margin-top:var(--s-1);">
-          <span style="font-size:var(--fs-xs);padding:var(--s-1) var(--s-2);border-radius:var(--r-sm);background:var(--primary-glow);color:var(--primary);">${m.jlpt || 'N5'}</span>
-        </div>
-      </div>
-    `;
-    grid.appendChild(card);
+  function render() {
+    var out = [];
+    for (var n = 1; n <= TOTAL; n++) {
+      var lvl = (manifests[slug(n)] && manifests[slug(n)].jlpt) || jlpt(n);
+      var avail = !!manifests[slug(n)];
+      if (filter === 'all' || filter === lvl || (filter === 'available' && avail)) out.push(cardFor(n));
+    }
+    grid.innerHTML = out.length ? out.join('') : '<div class="ls-empty">' + txt('No lessons match.', 'কোনো পাঠ মেলেনি।') + '</div>';
+    grid.setAttribute('aria-busy', 'false');
+    grid.querySelectorAll('.v2-reveal').forEach(function (el, i) { el.style.setProperty('--i', Math.min(i % 12, 6)); el.classList.add('is-in'); });
+    grid.querySelectorAll('.v2-ring').forEach(function (s) {
+      var p = parseFloat(s.style.getPropertyValue('--p')) || 0;
+      s.style.setProperty('--p', 0);
+      requestAnimationFrame(function () { s.style.setProperty('--p', p); });
+    });
+    var ev = document.createEvent('Event'); ev.initEvent('shell:i18n-refresh', true, true); document.dispatchEvent(ev);
+  }
+
+  function renderResume() {
+    var n = progress && progress.currentLesson ? progress.currentLesson : 1;
+    var has = !!manifests[slug(n)];
+    if (!has) { n = 1; }
+    resume.innerHTML = '<a class="v2-card" href="lesson.html?lesson=' + slug(n) + '">' +
+      '<div><div class="v2-card__desc">' + txt(progress ? 'Resume' : 'Start here', progress ? 'চালিয়ে যান' : 'এখান থেকে শুরু') + '</div>' +
+      '<div class="v2-card__title" style="margin-top:4px">' + txt('Lesson ' + n, 'পাঠ ' + bnNum(n)) + '</div></div>' +
+      '<span class="v2-btn v2-btn--primary" aria-hidden="true">' + txt('Go', 'চলুন') + '</span></a>';
+  }
+
+  document.querySelectorAll('.ls-chip').forEach(function (b) {
+    b.addEventListener('click', function () {
+      filter = b.getAttribute('data-f');
+      document.querySelectorAll('.ls-chip').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      render();
+    });
   });
-  section.appendChild(grid);
-  container.appendChild(section);
-}
+
+  window.addEventListener('storage', function (e) { if (e.key === 'nihongo_progress') { readProgress(); renderResume(); render(); } });
+
+  async function init() {
+    readProgress();
+    // skeleton to reserve space
+    grid.innerHTML = new Array(12).join('<div class="v2-skel" style="min-height:168px"></div>');
+    try {
+      var course = await DataLoader.loadCourse();
+      (course.lessons || []).forEach(function (m) { manifests[m.slug] = m; });
+    } catch (e) { /* offline or missing: show locked grid */ }
+    renderResume();
+    render();
+  }
+
+  if (window.DataLoader) init();
+  else window.addEventListener('load', init);
+})();

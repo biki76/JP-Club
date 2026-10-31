@@ -1,115 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-en="Lessons — JP-Club" data-bn="পাঠ — জেপি-ক্লাব">Lessons — JP-Club</title>
-  
-  <!-- Pre-paint: Theme, Lang, Furigana -->
   <script>
-    (function() {
-      const theme = localStorage.getItem('nihongo_theme') || 'light';
-      const lang = localStorage.getItem('nihongo_lang') || 'en';
-      const furigana = localStorage.getItem('nihongo_furigana') || 'on';
-      document.documentElement.setAttribute('data-theme', theme);
-      document.documentElement.setAttribute('lang', lang);
-      if (furigana === 'off') document.documentElement.classList.add('hide-furigana');
-    })();
-  
-  <script>
-    window.SHELL_CONFIG = {
-      brand: { name: { en: 'JP-Club', bn: 'জেপি-ক্লাব' }, href: 'home.html' },
-      navGroups: [
-        { title: { en: 'Learn', bn: 'শিখুন' }, items: [
-          { key: 'home', icon: 'home', href: 'home.html', label: { en: 'Home', bn: 'হোম' } },
-          { key: 'lessons', icon: 'book', href: 'lessons.html', label: { en: 'Lessons', bn: 'পাঠ' } },
-          { key: 'kanji', icon: 'kanji', href: 'kanji.html', label: { en: 'Kanji', bn: 'কানজি' } }
-        ]},
-        { title: { en: 'Practice', bn: 'অনুশীলন' }, items: [
-          { key: 'flashcards', icon: 'cards', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
-          { key: 'quiz', icon: 'quiz', href: 'quiz.html', label: { en: 'Quiz', bn: 'কুইজ' } }
-        ]}
-      ],
-      bottomNav: [
-        { href: 'home.html', icon: 'home', label: { en: 'Home', bn: 'হোম' } },
-        { href: 'lessons.html', icon: 'book', label: { en: 'Lessons', bn: 'পাঠ' } },
-        { href: 'flashcards.html', icon: 'cards', label: { en: 'Cards', bn: 'কার্ড' } },
-        { href: 'progress.html', icon: 'chart', label: { en: 'Progress', bn: 'অগ্রগতি' } }
-      ],
-      searchEnabled: true
-    };
+  (function(){try{var d=document.documentElement,t=localStorage.getItem('nihongo_theme'),f=localStorage.getItem('nihongo_furigana'),l=localStorage.getItem('nihongo_lang');
+  if(t)d.setAttribute('data-theme',t);if(f)d.setAttribute('data-furigana',f);if(l)d.setAttribute('lang',l);}catch(e){}})();
   </script>
-  </script>
-
-  <!-- PWA & Fonts -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lessons · Nihongo Bengali</title>
+  <meta name="description" content="All 50 Minna no Nihongo lessons with progress, JLPT levels and resume.">
   <link rel="manifest" href="manifest.webmanifest">
-  <meta name="theme-color" content="#FAFAFA" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0B0F19" media="(prefers-color-scheme: dark)">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  
-  <!-- CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#15161a" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/tailwind.css">
   <link rel="stylesheet" href="css/cloud.css">
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/design-system.css">
   <link rel="stylesheet" href="css/shell.css">
   <link rel="stylesheet" href="css/a11y.css">
   <link rel="stylesheet" href="css/pwa.css">
+  <link rel="stylesheet" href="css/theme-v2.css">
   <link rel="stylesheet" href="css/lessons.css">
 </head>
-
 <body class="shell-body">
   <header data-shell-header></header>
-  
   <div class="shell-frame">
     <aside class="shell-sidebar" data-shell-sidebar></aside>
-    <main class="shell-main">
-      
-      <!-- Page Header -->
-      <div style="padding: var(--s-6, 1.5rem) var(--s-4, 1rem) 0;">
-        <h1 class="text-3xl font-bold mb-2" style="color: var(--ink);">
-          <span data-en="All Lessons" data-bn="সব পাঠ">All Lessons</span>
-        </h1>
-        <p class="text-lg mb-6" style="color: var(--ink-muted);">
-          <span data-en="Master Japanese step by step, from N5 to N3." data-bn="এন৫ থেকে এন৩ পর্যন্ত ধাপে ধাপে জাপানিজ শিখুন।">Master Japanese step by step, from N5 to N3.</span>
-        </p>
+    <main class="shell-main" id="main">
+      <h1 class="v2-hero__title" style="font-size:var(--v2-fs-2xl)">
+        <span data-en="Lessons" data-bn="পাঠসমূহ">Lessons</span>
+      </h1>
+      <p class="v2-hero__lead">
+        <span data-en="Minna no Nihongo, Lesson 1 to 50." data-bn="মিন্না নো নিহোঙ্গো, পাঠ ১ থেকে ৫০।">Minna no Nihongo, Lesson 1 to 50.</span>
+      </p>
+
+      <div id="ls-resume" class="ls-resume" aria-live="polite"></div>
+
+      <div class="ls-filters" role="group" aria-label="Filter">
+        <button class="ls-chip" data-f="all" aria-pressed="true"><span data-en="All" data-bn="সব">All</span></button>
+        <button class="ls-chip" data-f="N5" aria-pressed="false">N5</button>
+        <button class="ls-chip" data-f="N4" aria-pressed="false">N4</button>
+        <button class="ls-chip" data-f="N3" aria-pressed="false">N3</button>
+        <button class="ls-chip" data-f="available" aria-pressed="false"><span data-en="Available" data-bn="উপলব্ধ">Available</span></button>
       </div>
 
-      <!-- Phase 13: Skeleton Loader -->
-      <div id="lessons-skeleton" style="padding: 0 var(--s-4, 1rem) var(--s-6, 1.5rem);">
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--s-4);">
-          <!-- Skeleton Card 1 -->
-          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: var(--s-4); display: grid; grid-template-columns: 56px 1fr; gap: var(--s-3);">
-            <div style="width: 56px; height: 56px; background: var(--border); border-radius: var(--r-md);"></div>
-            <div style="display: flex; flex-direction: column; gap: var(--s-2);">
-              <div style="height: 20px; background: var(--border); border-radius: var(--r-sm); width: 70%;"></div>
-              <div style="height: 16px; background: var(--border); border-radius: var(--r-sm); width: 50%;"></div>
-            </div>
-          </div>
-          <!-- Skeleton Card 2 -->
-          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: var(--s-4); display: grid; grid-template-columns: 56px 1fr; gap: var(--s-3);">
-            <div style="width: 56px; height: 56px; background: var(--border); border-radius: var(--r-md);"></div>
-            <div style="display: flex; flex-direction: column; gap: var(--s-2);">
-              <div style="height: 20px; background: var(--border); border-radius: var(--r-sm); width: 70%;"></div>
-              <div style="height: 16px; background: var(--border); border-radius: var(--r-sm); width: 50%;"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Phase 13: Lessons Grid Container -->
-      <div id="lessons-grid-container" style="padding: 0 var(--s-4, 1rem) var(--s-8, 2rem);"></div>
-
+      <div id="ls-grid" class="ls-grid" aria-busy="true"></div>
     </main>
   </div>
-
   <nav class="shell-bottomnav" data-shell-bottomnav></nav>
   <footer class="shell-footer" data-shell-footer></footer>
   <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
 
-  <!-- Scripts -->
   <script src="js/data-schemas.js" defer></script>
   <script src="js/data-loader.js" defer></script>
   <script src="js/shell.js" defer></script>
@@ -118,6 +63,8 @@
   <script src="js/cloud.js" defer></script>
   <script src="js/a11y.js" defer></script>
   <script src="js/pwa.js" defer></script>
+  <script src="js/v2-motion.js" defer></script>
   <script src="js/lessons.js" defer></script>
+  <script src="js/nav-extra.js" defer></script>
 </body>
 </html>

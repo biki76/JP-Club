@@ -6,3 +6,5 @@ package-lock.json
 
 # normalize-data backups (session-only safety rails)
 data/lessons/**/*.bak
+.bak-tw/
+val.txt

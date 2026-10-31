@@ -5,25 +5,34 @@
  */
 'use strict';
 
-const VERSION    = 'v17';
+const VERSION    = 'v20';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'js/nav-extra.js',
+  'js/a11y-extra.js',
+  'css/fonts.css',
+  'css/tailwind.css',
+  'lessons.html',
+  'css/theme-v2.css',
+  'css/lessons.css',
+  'js/v2-motion.js',
+  'js/lessons.js',
   'home.html', 'lessons.html', 'lesson.html', 'flashcards.html', 'quiz.html', 'kanji.html',
   'search.html', 'progress.html', 'placement.html',
   'auth.html', 'auth-callback.html',
   'offline.html', 'manifest.webmanifest',
 
-  'css/tokens.css', 'css/design-system.css', 'css/shell.css',
+  'css/tokens.css', 'css/design-system.css', 'css/shell.css', 'css/phase13.css',
   'css/home.css', 'css/lesson.css', 'css/audio.css',
   'css/flashcards.css', 'css/quiz.css', 'css/kanji.css',
   'css/search.css', 'css/progress.css', 'css/placement.css',
   'css/pwa.css', 'css/a11y.css',
   'css/auth.css', 'css/cloud.css', 'css/content-status.css',
 
-  'js/theme.js', 'js/i18n.js', 'js/main.js', 'js/shell.js', 'js/home.js',
+  'js/theme.js', 'js/i18n.js', 'js/main.js', 'js/shell.js', 'js/phase13-shell.js', 'js/home.js',
   'js/data-schemas.js', 'js/data-loader.js', 'js/lessons.js',
   'js/audio-engine.js', 'js/audio-ui.js',
   'js/srs.js', 'js/flashcards.js',
