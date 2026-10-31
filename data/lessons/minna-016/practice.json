@@ -46,5 +46,149 @@
       "en": "The pattern 〜16-B means \"Grammar pattern 16-B\".",
       "bn": "〜16-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 16-B\"।"
     }
+  },
+  {
+    "id": "minna-016-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 朝 起きて、顔を 洗います।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 朝 起きて、顔を 洗います।"
+    },
+    "stem": {
+      "jp": "朝 起きて、顔を 洗います।",
+      "furigana": "あさ おきて、かおを あらいます।",
+      "romaji": "asa okite, kao o araimasu."
+    },
+    "options": [
+      "I wake up and wash my face.",
+      "I wash my face before waking up.",
+      "I do not wash my face.",
+      "I sleep after washing my face."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vて joins two actions in sequence.",
+      "bn": "Vて দুটি কাজ ধারাবাহিকভাবে জোড়া লাগায়।"
+    }
+  },
+  {
+    "id": "minna-016-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 宿題を してから、テレビを 見ます।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 宿題を してから、テレビを 見ます।"
+    },
+    "stem": {
+      "jp": "宿題を してから、テレビを 見ます।",
+      "furigana": "しゅくだいを してから、テレビを みます।",
+      "romaji": "shukudai o shite kara, terebi o mimasu."
+    },
+    "options": [
+      "After doing homework, I watch TV.",
+      "I do homework while watching TV.",
+      "I do homework after watching TV.",
+      "I do not do homework."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vてから marks the action done first.",
+      "bn": "Vてから আগে করা কাজ চিহ্নিত করে।"
+    }
+  },
+  {
+    "id": "minna-016-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 駅まで どうやって 行きますか。",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 駅まで どうやって 行きますか。"
+    },
+    "stem": {
+      "jp": "駅まで どうやって 行きますか。",
+      "furigana": "えきまで どうやって いきますか।",
+      "romaji": "eki made dou yatte ikimasu ka."
+    },
+    "options": [
+      "How do you get to the station?",
+      "Where is the station?",
+      "When do you go to the station?",
+      "Who goes to the station?"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "どうやって asks about the method or means.",
+      "bn": "どうやって পদ্ধতি বা উপায় জিজ্ঞাসা করে।"
+    }
+  },
+  {
+    "id": "minna-016-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: この 部屋は 広くて 明るいです।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: この 部屋は 広くて 明るいです।"
+    },
+    "stem": {
+      "jp": "この 部屋は 広くて 明るいです।",
+      "furigana": "この へやは ひろくて あかるいです।",
+      "romaji": "kono heya wa hirokute akarui desu."
+    },
+    "options": [
+      "This room is wide and bright.",
+      "This room is narrow and dark.",
+      "Is this room bright?",
+      "This room is big but dark."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "い-adjectives take 〜くて when joined together.",
+      "bn": "ই-বিশেষণ জোড়া লাগালে 〜くて রূপ নেয়।"
+    }
+  },
+  {
+    "id": "minna-016-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: 家に 帰って、晩ご飯を 食べます।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: 家に 帰って、晩ご飯を 食べます।"
+    },
+    "stem": {
+      "jp": "家に 帰って、晩ご飯を 食べます।",
+      "furigana": "いえに かえって、ばんごはんを たべます।",
+      "romaji": "ie ni kaette, bangohan o tabemasu."
+    },
+    "options": [
+      "I go home and eat dinner.",
+      "I eat dinner and then go home.",
+      "I don't eat dinner at home.",
+      "I eat dinner at a restaurant."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The て-form links two actions in the order given.",
+      "bn": "তে-রূপ দুটি কাজ প্রদত্ত ক্রমে সংযুক্ত করে।"
+    }
+  },
+  {
+    "id": "minna-016-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning: あの 店は 安くて 美味しいです।",
+      "bn": "সঠিক অর্থ নির্বাচন করুন: あの 店は 安くて 美味しいです।"
+    },
+    "stem": {
+      "jp": "あの 店は 安くて 美味しいです।",
+      "furigana": "あの みせは やすくて おいしいです।",
+      "romaji": "ano mise wa yasukute oishii desu."
+    },
+    "options": [
+      "That shop is cheap and delicious.",
+      "That shop is expensive but delicious.",
+      "Is that shop cheap?",
+      "That shop is expensive and not good."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "〜くて connects two i-adjectives as a description.",
+      "bn": "〜くて দুটি ই-বিশেষণকে একটি বর্ণনা হিসেবে যুক্ত করে।"
+    }
   }
 ]

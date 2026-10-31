@@ -3,14 +3,14 @@
     "id": "minna-016-g1",
     "pattern": "〜16-A",
     "meaning_en": "Grammar pattern 16-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 16-A",
+    "meaning_bn": "ধারাবাহিক কাজ: ~ করে, তারপর ~ (~て、~)",
     "examples": [
       {
         "jp": "これは レッスン16の 文法です。",
         "en": "This is lesson 16 grammar.",
-        "bn": "This is lesson 16 grammar.",
-        "furigana": "これは レッスン16の 文法です。",
-        "romaji": ""
+        "bn": "সকালে উঠে মুখ ধুই।",
+        "furigana": "あさ おきて、かおを あらいます।",
+        "romaji": "asa okite, kao o araimasu."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-016-g2",
     "pattern": "〜16-B",
     "meaning_en": "Grammar pattern 16-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 16-B",
+    "meaning_bn": "~ করার পর (~てから)",
     "examples": [
       {
         "jp": "これは レッスン16の 文法です。",
         "en": "This is lesson 16 grammar.",
-        "bn": "This is lesson 16 grammar.",
-        "furigana": "これは レッスン16の 文法です。",
-        "romaji": ""
+        "bn": "পড়াশোনা করার পর টিভি দেখি।",
+        "furigana": "しゅくだいを してから、テレビを みます।",
+        "romaji": "shukudai o shite kara, terebi o mimasu."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-016-g3",
+    "pattern": "どうやって",
+    "meaning_en": "how do you ~",
+    "meaning_bn": "কীভাবে ~",
+    "examples": [
+      {
+        "jp": "駅まで どうやって 行きますか。",
+        "furigana": "えきまで どうやって いきますか।",
+        "romaji": "eki made dou yatte ikimasu ka.",
+        "en": "How do you get to the station?",
+        "bn": "স্টেশন পর্যন্ত কীভাবে যাব?"
+      },
+      {
+        "jp": "この 漢字は どうやって 読みますか。",
+        "furigana": "この かんじは どうやって よみますか।",
+        "romaji": "kono kanji wa dou yatte yomimasu ka.",
+        "en": "How do you read this kanji?",
+        "bn": "এই কাঞ্জিটি কীভাবে পড়ি?"
+      },
+      {
+        "jp": "大学へ どうやって 行きますか。",
+        "furigana": "だいがくへ どうやって いきますか।",
+        "romaji": "daigaku e dou yatte ikimasu ka.",
+        "en": "How do you go to the university?",
+        "bn": "বিশ্ববিদ্যালয়ে কীভাবে যাব?"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-016-g4",
+    "pattern": "い形容詞の て形 (~くて)",
+    "meaning_en": "i-adjective te-form for joining descriptions",
+    "meaning_bn": "ই-বিশেষণের て-রূপ (~くて) দিয়ে দুটি বর্ণনা জোড়া লাগানো",
+    "examples": [
+      {
+        "jp": "この 部屋は 広くて 明るいです。",
+        "furigana": "この へやは ひろくて あかるいです।",
+        "romaji": "kono heya wa hirokute akarui desu.",
+        "en": "This room is wide and bright.",
+        "bn": "এই ঘরটি প্রশস্ত এবং উজ্জ্বল।"
+      },
+      {
+        "jp": "あの 店は 安くて 美味しいです。",
+        "furigana": "あの みせは やすくて おいしいです।",
+        "romaji": "ano mise wa yasukute oishii desu.",
+        "en": "That shop is cheap and delicious.",
+        "bn": "ওই দোকানটি সস্তা এবং সুস্বাদু।"
+      },
+      {
+        "jp": "山田さんは 若くて 元気です。",
+        "furigana": "やまださんは わかくて げんきです।",
+        "romaji": "yamada san wa wakakute genki desu.",
+        "en": "Yamada-san is young and energetic.",
+        "bn": "ইয়ামাদা-সান তরুণ এবং প্রাণবন্ত।"
       }
     ],
     "tags": [
