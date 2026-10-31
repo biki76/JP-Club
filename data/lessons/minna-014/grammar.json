@@ -3,14 +3,14 @@
     "id": "minna-014-g1",
     "pattern": "〜14-A",
     "meaning_en": "Grammar pattern 14-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 14-A",
+    "meaning_bn": "পাঠ ১৪-এর ব্যাকরণ প্যাটার্ন A",
     "examples": [
       {
         "jp": "これは レッスン14の 文法です。",
         "en": "This is lesson 14 grammar.",
-        "bn": "This is lesson 14 grammar.",
-        "furigana": "これは レッスン14の 文法です。",
-        "romaji": ""
+        "bn": "এটি পাঠ ১৪-এর ব্যাকরণ।",
+        "furigana": "これは レッスンじゅうよんの ぶんぽうです।",
+        "romaji": "kore wa ressun juuyon no bunpou desu."
       }
     ],
     "tags": [
@@ -21,14 +21,78 @@
     "id": "minna-014-g2",
     "pattern": "〜14-B",
     "meaning_en": "Grammar pattern 14-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 14-B",
+    "meaning_bn": "পাঠ ১৪-এর ব্যাকরণ প্যাটার্ন B",
     "examples": [
       {
         "jp": "これは レッスン14の 文法です。",
         "en": "This is lesson 14 grammar.",
-        "bn": "This is lesson 14 grammar.",
-        "furigana": "これは レッスン14の 文法です。",
-        "romaji": ""
+        "bn": "এটি পাঠ ১৪-এর ব্যাকরণ।",
+        "furigana": "これは レッスンじゅうよんの ぶんぽうです।",
+        "romaji": "kore wa ressun juuyon no bunpou desu."
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-014-g3",
+    "pattern": "〜てください",
+    "meaning_en": "please do ~",
+    "meaning_bn": "দয়া করে ~ করুন",
+    "examples": [
+      {
+        "jp": "窓を 開けてください。",
+        "furigana": "まどを あけてください।",
+        "romaji": "mado o akete kudasai.",
+        "en": "Please open the window.",
+        "bn": "দয়া করে জানালাটি খুলুন।"
+      },
+      {
+        "jp": "名前を 書いてください。",
+        "furigana": "なまえを かいてください।",
+        "romaji": "namae o kaite kudasai.",
+        "en": "Please write your name.",
+        "bn": "দয়া করে আপনার নাম লিখুন।"
+      },
+      {
+        "jp": "少し 待ってください。",
+        "furigana": "すこし まってください।",
+        "romaji": "sukoshi matte kudasai.",
+        "en": "Please wait a moment.",
+        "bn": "দয়া করে একটু অপেক্ষা করুন।"
+      }
+    ],
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "minna-014-g4",
+    "pattern": "〜ています",
+    "meaning_en": "be doing ~ (ongoing action)",
+    "meaning_bn": "~ করছি (চলমান কাজ)",
+    "examples": [
+      {
+        "jp": "今 電話を かけています。",
+        "furigana": "いま でんわを かけています।",
+        "romaji": "ima denwa o kakete imasu.",
+        "en": "I am making a phone call now.",
+        "bn": "আমি এখন ফোন করছি।"
+      },
+      {
+        "jp": "彼は 手紙を 読んでいます。",
+        "furigana": "かれは てがみを よんでいます।",
+        "romaji": "kare wa tegami o yonde imasu.",
+        "en": "He is reading a letter.",
+        "bn": "সে একটি চিঠি পড়ছে।"
+      },
+      {
+        "jp": "東京に 住んでいます。",
+        "furigana": "とうきょうに すんでいます।",
+        "romaji": "toukyou ni sunde imasu.",
+        "en": "I live in Tokyo.",
+        "bn": "আমি টোকিওতে থাকি।"
       }
     ],
     "tags": [
