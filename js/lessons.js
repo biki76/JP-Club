@@ -6,6 +6,23 @@
   var filter = 'all';
   var manifests = {};
   var progress = null;
+  var LS_STATUS = null;
+  var BAD = /^(placeholder|draft|scaffold|planned|coming|coming-soon|soon|empty|pending|todo|none|locked)$/i;
+  function isPlaceholder(m, n) {
+    var key = 'minna-' + String(n).padStart(3, '0');
+    var e = LS_STATUS && (LS_STATUS[key] || (LS_STATUS.lessons && LS_STATUS.lessons[key]));
+    if (e !== undefined && e !== null) {
+      if (typeof e === 'string') return BAD.test(e);
+      if (typeof e === 'object') {
+        if (e.ready === false || e.complete === false || e.published === false) return true;
+        var v = e.status || e.state || e.content;
+        if (typeof v === 'string') return BAD.test(v);
+      }
+      return false;
+    }
+    var t = m && m.title && m.title.en;
+    return !!t && /^Lesson \d+$/.test(t) && n > 2;
+  }
 
   function txt(en, bn) {
     var l = document.documentElement.lang === 'bn' ? 'bn' : 'en';
@@ -28,7 +45,7 @@
   function cardFor(n) {
     var s = slug(n);
     var m = manifests[s];
-    var available = !!m;
+    var available = !!m && !isPlaceholder(m, n);
     var done = progress && n <= (progress.completedLessons || 0);
     var current = progress && n === progress.currentLesson;
     var p = done ? 1 : (current ? (progress.currentLessonProgress || 0) : 0);
@@ -55,7 +72,7 @@
     var out = [];
     for (var n = 1; n <= TOTAL; n++) {
       var lvl = (manifests[slug(n)] && manifests[slug(n)].jlpt) || jlpt(n);
-      var avail = !!manifests[slug(n)];
+      var avail = !!manifests[slug(n)] && !isPlaceholder(manifests[slug(n)], n);
       if (filter === 'all' || filter === lvl || (filter === 'available' && avail)) out.push(cardFor(n));
     }
     grid.innerHTML = out.length ? out.join('') : '<div class="ls-empty">' + txt('No lessons match.', 'কোনো পাঠ মেলেনি।') + '</div>';
@@ -71,7 +88,7 @@
 
   function renderResume() {
     var n = progress && progress.currentLesson ? progress.currentLesson : 1;
-    var has = !!manifests[slug(n)];
+    var has = !!manifests[slug(n)] && !isPlaceholder(manifests[slug(n)], n);
     if (!has) { n = 1; }
     resume.innerHTML = '<a class="v2-card" href="lesson.html?lesson=' + slug(n) + '">' +
       '<div><div class="v2-card__desc">' + txt(progress ? 'Resume' : 'Start here', progress ? 'চালিয়ে যান' : 'এখান থেকে শুরু') + '</div>' +
@@ -97,6 +114,7 @@
       var course = await DataLoader.loadCourse();
       (course.lessons || []).forEach(function (m) { manifests[m.slug] = m; });
     } catch (e) { /* offline or missing: show locked grid */ }
+    try { var r = await fetch('data/lessons/status.json'); if (r.ok) LS_STATUS = await r.json(); } catch (e) {}
     renderResume();
     render();
   }
