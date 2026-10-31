@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-039-g1",
-    "pattern": "〜39-A",
-    "meaning_en": "Grammar pattern 39-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 39-A",
+    "pattern": "V-て / イA-くて / ナA-で / N-で ～",
+    "meaning_en": "because ..., so ...",
+    "meaning_bn": "কারণ ..., তাই ...",
     "examples": [
       {
-        "jp": "これは レッスン39の 文法です。",
-        "en": "This is lesson 39 grammar.",
-        "bn": "This is lesson 39 grammar.",
-        "furigana": "これは レッスン39の 文法です。",
-        "romaji": ""
+        "jp": "風邪を ひいて、学校を 休みました。",
+        "furigana": "かぜを ひいて、がっこうを やすみました。",
+        "romaji": "Kaze o hiite, gakkō o yasumimashita.",
+        "en": "I caught a cold, so I was absent from school.",
+        "bn": "ঠান্ডা লেগেছিল, তাই স্কুলে যাইনি।"
+      },
+      {
+        "jp": "事故が あって、電車が 遅れました。",
+        "furigana": "じこが あって、でんしゃが おくれました。",
+        "romaji": "Jiko ga atte, densha ga okuremashita.",
+        "en": "There was an accident, so the train was delayed.",
+        "bn": "দুর্ঘটনা ঘটেছিল, তাই ট্রেন দেরি করল।"
+      },
+      {
+        "jp": "道が 込んでいて、会社に 遅刻しました。",
+        "furigana": "みちが こんでいて、かいしゃに ちこくしました。",
+        "romaji": "Michi ga konde ite, kaisha ni chikoku shimashita.",
+        "en": "The road was crowded, so I was late for work.",
+        "bn": "রাস্তা ভিড় ছিল, তাই অফিসে দেরি হয়ে গেল।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-039-g2",
-    "pattern": "〜39-B",
-    "meaning_en": "Grammar pattern 39-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 39-B",
+    "pattern": "～ ので ～",
+    "meaning_en": "because (polite, objective reason)",
+    "meaning_bn": "যেহেতু / কারণ (ভদ্র ও বস্তুনিষ্ঠ কারণ)",
     "examples": [
       {
-        "jp": "これは レッスン39の 文法です。",
-        "en": "This is lesson 39 grammar.",
-        "bn": "This is lesson 39 grammar.",
-        "furigana": "これは レッスン39の 文法です。",
-        "romaji": ""
+        "jp": "熱が あるので、きょうは 休みます。",
+        "furigana": "ねつが あるので、きょうは やすみます。",
+        "romaji": "Netsu ga aru node, kyō wa yasumimasu.",
+        "en": "Because I have a fever, I will rest today.",
+        "bn": "জ্বর আছে, তাই আজ বিশ্রাম নেব।"
+      },
+      {
+        "jp": "あぶないので、ここに 入らないでください。",
+        "furigana": "あぶないので、ここに はいらないでください。",
+        "romaji": "Abunai node, koko ni hairanai de kudasai.",
+        "en": "Because it is dangerous, please do not enter here.",
+        "bn": "বিপজ্জনক, তাই এখানে ঢুকবেন না।"
+      },
+      {
+        "jp": "あした テストが あるので、きょうは 早く 寝ます。",
+        "furigana": "あした てすとが あるので、きょうは はやく ねます。",
+        "romaji": "Ashita tesuto ga aru node, kyō wa hayaku nemasu.",
+        "en": "Since I have a test tomorrow, I will go to bed early today.",
+        "bn": "আগামীকাল পরীক্ষা আছে, তাই আজ তাড়াতাড়ি ঘুমাব।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-039-g3",
+    "pattern": "V-ない / イA-くない / ナA-で / N-で なくて ～",
+    "meaning_en": "because ... is not ..., so ...",
+    "meaning_bn": "... না থাকায় / না হওয়ায়",
+    "examples": [
+      {
+        "jp": "お金が なくて、買い物が できません。",
+        "furigana": "おかねが なくて、かいものが できません。",
+        "romaji": "Okane ga nakute, kaimono ga dekimasen.",
+        "en": "I have no money, so I cannot go shopping.",
+        "bn": "টাকা নেই, তাই বাজার করতে পারছি না।"
+      },
+      {
+        "jp": "子どもが いなくて、とても 心配しました。",
+        "furigana": "こどもが いなくて、とても しんぱいしました。",
+        "romaji": "Kodomo ga inakute, totemo shinpai shimashita.",
+        "en": "My child was not there, so I was very worried.",
+        "bn": "শিশুটি ছিল না, তাই খুব দুশ্চিন্তা করেছি।"
+      },
+      {
+        "jp": "バスが 来なくて、学校に 遅刻しました。",
+        "furigana": "ばすが こなくて、がっこうに ちこくしました。",
+        "romaji": "Basu ga konakute, gakkō ni chikoku shimashita.",
+        "en": "The bus did not come, so I was late for school.",
+        "bn": "বাস আসেনি, তাই স্কুলে দেরি হয়ে গেল।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-039-g4",
+    "pattern": "どうして ～ んですか",
+    "meaning_en": "why is it that ...?",
+    "meaning_bn": "কেন ...?",
+    "examples": [
+      {
+        "jp": "どうして きのう 休んだんですか。",
+        "furigana": "どうして きのう やすんだんですか。",
+        "romaji": "Dōshite kinō yasunda n desu ka.",
+        "en": "Why were you absent yesterday?",
+        "bn": "গতকাল কেন অনুপস্থিত ছিলেন?"
+      },
+      {
+        "jp": "どうして そんなに 嬉しいんですか。",
+        "furigana": "どうして そんなに うれしいんですか。",
+        "romaji": "Dōshite sonna ni ureshii n desu ka.",
+        "en": "Why are you so happy?",
+        "bn": "এত খুশি কেন?"
+      },
+      {
+        "jp": "どうして 急に 帰ったんですか。",
+        "furigana": "どうして きゅうに かえったんですか。",
+        "romaji": "Dōshite kyū ni kaetta n desu ka.",
+        "en": "Why did you go home suddenly?",
+        "bn": "হঠাৎ বাড়ি ফিরে গেলেন কেন?"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-039-g5",
+    "pattern": "～ んです（説明）",
+    "meaning_en": "it is because ... (giving an explanation)",
+    "meaning_bn": "... কারণ (ব্যাখ্যা দেওয়া)",
+    "examples": [
+      {
+        "jp": "どうして 遅れたんですか。― 事故が あったんです。",
+        "furigana": "どうして おくれたんですか。― じこが あったんです。",
+        "romaji": "Dōshite okureta n desu ka. — Jiko ga atta n desu.",
+        "en": "Why were you late? — It is because there was an accident.",
+        "bn": "দেরি হলো কেন? — কারণ একটি দুর্ঘটনা ঘটেছিল।"
+      },
+      {
+        "jp": "顔色が 悪いですね。― きのう 寝ていないんです。",
+        "furigana": "かおいろが わるいですね。― きのう ねていないんです。",
+        "romaji": "Kaoiro ga warui desu ne. — Kinō nete inai n desu.",
+        "en": "You look pale. — It is because I did not sleep yesterday.",
+        "bn": "আপনার মুখ ভার দেখাচ্ছে। — কারণ গতকাল ঘুমাইনি।"
+      },
+      {
+        "jp": "どうして 泣いているんですか。― とても 悲しい ことが あったんです。",
+        "furigana": "どうして ないているんですか。― とても かなしい ことが あったんです。",
+        "romaji": "Dōshite naite iru n desu ka. — Totemo kanashii koto ga atta n desu.",
+        "en": "Why are you crying? — Because something very sad happened.",
+        "bn": "কাঁদছেন কেন? — কারণ খুব দুঃখজনক কিছু ঘটেছে।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

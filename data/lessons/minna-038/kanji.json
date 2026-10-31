@@ -1,87 +1,106 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
+    "character": "約",
+    "onyomi": ["ヤク"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["promise", "approximately"],
+      "bn": ["প্রতিশ্রুতি", "প্রায়"]
     },
-    "radicals": [],
-    "strokes": 4,
+    "radicals": ["糸", "勺"],
+    "strokes": 9,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "運",
+    "onyomi": ["ウン"],
+    "kunyomi": ["はこ.ぶ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["carry", "luck"],
+      "bn": ["বহন করা", "ভাগ্য"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
+    "radicals": ["辶", "軍"],
+    "strokes": 12,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "掃",
+    "onyomi": ["ソウ"],
+    "kunyomi": ["は.く"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["sweep", "clean"],
+      "bn": ["ঝাড়ু দেওয়া", "পরিষ্কার করা"]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["扌", "帚"],
     "strokes": 11,
-    "grade": 4,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "洗",
+    "onyomi": ["セン"],
+    "kunyomi": ["あら.う"],
+    "meanings": {
+      "en": ["wash"],
+      "bn": ["ধোয়া"]
+    },
+    "radicals": ["氵", "先"],
+    "strokes": 9,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "絵",
+    "onyomi": ["カイ", "エ"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["picture", "drawing"],
+      "bn": ["ছবি", "চিত্র"]
+    },
+    "radicals": ["糸", "会"],
+    "strokes": 12,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "楽",
+    "onyomi": ["ガク", "ラク"],
+    "kunyomi": ["たの.しい"],
+    "meanings": {
+      "en": ["music", "comfort", "fun"],
+      "bn": ["সংগীত", "আরাম", "আনন্দ"]
+    },
+    "radicals": ["白", "木"],
+    "strokes": 13,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "勝",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["か.つ"],
+    "meanings": {
+      "en": ["win"],
+      "bn": ["জেতা"]
+    },
+    "radicals": ["力", "月"],
+    "strokes": 12,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "負",
+    "onyomi": ["フ"],
+    "kunyomi": ["ま.ける", "お.う"],
+    "meanings": {
+      "en": ["lose", "bear"],
+      "bn": ["হারা", "বহন করা"]
+    },
+    "radicals": ["貝"],
+    "strokes": 9,
+    "grade": 3,
     "jlpt": "N4"
   }
 ]

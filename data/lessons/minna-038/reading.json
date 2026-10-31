@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-038-r001",
+    "id": "minna-038-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "My Hobby",
+      "bn": "আমার শখ"
     },
     "passage": [
       {
-        "jp": "これは さんかします［りょこうに～］ です。",
-        "furigana": "これは さんかします［りょこうに～］ です。",
-        "romaji": "Kore wa sankashimasu [ryokōni~] desu.",
-        "en": "This is join [a tour], participate, attend.",
-        "bn": "এটি join [a tour], participate, attend।"
+        "jp": "わたしは 音楽が 大好きです。",
+        "furigana": "わたしは おんがくが だいすきです。",
+        "romaji": "Watashi wa ongaku ga daisuki desu.",
+        "en": "I love music.",
+        "bn": "আমি সংগীত খুব ভালোবাসি।"
+      },
+      {
+        "jp": "子どもの ときから ピアノを 弾くのが 好きでした。",
+        "furigana": "こどもの ときから ぴあのを ひくのが すきでした。",
+        "romaji": "Kodomo no toki kara piano o hiku no ga suki deshita.",
+        "en": "Since childhood I have liked playing the piano.",
+        "bn": "শৈশব থেকেই আমি পিয়ানো বাজাতে পছন্দ করতাম।"
+      },
+      {
+        "jp": "でも、日本へ 来てから、ピアノを 弾く 時間が ありません。",
+        "furigana": "でも、にほんへ きてから、ぴあのを ひく じかんが ありません。",
+        "romaji": "Demo, Nihon e kite kara, piano o hiku jikan ga arimasen.",
+        "en": "But since coming to Japan, I have no time to play the piano.",
+        "bn": "কিন্তু জাপানে আসার পর পিয়ানো বাজানোর সময় নেই।"
+      },
+      {
+        "jp": "それで、今は 部屋で 音楽を 聞くのを 楽しみに しています。",
+        "furigana": "それで、いまは へやで おんがくを きくのを たのしみに しています。",
+        "romaji": "Sore de, ima wa heya de ongaku o kiku no o tanoshimi ni shite imasu.",
+        "en": "So now I look forward to listening to music in my room.",
+        "bn": "তাই এখন ঘরে সংগীত শোনার আনন্দ নিই।"
+      },
+      {
+        "jp": "音楽を 聞くのは、とても 気持ちが いいです。",
+        "furigana": "おんがくを きくのは、とても きもちが いいです。",
+        "romaji": "Ongaku o kiku no wa, totemo kimochi ga ii desu.",
+        "en": "Listening to music feels very good.",
+        "bn": "সংগীত শুনতে খুব ভালো লাগে।"
+      },
+      {
+        "jp": "友だちと カラオケで 歌うのも 好きです。",
+        "furigana": "ともだちと からおけで うたうのも すきです。",
+        "romaji": "Tomodachi to karaoke de utau no mo suki desu.",
+        "en": "I also like singing with friends at karaoke.",
+        "bn": "বন্ধুদের সঙ্গে কারাওকে-তে গান গাইতেও ভালোবাসি।"
+      },
+      {
+        "jp": "歌うのは 難しいですが、とても 楽しいです。",
+        "furigana": "うたうのは むずかしいですが、とても たのしいです。",
+        "romaji": "Utau no wa muzukashii desu ga, totemo tanoshii desu.",
+        "en": "Singing is difficult, but it is very enjoyable.",
+        "bn": "গান গাওয়া কঠিন, তবে খুব আনন্দের।"
+      },
+      {
+        "jp": "わたしが 音楽を 好きなのは、母も 音楽が 好きだからです。",
+        "furigana": "わたしが おんがくを すきなのは、ははも おんがくが すきだからです。",
+        "romaji": "Watashi ga ongaku o suki na no wa, haha mo ongaku ga suki da kara desu.",
+        "en": "The reason I like music is that my mother also likes music.",
+        "bn": "আমি সংগীত ভালোবাসি কারণ আমার মাও সংগীত পছন্দ করেন।"
       }
     ]
   }

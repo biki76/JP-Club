@@ -1,7 +1,254 @@
 [
-{"id":"minna-039-v001","kanji":"答えます","furigana":"こたえます","romaji":"kotaemasu","english_meaning":"to answer / reply","bengali_meaning":"উত্তর দেওয়া","type":"verb"},
-{"id":"minna-039-v002","kanji":"倒れます","furigana":"たおれます","romaji":"taoremasu","english_meaning":"to fall / collapse","bengali_meaning":"পড়ে যাওয়া","type":"verb"},
-{"id":"minna-039-v003","kanji":"焼けます","furigana":"やけます","romaji":"yakemasu","english_meaning":"to burn / be grilled","bengali_meaning":"পোড়া / ঝলসানো","type":"verb"},
-{"id":"minna-039-v004","kanji":"通ります","furigana":"とおります","romaji":"toorimasu","english_meaning":"to pass through","bengali_meaning":"অতিক্রম করা","type":"verb"},
-{"id":"minna-039-v005","kanji":"死にます","furigana":"しにます","romaji":"shinimasu","english_meaning":"to die","bengali_meaning":"মরা","type":"verb"}
+  {
+    "id": "minna-039-v001",
+    "furigana": "びょうき",
+    "kanji": "病気",
+    "romaji": "byōki",
+    "english_meaning": "illness, sickness",
+    "bengali_meaning": "অসুখ",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v002",
+    "furigana": "ねつ",
+    "kanji": "熱",
+    "romaji": "netsu",
+    "english_meaning": "fever",
+    "bengali_meaning": "জ্বর",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v003",
+    "furigana": "かぜ",
+    "kanji": "風邪",
+    "romaji": "kaze",
+    "english_meaning": "a cold",
+    "bengali_meaning": "ঠান্ডা লাগা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v004",
+    "furigana": "いたい",
+    "kanji": "痛い",
+    "romaji": "itai",
+    "english_meaning": "painful, sore",
+    "bengali_meaning": "ব্যথা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v005",
+    "furigana": "こまる",
+    "kanji": "困る",
+    "romaji": "komaru",
+    "english_meaning": "to be in trouble",
+    "bengali_meaning": "বিপদে পড়া",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v006",
+    "furigana": "こわい",
+    "kanji": "怖い",
+    "romaji": "kowai",
+    "english_meaning": "scary, frightening",
+    "bengali_meaning": "ভয়ংকর",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v007",
+    "furigana": "うれしい",
+    "kanji": "嬉しい",
+    "romaji": "ureshii",
+    "english_meaning": "happy, glad",
+    "bengali_meaning": "আনন্দিত",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v008",
+    "furigana": "かなしい",
+    "kanji": "悲しい",
+    "romaji": "kanashii",
+    "english_meaning": "sad",
+    "bengali_meaning": "দুঃখিত",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v009",
+    "furigana": "さびしい",
+    "kanji": "寂しい",
+    "romaji": "sabishii",
+    "english_meaning": "lonely",
+    "bengali_meaning": "একাকী",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v010",
+    "furigana": "おこる",
+    "kanji": "怒る",
+    "romaji": "okoru",
+    "english_meaning": "to get angry",
+    "bengali_meaning": "রাগ করা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v011",
+    "furigana": "なく",
+    "kanji": "泣く",
+    "romaji": "naku",
+    "english_meaning": "to cry",
+    "bengali_meaning": "কাঁদা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v012",
+    "furigana": "わらう",
+    "kanji": "笑う",
+    "romaji": "warau",
+    "english_meaning": "to laugh, to smile",
+    "bengali_meaning": "হাসা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v013",
+    "furigana": "しんぱい",
+    "kanji": "心配",
+    "romaji": "shinpai",
+    "english_meaning": "worry, concern",
+    "bengali_meaning": "দুশ্চিন্তা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v014",
+    "furigana": "あんしん",
+    "kanji": "安心",
+    "romaji": "anshin",
+    "english_meaning": "relief, peace of mind",
+    "bengali_meaning": "স্বস্তি",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v015",
+    "furigana": "たいせつ",
+    "kanji": "大切",
+    "romaji": "taisetsu",
+    "english_meaning": "important, precious",
+    "bengali_meaning": "গুরুত্বপূর্ণ",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v016",
+    "furigana": "ひつよう",
+    "kanji": "必要",
+    "romaji": "hitsuyō",
+    "english_meaning": "necessary",
+    "bengali_meaning": "প্রয়োজনীয়",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v017",
+    "furigana": "じこ",
+    "kanji": "事故",
+    "romaji": "jiko",
+    "english_meaning": "accident",
+    "bengali_meaning": "দুর্ঘটনা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v018",
+    "furigana": "ちこく",
+    "kanji": "遅刻",
+    "romaji": "chikoku",
+    "english_meaning": "being late, tardiness",
+    "bengali_meaning": "দেরি করা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v019",
+    "furigana": "るす",
+    "kanji": "留守",
+    "romaji": "rusu",
+    "english_meaning": "being away from home",
+    "bengali_meaning": "বাড়িতে না থাকা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v020",
+    "furigana": "たすける",
+    "kanji": "助ける",
+    "romaji": "tasukeru",
+    "english_meaning": "to help, to save",
+    "bengali_meaning": "সাহায্য করা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v021",
+    "furigana": "まもる",
+    "kanji": "守る",
+    "romaji": "mamoru",
+    "english_meaning": "to protect, to obey",
+    "bengali_meaning": "রক্ষা করা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v022",
+    "furigana": "おとす",
+    "kanji": "落とす",
+    "romaji": "otosu",
+    "english_meaning": "to drop, to lose",
+    "bengali_meaning": "ফেলে দেওয়া",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v023",
+    "furigana": "ころぶ",
+    "kanji": "転ぶ",
+    "romaji": "korobu",
+    "english_meaning": "to fall down",
+    "bengali_meaning": "পড়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v024",
+    "furigana": "あぶない",
+    "kanji": "危ない",
+    "romaji": "abunai",
+    "english_meaning": "dangerous",
+    "bengali_meaning": "বিপজ্জনক",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v025",
+    "furigana": "さがす",
+    "kanji": "探す",
+    "romaji": "sagasu",
+    "english_meaning": "to look for",
+    "bengali_meaning": "খোঁজা",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v026",
+    "furigana": "みつける",
+    "kanji": "見つける",
+    "romaji": "mitsukeru",
+    "english_meaning": "to find",
+    "bengali_meaning": "খুঁজে পাওয়া",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v027",
+    "furigana": "しんごう",
+    "kanji": "信号",
+    "romaji": "shingō",
+    "english_meaning": "traffic light, signal",
+    "bengali_meaning": "ট্রাফিক বাতি",
+    "tags": ["vocabulary", "lesson-39"]
+  },
+  {
+    "id": "minna-039-v028",
+    "furigana": "きゅうに",
+    "kanji": "急に",
+    "romaji": "kyū ni",
+    "english_meaning": "suddenly",
+    "bengali_meaning": "হঠাৎ",
+    "tags": ["vocabulary", "lesson-39"]
+  }
 ]

@@ -1,7 +1,252 @@
 [
-{"id":"minna-038-v001","kanji":"育てます","furigana":"そだてます","romaji":"sodatemasu","english_meaning":"to raise / bring up","bengali_meaning":"লালন-পালন করা","type":"verb"},
-{"id":"minna-038-v002","kanji":"運びます","furigana":"はこびます","romaji":"hakobimasu","english_meaning":"to carry / transport","bengali_meaning":"বহন করা","type":"verb"},
-{"id":"minna-038-v003","kanji":"亡くなります","furigana":"なくなります","romaji":"nakunarimasu","english_meaning":"to die / pass away","bengali_meaning":"মারা যাওয়া","type":"verb"},
-{"id":"minna-038-v004","kanji":"入院します","furigana":"にゅういんします","romaji":"nyuuin shimasu","english_meaning":"to be hospitalized","bengali_meaning":"হাসপাতালে ভর্তি হওয়া","type":"verb"},
-{"id":"minna-038-v005","kanji":"退院します","furigana":"たいいんします","romaji":"taiin shimasu","english_meaning":"to be discharged from hospital","bengali_meaning":"হাসপাতাল থেকে ছাড়া পাওয়া","type":"verb"}
+  {
+    "id": "minna-038-v001",
+    "furigana": "やくそく",
+    "kanji": "約束",
+    "romaji": "yakusoku",
+    "english_meaning": "promise, appointment",
+    "bengali_meaning": "প্রতিশ্রুতি",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v002",
+    "furigana": "うんてん",
+    "kanji": "運転",
+    "romaji": "unten",
+    "english_meaning": "driving",
+    "bengali_meaning": "গাড়ি চালানো",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v003",
+    "furigana": "うんてんしゅ",
+    "kanji": "運転手",
+    "romaji": "untenshu",
+    "english_meaning": "driver",
+    "bengali_meaning": "চালক",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v004",
+    "furigana": "そうじ",
+    "kanji": "掃除",
+    "romaji": "sōji",
+    "english_meaning": "cleaning",
+    "bengali_meaning": "পরিষ্কার করা",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v005",
+    "furigana": "せんたく",
+    "kanji": "洗濯",
+    "romaji": "sentaku",
+    "english_meaning": "laundry, washing clothes",
+    "bengali_meaning": "কাপড় ধোয়া",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v006",
+    "furigana": "りょうり",
+    "kanji": "料理",
+    "romaji": "ryōri",
+    "english_meaning": "cooking, dish",
+    "bengali_meaning": "রান্না",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v007",
+    "furigana": "かいもの",
+    "kanji": "買い物",
+    "romaji": "kaimono",
+    "english_meaning": "shopping",
+    "bengali_meaning": "বাজার করা",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v008",
+    "furigana": "さんぽ",
+    "kanji": "散歩",
+    "romaji": "sanpo",
+    "english_meaning": "a walk, stroll",
+    "bengali_meaning": "হাঁটাহাঁটি",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v009",
+    "furigana": "どくしょ",
+    "kanji": "読書",
+    "romaji": "dokusho",
+    "english_meaning": "reading books",
+    "bengali_meaning": "বই পড়া",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v010",
+    "furigana": "おどる",
+    "kanji": "踊る",
+    "romaji": "odoru",
+    "english_meaning": "to dance",
+    "bengali_meaning": "নাচা",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v011",
+    "furigana": "うたう",
+    "kanji": "歌う",
+    "romaji": "utau",
+    "english_meaning": "to sing",
+    "bengali_meaning": "গান গাওয়া",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v012",
+    "furigana": "ひく",
+    "kanji": "弾く",
+    "romaji": "hiku",
+    "english_meaning": "to play a string or keyboard instrument",
+    "bengali_meaning": "বাদ্যযন্ত্র বাজানো",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v013",
+    "furigana": "え",
+    "kanji": "絵",
+    "romaji": "e",
+    "english_meaning": "picture, drawing",
+    "bengali_meaning": "ছবি",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v014",
+    "furigana": "おんがく",
+    "kanji": "音楽",
+    "romaji": "ongaku",
+    "english_meaning": "music",
+    "bengali_meaning": "সংগীত",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v015",
+    "furigana": "がっき",
+    "kanji": "楽器",
+    "romaji": "gakki",
+    "english_meaning": "musical instrument",
+    "bengali_meaning": "বাদ্যযন্ত্র",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v016",
+    "furigana": "やきゅう",
+    "kanji": "野球",
+    "romaji": "yakyū",
+    "english_meaning": "baseball",
+    "bengali_meaning": "বেসবল",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v017",
+    "furigana": "さっかー",
+    "romaji": "sakkā",
+    "english_meaning": "soccer",
+    "bengali_meaning": "ফুটবল",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v018",
+    "furigana": "てにす",
+    "romaji": "tenisu",
+    "english_meaning": "tennis",
+    "bengali_meaning": "টেনিস",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v019",
+    "furigana": "まける",
+    "kanji": "負ける",
+    "romaji": "makeru",
+    "english_meaning": "to lose, to be defeated",
+    "bengali_meaning": "হেরে যাওয়া",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v020",
+    "furigana": "かつ",
+    "kanji": "勝つ",
+    "romaji": "katsu",
+    "english_meaning": "to win",
+    "bengali_meaning": "জেতা",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v021",
+    "furigana": "れんらく",
+    "kanji": "連絡",
+    "romaji": "renraku",
+    "english_meaning": "contact, getting in touch",
+    "bengali_meaning": "যোগাযোগ",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v022",
+    "furigana": "まちがえる",
+    "kanji": "間違える",
+    "romaji": "machigaeru",
+    "english_meaning": "to make a mistake",
+    "bengali_meaning": "ভুল করা",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v023",
+    "furigana": "おしえる",
+    "kanji": "教える",
+    "romaji": "oshieru",
+    "english_meaning": "to teach, to tell",
+    "bengali_meaning": "শেখানো",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v024",
+    "furigana": "ならう",
+    "kanji": "習う",
+    "romaji": "narau",
+    "english_meaning": "to learn",
+    "bengali_meaning": "শেখা",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v025",
+    "furigana": "つかれる",
+    "kanji": "疲れる",
+    "romaji": "tsukareru",
+    "english_meaning": "to get tired",
+    "bengali_meaning": "ক্লান্ত হওয়া",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v026",
+    "furigana": "はしる",
+    "kanji": "走る",
+    "romaji": "hashiru",
+    "english_meaning": "to run",
+    "bengali_meaning": "দৌড়ানো",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v027",
+    "furigana": "あるく",
+    "kanji": "歩く",
+    "romaji": "aruku",
+    "english_meaning": "to walk",
+    "bengali_meaning": "হাঁটা",
+    "tags": ["vocabulary", "lesson-38"]
+  },
+  {
+    "id": "minna-038-v028",
+    "furigana": "およぐ",
+    "kanji": "泳ぐ",
+    "romaji": "oyogu",
+    "english_meaning": "to swim",
+    "bengali_meaning": "সাঁতার কাটা",
+    "tags": ["vocabulary", "lesson-38"]
+  }
 ]

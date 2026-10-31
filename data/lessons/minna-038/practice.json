@@ -3,48 +3,157 @@
     "id": "minna-038-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜38-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜38-A"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン38の 文法です。",
-      "furigana": "これは レッスン38の 文法です。",
-      "romaji": ""
+      "jp": "朝 早く 起きる ＿＿ は 大変です。",
+      "furigana": "あさ はやく おきる ＿＿ は たいへんです。",
+      "romaji": "Asa hayaku okiru ＿＿ wa taihen desu."
     },
-    "options": [
-      "Grammar pattern 38-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["の", "こと", "が", "を"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜38-A means \"Grammar pattern 38-A\".",
-      "bn": "〜38-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 38-A\"।"
+      "en": "V-る のは turns the action into a topic, meaning getting up early is hard.",
+      "bn": "V-る のは কাজটিকে বিষয়বস্তু করে, অর্থাৎ সকালে তাড়াতাড়ি ওঠা কষ্টকর।"
     }
   },
   {
     "id": "minna-038-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜38-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜38-B"
+      "en": "Choose the correct particle for the blank.",
+      "bn": "শূন্যস্থানে সঠিক অব্যয় বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン38の 文法です。",
-      "furigana": "これは レッスン38の 文法です。",
-      "romaji": ""
+      "jp": "わたしは 歌を 歌う ＿＿ が 好きです。",
+      "furigana": "わたしは うたを うたう ＿＿ が すきです。",
+      "romaji": "Watashi wa uta o utau ＿＿ ga suki desu."
+    },
+    "options": ["の", "は", "を", "に"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-る のが 好きです means to like doing something.",
+      "bn": "V-る のが 好きです মানে কিছু করা পছন্দ করা।"
+    }
+  },
+  {
+    "id": "minna-038-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct particle for the blank.",
+      "bn": "শূন্যস্থানে সঠিক অব্যয় বেছে নিন।"
+    },
+    "stem": {
+      "jp": "洗濯を する ＿＿ を 忘れました。",
+      "furigana": "せんたくを する ＿＿ を わすれました。",
+      "romaji": "Sentaku o suru ＿＿ o wasuremashita."
+    },
+    "options": ["の", "が", "は", "で"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-る のを 忘れました means to forget to do something.",
+      "bn": "V-る のを 忘れました মানে কিছু করতে ভুলে যাওয়া।"
+    }
+  },
+  {
+    "id": "minna-038-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "きのう 学校を 休んだのは、熱が あった＿＿。",
+      "furigana": "きのう がっこうを やすんだのは、ねつが あった＿＿。",
+      "romaji": "Kinō gakkō o yasunda no wa, netsu ga atta ＿＿."
+    },
+    "options": ["からです", "のでです", "のがです", "をです"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The pattern ～のは～からです explains the reason for something.",
+      "bn": "～のは～からです নকশাটি কোনো কিছুর কারণ ব্যাখ্যা করে।"
+    }
+  },
+  {
+    "id": "minna-038-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "田中さんは ギターを 弾くのが 上手です。",
+      "furigana": "たなかさんは ぎたーを ひくのが じょうずです。",
+      "romaji": "Tanaka-san wa gitā o hiku no ga jōzu desu."
     },
     "options": [
-      "Grammar pattern 38-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Tanaka is good at playing the guitar.",
+      "Tanaka likes buying guitars.",
+      "Tanaka is bad at playing the guitar.",
+      "Tanaka wants to learn the guitar."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜38-B means \"Grammar pattern 38-B\".",
-      "bn": "〜38-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 38-B\"।"
+      "en": "V-る のが 上手です means to be skilled at doing something.",
+      "bn": "V-る のが 上手です মানে কোনো কাজে দক্ষ হওয়া।"
+    }
+  },
+  {
+    "id": "minna-038-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "あした 掃除を する＿＿ を 覚えていますか。",
+      "furigana": "あした そうじを する＿＿ を おぼえていますか。",
+      "romaji": "Ashita sōji o suru ＿＿ o oboete imasu ka."
+    },
+    "options": ["の", "は", "に", "も"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-る のを 覚えていますか asks whether someone remembers an action.",
+      "bn": "V-る のを 覚えていますか কোনো কাজের কথা মনে আছে কি না জিজ্ঞাসা করে।"
+    }
+  },
+  {
+    "id": "minna-038-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "音楽を 聞く＿＿ は とても 気持ちが いいです。",
+      "furigana": "おんがくを きく＿＿ は とても きもちが いいです。",
+      "romaji": "Ongaku o kiku ＿＿ wa totemo kimochi ga ii desu."
+    },
+    "options": ["の", "を", "に", "で"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The nominalizer の makes the action the subject of the sentence.",
+      "bn": "নামসূচক の কাজটিকে বাক্যের কর্তায় পরিণত করে।"
+    }
+  },
+  {
+    "id": "minna-038-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 負ける.",
+      "bn": "負ける এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "きのうの 試合で 負けました。",
+      "furigana": "きのうの しあいで まけました。",
+      "romaji": "Kinō no shiai de makemashita."
+    },
+    "options": ["lost", "won", "ran", "swam"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "負ける means to lose a match or game.",
+      "bn": "負ける মানে খেলা বা ম্যাচে হেরে যাওয়া।"
     }
   }
 ]

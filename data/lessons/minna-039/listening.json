@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-039-l001",
+    "id": "minna-039-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Why Were You Absent?",
+      "bn": "কেন অনুপস্থিত ছিলেন?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "こたえます［しつもんに～］ は 何 ですか。",
-        "furigana": "こたえます［しつもんに～］ は なん ですか。",
-        "romaji": "kotaemasu [shitsumonni~] wa nan desu ka.",
-        "en": "What is answer [a question]?",
-        "bn": "answer [a question] কী?"
+        "jp": "田中さん、きのう どうして 休んだんですか。",
+        "furigana": "たなかさん、きのう どうして やすんだんですか。",
+        "romaji": "Tanaka-san, kinō dōshite yasunda n desu ka.",
+        "en": "Tanaka, why were you absent yesterday?",
+        "bn": "তানাকা, গতকাল কেন অনুপস্থিত ছিলেন?"
+      },
+      {
+        "jp": "風邪を ひいて、熱が あったんです。",
+        "furigana": "かぜを ひいて、ねつが あったんです。",
+        "romaji": "Kaze o hiite, netsu ga atta n desu.",
+        "en": "I caught a cold and had a fever.",
+        "bn": "ঠান্ডা লেগেছিল, জ্বরও ছিল।"
+      },
+      {
+        "jp": "そうでしたか。今は もう 大丈夫ですか。",
+        "furigana": "そうでしたか。いまは もう だいじょうぶですか。",
+        "romaji": "Sō deshita ka. Ima wa mō daijōbu desu ka.",
+        "en": "Is that so. Are you all right now?",
+        "bn": "তাই নাকি। এখন কি ঠিক আছেন?"
+      },
+      {
+        "jp": "はい、薬を 飲んだので、もう 安心です。",
+        "furigana": "はい、くすりを のんだので、もう あんしんです。",
+        "romaji": "Hai, kusuri o nonda node, mō anshin desu.",
+        "en": "Yes, I took medicine, so I am relieved now.",
+        "bn": "হ্যাঁ, ওষুধ খেয়েছি, তাই এখন স্বস্তি আছে।"
+      },
+      {
+        "jp": "それは よかったです。でも、病院へ 行ったんですか。",
+        "furigana": "それは よかったです。でも、びょういんへ いったんですか。",
+        "romaji": "Sore wa yokatta desu. Demo, byōin e itta n desu ka.",
+        "en": "That is good. But did you go to the hospital?",
+        "bn": "ভালো হলো। তবে হাসপাতালে গিয়েছিলেন?"
+      },
+      {
+        "jp": "いいえ、行かなかったんです。近くに 病院が なくて、困りました。",
+        "furigana": "いいえ、いかなかったんです。ちかくに びょういんが なくて、こまりました。",
+        "romaji": "Iie, ikanakatta n desu. Chikaku ni byōin ga nakute, komarimashita.",
+        "en": "No, I did not go. There is no hospital nearby, so I was in trouble.",
+        "bn": "না, যাইনি। কাছে কোনো হাসপাতাল না থাকায় সমস্যায় পড়েছিলাম।"
+      },
+      {
+        "jp": "それは 大変でしたね。",
+        "furigana": "それは たいへんでしたね。",
+        "romaji": "Sore wa taihen deshita ne.",
+        "en": "That must have been hard.",
+        "bn": "সেটা তো কষ্টকর ছিল।"
+      },
+      {
+        "jp": "でも、友だちが 薬を 買ってきてくれたので、助かりました。",
+        "furigana": "でも、ともだちが くすりを かってきてくれたので、たすかりました。",
+        "romaji": "Demo, tomodachi ga kusuri o katte kite kureta node, tasukarimashita.",
+        "en": "But a friend bought medicine for me, so I was saved.",
+        "bn": "কিন্তু বন্ধু ওষুধ কিনে এনে দিয়েছিল, তাই রক্ষা পেয়েছি।"
+      },
+      {
+        "jp": "健康は 大切ですから、気をつけてくださいね。",
+        "furigana": "けんこうは たいせつですから、きをつけてくださいね。",
+        "romaji": "Kenkō wa taisetsu desu kara, ki o tsukete kudasai ne.",
+        "en": "Health is important, so please take care.",
+        "bn": "স্বাস্থ্য গুরুত্বপূর্ণ, তাই খেয়াল রাখবেন।"
       }
     ]
   }

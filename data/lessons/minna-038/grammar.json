@@ -1,38 +1,152 @@
 [
   {
     "id": "minna-038-g1",
-    "pattern": "〜38-A",
-    "meaning_en": "Grammar pattern 38-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 38-A",
+    "pattern": "V-る の は ～ です",
+    "meaning_en": "doing something is ...",
+    "meaning_bn": "কোনো কাজ করা হলো ...",
     "examples": [
       {
-        "jp": "これは レッスン38の 文法です。",
-        "en": "This is lesson 38 grammar.",
-        "bn": "This is lesson 38 grammar.",
-        "furigana": "これは レッスン38の 文法です。",
-        "romaji": ""
+        "jp": "朝 早く 起きるのは 大変です。",
+        "furigana": "あさ はやく おきるのは たいへんです。",
+        "romaji": "Asa hayaku okiru no wa taihen desu.",
+        "en": "Getting up early in the morning is hard.",
+        "bn": "সকালে তাড়াতাড়ি ওঠা কষ্টকর।"
+      },
+      {
+        "jp": "日本語を 話すのは 難しいですが、面白いです。",
+        "furigana": "にほんごを はなすのは むずかしいですが、おもしろいです。",
+        "romaji": "Nihongo o hanasu no wa muzukashii desu ga, omoshiroi desu.",
+        "en": "Speaking Japanese is difficult, but it is interesting.",
+        "bn": "জাপানি বলা কঠিন, তবে মজার।"
+      },
+      {
+        "jp": "音楽を 聞くのは とても 気持ちが いいです。",
+        "furigana": "おんがくを きくのは とても きもちが いいです。",
+        "romaji": "Ongaku o kiku no wa totemo kimochi ga ii desu.",
+        "en": "Listening to music feels very good.",
+        "bn": "সংগীত শোনা খুব ভালো লাগে।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-038-g2",
-    "pattern": "〜38-B",
-    "meaning_en": "Grammar pattern 38-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 38-B",
+    "pattern": "V-る の が 好きです / 上手です",
+    "meaning_en": "to like doing / to be good at doing",
+    "meaning_bn": "করা পছন্দ / করা ভালো পারা",
     "examples": [
       {
-        "jp": "これは レッスン38の 文法です。",
-        "en": "This is lesson 38 grammar.",
-        "bn": "This is lesson 38 grammar.",
-        "furigana": "これは レッスン38の 文法です。",
-        "romaji": ""
+        "jp": "わたしは 歌を 歌うのが 好きです。",
+        "furigana": "わたしは うたを うたうのが すきです。",
+        "romaji": "Watashi wa uta o utau no ga suki desu.",
+        "en": "I like singing songs.",
+        "bn": "আমি গান গাইতে পছন্দ করি।"
+      },
+      {
+        "jp": "田中さんは ギターを 弾くのが 上手です。",
+        "furigana": "たなかさんは ぎたーを ひくのが じょうずです。",
+        "romaji": "Tanaka-san wa gitā o hiku no ga jōzu desu.",
+        "en": "Tanaka is good at playing the guitar.",
+        "bn": "তানাকা গিটার বাজানোয় দক্ষ।"
+      },
+      {
+        "jp": "弟は サッカーを するのが 好きですが、テニスは 好きじゃありません。",
+        "furigana": "おとうとは さっかーを するのが すきですが、てにすは すきじゃありません。",
+        "romaji": "Otōto wa sakkā o suru no ga suki desu ga, tenisu wa suki ja arimasen.",
+        "en": "My younger brother likes playing soccer, but he does not like tennis.",
+        "bn": "আমার ছোট ভাই ফুটবল খেলতে পছন্দ করে, কিন্তু টেনিস পছন্দ করে না।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-038-g3",
+    "pattern": "V-る の を 忘れました",
+    "meaning_en": "to forget to do something",
+    "meaning_bn": "কোনো কাজ করতে ভুলে যাওয়া",
+    "examples": [
+      {
+        "jp": "洗濯を するのを 忘れました。",
+        "furigana": "せんたくを するのを わすれました。",
+        "romaji": "Sentaku o suru no o wasuremashita.",
+        "en": "I forgot to do the laundry.",
+        "bn": "কাপড় ধোয়ার কথা ভুলে গেছি।"
+      },
+      {
+        "jp": "友だちに 連絡するのを 忘れてしまいました。",
+        "furigana": "ともだちに れんらくするのを わすれてしまいました。",
+        "romaji": "Tomodachi ni renraku suru no o wasurete shimaimashita.",
+        "en": "I forgot to contact my friend.",
+        "bn": "বন্ধুকে যোগাযোগ করার কথা ভুলে গেছি।"
+      },
+      {
+        "jp": "部屋の 鍵を かけるのを 忘れないでください。",
+        "furigana": "へやの かぎを かけるのを わすれないでください。",
+        "romaji": "Heya no kagi o kakeru no o wasurenai de kudasai.",
+        "en": "Please do not forget to lock the room.",
+        "bn": "ঘরের তালা লাগানোর কথা ভুলবেন না।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-038-g4",
+    "pattern": "～ の は ～ から です",
+    "meaning_en": "the reason why ... is because ...",
+    "meaning_bn": "কেন ... তার কারণ হলো ...",
+    "examples": [
+      {
+        "jp": "わたしが 毎日 走るのは、体が 弱いからです。",
+        "furigana": "わたしが まいにち はしるのは、からだが よわいからです。",
+        "romaji": "Watashi ga mainichi hashiru no wa, karada ga yowai kara desu.",
+        "en": "The reason I run every day is that my body is weak.",
+        "bn": "আমি প্রতিদিন দৌড়াই কারণ আমার শরীর দুর্বল।"
+      },
+      {
+        "jp": "きのう 学校を 休んだのは、熱が あったからです。",
+        "furigana": "きのう がっこうを やすんだのは、ねつが あったからです。",
+        "romaji": "Kinō gakkō o yasunda no wa, netsu ga atta kara desu.",
+        "en": "The reason I was absent from school yesterday was that I had a fever.",
+        "bn": "গতকাল স্কুলে যাইনি কারণ আমার জ্বর ছিল।"
+      },
+      {
+        "jp": "彼が とても 喜んだのは、試合に 勝ったからです。",
+        "furigana": "かれが とても よろこんだのは、しあいに かったからです。",
+        "romaji": "Kare ga totemo yorokonda no wa, shiai ni katta kara desu.",
+        "en": "The reason he was so happy is that he won the match.",
+        "bn": "সে এত খুশি হয়েছিল কারণ ম্যাচে জিতেছিল।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-038-g5",
+    "pattern": "V-る の を 覚えていますか / 知っていますか",
+    "meaning_en": "do you remember / know that ...",
+    "meaning_bn": "মনে আছে কি / জানেন কি",
+    "examples": [
+      {
+        "jp": "あした 掃除を するのを 覚えていますか。",
+        "furigana": "あした そうじを するのを おぼえていますか。",
+        "romaji": "Ashita sōji o suru no o oboete imasu ka.",
+        "en": "Do you remember that we are cleaning tomorrow?",
+        "bn": "আগামীকাল পরিষ্কার করার কথা মনে আছে?"
+      },
+      {
+        "jp": "彼が 楽器を 習っているのを 知っていますか。",
+        "furigana": "かれが がっきを ならっているのを しっていますか。",
+        "romaji": "Kare ga gakki o naratte iru no o shitte imasu ka.",
+        "en": "Did you know that he is learning a musical instrument?",
+        "bn": "সে বাদ্যযন্ত্র শিখছে, তা জানেন?"
+      },
+      {
+        "jp": "約束が あるのを 忘れていました。",
+        "furigana": "やくそくが あるのを わすれていました。",
+        "romaji": "Yakusoku ga aru no o wasurete imashita.",
+        "en": "I had forgotten that I had a promise.",
+        "bn": "প্রতিশ্রুতি আছে বলে ভুলে গিয়েছিলাম।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-039-r001",
+    "id": "minna-039-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "Why I Was Late",
+      "bn": "কেন আমার দেরি হলো"
     },
     "passage": [
       {
-        "jp": "これは こたえます［しつもんに～］ です。",
-        "furigana": "これは こたえます［しつもんに～］ です。",
-        "romaji": "Kore wa kotaemasu [shitsumonni~] desu.",
-        "en": "This is answer [a question].",
-        "bn": "এটি answer [a question]।"
+        "jp": "きのうの 朝、わたしは 会社に 遅刻しました。",
+        "furigana": "きのうの あさ、わたしは かいしゃに ちこくしました。",
+        "romaji": "Kinō no asa, watashi wa kaisha ni chikoku shimashita.",
+        "en": "Yesterday morning I was late for work.",
+        "bn": "গতকাল সকালে আমি অফিসে দেরি করেছিলাম।"
+      },
+      {
+        "jp": "朝、急に お腹が 痛く なりました。",
+        "furigana": "あさ、きゅうに おなかが いたく なりました。",
+        "romaji": "Asa, kyū ni onaka ga itaku narimashita.",
+        "en": "In the morning my stomach suddenly started hurting.",
+        "bn": "সকালে হঠাৎ পেটে ব্যথা শুরু হলো।"
+      },
+      {
+        "jp": "それで、家を 出るのが とても 遅く なりました。",
+        "furigana": "それで、いえを でるのが とても おそく なりました。",
+        "romaji": "Sore de, ie o deru no ga totemo osoku narimashita.",
+        "en": "So leaving the house became very late.",
+        "bn": "তাই বাড়ি থেকে বের হতে অনেক দেরি হয়ে গেল।"
+      },
+      {
+        "jp": "駅へ 行く 途中で、事故が あって、電車も 止まっていました。",
+        "furigana": "えきへ いく とちゅうで、じこが あって、でんしゃも とまっていました。",
+        "romaji": "Eki e iku tochū de, jiko ga atte, densha mo tomatte imashita.",
+        "en": "On the way to the station there was an accident, and the train had also stopped.",
+        "bn": "স্টেশনে যাওয়ার পথে দুর্ঘটনা ঘটেছিল, আর ট্রেনও বন্ধ ছিল।"
+      },
+      {
+        "jp": "会社に 着いたのは、十時半でした。",
+        "furigana": "かいしゃに ついたのは、じゅうじはんでした。",
+        "romaji": "Kaisha ni tsuita no wa, jū-ji han deshita.",
+        "en": "It was ten thirty when I arrived at the office.",
+        "bn": "অফিসে পৌঁছেছিলাম সাড়ে দশটায়।"
+      },
+      {
+        "jp": "部長は とても 心配していました。",
+        "furigana": "ぶちょうは とても しんぱいしていました。",
+        "romaji": "Buchō wa totemo shinpai shite imashita.",
+        "en": "The manager was very worried.",
+        "bn": "ম্যানেজার খুব দুশ্চিন্তা করছিলেন।"
+      },
+      {
+        "jp": "わたしが 遅れたのは、急に 体の 具合が 悪く なったからです。",
+        "furigana": "わたしが おくれたのは、きゅうに からだの ぐあいが わるく なったからです。",
+        "romaji": "Watashi ga okureta no wa, kyū ni karada no guai ga waruku natta kara desu.",
+        "en": "The reason I was late is that my physical condition suddenly got worse.",
+        "bn": "আমার দেরি হওয়ার কারণ হলো হঠাৎ শরীর খারাপ হয়ে যাওয়া।"
+      },
+      {
+        "jp": "今は もう 元気なので、安心してください。",
+        "furigana": "いまは もう げんきなので、あんしんしてください。",
+        "romaji": "Ima wa mō genki na node, anshin shite kudasai.",
+        "en": "I am fine now, so please do not worry.",
+        "bn": "এখন আমি সুস্থ, তাই নিশ্চিন্ত থাকুন।"
       }
     ]
   }

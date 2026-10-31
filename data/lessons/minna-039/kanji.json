@@ -1,87 +1,106 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "病",
+    "onyomi": ["ビョウ"],
+    "kunyomi": ["や.む", "やまい"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["illness", "sick"],
+      "bn": ["রোগ", "অসুস্থ"]
     },
-    "radicals": [],
-    "strokes": 4,
+    "radicals": ["疒", "丙"],
+    "strokes": 10,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "熱",
+    "onyomi": ["ネツ"],
+    "kunyomi": ["あつ.い"],
+    "meanings": {
+      "en": ["heat", "fever"],
+      "bn": ["তাপ", "জ্বর"]
+    },
+    "radicals": ["灬", "埶"],
+    "strokes": 15,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "痛",
+    "onyomi": ["ツウ"],
+    "kunyomi": ["いた.い", "いた.む"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["pain", "painful"],
+      "bn": ["ব্যথা", "বেদনাদায়ক"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
+    "radicals": ["疒", "甬"],
+    "strokes": 12,
+    "grade": 6,
     "jlpt": "N4"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "困",
+    "onyomi": ["コン"],
+    "kunyomi": ["こま.る"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["trouble", "be troubled"],
+      "bn": ["সমস্যা", "বিপদে পড়া"]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
+    "radicals": ["囗", "木"],
+    "strokes": 7,
+    "grade": 6,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "悲",
+    "onyomi": ["ヒ"],
+    "kunyomi": ["かな.しい", "かな.しむ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["sad"],
+      "bn": ["দুঃখিত"]
     },
-    "radicals": [],
+    "radicals": ["非", "心"],
+    "strokes": 12,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "怒",
+    "onyomi": ["ド"],
+    "kunyomi": ["いか.る", "おこ.る"],
+    "meanings": {
+      "en": ["anger", "get angry"],
+      "bn": ["রাগ", "রাগ করা"]
+    },
+    "radicals": ["女", "又", "心"],
+    "strokes": 9,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "笑",
+    "onyomi": ["ショウ"],
+    "kunyomi": ["わら.う", "え.む"],
+    "meanings": {
+      "en": ["laugh", "smile"],
+      "bn": ["হাসা", "হাসি"]
+    },
+    "radicals": ["竹", "夭"],
     "strokes": 10,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "危",
+    "onyomi": ["キ"],
+    "kunyomi": ["あぶ.ない", "あや.うい"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["dangerous"],
+      "bn": ["বিপজ্জনক"]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 4,
+    "radicals": ["㔾", "厂"],
+    "strokes": 6,
+    "grade": 6,
     "jlpt": "N4"
   }
 ]

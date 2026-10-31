@@ -3,48 +3,162 @@
     "id": "minna-039-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜39-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜39-A"
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン39の 文法です。",
-      "furigana": "これは レッスン39の 文法です。",
-      "romaji": ""
+      "jp": "風邪を ひい＿＿、学校を 休みました。",
+      "furigana": "かぜを ひい＿＿、がっこうを やすみました。",
+      "romaji": "Kaze o hii＿＿, gakkō o yasumimashita."
     },
-    "options": [
-      "Grammar pattern 39-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["て", "で", "に", "を"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜39-A means \"Grammar pattern 39-A\".",
-      "bn": "〜39-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 39-A\"।"
+      "en": "A verb in the て-form can express a cause, here catching a cold.",
+      "bn": "ক্রিয়ার て-রূপ কারণ বোঝায়, এখানে ঠান্ডা লাগা।"
     }
   },
   {
     "id": "minna-039-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜39-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜39-B"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン39の 文法です。",
-      "furigana": "これは レッスン39の 文法です。",
-      "romaji": ""
+      "jp": "熱が ある＿＿、きょうは 休みます。",
+      "furigana": "ねつが ある＿＿、きょうは やすみます。",
+      "romaji": "Netsu ga aru ＿＿, kyō wa yasumimasu."
+    },
+    "options": ["ので", "のに", "のが", "のも"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "ので gives a polite, objective reason.",
+      "bn": "ので ভদ্র ও বস্তুনিষ্ঠ কারণ প্রকাশ করে।"
+    }
+  },
+  {
+    "id": "minna-039-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "お金が なく＿＿、買い物が できません。",
+      "furigana": "おかねが なく＿＿、かいものが できません。",
+      "romaji": "Okane ga naku＿＿, kaimono ga dekimasen."
+    },
+    "options": ["て", "で", "に", "は"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "For a negative reason we use the なくて form, here なくて.",
+      "bn": "নেতিবাচক কারণে なくて রূপ ব্যবহৃত হয়।"
+    }
+  },
+  {
+    "id": "minna-039-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct question form.",
+      "bn": "সঠিক প্রশ্নরূপ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "＿＿ きのう 休んだんですか。",
+      "furigana": "＿＿ きのう やすんだんですか。",
+      "romaji": "＿＿ kinō yasunda n desu ka."
+    },
+    "options": ["どうして", "いつ", "だれ", "どこ"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "どうして～んですか asks for a reason or explanation.",
+      "bn": "どうして～んですか কারণ বা ব্যাখ্যা জানতে চায়।"
+    }
+  },
+  {
+    "id": "minna-039-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the best reply.",
+      "bn": "সবচেয়ে ভালো উত্তর বেছে নিন।"
+    },
+    "stem": {
+      "jp": "どうして 遅れたんですか。",
+      "furigana": "どうして おくれたんですか。",
+      "romaji": "Dōshite okureta n desu ka."
     },
     "options": [
-      "Grammar pattern 39-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "事故が あったんです。",
+      "はい、遅れました。",
+      "いいえ、遅れません。",
+      "駅で 会いました。"
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜39-B means \"Grammar pattern 39-B\".",
-      "bn": "〜39-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 39-B\"।"
+      "en": "The reply with んです gives the explanation for being late.",
+      "bn": "んです যুক্ত উত্তরটি দেরি হওয়ার ব্যাখ্যা দেয়।"
+    }
+  },
+  {
+    "id": "minna-039-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "あぶない＿＿、ここに 入らないでください。",
+      "furigana": "あぶない＿＿、ここに はいらないでください。",
+      "romaji": "Abunai ＿＿, koko ni hairanai de kudasai."
+    },
+    "options": ["ので", "のに", "のが", "のも"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "With an i-adjective, ので simply follows the plain form.",
+      "bn": "ই-বিশেষণের সঙ্গে ので সরাসরি সাধারণ রূপে যুক্ত হয়।"
+    }
+  },
+  {
+    "id": "minna-039-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "バスが 来なくて、学校に 遅刻しました。",
+      "furigana": "ばすが こなくて、がっこうに ちこくしました。",
+      "romaji": "Basu ga konakute, gakkō ni chikoku shimashita."
+    },
+    "options": [
+      "The bus did not come, so I was late for school.",
+      "The bus came, so I was not late for school.",
+      "I was late, so the bus did not come.",
+      "I did not go to school because I missed the bus."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-なくて shows a negative cause leading to a result.",
+      "bn": "V-なくて নেতিবাচক কারণ ও তার ফল দেখায়।"
+    }
+  },
+  {
+    "id": "minna-039-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 困る.",
+      "bn": "困る এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "近くに 病院が なくて、困りました。",
+      "furigana": "ちかくに びょういんが なくて、こまりました。",
+      "romaji": "Chikaku ni byōin ga nakute, komarimashita."
+    },
+    "options": ["was in trouble", "was happy", "was angry", "was late"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "困る means to be in trouble or at a loss.",
+      "bn": "困る মানে সমস্যায় পড়া বা বিপদে পড়া।"
     }
   }
 ]

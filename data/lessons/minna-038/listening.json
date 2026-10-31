@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-038-l001",
+    "id": "minna-038-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Did You Remember the Promise?",
+      "bn": "প্রতিশ্রুতির কথা মনে আছে?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "さんかします［りょこうに～］ は 何 ですか。",
-        "furigana": "さんかします［りょこうに～］ は なん ですか。",
-        "romaji": "sankashimasu [ryokōni~] wa nan desu ka.",
-        "en": "What is join [a tour], participate, attend?",
-        "bn": "join [a tour], participate, attend কী?"
+        "jp": "田中さん、あした 友だちと 会う 約束を 覚えていますか。",
+        "furigana": "たなかさん、あした ともだちと あう やくそくを おぼえていますか。",
+        "romaji": "Tanaka-san, ashita tomodachi to au yakusoku o oboete imasu ka.",
+        "en": "Tanaka, do you remember the promise to meet a friend tomorrow?",
+        "bn": "তানাকা, আগামীকাল বন্ধুর সঙ্গে দেখা করার প্রতিশ্রুতি মনে আছে?"
+      },
+      {
+        "jp": "あ、すみません。すっかり 忘れていました。",
+        "furigana": "あ、すみません。すっかり わすれていました。",
+        "romaji": "A, sumimasen. Sukkari wasurete imashita.",
+        "en": "Oh, sorry. I had completely forgotten.",
+        "bn": "ওহ, দুঃখিত। একেবারে ভুলে গিয়েছিলাম।"
+      },
+      {
+        "jp": "友だちに 連絡するのを 忘れないでくださいね。",
+        "furigana": "ともだちに れんらくするのを わすれないでくださいね。",
+        "romaji": "Tomodachi ni renraku suru no o wasurenai de kudasai ne.",
+        "en": "Please do not forget to contact your friend.",
+        "bn": "বন্ধুকে যোগাযোগ করার কথা ভুলবেন না।"
+      },
+      {
+        "jp": "はい。何時に しますか。",
+        "furigana": "はい。なんじに しますか。",
+        "romaji": "Hai. Nanji ni shimasu ka.",
+        "en": "Yes. What time shall we make it?",
+        "bn": "হ্যাঁ। কয়টায় করব?"
+      },
+      {
+        "jp": "午後 三時に するのは どうですか。",
+        "furigana": "ごご さんじに するのは どうですか。",
+        "romaji": "Gogo san-ji ni suru no wa dō desu ka.",
+        "en": "How about making it at three in the afternoon?",
+        "bn": "বিকেল তিনটায় করা কেমন?"
+      },
+      {
+        "jp": "いいですね。でも、三時までに 掃除を するのを 忘れそうです。",
+        "furigana": "いいですね。でも、さんじまでに そうじを するのを わすれそうです。",
+        "romaji": "Ii desu ne. Demo, san-ji made ni sōji o suru no o wasure sō desu.",
+        "en": "That sounds good. But I feel like I will forget to clean by three.",
+        "bn": "ভালোই। তবে তিনটার মধ্যে পরিষ্কার করার কথা ভুলে যাব বলে মনে হচ্ছে।"
+      },
+      {
+        "jp": "じゃ、わたしが 電話しますよ。",
+        "furigana": "じゃ、わたしが でんわしますよ。",
+        "romaji": "Ja, watashi ga denwa shimasu yo.",
+        "en": "Then I will call you.",
+        "bn": "তাহলে আমি ফোন করব।"
+      },
+      {
+        "jp": "ありがとうございます。音楽を 聞くのは 好きですが、忘れ物は 嫌いです。",
+        "furigana": "ありがとうございます。おんがくを きくのは すきですが、わすれものは きらいです。",
+        "romaji": "Arigatō gozaimasu. Ongaku o kiku no wa suki desu ga, wasuremono wa kirai desu.",
+        "en": "Thank you. I like listening to music, but I hate forgetting things.",
+        "bn": "ধন্যবাদ। সংগীত শুনতে ভালোবাসি, কিন্তু জিনিস ভুলে যাওয়া একেবারেই পছন্দ করি না।"
+      },
+      {
+        "jp": "わたしもです。あしたは 気をつけましょう。",
+        "furigana": "わたしもです。あしたは きをつけましょう。",
+        "romaji": "Watashi mo desu. Ashita wa ki o tsukemashō.",
+        "en": "Me too. Let us be careful tomorrow.",
+        "bn": "আমিও। আগামীকাল সতর্ক থাকি।"
       }
     ]
   }
