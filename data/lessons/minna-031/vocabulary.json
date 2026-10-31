@@ -6,7 +6,7 @@
     "romaji": "tsudzukemasu",
     "english_meaning": "to continue",
     "type": "verb",
-    "bengali_meaning": "to continue"
+    "bengali_meaning": "চালিয়ে যাওয়া"
   },
   {
     "id": "minna-031-v002",
@@ -15,7 +15,7 @@
     "romaji": "mitsukemasu",
     "english_meaning": "to find",
     "type": "verb",
-    "bengali_meaning": "to find"
+    "bengali_meaning": "খুঁজে পাওয়া"
   },
   {
     "id": "minna-031-v003",
@@ -24,7 +24,7 @@
     "romaji": "ukemasu",
     "english_meaning": "to take (an exam)",
     "type": "verb",
-    "bengali_meaning": "to take (an exam)"
+    "bengali_meaning": "(পরীক্ষা) দেওয়া"
   },
   {
     "id": "minna-031-v004",
@@ -33,7 +33,7 @@
     "romaji": "nyuugaku shimasu",
     "english_meaning": "to enter (a school)",
     "type": "verb",
-    "bengali_meaning": "to enter (a school)"
+    "bengali_meaning": "(স্কুলে) ভর্তি হওয়া"
   },
   {
     "id": "minna-031-v005",
@@ -42,6 +42,6 @@
     "romaji": "sotsugyou shimasu",
     "english_meaning": "to graduate",
     "type": "verb",
-    "bengali_meaning": "to graduate"
+    "bengali_meaning": "স্নাতক হওয়া / পাশ করে বের হওয়া"
   }
 ]

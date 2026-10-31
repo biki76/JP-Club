@@ -6,7 +6,7 @@
     "romaji": "souguu shimasu",
     "english_meaning": "to encounter (an accident)",
     "type": "verb",
-    "bengali_meaning": "to encounter (an accident)"
+    "bengali_meaning": "(দুর্ঘটনার) মুখোমুখি হওয়া"
   },
   {
     "id": "minna-036-v002",
@@ -15,7 +15,7 @@
     "romaji": "chokin shimasu",
     "english_meaning": "to save money",
     "type": "verb",
-    "bengali_meaning": "to save money"
+    "bengali_meaning": "টাকা জমানো"
   },
   {
     "id": "minna-036-v003",
@@ -24,7 +24,7 @@
     "romaji": "sugimasu",
     "english_meaning": "to pass (time)",
     "type": "verb",
-    "bengali_meaning": "to pass (time)"
+    "bengali_meaning": "(সময়) কাটানো"
   },
   {
     "id": "minna-036-v004",
@@ -33,6 +33,6 @@
     "romaji": "naremasu",
     "english_meaning": "to get accustomed to",
     "type": "verb",
-    "bengali_meaning": "to get accustomed to"
+    "bengali_meaning": "অভ্যস্ত হওয়া"
   }
 ]

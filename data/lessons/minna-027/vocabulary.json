@@ -6,7 +6,7 @@
     "romaji": "kaimasu",
     "english_meaning": "to keep (a pet)",
     "type": "verb",
-    "bengali_meaning": "to keep (a pet)"
+    "bengali_meaning": "পোষা (প্রাণী পোষা)"
   },
   {
     "id": "minna-027-v002",
@@ -15,7 +15,7 @@
     "romaji": "hashirimasu",
     "english_meaning": "to run / drive (along a road)",
     "type": "verb",
-    "bengali_meaning": "to run / drive (along a road)"
+    "bengali_meaning": "(রাস্তা দিয়ে) চলা / গাড়ি চালানো"
   },
   {
     "id": "minna-027-v003",
@@ -24,7 +24,7 @@
     "romaji": "miemasu",
     "english_meaning": "to be visible",
     "type": "verb",
-    "bengali_meaning": "to be visible"
+    "bengali_meaning": "দেখা যাওয়া"
   },
   {
     "id": "minna-027-v004",
@@ -33,7 +33,7 @@
     "romaji": "kikoemasu",
     "english_meaning": "to be audible",
     "type": "verb",
-    "bengali_meaning": "to be audible"
+    "bengali_meaning": "শোনা যাওয়া"
   },
   {
     "id": "minna-027-v005",
@@ -42,7 +42,7 @@
     "romaji": "dekimasu",
     "english_meaning": "to be able to do",
     "type": "verb",
-    "bengali_meaning": "to be able to do"
+    "bengali_meaning": "করতে পারা"
   },
   {
     "id": "minna-027-v006",
@@ -51,6 +51,6 @@
     "romaji": "nagara",
     "english_meaning": "while doing",
     "type": "grammar",
-    "bengali_meaning": "while doing"
+    "bengali_meaning": "করতে করতে"
   }
 ]

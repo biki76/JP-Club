@@ -6,7 +6,7 @@
     "romaji": "akimasu",
     "english_meaning": "(a door) opens",
     "type": "verb",
-    "bengali_meaning": "(a door) opens"
+    "bengali_meaning": "(দরজা) খুলে যাওয়া"
   },
   {
     "id": "minna-029-v002",
@@ -15,7 +15,7 @@
     "romaji": "shimarimasu",
     "english_meaning": "(a door) closes",
     "type": "verb",
-    "bengali_meaning": "(a door) closes"
+    "bengali_meaning": "(দরজা) বন্ধ হওয়া"
   },
   {
     "id": "minna-029-v003",
@@ -24,7 +24,7 @@
     "romaji": "tsukimasu",
     "english_meaning": "(a light) comes on",
     "type": "verb",
-    "bengali_meaning": "(a light) comes on"
+    "bengali_meaning": "(আলো) জ্বলে ওঠা"
   },
   {
     "id": "minna-029-v004",
@@ -33,7 +33,7 @@
     "romaji": "kiemasu",
     "english_meaning": "(a light) goes off",
     "type": "verb",
-    "bengali_meaning": "(a light) goes off"
+    "bengali_meaning": "(আলো) নিভে যাওয়া"
   },
   {
     "id": "minna-029-v005",
@@ -42,7 +42,7 @@
     "romaji": "kowaremasu",
     "english_meaning": "to break (intransitive)",
     "type": "verb",
-    "bengali_meaning": "to break (intransitive)"
+    "bengali_meaning": "ভেঙে যাওয়া"
   },
   {
     "id": "minna-029-v006",
@@ -51,6 +51,6 @@
     "romaji": "waremasu",
     "english_meaning": "(a glass) breaks",
     "type": "verb",
-    "bengali_meaning": "(a glass) breaks"
+    "bengali_meaning": "(গ্লাস) ভেঙে যাওয়া"
   }
 ]

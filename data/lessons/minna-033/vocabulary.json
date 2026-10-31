@@ -6,7 +6,7 @@
     "romaji": "nigemasu",
     "english_meaning": "to run away",
     "type": "verb",
-    "bengali_meaning": "to run away"
+    "bengali_meaning": "পালিয়ে যাওয়া"
   },
   {
     "id": "minna-033-v002",
@@ -15,7 +15,7 @@
     "romaji": "sawagimasu",
     "english_meaning": "to make noise",
     "type": "verb",
-    "bengali_meaning": "to make noise"
+    "bengali_meaning": "হইচই করা"
   },
   {
     "id": "minna-033-v003",
@@ -24,7 +24,7 @@
     "romaji": "akiramemasu",
     "english_meaning": "to give up",
     "type": "verb",
-    "bengali_meaning": "to give up"
+    "bengali_meaning": "হাল ছেড়ে দেওয়া"
   },
   {
     "id": "minna-033-v004",
@@ -33,6 +33,6 @@
     "romaji": "mamorimasu",
     "english_meaning": "to keep / obey",
     "type": "verb",
-    "bengali_meaning": "to keep / obey"
+    "bengali_meaning": "মেনে চলা"
   }
 ]

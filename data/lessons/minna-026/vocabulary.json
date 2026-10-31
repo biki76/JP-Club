@@ -6,7 +6,7 @@
     "romaji": "mimasu",
     "english_meaning": "to examine (medically)",
     "type": "verb",
-    "bengali_meaning": "to examine (medically)"
+    "bengali_meaning": "পরীক্ষা করা (ডাক্তারি)"
   },
   {
     "id": "minna-026-v002",
@@ -15,7 +15,7 @@
     "romaji": "sagashimasu",
     "english_meaning": "to search / look for",
     "type": "verb",
-    "bengali_meaning": "to search / look for"
+    "bengali_meaning": "খোঁজা"
   },
   {
     "id": "minna-026-v003",
@@ -24,7 +24,7 @@
     "romaji": "okuremasu",
     "english_meaning": "to be late / delayed",
     "type": "verb",
-    "bengali_meaning": "to be late / delayed"
+    "bengali_meaning": "দেরি হওয়া"
   },
   {
     "id": "minna-026-v004",
@@ -33,7 +33,7 @@
     "romaji": "maniaimasu",
     "english_meaning": "to be in time",
     "type": "verb",
-    "bengali_meaning": "to be in time"
+    "bengali_meaning": "সময়মতো পৌঁছানো"
   },
   {
     "id": "minna-026-v005",
@@ -42,7 +42,7 @@
     "romaji": "hiroimasu",
     "english_meaning": "to pick up",
     "type": "verb",
-    "bengali_meaning": "to pick up"
+    "bengali_meaning": "তুলে নেওয়া / আনতে যাওয়া"
   },
   {
     "id": "minna-026-v006",
@@ -51,7 +51,7 @@
     "romaji": "katadzukimasu",
     "english_meaning": "to be tidied up",
     "type": "verb",
-    "bengali_meaning": "to be tidied up"
+    "bengali_meaning": "গোছানো হওয়া"
   },
   {
     "id": "minna-026-v007",
@@ -60,7 +60,7 @@
     "romaji": "kibun ga ii",
     "english_meaning": "to feel good",
     "type": "expression",
-    "bengali_meaning": "to feel good"
+    "bengali_meaning": "ভালো লাগা"
   },
   {
     "id": "minna-026-v008",
@@ -69,7 +69,7 @@
     "romaji": "tsugou ga ii",
     "english_meaning": "to be convenient",
     "type": "expression",
-    "bengali_meaning": "to be convenient"
+    "bengali_meaning": "সুবিধাজনক হওয়া"
   },
   {
     "id": "minna-026-v009",
@@ -78,6 +78,6 @@
     "romaji": "nandemo",
     "english_meaning": "anything / whatever",
     "type": "adverb",
-    "bengali_meaning": "anything / whatever"
+    "bengali_meaning": "যেকোনো কিছু"
   }
 ]

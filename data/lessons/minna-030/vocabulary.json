@@ -6,7 +6,7 @@
     "romaji": "harimasu",
     "english_meaning": "to stick / paste",
     "type": "verb",
-    "bengali_meaning": "to stick / paste"
+    "bengali_meaning": "সাঁটা / লাগানো"
   },
   {
     "id": "minna-030-v002",
@@ -15,7 +15,7 @@
     "romaji": "kakemasu",
     "english_meaning": "to hang",
     "type": "verb",
-    "bengali_meaning": "to hang"
+    "bengali_meaning": "ঝোলানো"
   },
   {
     "id": "minna-030-v003",
@@ -24,7 +24,7 @@
     "romaji": "kazarimasu",
     "english_meaning": "to decorate",
     "type": "verb",
-    "bengali_meaning": "to decorate"
+    "bengali_meaning": "সাজানো"
   },
   {
     "id": "minna-030-v004",
@@ -33,7 +33,7 @@
     "romaji": "narabemasu",
     "english_meaning": "to arrange / line up",
     "type": "verb",
-    "bengali_meaning": "to arrange / line up"
+    "bengali_meaning": "সারিবদ্ধ করা"
   },
   {
     "id": "minna-030-v005",
@@ -42,7 +42,7 @@
     "romaji": "uemasu",
     "english_meaning": "to plant",
     "type": "verb",
-    "bengali_meaning": "to plant"
+    "bengali_meaning": "রোপণ করা"
   },
   {
     "id": "minna-030-v006",
@@ -51,6 +51,6 @@
     "romaji": "modoshimasu",
     "english_meaning": "to return / put back",
     "type": "verb",
-    "bengali_meaning": "to return / put back"
+    "bengali_meaning": "ফিরিয়ে দেওয়া / যথাস্থানে রাখা"
   }
 ]

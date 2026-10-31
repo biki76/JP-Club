@@ -6,7 +6,7 @@
     "romaji": "undou shimasu",
     "english_meaning": "to exercise",
     "type": "verb",
-    "bengali_meaning": "to exercise"
+    "bengali_meaning": "ব্যায়াম করা"
   },
   {
     "id": "minna-032-v002",
@@ -15,7 +15,7 @@
     "romaji": "seikou shimasu",
     "english_meaning": "to succeed",
     "type": "verb",
-    "bengali_meaning": "to succeed"
+    "bengali_meaning": "সফল হওয়া"
   },
   {
     "id": "minna-032-v003",
@@ -24,7 +24,7 @@
     "romaji": "shippai shimasu",
     "english_meaning": "to fail",
     "type": "verb",
-    "bengali_meaning": "to fail"
+    "bengali_meaning": "ব্যর্থ হওয়া"
   },
   {
     "id": "minna-032-v004",
@@ -33,6 +33,6 @@
     "romaji": "goukaku shimasu",
     "english_meaning": "to pass (an exam)",
     "type": "verb",
-    "bengali_meaning": "to pass (an exam)"
+    "bengali_meaning": "(পরীক্ষায়) পাশ করা"
   }
 ]

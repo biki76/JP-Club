@@ -6,7 +6,7 @@
     "romaji": "sakimasu",
     "english_meaning": "to bloom",
     "type": "verb",
-    "bengali_meaning": "to bloom"
+    "bengali_meaning": "ফোটা"
   },
   {
     "id": "minna-035-v002",
@@ -15,7 +15,7 @@
     "romaji": "kawarimasu",
     "english_meaning": "to change",
     "type": "verb",
-    "bengali_meaning": "to change"
+    "bengali_meaning": "বদলানো"
   },
   {
     "id": "minna-035-v003",
@@ -24,7 +24,7 @@
     "romaji": "komarimasu",
     "english_meaning": "to be in trouble",
     "type": "verb",
-    "bengali_meaning": "to be in trouble"
+    "bengali_meaning": "সমস্যায় পড়া"
   },
   {
     "id": "minna-035-v004",
@@ -33,6 +33,6 @@
     "romaji": "naorimasu",
     "english_meaning": "to heal / recover",
     "type": "verb",
-    "bengali_meaning": "to heal / recover"
+    "bengali_meaning": "সেরে ওঠা"
   }
 ]

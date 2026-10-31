@@ -6,7 +6,7 @@
     "romaji": "migakimasu",
     "english_meaning": "to brush (teeth) / polish",
     "type": "verb",
-    "bengali_meaning": "to brush (teeth) / polish"
+    "bengali_meaning": "(দাঁত) মাজা / পালিশ করা"
   },
   {
     "id": "minna-034-v002",
@@ -15,7 +15,7 @@
     "romaji": "kumitatemasu",
     "english_meaning": "to assemble",
     "type": "verb",
-    "bengali_meaning": "to assemble"
+    "bengali_meaning": "জোড়া লাগানো"
   },
   {
     "id": "minna-034-v003",
@@ -24,7 +24,7 @@
     "romaji": "orimasu",
     "english_meaning": "to fold / bend",
     "type": "verb",
-    "bengali_meaning": "to fold / bend"
+    "bengali_meaning": "ভাঁজ করা / বাঁকানো"
   },
   {
     "id": "minna-034-v004",
@@ -33,6 +33,6 @@
     "romaji": "ki ga tsukimasu",
     "english_meaning": "to notice",
     "type": "verb",
-    "bengali_meaning": "to notice"
+    "bengali_meaning": "খেয়াল করা"
   }
 ]
