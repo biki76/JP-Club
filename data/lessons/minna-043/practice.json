@@ -3,48 +3,162 @@
     "id": "minna-043-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜43-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜43-A"
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン43の 文法です。",
-      "furigana": "これは レッスン43の 文法です。",
-      "romaji": ""
+      "jp": "空が 暗いです。雨が ＿＿ です。",
+      "furigana": "そらが くらいです。あめが ＿＿ です。",
+      "romaji": "Sora ga kurai desu. Ame ga ＿＿ desu."
     },
-    "options": [
-      "Grammar pattern 43-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["降りそう", "降るそう", "降ったそう", "降りたい"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜43-A means \"Grammar pattern 43-A\".",
-      "bn": "〜43-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 43-A\"।"
+      "en": "V-ます stem + そうです means it looks like it will rain.",
+      "bn": "V-ます stem + そうです মানে বৃষ্টি নামবে বলে মনে হচ্ছে।"
     }
   },
   {
     "id": "minna-043-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜43-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜43-B"
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン43の 文法です。",
-      "furigana": "これは レッスン43の 文法です。",
-      "romaji": ""
+      "jp": "この ケーキは とても ＿＿ です。",
+      "furigana": "この けーきは とても ＿＿ です。",
+      "romaji": "Kono kēki wa totemo ＿＿ desu."
+    },
+    "options": ["おいしそう", "おいしいそう", "おいしくそう", "おいしいそうです"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "For i-adjectives we drop い and add そうです.",
+      "bn": "ই-বিশেষণের ক্ষেত্রে い বাদ দিয়ে そうです যোগ হয়।"
+    }
+  },
+  {
+    "id": "minna-043-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "ちょっと たばこを 買って ＿＿。",
+      "furigana": "ちょっと たばこを かって ＿＿。",
+      "romaji": "Chotto tabako o katte ＿＿."
+    },
+    "options": ["きます", "いきます", "しまいます", "おきます"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-てきます means to go somewhere and come back.",
+      "bn": "V-てきます মানে কোথাও গিয়ে ফিরে আসা।"
+    }
+  },
+  {
+    "id": "minna-043-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "あの 子どもが こちらへ 走って ＿＿。",
+      "furigana": "あの こどもが こちらへ はしって ＿＿。",
+      "romaji": "Ano kodomo ga kochira e hashitte ＿＿."
+    },
+    "options": ["きました", "いきました", "しまいました", "おきました"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-てきました shows movement towards the speaker.",
+      "bn": "V-てきました বক্তার দিকে আসার গতি বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-043-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form for the blank.",
+      "bn": "শূন্যস্থানে সঠিক রূপ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この いすは 古くて、＿＿ です。",
+      "furigana": "この いすは ふるくて、＿＿ です。",
+      "romaji": "Kono isu wa furukute, ＿＿ desu."
+    },
+    "options": ["壊れそう", "壊れるそう", "壊れたそう", "壊れたい"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-ます stem + そうです shows appearance of likely breakage.",
+      "bn": "V-ます stem + そうです ভেঙে যাওয়ার মতো দেখতে বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-043-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "この 料理は おいしそうです。",
+      "furigana": "この りょうりは おいしそうです。",
+      "romaji": "Kono ryōri wa oishisō desu."
     },
     "options": [
-      "Grammar pattern 43-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "This dish looks delicious.",
+      "This dish is delicious.",
+      "This dish was delicious.",
+      "I heard this dish is delicious."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜43-B means \"Grammar pattern 43-B\".",
-      "bn": "〜43-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 43-B\"।"
+      "en": "そうです here expresses appearance, not hearsay.",
+      "bn": "এখানে そうです দৃশ্যবোধ প্রকাশ করে, শোনা কথা নয়।"
+    }
+  },
+  {
+    "id": "minna-043-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "だんだん 寒くなって ＿＿。",
+      "furigana": "だんだん さむくなって ＿＿。",
+      "romaji": "Dandan samuku natte ＿＿."
+    },
+    "options": ["きました", "いきました", "しまいます", "おきます"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-てきました here shows gradual change up to now.",
+      "bn": "এখানে V-てきました ক্রমিক পরিবর্তন বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-043-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 珍しい.",
+      "bn": "珍しい এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この 鳥は とても 珍しいです。",
+      "furigana": "この とりは とても めずらしいです。",
+      "romaji": "Kono tori wa totemo mezurashii desu."
+    },
+    "options": [
+      "This bird is very rare.",
+      "This bird is very big.",
+      "This bird is very fast.",
+      "This bird is very old."
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "珍しい means rare or unusual.",
+      "bn": "珍しい মানে বিরল বা অসাধারণ।"
     }
   }
 ]

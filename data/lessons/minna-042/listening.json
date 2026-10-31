@@ -1,18 +1,80 @@
 [
   {
-    "id": "minna-042-l001",
+    "id": "minna-042-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Why Do You Study?",
+      "bn": "কেন পড়াশোনা করেন?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "つつみます は 何 ですか。",
-        "furigana": "つつみます は なん ですか。",
-        "romaji": "tsutsumimasu wa nan desu ka.",
-        "en": "What is wrap?",
-        "bn": "wrap কী?"
+        "jp": "田中さん、毎日 日本語を 勉強していますね。どうしてですか。",
+        "furigana": "たなかさん、まいにち にほんごを べんきょうしていますね。どうしてですか。",
+        "romaji": "Tanaka-san, mainichi Nihongo o benkyō shite imasu ne. Dōshite desu ka.",
+        "en": "Tanaka, you study Japanese every day. Why?",
+        "bn": "তানাকা, প্রতিদিন জাপানি পড়েন। কেন?"
+      },
+      {
+        "jp": "日本で 働く ために、日本語が 必要な んです。",
+        "furigana": "にほんで はたらく ために、にほんごが ひつような んです。",
+        "romaji": "Nihon de hataraku tame ni, Nihongo ga hitsuyō na n desu.",
+        "en": "In order to work in Japan, Japanese is necessary.",
+        "bn": "জাপানে কাজ করার জন্যে জাপানি প্রয়োজন।"
+      },
+      {
+        "jp": "そうですか。日本の 会社で 働きたい んですか。",
+        "furigana": "そうですか。にほんの かいしゃで はたらきたい んですか。",
+        "romaji": "Sō desu ka. Nihon no kaisha de hatarakitai n desu ka.",
+        "en": "Is that so. Do you want to work at a Japanese company?",
+        "bn": "তাই নাকি। জাপানি কোম্পানিতে কাজ করতে চান?"
+      },
+      {
+        "jp": "はい、将来は 日本の 会社で エンジニアとして 働きたいです。",
+        "furigana": "はい、しょうらいは にほんの かいしゃで えんじにあとして はたらきたいです。",
+        "romaji": "Hai, shōrai wa Nihon no kaisha de enjinia to shite hatarakitai desu.",
+        "en": "Yes, in the future I want to work as an engineer at a Japanese company.",
+        "bn": "হ্যাঁ, ভবিষ্যতে জাপানি কোম্পানিতে প্রকৌশলী হিসেবে কাজ করতে চাই।"
+      },
+      {
+        "jp": "それは いいですね。日本語の 勉強は 大変ですか。",
+        "furigana": "それは いいですね。にほんごの べんきょうは たいへんですか。",
+        "romaji": "Sore wa ii desu ne. Nihongo no benkyō wa taihen desu ka.",
+        "en": "That is nice. Is studying Japanese hard?",
+        "bn": "দুর্দান্ত। জাপানি পড়া কঠিন?"
+      },
+      {
+        "jp": "はい、とても 大変です。きのうも 夜 遅くまで 勉強した のに、あまり 進みませんでした。",
+        "furigana": "はい、とても たいへんです。きのうも よる おそくまで べんきょうした のに、あまり すすみませんでした。",
+        "romaji": "Hai, totemo taihen desu. Kinō mo yoru osoku made benkyō shita no ni, amari susumimasen deshita.",
+        "en": "Yes, very hard. Even though I studied until late last night too, I did not progress much.",
+        "bn": "হ্যাঁ, খুব কঠিন। গতকালও রাত দেরি পর্যন্ত পড়েছি, তবুও বেশি এগোয়নি।"
+      },
+      {
+        "jp": "でも、好きな ことの ために、頑張れると 思います。",
+        "furigana": "でも、すきな ことの ために、がんばれると おもいます。",
+        "romaji": "Demo, suki na koto no tame ni, ganbareru to omoimasu.",
+        "en": "But I think I can do my best for something I like.",
+        "bn": "তবে ভালো লাগার কাজের জন্যে চেষ্টা করা যায়।"
+      },
+      {
+        "jp": "そうですね。わたしも 自分の 夢の ために、何か 始めたいです。",
+        "furigana": "そうですね。わたしも じぶんの ゆめの ために、なにか はじめたいです。",
+        "romaji": "Sō desu ne. Watashi mo jibun no yume no tame ni, nanika hajimetai desu.",
+        "en": "Right. I also want to start something for my own dream.",
+        "bn": "ঠিক। আমিও নিজের স্বপ্নের জন্যে কিছু শুরু করতে চাই।"
+      },
+      {
+        "jp": "何か 手伝える ことが あったら、言って くださいね。",
+        "furigana": "なにか てつだえる ことが あったら、いって くださいね。",
+        "romaji": "Nanika tetsudaeru koto ga attara, itte kudasai ne.",
+        "en": "If there is anything I can help with, please tell me.",
+        "bn": "সাহায্য করতে পারি এমন কিছু থাকলে বলবেন।"
+      },
+      {
+        "jp": "ありがとうございます。お互い 頑張りましょう。",
+        "furigana": "ありがとうございます。おたがい がんばりましょう。",
+        "romaji": "Arigatō gozaimasu. Otagai ganbarimashō.",
+        "en": "Thank you. Let us both do our best.",
+        "bn": "ধন্যবাদ। চলুন দুজনে চেষ্টা করি।"
       }
     ]
   }

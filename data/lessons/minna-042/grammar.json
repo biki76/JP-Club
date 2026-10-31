@@ -1,38 +1,122 @@
 [
   {
     "id": "minna-042-g1",
-    "pattern": "〜42-A",
-    "meaning_en": "Grammar pattern 42-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 42-A",
+    "pattern": "V-る / N の ために（目的）",
+    "meaning_en": "in order to, for the purpose of",
+    "meaning_bn": "উদ্দেশ্যে, জন্যে",
     "examples": [
       {
-        "jp": "これは レッスン42の 文法です。",
-        "en": "This is lesson 42 grammar.",
-        "bn": "This is lesson 42 grammar.",
-        "furigana": "これは レッスン42の 文法です。",
-        "romaji": ""
+        "jp": "日本の 会社で 働く ために、日本語を 勉強しています。",
+        "furigana": "にほんの かいしゃで はたらく ために、にほんごを べんきょうしています。",
+        "romaji": "Nihon no kaisha de hataraku tame ni, Nihongo o benkyō shite imasu.",
+        "en": "I am studying Japanese in order to work at a Japanese company.",
+        "bn": "জাপানি কোম্পানিতে কাজ করার উদ্দেশ্যে আমি জাপানি পড়ছি।"
+      },
+      {
+        "jp": "家族の ために、毎日 働いています。",
+        "furigana": "かぞくの ために、まいにち はたらいています。",
+        "romaji": "Kazoku no tame ni, mainichi hataraite imasu.",
+        "en": "I work every day for my family.",
+        "bn": "পরিবারের জন্যে প্রতিদিন কাজ করছি।"
+      },
+      {
+        "jp": "試験に 合格する ために、毎晩 遅くまで 勉強しました。",
+        "furigana": "しけんに ごうかくする ために、まいばん おそくまで べんきょうしました。",
+        "romaji": "Shiken ni gōkaku suru tame ni, maiban osoku made benkyō shimashita.",
+        "en": "In order to pass the examination, I studied late every night.",
+        "bn": "পরীক্ষায় উত্তীর্ণ হওয়ার জন্যে প্রতি রাতে দেরি পর্যন্ত পড়েছি।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-042-g2",
-    "pattern": "〜42-B",
-    "meaning_en": "Grammar pattern 42-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 42-B",
+    "pattern": "V-る のに（用途）",
+    "meaning_en": "for the purpose of doing, to be used for",
+    "meaning_bn": "কোনো কাজে ব্যবহারের জন্য",
     "examples": [
       {
-        "jp": "これは レッスン42の 文法です。",
-        "en": "This is lesson 42 grammar.",
-        "bn": "This is lesson 42 grammar.",
-        "furigana": "これは レッスン42の 文法です。",
-        "romaji": ""
+        "jp": "この 機械は 料理を 作る のに 使います。",
+        "furigana": "この きかいは りょうりを つくる のに つかいます。",
+        "romaji": "Kono kikai wa ryōri o tsukuru no ni tsukaimasu.",
+        "en": "This machine is used for cooking.",
+        "bn": "এই যন্ত্রটি রান্না করার জন্যে ব্যবহার করা হয়।"
+      },
+      {
+        "jp": "この はさみは 紙を 切る のに 使います。",
+        "furigana": "この はさみは かみを きる のに つかいます。",
+        "romaji": "Kono hasami wa kami o kiru no ni tsukaimasu.",
+        "en": "These scissors are used for cutting paper.",
+        "bn": "এই কাঁচিটি কাগজ কাটার জন্যে ব্যবহৃত হয়।"
+      },
+      {
+        "jp": "この 部屋は 会議を する のに 使います。",
+        "furigana": "この へやは かいぎを する のに つかいます。",
+        "romaji": "Kono heya wa kaigi o suru no ni tsukaimasu.",
+        "en": "This room is used for holding meetings.",
+        "bn": "এই ঘরটি সভা করার জন্যে ব্যবহৃত হয়।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-042-g3",
+    "pattern": "V-た / N の ために（原因）",
+    "meaning_en": "because of, due to",
+    "meaning_bn": "কারণে, জন্যে",
+    "examples": [
+      {
+        "jp": "病気の ために、学校を 休みました。",
+        "furigana": "びょうきの ために、がっこうを やすみました。",
+        "romaji": "Byōki no tame ni, gakkō o yasumimashita.",
+        "en": "Because of illness, I was absent from school.",
+        "bn": "অসুস্থতার কারণে স্কুলে যাইনি।"
+      },
+      {
+        "jp": "事故が あった ために、電車が 遅れています。",
+        "furigana": "じこが あった ために、でんしゃが おくれています。",
+        "romaji": "Jiko ga atta tame ni, densha ga okurete imasu.",
+        "en": "Because there was an accident, the train is delayed.",
+        "bn": "দুর্ঘটনা ঘটেছিল বলে ট্রেন দেরি করছে।"
+      },
+      {
+        "jp": "雨が 降った ために、試合が 中止に なりました。",
+        "furigana": "あめが ふった ために、しあいが ちゅうしに なりました。",
+        "romaji": "Ame ga futta tame ni, shiai ga chūshi ni narimashita.",
+        "en": "Because it rained, the match was cancelled.",
+        "bn": "বৃষ্টি হওয়ার কারণে খেলাটি বাতিল হয়ে গেল।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-042-g4",
+    "pattern": "V-る / イA / ナA な / N な のに（逆接）",
+    "meaning_en": "although, even though",
+    "meaning_bn": "যদিও, তবুও",
+    "examples": [
+      {
+        "jp": "毎日 練習した のに、試合に 負けました。",
+        "furigana": "まいにち れんしゅうした のに、しあいに まけました。",
+        "romaji": "Mainichi renshū shita no ni, shiai ni makemashita.",
+        "en": "Even though I practiced every day, I lost the match.",
+        "bn": "প্রতিদিন অনুশীলন করেছিলাম, তবুও খেলায় হেরে গেছি।"
+      },
+      {
+        "jp": "薬を 飲んだ のに、まだ 頭が 痛いです。",
+        "furigana": "くすりを のんだ のに、まだ あたまが いたいです。",
+        "romaji": "Kusuri o nonda no ni, mada atama ga itai desu.",
+        "en": "Even though I took medicine, my head still hurts.",
+        "bn": "ওষুধ খেয়েছি, তবুও এখনো মাথা ব্যথা করছে।"
+      },
+      {
+        "jp": "一生懸命 勉強した のに、テストの 点が 悪かったです。",
+        "furigana": "いっしょうけんめい べんきょうした のに、てすとの てんが わるかったです。",
+        "romaji": "Isshōkenmei benkyō shita no ni, tesuto no ten ga warukatta desu.",
+        "en": "Even though I studied hard, my test score was bad.",
+        "bn": "প্রাণপণ পড়েছি, তবুও পরীক্ষার নম্বর খারাপ হয়েছে।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

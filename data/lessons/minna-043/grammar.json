@@ -1,38 +1,122 @@
 [
   {
     "id": "minna-043-g1",
-    "pattern": "〜43-A",
-    "meaning_en": "Grammar pattern 43-A",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 43-A",
+    "pattern": "V-ます stem + そうです",
+    "meaning_en": "it looks like it will ..., it seems about to ...",
+    "meaning_bn": "মনে হচ্ছে ... হবে",
     "examples": [
       {
-        "jp": "これは レッスン43の 文法です。",
-        "en": "This is lesson 43 grammar.",
-        "bn": "This is lesson 43 grammar.",
-        "furigana": "これは レッスン43の 文法です。",
-        "romaji": ""
+        "jp": "空が 暗いです。雨が 降りそうです。",
+        "furigana": "そらが くらいです。あめが ふりそうです。",
+        "romaji": "Sora ga kurai desu. Ame ga furisō desu.",
+        "en": "The sky is dark. It looks like it will rain.",
+        "bn": "আকাশ কালো। বৃষ্টি নামবে বলে মনে হচ্ছে।"
+      },
+      {
+        "jp": "この いすは 古くて、壊れそうです。",
+        "furigana": "この いすは ふるくて、こわれそうです。",
+        "romaji": "Kono isu wa furukute, kowaresō desu.",
+        "en": "This chair is old and looks like it will break.",
+        "bn": "এই চেয়ারটি পুরোনো, ভেঙে যাবে বলে মনে হচ্ছে।"
+      },
+      {
+        "jp": "子どもが 走っていて、転びそうです。",
+        "furigana": "こどもが はしっていて、ころびそうです。",
+        "romaji": "Kodomo ga hashitte ite, korobisō desu.",
+        "en": "The child is running and looks like he will fall.",
+        "bn": "শিশুটি দৌড়াচ্ছে, পড়ে যাবে বলে মনে হচ্ছে।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
   },
   {
     "id": "minna-043-g2",
-    "pattern": "〜43-B",
-    "meaning_en": "Grammar pattern 43-B",
-    "meaning_bn": "ব্যাকরণ প্যাটার্ন 43-B",
+    "pattern": "イA(-い) + そうです / ナA + そうです",
+    "meaning_en": "it looks ... (adjective of appearance)",
+    "meaning_bn": "... মনে হচ্ছে (দৃশ্যবোধ)",
     "examples": [
       {
-        "jp": "これは レッスン43の 文法です。",
-        "en": "This is lesson 43 grammar.",
-        "bn": "This is lesson 43 grammar.",
-        "furigana": "これは レッスン43の 文法です。",
-        "romaji": ""
+        "jp": "この ケーキは とても おいしそうです。",
+        "furigana": "この けーきは とても おいしそうです。",
+        "romaji": "Kono kēki wa totemo oishisō desu.",
+        "en": "This cake looks very delicious.",
+        "bn": "এই কেকটি খুব সুস্বাদু মনে হচ্ছে।"
+      },
+      {
+        "jp": "田中さんは きょうも 元気そうです。",
+        "furigana": "たなかさんは きょうも げんきそうです。",
+        "romaji": "Tanaka-san wa kyō mo genkisō desu.",
+        "en": "Tanaka looks well today too.",
+        "bn": "তানাকা আজও সুস্থ মনে হচ্ছে।"
+      },
+      {
+        "jp": "この 問題は 難しそうですが、やって みましょう。",
+        "furigana": "この もんだいは むずかしそうですが、やって みましょう。",
+        "romaji": "Kono mondai wa muzukashisō desu ga, yatte mimashō.",
+        "en": "This problem looks difficult, but let us try it.",
+        "bn": "এই সমস্যাটি কঠিন মনে হচ্ছে, তবুও চেষ্টা করি।"
       }
     ],
-    "tags": [
-      "grammar"
-    ]
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-043-g3",
+    "pattern": "V-てきます（行って帰る）",
+    "meaning_en": "to go somewhere and come back",
+    "meaning_bn": "কোথাও গিয়ে ফিরে আসা",
+    "examples": [
+      {
+        "jp": "ちょっと たばこを 買ってきます。",
+        "furigana": "ちょっと たばこを かってきます。",
+        "romaji": "Chotto tabako o katte kimasu.",
+        "en": "I will just go buy some cigarettes and come back.",
+        "bn": "একটু সিগারেট কিনে আসি।"
+      },
+      {
+        "jp": "昼ご飯を 食べてきますから、少し 待って ください。",
+        "furigana": "ひるごはんを たべてきますから、すこし まって ください。",
+        "romaji": "Hirugohan o tabete kimasu kara, sukoshi matte kudasai.",
+        "en": "I will go eat lunch and come back, so please wait a moment.",
+        "bn": "দুপুরের খাবার খেয়ে আসি, একটু অপেক্ষা করুন।"
+      },
+      {
+        "jp": "駅まで 傘を 取ってきます。",
+        "furigana": "えきまで かさを とってきます。",
+        "romaji": "Eki made kasa o totte kimasu.",
+        "en": "I will go to the station to get an umbrella and come back.",
+        "bn": "স্টেশন থেকে ছাতা নিয়ে আসি।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-043-g4",
+    "pattern": "V-てきます（移動・出現・変化）",
+    "meaning_en": "to come towards, to start to, to gradually become",
+    "meaning_bn": "এদিকে আসা, শুরু হওয়া, ক্রমে পরিবর্তিত হওয়া",
+    "examples": [
+      {
+        "jp": "あの 子どもが こちらへ 走ってきました。",
+        "furigana": "あの こどもが こちらへ はしってきました。",
+        "romaji": "Ano kodomo ga kochira e hashitte kimashita.",
+        "en": "That child came running towards me.",
+        "bn": "ওই শিশুটি এদিকে দৌড়ে এসেছে।"
+      },
+      {
+        "jp": "ずいぶん 歩いてきましたね。疲れたでしょう。",
+        "furigana": "ずいぶん あるいてきましたね。つかれたでしょう。",
+        "romaji": "Zuibun aruite kimashita ne. Tsukareta deshō.",
+        "en": "You have walked quite a distance. You must be tired.",
+        "bn": "অনেক পথ হেঁটে এসেছেন। ক্লান্ত হয়ে থাকবেন।"
+      },
+      {
+        "jp": "だんだん 寒くなってきました。",
+        "furigana": "だんだん さむくなってきました。",
+        "romaji": "Dandan samuku natte kimashita.",
+        "en": "It has gradually become colder.",
+        "bn": "ধীরে ধীরে ঠান্ডা হয়ে এসেছে।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

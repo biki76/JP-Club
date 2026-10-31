@@ -1,17 +1,73 @@
 [
   {
-    "id": "minna-043-r001",
+    "id": "minna-043-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "A Rainy Day at the Airport",
+      "bn": "বিমানবন্দরে একটি বৃষ্টির দিন"
     },
     "passage": [
       {
-        "jp": "これは ふえます［ゆしゅつが～］ です。",
-        "furigana": "これは ふえます［ゆしゅつが～］ です。",
-        "romaji": "Kore wa fuemasu [yushutsuga~] desu.",
-        "en": "This is [exports] increase.",
-        "bn": "এটি [exports] increase।"
+        "jp": "きのうの 天気予報では、午後から 雨が 降りそうでした。",
+        "furigana": "きのうの てんきよほうでは、ごごから あめが ふりそうでした。",
+        "romaji": "Kinō no tenkiyohō de wa, gogo kara ame ga furisō deshita.",
+        "en": "Yesterday's weather forecast said it looked like it would rain from the afternoon.",
+        "bn": "গতকালের আবহাওয়ার পূর্বাভাসে বলা হয়েছিল বিকেল থেকে বৃষ্টি নামতে পারে।"
+      },
+      {
+        "jp": "それで、わたしは 傘を 持って 出かけました。",
+        "furigana": "それで、わたしは かさを もって でかけました。",
+        "romaji": "Sore de, watashi wa kasa o motte dekakemashita.",
+        "en": "So I took an umbrella and went out.",
+        "bn": "তাই ছাতা নিয়ে বের হলাম।"
+      },
+      {
+        "jp": "外は とても 寒くて、雪に なりそうでした。",
+        "furigana": "そとは とても さむくて、ゆきに なりそうでした。",
+        "romaji": "Soto wa totemo samukute, yuki ni narisō deshita.",
+        "en": "It was very cold outside and looked like it would turn into snow.",
+        "bn": "বাইরে খুব ঠান্ডা ছিল, বরফ হয়ে যাবে বলে মনে হচ্ছিল।"
+      },
+      {
+        "jp": "空港へ 友だちを 迎えに 行く ために、電車に 乗りました。",
+        "furigana": "くうこうへ ともだちを むかえに いく ために、でんしゃに のりました。",
+        "romaji": "Kūkō e tomodachi o mukae ni iku tame ni, densha ni norimashita.",
+        "en": "In order to go pick up a friend at the airport, I took the train.",
+        "bn": "বিমানবন্দরে বন্ধুকে আনতে যাওয়ার জন্যে ট্রেনে উঠলাম।"
+      },
+      {
+        "jp": "空港に 着くと、雪が 降って いました。",
+        "furigana": "くうこうに つくと、ゆきが ふって いました。",
+        "romaji": "Kūkō ni tsuku to, yuki ga futte imashita.",
+        "en": "When I arrived at the airport, it was snowing.",
+        "bn": "বিমানবন্দরে পৌঁছে দেখলাম বরফ পড়ছে।"
+      },
+      {
+        "jp": "友だちは とても 元気そうでした。",
+        "furigana": "ともだちは とても げんきそうでした。",
+        "romaji": "Tomodachi wa totemo genkisō deshita.",
+        "en": "My friend looked very well.",
+        "bn": "বন্ধুকে খুব সুস্থ মনে হচ্ছিল।"
+      },
+      {
+        "jp": "荷物が 重そうでしたから、わたしが 持って あげました。",
+        "furigana": "にもつが おもそうでしたから、わたしが もって あげました。",
+        "romaji": "Nimotsu ga omosō deshita kara, watashi ga motte agemashita.",
+        "en": "The luggage looked heavy, so I carried it for them.",
+        "bn": "মালপত্র ভারী মনে হচ্ছিল, তাই আমি বহন করে দিলাম।"
+      },
+      {
+        "jp": "家に 帰る 途中、パン屋で おいしそうな パンを 買ってきました。",
+        "furigana": "いえに かえる とちゅう、ぱんやで おいしそうな ぱんを かってきました。",
+        "romaji": "Ie ni kaeru tochū, panya de oishisō na pan o katte kimashita.",
+        "en": "On the way home, I bought some delicious-looking bread at the bakery and came back.",
+        "bn": "বাড়ি ফেরার পথে বেকারি থেকে সুস্বাদু দেখতে পাউরুটি কিনে আনলাম।"
+      },
+      {
+        "jp": "冷たい 空気の 中で、わたしたちは 温かい コーヒーを 飲みました。",
+        "furigana": "つめたい くうきの なかで、わたしたちは あたたかい こーひーを のみました。",
+        "romaji": "Tsumetai kūki no naka de, watashitachi wa atatakai kōhī o nomimashita.",
+        "en": "In the cold air, we drank warm coffee.",
+        "bn": "ঠান্ডা বাতাসের মধ্যে আমরা গরম কফি পান করলাম।"
       }
     ]
   }

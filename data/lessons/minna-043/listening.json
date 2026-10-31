@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-043-l001",
+    "id": "minna-043-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Where Are You Now?",
+      "bn": "এখন কোথায় আছেন?"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "ふえます［ゆしゅつが～］ は 何 ですか。",
-        "furigana": "ふえます［ゆしゅつが～］ は なん ですか。",
-        "romaji": "fuemasu [yushutsuga~] wa nan desu ka.",
-        "en": "What is [exports] increase?",
-        "bn": "[exports] increase কী?"
+        "jp": "もしもし、今 どこですか。",
+        "furigana": "もしもし、いま どこですか。",
+        "romaji": "Moshimoshi, ima doko desu ka.",
+        "en": "Hello, where are you now?",
+        "bn": "হ্যালো, এখন কোথায় আছেন?"
+      },
+      {
+        "jp": "駅の 近くです。今 歩いて 帰って いるところです。",
+        "furigana": "えきの ちかくです。いま あるいて かえって いるところです。",
+        "romaji": "Eki no chikaku desu. Ima aruite kaette iru tokoro desu.",
+        "en": "I am near the station. I am just walking home now.",
+        "bn": "স্টেশনের কাছে। এখন হেঁটে বাড়ি ফিরছি।"
+      },
+      {
+        "jp": "あ、そうですか。外は 寒そうですけど、大丈夫ですか。",
+        "furigana": "あ、そうですか。そとは さむそうですけど、だいじょうぶですか。",
+        "romaji": "A, sō desu ka. Soto wa samusō desu kedo, daijōbu desu ka.",
+        "en": "Ah, is that so. It looks cold outside, are you all right?",
+        "bn": "আচ্ছা, তাই নাকি। বাইরে ঠান্ডা মনে হচ্ছে, ঠিক আছেন?"
+      },
+      {
+        "jp": "はい、でも 空が 暗くて、雨が 降りそうです。",
+        "furigana": "はい、でも そらが くらくて、あめが ふりそうです。",
+        "romaji": "Hai, demo sora ga kurakute, ame ga furisō desu.",
+        "en": "Yes, but the sky is dark, and it looks like it will rain.",
+        "bn": "হ্যাঁ, তবে আকাশ কালো, বৃষ্টি নামবে মনে হচ্ছে।"
+      },
+      {
+        "jp": "じゃ、傘を 持って きますよ。",
+        "furigana": "じゃ、かさを もって きますよ。",
+        "romaji": "Ja, kasa o motte kimasu yo.",
+        "en": "Then I will bring an umbrella.",
+        "bn": "তাহলে আমি ছাতা নিয়ে আসছি।"
+      },
+      {
+        "jp": "ありがとうございます。わたしも 急いで 帰ります。",
+        "furigana": "ありがとうございます。わたしも いそいで かえります。",
+        "romaji": "Arigatō gozaimasu. Watashi mo isoide kaerimasu.",
+        "en": "Thank you. I will hurry home too.",
+        "bn": "ধন্যবাদ। আমিও তাড়াতাড়ি ফিরব।"
+      },
+      {
+        "jp": "あ、コンビニで 何か 買って きましょうか。",
+        "furigana": "あ、こんびにで なにか かって きましょうか。",
+        "romaji": "A, konbini de nanika katte kimashō ka.",
+        "en": "Oh, shall I buy something at the convenience store on the way back?",
+        "bn": "ওহ, ফেরার পথে কনভিনিয়েন্স স্টোর থেকে কিছু কিনে আনব?"
+      },
+      {
+        "jp": "じゃ、パンと コーヒーを お願いします。",
+        "furigana": "じゃ、ぱんと こーひーを おねがいします。",
+        "romaji": "Ja, pan to kōhī o onegai shimasu.",
+        "en": "Then please get bread and coffee.",
+        "bn": "তাহলে পাউরুটি ও কফি এনো।"
+      },
+      {
+        "jp": "わかりました。じゃ、後で。",
+        "furigana": "わかりました。じゃ、あとで。",
+        "romaji": "Wakarimashita. Ja, ato de.",
+        "en": "Understood. See you later.",
+        "bn": "বুঝেছি। তাহলে পরে দেখা হবে।"
       }
     ]
   }

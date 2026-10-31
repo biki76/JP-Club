@@ -3,48 +3,162 @@
     "id": "minna-042-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜42-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜42-A"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン42の 文法です。",
-      "furigana": "これは レッスン42の 文法です。",
-      "romaji": ""
+      "jp": "日本の 会社で 働く ＿＿、日本語を 勉強しています。",
+      "furigana": "にほんの かいしゃで はたらく ＿＿、にほんごを べんきょうしています。",
+      "romaji": "Nihon no kaisha de hataraku ＿＿, Nihongo o benkyō shite imasu."
     },
-    "options": [
-      "Grammar pattern 42-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["ために", "のに", "ので", "から"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜42-A means \"Grammar pattern 42-A\".",
-      "bn": "〜42-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 42-A\"।"
+      "en": "V-る ために expresses purpose: in order to work.",
+      "bn": "V-る ために উদ্দেশ্য বোঝায়, অর্থাৎ কাজ করার জন্যে।"
     }
   },
   {
     "id": "minna-042-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜42-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜42-B"
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン42の 文法です。",
-      "furigana": "これは レッスン42の 文法です。",
-      "romaji": ""
+      "jp": "この 機械は 料理を 作る ＿＿ 使います。",
+      "furigana": "この きかいは りょうりを つくる ＿＿ つかいます。",
+      "romaji": "Kono kikai wa ryōri o tsukuru ＿＿ tsukaimasu."
+    },
+    "options": ["のに", "ために", "ので", "のは"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-る のに expresses the use or purpose of a tool.",
+      "bn": "V-る のに কোনো যন্ত্রের ব্যবহার বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-042-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "病気の ＿＿、学校を 休みました。",
+      "furigana": "びょうきの ＿＿、がっこうを やすみました。",
+      "romaji": "Byōki no ＿＿, gakkō o yasumimashita."
+    },
+    "options": ["ために", "のに", "ので", "のは"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "N のために expresses a cause, here because of illness.",
+      "bn": "N のために কারণ বোঝায়, এখানে অসুস্থতার কারণে।"
+    }
+  },
+  {
+    "id": "minna-042-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "毎日 練習した ＿＿、試合に 負けました。",
+      "furigana": "まいにち れんしゅうした ＿＿、しあいに まけました。",
+      "romaji": "Mainichi renshū shita ＿＿, shiai ni makemashita."
+    },
+    "options": ["のに", "ために", "ので", "から"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-た のに expresses unexpected contrast: even though.",
+      "bn": "V-た のに অপ্রত্যাশিত বিপরীতartha বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-042-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word for the blank.",
+      "bn": "শূন্যস্থানে সঠিক শব্দটি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "事故が あった ＿＿、電車が 遅れています。",
+      "furigana": "じこが あった ＿＿、でんしゃが おくれています。",
+      "romaji": "Jiko ga atta ＿＿, densha ga okurete imasu."
+    },
+    "options": ["ために", "のに", "ので", "のは"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "V-た ために gives an objective cause.",
+      "bn": "V-た ために বস্তুনিষ্ঠ কারণ বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-042-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "What does this sentence mean?",
+      "bn": "এই বাক্যটির অর্থ কী?"
+    },
+    "stem": {
+      "jp": "雨の ために、試合が 中止に なりました。",
+      "furigana": "あめの ために、しあいが ちゅうしに なりました。",
+      "romaji": "Ame no tame ni, shiai ga chūshi ni narimashita."
     },
     "options": [
-      "Grammar pattern 42-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Because of the rain, the match was cancelled.",
+      "In order to have the match, it rained.",
+      "Although it rained, the match was cancelled.",
+      "The match was held because of the rain."
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜42-B means \"Grammar pattern 42-B\".",
-      "bn": "〜42-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 42-B\"।"
+      "en": "N のために expresses a cause, here because of the rain.",
+      "bn": "N のために কারণ বোঝায়, এখানে বৃষ্টির কারণে।"
+    }
+  },
+  {
+    "id": "minna-042-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct ending.",
+      "bn": "সঠিক সমাপ্তি বেছে নিন।"
+    },
+    "stem": {
+      "jp": "一生懸命 勉強した ＿＿、テストの 点が 悪かったです。",
+      "furigana": "いっしょうけんめい べんきょうした ＿＿、てすとの てんが わるかったです。",
+      "romaji": "Isshōkenmei benkyō shita ＿＿, tesuto no ten ga warukatta desu."
+    },
+    "options": ["のに", "ために", "ので", "から"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "のに expresses that the result was unexpected or regrettable.",
+      "bn": "のに অপ্রত্যাশিত বা দুঃখজনক ফল বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-042-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 役に立つ.",
+      "bn": "役に立つ এর সঠিক অর্থ বেছে নিন।"
+    },
+    "stem": {
+      "jp": "この 辞書は とても 役に立ちます。",
+      "furigana": "この じしょは とても やくにたちます。",
+      "romaji": "Kono jisho wa totemo yaku ni tachimasu."
+    },
+    "options": [
+      "is very useful",
+      "is very expensive",
+      "is very small",
+      "is very old"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "役に立つ means to be useful or helpful.",
+      "bn": "役に立つ মানে কাজে লাগা বা উপকারী হওয়া।"
     }
   }
 ]

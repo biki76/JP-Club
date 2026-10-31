@@ -1,87 +1,119 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "機",
+    "onyomi": ["キ"],
+    "kunyomi": ["はた"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["machine", "mechanism"],
+      "bn": ["যন্ত্র", "কৌশল"]
     },
-    "radicals": [],
-    "strokes": 4,
+    "radicals": ["木"],
+    "strokes": 16,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
+    "character": "械",
+    "onyomi": ["カイ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["machine", "instrument"],
+      "bn": ["যন্ত্র", "সরঞ্জাম"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
-    "strokes": 10,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["木"],
     "strokes": 11,
     "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "育",
+    "onyomi": ["イク"],
+    "kunyomi": ["そだ.つ", "そだ.てる", "はぐく.む"],
+    "meanings": {
+      "en": ["raise", "bring up"],
+      "bn": ["লালনপালন করা", "বড় করা"]
+    },
+    "radicals": ["肉"],
+    "strokes": 8,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "化",
+    "onyomi": ["カ", "ケ"],
+    "kunyomi": ["ば.ける", "ば.かす"],
+    "meanings": {
+      "en": ["change", "transform"],
+      "bn": ["পরিবর্তন", "রূপান্তর"]
+    },
+    "radicals": ["亻"],
+    "strokes": 4,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "治",
+    "onyomi": ["ジ", "チ"],
+    "kunyomi": ["おさ.める", "なお.る"],
+    "meanings": {
+      "en": ["govern", "cure"],
+      "bn": ["শাসন করা", "নিরাময়"]
+    },
+    "radicals": ["氵"],
+    "strokes": 8,
+    "grade": 4,
+    "jlpt": "N4"
+  },
+  {
+    "character": "経",
+    "onyomi": ["ケイ", "キョウ"],
+    "kunyomi": ["へ.る", "た.つ"],
+    "meanings": {
+      "en": ["pass through", "manage"],
+      "bn": ["অতিক্রম করা", "পরিচালনা"]
+    },
+    "radicals": ["糸"],
+    "strokes": 11,
+    "grade": 5,
+    "jlpt": "N4"
+  },
+  {
+    "character": "済",
+    "onyomi": ["サイ", "セイ"],
+    "kunyomi": ["す.む", "す.ます"],
+    "meanings": {
+      "en": ["finish", "settle"],
+      "bn": ["শেষ হওয়া", "নিষ্পত্তি"]
+    },
+    "radicals": ["氵"],
+    "strokes": 11,
+    "grade": 6,
+    "jlpt": "N4"
+  },
+  {
+    "character": "理",
+    "onyomi": ["リ"],
+    "kunyomi": [],
+    "meanings": {
+      "en": ["reason", "logic"],
+      "bn": ["যুক্তি", "কারণ"]
+    },
+    "radicals": ["王"],
+    "strokes": 11,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "由",
+    "onyomi": ["ユ", "ユウ"],
+    "kunyomi": ["よし"],
+    "meanings": {
+      "en": ["reason", "origin"],
+      "bn": ["কারণ", "উৎস"]
+    },
+    "radicals": ["田"],
+    "strokes": 5,
+    "grade": 3,
     "jlpt": "N4"
   }
 ]

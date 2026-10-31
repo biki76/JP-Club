@@ -1,87 +1,132 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
+    "character": "珍",
+    "onyomi": ["チン"],
+    "kunyomi": ["めずら.しい"],
+    "meanings": {
+      "en": ["rare", "unusual"],
+      "bn": ["বিরল", "অসাধারণ"]
+    },
+    "radicals": ["王"],
+    "strokes": 9,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "景",
+    "onyomi": ["ケイ"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["scenery", "view"],
+      "bn": ["দৃশ্য", "দেখা"]
     },
-    "radicals": [],
-    "strokes": 4,
+    "radicals": ["日"],
+    "strokes": 12,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "様",
+    "onyomi": ["ヨウ"],
+    "kunyomi": ["さま"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["manner", "appearance"],
+      "bn": ["ধরন", "অবস্থা"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
-    "jlpt": "N4"
-  },
-  {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
-    "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
-    },
-    "radicals": [],
+    "radicals": ["木"],
     "strokes": 14,
-    "grade": 4,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "色",
+    "onyomi": ["ショク", "シキ"],
+    "kunyomi": ["いろ"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["color"],
+      "bn": ["রং"]
     },
-    "radicals": [],
+    "radicals": ["色"],
+    "strokes": 6,
+    "grade": 2,
+    "jlpt": "N5"
+  },
+  {
+    "character": "弱",
+    "onyomi": ["ジャク"],
+    "kunyomi": ["よわ.い", "よわ.まる", "よわ.める"],
+    "meanings": {
+      "en": ["weak"],
+      "bn": ["দুর্বল"]
+    },
+    "radicals": ["弓"],
     "strokes": 10,
-    "grade": 4,
+    "grade": 2,
     "jlpt": "N4"
   },
   {
     "character": "強",
-    "onyomi": [],
-    "kunyomi": [],
+    "onyomi": ["キョウ", "ゴウ"],
+    "kunyomi": ["つよ.い", "つよ.まる", "つよ.める"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["strong", "powerful"],
+      "bn": ["শক্তিশালী", "বলবান"]
     },
-    "radicals": [],
+    "radicals": ["弓"],
     "strokes": 11,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "落",
+    "onyomi": ["ラク"],
+    "kunyomi": ["お.ちる", "お.とす"],
+    "meanings": {
+      "en": ["fall", "drop"],
+      "bn": ["পড়া", "ফেলা"]
+    },
+    "radicals": ["艹"],
+    "strokes": 12,
+    "grade": 3,
+    "jlpt": "N4"
+  },
+  {
+    "character": "折",
+    "onyomi": ["セツ"],
+    "kunyomi": ["お.る", "お.れる", "お.り"],
+    "meanings": {
+      "en": ["fold", "break"],
+      "bn": ["ভাঁজ করা", "ভাঙা"]
+    },
+    "radicals": ["扌"],
+    "strokes": 7,
     "grade": 4,
     "jlpt": "N4"
+  },
+  {
+    "character": "太",
+    "onyomi": ["タイ", "タ"],
+    "kunyomi": ["ふと.い", "ふと.る"],
+    "meanings": {
+      "en": ["fat", "thick"],
+      "bn": ["মোটা", "স্থূল"]
+    },
+    "radicals": ["大"],
+    "strokes": 4,
+    "grade": 2,
+    "jlpt": "N4"
+  },
+  {
+    "character": "空",
+    "onyomi": ["クウ"],
+    "kunyomi": ["そら", "あ.く", "から"],
+    "meanings": {
+      "en": ["sky", "empty"],
+      "bn": ["আকাশ", "খালি"]
+    },
+    "radicals": ["穴"],
+    "strokes": 8,
+    "grade": 1,
+    "jlpt": "N5"
   }
 ]

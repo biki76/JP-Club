@@ -1,7 +1,271 @@
 [
-{"id":"minna-042-v001","kanji":"包みます","furigana":"つつみます","romaji":"tsutsumimasu","english_meaning":"to wrap / pack","bengali_meaning":"মোড়ানো","type":"verb"},
-{"id":"minna-042-v002","kanji":"沸かします","furigana":"わかします","romaji":"wakashimasu","english_meaning":"to boil","bengali_meaning":"ফোটানো","type":"verb"},
-{"id":"minna-042-v003","kanji":"混ぜます","furigana":"まぜます","romaji":"mazemasu","english_meaning":"to mix / stir","bengali_meaning":"মেশানো","type":"verb"},
-{"id":"minna-042-v004","kanji":"計算します","furigana":"けいさんします","romaji":"keisan shimasu","english_meaning":"to calculate","bengali_meaning":"হিসাব করা","type":"verb"},
-{"id":"minna-042-v005","kanji":"弁護士","furigana":"べんごし","romaji":"bengoshi","english_meaning":"lawyer","bengali_meaning":"উকিল","type":"noun"}
+  {
+    "id": "minna-042-v001",
+    "furigana": "きかい",
+    "kanji": "機械",
+    "romaji": "kikai",
+    "english_meaning": "machine",
+    "bengali_meaning": "যন্ত্র",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v002",
+    "furigana": "つかいかた",
+    "kanji": "使い方",
+    "romaji": "tsukaikata",
+    "english_meaning": "how to use",
+    "bengali_meaning": "ব্যবহারের নিয়ম",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v003",
+    "furigana": "きょういく",
+    "kanji": "教育",
+    "romaji": "kyōiku",
+    "english_meaning": "education",
+    "bengali_meaning": "শিক্ষা",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v004",
+    "furigana": "ぶんか",
+    "kanji": "文化",
+    "romaji": "bunka",
+    "english_meaning": "culture",
+    "bengali_meaning": "সংস্কৃতি",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v005",
+    "furigana": "せいじ",
+    "kanji": "政治",
+    "romaji": "seiji",
+    "english_meaning": "politics",
+    "bengali_meaning": "রাজনীতি",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v006",
+    "furigana": "けいざい",
+    "kanji": "経済",
+    "romaji": "keizai",
+    "english_meaning": "economy",
+    "bengali_meaning": "অর্থনীতি",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v007",
+    "furigana": "りゆう",
+    "kanji": "理由",
+    "romaji": "riyū",
+    "english_meaning": "reason",
+    "bengali_meaning": "কারণ",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v008",
+    "furigana": "やくにたつ",
+    "kanji": "役に立つ",
+    "romaji": "yaku ni tatsu",
+    "english_meaning": "to be useful",
+    "bengali_meaning": "কাজে লাগা",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v009",
+    "furigana": "しゅっせきする",
+    "kanji": "出席する",
+    "romaji": "shusseki suru",
+    "english_meaning": "to attend",
+    "bengali_meaning": "উপস্থিত থাকা",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v010",
+    "furigana": "えんりょする",
+    "kanji": "遠慮する",
+    "romaji": "enryo suru",
+    "english_meaning": "to hold back, to refrain",
+    "bengali_meaning": "সংকোচ করা",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v011",
+    "furigana": "がまんする",
+    "kanji": "我慢する",
+    "romaji": "gaman suru",
+    "english_meaning": "to endure, to bear",
+    "bengali_meaning": "সহ্য করা",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v012",
+    "furigana": "とどける",
+    "kanji": "届ける",
+    "romaji": "todokeru",
+    "english_meaning": "to deliver",
+    "bengali_meaning": "পৌঁছে দেওয়া",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v013",
+    "furigana": "ひろう",
+    "kanji": "拾う",
+    "romaji": "hirou",
+    "english_meaning": "to pick up",
+    "bengali_meaning": "কুড়ানো",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v014",
+    "furigana": "こうつう",
+    "kanji": "交通",
+    "romaji": "kōtsū",
+    "english_meaning": "traffic, transportation",
+    "bengali_meaning": "যাতায়াত",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v015",
+    "furigana": "おこなう",
+    "kanji": "行う",
+    "romaji": "okonau",
+    "english_meaning": "to carry out, to hold",
+    "bengali_meaning": "সম্পন্ন করা",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v016",
+    "furigana": "なくなる",
+    "romaji": "nakunaru",
+    "english_meaning": "to be lost, to disappear",
+    "bengali_meaning": "হারিয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v017",
+    "furigana": "ふやす",
+    "kanji": "増やす",
+    "romaji": "fuyasu",
+    "english_meaning": "to increase something",
+    "bengali_meaning": "বাড়ানো",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v018",
+    "furigana": "へらす",
+    "kanji": "減らす",
+    "romaji": "herasu",
+    "english_meaning": "to decrease something",
+    "bengali_meaning": "কমানো",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v019",
+    "furigana": "しゃかい",
+    "kanji": "社会",
+    "romaji": "shakai",
+    "english_meaning": "society",
+    "bengali_meaning": "সমাজ",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v020",
+    "furigana": "せかい",
+    "kanji": "世界",
+    "romaji": "sekai",
+    "english_meaning": "world",
+    "bengali_meaning": "বিশ্ব",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v021",
+    "furigana": "しぜん",
+    "kanji": "自然",
+    "romaji": "shizen",
+    "english_meaning": "nature",
+    "bengali_meaning": "প্রকৃতি",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v022",
+    "furigana": "くうき",
+    "kanji": "空気",
+    "romaji": "kūki",
+    "english_meaning": "air, atmosphere",
+    "bengali_meaning": "বাতাস",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v023",
+    "furigana": "どうぐ",
+    "kanji": "道具",
+    "romaji": "dōgu",
+    "english_meaning": "tool",
+    "bengali_meaning": "যন্ত্রপাতি",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v024",
+    "furigana": "しなもの",
+    "kanji": "品物",
+    "romaji": "shinamono",
+    "english_meaning": "goods, item",
+    "bengali_meaning": "জিনিসপত্র",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v025",
+    "furigana": "きゅうりょう",
+    "kanji": "給料",
+    "romaji": "kyūryō",
+    "english_meaning": "salary",
+    "bengali_meaning": "বেতন",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v026",
+    "furigana": "ぼうえき",
+    "kanji": "貿易",
+    "romaji": "bōeki",
+    "english_meaning": "trade",
+    "bengali_meaning": "বাণিজ্য",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v027",
+    "furigana": "ゆにゅうする",
+    "kanji": "輸入する",
+    "romaji": "yunyū suru",
+    "english_meaning": "to import",
+    "bengali_meaning": "আমদানি করা",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v028",
+    "furigana": "ゆしゅつする",
+    "kanji": "輸出する",
+    "romaji": "yushutsu suru",
+    "english_meaning": "to export",
+    "bengali_meaning": "রপ্তানি করা",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v029",
+    "furigana": "さんぎょう",
+    "kanji": "産業",
+    "romaji": "sangyō",
+    "english_meaning": "industry",
+    "bengali_meaning": "শিল্প",
+    "tags": ["vocabulary", "lesson-42"]
+  },
+  {
+    "id": "minna-042-v030",
+    "furigana": "へいわ",
+    "kanji": "平和",
+    "romaji": "heiwa",
+    "english_meaning": "peace",
+    "bengali_meaning": "শান্তি",
+    "tags": ["vocabulary", "lesson-42"]
+  }
 ]

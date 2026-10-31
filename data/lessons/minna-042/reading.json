@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-042-r001",
+    "id": "minna-042-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "Why I Study Japanese",
+      "bn": "আমি কেন জাপানি পড়ি"
     },
     "passage": [
       {
-        "jp": "これは つつみます です。",
-        "furigana": "これは つつみます です。",
-        "romaji": "Kore wa tsutsumimasu desu.",
-        "en": "This is wrap.",
-        "bn": "এটি wrap।"
+        "jp": "わたしは 日本の 大学で 勉強する ために、毎日 日本語を 勉強しています。",
+        "furigana": "わたしは にほんの だいがくで べんきょうする ために、まいにち にほんごを べんきょうしています。",
+        "romaji": "Watashi wa Nihon no daigaku de benkyō suru tame ni, mainichi Nihongo o benkyō shite imasu.",
+        "en": "In order to study at a Japanese university, I study Japanese every day.",
+        "bn": "জাপানের বিশ্ববিদ্যালয়ে পড়ার জন্যে প্রতিদিন জাপানি পড়ি।"
+      },
+      {
+        "jp": "日本の 文化が 好きで、日本で 生活したいと 思っています。",
+        "furigana": "にほんの ぶんかが すきで、にほんで せいかつしたいと おもっています。",
+        "romaji": "Nihon no bunka ga suki de, Nihon de seikatsu shitai to omotte imasu.",
+        "en": "I like Japanese culture and want to live in Japan.",
+        "bn": "জাপানি সংস্কৃতি ভালোবাসি এবং জাপানে থাকতে চাই।"
+      },
+      {
+        "jp": "大学の 試験は とても 難しいですが、頑張っています。",
+        "furigana": "だいがくの しけんは とても むずかしいですが、がんばっています。",
+        "romaji": "Daigaku no shiken wa totemo muzukashii desu ga, ganbatte imasu.",
+        "en": "University entrance exams are very difficult, but I am doing my best.",
+        "bn": "বিশ্ববিদ্যালয়ের পরীক্ষা খুব কঠিন, তবুও চেষ্টা করে যাচ্ছি।"
+      },
+      {
+        "jp": "この 教科書は 試験の 準備に 使う のに 便利です。",
+        "furigana": "この きょうかしょは しけんの じゅんびに つかう のに べんりです。",
+        "romaji": "Kono kyōkasho wa shiken no junbi ni tsukau no ni benri desu.",
+        "en": "This textbook is convenient for preparing for exams.",
+        "bn": "এই পাঠ্যবইটি পরীক্ষার প্রস্তুতিতে ব্যবহারের জন্য সুবিধাজনক।"
+      },
+      {
+        "jp": "きのうは 体の 具合が 悪かった ために、勉強する ことが できませんでした。",
+        "furigana": "きのうは からだの ぐあいが わるかった ために、べんきょうする ことが できませんでした。",
+        "romaji": "Kinō wa karada no guai ga warukatta tame ni, benkyō suru koto ga dekimasen deshita.",
+        "en": "Because I was not feeling well yesterday, I could not study.",
+        "bn": "গতকাল শরীর খারাপ থাকার কারণে পড়তে পারিনি।"
+      },
+      {
+        "jp": "それでも、夜 遅くまで 勉強した のに、あまり 覚えられませんでした。",
+        "furigana": "それでも、よる おそくまで べんきょうした のに、あまり おぼえられませんでした。",
+        "romaji": "Sore demo, yoru osoku made benkyō shita no ni, amari oboeraremasen deshita.",
+        "en": "Still, even though I studied until late at night, I could not remember much.",
+        "bn": "তবুও, রাত দেরি পর্যন্ত পড়েছি, কিন্তু বেশি মনে রাখতে পারিনি।"
+      },
+      {
+        "jp": "でも、あきらめないで、毎日 続けて います。",
+        "furigana": "でも、あきらめないで、まいにち つづけて います。",
+        "romaji": "Demo, akiramenai de, mainichi tsuzukete imasu.",
+        "en": "But I keep going every day without giving up.",
+        "bn": "কিন্তু হাল না ছেড়ে প্রতিদিন চালিয়ে যাচ্ছি।"
+      },
+      {
+        "jp": "夢を 実現する ために、これからも 頑張ります。",
+        "furigana": "ゆめを じつげんする ために、これからも がんばります。",
+        "romaji": "Yume o jitsugen suru tame ni, kore kara mo ganbarimasu.",
+        "en": "In order to realize my dream, I will keep doing my best.",
+        "bn": "স্বপ্ন বাস্তবায়নের জন্যে আগামী দিনেও চেষ্টা চালিয়ে যাব।"
       }
     ]
   }

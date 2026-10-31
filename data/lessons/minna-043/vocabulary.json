@@ -1,5 +1,272 @@
 [
-{"id":"minna-043-v001","kanji":"贅沢","furigana":"ぜいたく","romaji":"zeitaku","english_meaning":"luxury / extravagant","bengali_meaning":"বিলাসিতা","type":"na-adjective"},
-{"id":"minna-043-v002","kanji":"豪華","furigana":"ごうか","romaji":"gouka","english_meaning":"luxurious / gorgeous","bengali_meaning":"জমকালো","type":"na-adjective"},
-{"id":"minna-043-v003","kanji":"新鮮","furigana":"しんせん","romaji":"shinsen","english_meaning":"fresh","bengali_meaning":"তাজা","type":"na-adjective"}
+  {
+    "id": "minna-043-v001",
+    "furigana": "めずらしい",
+    "kanji": "珍しい",
+    "romaji": "mezurashii",
+    "english_meaning": "rare, unusual",
+    "bengali_meaning": "বিরল",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v002",
+    "furigana": "けしき",
+    "kanji": "景色",
+    "romaji": "keshiki",
+    "english_meaning": "scenery, view",
+    "bengali_meaning": "দৃশ্য",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v003",
+    "furigana": "てんき",
+    "kanji": "天気",
+    "romaji": "tenki",
+    "english_meaning": "weather",
+    "bengali_meaning": "আবহাওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v004",
+    "furigana": "ようす",
+    "kanji": "様子",
+    "romaji": "yōsu",
+    "english_meaning": "state, appearance",
+    "bengali_meaning": "অবস্থা",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v005",
+    "furigana": "じょうぶ",
+    "kanji": "丈夫",
+    "romaji": "jōbu",
+    "english_meaning": "sturdy, strong",
+    "bengali_meaning": "মজবুত",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v006",
+    "furigana": "よわい",
+    "kanji": "弱い",
+    "romaji": "yowai",
+    "english_meaning": "weak",
+    "bengali_meaning": "দুর্বল",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v007",
+    "furigana": "つよい",
+    "kanji": "強い",
+    "romaji": "tsuyoi",
+    "english_meaning": "strong",
+    "bengali_meaning": "শক্তিশালী",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v008",
+    "furigana": "われる",
+    "kanji": "割れる",
+    "romaji": "wareru",
+    "english_meaning": "to break, to crack",
+    "bengali_meaning": "ফেটে যাওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v009",
+    "furigana": "おちる",
+    "kanji": "落ちる",
+    "romaji": "ochiru",
+    "english_meaning": "to fall, to drop",
+    "bengali_meaning": "পড়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v010",
+    "furigana": "おれる",
+    "kanji": "折れる",
+    "romaji": "oreru",
+    "english_meaning": "to snap, to break",
+    "bengali_meaning": "ভেঙে যাওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v011",
+    "furigana": "こわれる",
+    "kanji": "壊れる",
+    "romaji": "kowareru",
+    "english_meaning": "to be broken, to break down",
+    "bengali_meaning": "নষ্ট হওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v012",
+    "furigana": "ぬれる",
+    "kanji": "濡れる",
+    "romaji": "nureru",
+    "english_meaning": "to get wet",
+    "bengali_meaning": "ভিজে যাওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v013",
+    "furigana": "よごれる",
+    "kanji": "汚れる",
+    "romaji": "yogoreru",
+    "english_meaning": "to get dirty",
+    "bengali_meaning": "নোংরা হওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v014",
+    "furigana": "かわく",
+    "kanji": "乾く",
+    "romaji": "kawaku",
+    "english_meaning": "to dry",
+    "bengali_meaning": "শুকিয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v015",
+    "furigana": "やける",
+    "kanji": "焼ける",
+    "romaji": "yakeru",
+    "english_meaning": "to be burned, to be baked",
+    "bengali_meaning": "পুড়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v016",
+    "furigana": "ひえる",
+    "kanji": "冷える",
+    "romaji": "hieru",
+    "english_meaning": "to get cold, to chill",
+    "bengali_meaning": "ঠান্ডা হয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v017",
+    "furigana": "ふとる",
+    "kanji": "太る",
+    "romaji": "futoru",
+    "english_meaning": "to gain weight",
+    "bengali_meaning": "মোটা হওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v018",
+    "furigana": "やせる",
+    "kanji": "痩せる",
+    "romaji": "yaseru",
+    "english_meaning": "to lose weight",
+    "bengali_meaning": "চিকন হওয়া",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v019",
+    "furigana": "ねむい",
+    "kanji": "眠い",
+    "romaji": "nemui",
+    "english_meaning": "sleepy",
+    "bengali_meaning": "ঘুম ঘুম",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v020",
+    "furigana": "くうこう",
+    "kanji": "空港",
+    "romaji": "kūkō",
+    "english_meaning": "airport",
+    "bengali_meaning": "বিমানবন্দর",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v021",
+    "furigana": "とどく",
+    "kanji": "届く",
+    "romaji": "todoku",
+    "english_meaning": "to arrive, to reach",
+    "bengali_meaning": "পৌঁছানো",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v022",
+    "furigana": "たのむ",
+    "kanji": "頼む",
+    "romaji": "tanomu",
+    "english_meaning": "to request, to ask for",
+    "bengali_meaning": "অনুরোধ করা",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v023",
+    "furigana": "たのしみ",
+    "kanji": "楽しみ",
+    "romaji": "tanoshimi",
+    "english_meaning": "looking forward to",
+    "bengali_meaning": "আনন্দের প্রত্যাশা",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v024",
+    "furigana": "あじ",
+    "kanji": "味",
+    "romaji": "aji",
+    "english_meaning": "taste, flavor",
+    "bengali_meaning": "স্বাদ",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v025",
+    "furigana": "におい",
+    "kanji": "匂い",
+    "romaji": "nioi",
+    "english_meaning": "smell",
+    "bengali_meaning": "গন্ধ",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v026",
+    "furigana": "おと",
+    "kanji": "音",
+    "romaji": "oto",
+    "english_meaning": "sound",
+    "bengali_meaning": "শব্দ",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v027",
+    "furigana": "こえ",
+    "kanji": "声",
+    "romaji": "koe",
+    "english_meaning": "voice",
+    "bengali_meaning": "কণ্ঠস্বর",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v028",
+    "furigana": "かたち",
+    "kanji": "形",
+    "romaji": "katachi",
+    "english_meaning": "shape, form",
+    "bengali_meaning": "আকৃতি",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v029",
+    "furigana": "いろ",
+    "kanji": "色",
+    "romaji": "iro",
+    "english_meaning": "color",
+    "bengali_meaning": "রং",
+    "tags": ["vocabulary", "lesson-43"]
+  },
+  {
+    "id": "minna-043-v030",
+    "furigana": "おもさ",
+    "kanji": "重さ",
+    "romaji": "omosa",
+    "english_meaning": "weight",
+    "bengali_meaning": "ওজন",
+    "tags": ["vocabulary", "lesson-43"]
+  }
 ]
