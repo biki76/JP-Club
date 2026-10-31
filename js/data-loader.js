@@ -87,7 +87,7 @@
     const index = await loadIndex();
     const lessons = await Promise.all(
       index.manifests.map(p =>
-        loadManifest(p).catch(e => { console.error(e); return null; })
+        loadManifest(/\.json$/.test(p) ? p : p.replace(/\/$/, '') + '/manifest.json').catch(e => { console.error(e); return null; })
       )
     );
     return { courseId: index.courseId, lessons: lessons.filter(Boolean) };

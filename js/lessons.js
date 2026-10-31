@@ -26,7 +26,7 @@
   }
 
   function txt(en, bn) {
-    var l = document.documentElement.lang === 'bn' ? 'bn' : 'en';
+    var l = (localStorage.getItem('nihongo_lang') || document.documentElement.lang) === 'bn' ? 'bn' : 'en';
     return '<span data-en="' + esc(en) + '" data-bn="' + esc(bn) + '">' + esc(l === 'bn' ? bn : en) + '</span>';
   }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
