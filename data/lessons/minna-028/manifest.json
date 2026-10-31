@@ -3,15 +3,15 @@
   "courseId": "minna-beginner",
   "lessonNumber": 28,
   "title": {
-    "en": "Lesson 28",
-    "bn": "পাঠ 28"
+    "en": "Daily Habits and Everyday Actions",
+    "bn": "দৈনন্দিন অভ্যাস ও প্রতিদিনের কাজ"
   },
   "subtitle": {
-    "en": "Minna no Nihongo 28",
-    "bn": "মিন্না নো নিহোঙ্গো 28"
+    "en": "ながら・ています（習慣）・てしまいます・ておきます",
+    "bn": "ながら・ています（অভ্যাস）・てしまいます・ておきます"
   },
   "jlpt": "N4",
-  "durationMin": 50,
+  "durationMin": 55,
   "dataFiles": {
     "vocabulary": "vocabulary.json",
     "grammar": "grammar.json",

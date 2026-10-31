@@ -1,18 +1,73 @@
 [
   {
-    "id": "minna-028-l001",
+    "id": "minna-028-l1",
     "title": {
-      "en": "Listening",
-      "bn": "শ্রবণ"
+      "en": "Talking About Daily Habits",
+      "bn": "দৈনন্দিন অভ্যাস নিয়ে আলোচনা"
     },
-    "audio_url": "",
     "transcript": [
       {
-        "jp": "うれます［パンが～］ は 何 ですか。",
-        "furigana": "うれます［パンが～］ は なん ですか。",
-        "romaji": "uremasu [panga~] wa nan desu ka.",
-        "en": "What is [bread] sell, be sold?",
-        "bn": "[bread] sell, be sold কী?"
+        "jp": "A：毎朝 何を していますか。",
+        "furigana": "A：まいあさ なにを していますか。",
+        "romaji": "A: Maiasa nani o shite imasu ka.",
+        "en": "A: What do you do every morning?",
+        "bn": "A: প্রতিদিন সকালে আপনি কী করেন?"
+      },
+      {
+        "jp": "B：ジョギングを しています。",
+        "furigana": "B：ジョギングを しています。",
+        "romaji": "B: Jogingu o shite imasu.",
+        "en": "B: I go jogging.",
+        "bn": "B: আমি জগিং করি।"
+      },
+      {
+        "jp": "A：そうですか。何時ごろ 走りますか。",
+        "furigana": "A：そうですか。なんじごろ はしりますか。",
+        "romaji": "A: Sō desu ka. Nanji goro hashirimasu ka.",
+        "en": "A: Really. About what time do you run?",
+        "bn": "A: তাই নাকি। কতটার দিকে দৌড়ান?"
+      },
+      {
+        "jp": "B：六時半ごろです。音楽を 聞きながら 走っています。",
+        "furigana": "B：ろくじはんごろです。おんがくを ききながら はしっています。",
+        "romaji": "B: Rokuji han goro desu. Ongaku o kikinagara hashitte imasu.",
+        "en": "B: Around six thirty. I run while listening to music.",
+        "bn": "B: সাড়ে ছয়টার দিকে। গান শুনতে শুনতে দৌড়াই।"
+      },
+      {
+        "jp": "A：いい 習慣ですね。私も 運動したいです。",
+        "furigana": "A：いい しゅうかんですね。わたしも うんどうしたいです。",
+        "romaji": "A: Ii shūkan desu ne. Watashi mo undō shitai desu.",
+        "en": "A: That is a good habit. I want to exercise too.",
+        "bn": "A: চমৎকার অভ্যাস। আমিও ব্যায়াম করতে চাই।"
+      },
+      {
+        "jp": "B：じゃ、一緒に 走りませんか。",
+        "furigana": "B：じゃ、いっしょに はしりませんか。",
+        "romaji": "B: Ja, issho ni hashirimasen ka.",
+        "en": "B: Then shall we run together?",
+        "bn": "B: তাহলে একসঙ্গে দৌড়াবেন?"
+      },
+      {
+        "jp": "A：いいですね。でも、私は 朝が 弱いんです。",
+        "furigana": "A：いいですね。でも、わたしは あさが よわいんです。",
+        "romaji": "A: Ii desu ne. Demo, watashi wa asa ga yowai n desu.",
+        "en": "A: Sounds good. But I am not good at mornings.",
+        "bn": "A: ভালো হবে। কিন্তু আমি সকালে উঠতে পারি না।"
+      },
+      {
+        "jp": "B：じゃ、先に 電話して おきますよ。",
+        "furigana": "B：じゃ、さきに でんわして おきますよ。",
+        "romaji": "B: Ja, saki ni denwa shite okimasu yo.",
+        "en": "B: Then I will call you in advance.",
+        "bn": "B: তাহলে আমি আগে ফোন করে রাখব।"
+      },
+      {
+        "jp": "A：ありがとうございます。今晩 早く 寝て おきます。",
+        "furigana": "A：ありがとうございます。こんばん はやく ねて おきます。",
+        "romaji": "A: Arigatō gozaimasu. Konban hayaku nete okimasu.",
+        "en": "A: Thank you. I will go to bed early tonight in preparation.",
+        "bn": "A: ধন্যবাদ। আজ রাতে আগে থেকেই তাড়াতাড়ি ঘুমিয়ে পড়ব।"
       }
     ]
   }

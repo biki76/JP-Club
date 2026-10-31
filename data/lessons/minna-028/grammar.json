@@ -1,26 +1,122 @@
 [
   {
-    "id": "minna-028-g001",
-    "pattern": "～ながら",
-    "meaning_en": "doing two actions simultaneously",
+    "id": "minna-028-g1",
+    "pattern": "動詞ます形の語幹 + ながら、〜",
+    "meaning_en": "while doing something, doing another action at the same time",
+    "meaning_bn": "কোনো কাজ করার সময় একইসঙ্গে অন্য কাজ করা",
     "examples": [
       {
-        "jp": "音楽を聞きながら勉強します。",
-        "en": "I study while listening to music."
+        "jp": "私は 毎朝 音楽を 聞きながら 走ります。",
+        "furigana": "わたしは まいあさ おんがくを ききながら はしります。",
+        "romaji": "watashi wa maiasa ongaku o kikinagara hashirimasu.",
+        "en": "Every morning I run while listening to music.",
+        "bn": "আমি প্রতিদিন সকালে গান শুনতে শুনতে দৌড়াই।"
+      },
+      {
+        "jp": "コーヒーを 飲みながら 新聞を 読みます。",
+        "furigana": "コーヒーを のみながら しんぶんを よみます。",
+        "romaji": "kōhī o nominagara shinbun o yomimasu.",
+        "en": "I read the newspaper while drinking coffee.",
+        "bn": "আমি কফি খেতে খেতে পত্রিকা পড়ি।"
+      },
+      {
+        "jp": "彼は 笑いながら 話しました。",
+        "furigana": "かれは わらいながら はなしました。",
+        "romaji": "kare wa warainagara hanashimashita.",
+        "en": "He spoke while laughing.",
+        "bn": "সে হাসতে হাসতে কথা বলল।"
       }
     ],
-    "meaning_bn": "doing two actions simultaneously"
+    "tags": ["grammar"]
   },
   {
-    "id": "minna-028-g002",
-    "pattern": "～し～し",
-    "meaning_en": "listing multiple reasons / facts",
+    "id": "minna-028-g2",
+    "pattern": "動詞て形 + います（習慣・繰り返す行為）",
+    "meaning_en": "expresses a habitual action or a repeated daily activity",
+    "meaning_bn": "অভ্যাস বা প্রতিদিন বারবার করা কাজ বোঝায়",
     "examples": [
       {
-        "jp": "安いし、おいしいし、よく食べます。",
-        "en": "It's cheap and delicious, so I eat it often."
+        "jp": "私は 毎日 日本語を 勉強しています。",
+        "furigana": "わたしは まいにち にほんごを べんきょうしています。",
+        "romaji": "watashi wa mainichi nihongo o benkyō shite imasu.",
+        "en": "I study Japanese every day.",
+        "bn": "আমি প্রতিদিন জাপানি ভাষা পড়ি।"
+      },
+      {
+        "jp": "父は 駅の 近くで 働いています。",
+        "furigana": "ちちは えきの ちかくで はたらいています。",
+        "romaji": "chichi wa eki no chikaku de hataraite imasu.",
+        "en": "My father works near the station.",
+        "bn": "বাবা স্টেশনের কাছে কাজ করেন।"
+      },
+      {
+        "jp": "妹は 毎晩 日記を 書いています。",
+        "furigana": "いもうとは まいばん にっきを かいているんです。",
+        "romaji": "imōto wa maiban nikki o kaite imasu.",
+        "en": "My younger sister writes a diary every night.",
+        "bn": "আমার ছোট বোন প্রতিরাতে ডায়েরি লেখে।"
       }
     ],
-    "meaning_bn": "listing multiple reasons / facts"
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-028-g3",
+    "pattern": "動詞て形 + しまいます",
+    "meaning_en": "to finish something completely; to do something regrettable",
+    "meaning_bn": "কোনো কাজ পুরোপুরি শেষ করা; বা অনুতাপজনক কিছু হয়ে যাওয়া",
+    "examples": [
+      {
+        "jp": "ケーキを 全部 食べてしまいました。",
+        "furigana": "ケーキを ぜんぶ たべてしまいました。",
+        "romaji": "kēki o zenbu tabete shimaimashita.",
+        "en": "I ate the whole cake.",
+        "bn": "আমি পুরো কেকটা খেয়ে ফেলেছি।"
+      },
+      {
+        "jp": "電車の 中で 財布を 落としてしまいました。",
+        "furigana": "でんしゃの なかで さいふを おとしてしまいました。",
+        "romaji": "densha no naka de saifu o otoshite shimaimashita.",
+        "en": "I dropped my wallet on the train.",
+        "bn": "ট্রেনের ভেতরে আমি মানিব্যাগ ফেলে দিয়েছি।"
+      },
+      {
+        "jp": "忙しくて、宿題を 忘れてしまいました。",
+        "furigana": "いそがしくて、しゅくだいを わすれてしまいました。",
+        "romaji": "isogashikute, shukudai o wasurete shimaimashita.",
+        "en": "I was busy and forgot my homework.",
+        "bn": "ব্যস্ত থাকায় বাড়ির কাজ ভুলে গিয়েছিলাম।"
+      }
+    ],
+    "tags": ["grammar"]
+  },
+  {
+    "id": "minna-028-g4",
+    "pattern": "動詞て形 + おきます",
+    "meaning_en": "to do something in advance, in preparation for the future",
+    "meaning_bn": "ভবিষ্যতের জন্য আগে থেকেই কিছু করা",
+    "examples": [
+      {
+        "jp": "明日の 会議の 準備を しておきます。",
+        "furigana": "あしたの かいぎの じゅんびを しておきます。",
+        "romaji": "ashita no kaigi no junbi o shite okimasu.",
+        "en": "I will prepare for tomorrow's meeting in advance.",
+        "bn": "কালকের সভার প্রস্তুতি আগেই নিয়ে রাখব।"
+      },
+      {
+        "jp": "出かける 前に 部屋を 片付けておきます。",
+        "furigana": "でかける まえに へやを かたづけておきます。",
+        "romaji": "dekakeru mae ni heya o katadzukete okimasu.",
+        "en": "Before going out, I tidy up the room.",
+        "bn": "বাইরে যাওয়ার আগে ঘরটা গুছিয়ে রাখি।"
+      },
+      {
+        "jp": "旅行の 前に 切符を 買っておきます。",
+        "furigana": "りょこうの まえに きっぷを かっておきます。",
+        "romaji": "ryokō no mae ni kippu o katte okimasu.",
+        "en": "Before the trip, I buy the tickets in advance.",
+        "bn": "ভ্রমণের আগে টিকিট আগেই কিনে রাখি।"
+      }
+    ],
+    "tags": ["grammar"]
   }
 ]

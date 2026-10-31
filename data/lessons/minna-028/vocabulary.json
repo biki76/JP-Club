@@ -1,56 +1,272 @@
 [
   {
     "id": "minna-028-v001",
-    "kanji": "売れます",
-    "furigana": "うれます",
-    "romaji": "uremasu",
-    "english_meaning": "to sell / be sold",
-    "type": "verb",
-    "bengali_meaning": "বিক্রি করা / বিক্রি হওয়া"
+    "kanji": "習慣",
+    "furigana": "しゅうかん",
+    "romaji": "shūkan",
+    "english_meaning": "habit, custom",
+    "bengali_meaning": "অভ্যাস, রীতি",
+    "tags": ["vocabulary", "lesson-28"]
   },
   {
     "id": "minna-028-v002",
-    "kanji": "踊ります",
-    "furigana": "おどります",
-    "romaji": "odorimasu",
-    "english_meaning": "to dance",
-    "type": "verb",
-    "bengali_meaning": "নাচা"
+    "kanji": "続ける",
+    "furigana": "つづける",
+    "romaji": "tsuzukeru",
+    "english_meaning": "to continue",
+    "bengali_meaning": "চালিয়ে যাওয়া",
+    "tags": ["vocabulary", "lesson-28"]
   },
   {
     "id": "minna-028-v003",
-    "kanji": "噛みます",
-    "furigana": "かみます",
-    "romaji": "kamimasu",
-    "english_meaning": "to chew / bite",
-    "type": "verb",
-    "bengali_meaning": "চিবানো / কামড়ানো"
+    "kanji": "忘れる",
+    "furigana": "わすれる",
+    "romaji": "wasureru",
+    "english_meaning": "to forget",
+    "bengali_meaning": "ভুলে যাওয়া",
+    "tags": ["vocabulary", "lesson-28"]
   },
   {
     "id": "minna-028-v004",
-    "kanji": "選びます",
-    "furigana": "えらびます",
-    "romaji": "erabimasu",
-    "english_meaning": "to choose",
-    "type": "verb",
-    "bengali_meaning": "বেছে নেওয়া"
+    "kanji": "落とす",
+    "furigana": "おとす",
+    "romaji": "otosu",
+    "english_meaning": "to drop, to lose",
+    "bengali_meaning": "ফেলে দেওয়া, হারানো",
+    "tags": ["vocabulary", "lesson-28"]
   },
   {
     "id": "minna-028-v005",
-    "kanji": "通います",
-    "furigana": "かよいます",
-    "romaji": "kayoimasu",
-    "english_meaning": "to commute / regularly go to",
-    "type": "verb",
-    "bengali_meaning": "নিয়মিত যাতায়াত করা"
+    "kanji": "壊す",
+    "furigana": "こわす",
+    "romaji": "kowasu",
+    "english_meaning": "to break, to damage",
+    "bengali_meaning": "ভেঙে ফেলা, নষ্ট করা",
+    "tags": ["vocabulary", "lesson-28"]
   },
   {
     "id": "minna-028-v006",
-    "kanji": "真面目",
-    "furigana": "まじめ",
-    "romaji": "majime",
-    "english_meaning": "serious / diligent",
-    "type": "na-adjective",
-    "bengali_meaning": "আন্তরিক / পরিশ্রমী"
+    "kanji": "汚す",
+    "furigana": "よごす",
+    "romaji": "yogosu",
+    "english_meaning": "to make dirty, to stain",
+    "bengali_meaning": "নোংরা করা",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v007",
+    "kanji": "磨く",
+    "furigana": "みがく",
+    "romaji": "migaku",
+    "english_meaning": "to brush, to polish",
+    "bengali_meaning": "ঘষা, মাজা",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v008",
+    "kanji": "浴びる",
+    "furigana": "あびる",
+    "romaji": "abiru",
+    "english_meaning": "to take a shower, to bathe in",
+    "bengali_meaning": "গোসল করা, স্নান করা",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v009",
+    "kanji": "準備",
+    "furigana": "じゅんび",
+    "romaji": "junbi",
+    "english_meaning": "preparation",
+    "bengali_meaning": "প্রস্তুতি",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v010",
+    "kanji": "用意",
+    "furigana": "ようい",
+    "romaji": "yōi",
+    "english_meaning": "preparation, getting ready",
+    "bengali_meaning": "প্রস্তুত করা, আয়োজন",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v011",
+    "kanji": "予習",
+    "furigana": "よしゅう",
+    "romaji": "yoshū",
+    "english_meaning": "preparation for a lesson",
+    "bengali_meaning": "পাঠের আগে প্রস্তুতি",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v012",
+    "kanji": "復習",
+    "furigana": "ふくしゅう",
+    "romaji": "fukushū",
+    "english_meaning": "review of lessons",
+    "bengali_meaning": "পাঠ পুনরালোচনা",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v013",
+    "kanji": "遅刻",
+    "furigana": "ちこく",
+    "romaji": "chikoku",
+    "english_meaning": "being late, tardiness",
+    "bengali_meaning": "দেরি করা, দেরিতে পৌঁছানো",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v014",
+    "kanji": "寝坊",
+    "furigana": "ねぼう",
+    "romaji": "nebō",
+    "english_meaning": "oversleeping",
+    "bengali_meaning": "দেরি করে ঘুম থেকে ওঠা",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v015",
+    "kanji": "間に合う",
+    "furigana": "まにあう",
+    "romaji": "maniau",
+    "english_meaning": "to be in time",
+    "bengali_meaning": "সময়মতো পৌঁছানো",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v016",
+    "kanji": "乗り換える",
+    "furigana": "のりかえる",
+    "romaji": "norikaeru",
+    "english_meaning": "to change trains or buses",
+    "bengali_meaning": "গাড়ি বদলানো",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v017",
+    "kanji": "降りる",
+    "furigana": "おりる",
+    "romaji": "oriru",
+    "english_meaning": "to get off",
+    "bengali_meaning": "নেমে যাওয়া",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v018",
+    "kanji": "財布",
+    "furigana": "さいふ",
+    "romaji": "saifu",
+    "english_meaning": "wallet",
+    "bengali_meaning": "মানিব্যাগ",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v019",
+    "kanji": "日記",
+    "furigana": "にっき",
+    "romaji": "nikki",
+    "english_meaning": "diary",
+    "bengali_meaning": "ডায়েরি",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v020",
+    "kanji": "途中",
+    "furigana": "とちゅう",
+    "romaji": "tochū",
+    "english_meaning": "on the way, midway",
+    "bengali_meaning": "পথে, মাঝপথে",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v021",
+    "kanji": "一生懸命",
+    "furigana": "いっしょうけんめい",
+    "romaji": "isshōkenmei",
+    "english_meaning": "with all one's effort",
+    "bengali_meaning": "প্রাণপণ effort নিয়ে",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v022",
+    "kanji": "毎朝",
+    "furigana": "まいあさ",
+    "romaji": "maiasa",
+    "english_meaning": "every morning",
+    "bengali_meaning": "প্রতিদিন সকালে",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v023",
+    "kanji": "歯",
+    "furigana": "は",
+    "romaji": "ha",
+    "english_meaning": "tooth",
+    "bengali_meaning": "দাঁত",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v024",
+    "kanji": "洗う",
+    "furigana": "あらう",
+    "romaji": "arau",
+    "english_meaning": "to wash",
+    "bengali_meaning": "ধোয়া",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v025",
+    "kanji": "片付ける",
+    "furigana": "かたづける",
+    "romaji": "katadzukeru",
+    "english_meaning": "to tidy up, to put away",
+    "bengali_meaning": "গুছিয়ে রাখা",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v026",
+    "kanji": "決める",
+    "furigana": "きめる",
+    "romaji": "kimeru",
+    "english_meaning": "to decide",
+    "bengali_meaning": "সিদ্ধান্ত নেওয়া",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v027",
+    "kanji": "眠る",
+    "furigana": "ねむる",
+    "romaji": "nemuru",
+    "english_meaning": "to sleep",
+    "bengali_meaning": "ঘুমানো",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v028",
+    "kanji": "眠い",
+    "furigana": "ねむい",
+    "romaji": "nemui",
+    "english_meaning": "sleepy",
+    "bengali_meaning": "ঘুম পাচ্ছে এমন",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v029",
+    "kanji": "忙しい",
+    "furigana": "いそがしい",
+    "romaji": "isogashii",
+    "english_meaning": "busy",
+    "bengali_meaning": "ব্যস্ত",
+    "tags": ["vocabulary", "lesson-28"]
+  },
+  {
+    "id": "minna-028-v030",
+    "kanji": "健康",
+    "furigana": "けんこう",
+    "romaji": "kenkō",
+    "english_meaning": "health",
+    "bengali_meaning": "স্বাস্থ্য",
+    "tags": ["vocabulary", "lesson-28"]
   }
 ]

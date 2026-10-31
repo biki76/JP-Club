@@ -1,87 +1,106 @@
 [
   {
-    "character": "日",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "続",
+    "onyomi": ["ゾク"],
+    "kunyomi": ["つづ.く", "つづ.ける"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["to continue", "to follow"],
+      "bn": ["চালিয়ে যাওয়া", "অনুসরণ করা"]
     },
-    "radicals": [],
-    "strokes": 4,
+    "radicals": ["糸", "売"],
+    "strokes": 13,
     "grade": 4,
     "jlpt": "N4"
   },
   {
-    "character": "本",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "忘",
+    "onyomi": ["ボウ"],
+    "kunyomi": ["わす.れる"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["to forget"],
+      "bn": ["ভুলে যাওয়া"]
     },
-    "radicals": [],
-    "strokes": 5,
-    "grade": 4,
+    "radicals": ["亡", "心"],
+    "strokes": 7,
+    "grade": 6,
     "jlpt": "N4"
   },
   {
-    "character": "語",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "落",
+    "onyomi": ["ラク"],
+    "kunyomi": ["お.ちる", "お.とす"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["to fall", "to drop"],
+      "bn": ["পড়ে যাওয়া", "ফেলে দেওয়া"]
     },
-    "radicals": [],
-    "strokes": 14,
-    "grade": 4,
+    "radicals": ["艹", "氵", "各"],
+    "strokes": 12,
+    "grade": 3,
     "jlpt": "N4"
   },
   {
-    "character": "勉",
-    "onyomi": [],
-    "kunyomi": [],
+    "character": "遅",
+    "onyomi": ["チ"],
+    "kunyomi": ["おそ.い", "おく.れる"],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["late", "slow"],
+      "bn": ["দেরি", "ধীর"]
     },
-    "radicals": [],
+    "radicals": ["辶", "犀"],
+    "strokes": 12,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "寝",
+    "onyomi": ["シン"],
+    "kunyomi": ["ね.る", "ね.かす"],
+    "meanings": {
+      "en": ["to sleep", "to lie down"],
+      "bn": ["ঘুমানো", "শুয়ে পড়া"]
+    },
+    "radicals": ["宀", "爿", "帚"],
+    "strokes": 13,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "浴",
+    "onyomi": ["ヨク"],
+    "kunyomi": ["あ.びる", "あ.びせる"],
+    "meanings": {
+      "en": ["to bathe", "to pour over"],
+      "bn": ["স্নান করা", "ঢেলে দেওয়া"]
+    },
+    "radicals": ["氵", "谷"],
     "strokes": 10,
-    "grade": 4,
+    "grade": 8,
     "jlpt": "N4"
   },
   {
-    "character": "強",
-    "onyomi": [],
+    "character": "準",
+    "onyomi": ["ジュン"],
     "kunyomi": [],
     "meanings": {
-      "en": [
-        "Meaning"
-      ],
-      "bn": [
-        "অর্থ"
-      ]
+      "en": ["standard", "prepare"],
+      "bn": ["মানদণ্ড", "প্রস্তুতি"]
     },
-    "radicals": [],
-    "strokes": 11,
-    "grade": 4,
+    "radicals": ["氵", "隹", "十"],
+    "strokes": 13,
+    "grade": 8,
+    "jlpt": "N4"
+  },
+  {
+    "character": "備",
+    "onyomi": ["ビ"],
+    "kunyomi": ["そな.える", "そな.わる"],
+    "meanings": {
+      "en": ["to prepare", "to equip"],
+      "bn": ["প্রস্তুত করা", "সজ্জিত করা"]
+    },
+    "radicals": ["亻", "艹", "用"],
+    "strokes": 12,
+    "grade": 8,
     "jlpt": "N4"
   }
 ]

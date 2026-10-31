@@ -3,48 +3,152 @@
     "id": "minna-028-p1",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜28-A",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜28-A"
+      "en": "Choose the correct form: running while listening to music.",
+      "bn": "সঠিক রূপটি বেছে নিন: গান শুনতে শুনতে দৌড়ানো।"
     },
     "stem": {
-      "jp": "これは レッスン28の 文法です。",
-      "furigana": "これは レッスン28の 文法です。",
-      "romaji": ""
+      "jp": "音楽を 聞き（　）走ります。",
+      "furigana": "おんがくを きき（　）はしります。",
+      "romaji": "ongaku o kiki( ) hashirimasu."
     },
-    "options": [
-      "Grammar pattern 28-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["ながら", "ので", "すぎ", "ために"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜28-A means \"Grammar pattern 28-A\".",
-      "bn": "〜28-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 28-A\"।"
+      "en": "動詞ます形の語幹 + ながら shows two actions happening at the same time.",
+      "bn": "動詞ます形の語幹 + ながら একসঙ্গে দুটি কাজ চলছে বোঝায়।"
     }
   },
   {
     "id": "minna-028-p2",
     "type": "multiple-choice",
     "prompt": {
-      "en": "Choose the correct meaning for: 〜28-B",
-      "bn": "সঠিক অর্থ নির্বাচন করুন: 〜28-B"
+      "en": "Choose the correct ending for a daily habit.",
+      "bn": "দৈনন্দিন অভ্যাসের জন্য সঠিক সমাপ্তি বেছে নিন।"
     },
     "stem": {
-      "jp": "これは レッスン28の 文法です。",
-      "furigana": "これは レッスン28の 文法です。",
-      "romaji": ""
+      "jp": "私は 毎日 日本語を 勉強して（　）。",
+      "furigana": "わたしは まいにち にほんごを べんきょうして（　）。",
+      "romaji": "watashi wa mainichi nihongo o benkyō shite ( )."
     },
-    "options": [
-      "Grammar pattern 28-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
-    ],
+    "options": ["います", "しまいます", "おきます", "ください"],
     "correctIndex": 0,
     "explanation": {
-      "en": "The pattern 〜28-B means \"Grammar pattern 28-B\".",
-      "bn": "〜28-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 28-B\"।"
+      "en": "動詞て形 + います expresses a habitual action: I study every day.",
+      "bn": "動詞て形 + います অভ্যাস বোঝায়: আমি প্রতিদিন পড়ি।"
+    }
+  },
+  {
+    "id": "minna-028-p3",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form: I ate the whole cake.",
+      "bn": "সঠিক রূপটি বেছে নিন: আমি পুরো কেকটা খেয়ে ফেলেছি।"
+    },
+    "stem": {
+      "jp": "ケーキを 全部 食べて（　）。",
+      "furigana": "ケーキを ぜんぶ たべて（　）。",
+      "romaji": "kēki o zenbu tabete ( )."
+    },
+    "options": ["しまいました", "おきました", "います", "ください"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞て形 + しまいます expresses completing something fully.",
+      "bn": "動詞て形 + しまいます সম্পূর্ণ শেষ হয়ে যাওয়া বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-028-p4",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct form: prepare in advance.",
+      "bn": "সঠিক রূপটি বেছে নিন: আগেই প্রস্তুতি নেওয়া।"
+    },
+    "stem": {
+      "jp": "明日の 会議の 準備を して（　）。",
+      "furigana": "あしたの かいぎの じゅんびを して（　）。",
+      "romaji": "ashita no kaigi no junbi o shite ( )."
+    },
+    "options": ["おきます", "しまいます", "います", "いますか"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "動詞て形 + おきます means doing something in advance.",
+      "bn": "動詞て形 + おきます আগে থেকেই কিছু করা বোঝায়।"
+    }
+  },
+  {
+    "id": "minna-028-p5",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 遅刻.",
+      "bn": "遅刻 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "会社に 遅刻しました。",
+      "furigana": "かいしゃに ちこくしました。",
+      "romaji": "kaisha ni chikoku shimashita."
+    },
+    "options": ["I was late for work", "I left work early", "I found work", "I changed jobs"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "遅刻 means arriving late.",
+      "bn": "遅刻 মানে দেরিতে পৌঁছানো।"
+    }
+  },
+  {
+    "id": "minna-028-p6",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word: I overslept.",
+      "bn": "সঠিক শব্দটি বেছে নিন: আমি দেরি করে ঘুম থেকে উঠেছি।"
+    },
+    "stem": {
+      "jp": "今朝は（　）しました。",
+      "furigana": "けさは（　）しました。",
+      "romaji": "kesa wa ( ) shimashita."
+    },
+    "options": ["寝坊", "準備", "復習", "健康"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "寝坊します means to oversleep.",
+      "bn": "寝坊します মানে দেরি করে ঘুম থেকে ওঠা।"
+    }
+  },
+  {
+    "id": "minna-028-p7",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct word: I dropped my wallet.",
+      "bn": "সঠিক শব্দটি বেছে নিন: আমি মানিব্যাগ ফেলে দিয়েছি।"
+    },
+    "stem": {
+      "jp": "電車で 財布を（　）しまいました。",
+      "furigana": "でんしゃで さいふを（　）しまいました。",
+      "romaji": "densha de saifu o ( ) shimaimashita."
+    },
+    "options": ["落として", "磨いて", "浴びて", "決めて"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "落とす means to drop or lose something.",
+      "bn": "落とす মানে ফেলে দেওয়া বা হারানো।"
+    }
+  },
+  {
+    "id": "minna-028-p8",
+    "type": "multiple-choice",
+    "prompt": {
+      "en": "Choose the correct meaning of 一生懸命.",
+      "bn": "一生懸命 এর সঠিক অর্থ নির্বাচন করুন।"
+    },
+    "stem": {
+      "jp": "一生懸命 練習しています。",
+      "furigana": "いっしょうけんめい れんしゅうしています。",
+      "romaji": "isshōkenmei renshū shite imasu."
+    },
+    "options": ["with all one's effort", "slowly", "for the first time", "in a loud voice"],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "一生懸命 means doing something with all one's effort.",
+      "bn": "一生懸命 মানে প্রাণপণ effort নিয়ে কিছু করা।"
     }
   }
 ]

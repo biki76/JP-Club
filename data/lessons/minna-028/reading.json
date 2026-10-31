@@ -1,17 +1,66 @@
 [
   {
-    "id": "minna-028-r001",
+    "id": "minna-028-r1",
     "title": {
-      "en": "Reading",
-      "bn": "পাঠ"
+      "en": "My Morning Routine",
+      "bn": "আমার সকালের রুটিন"
     },
     "passage": [
       {
-        "jp": "これは うれます［パンが～］ です。",
-        "furigana": "これは うれます［パンが～］ です。",
-        "romaji": "Kore wa uremasu [panga~] desu.",
-        "en": "This is [bread] sell, be sold.",
-        "bn": "এটি [bread] sell, be sold।"
+        "jp": "私は 毎朝 六時に 起きます。",
+        "furigana": "わたしは まいあさ ろくじに おきます。",
+        "romaji": "Watashi wa maiasa rokuji ni okimasu.",
+        "en": "I get up at six every morning.",
+        "bn": "আমি প্রতিদিন সকাল ছয়টায় উঠি।"
+      },
+      {
+        "jp": "まず 顔を 洗って、歯を 磨きます。",
+        "furigana": "まず かおを あらって、はを みがきます。",
+        "romaji": "Mazu kao o aratte, ha o migakimasu.",
+        "en": "First I wash my face and brush my teeth.",
+        "bn": "প্রথমে মুখ ধুই, তারপর দাঁত মাজি।"
+      },
+      {
+        "jp": "それから、音楽を 聞きながら 朝ごはんを 作ります。",
+        "furigana": "それから、おんがくを ききながら あさごはんを つくります。",
+        "romaji": "Sore kara, ongaku o kikinagara asagohan o tsukurimasu.",
+        "en": "After that, I make breakfast while listening to music.",
+        "bn": "তারপর গান শুনতে শুনতে সকালের নাশতা তৈরি করি।"
+      },
+      {
+        "jp": "七時半に 家を 出て、電車で 会社へ 行きます。",
+        "furigana": "しちじはんに いえを でて、でんしゃで かいしゃへ いきます。",
+        "romaji": "Shichiji han ni ie o dete, densha de kaisha e ikimasu.",
+        "en": "I leave home at seven thirty and go to the office by train.",
+        "bn": "সাড়ে সাতটায় বাড়ি থেকে বেরিয়ে ট্রেনে অফিসে যাই।"
+      },
+      {
+        "jp": "電車の 中で、いつも 日本語の 言葉を 復習しています。",
+        "furigana": "でんしゃの なかで、いつも にほんごの ことばを ふくしゅうしています。",
+        "romaji": "Densha no naka de, itsumo nihongo no kotoba o fukushū shite imasu.",
+        "en": "On the train I always review Japanese words.",
+        "bn": "ট্রেনে আমি সবসময় জাপানি শব্দ পুনরালোচনা করি।"
+      },
+      {
+        "jp": "昨日は 寝坊して、電車に 間に合いませんでした。",
+        "furigana": "きのうは ねぼうして、でんしゃに まにあいませんでした。",
+        "romaji": "Kinō wa nebō shite, densha ni maniaimasen deshita.",
+        "en": "Yesterday I overslept and could not catch the train.",
+        "bn": "গতকাল দেরি করে ঘুম থেকে উঠে ট্রেন ধরতে পারিনি।"
+      },
+      {
+        "jp": "それで、会社に 遅刻してしまいました。",
+        "furigana": "それで、かいしゃに ちこくしてしまいました。",
+        "romaji": "Sore de, kaisha ni chikoku shite shimaimashita.",
+        "en": "So I ended up being late for work.",
+        "bn": "তাই অফিসে দেরি হয়ে গিয়েছিল।"
+      },
+      {
+        "jp": "今夜は 早く 寝る ことに 決めました。",
+        "furigana": "こんやは はやく ねる ことに きめました。",
+        "romaji": "Kon'ya wa hayaku neru koto ni kimemashita.",
+        "en": "Tonight I have decided to go to bed early.",
+        "bn": "আজ রাতে তাড়াতাড়ি ঘুমানোর সিদ্ধান্ত নিয়েছি।"
       }
     ]
   }
