@@ -38,3 +38,10 @@ a.jlpt-card:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
 .jlpt-card__level{ font-size:var(--v2-fs-xl,1.7rem); font-weight:700; line-height:1; }
 .jlpt-card__tag{ font-size:var(--v2-fs-xs,.83rem); white-space:nowrap; }
 @media (prefers-reduced-motion:reduce){ a.book:hover,a.jlpt-card:hover{ transform:none; } }
+
+/* section-rhythm */
+.section{ margin-top:var(--s-8,32px); }
+.section:first-child{ margin-top:0; }
+.continue{ margin-bottom:var(--s-6,24px); }
+.continue__actions{ margin-top:var(--s-4,16px); }
+.section__title{ margin:0 0 var(--s-4,16px); }
