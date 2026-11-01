@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="mimikara"><defs><clipPath id="c"><rect width="160" height="160" rx="22"/></clipPath></defs><g clip-path="url(#c)"><rect width="160" height="160" fill="#E4C1F9"/><text x="14" y="52" font-size="44" font-weight="800" font-family="Noto Sans JP, Hiragino Sans, Yu Gothic, sans-serif" fill="#3b2f2a">語</text><g transform="translate(104 100) scale(.78)">
-<path d="M-52 96Q-52 30 0 30Q52 30 52 96Z" fill="#8F5FC4" stroke="#3b2f2a" stroke-width="4" stroke-linejoin="round"/>
-<circle r="36" fill="#FFE0C2" stroke="#3b2f2a" stroke-width="4"/>
-<circle cx="0" cy="-46" r="13" fill="#4a3426" stroke="#3b2f2a" stroke-width="4"/>
-<path d="M-37 -2Q-40 -44 0 -44Q40 -44 37 -2Q22 -26 -4 -24Q-26 -22 -37 -2Z" fill="#4a3426" stroke="#3b2f2a" stroke-width="4" stroke-linejoin="round"/>
-<circle cx="-13" cy="4" r="3.6" fill="#3b2f2a"/><circle cx="13" cy="4" r="3.6" fill="#3b2f2a"/>
-<circle cx="-22" cy="14" r="6" fill="#FF9E8A" opacity=".55"/><circle cx="22" cy="14" r="6" fill="#FF9E8A" opacity=".55"/>
-<path d="M-10 16Q0 25 10 16" fill="none" stroke="#3b2f2a" stroke-width="4" stroke-linecap="round"/>
-<rect x="-34" y="52" width="68" height="40" rx="6" fill="#fff" stroke="#3b2f2a" stroke-width="4"/><path d="M0 52V92" stroke="#3b2f2a" stroke-width="3"/><circle cx="-38" cy="74" r="8" fill="#FFE0C2" stroke="#3b2f2a" stroke-width="4"/><circle cx="38" cy="74" r="8" fill="#FFE0C2" stroke="#3b2f2a" stroke-width="4"/></g></g></svg>

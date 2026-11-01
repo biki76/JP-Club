@@ -2,10 +2,10 @@
   'use strict';
   var slug = new URLSearchParams(location.search).get('lesson');
   if (!slug) return;
-  var src = 'images/lessons/' + slug + '.svg';
+  var src = 'images/lessons/' + slug + '.webp';
   function mk(cls) {
     var i = document.createElement('img');
-    i.className = cls; i.src = src; i.alt = ''; i.setAttribute('aria-hidden', 'true');
+    i.className = cls; i.src = src; i.alt = ''; i.onerror = function () { i.remove(); }; i.setAttribute('aria-hidden', 'true');
     i.width = 400; i.height = 240; i.decoding = 'async';
     return i;
   }

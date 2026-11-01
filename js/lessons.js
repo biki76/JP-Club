@@ -62,7 +62,7 @@
         ? '<span class="ls-state">' + txt(current ? 'In progress' : 'Start', current ? 'চলমান' : 'শুরু') + '</span>'
         : '<span class="ls-state ls-state--soon"><span aria-hidden="true">🔒</span>' + txt('Coming soon', 'শীঘ্রই আসছে') + '</span>';
     return '<' + tag + ' class="ls-card v2-reveal' + (current ? ' ls-card--current' : '') + '" data-level="' + level + '" data-available="' + available + '"' + attrs + '>' +
-      '<img class="ls-cover" src="images/lessons/' + s + '.svg" alt="" loading="lazy" width="400" height="240">' + '<div class="ls-top"><span class="ls-num">' + n + '</span>' + (available ? ring(p) : '') + '</div>' +
+      '<img class="ls-cover" src="images/lessons/' + s + '.webp" alt="" loading="lazy" onerror="this.remove()" width="400" height="240">' + '<div class="ls-top"><span class="ls-num">' + n + '</span>' + (available ? ring(p) : '') + '</div>' +
       '<div><div class="ls-title">' + txt(title.en, title.bn) + '</div>' +
       (m && m.subtitle ? '<div class="ls-sub">' + txt(m.subtitle.en, m.subtitle.bn) + '</div>' : '') + '</div>' +
       '<div class="ls-foot"><span class="ls-jlpt">' + level + '</span>' + state + '</div>' +
