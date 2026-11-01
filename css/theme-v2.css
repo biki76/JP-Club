@@ -116,3 +116,6 @@ html[lang="bn"] .v2-hero__title{ line-height:1.5; letter-spacing:0; }
   .v2-reveal{ opacity:1; transform:none; }
   .v2-card:hover,.v2-btn--primary:hover{ transform:none; }
 }
+
+/* layout vars used by shell.css */
+:root{ --sidebar-w:248px; --header-h:64px; }
