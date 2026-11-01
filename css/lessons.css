@@ -24,3 +24,5 @@ a.ls-card:active{transform:scale(.98)}
 .ls-state--soon{color:var(--v2-text-2)}
 .ls-empty{grid-column:1/-1;text-align:center;padding:48px 16px;color:var(--v2-text-2)}
 @media (prefers-reduced-motion:reduce){a.ls-card:hover{transform:none}}
+
+.ls-cover{ display:block; width:100%; aspect-ratio:5/3; object-fit:cover; border-radius:var(--v2-r-md,10px); margin-bottom:8px; }

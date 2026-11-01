@@ -176,3 +176,7 @@ section + section{ margin-top:32px; }
 .v2-toast--ok .v2-toast__icon{ background:var(--v2-ok); color:var(--v2-brand-ink); }
 .v2-toast--err .v2-toast__icon{ background:var(--v2-err); color:var(--v2-brand-ink); }
 @media (prefers-reduced-motion:reduce){ .v2-toast{ transition:opacity 1ms; transform:none; } }
+
+/* lesson-cover */
+.lesson-cover{ display:block; width:100%; max-width:420px; aspect-ratio:5/3; border-radius:var(--v2-r-lg,16px); margin:0 0 var(--s-4,16px); box-shadow:var(--v2-shadow-2); }
+.lesson-cover-sm{ display:block; width:100%; max-width:260px; aspect-ratio:5/3; border-radius:var(--v2-r-md,10px); margin:0 0 var(--s-4,16px); }
