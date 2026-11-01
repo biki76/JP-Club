@@ -162,7 +162,8 @@
         ? ' class="book book--soon" aria-disabled="true"'
         : ' class="book book--link" href="' + esc(b.href) + '"';
       html += '<' + wrap + attrs + '>';
-      html += '<div class="book__icon" aria-hidden="true">' + esc(b.icon === 'kanji' ? '字' : '本') + '</div>';
+      var tk = /begin/.test(b.key) ? 'beginner' : /inter/.test(b.key) ? 'intermediate' : /tema/.test(b.key) ? 'temabetsu' : /mimi/.test(b.key) ? 'mimikara' : /shin/.test(b.key) ? 'shinkanzen' : /kanji/.test(b.key) ? 'kanji' : 'default';
+      html += '<img class="book__img" src="images/tracks/' + tk + '.svg" alt="" width="96" height="96" loading="lazy">';
       html += '<div class="book__body">';
       html += '<h3 class="book__title">' + txt(b.title.en, b.title.bn) + '</h3>';
       html += '<p class="book__subtitle">' + txt(b.subtitle.en, b.subtitle.bn) + '</p>';

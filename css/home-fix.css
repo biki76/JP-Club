@@ -69,3 +69,7 @@ a.jlpt-card:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
 .path__desc{ margin:0; font-size:var(--v2-fs-sm,.9rem); color:var(--v2-text-2,var(--text-2)); }
 .path__cta{ margin-top:var(--s-2,8px); font-weight:600; font-size:var(--v2-fs-sm,.9rem); color:var(--v2-brand); }
 @media (prefers-reduced-motion:reduce){ .path:hover{ transform:none; } }
+
+/* book__img */
+.book__img{ width:96px; height:96px; border-radius:var(--v2-r-lg,16px); object-fit:cover; display:block; flex:none; }
+.book--soon .book__img{ filter:grayscale(.6); }

@@ -5,12 +5,19 @@
  */
 'use strict';
 
-const VERSION    = 'v91';
+const VERSION    = 'v92';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'images/tracks/default.svg',
+  'images/tracks/kanji.svg',
+  'images/tracks/shinkanzen.svg',
+  'images/tracks/mimikara.svg',
+  'images/tracks/temabetsu.svg',
+  'images/tracks/intermediate.svg',
+  'images/tracks/beginner.svg',
   'images/lessons/minna-050.svg',
   'images/lessons/minna-049.svg',
   'images/lessons/minna-048.svg',
