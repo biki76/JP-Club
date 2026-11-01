@@ -13,9 +13,9 @@
     },
     "options": [
       "Grammar pattern 11-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Grammar pattern 11-B",
+      "Grammar pattern 10-A",
+      "Grammar pattern 12-A"
     ],
     "correctIndex": 0,
     "explanation": {
@@ -36,12 +36,12 @@
       "romaji": ""
     },
     "options": [
+      "Grammar pattern 11-A",
       "Grammar pattern 11-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Grammar pattern 10-B",
+      "Grammar pattern 12-B"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": {
       "en": "The pattern 〜11-B means \"Grammar pattern 11-B\".",
       "bn": "〜11-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 11-B\"।"

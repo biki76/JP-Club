@@ -12,12 +12,12 @@
       "romaji": ""
     },
     "options": [
+      "Grammar pattern 12-B",
+      "Grammar pattern 11-A",
       "Grammar pattern 12-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Grammar pattern 13-A"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": {
       "en": "The pattern 〜12-A means \"Grammar pattern 12-A\".",
       "bn": "〜12-A এর অর্থ \"ব্যাকরণ প্যাটার্ন 12-A\"।"
@@ -36,12 +36,12 @@
       "romaji": ""
     },
     "options": [
-      "Grammar pattern 12-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Grammar pattern 12-A",
+      "Grammar pattern 11-B",
+      "Grammar pattern 13-B",
+      "Grammar pattern 12-B"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": {
       "en": "The pattern 〜12-B means \"Grammar pattern 12-B\".",
       "bn": "〜12-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 12-B\"।"

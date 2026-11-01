@@ -13,9 +13,9 @@
     },
     "options": [
       "Grammar pattern 17-A",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Grammar pattern 17-B",
+      "Grammar pattern 16-A",
+      "Grammar pattern 18-A"
     ],
     "correctIndex": 0,
     "explanation": {
@@ -36,12 +36,12 @@
       "romaji": ""
     },
     "options": [
+      "Grammar pattern 17-A",
       "Grammar pattern 17-B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Grammar pattern 16-B",
+      "Grammar pattern 18-B"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": {
       "en": "The pattern 〜17-B means \"Grammar pattern 17-B\".",
       "bn": "〜17-B এর অর্থ \"ব্যাকরণ প্যাটার্ন 17-B\"।"
