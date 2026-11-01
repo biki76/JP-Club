@@ -5,12 +5,17 @@
  */
 'use strict';
 
-const VERSION    = 'v79';
+const VERSION    = 'v80';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'js/tabs-memory.js',
+  'js/streak-prompt.js',
+  'js/toasts.js',
+  'css/streak-prompt.css',
+  'css/toasts.css',
   'css/typography-jp.css',
   'js/toast.js',
   'js/study-btn.js',

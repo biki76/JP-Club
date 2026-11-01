@@ -1,0 +1,8 @@
+/* qwen: streak-prompt */
+.streak-overlay { position: fixed; inset: 0; background: hsla(0, 0%, 0%, 0.6); z-index: 2000; display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s; }
+.streak-overlay.active { opacity: 1; pointer-events: auto; }
+.streak-modal { background: var(--bg-1); padding: 24px; border-radius: var(--radius-lg); max-width: 320px; width: 90%; text-align: center; }
+.streak-modal h2 { color: var(--text-1); margin-bottom: 8px; }
+.streak-modal p { color: var(--text-2); margin-bottom: 16px; }
+.streak-btn { background: var(--primary); color: var(--bg-1); border: none; padding: 10px 16px; border-radius: var(--radius-md); width: 100%; margin-bottom: 8px; cursor: pointer; }
+.streak-btn.secondary { background: transparent; color: var(--text-2); }
