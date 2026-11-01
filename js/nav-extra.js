@@ -4,6 +4,8 @@
 
   function inject() {
     document.querySelectorAll(SLOTS).forEach(function (slot) {
+      var old = slot.querySelector('a[href^="lesson.html"]'); /* repoint */
+      if (old) { old.setAttribute('href', 'lessons.html'); if (location.pathname.split('/').pop() === 'lessons.html') old.setAttribute('aria-current', 'page'); return; }
       if (slot.querySelector('a[href^="lessons.html"]')) return;
       var ref = slot.querySelector('a[href^="flashcards.html"]');
       if (!ref) return;
