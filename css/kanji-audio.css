@@ -1,0 +1,3 @@
+/* qwen: kanji-audio — speak button */
+.speak-btn { border: 0; background: transparent; color: var(--primary); font-size: 0.6em; margin-inline-start: 0.4em; cursor: pointer; vertical-align: middle; }
+.speak-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }

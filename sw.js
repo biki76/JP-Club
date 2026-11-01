@@ -5,12 +5,16 @@
  */
 'use strict';
 
-const VERSION    = 'v82';
+const VERSION    = 'v83';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'icons/icon-512.png',
+  'icons/icon-192.png',
+  'js/kanji-audio.js',
+  'css/kanji-audio.css',
   'js/a11y-hooks.js',
   'css/perf.css',
   'js/cmd-palette.js',
