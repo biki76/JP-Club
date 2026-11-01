@@ -5,12 +5,13 @@
  */
 'use strict';
 
-const VERSION    = 'v71';
+const VERSION    = 'v72';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'js/home-hero.js',
   'css/tokens-extra.css',
   'js/nav-extra.js',
   'js/a11y-extra.js',

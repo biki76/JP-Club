@@ -43,7 +43,7 @@
             '<h2 class="continue__title">' + txt('Lesson 1 — Introduction', 'পাঠ ১ — ভূমিকা') + '</h2>' +
             '<p class="continue__lead">' +
               txt(
-                'Begin with greetings, basic particles, and your first 15 words.',
+                'Begin with greetings, basic particles, and your first 40 words.',
                 'সম্বোধন, মৌলিক পার্টিকেল এবং প্রথম ১৫টি শব্দ দিয়ে শুরু করুন।'
               ) +
             '</p>' +

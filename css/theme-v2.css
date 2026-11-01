@@ -131,3 +131,11 @@ html[lang="bn"] .v2-hero__title{ line-height:1.5; letter-spacing:0; }
 @media (min-width:1024px){ /* Phase 11 — install / update banners. Token-driven. */
 
 .pwa-banners{ bottom:16px !important; left:auto !important; right:16px !important; } }
+
+/* hero-rhythm */
+.hero__kicker{ margin:0 0 var(--s-2,8px); }
+.hero__title{ margin:0 0 var(--s-4,16px); }
+.hero__lead{ margin:0 0 var(--s-6,24px); max-width:60ch; }
+.hero__actions{ display:flex; flex-wrap:wrap; gap:var(--s-3,12px); margin:0 0 var(--s-6,24px); }
+.hero__phrase{ margin-top:var(--s-6,24px); }
+.hero + *, section + section{ margin-top:var(--s-8,32px); }
