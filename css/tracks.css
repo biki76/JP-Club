@@ -1,0 +1,23 @@
+/* qwen: tracks — textbook drill pages */
+.tr-header { padding: 16px 12px; background: var(--bg-1); border-bottom: 1px solid var(--border, var(--text-2)); }
+.tr-back { color: var(--primary); text-decoration: none; display: inline-block; margin-bottom: 8px; }
+.tr-back:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.tr-header h1 { margin: 0 0 4px; color: var(--text-1); }
+.tr-sub { margin: 0; color: var(--text-2); font-size: 0.9rem; }
+.tr-status { margin: 0; padding: 12px; color: var(--text-2); text-align: center; font-size: 0.85rem; }
+.tr-list { display: grid; gap: 16px; padding: 8px 12px 96px; max-width: 720px; margin: 0 auto; }
+.tr-unit { margin: 0 0 8px; color: var(--text-1); }
+.tr-grid { display: grid; gap: 10px; }
+.track-card { border: 1px solid var(--border, var(--text-2)); border-radius: var(--radius-lg, 12px); background: var(--bg-1); color: var(--text-1); padding: 16px; font: inherit; text-align: center; cursor: pointer; display: grid; gap: 6px; }
+.track-card:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.track-card .card-front { font-size: calc(1rem * var(--jp-scale, 1.4)); line-height: var(--lh-jp); }
+.track-card .card-back { color: var(--text-2); display: none; }
+.track-card.flipped .card-back { display: block; }
+.tr-point { border: 1px solid var(--border, var(--text-2)); border-radius: var(--radius-lg, 12px); background: var(--bg-1); padding: 14px; display: grid; gap: 8px; }
+.tr-point-jp { margin: 0; color: var(--text-1); }
+.tr-point-en { margin: 0; color: var(--text-2); }
+.tr-reveal { justify-self: start; border: 1px solid var(--border, var(--text-2)); border-radius: var(--radius-md, 8px); background: var(--bg-2, var(--bg-1)); color: var(--primary); padding: 8px 12px; font: inherit; cursor: pointer; }
+.tr-reveal:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.tr-expl { margin: 0; color: var(--text-2); }
+.tr-ex { margin: 0; color: var(--text-1); line-height: var(--lh-jp); }
+.tr-empty { color: var(--text-2); text-align: center; padding: 24px; }

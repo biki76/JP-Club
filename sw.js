@@ -5,12 +5,18 @@
  */
 'use strict';
 
-const VERSION    = 'v84';
+const VERSION    = 'v85';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'content/shinkanzen/index.json',
+  'content/mimikara/index.json',
+  'js/tracks.js',
+  'css/tracks.css',
+  'shinkanzen.html',
+  'mimikara.html',
   'content/grammar-ref.json',
   'js/grammar-ref-link.js',
   'js/grammar-ref.js',

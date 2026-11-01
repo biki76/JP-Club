@@ -1,0 +1,16 @@
+[
+  { "unit": 1, "title_en": "People & school", "title_bn": "মানুষ ও স্কুল", "words": [
+    { "jp": "私", "reading": "わたし", "en": "I, me", "bn": "আমি" },
+    { "jp": "先生", "reading": "せんせい", "en": "teacher", "bn": "শিক্ষক" },
+    { "jp": "学生", "reading": "がくせい", "en": "student", "bn": "শিক্ষার্থী" },
+    { "jp": "学校", "reading": "がっこう", "en": "school", "bn": "স্কুল" },
+    { "jp": "毎日", "reading": "まいにち", "en": "every day", "bn": "প্রতিদিন" }
+  ]},
+  { "unit": 2, "title_en": "Everyday verbs", "title_bn": "প্রতিদিনের ক্রিয়া", "words": [
+    { "jp": "食べる", "reading": "たべる", "en": "to eat", "bn": "খাওয়া" },
+    { "jp": "飲む", "reading": "のむ", "en": "to drink", "bn": "পান করা" },
+    { "jp": "行く", "reading": "いく", "en": "to go", "bn": "যাওয়া" },
+    { "jp": "見る", "reading": "みる", "en": "to see", "bn": "দেখা" },
+    { "jp": "聞く", "reading": "きく", "en": "to listen", "bn": "শোনা" }
+  ]}
+]

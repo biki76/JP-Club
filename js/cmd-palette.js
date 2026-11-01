@@ -7,6 +7,8 @@
     { href: 'kanji.html', en: 'Kanji', bn: 'কানজি' },
     { href: 'progress.html', en: 'Progress', bn: 'অগ্রগতি' },
     { href: 'placement.html', en: 'Placement test', bn: 'প্লেসমেন্ট টেস্ট' }
+    { href: 'mimikara.html', en: 'Mimikara Oboeru', bn: 'মিমিকারা ওবোয়েরু' },
+    { href: 'shinkanzen.html', en: 'Shin Kanzen Master', bn: 'শিন কানজেন মাস্টার' },
   ];
   var lessons = [];
   fetch('content/index.json').then(function (r) { return r.ok ? r.json() : []; }).then(function (j) {

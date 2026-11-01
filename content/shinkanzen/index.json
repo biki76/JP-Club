@@ -1,0 +1,5 @@
+[
+  { "id": "n3-01", "point_jp": "〜わけではない", "point_en": "it is not necessarily the case that", "point_bn": "অবশ্যই তা নয় যে", "explanation_en": "Partial negation: denies that something always holds.", "explanation_bn": "আংশিক নিষেধ: কিছু সবসময় খাটে না তা বোঝায়।", "example_jp": "高いものが必ずしも良いわけではない。" },
+  { "id": "n3-02", "point_jp": "〜に違いない", "point_en": "must be; no doubt", "point_bn": "নিশ্চয়ই", "explanation_en": "Strong conviction based on evidence.", "explanation_bn": "প্রমাণের ভিত্তিতে দৃঢ় বিশ্বাস।", "example_jp": "彼はもう着いたに違いない。" },
+  { "id": "n3-03", "point_jp": "〜べきだ", "point_en": "should; ought to", "point_bn": "উচিত", "explanation_en": "Moral obligation or advice.", "explanation_bn": "নৈতিক কর্তব্য বা পরামর্শ।", "example_jp": "約束は守るべきだ。" }
+]
