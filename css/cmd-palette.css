@@ -1,0 +1,14 @@
+/* qwen: cmd-palette — desktop dialog, mobile bottom sheet */
+.cmd-palette-overlay { position: fixed; inset: 0; background: hsla(0, 0%, 0%, 0.45); z-index: 2100; display: flex; justify-content: center; padding: 10vh 16px 16px; }
+.cmd-palette-overlay[hidden] { display: none; }
+.cmd-palette { background: var(--bg-1); color: var(--text-1); width: 100%; max-width: 560px; border-radius: var(--radius-lg, 12px); border: 1px solid var(--border, var(--text-2)); box-shadow: var(--shadow-lg, none); overflow: hidden; display: flex; flex-direction: column; max-height: 70vh; }
+.cmd-palette-input { width: 100%; padding: 12px 14px; border: 0; border-bottom: 1px solid var(--border, var(--text-2)); background: var(--bg-2, var(--bg-1)); color: var(--text-1); font: inherit; }
+.cmd-palette-input:focus-visible { outline: 2px solid var(--primary); outline-offset: -2px; }
+.cmd-palette-list { list-style: none; margin: 0; padding: 6px; overflow: auto; }
+.cmd-palette-list button { display: block; width: 100%; text-align: left; padding: 10px 12px; border: 0; border-radius: var(--radius-md, 8px); background: transparent; color: var(--text-1); font: inherit; cursor: pointer; }
+.cmd-palette-list button:hover, .cmd-palette-list button:focus-visible { background: var(--bg-2, var(--bg-1)); outline: 2px solid var(--primary); outline-offset: -2px; }
+.cmd-palette-list button[disabled] { color: var(--text-2); cursor: default; }
+@media (max-width: 640px) {
+  .cmd-palette-overlay { padding: 0; align-items: flex-end; }
+  .cmd-palette { max-width: none; max-height: 80vh; border-radius: var(--radius-lg, 12px) var(--radius-lg, 12px) 0 0; }
+}
