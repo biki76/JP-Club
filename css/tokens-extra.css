@@ -1,0 +1,18 @@
+/* Missing tokens referenced by page CSS. Loaded right after tokens.css. */
+:root{
+  --on-primary:#ffffff;
+  --border-strong:color-mix(in srgb,var(--v2-text) 30%,var(--v2-border));
+  --surface-2:var(--v2-surface-2);
+  --warn:var(--v2-warn);
+  --dur:200ms;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --fs-base:1rem;
+  --fs-4xl:2.25rem;
+  --fs-5xl:3rem;
+  --r-xs:4px;
+  --r-xl:24px;
+  --s-7:1.75rem;
+  --s-9:2.25rem;
+  --shadow-xs:0 1px 2px rgb(0 0 0/.06);
+}
