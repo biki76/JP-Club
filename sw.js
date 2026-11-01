@@ -5,12 +5,14 @@
  */
 'use strict';
 
-const VERSION    = 'v87';
+const VERSION    = 'v88';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'content/microcopy.json',
+  'js/microcopy.js',
   'js/bookmark-toasts.js',
   'js/empty-states.js',
   'js/rm-timeout.js',

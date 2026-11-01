@@ -1,0 +1,32 @@
+[
+ {
+  "old": "Submit",
+  "en": "Check answer",
+  "bn": "উত্তর যাচাই করুন"
+ },
+ {
+  "old": "Correct!",
+  "en": "Nice! Correct.",
+  "bn": "দারুণ! সঠিক।"
+ },
+ {
+  "old": "Incorrect",
+  "en": "Not quite — try again.",
+  "bn": "ঠিক নয় — আবার চেষ্টা করুন।"
+ },
+ {
+  "old": "Loading...",
+  "en": "Loading…",
+  "bn": "লোড হচ্ছে…"
+ },
+ {
+  "old": "No results",
+  "en": "No matches found",
+  "bn": "কিছু মেলেনি"
+ },
+ {
+  "old": "Click here",
+  "en": "Tap here",
+  "bn": "এখানে ট্যাপ করুন"
+ }
+]
