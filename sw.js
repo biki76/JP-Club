@@ -5,12 +5,17 @@
  */
 'use strict';
 
-const VERSION    = 'v83';
+const VERSION    = 'v84';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'content/grammar-ref.json',
+  'js/grammar-ref-link.js',
+  'js/grammar-ref.js',
+  'css/grammar-ref.css',
+  'grammar.html',
   'icons/icon-512.png',
   'icons/icon-192.png',
   'js/kanji-audio.js',

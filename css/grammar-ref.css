@@ -1,0 +1,17 @@
+/* qwen: grammar-ref */
+.grammar-ref-cta { display: block; max-width: 720px; margin: 12px auto 0; padding: 12px 16px; background: var(--bg-1); border: 1px solid var(--border, var(--text-2)); border-radius: var(--radius-md, 8px); color: var(--primary); text-decoration: none; font-weight: 600; }
+.grammar-ref-cta:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.gr-header { padding: 16px 12px; background: var(--bg-1); border-bottom: 1px solid var(--border, var(--text-2)); }
+.gr-back { color: var(--primary); text-decoration: none; display: inline-block; margin-bottom: 8px; }
+.gr-back:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.gr-header h1 { margin: 0 0 12px; color: var(--text-1); }
+.gr-filter { width: 100%; padding: 10px 12px; border: 1px solid var(--border, var(--text-2)); border-radius: var(--radius-md, 8px); background: var(--bg-2, var(--bg-1)); color: var(--text-1); font: inherit; }
+.gr-filter:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.gr-list { display: grid; gap: 12px; padding: 16px 12px 96px; max-width: 720px; margin: 0 auto; }
+.gr-card { background: var(--bg-1); border: 1px solid var(--border, var(--text-2)); border-radius: var(--radius-lg, 12px); padding: 14px; display: grid; gap: 6px; }
+.gr-lesson { font-size: 0.75rem; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.06em; }
+.gr-jp { margin: 0; color: var(--text-1); }
+.gr-romaji { margin: 0; color: var(--text-2); font-size: 0.85rem; }
+.gr-en { margin: 0; color: var(--text-2); }
+.gr-ex { margin: 0; color: var(--text-1); }
+.gr-empty { color: var(--text-2); text-align: center; padding: 24px; }
