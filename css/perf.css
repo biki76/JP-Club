@@ -1,0 +1,11 @@
+/* qwen: perf-content-visibility */
+.lessons-list, .kanji-grid, .flashcards-list, .quiz-options, [data-list], ul[role="listbox"] {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 120px;
+}
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
