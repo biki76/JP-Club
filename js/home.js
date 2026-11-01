@@ -40,11 +40,11 @@
         '<div class="continue continue--empty">' +
           '<div class="continue__body">' +
             '<p class="continue__kicker">' + txt('Start here', 'এখান থেকে শুরু করুন') + '</p>' +
-            '<h2 class="continue__title">' + txt('Lesson 1 — Introduction', 'পাঠ ১ — ভূমিকা') + '</h2>' +
+            '<h2 class="continue__title">' + txt('Lesson 1 — Introductions & Identity', 'পাঠ ১ — পরিচয় ও আত্মপরিচয়') + '</h2>' +
             '<p class="continue__lead">' +
               txt(
                 'Begin with greetings, basic particles, and your first 40 words.',
-                'সম্বোধন, মৌলিক পার্টিকেল এবং প্রথম ১৫টি শব্দ দিয়ে শুরু করুন।'
+                'সম্বোধন, মৌলিক পার্টিকেল এবং প্রথম ৪০টি শব্দ দিয়ে শুরু করুন।'
               ) +
             '</p>' +
           '</div>' +
@@ -115,7 +115,7 @@
       subtitle: { en: 'Lessons 26–50', bn: 'পাঠ ২৬–৫০' },
       desc: { en: 'Continuing N4 → N3. Keigo, conditionals, longer passages.',
               bn: 'N4 → N3 চলমান। কেইগো, শর্তসাপেক্ষ, দীর্ঘ অনুচ্ছেদ।' },
-      levels: ['N4', 'N3'], href: 'lesson.html?lesson=minna-026', soon: true
+      levels: ['N4', 'N3'], href: 'lesson.html?lesson=minna-026'
     },
     {
       key: 'temabetsu', icon: 'book',
