@@ -12,12 +12,12 @@
       "romaji": ""
     },
     "options": [
-      "go to N",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "go by N",
+      "go with N",
+      "come from N",
+      "go to N"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": {
       "en": "The pattern N へ 行きます means \"go to N\".",
       "bn": "N へ 行きます এর অর্থ \"N-তে যাই\"।"
@@ -36,12 +36,12 @@
       "romaji": ""
     },
     "options": [
+      "go to N",
       "go by N",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "go with N",
+      "come from N"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": {
       "en": "The pattern N で 行きます means \"go by N\".",
       "bn": "N で 行きます এর অর্থ \"N দিয়ে যাই\"।"
@@ -60,12 +60,12 @@
       "romaji": ""
     },
     "options": [
+      "go to N",
+      "go by N",
       "go with N",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "come from N"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": {
       "en": "The pattern N と 行きます means \"go with N\".",
       "bn": "N と 行きます এর অর্থ \"N-এর সাথে যাই\"।"
@@ -85,9 +85,9 @@
     },
     "options": [
       "when",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "where",
+      "who",
+      "what"
     ],
     "correctIndex": 0,
     "explanation": {

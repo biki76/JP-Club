@@ -12,12 +12,12 @@
       "romaji": ""
     },
     "options": [
+      "here / there / over there",
+      "this N / that N",
       "this / that / that over there",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "who / what / where"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": {
       "en": "The pattern これ / それ / あれ means \"this / that / that over there\".",
       "bn": "これ / それ / あれ এর অর্থ \"এটি / সেটি / ওটি\"।"
@@ -37,9 +37,9 @@
     },
     "options": [
       "this N / that N",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "this / that / that over there",
+      "here / there / over there",
+      "N's N"
     ],
     "correctIndex": 0,
     "explanation": {
@@ -60,12 +60,12 @@
       "romaji": ""
     },
     "options": [
+      "That is wrong / That is right",
+      "Is that right? / Is that wrong?",
       "That is right / That is wrong",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "That is here / That is there"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": {
       "en": "The pattern そうです / ちがいます means \"That is right / That is wrong\".",
       "bn": "そうです / ちがいます এর অর্থ \"তাই / তা নয়\"।"
@@ -84,12 +84,12 @@
       "romaji": ""
     },
     "options": [
-      "N of N / N's N",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "N is N",
+      "N and N",
+      "N to N",
+      "N of N / N's N"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": {
       "en": "The pattern N の N means \"N of N / N's N\".",
       "bn": "N の N এর অর্থ \"N-এর N\"।"

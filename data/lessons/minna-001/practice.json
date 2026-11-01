@@ -13,9 +13,9 @@
     },
     "options": [
       "A is B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "A is not B",
+      "Is A B?",
+      "A is also B"
     ],
     "correctIndex": 0,
     "explanation": {
@@ -36,12 +36,12 @@
       "romaji": ""
     },
     "options": [
+      "A is B",
+      "Is A B?",
       "A is not B",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "A is also B"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": {
       "en": "The pattern N は N じゃありません means \"A is not B\".",
       "bn": "N は N じゃありません এর অর্থ \"A নয় B\"।"
@@ -60,12 +60,12 @@
       "romaji": ""
     },
     "options": [
+      "A is B",
       "Is A B?",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "A is not B",
+      "A is also B"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": {
       "en": "The pattern N は N ですか means \"Is A B?\".",
       "bn": "N は N ですか এর অর্থ \"A কি B?\"।"
@@ -84,12 +84,12 @@
       "romaji": ""
     },
     "options": [
+      "only / just",
       "also / too",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "not / no",
+      "and / with"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": {
       "en": "The pattern N も means \"also / too\".",
       "bn": "N も এর অর্থ \"ও / -ও\"।"
@@ -108,12 +108,12 @@
       "romaji": ""
     },
     "options": [
-      "N's N",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "N and N",
+      "N is N",
+      "N in N",
+      "N's N"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": {
       "en": "The pattern N の N means \"N's N\".",
       "bn": "N の N এর অর্থ \"N-এর N\"।"

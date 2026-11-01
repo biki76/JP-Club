@@ -12,12 +12,12 @@
       "romaji": ""
     },
     "options": [
-      "hour / minute",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "day / week",
+      "month / year",
+      "before / after",
+      "hour / minute"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": {
       "en": "The pattern 〜時 / 〜分 means \"hour / minute\".",
       "bn": "〜時 / 〜分 এর অর্থ \"ঘণ্টা / মিনিট\"।"
@@ -37,9 +37,9 @@
     },
     "options": [
       "from ~ to ~",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "at ~ until ~",
+      "by ~ for ~",
+      "from ~ by ~"
     ],
     "correctIndex": 0,
     "explanation": {
@@ -60,12 +60,12 @@
       "romaji": ""
     },
     "options": [
+      "polite past aff. / neg.",
+      "plain present aff. / neg.",
       "polite present aff. / neg.",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "plain past aff. / neg."
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": {
       "en": "The pattern 〜ます / 〜ません means \"polite present aff. / neg.\".",
       "bn": "〜ます / 〜ません এর অর্থ \"ভদ্র বর্তমান হ্যাঁ / না\"।"
@@ -85,9 +85,9 @@
     },
     "options": [
       "polite past aff. / neg.",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "polite present aff. / neg.",
+      "plain past aff. / neg.",
+      "polite past neg. / aff."
     ],
     "correctIndex": 0,
     "explanation": {

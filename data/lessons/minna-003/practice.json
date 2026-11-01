@@ -12,12 +12,12 @@
       "romaji": ""
     },
     "options": [
+      "this / that / that over there",
       "here / there / over there",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "where / who / what",
+      "here / where / there"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": {
       "en": "The pattern ここ / そこ / あそこ means \"here / there / over there\".",
       "bn": "ここ / そこ / あそこ এর অর্থ \"এখানে / সেখানে / ওখানে\"।"
@@ -37,9 +37,9 @@
     },
     "options": [
       "Where is N?",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "What is N?",
+      "Who is N?",
+      "Is N here?"
     ],
     "correctIndex": 0,
     "explanation": {
@@ -60,12 +60,12 @@
       "romaji": ""
     },
     "options": [
+      "Please show me N",
+      "I give you N",
       "Please give me N",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "Please wait for N"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": {
       "en": "The pattern N を ください means \"Please give me N\".",
       "bn": "N を ください এর অর্থ \"N দিন\"।"
@@ -84,12 +84,12 @@
       "romaji": ""
     },
     "options": [
+      "Please give me N",
       "N, please",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "N is here",
+      "Is this N?"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": {
       "en": "The pattern N を お願いします means \"N, please\".",
       "bn": "N を お願いします এর অর্থ \"N, দয়া করে\"।"

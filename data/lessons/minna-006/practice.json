@@ -12,12 +12,12 @@
       "romaji": ""
     },
     "options": [
+      "go ~ (to N)",
       "do ~ (with object N)",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "be ~ (at N)",
+      "come ~ (from N)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": {
       "en": "The pattern N を 〜ます means \"do ~ (with object N)\".",
       "bn": "N を 〜ます এর অর্থ \"N ~ করি\"।"
@@ -36,12 +36,12 @@
       "romaji": ""
     },
     "options": [
-      "won't you ~? (invitation)",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "let's ~",
+      "do you ~?",
+      "please don't ~",
+      "won't you ~? (invitation)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": {
       "en": "The pattern 〜ませんか means \"won't you ~? (invitation)\".",
       "bn": "〜ませんか এর অর্থ \"~ করবেন না?\"।"
@@ -61,9 +61,9 @@
     },
     "options": [
       "let's ~",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "won't you ~? (invitation)",
+      "I will ~",
+      "please ~"
     ],
     "correctIndex": 0,
     "explanation": {
@@ -84,12 +84,12 @@
       "romaji": ""
     },
     "options": [
+      "want / need N",
+      "know / understand N",
       "like / dislike N",
-      "Incorrect",
-      "Incorrect",
-      "Incorrect"
+      "have / don't have N"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": {
       "en": "The pattern N が 好きです / 嫌いです means \"like / dislike N\".",
       "bn": "N が 好きです / 嫌いです এর অর্থ \"N পছন্দ / অপছন্দ\"।"
