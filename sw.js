@@ -5,12 +5,13 @@
  */
 'use strict';
 
-const VERSION    = 'v78';
+const VERSION    = 'v79';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'css/typography-jp.css',
   'js/toast.js',
   'js/study-btn.js',
   'css/home-fix.css',

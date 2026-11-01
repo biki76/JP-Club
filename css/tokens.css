@@ -79,3 +79,24 @@ html[lang="bn"] { font-family: var(--font-bn); line-height: var(--lh-bn); }
   font-family: var(--font-jp); 
   line-height: var(--lh-jp); 
 }
+
+/* qwen: v2-aliases — legacy --v2-* names mapped to base tokens */
+:root {
+  --v2-bg: var(--bg);
+  --v2-surface: var(--surface);
+  --v2-surface-2: var(--surface-2);
+  --v2-border: var(--border);
+  --v2-accent: var(--accent);
+  --v2-warn: var(--warn);
+  --v2-r-sm: var(--r-sm);
+  --v2-r-md: var(--r-md);
+  --v2-r-lg: var(--r-lg);
+  --v2-r-xl: var(--r-xl);
+  --v2-ease: var(--ease);
+  --v2-fs-xs: var(--fs-xs);
+  --v2-fs-sm: var(--fs-sm);
+  --v2-fs-md: var(--fs-md);
+  --v2-fs-lg: var(--fs-lg);
+  --v2-fs-xl: var(--fs-xl);
+  --v2-fs-2xl: var(--fs-2xl);
+}

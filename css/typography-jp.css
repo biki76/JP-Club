@@ -1,0 +1,14 @@
+/* qwen: jp-typography — JP 1.4x body; BN/EN subordinate; furigana 0.55em */
+:root { --jp-scale: 1.4; }
+ruby,
+[lang="ja"],
+[class*="__jp"],
+[class*="__kanji"],
+[class*="__stem"],
+[class*="__grammar"] {
+  font-size: calc(1rem * var(--jp-scale));
+  line-height: var(--lh-jp);
+}
+ruby > rt { font-size: 0.55em; }
+[data-bn], [class*="__bn"] { color: var(--text-2); line-height: var(--lh-bn); }
+[data-en], [class*="__en"] { color: var(--text-2); line-height: var(--lh-en); }
