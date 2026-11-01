@@ -5,12 +5,14 @@
  */
 'use strict';
 
-const VERSION    = 'v85';
+const VERSION    = 'v86';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'js/rm-timeout.js',
+  'js/search-q.js',
   'content/shinkanzen/index.json',
   'content/mimikara/index.json',
   'js/tracks.js',
