@@ -119,3 +119,15 @@ html[lang="bn"] .v2-hero__title{ line-height:1.5; letter-spacing:0; }
 
 /* layout vars used by shell.css */
 :root{ --sidebar-w:248px; --header-h:64px; }
+
+/* banner-lift */
+/* Phase 11 — install / update banners. Token-driven. */
+
+.pwa-banners{
+  bottom:calc(var(--v2-nav-h) + env(safe-area-inset-bottom,0px) + 12px) !important;
+  left:12px !important; right:12px !important; margin-inline:auto !important;
+  max-width:520px; z-index:60;
+}
+@media (min-width:1024px){ /* Phase 11 — install / update banners. Token-driven. */
+
+.pwa-banners{ bottom:16px !important; left:auto !important; right:16px !important; } }
