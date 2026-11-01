@@ -120,22 +120,26 @@ html[lang="bn"] .v2-hero__title{ line-height:1.5; letter-spacing:0; }
 /* layout vars used by shell.css */
 :root{ --sidebar-w:248px; --header-h:64px; }
 
+
+
 /* banner-lift */
-/* Phase 11 — install / update banners. Token-driven. */
-
 .pwa-banners{
+  position:fixed !important; inset:auto !important;
+  left:50% !important; right:auto !important; transform:translateX(-50%) !important;
   bottom:calc(var(--v2-nav-h) + env(safe-area-inset-bottom,0px) + 12px) !important;
-  left:12px !important; right:12px !important; margin-inline:auto !important;
-  max-width:520px; z-index:60;
+  width:min(520px, calc(100vw - 24px)) !important; max-width:none !important; margin:0 !important;
+  display:grid; gap:8px; z-index:60;
 }
-@media (min-width:1024px){ /* Phase 11 — install / update banners. Token-driven. */
-
-.pwa-banners{ bottom:16px !important; left:auto !important; right:16px !important; } }
+.pwa-banners > *{ width:100% !important; max-width:100% !important; margin:0 !important; box-sizing:border-box; }
+@media (min-width:1024px){
+  .pwa-banners{ left:auto !important; right:16px !important; transform:none !important; bottom:16px !important; }
+}
 
 /* hero-rhythm */
-.hero__kicker{ margin:0 0 var(--s-2,8px); }
-.hero__title{ margin:0 0 var(--s-4,16px); }
-.hero__lead{ margin:0 0 var(--s-6,24px); max-width:60ch; }
-.hero__actions{ display:flex; flex-wrap:wrap; gap:var(--s-3,12px); margin:0 0 var(--s-6,24px); }
-.hero__phrase{ margin-top:var(--s-6,24px); }
-.hero + *, section + section{ margin-top:var(--s-8,32px); }
+.hero__kicker{ margin:0 0 8px !important; }
+.hero__title{ margin:0 0 16px !important; }
+.hero__lead{ margin:0 0 24px !important; max-width:60ch; }
+.hero__actions{ display:flex; flex-wrap:wrap; gap:12px; margin:0 0 24px !important; }
+.hero__actions .btn{ flex:1 1 auto; justify-content:center; }
+.hero__phrase{ margin-top:24px !important; }
+section + section{ margin-top:32px; }
