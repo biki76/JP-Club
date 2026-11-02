@@ -123,7 +123,7 @@
       subtitle: { en: 'Themed readings', bn: 'বিষয়ভিত্তিক পড়া' },
       desc: { en: 'Short bilingual essays with grammar notes.',
               bn: 'ব্যাকরণ নোটসহ সংক্ষিপ্ত দ্বিভাষিক রচনা।' },
-      levels: ['N4', 'N3'], soon: true
+      levels: ['N4', 'N3'], href: 'temabetsu.html'
     },
     {
       key: 'mimikara', icon: 'practice',
@@ -131,6 +131,7 @@
       subtitle: { en: 'Vocabulary by theme', bn: 'বিষয়ভিত্তিক শব্দভাণ্ডার' },
       desc: { en: 'Grouped vocabulary for memory efficiency.',
               bn: 'স্মৃতি-দক্ষতার জন্য দলবদ্ধ শব্দভাণ্ডার।' },
+      levels: ['N3'], href: 'mimikara.html',
       levels: ['N3'], soon: true
     },
     {
