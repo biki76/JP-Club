@@ -6,6 +6,19 @@
     return lang === 'bn' ? bn : en;
   };
   
+  function getTitle(theme) {
+    // Handle both old format (title_en/title_bn) and new format (title: {en, bn})
+    if (theme.title_en && theme.title_bn) {
+      return {
+        en: theme.title_en,
+        bn: theme.title_bn
+      };
+    } else if (theme.title && theme.title.en && theme.title.bn) {
+      return theme.title;
+    }
+    return { en: 'Untitled', bn: 'শিরোনামহীন' };
+  }
+  
   function load() {
     var container = document.getElementById('mimikara-themes');
     if (!container) return;
@@ -23,9 +36,10 @@
         
         var html = '<div style="display:grid; gap:1rem; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">';
         themes.forEach(function(theme) {
-          var title = localStorage.getItem('nihongo_lang') === 'bn' ? theme.title_bn : theme.title_en;
+          var titleObj = getTitle(theme);
+          var title = localStorage.getItem('nihongo_lang') === 'bn' ? titleObj.bn : titleObj.en;
           var count = theme.words ? theme.words.length : 0;
-          var level = theme.level || 'N3'; // Fallback to N3 if level is missing
+          var level = theme.level || 'N3';
           
           html += '<div class="book book--link" style="text-decoration:none; cursor:default;">';
           html += '<div class="book__body">';
