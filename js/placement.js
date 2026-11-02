@@ -204,11 +204,11 @@
       desc:  { en: 'Hiragana, katakana, ~300 words, ~100 kanji, basic sentence patterns.',
                bn: 'হিরাগানা, কাতাকানা, ~৩০০ শব্দ, ~১০০ কাঞ্জি, প্রাথমিক বাক্য গঠন।' } },
     { id: 'building', range: [11, 25],
-      label: { en: 'Building · N5', bn: 'নির্মাণ · N4' },
+      label: { en: 'Building · N5', bn: 'নির্মাণ · N5' },
       desc:  { en: 'Verb forms, conditionals, ~800 words, ~300 kanji.',
                bn: 'ক্রিয়ার রূপ, শর্তসাপেক্ষ, ~৮০০ শব্দ, ~৩০০ কাঞ্জি।' } },
     { id: 'fluency', range: [26, 50],
-      label: { en: 'Fluency · N4', bn: 'সাবলীলতা · N3' },
+      label: { en: 'Fluency · N4', bn: 'সাবলীলতা · N4' },
       desc:  { en: 'Keigo, complex sentences, ~1500 words, ~650 kanji.',
                bn: 'কেইগো, জটিল বাক্য, ~১৫০০ শব্দ, ~৬৫০ কাঞ্জি।' } }
   ];
