@@ -69,6 +69,65 @@
         "en": "A: Then I will put it on the table for you.",
         "bn": "A: তাহলে টেবিলের ওপরে রেখে দিচ্ছি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-029-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the state of the window?",
+          "bn": "জানালার অবস্থা কী?"
+        },
+        "options": [
+          "It is open",
+          "It is closed",
+          "It is broken",
+          "It is new"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "B says 「窓が 閉まっていますね」 — the window is closed.",
+          "bn": "B বলেন 「窓が 閉まっていますね」 — জানালা বন্ধ আছে।"
+        }
+      },
+      {
+        "id": "minna-029-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why has the clock stopped?",
+          "bn": "ঘড়িটি কেন বন্ধ হয়ে গেছে?"
+        },
+        "options": [
+          "It is old",
+          "The battery has run out",
+          "It fell down",
+          "Nobody wound it"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "B says 「電池が 切れてしまいましたね」 — the battery has run out.",
+          "bn": "B বলেন 「電池が 切れてしまいましたね」 — ব্যাটারি শেষ হয়ে গেছে।"
+        }
+      },
+      {
+        "id": "minna-029-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where will A put the coffee?",
+          "bn": "A কফি কোথায় রাখবে?"
+        },
+        "options": [
+          "On the table",
+          "In the refrigerator",
+          "Near the window",
+          "On the wall"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "A says 「テーブルの 上に 置いておきますね」 — I will put it on the table.",
+          "bn": "A বলেন 「テーブルの 上に 置いておきますね」 — আমি টেবিলের উপরে রাখছি।"
+        }
+      }
     ]
   }
 ]

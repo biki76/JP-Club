@@ -62,6 +62,65 @@
         "en": "The next day, his body had already recovered enough.",
         "bn": "পরদিন তার শরীর যথেষ্ট ভালো হয়ে গিয়েছিল।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-026-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why did Mr. Tanaka take the day off?",
+          "bn": "তানাকা মহোদয় কেন ছুটি নিলেন?"
+        },
+        "options": [
+          "He had a fever",
+          "He had a meeting",
+          "He went on a trip",
+          "He visited his family"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says he had a fever from the morning.",
+          "bn": "পাঠে বলা হয়েছে সকাল থেকে তার জ্বর ছিল।"
+        }
+      },
+      {
+        "id": "minna-026-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did the doctor say?",
+          "bn": "ডাক্তার কী বলেছিলেন?"
+        },
+        "options": [
+          "Go to work at once",
+          "He had better rest well",
+          "Buy a new medicine",
+          "He should not eat"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The doctor said 「ゆっくり 休んだ ほうがいい」 — he had better rest well.",
+          "bn": "ডাক্তার বলেছিলেন 「ゆっくり 休んだ ほうがいい」 — ভালোভাবে বিশ্রাম নেওয়া উচিত।"
+        }
+      },
+      {
+        "id": "minna-026-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Who did he call at night?",
+          "bn": "রাতে তিনি কাকে ফোন করেছিলেন?"
+        },
+        "options": [
+          "The doctor",
+          "His family",
+          "A colleague",
+          "The hospital"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says he called a colleague (同僚) at night.",
+          "bn": "পাঠে বলা হয়েছে রাতে তিনি একজন সহকর্মীকে (同僚) ফোন করেছিলেন।"
+        }
+      }
     ]
   }
 ]

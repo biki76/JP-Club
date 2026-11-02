@@ -62,6 +62,65 @@
         "en": "Mr. Tanaka is going shopping now (and will finish it).",
         "bn": "মি. তানাকা এখনই বাজার করতে চলে যাবেন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-029-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Who is coming to Mr. Tanaka's house tomorrow?",
+          "bn": "আগামীকাল তানাকার বাড়িতে কে আসছে?"
+        },
+        "options": [
+          "A friend",
+          "His teacher",
+          "A colleague",
+          "His family"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says a friend (友だち) is coming tomorrow.",
+          "bn": "পাঠে বলা হয়েছে আগামীকাল একজন বন্ধু (友だち) আসছে।"
+        }
+      },
+      {
+        "id": "minna-029-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is arranged on the desk?",
+          "bn": "টেবিলের উপরে কী সাজানো আছে?"
+        },
+        "options": [
+          "Books",
+          "Sweets",
+          "Flowers",
+          "Photographs"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says sweets (お菓子) are arranged on the desk.",
+          "bn": "পাঠে বলা হয়েছে টেবিলের উপরে মিষ্টি (お菓子) সাজানো আছে।"
+        }
+      },
+      {
+        "id": "minna-029-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What has not been bought yet?",
+          "bn": "কী এখনো কেনা হয়নি?"
+        },
+        "options": [
+          "Drinks",
+          "The cake",
+          "The sweets",
+          "The picture"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「まだ ケーキは 買ってありません」 — the cake has not been bought yet.",
+          "bn": "পাঠে বলা হয়েছে 「まだ ケーキは 買ってありません」 — কেক এখনো কেনা হয়নি।"
+        }
+      }
     ]
   }
 ]

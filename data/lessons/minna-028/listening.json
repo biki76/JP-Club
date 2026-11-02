@@ -69,6 +69,65 @@
         "en": "A: Thank you. I will go to bed early tonight in preparation.",
         "bn": "A: ধন্যবাদ। আজ রাতে আগে থেকেই তাড়াতাড়ি ঘুমিয়ে পড়ব।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-028-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does B do every morning?",
+          "bn": "B প্রতিদিন সকালে কী করেন?"
+        },
+        "options": [
+          "Jogging",
+          "Swimming",
+          "Reading",
+          "Cooking"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "B says 「ジョギングを しています」 — I go jogging.",
+          "bn": "B বলেন 「ジョギングを しています」 — আমি জগিং করি।"
+        }
+      },
+      {
+        "id": "minna-028-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "About what time does B run?",
+          "bn": "B প্রায় কয়টায় দৌড়ান?"
+        },
+        "options": [
+          "Around five",
+          "Around six thirty",
+          "Around seven",
+          "Around eight"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "B says 「六時半ごろです」 — around six thirty.",
+          "bn": "B বলেন 「六時半ごろです」 — প্রায় সাড়ে ছয়টায়।"
+        }
+      },
+      {
+        "id": "minna-028-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will B do?",
+          "bn": "B কী করবেন?"
+        },
+        "options": [
+          "Buy a watch",
+          "Call A in advance",
+          "Bring breakfast",
+          "Come at night"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "B says 「先に 電話して おきますよ」 — I will call you in advance.",
+          "bn": "B বলেন 「先に 電話して おきますよ」 — আমি আগে ফোন করে দেব।"
+        }
+      }
     ]
   }
 ]

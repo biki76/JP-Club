@@ -83,6 +83,65 @@
         "en": "Doctor: Yes, you had better go to bed early today.",
         "bn": "ডাক্তার: হ্যাঁ, আজ তাড়াতাড়ি ঘুমিয়ে পড়াই ভালো।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-026-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the patient's problem?",
+          "bn": "রোগীর সমস্যা কী?"
+        },
+        "options": [
+          "A stomach ache",
+          "A sore throat",
+          "A headache",
+          "A toothache"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The patient says 「昨日から 喉が 痛いんです」 — the throat has hurt since yesterday.",
+          "bn": "রোগী বলেন 「昨日から 喉が 痛いんです」 — গতকাল থেকে গলা ব্যথা করছে।"
+        }
+      },
+      {
+        "id": "minna-026-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How many times a day should the patient take the medicine?",
+          "bn": "রোগী দিনে কতবার ঔষধ খাবেন?"
+        },
+        "options": [
+          "Once",
+          "Twice",
+          "Three times",
+          "Four times"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The doctor says 「一日に 三回」 — three times a day.",
+          "bn": "ডাক্তার বলেন 「一日に 三回」 — দিনে তিনবার।"
+        }
+      },
+      {
+        "id": "minna-026-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "When should the patient take the medicine?",
+          "bn": "রোগী কখন ঔষধ খাবেন?"
+        },
+        "options": [
+          "Before meals",
+          "After meals",
+          "Before bed",
+          "In the morning only"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The doctor says 「食事の あとで 飲んでください」 — after meals.",
+          "bn": "ডাক্তার বলেন 「食事の あとで 飲んでください」 — খাবারের পরে।"
+        }
+      }
     ]
   }
 ]

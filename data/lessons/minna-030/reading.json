@@ -62,6 +62,65 @@
         "en": "Mr. Tanaka said, \"I will be careful from now on.\"",
         "bn": "মি. তানাকা বললেন, \"আমি এখন থেকে সতর্ক থাকব।\""
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-030-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where is Mr. Tanaka going next week?",
+          "bn": "আগামী সপ্তাহে তানাকা কোথায় যাচ্ছেন?"
+        },
+        "options": [
+          "Tokyo",
+          "Osaka",
+          "Kyoto",
+          "Nagoya"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says he will go to Osaka (大阪) on a business trip.",
+          "bn": "পাঠে বলা হয়েছে তিনি কাজের সূত্রে ওসাকা (大阪) যাবেন।"
+        }
+      },
+      {
+        "id": "minna-030-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "By when must he prepare the company documents?",
+          "bn": "কখনের মধ্যে তাঁকে কোম্পানির নথি প্রস্তুত করতে হবে?"
+        },
+        "options": [
+          "By Monday",
+          "By Wednesday",
+          "By Friday",
+          "By Sunday"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says 「金曜日までに」 — by Friday.",
+          "bn": "পাঠে বলা হয়েছে 「金曜日までに」 — শুক্রবারের মধ্যে।"
+        }
+      },
+      {
+        "id": "minna-030-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where were the lost documents found?",
+          "bn": "হারানো নথিগুলো কোথায় পাওয়া গেল?"
+        },
+        "options": [
+          "In the meeting room",
+          "On the desk",
+          "In the hotel",
+          "At the station"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says they were found in the meeting room (会議室).",
+          "bn": "পাঠে বলা হয়েছে সেগুলো সভাকক্ষে (会議室) পাওয়া গেছে।"
+        }
+      }
     ]
   }
 ]

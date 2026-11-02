@@ -62,6 +62,65 @@
         "en": "I still cannot forget the scenery I saw for the first time.",
         "bn": "প্রথমবার দেখা সেই দৃশ্য আজও ভুলতে পারি না।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-027-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "When did the writer see the sea for the first time?",
+          "bn": "লেখক প্রথম কবে সমুদ্র দেখেছিলেন?"
+        },
+        "options": [
+          "Last month",
+          "Last year",
+          "As a child",
+          "Last week"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「先月が 初めてでした」 — last month was the first time.",
+          "bn": "পাঠে বলা হয়েছে 「先月が 初めてでした」 — গত মাসেই প্রথমবার।"
+        }
+      },
+      {
+        "id": "minna-027-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What can the writer's friend do?",
+          "bn": "লেখকের বন্ধু কী করতে পারে?"
+        },
+        "options": [
+          "Swim very fast",
+          "Play the guitar",
+          "Take good photos",
+          "Sing well"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says the friend can play the guitar (ギターを 弾く ことが できます).",
+          "bn": "পাঠে বলা হয়েছে বন্ধু গিটার বাজাতে পারে (ギターを 弾く ことが できます)।"
+        }
+      },
+      {
+        "id": "minna-027-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where did they take photographs?",
+          "bn": "তারা কোথায় ছবি তুলেছিল?"
+        },
+        "options": [
+          "At the station",
+          "On the train",
+          "Near the sea",
+          "In the town"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says they took photos near the sea (海の 近くで).",
+          "bn": "পাঠে বলা হয়েছে তারা সমুদ্রের কাছে (海の 近くで) ছবি তুলেছিল।"
+        }
+      }
     ]
   }
 ]

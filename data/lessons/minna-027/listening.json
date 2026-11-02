@@ -76,6 +76,65 @@
         "en": "B: Then let us do it next Friday.",
         "bn": "B: তাহলে আগামী শুক্রবার করা যাক।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-027-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What can Mr. Tanaka do?",
+          "bn": "তানাকা মহোদয় কী করতে পারেন?"
+        },
+        "options": [
+          "Play the piano",
+          "Play the guitar",
+          "Sing very well",
+          "Swim fast"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "He says 「ピアノを 弾く ことが できます」 — he can play the piano.",
+          "bn": "তিনি বলেন 「ピアノを 弾く ことが できます」 — তিনি পিয়ানো বাজাতে পারেন।"
+        }
+      },
+      {
+        "id": "minna-027-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How many years did he practice?",
+          "bn": "তিনি কত বছর অনুশীলন করেছেন?"
+        },
+        "options": [
+          "About three years",
+          "About five years",
+          "About ten years",
+          "About twenty years"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "He says 「十年 ぐらいです」 — about ten years.",
+          "bn": "তিনি বলেন 「十年 ぐらいです」 — প্রায় দশ বছর।"
+        }
+      },
+      {
+        "id": "minna-027-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "When will they do it?",
+          "bn": "তারা কখন এটি করবে?"
+        },
+        "options": [
+          "Next Monday",
+          "Next Friday",
+          "This evening",
+          "Tomorrow morning"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "He says 「来週の 金曜日に しましょう」 — let us do it next Friday.",
+          "bn": "তিনি বলেন 「来週の 金曜日に しましょう」 — আগামী শুক্রবার করি।"
+        }
+      }
     ]
   }
 ]

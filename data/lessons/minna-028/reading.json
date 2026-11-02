@@ -62,6 +62,65 @@
         "en": "Tonight I have decided to go to bed early.",
         "bn": "আজ রাতে তাড়াতাড়ি ঘুমানোর সিদ্ধান্ত নিয়েছি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-028-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What time does the writer get up?",
+          "bn": "লেখক কয়টায় ওঠেন?"
+        },
+        "options": [
+          "At five",
+          "At six",
+          "At seven thirty",
+          "At eight"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「毎朝 六時に 起きます」 — at six every morning.",
+          "bn": "পাঠে বলা হয়েছে 「毎朝 六時に 起きます」 — প্রতিদিন সকাল ছয়টায়।"
+        }
+      },
+      {
+        "id": "minna-028-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does she do on the train?",
+          "bn": "ট্রেনে তিনি কী করেন?"
+        },
+        "options": [
+          "She sleeps",
+          "She eats breakfast",
+          "She reviews Japanese words",
+          "She listens to the radio"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says she always reviews Japanese words on the train.",
+          "bn": "পাঠে বলা হয়েছে ট্রেনে তিনি সর্বদা জাপানি শব্দ পুনরালোচনা করেন।"
+        }
+      },
+      {
+        "id": "minna-028-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why was she late for work yesterday?",
+          "bn": "গতকাল তিনি কেন কাজে দেরি করেছিলেন?"
+        },
+        "options": [
+          "She overslept and missed the train",
+          "The train stopped",
+          "She was sick",
+          "She forgot her bag"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says she overslept and could not catch the train.",
+          "bn": "পাঠে বলা হয়েছে তিনি ঘুমিয়ে পড়েছিলেন এবং ট্রেন ধরতে পারেননি।"
+        }
+      }
     ]
   }
 ]

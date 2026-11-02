@@ -69,6 +69,65 @@
         "en": "A: What? Then please look for them urgently.",
         "bn": "A: কী! তাহলে দ্রুত খুঁজুন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-030-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Who is coming tomorrow?",
+          "bn": "আগামীকাল কে আসছেন?"
+        },
+        "options": [
+          "The department head",
+          "The company president",
+          "A colleague",
+          "A customer"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "A says 「明日 部長が 来ますね」 — the department head is coming tomorrow.",
+          "bn": "A বলেন 「明日 部長が 来ますね」 — আগামীকাল বিভাগীয় প্রধান আসছেন।"
+        }
+      },
+      {
+        "id": "minna-030-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "By what time should the copying be done?",
+          "bn": "কখনের মধ্যে কপি করা শেষ করতে হবে?"
+        },
+        "options": [
+          "By one o'clock",
+          "By two o'clock",
+          "By three o'clock",
+          "By five o'clock"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "A says 「三時までに お願いします」 — please do it by three.",
+          "bn": "A বলেন 「三時までに お願いします」 — তিনটার মধ্যে করে দেবেন।"
+        }
+      },
+      {
+        "id": "minna-030-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did B lose?",
+          "bn": "B কী হারিয়েছেন?"
+        },
+        "options": [
+          "A key",
+          "Last week's documents",
+          "A notebook",
+          "A file box"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "B says 「先週の 資料を 無くしてしまいました」 — I lost last week's documents.",
+          "bn": "B বলেন 「先週の 資料を 無くしてしまいました」 — গত সপ্তাহের নথি হারিয়ে ফেলেছি।"
+        }
+      }
     ]
   }
 ]
