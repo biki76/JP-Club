@@ -62,6 +62,65 @@
         "en": "If the weather is good, it will surely be fun.",
         "bn": "আবহাওয়া ভালো থাকলে নিশ্চয়ই আনন্দময় হবে।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-032-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will the weather probably be like tomorrow morning?",
+          "bn": "আগামীকাল সকালে আবহাওয়া সম্ভবত কেমন হবে?"
+        },
+        "options": [
+          "Sunny",
+          "Cloudy",
+          "Snowy",
+          "Windy"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「明日は 朝から 曇るでしょう」 — it will probably be cloudy.",
+          "bn": "পাঠে বলা হয়েছে 「明日は 朝から 曇るでしょう」 — সম্ভবত মেঘলা থাকবে।"
+        }
+      },
+      {
+        "id": "minna-032-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will the writer do if it rains?",
+          "bn": "বৃষ্টি হলে লেখক কী করবেন?"
+        },
+        "options": [
+          "Cancel the trip",
+          "Go mountain climbing",
+          "Call friends",
+          "Bring an umbrella"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「旅行を 中止する つもりです」 — he intends to cancel the trip.",
+          "bn": "পাঠে বলা হয়েছে 「旅行を 中止する つもりです」 — ভ্রমণ বাতিল করার ইচ্ছা।"
+        }
+      },
+      {
+        "id": "minna-032-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What might possibly come?",
+          "bn": "সম্ভবত কী আসতে পারে?"
+        },
+        "options": [
+          "A typhoon",
+          "A storm",
+          "A fire",
+          "An earthquake"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「台風が 来るかもしれません」 — a typhoon might come.",
+          "bn": "পাঠে বলা হয়েছে 「台風が 来るかもしれません」 — টাইফুন আসতে পারে।"
+        }
+      }
     ]
   }
 ]

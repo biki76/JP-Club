@@ -69,6 +69,65 @@
         "en": "Teacher: That's right. Be careful.",
         "bn": "শিক্ষক: ঠিক। ভালোভাবে সতর্ক থাকো।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-033-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the teacher tell Tanaka not to do in the classroom?",
+          "bn": "শিক্ষক তানাকাকে ক্লাসরুমে কী করতে নিষেধ করেন?"
+        },
+        "options": [
+          "Not to run",
+          "Not to eat",
+          "Not to talk",
+          "Not to sleep"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The teacher says 「走るな」 — do not run.",
+          "bn": "শিক্ষক বলেন 「走るな」 — দৌড়াবে না।"
+        }
+      },
+      {
+        "id": "minna-033-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does 「立入禁止」 mean?",
+          "bn": "「立入禁止」 এর অর্থ কী?"
+        },
+        "options": [
+          "Do not run",
+          "Do not enter",
+          "Do not push",
+          "Occupied"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The teacher says it means 「入るな」 — do not enter.",
+          "bn": "শিক্ষক বলেন এর অর্থ 「入るな」 — ঢুকবে না।"
+        }
+      },
+      {
+        "id": "minna-033-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What should Tanaka obey, according to the teacher?",
+          "bn": "শিক্ষকের মতে তানাকার কী মেনে চলা উচিত?"
+        },
+        "options": [
+          "The timetable",
+          "The rules",
+          "The weather",
+          "The signs only"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The teacher says 「規則を 守りなさい」 — obey the rules.",
+          "bn": "শিক্ষক বলেন 「規則を 守りなさい」 — নিয়ম মেনে চলো।"
+        }
+      }
     ]
   }
 ]

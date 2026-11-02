@@ -62,6 +62,65 @@
         "en": "I have never been late even once.",
         "bn": "আমি একবারও দেরি করিনি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-034-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What time did the writer get up?",
+          "bn": "লেখক কয়টায় উঠেছিলেন?"
+        },
+        "options": [
+          "Six",
+          "Seven",
+          "Eight",
+          "Nine"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「七時に 起きたばかりです」 — just got up at seven.",
+          "bn": "পাঠে বলা হয়েছে 「七時に 起きたばかりです」 — সাতটায় উঠেছি।"
+        }
+      },
+      {
+        "id": "minna-034-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What happened while washing the face?",
+          "bn": "মুখ ধোয়ার সময় কী হয়েছিল?"
+        },
+        "options": [
+          "The doorbell rang",
+          "The phone rang",
+          "The alarm rang",
+          "Someone knocked"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「電話が 鳴りました」 — the phone rang.",
+          "bn": "পাঠে বলা হয়েছে 「電話が 鳴りました」 — ফোন বেজেছিল।"
+        }
+      },
+      {
+        "id": "minna-034-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Has the writer ever been late?",
+          "bn": "লেখক কি কখনো দেরি করেছেন?"
+        },
+        "options": [
+          "Yes, once",
+          "Yes, many times",
+          "No, never",
+          "Only last month"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says 「一度も 遅刻した ことが ありません」 — never been late even once.",
+          "bn": "পাঠে বলা হয়েছে 「一度も 遅刻した ことが ありません」 — একবারও দেরি হয়নি।"
+        }
+      }
     ]
   }
 ]

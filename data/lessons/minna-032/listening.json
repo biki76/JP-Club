@@ -69,6 +69,65 @@
         "en": "A: He will probably go. I will try calling him tonight.",
         "bn": "A: সম্ভবত যাবেন। আজ রাতে ফোন করে দেখি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-032-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will tomorrow's weather probably be like, according to the forecast?",
+          "bn": "পূর্বাভাস অনুযায়ী আগামীকালের আবহাওয়া সম্ভবত কেমন হবে?"
+        },
+        "options": [
+          "Rainy",
+          "Snowy",
+          "Sunny",
+          "Cloudy"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "B says the forecast said it would probably be sunny.",
+          "bn": "B বলেন পূর্বাভাসে সম্ভবত রৌদ্রোজ্জ্বল থাকার কথা বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-032-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What might happen in the afternoon?",
+          "bn": "বিকেলে কী হতে পারে?"
+        },
+        "options": [
+          "It might rain",
+          "It might snow",
+          "It might be windy",
+          "It might get hot"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "B says 「午後は 雨が 降るかもしれません」 — it might rain in the afternoon.",
+          "bn": "B বলেন 「午後は 雨が 降るかもしれません」 — বিকেলে বৃষ্টি হতে পারে।"
+        }
+      },
+      {
+        "id": "minna-032-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will A do tonight?",
+          "bn": "A আজ রাতে কী করবে?"
+        },
+        "options": [
+          "Go mountain climbing",
+          "Call Mr. Tanaka",
+          "Buy a jacket",
+          "Pack a bag"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "A says 「今晩 電話して みます」 — will try calling tonight.",
+          "bn": "A বলেন 「今晩 電話して みます」 — আজ রাতে ফোন করে দেখব।"
+        }
+      }
     ]
   }
 ]

@@ -69,6 +69,65 @@
         "en": "A: Mr. Tanaka has never been late, so it will probably be fine.",
         "bn": "A: মি. তানাকা কখনো দেরি করেননি, তাই সমস্যা হবে না।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-034-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is B doing now?",
+          "bn": "B এখন কী করছে?"
+        },
+        "options": [
+          "Working",
+          "Sleeping",
+          "Eating lunch",
+          "Driving"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "B says 「昼ご飯を 食べている ところです」 — in the middle of eating lunch.",
+          "bn": "B বলেন 「昼ご飯を 食べている ところです」 — দুপুরের খাবার খাচ্ছে।"
+        }
+      },
+      {
+        "id": "minna-034-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What has just happened to the meeting?",
+          "bn": "সভার কী হয়েছে সবেমাত্র?"
+        },
+        "options": [
+          "It has just started",
+          "It has just ended",
+          "It was cancelled",
+          "It was moved"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "A says 「会議は もう 始まった ところです」 — the meeting has just started.",
+          "bn": "A বলেন 「会議は もう 始まった ところです」 — সভা সবেমাত্র শুরু হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-034-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What should B do after arriving at the meeting room?",
+          "bn": "সভাকক্ষে পৌঁছে B কী করবে?"
+        },
+        "options": [
+          "Call A",
+          "Send a message",
+          "Wait outside",
+          "Bring tea"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "A says 「会議室に 着いたら、電話して ください」 — call me when you arrive.",
+          "bn": "A বলেন 「会議室に 着いたら、電話して ください」 — পৌঁছে ফোন করুন।"
+        }
+      }
     ]
   }
 ]

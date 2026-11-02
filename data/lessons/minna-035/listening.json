@@ -69,6 +69,65 @@
         "en": "A: By all means, please do. Let's make it a fun weekend.",
         "bn": "A: অবশ্যই পাঠাবেন। আনন্দময় সাপ্তাহিক ছুটি কাটাই।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-035-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will B do if the weather is good?",
+          "bn": "আবহাওয়া ভালো হলে B কী করবে?"
+        },
+        "options": [
+          "Go to the mountains",
+          "Stay home",
+          "Go shopping",
+          "Call A"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "B says 「天気が よかったら、山へ 行こうと 思っています」 — thinking of going to the mountains.",
+          "bn": "B বলেন 「天気が よかったら、山へ 行こうと 思っています」 — পাহাড়ে যাওয়ার কথা ভাবছে।"
+        }
+      },
+      {
+        "id": "minna-035-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will B do if it rains?",
+          "bn": "বৃষ্টি হলে B কী করবে?"
+        },
+        "options": [
+          "Watch a movie at home",
+          "Go to the mountains",
+          "Visit a museum",
+          "Sleep all day"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "B says 「雨なら、家で 映画を 見ます」 — will watch a movie at home.",
+          "bn": "B বলেন 「雨なら、家で 映画を 見ます」 — বাড়িতে সিনেমা দেখবে।"
+        }
+      },
+      {
+        "id": "minna-035-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will A do if it rains?",
+          "bn": "বৃষ্টি হলে A কী করবে?"
+        },
+        "options": [
+          "Call B",
+          "Send photos",
+          "Bring an umbrella",
+          "Come to B's house"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "A says 「雨が 降ったら 電話します」 — will call if it rains.",
+          "bn": "A বলেন 「雨が 降ったら 電話します」 — বৃষ্টি হলে ফোন করবে।"
+        }
+      }
     ]
   }
 ]

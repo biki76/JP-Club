@@ -62,6 +62,65 @@
         "en": "I am looking forward to seeing you next year.",
         "bn": "আগামী বছর তোমার সঙ্গে দেখা করার জন্য অপেক্ষায় আছি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-031-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the writer's purpose for studying in Japan?",
+          "bn": "লেখকের জাপানে পড়তে যাওয়ার উদ্দেশ্য কী?"
+        },
+        "options": [
+          "To work at a company",
+          "To study Japanese culture",
+          "To meet friends",
+          "To teach Japanese"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says the purpose is 「日本の 文化を 勉強する こと」 — to study Japanese culture.",
+          "bn": "পাঠে বলা হয়েছে উদ্দেশ্য হলো 「日本の 文化を 勉強する こと」 — জাপানি সংস্কৃতি পড়া।"
+        }
+      },
+      {
+        "id": "minna-031-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "When is the Japanese exam?",
+          "bn": "জাপানি পরীক্ষা কখন?"
+        },
+        "options": [
+          "This December",
+          "Next March",
+          "Next year December",
+          "This July"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「今年の 十二月に」 — this December.",
+          "bn": "পাঠে বলা হয়েছে 「今年の 十二月に」 — এই ডিসেম্বরে।"
+        }
+      },
+      {
+        "id": "minna-031-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What has the writer decided to do if they pass?",
+          "bn": "পাশ করলে লেখক কী করার সিদ্ধান্ত নিয়েছেন?"
+        },
+        "options": [
+          "Find a job",
+          "Go back home",
+          "Apply for study abroad",
+          "Start a new exam"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says they decided to apply for study abroad after passing.",
+          "bn": "পাঠে বলা হয়েছে পাশ করার পর বিদেশে পড়ার আবেদন করার সিদ্ধান্ত নিয়েছেন।"
+        }
+      }
     ]
   }
 ]

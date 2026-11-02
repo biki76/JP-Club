@@ -62,6 +62,65 @@
         "en": "If it is a good day, it will surely be fun.",
         "bn": "দিনটি ভালো হলে নিশ্চয়ই আনন্দময় হবে।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-035-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will the writer do if the weather is good?",
+          "bn": "আবহাওয়া ভালো হলে লেখক কী করবেন?"
+        },
+        "options": [
+          "Go to the park",
+          "Read at home",
+          "Sleep all day",
+          "Cook lunch"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「天気が よかったら、公園へ 行きます」 — go to the park.",
+          "bn": "পাঠে বলা হয়েছে 「天気が よかったら、公園へ 行きます」 — পার্কে যাবে।"
+        }
+      },
+      {
+        "id": "minna-035-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will the writer do if it rains?",
+          "bn": "বৃষ্টি হলে লেখক কী করবেন?"
+        },
+        "options": [
+          "Go to the park",
+          "Read a book at home",
+          "Visit a friend",
+          "See a movie"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「雨が 降ったら、家で 本を 読みます」 — read at home.",
+          "bn": "পাঠে বলা হয়েছে 「雨が 降ったら、家で 本を 読みます」 — বাড়িতে বই পড়বে।"
+        }
+      },
+      {
+        "id": "minna-035-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will the writer do if they have no money?",
+          "bn": "টাকা না থাকলে লেখক কী করবেন?"
+        },
+        "options": [
+          "Borrow money",
+          "Relax at home",
+          "Go to a restaurant",
+          "Cancel lunch"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「家で ゆっくり 休みます」 — relax at home.",
+          "bn": "পাঠে বলা হয়েছে 「家で ゆっくり 休みます」 — বাড়িতে আরাম করবে।"
+        }
+      }
     ]
   }
 ]

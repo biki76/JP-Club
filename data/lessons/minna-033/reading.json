@@ -69,6 +69,65 @@
         "en": "Read the signs carefully and obey the rules.",
         "bn": "নির্দেশনা মন দিয়ে পড়ো এবং নিয়ম মেনে চলো।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-033-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does 「立入禁止」 mean?",
+          "bn": "「立入禁止」 এর অর্থ কী?"
+        },
+        "options": [
+          "Do not run",
+          "Do not push",
+          "Do not enter",
+          "Occupied"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says it means you must not enter.",
+          "bn": "পাঠে বলা হয়েছে এর অর্থ হলো ঢোকা নিষেধ।"
+        }
+      },
+      {
+        "id": "minna-033-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is written on the sign in the corridor?",
+          "bn": "করিডরের সাইনবোর্ডে কী লেখা আছে?"
+        },
+        "options": [
+          "Do not enter",
+          "Do not run",
+          "Do not push",
+          "Occupied"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「走るな」 — do not run.",
+          "bn": "পাঠে বলা হয়েছে 「走るな」 — দৌড়াবে না।"
+        }
+      },
+      {
+        "id": "minna-033-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does 「使用中」 mean?",
+          "bn": "「使用中」 এর অর্থ কী?"
+        },
+        "options": [
+          "Someone is inside",
+          "Under repair",
+          "Do not push",
+          "Do not run"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says it means someone is inside.",
+          "bn": "পাঠে বলা হয়েছে এর অর্থ ভেতরে কেউ আছে।"
+        }
+      }
     ]
   }
 ]

@@ -69,6 +69,65 @@
         "en": "A: That is nice. Someday I want to have a family too.",
         "bn": "A: দারুণ। আমিও কোনো একদিন পরিবার গড়তে চাই।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-031-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does B intend to do after graduation?",
+          "bn": "স্নাতক শেষে B কী করার ইচ্ছা পোষণ করেন?"
+        },
+        "options": [
+          "Go to graduate school",
+          "Work at a Japanese company",
+          "Travel",
+          "Teach Japanese"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "B says 「日本の 会社で 働く つもりです」 — intends to work at a Japanese company.",
+          "bn": "B বলেন 「日本の 会社で 働く つもりです」 — জাপানি কোম্পানিতে কাজ করার ইচ্ছা।"
+        }
+      },
+      {
+        "id": "minna-031-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "When will B take the exam?",
+          "bn": "B কখন পরীক্ষা দেবেন?"
+        },
+        "options": [
+          "This month",
+          "Next month",
+          "Next year",
+          "Next week"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "B says 「来月 試験を 受ける 予定です」 — scheduled to take the exam next month.",
+          "bn": "B বলেন 「来月 試験を 受ける 予定です」 — আগামী মাসে পরীক্ষা দেওয়ার কথা।"
+        }
+      },
+      {
+        "id": "minna-031-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where has it been decided that Mr. Tanaka will live?",
+          "bn": "তানাকা কোথায় থাকবেন বলে ঠিক হয়েছে?"
+        },
+        "options": [
+          "Tokyo",
+          "Osaka",
+          "Kyoto",
+          "Nagoya"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "B says 「大阪に 住む ことに なったそうです」 — it has been decided he will live in Osaka.",
+          "bn": "B বলেন 「大阪に 住む ことに なったそうです」 — ওসাকায় থাকার সিদ্ধান্ত হয়েছে।"
+        }
+      }
     ]
   }
 ]
