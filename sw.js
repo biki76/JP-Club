@@ -5,12 +5,13 @@
  */
 'use strict';
 
-const VERSION    = 'v121';
+const VERSION    = 'v122';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'temabetsu.html',
   'content/i18n/ur.json',
   'content/i18n/hi.json',
   'content/i18n/ne.json',
