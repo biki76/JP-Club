@@ -69,6 +69,65 @@
         "en": "Yes, please. It will make a good memory.",
         "bn": "হ্যাঁ, দয়া করে। এটা ভালো স্মৃতি হয়ে থাকবে।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-050-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Who is the farewell party for?",
+          "bn": "বিদায় সংবর্ধনাটি কার জন্য?"
+        },
+        "options": [
+          "Tanaka",
+          "Yamada",
+          "The department head",
+          "The president"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The speaker says 「田中さん、一年間 本当に お疲れさまでした」 — addressed to Tanaka.",
+          "bn": "বক্তা বলেন 「田中さん、一年間 本当に お疲れさまでした」 — তানাকাকে উদ্দেশ্য করে।"
+        }
+      },
+      {
+        "id": "minna-050-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What do they give Tanaka?",
+          "bn": "তারা তানাকাকে কী দেয়?"
+        },
+        "options": [
+          "A letter",
+          "A farewell gift",
+          "A photograph",
+          "A book"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The speaker says 「これは みなさんからの 記念品で ございます」 — a farewell gift from everyone.",
+          "bn": "বক্তা বলেন 「これは みなさんからの 記念品で ございます」 — সবার পক্ষ থেকে স্মারক উপহার।"
+        }
+      },
+      {
+        "id": "minna-050-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will they do finally?",
+          "bn": "শেষে তারা কী করবে?"
+        },
+        "options": [
+          "Sing a song",
+          "Take a photo together",
+          "Give a speech",
+          "Go home"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The speaker says 「最後に みなさんで 写真を 撮りましょう」 — let us take a photo together.",
+          "bn": "বক্তা বলেন 「最後に みなさんで 写真を 撮りましょう」 — সবাই মিলে ছবি তুলি।"
+        }
+      }
     ]
   }
 ]

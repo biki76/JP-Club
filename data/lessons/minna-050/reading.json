@@ -69,6 +69,65 @@
         "en": "It was a short time, but thank you sincerely for everything.",
         "bn": "সময়টা কম ছিল, তবে সত্যিই সব কিছুর জন্য ধন্যবাদ।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-050-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How long did the writer work at this company?",
+          "bn": "লেখক এই কোম্পানিতে কত দিন কাজ করেছেন?"
+        },
+        "options": [
+          "One month",
+          "Six months",
+          "One year",
+          "Three years"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says 「一年間 この 会社で 働いて まいりました」 — worked for one year.",
+          "bn": "পাঠে বলা হয়েছে 「一年間 この 会社で 働いて まいりました」 — এক বছর কাজ করেছেন।"
+        }
+      },
+      {
+        "id": "minna-050-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What was the writer's problem at first?",
+          "bn": "শুরুতে লেখকের সমস্যা কী ছিল?"
+        },
+        "options": [
+          "Poor Japanese",
+          "No office desk",
+          "Too much work",
+          "Bad health"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「はじめは 日本語も 下手で」 — at first the Japanese was poor.",
+          "bn": "পাঠে বলা হয়েছে 「はじめは 日本語も 下手で」 — শুরুতে জাপানি দুর্বল ছিল।"
+        }
+      },
+      {
+        "id": "minna-050-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the writer pray for at the end?",
+          "bn": "শেষে লেখক কী প্রার্থনা করেন?"
+        },
+        "options": [
+          "Everyone's good health and success",
+          "A new job",
+          "Good weather",
+          "Another party"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「みなさまの ご健康と ご活躍を お祈りして おります」 — good health and continued success.",
+          "bn": "পাঠে বলা হয়েছে 「みなさまの ご健康と ご活躍を お祈りして おります」 — সবার সুস্বাস্থ্য ও সাফল্য।"
+        }
+      }
     ]
   }
 ]
