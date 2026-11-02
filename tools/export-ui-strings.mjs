@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 const set = new Set();
-const add = (s) => { s = String(s || '').replace(/\\(['"])/g, '$1').replace(/\s+/g, ' ').trim(); if (s.length > 1 && /[A-Za-z]/.test(s) && !/\$\{|<\/?[a-z]/i.test(s)) set.add(s); };
+const add = (s) => { s = String(s || '').replace(/\\(['"])/g, '$1').replace(/\s+/g, ' ').trim(); if (s.length > 1 && /[A-Za-z]/.test(s) && !/\$\{|<\/?[a-z]/i.test(s) && !/'\s*\+|\+\s*'|dataset|esc\(|\.en\b|\bel\.|\bvar\b/.test(s)) set.add(s); };
 const files = [...fs.readdirSync('.').filter((f) => f.endsWith('.html')), ...fs.readdirSync('js').filter((f) => f.endsWith('.js') && !/^(data-|supabase|ui-lang)/.test(f)).map((f) => 'js/' + f)];
 for (const f of files) {
   const t = fs.readFileSync(f, 'utf8');
