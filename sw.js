@@ -5,12 +5,22 @@
  */
 'use strict';
 
-const VERSION    = 'v127';
+const VERSION    = 'v128';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'images/tracks/temabetsu.webp',
+  'images/tracks/shinkanzen.webp',
+  'images/tracks/mimikara.webp',
+  'images/tracks/kanji.webp',
+  'images/tracks/intermediate.webp',
+  'images/tracks/default.webp',
+  'images/tracks/beginner.webp',
+  'images/lessons/minna-020.webp',
+  'images/lessons/minna-019.webp',
+  'images/lessons/minna-018.webp',
   'temabetsu.html',
   'content/i18n/ur.json',
   'content/i18n/hi.json',
