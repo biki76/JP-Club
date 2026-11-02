@@ -15,3 +15,10 @@
 .lq-fb.is-ok strong{ color:var(--v2-ok); } .lq-fb.is-bad strong{ color:var(--v2-err); }
 .lq-score{ margin:0; font-weight:700; }
 @media (prefers-reduced-motion:reduce){ .lq-opt{ transition:none; } }
+
+/* practice upgrade */
+.lp-btn.is-correct{ border-color:var(--v2-ok) !important; background:color-mix(in srgb,var(--v2-ok) 14%,var(--v2-surface)) !important; font-weight:600; opacity:1 !important; }
+.lp-btn.is-wrong{ border-color:var(--v2-err) !important; background:color-mix(in srgb,var(--v2-err) 12%,var(--v2-surface)) !important; opacity:1 !important; }
+.lp-btn[data-opt]{ min-height:48px; }
+.lp-score{ margin-top:var(--s-4,16px); padding:var(--s-4,16px); display:flex; align-items:center; justify-content:space-between; gap:var(--s-3,12px); flex-wrap:wrap; background:var(--v2-surface); border:1px solid var(--v2-border); border-radius:var(--v2-r-lg,16px); box-shadow:var(--v2-shadow-2); }
+.lp-score__n{ margin:0; font-size:var(--v2-fs-lg,1.44rem); font-weight:700; }

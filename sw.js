@@ -5,12 +5,13 @@
  */
 'use strict';
 
-const VERSION    = 'v114';
+const VERSION    = 'v115';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'js/lesson-practice.js',
   'js/lesson-questions.js',
   'css/lesson-questions.css',
   'js/nav-force.js',
