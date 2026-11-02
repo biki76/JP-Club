@@ -32,3 +32,15 @@ a.ls-card:active{transform:scale(.98)}
 .ls-foot{ margin-top:auto; padding-top:12px; }
 .ls-top{ margin-bottom:4px; }
 .ls-ring, .ls-ring .v2-ring{ width:36px; height:36px; }
+
+/* grammar-ref-cta */
+.grammar-ref-cta{
+  display:inline-flex; align-items:center; gap:8px; min-height:44px; padding:0 18px; margin:0 0 var(--s-4,16px);
+  border:1px solid var(--v2-border); border-radius:var(--v2-r-pill,999px);
+  background:var(--v2-surface); color:var(--v2-brand); font-weight:600; font-size:var(--v2-fs-sm,.9rem);
+  text-decoration:none; transition:background-color 200ms var(--v2-ease), transform 120ms var(--v2-ease);
+}
+.grammar-ref-cta::before{ content:"文"; font-weight:700; }
+.grammar-ref-cta:hover{ background:var(--v2-surface-2); }
+.grammar-ref-cta:active{ transform:scale(.98); }
+.grammar-ref-cta:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }

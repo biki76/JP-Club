@@ -5,12 +5,13 @@
  */
 'use strict';
 
-const VERSION    = 'v96';
+const VERSION    = 'v97';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'js/nav-force.js',
   'images/lessons/minna-017.webp',
   'images/lessons/minna-016.webp',
   'images/lessons/minna-015.webp',
