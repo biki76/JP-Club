@@ -135,12 +135,12 @@
       levels: ['N3'], soon: true
     },
     {
-      key: 'shinkanzen', icon: 'practice',
+      key: 'shinkanzen', icon: 'book',
       title: { en: 'Shin Kanzen Master', bn: 'শিন কানজেন মাস্টার' },
       subtitle: { en: 'Grammar · Reading · Listening', bn: 'ব্যাকরণ · পড়া · শোনা' },
       desc: { en: 'JLPT-focused skill drills for N3 and beyond.',
-              bn: 'N3 এবং তার উপরে JLPT-কেন্দ্রিক দক্ষতা অনুশীলন।' },
-      levels: ['N3'], soon: true
+              bn: 'N3 এবং তার পরের জন্য JLPT-কেন্দ্রিক দক্ষতা অনুশীলন।' },
+      levels: ['N3'], href: 'shinkanzen.html', soon: true
     },
     {
       key: 'kanji', icon: 'kanji',
