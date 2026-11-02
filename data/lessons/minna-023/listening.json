@@ -14,6 +14,65 @@
         "en": "What is ask [the teacher]?",
         "bn": "ask [the teacher] কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-023-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে?"
+        },
+        "options": [
+          "あるきます",
+          "ききます［せんせいに～］",
+          "まわします",
+          "わたります"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The transcript is 「ききます［せんせいに～］ は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「ききます［せんせいに～］ は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-023-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「ききます［せんせいに～］」 mean?",
+          "bn": "পাঠ অনুযায়ী 「ききます［せんせいに～］」 এর অর্থ কী?"
+        },
+        "options": [
+          "walk",
+          "turn",
+          "ask",
+          "cross"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「ききます［せんせいに～］」 as 'ask [the teacher]'.",
+          "bn": "পাঠে 「ききます［せんせいに～］」 এর অর্থ 'ask' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-023-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Who does the person in the expression ask?",
+          "bn": "অভিব্যক্তিতে কাকে জিজ্ঞাসা করা বোঝায়?"
+        },
+        "options": [
+          "A friend",
+          "The teacher",
+          "A doctor",
+          "A shopkeeper"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「せんせいに」 means 'to the teacher'.",
+          "bn": "「せんせいに」 অর্থ 'শিক্ষককে'।"
+        }
+      }
     ]
   }
 ]

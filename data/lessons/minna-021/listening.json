@@ -14,6 +14,65 @@
         "en": "What is think?",
         "bn": "think কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-021-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে?"
+        },
+        "options": [
+          "おもいます",
+          "いいます",
+          "かちます",
+          "まけます"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The transcript is 「おもいます は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「おもいます は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-021-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「おもいます」 mean?",
+          "bn": "পাঠ অনুযায়ী 「おもいます」 এর অর্থ কী?"
+        },
+        "options": [
+          "say",
+          "think",
+          "win",
+          "lose"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「おもいます」 as 'think'.",
+          "bn": "পাঠে 「おもいます」 এর অর্থ 'think' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-021-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the question ask for?",
+          "bn": "প্রশ্নটি কী জানতে চাইছে?"
+        },
+        "options": [
+          "A place",
+          "A time",
+          "The meaning of a word",
+          "A price"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「何 ですか」 asks for the meaning of the word.",
+          "bn": "「何 ですか」 শব্দটির অর্থ জানতে চাইছে।"
+        }
+      }
     ]
   }
 ]

@@ -13,6 +13,65 @@
         "en": "This is think.",
         "bn": "এটি think।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-021-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'think'",
+          "A verb meaning 'say'",
+          "A noun meaning 'opinion'",
+          "A verb meaning 'win'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「おもいます」 as 'think'.",
+          "bn": "পাঠে 「おもいます」 এর অর্থ 'think' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-021-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'think'?",
+          "bn": "কোন শব্দের অর্থ 'ভাবা'?"
+        },
+        "options": [
+          "いいます",
+          "かちます",
+          "おもいます",
+          "まけます"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「おもいます」 means 'think'.",
+          "bn": "「おもいます」 অর্থ 'ভাবা'।"
+        }
+      },
+      {
+        "id": "minna-021-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is say.",
+          "This is win.",
+          "This is lose.",
+          "This is think."
+        ],
+        "correctIndex": 3,
+        "explanation": {
+          "en": "The text gives 「これは おもいます です。」 as 'This is think'.",
+          "bn": "পাঠে 「これは おもいます です。」 এর অর্থ 'This is think' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

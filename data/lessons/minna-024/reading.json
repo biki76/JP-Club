@@ -13,6 +13,65 @@
         "en": "This is give (me).",
         "bn": "এটি give (me)।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-024-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'give (me)'",
+          "A verb meaning 'lend'",
+          "A verb meaning 'borrow'",
+          "A verb meaning 'send'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「くれます」 as 'give (me)'.",
+          "bn": "পাঠে 「くれます」 এর অর্থ 'give (me)' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-024-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'give (me)'?",
+          "bn": "কোন শব্দের অর্থ '(আমাকে) দেওয়া'?"
+        },
+        "options": [
+          "かします",
+          "くれます",
+          "かります",
+          "おくります"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「くれます」 means 'give (me)'.",
+          "bn": "「くれます」 অর্থ '(আমাকে) দেওয়া'।"
+        }
+      },
+      {
+        "id": "minna-024-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is lend.",
+          "This is borrow.",
+          "This is send.",
+          "This is give (me)."
+        ],
+        "correctIndex": 3,
+        "explanation": {
+          "en": "The text gives 「これは くれます です。」 as 'This is give (me)'.",
+          "bn": "পাঠে 「これは くれます です。」 এর অর্থ 'This is give (me)' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

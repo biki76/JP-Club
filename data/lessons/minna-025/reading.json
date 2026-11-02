@@ -13,6 +13,65 @@
         "en": "This is think, consider.",
         "bn": "এটি think, consider।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-025-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'think, consider'",
+          "A verb meaning 'arrive'",
+          "A noun meaning 'meaning'",
+          "A verb meaning 'be enough'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「かんがえます」 as 'think, consider'.",
+          "bn": "পাঠে 「かんがえます」 এর অর্থ 'think, consider' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-025-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'think, consider'?",
+          "bn": "কোন শব্দের অর্থ 'ভাবা-বিচার করা'?"
+        },
+        "options": [
+          "つきます",
+          "かんがえます",
+          "たります",
+          "とります"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「かんがえます」 means 'think, consider'.",
+          "bn": "「かんがえます」 অর্থ 'ভাবা-বিচার করা'।"
+        }
+      },
+      {
+        "id": "minna-025-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is arrive.",
+          "This is be enough.",
+          "This is consider.",
+          "This is grow old."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは かんがえます です。」 as 'This is think, consider'.",
+          "bn": "পাঠে 「これは かんがえます です。」 এর অর্থ 'This is consider' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

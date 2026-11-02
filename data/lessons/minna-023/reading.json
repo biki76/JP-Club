@@ -13,6 +13,65 @@
         "en": "This is ask [the teacher].",
         "bn": "এটি ask [the teacher]।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-023-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'ask the teacher'",
+          "A verb meaning 'walk'",
+          "A verb meaning 'turn'",
+          "A noun meaning 'bridge'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「ききます［せんせいに～］」 as 'ask [the teacher]'.",
+          "bn": "পাঠে 「ききます［せんせいに～］」 এর অর্থ 'ask [the teacher]' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-023-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Who is the person in the expression?",
+          "bn": "অভিব্যক্তিতে কোন ব্যক্তির কথা বলা হয়েছে?"
+        },
+        "options": [
+          "A friend",
+          "The teacher",
+          "A doctor",
+          "A child"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「せんせいに」 means 'to the teacher'.",
+          "bn": "「せんせいに」 অর্থ 'শিক্ষকের কাছে'।"
+        }
+      },
+      {
+        "id": "minna-023-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is walk.",
+          "This is turn.",
+          "This is ask.",
+          "This is cross."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは ききます［せんせいに～］ です。」 as 'This is ask [the teacher]'.",
+          "bn": "পাঠে 「これは ききます［せんせいに～］ です。」 এর অর্থ 'This is ask' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

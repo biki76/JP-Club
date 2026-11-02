@@ -13,6 +13,65 @@
         "en": "This is put on (a shirt, etc.).",
         "bn": "এটি put on (a shirt, etc.)।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-022-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'put on (a shirt)'",
+          "A verb meaning 'take off'",
+          "A noun meaning 'hat'",
+          "A verb meaning 'wear shoes'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「きます」 as 'put on (a shirt, etc.)'.",
+          "bn": "পাঠে 「きます」 এর অর্থ 'put on (a shirt, etc.)' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-022-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is take off.",
+          "This is put on (a shirt).",
+          "This is wear a hat.",
+          "This is wear glasses."
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「これは きます です。」 as 'This is put on (a shirt, etc.)'.",
+          "bn": "পাঠে 「これは きます です。」 এর অর্থ 'This is put on (a shirt)' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-022-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What kind of word is 「きます」 here?",
+          "bn": "এখানে 「きます」 কোন ধরনের শব্দ?"
+        },
+        "options": [
+          "A place",
+          "A number",
+          "A verb about clothing",
+          "A time"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「きます」 here is a verb about putting on clothes.",
+          "bn": "এখানে 「きます」 পোশাক পরা সম্পর্কিত একটি ক্রিয়া।"
+        }
+      }
     ]
   }
 ]
