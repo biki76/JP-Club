@@ -11,6 +11,20 @@
         "bn": "আমি ভাত খাই।",
         "furigana": "ごはんを たべます。",
         "romaji": "gohan o tabemasu."
+      },
+      {
+        "jp": "朝 卵を 食べます。",
+        "en": "I eat an egg in the morning.",
+        "furigana": "あさ たまごを たべます。",
+        "romaji": "asa tamago o tabemasu.",
+        "bn": "সকালে আমি ডিম খাই।"
+      },
+      {
+        "jp": "駅で 新聞を 買います。",
+        "en": "I buy a newspaper at the station.",
+        "furigana": "えきで しんぶんを かいます。",
+        "romaji": "eki de shinbun o kaimasu.",
+        "bn": "আমি স্টেশনে খবরের কাগজ কিনি।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "একসাথে যাবেন না?",
         "furigana": "いっしょに いきませんか。",
         "romaji": "issho ni ikimasen ka."
+      },
+      {
+        "jp": "一緒に 昼ご飯を 食べませんか。",
+        "en": "Won't you eat lunch together?",
+        "furigana": "いっしょに ひるごはんを たべませんか。",
+        "romaji": "issho ni hirugohan o tabemasen ka.",
+        "bn": "একসাথে দুপুরের খাবার খাবেন না?"
+      },
+      {
+        "jp": "日曜日に 映画を 見ませんか。",
+        "en": "Won't you watch a movie on Sunday?",
+        "furigana": "にちようびに えいがを みませんか。",
+        "romaji": "nichiyoubi ni eiga o mimasen ka.",
+        "bn": "রবিবার সিনেমা দেখবেন না?"
       }
     ],
     "tags": [
@@ -47,6 +75,20 @@
         "bn": "চলুন একসাথে যাই।",
         "furigana": "いっしょに いきましょう。",
         "romaji": "issho ni ikimashou."
+      },
+      {
+        "jp": "駅で 会いましょう。",
+        "en": "Let's meet at the station.",
+        "furigana": "えきで あいましょう。",
+        "romaji": "eki de aimashou.",
+        "bn": "স্টেশনে দেখা করি।"
+      },
+      {
+        "jp": "一緒に お茶を 飲みましょう。",
+        "en": "Let's drink tea together.",
+        "furigana": "いっしょに おちゃを のみましょう。",
+        "romaji": "issho ni ocha o nomimashou.",
+        "bn": "একসাথে চা খাই।"
       }
     ],
     "tags": [
@@ -65,6 +107,20 @@
         "bn": "আমি সুশি পছন্দ করি।",
         "furigana": "すしが すきです。",
         "romaji": "sushi ga suki desu."
+      },
+      {
+        "jp": "果物が 好きです。",
+        "en": "I like fruit.",
+        "furigana": "くだものが すきです。",
+        "romaji": "kudamono ga suki desu.",
+        "bn": "আমি ফল পছন্দ করি।"
+      },
+      {
+        "jp": "肉が 嫌いです。",
+        "en": "I dislike meat.",
+        "furigana": "にくが きらいです。",
+        "romaji": "niku ga kirai desu.",
+        "bn": "আমি মাংস পছন্দ করি না।"
       }
     ],
     "tags": [

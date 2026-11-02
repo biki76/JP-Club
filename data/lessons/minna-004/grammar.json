@@ -11,6 +11,20 @@
         "bn": "এখন চারটা বাজে।",
         "furigana": "いま、よじです。",
         "romaji": "ima, yoji desu."
+      },
+      {
+        "jp": "今、9時半です。",
+        "en": "It is 9:30 now.",
+        "furigana": "いま、くじはんです。",
+        "romaji": "ima, kuji han desu.",
+        "bn": "এখন সাড়ে নয়টা।"
+      },
+      {
+        "jp": "試験は 11時15分です。",
+        "en": "The test is at 11:15.",
+        "furigana": "しけんは じゅういちじ じゅうごふんです。",
+        "romaji": "shiken wa juuichi ji juugo fun desu.",
+        "bn": "পরীক্ষা ১১টা ১৫ মিনিটে।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "আমি নটা থেকে পাঁচটা পর্যন্ত কাজ করি।",
         "furigana": "くじから ごじまで はたらきます。",
         "romaji": "kuji kara goji made hatarakimasu."
+      },
+      {
+        "jp": "銀行は 9時から 3時までです。",
+        "en": "The bank is open from 9 to 3.",
+        "furigana": "ぎんこうは くじから さんじまでです。",
+        "romaji": "ginkou wa kuji kara sanji made desu.",
+        "bn": "ব্যাংক ৯টা থেকে ৩টা পর্যন্ত।"
+      },
+      {
+        "jp": "図書館で 1時から 5時まで 勉強します。",
+        "en": "I study at the library from 1 to 5.",
+        "furigana": "としょかんで いちじから ごじまで べんきょうします。",
+        "romaji": "toshokan de ichiji kara goji made benkyou shimasu.",
+        "bn": "আমি লাইব্রেরিতে ১টা থেকে ৫টা পর্যন্ত পড়াশোনা করি।"
       }
     ],
     "tags": [
@@ -47,6 +75,20 @@
         "bn": "আমি প্রতিদিন পড়াশোনা করি।",
         "furigana": "まいにち べんきょうします。",
         "romaji": "mainichi benkyou shimasu."
+      },
+      {
+        "jp": "毎朝 6時に 起きます。",
+        "en": "I get up at 6 every morning.",
+        "furigana": "まいあさ ろくじに おきます。",
+        "romaji": "maiasa rokuji ni okimasu.",
+        "bn": "আমি প্রতিদিন সকাল ৬টায় উঠি।"
+      },
+      {
+        "jp": "今日は 働きません。",
+        "en": "I do not work today.",
+        "furigana": "きょうは はたらきません。",
+        "romaji": "kyou wa hatarakimasen.",
+        "bn": "আজ আমি কাজ করি না।"
       }
     ],
     "tags": [
@@ -65,6 +107,20 @@
         "bn": "আমি গতকাল পড়াশোনা করেছিলাম।",
         "furigana": "きのう べんきょうしました。",
         "romaji": "kinou benkyou shimashita."
+      },
+      {
+        "jp": "今朝 7時に 起きました。",
+        "en": "I got up at 7 this morning.",
+        "furigana": "けさ しちじに おきました。",
+        "romaji": "kesa shichiji ni okimashita.",
+        "bn": "আজ সকাল ৭টায় উঠেছিলাম।"
+      },
+      {
+        "jp": "昨日は 働きませんでした。",
+        "en": "I did not work yesterday.",
+        "furigana": "きのうは はたらきませんでした。",
+        "romaji": "kinou wa hatarakimasen deshita.",
+        "bn": "গতকাল আমি কাজ করিনি।"
       }
     ],
     "tags": [

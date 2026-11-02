@@ -11,6 +11,20 @@
         "bn": "আমি জাপানে যাব।",
         "furigana": "にほんへ いきます。",
         "romaji": "nihon e ikimasu."
+      },
+      {
+        "jp": "明日 学校へ 行きます。",
+        "en": "I will go to school tomorrow.",
+        "furigana": "あした がっこうへ いきます。",
+        "romaji": "ashita gakkou e ikimasu.",
+        "bn": "আগামীকাল স্কুলে যাব।"
+      },
+      {
+        "jp": "去年 日本へ 行きました。",
+        "en": "I went to Japan last year.",
+        "furigana": "きょねん にほんへ いきました。",
+        "romaji": "kyonen nihon e ikimashita.",
+        "bn": "গত বছর আমি জাপানে গিয়েছিলাম।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "আমি ট্রেনে যাব।",
         "furigana": "でんしゃで いきます。",
         "romaji": "densha de ikimasu."
+      },
+      {
+        "jp": "駅まで 自転車で 行きます。",
+        "en": "I go to the station by bicycle.",
+        "furigana": "えきまで じてんしゃで いきます。",
+        "romaji": "eki made jitensha de ikimasu.",
+        "bn": "আমি স্টেশন পর্যন্ত সাইকেলে যাই।"
+      },
+      {
+        "jp": "昨日 地下鉄で 会社へ 行きました。",
+        "en": "I went to the company by subway yesterday.",
+        "furigana": "きのう ちかてつで かいしゃへ いきました。",
+        "romaji": "kinou chikatetsu de kaisha e ikimashita.",
+        "bn": "গতকাল আমি সাবওয়েতে কোম্পানিতে গিয়েছিলাম।"
       }
     ],
     "tags": [
@@ -47,6 +75,20 @@
         "bn": "আমি বন্ধুর সাথে যাব।",
         "furigana": "ともだちと いきます。",
         "romaji": "tomodachi to ikimasu."
+      },
+      {
+        "jp": "家族と 日本へ 行きます。",
+        "en": "I will go to Japan with my family.",
+        "furigana": "かぞくと にほんへ いきます。",
+        "romaji": "kazoku to nihon e ikimasu.",
+        "bn": "পরিবারের সাথে জাপানে যাব।"
+      },
+      {
+        "jp": "昨日 彼と 映画へ 行きました。",
+        "en": "I went to a movie with him yesterday.",
+        "furigana": "きのう かれと えいがへ いきました。",
+        "romaji": "kinou kare to eiga e ikimashita.",
+        "bn": "গতকাল আমি তার সাথে সিনেমা দেখতে গিয়েছিলাম।"
       }
     ],
     "tags": [
@@ -65,6 +107,20 @@
         "bn": "তুমি কখন জাপানে যাবে?",
         "furigana": "いつ にほんへ いきますか。",
         "romaji": "itsu nihon e ikimasu ka."
+      },
+      {
+        "jp": "いつ 学校へ 来ますか。",
+        "en": "When will you come to school?",
+        "furigana": "いつ がっこうへ きますか。",
+        "romaji": "itsu gakkou e kimasu ka.",
+        "bn": "আপনি কখন স্কুলে আসবেন?"
+      },
+      {
+        "jp": "試験は いつですか。",
+        "en": "When is the test?",
+        "furigana": "しけんは いつですか。",
+        "romaji": "shiken wa itsu desu ka.",
+        "bn": "পরীক্ষা কখন?"
       }
     ],
     "tags": [

@@ -11,6 +11,20 @@
         "bn": "এখানে ক্লাসরুম।",
         "furigana": "ここは きょうしつです。",
         "romaji": "koko wa kyoushitsu desu."
+      },
+      {
+        "jp": "そこは 事務所です。",
+        "en": "There is the office.",
+        "furigana": "そこは じむしょです。",
+        "romaji": "soko wa jimusho desu.",
+        "bn": "সেখানে অফিস।"
+      },
+      {
+        "jp": "あそこは 受付です。",
+        "en": "Over there is the reception desk.",
+        "furigana": "あそこは うけつけです。",
+        "romaji": "asoko wa uketsuke desu.",
+        "bn": "ওখানে রিসেপশন।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "টয়লেট কোথায়?",
         "furigana": "トイレは どこですか。",
         "romaji": "toire wa doko desu ka."
+      },
+      {
+        "jp": "受付は どこですか。",
+        "en": "Where is the reception desk?",
+        "furigana": "うけつけは どこですか。",
+        "romaji": "uketsuke wa doko desu ka.",
+        "bn": "রিসেপশন কোথায়?"
+      },
+      {
+        "jp": "階段は どこですか。",
+        "en": "Where are the stairs?",
+        "furigana": "かいだんは どこですか。",
+        "romaji": "kaidan wa doko desu ka.",
+        "bn": "সিঁড়ি কোথায়?"
       }
     ],
     "tags": [
@@ -47,6 +75,20 @@
         "bn": "এটা আমাকে দিন।",
         "furigana": "これを ください。",
         "romaji": "kore o kudasai."
+      },
+      {
+        "jp": "この 靴を ください。",
+        "en": "Please give me these shoes.",
+        "furigana": "この くつを ください。",
+        "romaji": "kono kutsu o kudasai.",
+        "bn": "এই জুতোটা দিন।"
+      },
+      {
+        "jp": "その 辞書を ください。",
+        "en": "Please give me that dictionary.",
+        "furigana": "その じしょを ください。",
+        "romaji": "sono jisho o kudasai.",
+        "bn": "ওই অভিধানটা দিন।"
       }
     ],
     "tags": [
@@ -65,6 +107,20 @@
         "bn": "কফি দয়া করে দিন।",
         "furigana": "コーヒーを おねがいします。",
         "romaji": "koohii o onegaishimasu."
+      },
+      {
+        "jp": "お茶を お願いします。",
+        "en": "Tea, please.",
+        "furigana": "おちゃを おねがいします。",
+        "romaji": "ocha o onegai shimasu.",
+        "bn": "চা দিন।"
+      },
+      {
+        "jp": "切符を お願いします。",
+        "en": "A ticket, please.",
+        "furigana": "きっぷを おねがいします。",
+        "romaji": "kippu o onegai shimasu.",
+        "bn": "একটা টিকিট দিন।"
       }
     ],
     "tags": [
