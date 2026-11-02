@@ -5,7 +5,7 @@
  */
 'use strict';
 
-const VERSION    = 'v115';
+const VERSION    = 'v116';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
@@ -116,7 +116,7 @@ const PRECACHE = [
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(APP_CACHE);
-    const results = await Promise.allSettled(PRECACHE.map((url) => cache.add(url)));
+    const results = await Promise.allSettled(PRECACHE.map((url) => cache.add(new Request(url, { cache: 'reload' }))));
     const failed = PRECACHE.filter((_, i) => results[i].status === 'rejected');
     if (failed.length) console.warn('[sw] precache skipped', failed);
     if (!self.registration.active) await self.skipWaiting();
