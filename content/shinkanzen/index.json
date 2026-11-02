@@ -1,5 +1,210 @@
-[
-  { "id": "n3-01", "point_jp": "〜わけではない", "point_en": "it is not necessarily the case that", "point_bn": "অবশ্যই তা নয় যে", "explanation_en": "Partial negation: denies that something always holds.", "explanation_bn": "আংশিক নিষেধ: কিছু সবসময় খাটে না তা বোঝায়।", "example_jp": "高いものが必ずしも良いわけではない。" },
-  { "id": "n3-02", "point_jp": "〜に違いない", "point_en": "must be; no doubt", "point_bn": "নিশ্চয়ই", "explanation_en": "Strong conviction based on evidence.", "explanation_bn": "প্রমাণের ভিত্তিতে দৃঢ় বিশ্বাস।", "example_jp": "彼はもう着いたに違いない。" },
-  { "id": "n3-03", "point_jp": "〜べきだ", "point_en": "should; ought to", "point_bn": "উচিত", "explanation_en": "Moral obligation or advice.", "explanation_bn": "নৈতিক কর্তব্য বা পরামর্শ।", "example_jp": "約束は守るべきだ。" }
-]
+{
+  "grammar": [
+    {
+      "id": "sk-grammar-01",
+      "pattern": "～わけではない",
+      "meaning": {
+        "en": "it is not necessarily the case that...",
+        "bn": "এমন নয় যে..."
+      },
+      "level": "N3",
+      "examples": [
+        {
+          "jp": "高いからといって、いいわけではない。",
+          "furigana": "たかいからといって、いいわけではない。",
+          "romaji": "takai kara to itte, ii wake dewa nai.",
+          "en": "Expensive does not mean good.",
+          "bn": "দামী হলেই ভালো হবে, এমন নয়।"
+        },
+        {
+          "jp": "日本語が話せるからといって、日本で働けるわけではない。",
+          "furigana": "にほんごがはなせるからといって、にほんでとはけるわけではない。",
+          "romaji": "nihongo ga hanaseru kara to itte, nihon de hatarakeru wake dewa nai.",
+          "en": "Speaking Japanese does not mean you can work in Japan.",
+          "bn": "জাপানি বলতে পারলেই জাপানে কাজ করা যাবে, এমন নয়।"
+        },
+        {
+          "jp": "彼が来ないのは、嫌なわけではない。",
+          "furigana": "かれがこないのは、きらいなわけではない。",
+          "romaji": "kare ga konai no wa, kirai na wake dewa nai.",
+          "en": "His not coming is not because he dislikes it.",
+          "bn": "সে আসছে না মানে সে অপছন্দ করে না।"
+        }
+      ]
+    },
+    {
+      "id": "sk-grammar-02",
+      "pattern": "～にもかかわらず",
+      "meaning": {
+        "en": "in spite of",
+        "bn": "সত্ত্বেও"
+      },
+      "level": "N3",
+      "examples": [
+        {
+          "jp": "雨にもかかわらず、試合は行われた。",
+          "furigana": "あめにもかかわらず、しあいはおこなわれた。",
+          "romaji": "ame nimo kakawarazu, shiai wa okonawareta.",
+          "en": "Despite rain, the match was held.",
+          "bn": "বৃষ্টি সত্ত্বেও ম্যাচ হয়েছে।"
+        },
+        {
+          "jp": "病気のにもかかわらず、彼は仕事に行った。",
+          "furigana": "びょうきのにもかかわらず、かれはしごとにいった。",
+          "romaji": "byouki nimo kakawarazu, kare wa shigoto ni itta.",
+          "en": "Despite illness, he went to work.",
+          "bn": "অসুস্থতা সত্ত্বেও সে কাজে গেছে।"
+        },
+        {
+          "jp": "努力したにもかかわらず、失敗した。",
+          "furigana": "どりょくしたにもかかわらず、しっぱいした。",
+          "romaji": "doryoku shita nimo kakawarazu, shippai shita.",
+          "en": "Despite effort, I failed.",
+          "bn": "প্রচেষ্টা সত্ত্বেও ব্যর্থ।"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "sk-reading-01",
+      "title": {
+        "en": "The Importance of Sleep",
+        "bn": "ঘুমের গুরুত্ব"
+      },
+      "level": "N3",
+      "passage": "睡眠は私たちの健康にとって非常に重要です。十分な睡眠を取らないと、集中力が低下し、病気になりやすくなります。大人は毎日7時間から8時間の睡眠を取る必要があります。寝る前にスマートフォンを見ると、脳が刺激されて眠れなくなることがあります。良い睡眠のためには、規則正しい生活が大切です。",
+      "passageFurigana": "すいみんはわたしたちのけんこうにとってひじょうにじゅうようです。じゅうぶんなすいみを とらないと、しゅうちゅうりょくがていかし、びょうきになりやすくなります。おとなは まいにち7じかんから8じかんのすいみを とるひつようがあります。ねるまえにスマートフォンをみると、のうがしげきされて ねむれなくなることがあります。よいすいみのためには、きそくただしいせいかつがたいせつです。",
+      "questions": [
+        {
+          "id": "sk-reading-01-q1",
+          "type": "multiple-choice",
+          "prompt": {
+            "en": "Why is sleep important?",
+            "bn": "ঘুম কেন গুরুত্বপূর্ণ?"
+          },
+          "options": [
+            "Earn money",
+            "Health and concentration",
+            "Makes hungry",
+            "Increases stress"
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "Sleep maintains health and concentration.",
+            "bn": "ঘুম স্বাস্থ্য ও মনোযোগ বজায় রাখে।"
+          }
+        },
+        {
+          "id": "sk-reading-01-q2",
+          "type": "multiple-choice",
+          "prompt": {
+            "en": "How many hours do adults need?",
+            "bn": "প্রাপ্তবয়স্কদের কত ঘণ্টা ঘুম দরকার?"
+          },
+          "options": [
+            "5-6",
+            "7-8",
+            "9-10",
+            "3-4"
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "Adults need 7-8 hours.",
+            "bn": "প্রাপ্তবয়স্কদের ৭-৮ ঘণ্টা দরকার।"
+          }
+        },
+        {
+          "id": "sk-reading-01-q3",
+          "type": "multiple-choice",
+          "prompt": {
+            "en": "What to avoid before bed?",
+            "bn": "ঘুমানোর আগে কী এড়ানো উচিত?"
+          },
+          "options": [
+            "Water",
+            "Smartphone",
+            "Book",
+            "Stretching"
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "Smartphone stimulates the brain.",
+            "bn": "স্মার্টফোন মস্তিষ্ককে উদ্দীপিত করে।"
+          }
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "id": "sk-listening-01",
+      "title": {
+        "en": "Asking for Directions",
+        "bn": "দিকনির্দেশনা চাওয়া"
+      },
+      "level": "N3",
+      "transcript": "すみません、駅へはどう行けばいいですか。ああ、この道をまっすぐ行って、最初の信号を右に曲がってください。それから、二つ目の角を左に曲がると、駅があります。歩いて何分くらいかかりますか。そうですね、10分くらいです。ありがとうございます。",
+      "transcriptFurigana": "すみません、えきへはどうゆけばいいですか。ああ、このみちをまっすぐいって、さいしょのしんごうをみぎにまがってください。それから、ふたつめのかどをひだりにまがると、えきがあります。あるいてなんぷんくらいかかりますか。そうですね、10ぷんくらいです。ありがとうございます。",
+      "questions": [
+        {
+          "id": "sk-listening-01-q1",
+          "type": "multiple-choice",
+          "prompt": {
+            "en": "Where to go?",
+            "bn": "কোথায় যেতে চায়?"
+          },
+          "options": [
+            "Library",
+            "Station",
+            "Hospital",
+            "School"
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "They want the station.",
+            "bn": "স্টেশনে যেতে চায়।"
+          }
+        },
+        {
+          "id": "sk-listening-01-q2",
+          "type": "multiple-choice",
+          "prompt": {
+            "en": "At first light?",
+            "bn": "প্রথম লাইটে কী করবেন?"
+          },
+          "options": [
+            "Left",
+            "Straight",
+            "Right",
+            "Stop"
+          ],
+          "correctIndex": 2,
+          "explanation": {
+            "en": "Turn right.",
+            "bn": "ডানে মোড় নিন।"
+          }
+        },
+        {
+          "id": "sk-listening-01-q3",
+          "type": "multiple-choice",
+          "prompt": {
+            "en": "How long to walk?",
+            "bn": "হেঁটে কত সময়?"
+          },
+          "options": [
+            "5 min",
+            "10 min",
+            "15 min",
+            "20 min"
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "en": "About 10 minutes.",
+            "bn": "প্রায় ১০ মিনিট।"
+          }
+        }
+      ]
+    }
+  ]
+}

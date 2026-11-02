@@ -171,7 +171,7 @@
       html += '<div class="book__levels">' + levels + '</div>';
       html += '</div>';
       html += b.soon
-        ? '<span class="book__soon">' + txt('Coming soon', 'শীঘ্রই আসছে') + '</span>'
+        ? '<span class="book__soon">' + txt('', 'শীঘ্রই আসছে') + '</span>'
         : '<span class="book__arrow" aria-hidden="true">→</span>';
       html += '</' + wrap + '>';
     });
@@ -198,7 +198,7 @@
       } else {
         html += '<div class="jlpt-card jlpt-card--soon" aria-disabled="true">' +
           '<span class="jlpt-card__level">' + esc(l.level) + '</span>' +
-          '<span class="jlpt-card__tag badge badge--outline">' + txt('Coming soon', 'শীঘ্রই') + '</span>' +
+          '<span class="jlpt-card__tag badge badge--outline">' + txt('', 'শীঘ্রই') + '</span>' +
         '</div>';
       }
     });

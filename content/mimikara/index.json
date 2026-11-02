@@ -1,16 +1,992 @@
 [
-  { "unit": 1, "title_en": "People & school", "title_bn": "মানুষ ও স্কুল", "words": [
-    { "jp": "私", "reading": "わたし", "en": "I, me", "bn": "আমি" },
-    { "jp": "先生", "reading": "せんせい", "en": "teacher", "bn": "শিক্ষক" },
-    { "jp": "学生", "reading": "がくせい", "en": "student", "bn": "শিক্ষার্থী" },
-    { "jp": "学校", "reading": "がっこう", "en": "school", "bn": "স্কুল" },
-    { "jp": "毎日", "reading": "まいにち", "en": "every day", "bn": "প্রতিদিন" }
-  ]},
-  { "unit": 2, "title_en": "Everyday verbs", "title_bn": "প্রতিদিনের ক্রিয়া", "words": [
-    { "jp": "食べる", "reading": "たべる", "en": "to eat", "bn": "খাওয়া" },
-    { "jp": "飲む", "reading": "のむ", "en": "to drink", "bn": "পান করা" },
-    { "jp": "行く", "reading": "いく", "en": "to go", "bn": "যাওয়া" },
-    { "jp": "見る", "reading": "みる", "en": "to see", "bn": "দেখা" },
-    { "jp": "聞く", "reading": "きく", "en": "to listen", "bn": "শোনা" }
-  ]}
+  {
+    "unit": 1,
+    "title_en": "People & school",
+    "title_bn": "মানুষ ও স্কুল",
+    "words": [
+      {
+        "jp": "私",
+        "reading": "わたし",
+        "en": "I, me",
+        "bn": "আমি"
+      },
+      {
+        "jp": "先生",
+        "reading": "せんせい",
+        "en": "teacher",
+        "bn": "শিক্ষক"
+      },
+      {
+        "jp": "学生",
+        "reading": "がくせい",
+        "en": "student",
+        "bn": "শিক্ষার্থী"
+      },
+      {
+        "jp": "学校",
+        "reading": "がっこう",
+        "en": "school",
+        "bn": "স্কুল"
+      },
+      {
+        "jp": "毎日",
+        "reading": "まいにち",
+        "en": "every day",
+        "bn": "প্রতিদিন"
+      }
+    ]
+  },
+  {
+    "unit": 2,
+    "title_en": "Everyday verbs",
+    "title_bn": "প্রতিদিনের ক্রিয়া",
+    "words": [
+      {
+        "jp": "食べる",
+        "reading": "たべる",
+        "en": "to eat",
+        "bn": "খাওয়া"
+      },
+      {
+        "jp": "飲む",
+        "reading": "のむ",
+        "en": "to drink",
+        "bn": "পান করা"
+      },
+      {
+        "jp": "行く",
+        "reading": "いく",
+        "en": "to go",
+        "bn": "যাওয়া"
+      },
+      {
+        "jp": "見る",
+        "reading": "みる",
+        "en": "to see",
+        "bn": "দেখা"
+      },
+      {
+        "jp": "聞く",
+        "reading": "きく",
+        "en": "to listen",
+        "bn": "শোনা"
+      }
+    ]
+  },
+  {
+    "id": "mimikara-time",
+    "title": {
+      "en": "Time",
+      "bn": "সময়"
+    },
+    "level": "N3",
+    "words": [
+      {
+        "id": "time-01",
+        "kanji": "朝",
+        "furigana": "あさ",
+        "romaji": "asa",
+        "english_meaning": "morning",
+        "bengali_meaning": "সকাল",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "朝ごはんを食べます。",
+          "furigana": "あさごはんをたべます。",
+          "romaji": "asagohan o tabemasu.",
+          "en": "I eat breakfast.",
+          "bn": "আমি সকালের নাস্তা খাই।"
+        }
+      },
+      {
+        "id": "time-02",
+        "kanji": "昼",
+        "furigana": "ひる",
+        "romaji": "hiru",
+        "english_meaning": "noon, daytime",
+        "bengali_meaning": "দুপুর",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "昼に会議があります。",
+          "furigana": "ひるにかいぎがあります。",
+          "romaji": "hiru ni kaigi ga arimasu.",
+          "en": "There is a meeting at noon.",
+          "bn": "দুপুরে একটি সভা আছে।"
+        }
+      },
+      {
+        "id": "time-03",
+        "kanji": "夜",
+        "furigana": "よる",
+        "romaji": "yoru",
+        "english_meaning": "night",
+        "bengali_meaning": "রাত",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "夜は静かです。",
+          "furigana": "よるはしずかです。",
+          "romaji": "yoru wa shizuka desu.",
+          "en": "The night is quiet.",
+          "bn": "রাত শান্ত।"
+        }
+      },
+      {
+        "id": "time-04",
+        "kanji": "今朝",
+        "furigana": "けさ",
+        "romaji": "kesa",
+        "english_meaning": "this morning",
+        "bengali_meaning": "আজকের সকাল",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "今朝は寒かったです。",
+          "furigana": "けさはさむかったです。",
+          "romaji": "kesa wa samukatta desu.",
+          "en": "It was cold this morning.",
+          "bn": "আজকের সকাল ঠান্ডা ছিল।"
+        }
+      },
+      {
+        "id": "time-05",
+        "kanji": "今晩",
+        "furigana": "こんばん",
+        "romaji": "konban",
+        "english_meaning": "tonight",
+        "bengali_meaning": "আজকের রাত",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "今晩、映画を見ます。",
+          "furigana": "こんばん、えいがをみます。",
+          "romaji": "konban, eiga o mimasu.",
+          "en": "I will watch a movie tonight.",
+          "bn": "আজ রাতে আমি সিনেমা দেখব।"
+        }
+      },
+      {
+        "id": "time-06",
+        "kanji": "昨日",
+        "furigana": "きのう",
+        "romaji": "kinou",
+        "english_meaning": "yesterday",
+        "bengali_meaning": "গতকাল",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "昨日、友達に会いました。",
+          "furigana": "きのう、ともだちにあいました。",
+          "romaji": "kinou, tomodachi ni aimashita.",
+          "en": "I met a friend yesterday.",
+          "bn": "গতকাল আমি একজন বন্ধুর সাথে দেখা করেছি।"
+        }
+      },
+      {
+        "id": "time-07",
+        "kanji": "明日",
+        "furigana": "あした",
+        "romaji": "ashita",
+        "english_meaning": "tomorrow",
+        "bengali_meaning": "আগামীকাল",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "明日は休みです。",
+          "furigana": "あしたはやすみです。",
+          "romaji": "ashita wa yasumi desu.",
+          "en": "Tomorrow is a holiday.",
+          "bn": "আগামীকাল ছুটি।"
+        }
+      },
+      {
+        "id": "time-08",
+        "kanji": "毎日",
+        "furigana": "まいにち",
+        "romaji": "mainichi",
+        "english_meaning": "every day",
+        "bengali_meaning": "প্রতিদিন",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "毎日勉強します。",
+          "furigana": "まいにちべんきょうします。",
+          "romaji": "mainichi benkyou shimasu.",
+          "en": "I study every day.",
+          "bn": "আমি প্রতিদিন পড়াশোনা করি।"
+        }
+      },
+      {
+        "id": "time-09",
+        "kanji": "週末",
+        "furigana": "しゅうまつ",
+        "romaji": "shuumatsu",
+        "english_meaning": "weekend",
+        "bengali_meaning": "সপ্তাহান্ত",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "週末、旅行に行きます。",
+          "furigana": "しゅうまつ、りょこうにいきます。",
+          "romaji": "shuumatsu, ryokou ni ikimasu.",
+          "en": "I will travel on the weekend.",
+          "bn": "সপ্তাহান্তে আমি ভ্রমণে যাব।"
+        }
+      },
+      {
+        "id": "time-10",
+        "kanji": "来週",
+        "furigana": "らいしゅう",
+        "romaji": "raishuu",
+        "english_meaning": "next week",
+        "bengali_meaning": "আগামী সপ্তাহ",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "来週、試験があります。",
+          "furigana": "らいしゅう、しけんがあります。",
+          "romaji": "raishuu, shiken ga arimasu.",
+          "en": "There is an exam next week.",
+          "bn": "আগামী সপ্তাহে পরীক্ষা আছে।"
+        }
+      },
+      {
+        "id": "time-11",
+        "kanji": "先月",
+        "furigana": "せんげつ",
+        "romaji": "sengetsu",
+        "english_meaning": "last month",
+        "bengali_meaning": "গত মাস",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "先月、日本に行きました。",
+          "furigana": "せんげつ、にほんにいきました。",
+          "romaji": "sengetsu, nihon ni ikimashita.",
+          "en": "I went to Japan last month.",
+          "bn": "গত মাসে আমি জাপানে গিয়েছিলাম।"
+        }
+      },
+      {
+        "id": "time-12",
+        "kanji": "今年",
+        "furigana": "ことし",
+        "romaji": "kotoshi",
+        "english_meaning": "this year",
+        "bengali_meaning": "এই বছর",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "今年は忙しいです。",
+          "furigana": "ことしはいそがしいです。",
+          "romaji": "kotoshi wa isogashii desu.",
+          "en": "This year is busy.",
+          "bn": "এই বছরটি ব্যস্ততাপূর্ণ।"
+        }
+      },
+      {
+        "id": "time-13",
+        "kanji": "去年",
+        "furigana": "きょねん",
+        "romaji": "kyonen",
+        "english_meaning": "last year",
+        "bengali_meaning": "গত বছর",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "去年、結婚しました。",
+          "furigana": "きょねん、けっこんしました。",
+          "romaji": "kyonen, kekkon shimashita.",
+          "en": "I got married last year.",
+          "bn": "গত বছর আমি বিয়ে করেছি।"
+        }
+      },
+      {
+        "id": "time-14",
+        "kanji": "今",
+        "furigana": "いま",
+        "romaji": "ima",
+        "english_meaning": "now",
+        "bengali_meaning": "এখন",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "今、時間がありますか。",
+          "furigana": "いま、じかんがありますか。",
+          "romaji": "ima, jikan ga arimasu ka.",
+          "en": "Do you have time now?",
+          "bn": "এখন আপনার সময় আছে?"
+        }
+      },
+      {
+        "id": "time-15",
+        "kanji": "時",
+        "furigana": "とき",
+        "romaji": "toki",
+        "english_meaning": "when, time",
+        "bengali_meaning": "যখন, সময়",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "暇な時に電話してください。",
+          "furigana": "ひまなときにでんわしてください。",
+          "romaji": "hima na toki ni denwa shite kudasai.",
+          "en": "Call me when free.",
+          "bn": "অবসর থাকলে ফোন করুন।"
+        }
+      },
+      {
+        "id": "time-16",
+        "kanji": "前",
+        "furigana": "まえ",
+        "romaji": "mae",
+        "english_meaning": "before",
+        "bengali_meaning": "আগে",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "食事の前に手を洗います。",
+          "furigana": "しょくじのまえにてをあらいます。",
+          "romaji": "shokuji no mae ni te o araimasu.",
+          "en": "I wash hands before eating.",
+          "bn": "খাওয়ার আগে হাত ধুই।"
+        }
+      },
+      {
+        "id": "time-17",
+        "kanji": "後",
+        "furigana": "あと",
+        "romaji": "ato",
+        "english_meaning": "after, later",
+        "bengali_meaning": "পরে",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "後で会いましょう。",
+          "furigana": "あとであいましょう。",
+          "romaji": "ato de aimashou.",
+          "en": "Let us meet later.",
+          "bn": "পরে দেখা করব।"
+        }
+      },
+      {
+        "id": "time-18",
+        "furigana": "すぐ",
+        "romaji": "sugu",
+        "english_meaning": "immediately",
+        "bengali_meaning": "অবিলম্বে",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "すぐに行きます。",
+          "furigana": "すぐにいきます。",
+          "romaji": "sugu ni ikimasu.",
+          "en": "I will go immediately.",
+          "bn": "অবিলম্বে যাব।"
+        }
+      },
+      {
+        "id": "time-19",
+        "furigana": "もう",
+        "romaji": "mou",
+        "english_meaning": "already",
+        "bengali_meaning": "ইতিমধ্যে",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "もう食べましたか。",
+          "furigana": "もうたべましたか。",
+          "romaji": "mou tabemashita ka.",
+          "en": "Have you eaten already?",
+          "bn": "ইতিমধ্যে খেয়েছেন?"
+        }
+      },
+      {
+        "id": "time-20",
+        "furigana": "まだ",
+        "romaji": "mada",
+        "english_meaning": "not yet",
+        "bengali_meaning": "এখনও নয়",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "まだ終わっていません。",
+          "furigana": "まだおわっていません。",
+          "romaji": "mada owatte imasen.",
+          "en": "Not finished yet.",
+          "bn": "এখনও শেষ হয়নি।"
+        }
+      },
+      {
+        "id": "time-21",
+        "furigana": "いつも",
+        "romaji": "itsumo",
+        "english_meaning": "always",
+        "bengali_meaning": "সবসময়",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "いつも早起きします。",
+          "furigana": "いつもはやおきします。",
+          "romaji": "itsumo hayaoki shimasu.",
+          "en": "I always wake early.",
+          "bn": "সবসময় তাড়াতাড়ি উঠি।"
+        }
+      },
+      {
+        "id": "time-22",
+        "kanji": "時々",
+        "furigana": "ときどき",
+        "romaji": "tokidoki",
+        "english_meaning": "sometimes",
+        "bengali_meaning": "মাঝে মাঝে",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "時々、映画を見ます。",
+          "furigana": "ときどき、えいがをみます。",
+          "romaji": "tokidoki, eiga o mimasu.",
+          "en": "I sometimes watch movies.",
+          "bn": "মাঝে মাঝে সিনেমা দেখি।"
+        }
+      },
+      {
+        "id": "time-23",
+        "kanji": "最近",
+        "furigana": "さいきん",
+        "romaji": "saikin",
+        "english_meaning": "recently",
+        "bengali_meaning": "সম্প্রতি",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "最近、忙しいです。",
+          "furigana": "さいきん、いそがしいです。",
+          "romaji": "saikin wa isogashii desu.",
+          "en": "Busy recently.",
+          "bn": "সম্প্রতি ব্যস্ত।"
+        }
+      },
+      {
+        "id": "time-24",
+        "kanji": "昔",
+        "furigana": "むかし",
+        "romaji": "mukashi",
+        "english_meaning": "the past",
+        "bengali_meaning": "অতীত",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "昔、ここは森でした。",
+          "furigana": "むかし、ここはもりでした。",
+          "romaji": "mukashi, koko wa mori deshita.",
+          "en": "This was a forest in the past.",
+          "bn": "অতীতে এটি বন ছিল।"
+        }
+      },
+      {
+        "id": "time-25",
+        "kanji": "未来",
+        "furigana": "みらい",
+        "romaji": "mirai",
+        "english_meaning": "future",
+        "bengali_meaning": "ভবিষ্যৎ",
+        "tags": [
+          "time"
+        ],
+        "example": {
+          "jp": "未来は分かりません。",
+          "furigana": "みらいはわかりません。",
+          "romaji": "mirai wa wakarimasen.",
+          "en": "The future is unknown.",
+          "bn": "ভবিষ্যৎ অজানা।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mimikara-family",
+    "title": {
+      "en": "Family",
+      "bn": "পরিবার"
+    },
+    "level": "N3",
+    "words": [
+      {
+        "id": "fam-01",
+        "kanji": "父",
+        "furigana": "ちち",
+        "romaji": "chichi",
+        "english_meaning": "father",
+        "bengali_meaning": "বাবা",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "父は会社員です。",
+          "furigana": "ちちはかいしゃいんです。",
+          "romaji": "chichi wa kaishain desu.",
+          "en": "My father is an employee.",
+          "bn": "বাবা চাকরিজীবী।"
+        }
+      },
+      {
+        "id": "fam-02",
+        "kanji": "母",
+        "furigana": "はは",
+        "romaji": "haha",
+        "english_meaning": "mother",
+        "bengali_meaning": "মা",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "母は料理が上手です。",
+          "furigana": "ははりょうりがじょうずです。",
+          "romaji": "haha wa ryouri ga jouzu desu.",
+          "en": "Mother is good at cooking.",
+          "bn": "মা রান্নায় দক্ষ।"
+        }
+      },
+      {
+        "id": "fam-03",
+        "kanji": "兄",
+        "furigana": "あに",
+        "romaji": "ani",
+        "english_meaning": "older brother",
+        "bengali_meaning": "বড় ভাই",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "兄は大学生です。",
+          "furigana": "あにはだいがくせいです。",
+          "romaji": "ani wa daigakusei desu.",
+          "en": "Older brother is a student.",
+          "bn": "বড় ভাই ছাত্র।"
+        }
+      },
+      {
+        "id": "fam-04",
+        "kanji": "姉",
+        "furigana": "あね",
+        "romaji": "ane",
+        "english_meaning": "older sister",
+        "bengali_meaning": "বড় বোন",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "姉は先生です。",
+          "furigana": "あねはせんせいです。",
+          "romaji": "ane wa sensei desu.",
+          "en": "Older sister is a teacher.",
+          "bn": "বড় বোন শিক্ষিকা।"
+        }
+      },
+      {
+        "id": "fam-05",
+        "kanji": "弟",
+        "furigana": "おとうと",
+        "romaji": "otouto",
+        "english_meaning": "younger brother",
+        "bengali_meaning": "ছোট ভাই",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "弟は高校生です。",
+          "furigana": "おとうとはこうこうせいです。",
+          "romaji": "otouto wa koukousei desu.",
+          "en": "Younger brother is in high school.",
+          "bn": "ছোট ভাই উচ্চ মাধ্যমিকে।"
+        }
+      },
+      {
+        "id": "fam-06",
+        "kanji": "妹",
+        "furigana": "いもうと",
+        "romaji": "imouto",
+        "english_meaning": "younger sister",
+        "bengali_meaning": "ছোট বোন",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "妹は歌が好きです。",
+          "furigana": "いもうとはうたがすきです。",
+          "romaji": "imouto wa uta ga suki desu.",
+          "en": "Younger sister likes singing.",
+          "bn": "ছোট বোন গান পছন্দ করে।"
+        }
+      },
+      {
+        "id": "fam-07",
+        "kanji": "夫",
+        "furigana": "おっと",
+        "romaji": "otto",
+        "english_meaning": "husband",
+        "bengali_meaning": "স্বামী",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "夫は優しいです。",
+          "furigana": "おっとはやさしいです。",
+          "romaji": "otto wa yasashii desu.",
+          "en": "Husband is kind.",
+          "bn": "স্বামী দয়ালু।"
+        }
+      },
+      {
+        "id": "fam-08",
+        "kanji": "妻",
+        "furigana": "つま",
+        "romaji": "tsuma",
+        "english_meaning": "wife",
+        "bengali_meaning": "স্ত্রী",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "妻は働いています。",
+          "furigana": "つまははたらいています。",
+          "romaji": "tsuma wa hataraite imasu.",
+          "en": "Wife is working.",
+          "bn": "স্ত্রী কাজ করছেন।"
+        }
+      },
+      {
+        "id": "fam-09",
+        "kanji": "子供",
+        "furigana": "こども",
+        "romaji": "kodomo",
+        "english_meaning": "child",
+        "bengali_meaning": "সন্তান",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "子供が公園で遊んでいます。",
+          "furigana": "こどもがこうえんであそんでいます。",
+          "romaji": "kodomo ga kouen de asonde imasu.",
+          "en": "The child plays in the park.",
+          "bn": "শিশু পার্কে খেলছে।"
+        }
+      },
+      {
+        "id": "fam-10",
+        "kanji": "息子",
+        "furigana": "むすこ",
+        "romaji": "musuko",
+        "english_meaning": "son",
+        "bengali_meaning": "ছেলে সন্তান",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "息子は医者になります。",
+          "furigana": "むすこはいしゃになります。",
+          "romaji": "musuko wa isha ni narimasu.",
+          "en": "Son will become a doctor.",
+          "bn": "ছেলে ডাক্তার হবে।"
+        }
+      },
+      {
+        "id": "fam-11",
+        "kanji": "娘",
+        "furigana": "むすめ",
+        "romaji": "musume",
+        "english_meaning": "daughter",
+        "bengali_meaning": "মেয়ে সন্তান",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "娘は学校に行きます。",
+          "furigana": "むすめはがっこうにいきます。",
+          "romaji": "musume wa gakkou ni ikimasu.",
+          "en": "Daughter goes to school.",
+          "bn": "মেয়ে স্কুলে যায়।"
+        }
+      },
+      {
+        "id": "fam-12",
+        "kanji": "祖父",
+        "furigana": "そふ",
+        "romaji": "sofu",
+        "english_meaning": "grandfather",
+        "bengali_meaning": "দাদা/নানা",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "祖父は90歳です。",
+          "furigana": "そふは90さいです。",
+          "romaji": "sofu wa kyuujuu-sai desu.",
+          "en": "Grandfather is 90.",
+          "bn": "দাদা ৯০ বছর।"
+        }
+      },
+      {
+        "id": "fam-13",
+        "kanji": "祖母",
+        "furigana": "そぼ",
+        "romaji": "sobo",
+        "english_meaning": "grandmother",
+        "bengali_meaning": "দাদি/নানি",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "祖母は元気です。",
+          "furigana": "そぼはげんきです。",
+          "romaji": "sobo wa genki desu.",
+          "en": "Grandmother is well.",
+          "bn": "দাদি সুস্থ।"
+        }
+      },
+      {
+        "id": "fam-14",
+        "kanji": "叔父",
+        "furigana": "おじ",
+        "romaji": "oji",
+        "english_meaning": "uncle",
+        "bengali_meaning": "চাচা/মামা",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "叔父が来ました。",
+          "furigana": "おじがきました。",
+          "romaji": "oji ga kimashita.",
+          "en": "Uncle came.",
+          "bn": "চাচা এসেছেন।"
+        }
+      },
+      {
+        "id": "fam-15",
+        "kanji": "叔母",
+        "furigana": "おば",
+        "romaji": "oba",
+        "english_meaning": "aunt",
+        "bengali_meaning": "চাচি/মামি",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "叔母は東京に住んでいます。",
+          "furigana": "おばはとうきょうにすんでいます。",
+          "romaji": "oba wa toukyou ni sunde imasu.",
+          "en": "Aunt lives in Tokyo.",
+          "bn": "চাচি টোকিওতে থাকেন।"
+        }
+      },
+      {
+        "id": "fam-16",
+        "kanji": "従兄弟",
+        "furigana": "いとこ",
+        "romaji": "itoko",
+        "english_meaning": "cousin",
+        "bengali_meaning": "কাজিন",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "従兄弟と遊びました。",
+          "furigana": "いとことあそびました。",
+          "romaji": "itoko to asobimashita.",
+          "en": "Played with cousin.",
+          "bn": "কাজিনের সাথে খেলেছি।"
+        }
+      },
+      {
+        "id": "fam-17",
+        "kanji": "家族",
+        "furigana": "かぞく",
+        "romaji": "kazoku",
+        "english_meaning": "family",
+        "bengali_meaning": "পরিবার",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "家族と暮らしています。",
+          "furigana": "かぞくとくらしています。",
+          "romaji": "kazoku to kurashite imasu.",
+          "en": "I live with family.",
+          "bn": "পরিবারের সাথে বাস করি।"
+        }
+      },
+      {
+        "id": "fam-18",
+        "kanji": "親",
+        "furigana": "おや",
+        "romaji": "oya",
+        "english_meaning": "parent",
+        "bengali_meaning": "বাবা-মা",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "親に感謝しています。",
+          "furigana": "おやにかんしゃしています。",
+          "romaji": "oya ni kansha shite imasu.",
+          "en": "Grateful to parents.",
+          "bn": "বাবা-মায়ের প্রতি কৃতজ্ঞ।"
+        }
+      },
+      {
+        "id": "fam-19",
+        "kanji": "両親",
+        "furigana": "りょうしん",
+        "romaji": "ryoushin",
+        "english_meaning": "parents",
+        "bengali_meaning": "পিতামাতা",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "両親は元気です。",
+          "furigana": "りょうしんはげんきです。",
+          "romaji": "ryoushin wa genki desu.",
+          "en": "Parents are well.",
+          "bn": "পিতামাতা সুস্থ।"
+        }
+      },
+      {
+        "id": "fam-20",
+        "kanji": "夫婦",
+        "furigana": "ふうふ",
+        "romaji": "fuufu",
+        "english_meaning": "couple",
+        "bengali_meaning": "দম্পতি",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "あの夫婦は仲が良いです。",
+          "furigana": "あのふうふはなかがいいです。",
+          "romaji": "ano fuufu wa naka ga ii desu.",
+          "en": "That couple gets along.",
+          "bn": "দম্পতির সম্পর্ক ভালো।"
+        }
+      },
+      {
+        "id": "fam-21",
+        "kanji": "親戚",
+        "furigana": "しんせき",
+        "romaji": "shinseki",
+        "english_meaning": "relative",
+        "bengali_meaning": "আত্মীয়",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "親戚が集まりました。",
+          "furigana": "しんせきがあつまりました。",
+          "romaji": "shinseki ga atsumarimashita.",
+          "en": "Relatives gathered.",
+          "bn": "আত্মীয়রা জমায়েত।"
+        }
+      },
+      {
+        "id": "fam-22",
+        "kanji": "赤ちゃん",
+        "furigana": "あかちゃん",
+        "romaji": "akachan",
+        "english_meaning": "baby",
+        "bengali_meaning": "শিশু",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "赤ちゃんが泣いています。",
+          "furigana": "あかちゃんがないています。",
+          "romaji": "akachan ga naite imasu.",
+          "en": "Baby is crying.",
+          "bn": "শিশু কাঁদছে।"
+        }
+      },
+      {
+        "id": "fam-23",
+        "kanji": "大人",
+        "furigana": "おとな",
+        "romaji": "otona",
+        "english_meaning": "adult",
+        "bengali_meaning": "প্রাপ্তবয়স্ক",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "ここは大人だけの場所です。",
+          "furigana": "ここはおとなだけのばしょです。",
+          "romaji": "koko wa otona dake no basho desu.",
+          "en": "Adults only.",
+          "bn": "শুধু প্রাপ্তবয়স্ক।"
+        }
+      },
+      {
+        "id": "fam-24",
+        "kanji": "友人",
+        "furigana": "ゆうじん",
+        "romaji": "yuujin",
+        "english_meaning": "friend",
+        "bengali_meaning": "বন্ধু",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "友人と食事しました。",
+          "furigana": "ゆうじんとしょくじしました。",
+          "romaji": "yuujin to shokuji shimashita.",
+          "en": "Ate with a friend.",
+          "bn": "বন্ধুর সাথে খেয়েছি।"
+        }
+      },
+      {
+        "id": "fam-25",
+        "kanji": "隣人",
+        "furigana": "りんじん",
+        "romaji": "rinjin",
+        "english_meaning": "neighbor",
+        "bengali_meaning": "প্রতিবেশী",
+        "tags": [
+          "family"
+        ],
+        "example": {
+          "jp": "隣人は親切です。",
+          "furigana": "りんじんはしんせつです。",
+          "romaji": "rinjin wa shinsetsu desu.",
+          "en": "Neighbor is kind.",
+          "bn": "প্রতিবেশী দয়ালু।"
+        }
+      }
+    ]
+  }
 ]
