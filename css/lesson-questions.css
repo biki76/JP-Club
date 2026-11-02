@@ -22,3 +22,17 @@
 .lp-btn[data-opt]{ min-height:48px; }
 .lp-score{ margin-top:var(--s-4,16px); padding:var(--s-4,16px); display:flex; align-items:center; justify-content:space-between; gap:var(--s-3,12px); flex-wrap:wrap; background:var(--v2-surface); border:1px solid var(--v2-border); border-radius:var(--v2-r-lg,16px); box-shadow:var(--v2-shadow-2); }
 .lp-score__n{ margin:0; font-size:var(--v2-fs-lg,1.44rem); font-weight:700; }
+
+/* practice-disabled-fix */
+.lp-btn[data-opt]{
+  display:flex; align-items:center; width:100%; padding:10px 16px; box-sizing:border-box;
+  font:inherit; font-size:1rem; color:var(--v2-text); background:var(--v2-surface-2);
+  border:2px solid var(--v2-border); border-style:solid; border-radius:var(--v2-r-md,10px);
+  cursor:pointer; opacity:1;
+}
+.lp-btn[data-opt]:disabled{ color:var(--v2-text); opacity:1; cursor:default; -webkit-text-fill-color:var(--v2-text); }
+.lp-btn[data-opt]:disabled:not(.is-correct):not(.is-wrong){ opacity:.7; }
+.lp-btn.is-correct{ border:2px solid var(--v2-ok) !important; }
+.lp-btn.is-wrong{ border:2px solid var(--v2-err) !important; }
+.lp-btn[data-opt]:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
+.lp-btn[data-opt]:not(:disabled):hover{ border-color:var(--v2-brand); }
