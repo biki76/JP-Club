@@ -14,6 +14,65 @@
         "en": "What is cut, slice?",
         "bn": "cut, slice কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-007-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে?"
+        },
+        "options": [
+          "きります",
+          "かします",
+          "おくります",
+          "かります"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The transcript is 「きります は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「きります は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-007-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「きります」 mean?",
+          "bn": "পাঠ অনুযায়ী 「きります」 এর অর্থ কী?"
+        },
+        "options": [
+          "send",
+          "lend",
+          "cut",
+          "borrow"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「きります」 as 'cut, slice'.",
+          "bn": "পাঠে 「きります」 এর অর্থ 'cut, slice' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-007-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the question ask for?",
+          "bn": "প্রশ্নটি কী জানতে চাইছে?"
+        },
+        "options": [
+          "The meaning of a word",
+          "A place",
+          "A time",
+          "A number"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「何 ですか」 asks for the meaning of the word.",
+          "bn": "「何 ですか」 শব্দটির অর্থ জানতে চাইছে।"
+        }
+      }
     ]
   }
 ]

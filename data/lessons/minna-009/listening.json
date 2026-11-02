@@ -14,6 +14,65 @@
         "en": "What is understand?",
         "bn": "understand কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-009-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে?"
+        },
+        "options": [
+          "じょうず",
+          "わかります",
+          "へた",
+          "すき"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The transcript is 「わかります は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「わかります は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-009-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「わかります」 mean?",
+          "bn": "পাঠ অনুযায়ী 「わかります」 এর অর্থ কী?"
+        },
+        "options": [
+          "like",
+          "dislike",
+          "be good at",
+          "understand"
+        ],
+        "correctIndex": 3,
+        "explanation": {
+          "en": "The text gives 「わかります」 as 'understand'.",
+          "bn": "পাঠে 「わかります」 এর অর্থ 'understand' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-009-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the question asking for?",
+          "bn": "প্রশ্নটি কী জানতে চাইছে?"
+        },
+        "options": [
+          "A meaning",
+          "A place",
+          "A time",
+          "A price"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「何 ですか」 asks what the word means.",
+          "bn": "「何 ですか」 শব্দটির অর্থ কী তা জিজ্ঞাসা করছে।"
+        }
+      }
     ]
   }
 ]

@@ -13,6 +13,65 @@
         "en": "This is handsome.",
         "bn": "এটি handsome।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-008-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "Handsome",
+          "Quiet",
+          "Famous",
+          "Busy"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「ハンサム［な］」 as 'handsome'.",
+          "bn": "পাঠে 「ハンサム［な］」 এর অর্থ 'handsome' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-008-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is quiet.",
+          "This is famous.",
+          "This is busy.",
+          "This is handsome."
+        ],
+        "correctIndex": 3,
+        "explanation": {
+          "en": "The text gives 「これは ハンサム［な］ です。」 as 'This is handsome'.",
+          "bn": "পাঠে 「これは ハンサム［な］ です。」 এর অর্থ 'This is handsome' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-008-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What kind of word is 「ハンサム」 here?",
+          "bn": "এখানে 「ハンサム」 কোন ধরনের শব্দ?"
+        },
+        "options": [
+          "A place",
+          "A word describing a person's look",
+          "A number",
+          "A time"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「ハンサム」 describes how someone looks, so it describes a person.",
+          "bn": "「ハンサム」 দেখতে কেমন তা বর্ণনা করে, তাই এটি একজন ব্যক্তিকে বর্ণনা করে।"
+        }
+      }
     ]
   }
 ]

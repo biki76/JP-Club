@@ -14,6 +14,65 @@
         "en": "What is eat?",
         "bn": "eat কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-006-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「たべます」 mean?",
+          "bn": "পাঠ অনুযায়ী 「たべます」 এর অর্থ কী?"
+        },
+        "options": [
+          "To go",
+          "To eat",
+          "To drink",
+          "To read"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「たべます」 as 'eat'.",
+          "bn": "পাঠে 「たべます」 এর অর্থ 'eat' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-006-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে?"
+        },
+        "options": [
+          "いきます",
+          "のみます",
+          "たべます",
+          "きります"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The transcript is 「たべます は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「たべます は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-006-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What type of question is it?",
+          "bn": "এটি কোন ধরনের প্রশ্ন?"
+        },
+        "options": [
+          "A 'what' question",
+          "A 'who' question",
+          "A 'where' question",
+          "A 'when' question"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "It uses 「何」, so it is a 'what' question.",
+          "bn": "এতে 「何」 ব্যবহৃত হয়েছে, তাই এটি 'কী' ধরনের প্রশ্ন।"
+        }
+      }
     ]
   }
 ]

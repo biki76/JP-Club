@@ -13,6 +13,65 @@
         "en": "This is eat.",
         "bn": "এটি eat।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-006-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say?",
+          "bn": "বাক্যটি কী বলে?"
+        },
+        "options": [
+          "This is eat.",
+          "This is drink.",
+          "This is go.",
+          "This is read."
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「これは たべます です。」 as 'This is eat'.",
+          "bn": "পাঠে 「これは たべます です。」 এর অর্থ 'This is eat' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-006-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What kind of word is 「たべます」?",
+          "bn": "「たべます」 কোন ধরনের শব্দ?"
+        },
+        "options": [
+          "A place",
+          "A verb (to eat)",
+          "A person",
+          "A time"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「たべます」 as 'eat', which is a verb.",
+          "bn": "পাঠে 「たべます」 এর অর্থ 'eat', যা একটি ক্রিয়া।"
+        }
+      },
+      {
+        "id": "minna-006-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which is the verb in the sentence?",
+          "bn": "বাক্যে কোনটি ক্রিয়া?"
+        },
+        "options": [
+          "これ",
+          "です",
+          "たべます",
+          "は"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「たべます」 is the verb; 「これ」 is 'this' and 「です」 is the polite copula.",
+          "bn": "「たべます」 হলো ক্রিয়া; 「これ」 অর্থ 'এটি' এবং 「です」 হলো ভদ্র সহায়ক ক্রিয়া।"
+        }
+      }
     ]
   }
 ]

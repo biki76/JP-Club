@@ -13,6 +13,65 @@
         "en": "This is understand.",
         "bn": "এটি understand।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-009-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'like'",
+          "A verb meaning 'understand'",
+          "A verb meaning 'dislike'",
+          "A verb meaning 'study'"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「わかります」 as 'understand'.",
+          "bn": "পাঠে 「わかります」 এর অর্থ 'understand' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-009-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'understand'?",
+          "bn": "কোন শব্দের অর্থ 'বোঝা'?"
+        },
+        "options": [
+          "わかります",
+          "すきです",
+          "きらいです",
+          "じょうずです"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「わかります」 means 'understand'.",
+          "bn": "「わかります」 অর্থ 'বোঝা'।"
+        }
+      },
+      {
+        "id": "minna-009-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is like.",
+          "This is dislike.",
+          "This is understand.",
+          "This is good at."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは わかります です。」 as 'This is understand'.",
+          "bn": "পাঠে 「これは わかります です。」 এর অর্থ 'This is understand' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

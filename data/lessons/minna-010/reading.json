@@ -13,6 +13,65 @@
         "en": "This is exist, be (referring to inanimate things).",
         "bn": "এটি exist, be (referring to inanimate things)।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-010-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb for living things",
+          "A verb for things (not people or animals)",
+          "A noun for a place",
+          "An adjective"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「あります」 as 'exist, be' for inanimate things.",
+          "bn": "পাঠে 「あります」 এর অর্থ নির্জীব বস্তুর জন্য 'exist, be' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-010-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is exist (for things).",
+          "This is understand.",
+          "This is eat.",
+          "This is go."
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「これは あります です。」 as 'This is exist, be (referring to inanimate things)'.",
+          "bn": "পাঠে 「これは あります です。」 এর অর্থ 'This is exist (for things)' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-010-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, 「あります」 is used for…",
+          "bn": "পাঠ অনুযায়ী 「あります」 কীসের জন্য ব্যবহৃত হয়?"
+        },
+        "options": [
+          "people",
+          "animals only",
+          "inanimate things",
+          "places only"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says 「あります」 refers to inanimate things.",
+          "bn": "পাঠে বলা হয়েছে 「あります」 নির্জীব বস্তুকে বোঝায়।"
+        }
+      }
     ]
   }
 ]

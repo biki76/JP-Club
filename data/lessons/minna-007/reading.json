@@ -13,6 +13,65 @@
         "en": "This is cut, slice.",
         "bn": "এটি cut, slice।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-007-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'send'",
+          "A verb meaning 'lend'",
+          "A verb meaning 'cut'",
+          "A verb meaning 'borrow'"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「きります」 as 'cut, slice'.",
+          "bn": "পাঠে 「きります」 এর অর্থ 'cut, slice' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-007-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is send.",
+          "This is cut.",
+          "This is eat.",
+          "This is go."
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「これは きります です。」 as 'This is cut, slice'.",
+          "bn": "পাঠে 「これは きります です。」 এর অর্থ 'This is cut' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-007-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'cut'?",
+          "bn": "কোন শব্দের অর্থ 'কাটা'?"
+        },
+        "options": [
+          "おきます",
+          "たべます",
+          "きります",
+          "いきます"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「きります」 means 'cut, slice'.",
+          "bn": "「きります」 অর্থ 'কাটা'।"
+        }
+      }
     ]
   }
 ]

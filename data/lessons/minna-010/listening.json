@@ -14,6 +14,65 @@
         "en": "What is exist, be (referring to inanimate things)?",
         "bn": "exist, be (referring to inanimate things) কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-010-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is being asked about?",
+          "bn": "কোন শব্দ সম্পর্কে জিজ্ঞাসা করা হচ্ছে?"
+        },
+        "options": [
+          "います",
+          "あります",
+          "たべます",
+          "いきます"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The transcript is 「あります は 何 です か。」",
+          "bn": "প্রশ্নটি হলো 「あります は 何 です か。」"
+        }
+      },
+      {
+        "id": "minna-010-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, 「あります」 is used for…",
+          "bn": "পাঠ অনুযায়ী 「あります」 কীসের জন্য ব্যবহৃত হয়?"
+        },
+        "options": [
+          "people",
+          "animals",
+          "things",
+          "places"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says 「あります」 refers to inanimate things.",
+          "bn": "পাঠে বলা হয়েছে 「あります」 নির্জীব বস্তুকে বোঝায়।"
+        }
+      },
+      {
+        "id": "minna-010-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What kind of question is it?",
+          "bn": "এটি কোন ধরনের প্রশ্ন?"
+        },
+        "options": [
+          "A 'where' question",
+          "A 'who' question",
+          "A 'when' question",
+          "A 'what' question"
+        ],
+        "correctIndex": 3,
+        "explanation": {
+          "en": "It uses 「何」, so it is a 'what' question.",
+          "bn": "এতে 「何」 ব্যবহৃত হয়েছে, তাই এটি 'কী' ধরনের প্রশ্ন।"
+        }
+      }
     ]
   }
 ]
