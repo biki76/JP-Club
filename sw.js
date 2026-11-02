@@ -5,12 +5,29 @@
  */
 'use strict';
 
-const VERSION    = 'v94';
+const VERSION    = 'v95';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'images/lessons/minna-017.webp',
+  'images/lessons/minna-016.webp',
+  'images/lessons/minna-015.webp',
+  'images/lessons/minna-014.webp',
+  'images/lessons/minna-013.webp',
+  'images/lessons/minna-012.webp',
+  'images/lessons/minna-011.webp',
+  'images/lessons/minna-010.webp',
+  'images/lessons/minna-009.webp',
+  'images/lessons/minna-008.webp',
+  'images/lessons/minna-007.webp',
+  'images/lessons/minna-006.webp',
+  'images/lessons/minna-005.webp',
+  'images/lessons/minna-004.webp',
+  'images/lessons/minna-003.webp',
+  'images/lessons/minna-002.webp',
+  'images/lessons/minna-001.webp',
   'js/lesson-cover.js',
   'content/microcopy.json',
   'js/microcopy.js',
