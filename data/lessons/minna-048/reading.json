@@ -62,6 +62,65 @@
         "en": "Parents want to let their children have all kinds of experiences.",
         "bn": "অভিভাবকরা চান সন্তানরা নানা রকম অভিজ্ঞতা অর্জন করুক।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-048-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did the mother make the writer do every day as a child?",
+          "bn": "শিশুকালে মা লেখককে প্রতিদিন কী করতে বাধ্য করতেন?"
+        },
+        "options": [
+          "Read books for one hour",
+          "Practice the piano",
+          "Run in the park",
+          "Cook dinner"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says the mother made the writer read books for one hour every day.",
+          "bn": "পাঠে বলা হয়েছে মা লেখককে প্রতিদিন এক ঘণ্টা বই পড়তে বাধ্য করতেন।"
+        }
+      },
+      {
+        "id": "minna-048-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How does the writer feel about the mother now?",
+          "bn": "এখন মা সম্পর্কে লেখকের অনুভূতি কী?"
+        },
+        "options": [
+          "Angry",
+          "Grateful",
+          "Afraid",
+          "Indifferent"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「今は 母に 心から 感謝して います」 — sincerely grateful.",
+          "bn": "পাঠে বলা হয়েছে 「今は 母に 心から 感謝して います」 — হৃদয় থেকে কৃতজ্ঞ।"
+        }
+      },
+      {
+        "id": "minna-048-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did the younger sister say on the phone?",
+          "bn": "ছোট বোন ফোনে কী বলেছিল?"
+        },
+        "options": [
+          "Mother makes her go to cram school every day",
+          "Mother is sick",
+          "She wants to study abroad",
+          "She lost her book"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The sister said 「お母さんは 毎日 わたしに 塾へ 行かせるの」 — mother makes her go to cram school daily.",
+          "bn": "বোন বলেছিল 「お母さんは 毎日 わたしに 塾へ 行かせるの」 — মা তাকে প্রতিদিন কোচিং যেতে বাধ্য করেন।"
+        }
+      }
     ]
   }
 ]

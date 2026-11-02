@@ -69,6 +69,65 @@
         "en": "Understood. Let us all do our best.",
         "bn": "বুঝেছি। সবাই মিলে চেষ্টা করি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-046-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where is the writer now?",
+          "bn": "লেখক এখন কোথায়?"
+        },
+        "options": [
+          "At home",
+          "At the venue",
+          "At the station",
+          "At the office"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「会場で 準備して いる ところです」 — at the venue preparing.",
+          "bn": "পাঠে বলা হয়েছে 「会場で 準備して いる ところです」 — অনুষ্ঠানস্থলে প্রস্তুতি নিচ্ছেন।"
+        }
+      },
+      {
+        "id": "minna-046-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How many people can the venue hold?",
+          "bn": "অনুষ্ঠানস্থলে কতজন ধরে?"
+        },
+        "options": [
+          "One hundred",
+          "Two hundred",
+          "Three hundred",
+          "Five hundred"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「二百人 入れます」 — it can hold two hundred people.",
+          "bn": "পাঠে বলা হয়েছে 「二百人 入れます」 — দুইশ জন ধরে।"
+        }
+      },
+      {
+        "id": "minna-046-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What time are they about to leave?",
+          "bn": "তারা কয়টায় রওনা দিতে চলেছে?"
+        },
+        "options": [
+          "Eight",
+          "Nine",
+          "Ten",
+          "Eleven"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「九時に 出発する ところです」 — about to leave at nine.",
+          "bn": "পাঠে বলা হয়েছে 「九時に 出発する ところです」 — নয়টায় রওনা দেওয়ার কথা।"
+        }
+      }
     ]
   }
 ]

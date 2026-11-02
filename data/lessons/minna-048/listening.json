@@ -69,6 +69,65 @@
         "en": "Yes. Thank you in advance.",
         "bn": "হ্যাঁ। দয়া করে দেখবেন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-048-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the manager want to do with the new job?",
+          "bn": "ম্যানেজার নতুন কাজটি নিয়ে কী করতে চান?"
+        },
+        "options": [
+          "Ask Tanaka to do it",
+          "Do it himself",
+          "Cancel it",
+          "Give it to a client"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The manager says 「田中さんに 頼もうと 思って います」 — thinking of asking Tanaka.",
+          "bn": "ম্যানেজার বলেন 「田中さんに 頼もうと 思って います」 — তানাকাকে দিতে ভাবছেন।"
+        }
+      },
+      {
+        "id": "minna-048-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the employee ask the manager?",
+          "bn": "কর্মচারী ম্যানেজারের কাছে কী চান?"
+        },
+        "options": [
+          "To let him do the job",
+          "To give him a holiday",
+          "To raise his salary",
+          "To change the team"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The employee says 「わたしに やらせて いただけませんか」 — could you let me do it.",
+          "bn": "কর্মচারী বলেন 「わたしに やらせて いただけませんか」 — আমাকে করতে দেবেন কি?"
+        }
+      },
+      {
+        "id": "minna-048-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Who else will help, according to the manager?",
+          "bn": "ম্যানেজারের মতে আর কে সাহায্য করবে?"
+        },
+        "options": [
+          "Tanaka",
+          "The president",
+          "A client",
+          "Nobody"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The manager says 「田中さんにも 手伝わせましょう」 — let us have Tanaka help too.",
+          "bn": "ম্যানেজার বলেন 「田中さんにも 手伝わせましょう」 — তানাকাকেও সাহায্য করতে দিই।"
+        }
+      }
     ]
   }
 ]

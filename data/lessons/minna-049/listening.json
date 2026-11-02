@@ -69,6 +69,65 @@
         "en": "Certainly. We will be waiting for your call.",
         "bn": "নিশ্চয়ই। আমরা আপনার ফোনের অপেক্ষায় থাকব।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-049-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the caller's name?",
+          "bn": "কলকারীর নাম কী?"
+        },
+        "options": [
+          "Tanaka",
+          "Yamada",
+          "Suzuki",
+          "Sato"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The caller says 「田中と 申します」 — my name is Tanaka.",
+          "bn": "কলকারী বলেন 「田中と 申します」 — আমার নাম তানাকা।"
+        }
+      },
+      {
+        "id": "minna-049-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why can the president not come to the phone?",
+          "bn": "প্রেসিডেন্ট কেন ফোনে আসতে পারছেন না?"
+        },
+        "options": [
+          "He is in a meeting",
+          "He is out of the office",
+          "He is on a business trip",
+          "He is sick"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The receptionist says 「社長は ただ今 会議中で いらっしゃいます」 — he is in a meeting now.",
+          "bn": "রিসেপশনিস্ট বলেন 「社長は ただ今 会議中で いらっしゃいます」 — তিনি এখন সভায় আছেন।"
+        }
+      },
+      {
+        "id": "minna-049-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will the caller do around three o'clock?",
+          "bn": "কলকারী তিনটার দিকে কী করবেন?"
+        },
+        "options": [
+          "Call again",
+          "Visit the office",
+          "Send an email",
+          "Wait at the station"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The caller says 「三時ごろ もう 一度 お電話 いたします」 — will call again around three.",
+          "bn": "কলকারী বলেন 「三時ごろ もう 一度 お電話 いたします」 — তিনটার দিকে আবার ফোন করবেন।"
+        }
+      }
     ]
   }
 ]

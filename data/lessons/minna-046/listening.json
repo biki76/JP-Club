@@ -69,6 +69,65 @@
         "en": "I see. Then please contact me again after returning.",
         "bn": "বুঝলাম। তাহলে ফিরে এসে আবার যোগাযোগ করবেন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-046-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where is Tanaka going now?",
+          "bn": "তানাকা এখন কোথায় যাচ্ছেন?"
+        },
+        "options": [
+          "To the airport",
+          "To the office",
+          "To the station",
+          "To the venue"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The speaker says 「空港へ 向かって いる ところです」 — on the way to the airport.",
+          "bn": "বক্তা বলেন 「空港へ 向かって いる ところです」 — বিমানবন্দরের পথে।"
+        }
+      },
+      {
+        "id": "minna-046-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What time is the flight?",
+          "bn": "ফ্লাইট কয়টায়?"
+        },
+        "options": [
+          "Nine",
+          "Ten",
+          "Eleven",
+          "Twelve"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The speaker says 「十一時です」 — eleven o'clock.",
+          "bn": "বক্তা বলেন 「十一時です」 — এগারোটা।"
+        }
+      },
+      {
+        "id": "minna-046-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How long will the business trip be?",
+          "bn": "ব্যবসায়িক সফর কত দিনের হবে?"
+        },
+        "options": [
+          "Three days",
+          "One week",
+          "Two weeks",
+          "One month"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The speaker says 「三日で 帰国する 計画です」 — the plan is to return in three days.",
+          "bn": "বক্তা বলেন 「三日で 帰国する 計画です」 — তিন দিনে ফেরার পরিকল্পনা।"
+        }
+      }
     ]
   }
 ]

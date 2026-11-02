@@ -62,6 +62,65 @@
         "en": "If I have time, I want to ask everyone about their impressions too.",
         "bn": "সময় পেলে সবার মন্তব্যও শুনতে চাই।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-047-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What was in this morning's newspaper?",
+          "bn": "আজ সকালের পত্রিকায় কী ছিল?"
+        },
+        "options": [
+          "A festival in this town next week",
+          "A typhoon warning",
+          "A new shop opening",
+          "A train accident"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says the newspaper reported a big festival in this town next week.",
+          "bn": "পাঠে বলা হয়েছে পত্রিকায় এ শহরে আগামী সপ্তাহে বড় উৎসবের কথা ছিল।"
+        }
+      },
+      {
+        "id": "minna-047-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How long has the festival apparently continued?",
+          "bn": "উৎসবটি কত বছর ধরে চলছে বলে জানা যায়?"
+        },
+        "options": [
+          "One hundred years",
+          "Two hundred years",
+          "Three hundred years",
+          "Five hundred years"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text says according to a friend it has continued since three hundred years ago.",
+          "bn": "পাঠে বলা হয়েছে বন্ধুর মতে এটি তিনশ বছর আগে থেকে চলে আসছে।"
+        }
+      },
+      {
+        "id": "minna-047-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why might the writer not be able to take part?",
+          "bn": "লেখক কেন অংশ নাওয়ার নাও হতে পারেন?"
+        },
+        "options": [
+          "They have a business trip that day",
+          "They are sick",
+          "They do not like festivals",
+          "They have no money"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says it seems the writer has a business trip scheduled that day.",
+          "bn": "পাঠে বলা হয়েছে সেদিন লেখকের কাজের সফরের পরিকল্পনা আছে বলে মনে হচ্ছে।"
+        }
+      }
     ]
   }
 ]

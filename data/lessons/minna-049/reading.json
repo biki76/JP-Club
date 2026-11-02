@@ -62,6 +62,65 @@
         "en": "Honorific language is still difficult, but I am learning it a little every day.",
         "bn": "সম্মানসূচক ভাষা এখনো কঠিন, তবে প্রতিদিন একটু একটু করে শিখছি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-049-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where did the staff member show the writer?",
+          "bn": "কর্মী লেখককে কোথায় নিয়ে গিয়েছিলেন?"
+        },
+        "options": [
+          "The first floor",
+          "The second floor",
+          "The basement",
+          "The roof"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says the staff member showed the writer to the second floor (二階).",
+          "bn": "পাঠে বলা হয়েছে কর্মী লেখককে দ্বিতীয় তলায় (二階) নিয়ে গিয়েছিলেন।"
+        }
+      },
+      {
+        "id": "minna-049-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did the president say about the plan?",
+          "bn": "পরিকল্পনা সম্পর্কে প্রেসিডেন্ট কী বলেছিলেন?"
+        },
+        "options": [
+          "It is too expensive",
+          "It is a good idea",
+          "It needs more work",
+          "It is too late"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The president said 「いい 考えですね」 — it is a good idea.",
+          "bn": "প্রেসিডেন্ট বলেছিলেন 「いい 考えですね」 — এটি ভালো ধারণা।"
+        }
+      },
+      {
+        "id": "minna-049-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How far did the department manager see the writer off?",
+          "bn": "বিভাগীয় প্রধান লেখককে কোথা পর্যন্ত এগিয়ে দিয়েছিলেন?"
+        },
+        "options": [
+          "To the entrance",
+          "To the elevator",
+          "To the station",
+          "To the car"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says he saw the writer off to the elevator.",
+          "bn": "পাঠে বলা হয়েছে তিনি লেখককে লিফট পর্যন্ত এগিয়ে দিয়েছিলেন।"
+        }
+      }
     ]
   }
 ]
