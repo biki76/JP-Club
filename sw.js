@@ -5,12 +5,24 @@
  */
 'use strict';
 
-const VERSION    = 'v118';
+const VERSION    = 'v119';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
 
 const PRECACHE = [
+  'content/i18n/ur.json',
+  'content/i18n/hi.json',
+  'content/i18n/ne.json',
+  'content/i18n/fil.json',
+  'content/i18n/ko.json',
+  'content/i18n/id.json',
+  'content/i18n/zh.json',
+  'content/i18n/vi.json',
+  'content/i18n/en.json',
+  'css/ui-lang.css',
+  'js/ui-lang-init.js',
+  'js/ui-lang.js',
   'js/lesson-practice.js',
   'js/lesson-questions.js',
   'css/lesson-questions.css',
