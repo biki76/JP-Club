@@ -26,3 +26,9 @@ a.ls-card:active{transform:scale(.98)}
 @media (prefers-reduced-motion:reduce){a.ls-card:hover{transform:none}}
 
 .ls-cover{ display:block; width:100%; aspect-ratio:5/3; object-fit:cover; border-radius:var(--v2-r-md,10px); margin-bottom:8px; }
+
+/* ls-align */
+.ls-card{ justify-content:flex-start; }
+.ls-foot{ margin-top:auto; padding-top:12px; }
+.ls-top{ margin-bottom:4px; }
+.ls-ring, .ls-ring .v2-ring{ width:36px; height:36px; }
