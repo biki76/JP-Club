@@ -69,6 +69,65 @@
         "en": "Understood. See you later.",
         "bn": "বুঝেছি। তাহলে পরে দেখা হবে।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-043-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where is the second speaker now?",
+          "bn": "দ্বিতীয় বক্তা এখন কোথায়?"
+        },
+        "options": [
+          "At home",
+          "Near the station",
+          "At the office",
+          "At the airport"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The speaker says 「駅の 近くです」 — near the station.",
+          "bn": "বক্তা বলেন 「駅の 近くです」 — স্টেশনের কাছে।"
+        }
+      },
+      {
+        "id": "minna-043-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why does the sky look worrying?",
+          "bn": "আকাশ কেন উদ্বেগজনক দেখাচ্ছে?"
+        },
+        "options": [
+          "It is dark and looks like rain",
+          "It is full of stars",
+          "It is very bright",
+          "It is snowing"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The speaker says 「空が 暗くて、雨が 降りそうです」 — the sky is dark and it looks like rain.",
+          "bn": "বক্তা বলেন 「空が 暗くて、雨が 降りそうです」 — আকাশ অন্ধকার, বৃষ্টি হতে পারে।"
+        }
+      },
+      {
+        "id": "minna-043-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will the first speaker buy at the convenience store?",
+          "bn": "প্রথম বক্তা কনভিনিয়েন্স স্টোর থেকে কী কিনবেন?"
+        },
+        "options": [
+          "Bread and coffee",
+          "Milk and eggs",
+          "A bento",
+          "An umbrella"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The other speaker asks for 「パンと コーヒー」 — bread and coffee.",
+          "bn": "অপর বক্তা 「パンと コーヒー」 — রুটি ও কফি চান।"
+        }
+      }
     ]
   }
 ]

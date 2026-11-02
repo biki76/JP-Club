@@ -69,6 +69,65 @@
         "en": "No matter who comes, it is the same time. Understood.",
         "bn": "যে-ই আসুক, সময় একই। বুঝেছি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-045-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will they do if it rains?",
+          "bn": "বৃষ্টি হলে তারা কী করবে?"
+        },
+        "options": [
+          "Watch a movie at school",
+          "Go on the excursion",
+          "Stay home",
+          "Go to the mountains"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The speaker says 「雨が 降る 場合は、学校で 映画を 見ます」 — watch a movie at school.",
+          "bn": "বক্তা বলেন 「雨が 降る 場合は、学校で 映画を 見ます」 — স্কুলে সিনেমা দেখবে।"
+        }
+      },
+      {
+        "id": "minna-045-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Will the excursion happen if it rains a little?",
+          "bn": "একটু বৃষ্টি হলে ভ্রমণ হবে কি?"
+        },
+        "options": [
+          "Yes, it will",
+          "Yes, but shortened",
+          "No, it will be cancelled",
+          "Only in the morning"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The speaker says 「少しでも 降ったら、中止です」 — if it rains even a little, it is cancelled.",
+          "bn": "বক্তা বলেন 「少しでも 降ったら、中止です」 — একটু বৃষ্টি হলেও বাতিল।"
+        }
+      },
+      {
+        "id": "minna-045-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What time should students come to school if it rains?",
+          "bn": "বৃষ্টি হলে ছাত্রদের কয়টায় স্কুলে আসতে হবে?"
+        },
+        "options": [
+          "Seven",
+          "Eight",
+          "Nine",
+          "Ten"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The speaker says 「いつもと 同じ、八時です」 — same as usual, eight o'clock.",
+          "bn": "বক্তা বলেন 「いつもと 同じ、八時です」 — সবসময়ের মতো আটটা।"
+        }
+      }
     ]
   }
 ]

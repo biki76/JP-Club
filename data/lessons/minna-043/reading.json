@@ -69,6 +69,65 @@
         "en": "In the cold air, we drank warm coffee.",
         "bn": "ঠান্ডা বাতাসের মধ্যে আমরা গরম কফি পান করলাম।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-043-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did the forecast say about the afternoon?",
+          "bn": "পূর্বাভাসে বিকেল সম্পর্কে কী বলা হয়েছিল?"
+        },
+        "options": [
+          "It looked like it would rain",
+          "It would be sunny",
+          "It would be windy",
+          "It would be hot"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says the forecast said it looked like it would rain from the afternoon.",
+          "bn": "পাঠে বলা হয়েছে পূর্বাভাসে বিকেল থেকে বৃষ্টির সম্ভাবনা ছিল।"
+        }
+      },
+      {
+        "id": "minna-043-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Who did the writer go to meet?",
+          "bn": "লেখক কাকে নিতে গিয়েছিলেন?"
+        },
+        "options": [
+          "A friend",
+          "A family member",
+          "A teacher",
+          "A colleague"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says the writer went to the airport to pick up a friend.",
+          "bn": "পাঠে বলা হয়েছে লেখক বন্ধুকে নিতে বিমানবন্দরে গিয়েছিলেন।"
+        }
+      },
+      {
+        "id": "minna-043-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did the writer buy at the bakery?",
+          "bn": "লেখক বেকারিতে কী কিনেছিলেন?"
+        },
+        "options": [
+          "Coffee",
+          "Bread",
+          "Cake",
+          "Milk"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says the writer bought delicious-looking bread at the bakery.",
+          "bn": "পাঠে বলা হয়েছে লেখক বেকারিতে সুস্বাদু দেখতে রুটি কিনেছিলেন।"
+        }
+      }
     ]
   }
 ]

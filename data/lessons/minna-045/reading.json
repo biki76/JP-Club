@@ -62,6 +62,65 @@
         "en": "In a dangerous case, please ask someone for help.",
         "bn": "বিপদজনক হলে কারো কাছে সাহায্য চান।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-045-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "When do many typhoons come in Japan?",
+          "bn": "জাপানে কখন অনেক টাইফুন আসে?"
+        },
+        "options": [
+          "From spring to summer",
+          "From summer to autumn",
+          "From autumn to winter",
+          "From winter to spring"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「夏から 秋に かけて」 — from summer to autumn.",
+          "bn": "পাঠে বলা হয়েছে 「夏から 秋に かけて」 — গ্রীষ্ম থেকে শরৎ পর্যন্ত।"
+        }
+      },
+      {
+        "id": "minna-045-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What should you do if a typhoon comes?",
+          "bn": "টাইফুন এলে কী করা উচিত?"
+        },
+        "options": [
+          "Go outside to check",
+          "Try not to go outside",
+          "Open all windows",
+          "Drive to the sea"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「家の 外に 出ない ように して ください」 — try not to go outside.",
+          "bn": "পাঠে বলা হয়েছে 「家の 外に 出ない ように して ください」 — বাইরে না যাওয়ার চেষ্টা করুন।"
+        }
+      },
+      {
+        "id": "minna-045-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What must you do immediately if it becomes a flood?",
+          "bn": "বন্যা হলে সাথে সাথে কী করতে হবে?"
+        },
+        "options": [
+          "Evacuate",
+          "Watch TV",
+          "Call the school",
+          "Cook food"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「すぐに 避難しなければ なりません」 — must evacuate immediately.",
+          "bn": "পাঠে বলা হয়েছে 「すぐに 避難しなければ なりません」 — সাথে সাথে সরিয়ে নিতে হবে।"
+        }
+      }
     ]
   }
 ]

@@ -76,6 +76,65 @@
         "en": "Thank you. Let us both do our best.",
         "bn": "ধন্যবাদ। চলুন দুজনে চেষ্টা করি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-042-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why does Tanaka study Japanese?",
+          "bn": "তানাকা কেন জাপানি পড়েন?"
+        },
+        "options": [
+          "To travel",
+          "To work in Japan",
+          "To teach children",
+          "To watch movies"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "Tanaka says 「日本で 働く ために」 — in order to work in Japan.",
+          "bn": "তানাকা বলেন 「日本で 働く ために」 — জাপানে কাজ করার জন্য।"
+        }
+      },
+      {
+        "id": "minna-042-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does Tanaka want to be in the future?",
+          "bn": "ভবিষ্যতে তানাকা কী হতে চান?"
+        },
+        "options": [
+          "An engineer",
+          "A teacher",
+          "A doctor",
+          "A writer"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "Tanaka says he wants to work as an engineer (エンジニア).",
+          "bn": "তানাকা বলেন তিনি ইঞ্জিনিয়ার (エンジニア) হিসেবে কাজ করতে চান।"
+        }
+      },
+      {
+        "id": "minna-042-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What happened last night?",
+          "bn": "গত রাতে কী হয়েছিল?"
+        },
+        "options": [
+          "He studied until late but did not progress much",
+          "He slept early",
+          "He finished the textbook",
+          "He met a friend"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "Tanaka says 「夜 遅くまで 勉強した のに、あまり 進みませんでした」 — studied late but did not progress much.",
+          "bn": "তানাকা বলেন 「夜 遅くまで 勉強した のに、あまり 進みませんでした」 — রাত পর্যন্ত পড়েও বেশি এগোয়নি।"
+        }
+      }
     ]
   }
 ]

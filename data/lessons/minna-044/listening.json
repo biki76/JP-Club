@@ -69,6 +69,65 @@
         "en": "That helps a lot. Thank you in advance.",
         "bn": "খুব উপকার হবে। দয়া করে দেখবেন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-044-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Since when has the computer not been working?",
+          "bn": "কখন থেকে কম্পিউটার কাজ করছে না?"
+        },
+        "options": [
+          "Since last night",
+          "Since this morning",
+          "Since yesterday afternoon",
+          "Since last week"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The caller says 「今朝からです」 — since this morning.",
+          "bn": "কলকারী বলেন 「今朝からです」 — আজ সকাল থেকে।"
+        }
+      },
+      {
+        "id": "minna-044-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why was the manual hard to understand?",
+          "bn": "ম্যানুয়াল কেন বোঝা কঠিন ছিল?"
+        },
+        "options": [
+          "It had a lot of kanji",
+          "It was in English",
+          "It was too short",
+          "It had no pictures"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The caller says 「漢字が 多くて、わかりにくかったです」 — there was a lot of kanji.",
+          "bn": "কলকারী বলেন 「漢字が 多くて、わかりにくかったです」 — অনেক কাঞ্জি ছিল।"
+        }
+      },
+      {
+        "id": "minna-044-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will happen after the repair?",
+          "bn": "মেরামতের পরে কী হবে?"
+        },
+        "options": [
+          "The usage will be explained once more",
+          "The computer will be replaced",
+          "The manual will be thrown away",
+          "A new computer will be sold"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The staff says 「使い方を もう 一度 説明しますね」 — will explain how to use it once more.",
+          "bn": "কর্মী বলেন 「使い方を もう 一度 説明しますね」 — ব্যবহারের নিয়ম আরেকবার বুঝিয়ে দেবেন।"
+        }
+      }
     ]
   }
 ]

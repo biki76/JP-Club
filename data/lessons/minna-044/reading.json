@@ -62,6 +62,65 @@
         "en": "From now on I will be careful not to use it too much.",
         "bn": "এখন থেকে অতিরিক্ত ব্যবহার না করার দিকে খেয়াল রাখব।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-044-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "When did the writer buy the new computer?",
+          "bn": "লেখক কখন নতুন কম্পিউটার কিনেছিলেন?"
+        },
+        "options": [
+          "Last month",
+          "Last week",
+          "Yesterday",
+          "This morning"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「先週、新しい コンピューターを 買いました」 — last week.",
+          "bn": "পাঠে বলা হয়েছে 「先週、新しい コンピューターを 買いました」 — গত সপ্তাহে।"
+        }
+      },
+      {
+        "id": "minna-044-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why is the manual hard to understand?",
+          "bn": "ম্যানুয়াল কেন বোঝা কঠিন?"
+        },
+        "options": [
+          "It is too short",
+          "It has many kanji",
+          "It is written in English",
+          "It has no pictures"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「説明書の 漢字が 多くて、わかりにくいです」 — many kanji make it hard.",
+          "bn": "পাঠে বলা হয়েছে 「説明書の 漢字が 多くて、わかりにくいです」 — অনেক কাঞ্জি থাকায় বোঝা কঠিন।"
+        }
+      },
+      {
+        "id": "minna-044-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will the writer be careful about from now on?",
+          "bn": "লেখক এখন থেকে কী নিয়ে সতর্ক থাকবেন?"
+        },
+        "options": [
+          "Not to use it too much",
+          "Not to drop it",
+          "Not to lend it",
+          "Not to buy new ones"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「使い過ぎない ように、気を つけます」 — careful not to overuse it.",
+          "bn": "পাঠে বলা হয়েছে 「使い過ぎない ように、気を つけます」 — বেশি ব্যবহার না করতে সতর্ক থাকবেন।"
+        }
+      }
     ]
   }
 ]

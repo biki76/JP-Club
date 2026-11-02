@@ -62,6 +62,65 @@
         "en": "I will prepare the food in advance, so please do come.",
         "bn": "আমি আগেই খাবার তৈরি করে রাখব, তাই অবশ্যই আসবেন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-041-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did the friend do last week?",
+          "bn": "গত সপ্তাহে বন্ধুটি কী করেছিল?"
+        },
+        "options": [
+          "Came to pick the writer up at the station",
+          "Sent a souvenir",
+          "Cooked dinner",
+          "Bought a car"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The letter says the friend came to pick the writer up at the station by car.",
+          "bn": "চিঠিতে বলা হয়েছে বন্ধুটি গাড়িতে করে স্টেশনে লেখককে নিতে এসেছিল।"
+        }
+      },
+      {
+        "id": "minna-041-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why was the writer in trouble that day?",
+          "bn": "সেদিন লেখক কেন সমস্যায় পড়েছিলেন?"
+        },
+        "options": [
+          "The car broke down",
+          "There was too much luggage to carry alone",
+          "It was raining heavily",
+          "The station was closed"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The letter says there was a lot of luggage and the writer could not carry it alone.",
+          "bn": "চিঠিতে বলা হয়েছে অনেক মালপত্র ছিল এবং একা বহন করা সম্ভব হয়নি।"
+        }
+      },
+      {
+        "id": "minna-041-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the writer's mother want to do?",
+          "bn": "লেখকের মা কী করতে চান?"
+        },
+        "options": [
+          "Visit the station",
+          "Give the friend flowers",
+          "Cook for the friend",
+          "Send a letter"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The letter says the mother said she wants to give the friend flowers.",
+          "bn": "চিঠিতে বলা হয়েছে মা বন্ধুটিকে ফুল দিতে চান।"
+        }
+      }
     ]
   }
 ]

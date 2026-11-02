@@ -62,6 +62,65 @@
         "en": "In order to realize my dream, I will keep doing my best.",
         "bn": "স্বপ্ন বাস্তবায়নের জন্যে আগামী দিনেও চেষ্টা চালিয়ে যাব।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-042-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why does the writer study Japanese every day?",
+          "bn": "লেখক কেন প্রতিদিন জাপানি পড়েন?"
+        },
+        "options": [
+          "To work part-time",
+          "To study at a Japanese university",
+          "To watch anime",
+          "To teach children"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「日本の 大学で 勉強する ために」 — in order to study at a Japanese university.",
+          "bn": "পাঠে বলা হয়েছে 「日本の 大学で 勉強する ために」 — জাপানি বিশ্ববিদ্যালয়ে পড়ার জন্য।"
+        }
+      },
+      {
+        "id": "minna-042-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why could the writer not study yesterday?",
+          "bn": "গতকাল লেখক কেন পড়তে পারেননি?"
+        },
+        "options": [
+          "The textbook was lost",
+          "They were not feeling well",
+          "The library was closed",
+          "They had a test"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「体の 具合が 悪かった ために」 — because they were not feeling well.",
+          "bn": "পাঠে বলা হয়েছে 「体の 具合が 悪かった ために」 — শরীর খারাপ ছিল।"
+        }
+      },
+      {
+        "id": "minna-042-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the writer say about the textbook?",
+          "bn": "লেখক পাঠ্যবই সম্পর্কে কী বলেন?"
+        },
+        "options": [
+          "It is convenient for exam preparation",
+          "It is too expensive",
+          "It is too easy",
+          "It has no kanji"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says the textbook is convenient for preparing for exams.",
+          "bn": "পাঠে বলা হয়েছে পাঠ্যবই পরীক্ষার প্রস্তুতির জন্য সুবিধাজনক।"
+        }
+      }
     ]
   }
 ]

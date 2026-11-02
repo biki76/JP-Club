@@ -69,6 +69,65 @@
         "en": "Thank you very much. I will give you something in return.",
         "bn": "অনেক ধন্যবাদ। আমি ঘুরেও কিছু দেব।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-041-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How far does the speaker want the box carried?",
+          "bn": "বক্তা বাক্সটি কোথা পর্যন্ত বহন করতে চান?"
+        },
+        "options": [
+          "To the station",
+          "To near the station",
+          "To the post office",
+          "To the house"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The speaker says 「駅の 近くまで お願いします」 — up to near the station.",
+          "bn": "বক্তা বলেন 「駅の 近くまで お願いします」 — স্টেশনের কাছাকাছি পর্যন্ত।"
+        }
+      },
+      {
+        "id": "minna-041-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Where is the postbox?",
+          "bn": "ডাকবাক্স কোথায়?"
+        },
+        "options": [
+          "In front of the station",
+          "Behind the station",
+          "Inside the shop",
+          "Next to the box"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The speaker says 「ポストは 駅の 前に あります」 — in front of the station.",
+          "bn": "বক্তা বলেন 「ポストは 駅の 前に あります」 — স্টেশনের সামনে।"
+        }
+      },
+      {
+        "id": "minna-041-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the first speaker promise at the end?",
+          "bn": "প্রথম বক্তা শেষে কী প্রতিশ্রুতি দেন?"
+        },
+        "options": [
+          "To give something in return",
+          "To come again tomorrow",
+          "To call a friend",
+          "To carry the box himself"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The speaker says 「何か お返ししますね」 — I will give something in return.",
+          "bn": "বক্তা বলেন 「何か お返ししますね」 — বিনিময়ে কিছু দেব।"
+        }
+      }
     ]
   }
 ]
