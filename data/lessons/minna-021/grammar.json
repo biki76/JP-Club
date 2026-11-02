@@ -11,6 +11,20 @@
         "bn": "আগামীকাল বৃষ্টি হবে বলে আমি মনে করি।",
         "furigana": "あしたは あめだと おもいます।",
         "romaji": "ashita wa ame da to omoimasu."
+      },
+      {
+        "jp": "明日は 雨だと 思います。",
+        "en": "I think it will rain tomorrow.",
+        "furigana": "あしたは あめだと おもいます。",
+        "romaji": "ashita wa ame da to omoimasu.",
+        "bn": "আমি মনে করি আগামীকাল বৃষ্টি হবে।"
+      },
+      {
+        "jp": "この 映画は 面白いと 思います。",
+        "en": "I think this movie is interesting.",
+        "furigana": "この えいがは おもしろいと おもいます。",
+        "romaji": "kono eiga wa omoshiroi to omoimasu.",
+        "bn": "আমি মনে করি এই সিনেমাটি মজার।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "শিক্ষক বলেছিলেন আগামীকাল পরীক্ষা আছে।",
         "furigana": "せんせいは あした テストが あると いいました।",
         "romaji": "sensei wa ashita tesuto ga aru to iimashita."
+      },
+      {
+        "jp": "田中さんは「明日 来ます」と 言いました。",
+        "en": "Tanaka-san said, \"I will come tomorrow.\"",
+        "furigana": "たなかさんは「あした きます」と いいました。",
+        "romaji": "tanaka-san wa \"ashita kimasu\" to iimashita.",
+        "bn": "তানাকা বলেছিলেন, \"আমি আগামীকাল আসব।\""
+      },
+      {
+        "jp": "先生は 試験は 難しいと 言いました。",
+        "en": "The teacher said the exam is difficult.",
+        "furigana": "せんせいは しけんは むずかしいと いいました。",
+        "romaji": "sensei wa shiken wa muzukashii to iimashita.",
+        "bn": "শিক্ষক বলেছিলেন পরীক্ষা কঠিন।"
       }
     ],
     "tags": [

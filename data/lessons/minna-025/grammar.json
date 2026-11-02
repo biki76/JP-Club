@@ -11,6 +11,20 @@
         "bn": "বৃষ্টি হলে যাব না।",
         "furigana": "あめが ふったら、いきません।",
         "romaji": "ame ga futtara, ikimasen."
+      },
+      {
+        "jp": "時間が あったら、映画を 見に 行きます。",
+        "en": "If I have time, I'll go see a movie.",
+        "furigana": "じかんが あったら、えいがを みに いきます。",
+        "romaji": "jikan ga attara, eiga o mi ni ikimasu.",
+        "bn": "সময় থাকলে সিনেমা দেখতে যাব।"
+      },
+      {
+        "jp": "安かったら、この 靴を 買います。",
+        "en": "If it's cheap, I'll buy these shoes.",
+        "furigana": "やすかったら、この くつを かいます。",
+        "romaji": "yasukattara, kono kutsu o kaimasu.",
+        "bn": "দাম কম হলে এই জুতোটা কিনব।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "বৃষ্টি হলেও খেলা হবে।",
         "furigana": "あめが ふっても、しあいは あります।",
         "romaji": "ame ga futtemo, shiai wa arimasu."
+      },
+      {
+        "jp": "雨が 降っても、試合を します。",
+        "en": "Even if it rains, we will have the match.",
+        "furigana": "あめが ふっても、しあいを します。",
+        "romaji": "ame ga futtemo, shiai o shimasu.",
+        "bn": "বৃষ্টি হলেও খেলা হবে।"
+      },
+      {
+        "jp": "高くても、この 本を 買います。",
+        "en": "Even if it's expensive, I'll buy this book.",
+        "furigana": "たかくても、この ほんを かいます。",
+        "romaji": "takakutemo, kono hon o kaimasu.",
+        "bn": "দাম বেশি হলেও এই বইটা কিনব।"
       }
     ],
     "tags": [

@@ -11,6 +11,20 @@
         "bn": "শিশু বয়সে আমি প্রায়ই পার্কে খেলতাম।",
         "furigana": "こどもの とき、よく こうえんで あそびました।",
         "romaji": "kodomo no toki, yoku kouen de asobimashita."
+      },
+      {
+        "jp": "子供の とき、よく 公園で 遊びました。",
+        "en": "When I was a child, I often played in the park.",
+        "furigana": "こどもの とき、よく こうえんで あそびました。",
+        "romaji": "kodomo no toki, yoku kouen de asobimashita.",
+        "bn": "ছোটবেলায় আমি প্রায়ই পার্কে খেলতাম।"
+      },
+      {
+        "jp": "時間が ない とき、朝ご飯を 食べません。",
+        "en": "When I don't have time, I don't eat breakfast.",
+        "furigana": "じかんが ない とき、あさごはんを たべません。",
+        "romaji": "jikan ga nai toki, asagohan o tabemasen.",
+        "bn": "সময় না থাকলে আমি সকালের নাশতা খাই না।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "এই বোতাম টিপলে দরজা খুলে যায়।",
         "furigana": "この ボタンを おすと、ドアが あきます।",
         "romaji": "kono botan o osu to, doa ga akimasu."
+      },
+      {
+        "jp": "春に なると、桜が 咲きます。",
+        "en": "When spring comes, cherry blossoms bloom.",
+        "furigana": "はるに なると、さくらが さきます。",
+        "romaji": "haru ni naru to, sakura ga sakimasu.",
+        "bn": "বসন্ত এলে চেরি ফুল ফোটে।"
+      },
+      {
+        "jp": "この ボタンを 押すと、ドアが 開きます。",
+        "en": "When you press this button, the door opens.",
+        "furigana": "この ボタンを おすと、ドアが あきます。",
+        "romaji": "kono botan o osu to, doa ga akimasu.",
+        "bn": "এই বোতাম চাপলে দরজা খুলে যায়।"
       }
     ],
     "tags": [

@@ -11,6 +11,20 @@
         "bn": "আমি ছোট বোনের জন্য মিষ্টি বানিয়ে দিয়েছিলাম।",
         "furigana": "わたしは いもうとに おかしを つくって あげました।",
         "romaji": "watashi wa imouto ni okashi o tsukutte agemashita."
+      },
+      {
+        "jp": "私は 友達に 本を 貸して あげました。",
+        "en": "I lent a book to my friend.",
+        "furigana": "わたしは ともだちに ほんを かして あげました。",
+        "romaji": "watashi wa tomodachi ni hon o kashite agemashita.",
+        "bn": "আমি বন্ধুকে বই ধার দিয়েছিলাম।"
+      },
+      {
+        "jp": "田中さんに 日本語を 教えて あげます。",
+        "en": "I will teach Japanese to Tanaka-san.",
+        "furigana": "たなかさんに にほんごを おしえて あげます。",
+        "romaji": "tanaka-san ni nihongo o oshiete agemasu.",
+        "bn": "আমি তানাকাকে জাপানি শেখাব।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "আমি বন্ধুর কাছে ছবি তুলিয়ে নিলাম।",
         "furigana": "わたしは ともだちに しゃしんを とって もらいました।",
         "romaji": "watashi wa tomodachi ni shashin o totte moraimashita."
+      },
+      {
+        "jp": "私は 先生に 漢字を 教えて もらいました。",
+        "en": "I had the teacher teach me kanji.",
+        "furigana": "わたしは せんせいに かんじを おしえて もらいました。",
+        "romaji": "watashi wa sensei ni kanji o oshiete moraimashita.",
+        "bn": "আমি শিক্ষকের কাছে কাঞ্জি শিখেছিলাম।"
+      },
+      {
+        "jp": "友達に 写真を 撮って もらいました。",
+        "en": "I had my friend take a photo.",
+        "furigana": "ともだちに しゃしんを とって もらいました。",
+        "romaji": "tomodachi ni shashin o totte moraimashita.",
+        "bn": "আমি বন্ধুর কাছে ছবি তুলিয়েছি।"
       }
     ],
     "tags": [

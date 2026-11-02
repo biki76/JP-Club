@@ -11,6 +11,20 @@
         "bn": "এটি আমার তৈরি করা লাঞ্চবক্স।",
         "furigana": "これは わたしが つくった おべんとうです।",
         "romaji": "kore wa watashi ga tsukutta obentou desu."
+      },
+      {
+        "jp": "これは 私が 作った ケーキです。",
+        "en": "This is the cake I made.",
+        "furigana": "これは わたしが つくった ケーキです。",
+        "romaji": "kore wa watashi ga tsukutta keeki desu.",
+        "bn": "এটি আমার বানানো কেক।"
+      },
+      {
+        "jp": "あの 背が 高い 人は 田中さんです。",
+        "en": "That tall person is Tanaka-san.",
+        "furigana": "あの せが たかい ひとは たなかさんです。",
+        "romaji": "ano se ga takai hito wa tanaka-san desu.",
+        "bn": "ওই লম্বা মানুষটি তানাকা।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "আমি ফোন করতে ভুলে গেছি।",
         "furigana": "でんわを かけるのを わすれました।",
         "romaji": "denwa o kakeru no o wasuremashita."
+      },
+      {
+        "jp": "宿題を するのを 忘れました。",
+        "en": "I forgot to do my homework.",
+        "furigana": "しゅくだいを するのを わすれました。",
+        "romaji": "shukudai o suru no o wasuremashita.",
+        "bn": "আমি বাড়ির কাজ করতে ভুলে গিয়েছি।"
+      },
+      {
+        "jp": "薬を 飲むのを 忘れました。",
+        "en": "I forgot to take my medicine.",
+        "furigana": "くすりを のむのを わすれました。",
+        "romaji": "kusuri o nomu no o wasuremashita.",
+        "bn": "আমি ঔষধ খেতে ভুলে গিয়েছি।"
       }
     ],
     "tags": [
