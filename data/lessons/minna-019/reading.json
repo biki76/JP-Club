@@ -13,6 +13,65 @@
         "en": "This is climb, go up.",
         "bn": "এটি climb, go up।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-019-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'climb, go up'",
+          "A verb meaning 'descend'",
+          "A verb meaning 'stay at a hotel'",
+          "A noun meaning 'mountain'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「のぼります」 as 'climb, go up'.",
+          "bn": "পাঠে 「のぼります」 এর অর্থ 'climb, go up' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-019-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'climb'?",
+          "bn": "কোন শব্দের অর্থ 'আরোহণ করা'?"
+        },
+        "options": [
+          "とまります",
+          "のぼります",
+          "そうじします",
+          "せんたくします"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「のぼります」 means 'climb, go up'.",
+          "bn": "「のぼります」 অর্থ 'আরোহণ করা'।"
+        }
+      },
+      {
+        "id": "minna-019-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is stay.",
+          "This is clean.",
+          "This is climb.",
+          "This is wash."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは のぼります です。」 as 'This is climb, go up'.",
+          "bn": "পাঠে 「これは のぼります です。」 এর অর্থ 'This is climb' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

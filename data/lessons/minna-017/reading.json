@@ -13,6 +13,65 @@
         "en": "This is memorise.",
         "bn": "এটি memorise।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-017-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'forget'",
+          "A verb meaning 'memorise'",
+          "A verb meaning 'pay'",
+          "A verb meaning 'return'"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「おぼえます」 as 'memorise'.",
+          "bn": "পাঠে 「おぼえます」 এর অর্থ 'memorise' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-017-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'memorise'?",
+          "bn": "কোন শব্দের অর্থ 'মুখস্থ করা'?"
+        },
+        "options": [
+          "わすれます",
+          "おぼえます",
+          "はらいます",
+          "かえします"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「おぼえます」 means 'memorise'; 「わすれます」 is 'forget'.",
+          "bn": "「おぼえます」 অর্থ 'মুখস্থ করা'; 「わすれます」 অর্থ 'ভুলে যাওয়া'।"
+        }
+      },
+      {
+        "id": "minna-017-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is forget.",
+          "This is pay.",
+          "This is memorise.",
+          "This is return."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは おぼえます です。」 as 'This is memorise'.",
+          "bn": "পাঠে 「これは おぼえます です。」 এর অর্থ 'This is memorise' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

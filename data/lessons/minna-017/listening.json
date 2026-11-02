@@ -14,6 +14,65 @@
         "en": "What is memorise?",
         "bn": "memorise কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-017-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে?"
+        },
+        "options": [
+          "わすれます",
+          "おぼえます",
+          "はらいます",
+          "かえします"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The transcript is 「おぼえます は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「おぼえます は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-017-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「おぼえます」 mean?",
+          "bn": "পাঠ অনুযায়ী 「おぼえます」 এর অর্থ কী?"
+        },
+        "options": [
+          "forget",
+          "pay",
+          "memorise",
+          "return"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「おぼえます」 as 'memorise'.",
+          "bn": "পাঠে 「おぼえます」 এর অর্থ 'memorise' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-017-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the question ask for?",
+          "bn": "প্রশ্নটি কী জানতে চাইছে?"
+        },
+        "options": [
+          "A meaning",
+          "A place",
+          "A time",
+          "A price"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「何 ですか」 asks for the meaning of the word.",
+          "bn": "「何 ですか」 শব্দটির অর্থ জানতে চাইছে।"
+        }
+      }
     ]
   }
 ]

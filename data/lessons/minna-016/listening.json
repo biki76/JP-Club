@@ -14,6 +14,65 @@
         "en": "What is ride, get on [a train]?",
         "bn": "ride, get on [a train] কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-016-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is being asked about?",
+          "bn": "কোন শব্দ সম্পর্কে জিজ্ঞাসা করা হচ্ছে?"
+        },
+        "options": [
+          "おります",
+          "のります［でんしゃに～］",
+          "のりかえます",
+          "はいります"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The transcript is 「のります［でんしゃに～］ は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「のります［でんしゃに～］ は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-016-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「のります」 mean?",
+          "bn": "পাঠ অনুযায়ী 「のります」 এর অর্থ কী?"
+        },
+        "options": [
+          "get off",
+          "change trains",
+          "get on",
+          "enter"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「のります［でんしゃに～］」 as 'ride, get on [a train]'.",
+          "bn": "পাঠে 「のります［でんしゃに～］」 এর অর্থ 'get on' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-016-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What kind of question is it?",
+          "bn": "এটি কোন ধরনের প্রশ্ন?"
+        },
+        "options": [
+          "A 'what' question",
+          "A 'where' question",
+          "A 'who' question",
+          "A 'how many' question"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "It uses 「何」, so it is a 'what' question.",
+          "bn": "এতে 「何」 ব্যবহৃত হয়েছে, তাই এটি 'কী' ধরনের প্রশ্ন।"
+        }
+      }
     ]
   }
 ]

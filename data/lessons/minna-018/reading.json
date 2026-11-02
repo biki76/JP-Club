@@ -13,6 +13,65 @@
         "en": "This is be able to, can.",
         "bn": "এটি be able to, can।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-018-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "'be able to, can'",
+          "'want'",
+          "'must'",
+          "'not allowed'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「できます」 as 'be able to, can'.",
+          "bn": "পাঠে 「できます」 এর অর্থ 'be able to, can' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-018-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'be able to / can'?",
+          "bn": "কোন শব্দের অর্থ 'পারা'?"
+        },
+        "options": [
+          "できます",
+          "ほしいです",
+          "たいです",
+          "いけません"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「できます」 means 'be able to, can'.",
+          "bn": "「できます」 অর্থ 'পারা'।"
+        }
+      },
+      {
+        "id": "minna-018-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is want.",
+          "This is be able to.",
+          "This is must.",
+          "This is forget."
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「これは できます です。」 as 'This is be able to, can'.",
+          "bn": "পাঠে 「これは できます です。」 এর অর্থ 'This is be able to' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

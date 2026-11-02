@@ -13,6 +13,65 @@
         "en": "This is ride, get on [a train].",
         "bn": "এটি ride, get on [a train]।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-016-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'get off [a train]'",
+          "A verb meaning 'ride, get on [a train]'",
+          "A noun meaning 'station'",
+          "A verb meaning 'change trains'"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「のります［でんしゃに～］」 as 'ride, get on [a train]'.",
+          "bn": "পাঠে 「のります［でんしゃに～］」 এর অর্থ 'ride, get on [a train]' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-016-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'get on [a train]'?",
+          "bn": "কোন শব্দের অর্থ 'ট্রেনে ওঠা'?"
+        },
+        "options": [
+          "おります",
+          "のります",
+          "のりかえます",
+          "はいります"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「のります［でんしゃに～］」 means 'ride, get on'.",
+          "bn": "「のります［でんしゃに～］」 অর্থ 'ওঠা'।"
+        }
+      },
+      {
+        "id": "minna-016-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is get off.",
+          "This is change trains.",
+          "This is ride.",
+          "This is get out."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは のります［でんしゃに～］ です。」 as 'This is ride, get on'.",
+          "bn": "পাঠে 「これは のります［でんしゃに～］ です。」 এর অর্থ 'This is ride' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

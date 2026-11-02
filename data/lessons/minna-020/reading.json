@@ -13,6 +13,65 @@
         "en": "This is need, require [a visa].",
         "bn": "এটি need, require [a visa]।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-020-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'need, require [a visa]'",
+          "A verb meaning 'check'",
+          "A verb meaning 'repair'",
+          "A noun meaning 'passport'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「いります［ビザが～］」 as 'need, require [a visa]'.",
+          "bn": "পাঠে 「いります［ビザが～］」 এর অর্থ 'need, require [a visa]' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-020-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'need / require'?",
+          "bn": "কোন শব্দের অর্থ 'প্রয়োজন হওয়া'?"
+        },
+        "options": [
+          "しらべます",
+          "いります",
+          "なおします",
+          "おしえます"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「いります［ビザが～］」 means 'need, require'.",
+          "bn": "「いります［ビザが～］」 অর্থ 'প্রয়োজন হওয়া'।"
+        }
+      },
+      {
+        "id": "minna-020-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is check.",
+          "This is repair.",
+          "This is need.",
+          "This is teach."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは いります［ビザが～］ です。」 as 'This is need, require [a visa]'.",
+          "bn": "পাঠে 「これは いります［ビザが～］ です。」 এর অর্থ 'This is need' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]
