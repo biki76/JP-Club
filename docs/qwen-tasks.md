@@ -1,11 +1,11 @@
-# DeepSeek assignment (JP-Club / Nihongo-Bengali)
+# Qwen assignment (JP-Club / Nihongo-Bengali)
 
 Read first: context.md, docs/context-phase13.md, docs/handoff-qwen.md (environment and code rules apply to you too).
 Reply format: ONE paste-ready bash script in ONE code block, one line of text above it. Every script starts with `cd ~/JP-Club && git status --short && git pull --rebase origin main`, is idempotent, never uses `exit` or /tmp, and ends with `bash tools/finish.sh "message"`.
 One agent at a time: Qwen may also be editing. Never touch a file outside your lane without telling the owner.
 
-## Your lane
-data/**, content/**, audio/**, new files under tools/ and docs/, plus guarded string patches described in Task 3B. Shared files (sw.js, html pages) get guarded patches only.
+## Your lane (you own all lanes per docs/handoff-qwen.md)
+Any file, but only through guarded, idempotent patches. Never rewrite a file wholesale unless you created it.
 
 ## Task 1: Test Qwen's three features
 You cannot run a browser, so you write the tests and the owner runs them on a phone and reports back.
