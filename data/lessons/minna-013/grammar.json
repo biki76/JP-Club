@@ -11,6 +11,20 @@
         "bn": "এটি পাঠ ১৩-এর ব্যাকরণ।",
         "furigana": "これは レッスンじゅうさんの ぶんぽうです।",
         "romaji": "kore wa ressun juusan no bunpou desu."
+      },
+      {
+        "jp": "デパートへ 買い物に 行きます。",
+        "en": "I go to the department store to shop.",
+        "furigana": "デパートへ かいものに いきます。",
+        "romaji": "depaato e kaimono ni ikimasu.",
+        "bn": "আমি ডিপার্টমেন্ট স্টোরে কেনাকাটা করতে যাই।"
+      },
+      {
+        "jp": "海へ 泳ぎに 行きます。",
+        "en": "I go to the sea to swim.",
+        "furigana": "うみへ およぎに いきます。",
+        "romaji": "umi e oyogi ni ikimasu.",
+        "bn": "আমি সমুদ্রে সাঁতার কাটতে যাই।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "এটি পাঠ ১৩-এর ব্যাকরণ।",
         "furigana": "これは レッスンじゅうさんの ぶんぽうです।",
         "romaji": "kore wa ressun juusan no bunpou desu."
+      },
+      {
+        "jp": "どこかへ 行きませんか。",
+        "en": "Won't you go somewhere?",
+        "furigana": "どこかへ いきませんか。",
+        "romaji": "dokoka e ikimasen ka.",
+        "bn": "কোথাও যাবেন না?"
+      },
+      {
+        "jp": "何か 食べませんか。",
+        "en": "Won't you eat something?",
+        "furigana": "なにか たべませんか。",
+        "romaji": "nanika tabemasen ka.",
+        "bn": "কিছু খাবেন না?"
       }
     ],
     "tags": [

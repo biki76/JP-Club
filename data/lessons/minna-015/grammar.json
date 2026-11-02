@@ -11,6 +11,20 @@
         "bn": "ছবি তুললেও কি চলবে?",
         "furigana": "しゃしんを とってもいいですか।",
         "romaji": "shashin o totte mo ii desu ka."
+      },
+      {
+        "jp": "この 部屋に 入っても いいですか。",
+        "en": "May I enter this room?",
+        "furigana": "この へやに はいっても いいですか。",
+        "romaji": "kono heya ni haitte mo ii desu ka.",
+        "bn": "এই ঘরে ঢুকতে পারি?"
+      },
+      {
+        "jp": "写真を 撮っても いいですか。",
+        "en": "May I take a photograph?",
+        "furigana": "しゃしんを とっても いいですか。",
+        "romaji": "shashin o totte mo ii desu ka.",
+        "bn": "ছবি তুলতে পারি?"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "এখানে ছবি তোলা যাবে না।",
         "furigana": "ここで しゃしんを とってはいけません।",
         "romaji": "koko de shashin o totte wa ikemasen."
+      },
+      {
+        "jp": "ここで 写真を 撮っては いけません。",
+        "en": "You must not take photographs here.",
+        "furigana": "ここで しゃしんを とっては いけません。",
+        "romaji": "koko de shashin o totte wa ikemasen.",
+        "bn": "এখানে ছবি তোলা যাবে না।"
+      },
+      {
+        "jp": "教室で 食べては いけません。",
+        "en": "You must not eat in the classroom.",
+        "furigana": "きょうしつで たべては いけません。",
+        "romaji": "kyoushitsu de tabete wa ikemasen.",
+        "bn": "শ্রেণিকক্ষে খাওয়া যাবে না।"
       }
     ],
     "tags": [

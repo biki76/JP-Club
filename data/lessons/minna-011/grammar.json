@@ -11,6 +11,20 @@
         "bn": "ক্লাসরুমে পাঁচজন ছাত্র আছে।",
         "furigana": "きょうしつに がくせいが ごにん います।",
         "romaji": "kyoushitsu ni gakusei ga gonin imasu."
+      },
+      {
+        "jp": "教室に 学生が 3人 います。",
+        "en": "There are three students in the classroom.",
+        "furigana": "きょうしつに がくせいが さんにん います。",
+        "romaji": "kyoushitsu ni gakusei ga sannin imasu.",
+        "bn": "শ্রেণিকক্ষে তিনজন ছাত্র আছে।"
+      },
+      {
+        "jp": "切手を 2枚 ください。",
+        "en": "Two stamps, please.",
+        "furigana": "きってを にまい ください。",
+        "romaji": "kitte o nimai kudasai.",
+        "bn": "দুটি ডাকটিকিট দিন।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "আমি প্রতিদিন দুই ঘণ্টা জাপানি পড়াশোনা করি।",
         "furigana": "まいにち にじかん にほんごを べんきょうします।",
         "romaji": "mainichi nijikan nihongo o benkyou shimasu."
+      },
+      {
+        "jp": "毎日 3時間 日本語を 勉強します。",
+        "en": "I study Japanese for three hours every day.",
+        "furigana": "まいにち さんじかん にほんごを べんきょうします。",
+        "romaji": "mainichi sanjikan nihongo o benkyou shimasu.",
+        "bn": "আমি প্রতিদিন তিন ঘণ্টা জাপানি পড়াশোনা করি।"
+      },
+      {
+        "jp": "1か月 日本に います。",
+        "en": "I will stay in Japan for one month.",
+        "furigana": "いっかげつ にほんに います。",
+        "romaji": "ikkagetsu nihon ni imasu.",
+        "bn": "আমি এক মাস জাপানে থাকব।"
       }
     ],
     "tags": [

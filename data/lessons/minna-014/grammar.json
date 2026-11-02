@@ -11,6 +11,20 @@
         "bn": "এটি পাঠ ১৪-এর ব্যাকরণ।",
         "furigana": "これは レッスンじゅうよんの ぶんぽうです।",
         "romaji": "kore wa ressun juuyon no bunpou desu."
+      },
+      {
+        "jp": "ドアを 開けて、窓を 閉めます。",
+        "en": "I open the door and close the window.",
+        "furigana": "ドアを あけて、まどを しめます。",
+        "romaji": "doa o akete, mado o shimemasu.",
+        "bn": "আমি দরজা খুলে জানালা বন্ধ করি।"
+      },
+      {
+        "jp": "電気を 消して、寝ます。",
+        "en": "I turn off the light and go to bed.",
+        "furigana": "でんきを けして、ねます。",
+        "romaji": "denki o keshite, nemasu.",
+        "bn": "আমি বাতি নিভিয়ে ঘুমাতে যাই।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "এটি পাঠ ১৪-এর ব্যাকরণ।",
         "furigana": "これは レッスンじゅうよんの ぶんぽうです।",
         "romaji": "kore wa ressun juuyon no bunpou desu."
+      },
+      {
+        "jp": "窓を 開けましょうか。",
+        "en": "Shall I open the window?",
+        "furigana": "まどを あけましょうか。",
+        "romaji": "mado o akemashou ka.",
+        "bn": "জানালা খুলে দেব?"
+      },
+      {
+        "jp": "地図を 見せましょうか。",
+        "en": "Shall I show you the map?",
+        "furigana": "ちずを みせましょうか。",
+        "romaji": "chizu o misemashou ka.",
+        "bn": "মানচিত্র দেখাব?"
       }
     ],
     "tags": [

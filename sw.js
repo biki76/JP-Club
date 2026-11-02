@@ -5,7 +5,7 @@
  */
 'use strict';
 
-const VERSION    = 'v98';
+const VERSION    = 'v99';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;

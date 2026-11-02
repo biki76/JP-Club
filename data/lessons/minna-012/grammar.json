@@ -11,6 +11,20 @@
         "bn": "এটি পাঠ ১২-এর ব্যাকরণ।",
         "furigana": "これは レッスンじゅうにの ぶんぽうです。",
         "romaji": "kore wa ressun juuni no bunpou desu."
+      },
+      {
+        "jp": "電車は バスより 速いです。",
+        "en": "Trains are faster than buses.",
+        "furigana": "でんしゃは バスより はやいです。",
+        "romaji": "densha wa basu yori hayai desu.",
+        "bn": "ট্রেন বাসের চেয়ে দ্রুত।"
+      },
+      {
+        "jp": "春は 冬より 暖かいです。",
+        "en": "Spring is warmer than winter.",
+        "furigana": "はるは ふゆより あたたかいです。",
+        "romaji": "haru wa fuyu yori atatakai desu.",
+        "bn": "বসন্ত শীতের চেয়ে উষ্ণ।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "এটি পাঠ ১২-এর ব্যাকরণ।",
         "furigana": "これは レッスンじゅうにの ぶんぽうです。",
         "romaji": "kore wa ressun juuni no bunpou desu."
+      },
+      {
+        "jp": "この 店の ほうが あの 店より 近いです。",
+        "en": "This shop is closer than that shop.",
+        "furigana": "この みせの ほうが あの みせより ちかいです。",
+        "romaji": "kono mise no hou ga ano mise yori chikai desu.",
+        "bn": "এই দোকানটি ওই দোকানের চেয়ে কাছে।"
+      },
+      {
+        "jp": "春より 秋の ほうが 好きです。",
+        "en": "I like autumn more than spring.",
+        "furigana": "はるより あきの ほうが すきです。",
+        "romaji": "haru yori aki no hou ga suki desu.",
+        "bn": "বসন্তের চেয়ে শরৎ বেশি পছন্দ।"
       }
     ],
     "tags": [
