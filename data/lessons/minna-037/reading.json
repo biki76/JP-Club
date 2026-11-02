@@ -62,6 +62,65 @@
         "en": "I think it is important to set a goal and continue little by little.",
         "bn": "লক্ষ্য ঠিক করে অল্প অল্প করে চালিয়ে যাওয়াটাই গুরুত্বপূর্ণ বলে আমি মনে করি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-037-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why did the writer always oversleep before?",
+          "bn": "আগে লেখক কেন সবসময় ঘুমিয়ে পড়তেন?"
+        },
+        "options": [
+          "They stayed up late every night",
+          "They were sick",
+          "They worked nights",
+          "They had no alarm"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says they stayed up late every night (毎晩 遅くまで 起きていた).",
+          "bn": "পাঠে বলা হয়েছে তারা প্রতি রাতে দেরি পর্যন্ত জেগে থাকতেন (毎晩 遅くまで 起きていた)।"
+        }
+      },
+      {
+        "id": "minna-037-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "By what time did the writer try to go to bed?",
+          "bn": "লেখক কয়টার মধ্যে ঘুমাতে যাওয়ার চেষ্টা করেছিলেন?"
+        },
+        "options": [
+          "Ten",
+          "Eleven",
+          "Twelve",
+          "One"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「夜 十一時までに 寝る ように しました」 — by eleven at night.",
+          "bn": "পাঠে বলা হয়েছে 「夜 十一時までに 寝る ように しました」 — রাত এগারোটার মধ্যে।"
+        }
+      },
+      {
+        "id": "minna-037-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "How long did it take for the body to get used to it?",
+          "bn": "শরীর এতে অভ্যস্ত হতে কত সময় লেগেছিল?"
+        },
+        "options": [
+          "One week",
+          "One month",
+          "Three months",
+          "One year"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「一か月で 体が 慣れました」 — got used to it in one month.",
+          "bn": "পাঠে বলা হয়েছে 「一か月で 体が 慣れました」 — এক মাসে অভ্যস্ত হয়েছে।"
+        }
+      }
     ]
   }
 ]

@@ -62,6 +62,65 @@
         "en": "The reason I like music is that my mother also likes music.",
         "bn": "আমি সংগীত ভালোবাসি কারণ আমার মাও সংগীত পছন্দ করেন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-038-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What has the writer liked since childhood?",
+          "bn": "লেখক ছোটবেলা থেকে কী পছন্দ করেন?"
+        },
+        "options": [
+          "Singing",
+          "Playing the piano",
+          "Listening to the radio",
+          "Dancing"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says they have liked playing the piano since childhood.",
+          "bn": "পাঠে বলা হয়েছে ছোটবেলা থেকে পিয়ানো বাজাতে ভালোবাসেন।"
+        }
+      },
+      {
+        "id": "minna-038-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why does the writer not play the piano now?",
+          "bn": "লেখক এখন কেন পিয়ানো বাজান না?"
+        },
+        "options": [
+          "No piano",
+          "No time",
+          "No interest",
+          "No money"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「ピアノを 弾く 時間が ありません」 — no time to play.",
+          "bn": "পাঠে বলা হয়েছে 「ピアノを 弾く 時間が ありません」 — বাজানোর সময় নেই।"
+        }
+      },
+      {
+        "id": "minna-038-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why does the writer like music?",
+          "bn": "লেখক কেন সংগীত পছন্দ করেন?"
+        },
+        "options": [
+          "Because their mother also likes music",
+          "Because a friend taught them",
+          "Because it is cheap",
+          "Because they study it"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「母も 音楽が 好きだからです」 — because the mother likes music too.",
+          "bn": "পাঠে বলা হয়েছে 「母も 音楽が 好きだからです」 — কারণ মাও সংগীত পছন্দ করেন।"
+        }
+      }
     ]
   }
 ]

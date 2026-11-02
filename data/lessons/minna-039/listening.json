@@ -69,6 +69,65 @@
         "en": "Health is important, so please take care.",
         "bn": "স্বাস্থ্য গুরুত্বপূর্ণ, তাই খেয়াল রাখবেন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-039-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why was Tanaka absent yesterday?",
+          "bn": "তানাকা গতকাল কেন অনুপস্থিত ছিলেন?"
+        },
+        "options": [
+          "A cold and a fever",
+          "A trip",
+          "A meeting",
+          "A stomach ache"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "Tanaka says 「風邪を ひいて、熱が あったんです」 — caught a cold and had a fever.",
+          "bn": "তানাকা বলেন 「風邪を ひいて、熱が あったんです」 — ঠান্ডা লেগে জ্বর হয়েছিল।"
+        }
+      },
+      {
+        "id": "minna-039-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Did Tanaka go to the hospital?",
+          "bn": "তানাকা কি হাসপাতালে গিয়েছিলেন?"
+        },
+        "options": [
+          "Yes, in the morning",
+          "Yes, at night",
+          "No, there was no hospital nearby",
+          "No, because he was not sick"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "Tanaka says 「近くに 病院が なくて、困りました」 — there was no hospital nearby.",
+          "bn": "তানাকা বলেন 「近くに 病院が なくて、困りました」 — কাছাকাছি হাসপাতাল ছিল না।"
+        }
+      },
+      {
+        "id": "minna-039-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Who helped Tanaka?",
+          "bn": "তানাকাকে কে সাহায্য করেছিল?"
+        },
+        "options": [
+          "A doctor",
+          "A friend",
+          "A colleague",
+          "A neighbor"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "Tanaka says 「友だちが 薬を 買ってきてくれた」 — a friend bought medicine.",
+          "bn": "তানাকা বলেন 「友だちが 薬を 買ってきてくれた」 — একজন বন্ধু ঔষধ কিনে দিয়েছিল।"
+        }
+      }
     ]
   }
 ]

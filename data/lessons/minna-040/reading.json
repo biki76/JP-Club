@@ -62,6 +62,65 @@
         "en": "That is why I decided to review a little every day.",
         "bn": "তাই প্রতিদিন একটু একটু করে পুনরালোচনার সিদ্ধান্ত নিয়েছি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-040-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "When is the writer going to Japan?",
+          "bn": "লেখক কখন জাপানে যাবেন?"
+        },
+        "options": [
+          "Next week",
+          "Next month",
+          "Next year",
+          "This December"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「来月、日本へ 旅行に 行きます」 — next month.",
+          "bn": "পাঠে বলা হয়েছে 「来月、日本へ 旅行に 行きます」 — আগামী মাসে।"
+        }
+      },
+      {
+        "id": "minna-040-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What can the writer do now?",
+          "bn": "লেখক এখন কী করতে পারেন?"
+        },
+        "options": [
+          "Read kanji",
+          "Have simple conversations",
+          "Write letters",
+          "Cook Japanese food"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「簡単な 会話を する ことが できます」 — can have simple conversations.",
+          "bn": "পাঠে বলা হয়েছে 「簡単な 会話を する ことが できます」 — সহজ কথাবার্তা বলতে পারেন।"
+        }
+      },
+      {
+        "id": "minna-040-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did the writer decide to do every day?",
+          "bn": "লেখক প্রতিদিন কী করার সিদ্ধান্ত নিয়েছেন?"
+        },
+        "options": [
+          "Review a little",
+          "Study for ten hours",
+          "Read kanji aloud",
+          "Take a walk"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「毎日 少しずつ 復習する ことに しました」 — decided to review a little every day.",
+          "bn": "পাঠে বলা হয়েছে 「毎日 少しずつ 復習する ことに しました」 — প্রতিদিন অল্প অল্প পুনরালোচনার সিদ্ধান্ত।"
+        }
+      }
     ]
   }
 ]

@@ -69,6 +69,65 @@
         "en": "Me too. Let us be careful tomorrow.",
         "bn": "আমিও। আগামীকাল সতর্ক থাকি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-038-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did Tanaka completely forget?",
+          "bn": "তানাকা কী সম্পূর্ণ ভুলে গিয়েছিলেন?"
+        },
+        "options": [
+          "The promise to meet a friend",
+          "The friend's address",
+          "The meeting time",
+          "The phone number"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "Tanaka says 「すっかり 忘れていました」 about the promise to meet a friend.",
+          "bn": "তানাকা বন্ধুর সাথে দেখার প্রতিশ্রুতি 「すっかり 忘れていました」 — সম্পূর্ণ ভুলে গিয়েছিলেন।"
+        }
+      },
+      {
+        "id": "minna-038-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What time do they decide on?",
+          "bn": "তারা কয়টা ঠিক করে?"
+        },
+        "options": [
+          "One o'clock",
+          "Two o'clock",
+          "Three o'clock",
+          "Four o'clock"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "They decide on 「午後 三時」 — three in the afternoon.",
+          "bn": "তারা 「午後 三時」 — বিকেল তিনটা ঠিক করে।"
+        }
+      },
+      {
+        "id": "minna-038-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the speaker say they hate?",
+          "bn": "বক্তা কী অপছন্দ করেন বলে জানান?"
+        },
+        "options": [
+          "Listening to music",
+          "Forgetting things",
+          "Talking on the phone",
+          "Cleaning"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The speaker says 「忘れ物は 嫌いです」 — I hate forgetting things.",
+          "bn": "বক্তা বলেন 「忘れ物は 嫌いです」 — জিনিস হারানো/ভুলে যাওয়া পছন্দ করি না।"
+        }
+      }
     ]
   }
 ]

@@ -76,6 +76,65 @@
         "en": "I hope it becomes a good habit.",
         "bn": "ভালো অভ্যাস হয়ে গেলে ভালো হয়।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-037-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What did Yamada start doing?",
+          "bn": "ইয়ামাদা কী করা শুরু করেছেন?"
+        },
+        "options": [
+          "Learning the guitar",
+          "Learning the piano",
+          "Writing a diary",
+          "Studying Japanese"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "Yamada says 「ギターを 習い始めました」 — started learning the guitar.",
+          "bn": "ইয়ামাদা বলেন 「ギターを 習い始めました」 — গিটার শেখা শুরু করেছেন।"
+        }
+      },
+      {
+        "id": "minna-037-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why did Yamada start it?",
+          "bn": "ইয়ামাদা কেন এটি শুরু করেছেন?"
+        },
+        "options": [
+          "A friend asked",
+          "They wanted to try it once",
+          "It was cheap",
+          "They had a dream"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "Yamada says they wanted to try it once.",
+          "bn": "ইয়ামাদা বলেন তারা একবার চেষ্টা করতে চেয়েছিলেন।"
+        }
+      },
+      {
+        "id": "minna-037-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does Yamada decide to do from next week?",
+          "bn": "ইয়ামাদা আগামী সপ্তাহ থেকে কী করার সিদ্ধান্ত নেন?"
+        },
+        "options": [
+          "Get up early",
+          "Run every day",
+          "Stop the guitar",
+          "Write a diary"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "Yamada says 「来週から 早起きを する ことにします」 — will get up early from next week.",
+          "bn": "ইয়ামাদা বলেন 「来週から 早起きを する ことにします」 — আগামী সপ্তাহ থেকে তাড়াতাড়ি উঠবে।"
+        }
+      }
     ]
   }
 ]

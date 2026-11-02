@@ -69,6 +69,65 @@
         "en": "That helps a lot. Please do it by all means.",
         "bn": "খুব উপকার হবে। দয়া করে করুন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-040-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What sport can Tanaka do?",
+          "bn": "তানাকা কোন খেলা করতে পারেন?"
+        },
+        "options": [
+          "Swimming",
+          "Tennis",
+          "Soccer",
+          "Baseball"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "Tanaka says 「水泳なら できます」 — can swim.",
+          "bn": "তানাকা বলেন 「水泳なら できます」 — সাঁতার পারে।"
+        }
+      },
+      {
+        "id": "minna-040-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Can Tanaka play the piano?",
+          "bn": "তানাকা কি পিয়ানো বাজাতে পারেন?"
+        },
+        "options": [
+          "Yes, very well",
+          "Yes, a little",
+          "No, he cannot",
+          "Only Japanese songs"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "Tanaka says 「ピアノは 弾く ことが できません」 — cannot play the piano.",
+          "bn": "তানাকা বলেন 「ピアノは 弾く ことが できません」 — পিয়ানো বাজাতে পারেন না।"
+        }
+      },
+      {
+        "id": "minna-040-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What will Tanaka do before the party?",
+          "bn": "পার্টির আগে তানাকা কী করবেন?"
+        },
+        "options": [
+          "Practice",
+          "Buy a guitar",
+          "Call friends",
+          "Sing"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "Tanaka says 「パーティーの 前に、練習して おきます」 — will practice before the party.",
+          "bn": "তানাকা বলেন 「パーティーの 前に、練習して おきます」 — পার্টির আগে অনুশীলন করবেন।"
+        }
+      }
     ]
   }
 ]

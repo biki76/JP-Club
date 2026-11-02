@@ -62,6 +62,65 @@
         "en": "I intend to continue this habit forever.",
         "bn": "আমি এই অভ্যাস চিরকাল চালিয়ে যাওয়ার ইচ্ছা করেছি।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-036-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the writer's goal?",
+          "bn": "লেখকের লক্ষ্য কী?"
+        },
+        "options": [
+          "To become rich",
+          "To become healthy",
+          "To study abroad",
+          "To run a marathon"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「私の 目標は 健康に なる ことです」 — to become healthy.",
+          "bn": "পাঠে বলা হয়েছে 「私の 目標は 健康に なる ことです」 — সুস্থ হওয়া।"
+        }
+      },
+      {
+        "id": "minna-036-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What has the writer started doing every morning?",
+          "bn": "লেখক প্রতিদিন সকালে কী করা শুরু করেছেন?"
+        },
+        "options": [
+          "Swimming",
+          "Running",
+          "Reading",
+          "Cooking"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「毎朝 走る ように なりました」 — started running every morning.",
+          "bn": "পাঠে বলা হয়েছে 「毎朝 走る ように なりました」 — প্রতিদিন সকালে দৌড়ানো শুরু করেছেন।"
+        }
+      },
+      {
+        "id": "minna-036-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the writer try not to eat?",
+          "bn": "লেখক কী না খাওয়ার চেষ্টা করেন?"
+        },
+        "options": [
+          "Rice",
+          "Sweet things",
+          "Vegetables",
+          "Fish"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「甘い 物を 食べない ように しています」 — tries not to eat sweet things.",
+          "bn": "পাঠে বলা হয়েছে 「甘い 物を 食べない ように しています」 — মিষ্টি জিনিস না খাওয়ার চেষ্টা।"
+        }
+      }
     ]
   }
 ]

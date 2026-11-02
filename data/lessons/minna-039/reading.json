@@ -62,6 +62,65 @@
         "en": "I am fine now, so please do not worry.",
         "bn": "এখন আমি সুস্থ, তাই নিশ্চিন্ত থাকুন।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-039-r1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What happened in the morning?",
+          "bn": "সকালে কী হয়েছিল?"
+        },
+        "options": [
+          "The writer's stomach hurt",
+          "The writer lost a bag",
+          "The writer missed a bus",
+          "The writer overslept"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text says 「急に お腹が 痛く なりました」 — the stomach suddenly hurt.",
+          "bn": "পাঠে বলা হয়েছে 「急に お腹が 痛く なりました」 — হঠাৎ পেট ব্যথা শুরু হয়েছিল।"
+        }
+      },
+      {
+        "id": "minna-039-r1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Why did the train stop?",
+          "bn": "ট্রেন কেন থেমে গিয়েছিল?"
+        },
+        "options": [
+          "Because of snow",
+          "Because of an accident",
+          "Because of a typhoon",
+          "Because of a strike"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text says 「事故が あって」 — because there was an accident.",
+          "bn": "পাঠে বলা হয়েছে 「事故が あって」 — কারণ একটি দুর্ঘটনা ঘটেছিল।"
+        }
+      },
+      {
+        "id": "minna-039-r1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What time did the writer arrive at the office?",
+          "bn": "লেখক কয়টায় অফিসে পৌঁছেছিলেন?"
+        },
+        "options": [
+          "Nine",
+          "Nine thirty",
+          "Ten",
+          "Ten thirty"
+        ],
+        "correctIndex": 3,
+        "explanation": {
+          "en": "The text says 「十時半でした」 — ten thirty.",
+          "bn": "পাঠে বলা হয়েছে 「十時半でした」 — সাড়ে দশটা।"
+        }
+      }
     ]
   }
 ]

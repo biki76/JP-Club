@@ -69,6 +69,65 @@
         "en": "A: Sounds good. I will try to run starting tomorrow.",
         "bn": "A: দারুণ। কাল থেকে দৌড়ানোর চেষ্টা করব।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-036-l1-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does B try to do?",
+          "bn": "B কী করার চেষ্টা করে?"
+        },
+        "options": [
+          "Write a diary in Japanese",
+          "Read news in English",
+          "Watch Japanese TV",
+          "Sing Japanese songs"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "B says 「日本語で 日記を 書く ように しています」 — tries to write a diary in Japanese.",
+          "bn": "B বলেন 「日本語で 日記を 書く ように しています」 — জাপানিতে ডায়েরি লেখার চেষ্টা করে।"
+        }
+      },
+      {
+        "id": "minna-036-l1-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "For what purpose does B write every day?",
+          "bn": "B কোন উদ্দেশ্যে প্রতিদিন লেখে?"
+        },
+        "options": [
+          "To not forget kanji",
+          "To become a writer",
+          "To teach others",
+          "To make a book"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "B says 「漢字を 忘れない ように」 — so as not to forget kanji.",
+          "bn": "B বলেন 「漢字を 忘れない ように」 — কাঞ্জি না ভোলার জন্য।"
+        }
+      },
+      {
+        "id": "minna-036-l1-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does B suggest A do?",
+          "bn": "B A-কে কী করার পরামর্শ দেয়?"
+        },
+        "options": [
+          "Try running",
+          "Read a book",
+          "Study kanji",
+          "Eat healthy food"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "B says 「走る ように したら どうですか」 — why don't you try running?",
+          "bn": "B বলেন 「走る ように したら どうですか」 — দৌড়ানোর চেষ্টা করলে কেমন হয়?"
+        }
+      }
     ]
   }
 ]
