@@ -80,11 +80,11 @@
         },
         "options": [
           "At home",
-          "At the venue",
           "At the station",
+          "At the venue",
           "At the office"
         ],
-        "correctIndex": 1,
+        "correctIndex": 2,
         "explanation": {
           "en": "The text says 「会場で 準備して いる ところです」 — at the venue preparing.",
           "bn": "পাঠে বলা হয়েছে 「会場で 準備して いる ところです」 — অনুষ্ঠানস্থলে প্রস্তুতি নিচ্ছেন।"
@@ -98,12 +98,12 @@
           "bn": "অনুষ্ঠানস্থলে কতজন ধরে?"
         },
         "options": [
-          "One hundred",
           "Two hundred",
+          "One hundred",
           "Three hundred",
           "Five hundred"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": {
           "en": "The text says 「二百人 入れます」 — it can hold two hundred people.",
           "bn": "পাঠে বলা হয়েছে 「二百人 入れます」 — দুইশ জন ধরে।"
@@ -118,11 +118,11 @@
         },
         "options": [
           "Eight",
-          "Nine",
           "Ten",
-          "Eleven"
+          "Eleven",
+          "Nine"
         ],
-        "correctIndex": 1,
+        "correctIndex": 3,
         "explanation": {
           "en": "The text says 「九時に 出発する ところです」 — about to leave at nine.",
           "bn": "পাঠে বলা হয়েছে 「九時に 出発する ところです」 — নয়টায় রওনা দেওয়ার কথা।"

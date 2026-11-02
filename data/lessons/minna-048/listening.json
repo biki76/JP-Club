@@ -79,12 +79,12 @@
           "bn": "ম্যানেজার নতুন কাজটি নিয়ে কী করতে চান?"
         },
         "options": [
-          "Ask Tanaka to do it",
           "Do it himself",
+          "Ask Tanaka to do it",
           "Cancel it",
           "Give it to a client"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "explanation": {
           "en": "The manager says 「田中さんに 頼もうと 思って います」 — thinking of asking Tanaka.",
           "bn": "ম্যানেজার বলেন 「田中さんに 頼もうと 思って います」 — তানাকাকে দিতে ভাবছেন।"
@@ -98,12 +98,12 @@
           "bn": "কর্মচারী ম্যানেজারের কাছে কী চান?"
         },
         "options": [
-          "To let him do the job",
           "To give him a holiday",
           "To raise his salary",
-          "To change the team"
+          "To change the team",
+          "To let him do the job"
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "explanation": {
           "en": "The employee says 「わたしに やらせて いただけませんか」 — could you let me do it.",
           "bn": "কর্মচারী বলেন 「わたしに やらせて いただけませんか」 — আমাকে করতে দেবেন কি?"

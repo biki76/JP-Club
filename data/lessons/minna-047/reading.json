@@ -72,12 +72,12 @@
           "bn": "আজ সকালের পত্রিকায় কী ছিল?"
         },
         "options": [
-          "A festival in this town next week",
           "A typhoon warning",
+          "A festival in this town next week",
           "A new shop opening",
           "A train accident"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "explanation": {
           "en": "The text says the newspaper reported a big festival in this town next week.",
           "bn": "পাঠে বলা হয়েছে পত্রিকায় এ শহরে আগামী সপ্তাহে বড় উৎসবের কথা ছিল।"
@@ -93,10 +93,10 @@
         "options": [
           "One hundred years",
           "Two hundred years",
-          "Three hundred years",
-          "Five hundred years"
+          "Five hundred years",
+          "Three hundred years"
         ],
-        "correctIndex": 2,
+        "correctIndex": 3,
         "explanation": {
           "en": "The text says according to a friend it has continued since three hundred years ago.",
           "bn": "পাঠে বলা হয়েছে বন্ধুর মতে এটি তিনশ বছর আগে থেকে চলে আসছে।"
@@ -110,12 +110,12 @@
           "bn": "লেখক কেন অংশ নাওয়ার নাও হতে পারেন?"
         },
         "options": [
-          "They have a business trip that day",
           "They are sick",
           "They do not like festivals",
+          "They have a business trip that day",
           "They have no money"
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "explanation": {
           "en": "The text says it seems the writer has a business trip scheduled that day.",
           "bn": "পাঠে বলা হয়েছে সেদিন লেখকের কাজের সফরের পরিকল্পনা আছে বলে মনে হচ্ছে।"

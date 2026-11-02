@@ -73,11 +73,11 @@
         },
         "options": [
           "The first floor",
-          "The second floor",
           "The basement",
+          "The second floor",
           "The roof"
         ],
-        "correctIndex": 1,
+        "correctIndex": 2,
         "explanation": {
           "en": "The text says the staff member showed the writer to the second floor (二階).",
           "bn": "পাঠে বলা হয়েছে কর্মী লেখককে দ্বিতীয় তলায় (二階) নিয়ে গিয়েছিলেন।"
@@ -91,12 +91,12 @@
           "bn": "পরিকল্পনা সম্পর্কে প্রেসিডেন্ট কী বলেছিলেন?"
         },
         "options": [
-          "It is too expensive",
           "It is a good idea",
+          "It is too expensive",
           "It needs more work",
           "It is too late"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": {
           "en": "The president said 「いい 考えですね」 — it is a good idea.",
           "bn": "প্রেসিডেন্ট বলেছিলেন 「いい 考えですね」 — এটি ভালো ধারণা।"
@@ -111,11 +111,11 @@
         },
         "options": [
           "To the entrance",
-          "To the elevator",
           "To the station",
-          "To the car"
+          "To the car",
+          "To the elevator"
         ],
-        "correctIndex": 1,
+        "correctIndex": 3,
         "explanation": {
           "en": "The text says he saw the writer off to the elevator.",
           "bn": "পাঠে বলা হয়েছে তিনি লেখককে লিফট পর্যন্ত এগিয়ে দিয়েছিলেন।"

@@ -79,12 +79,12 @@
           "bn": "তানাকা এখন কোথায় যাচ্ছেন?"
         },
         "options": [
-          "To the airport",
           "To the office",
           "To the station",
+          "To the airport",
           "To the venue"
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "explanation": {
           "en": "The speaker says 「空港へ 向かって いる ところです」 — on the way to the airport.",
           "bn": "বক্তা বলেন 「空港へ 向かって いる ところです」 — বিমানবন্দরের পথে।"
@@ -99,11 +99,11 @@
         },
         "options": [
           "Nine",
-          "Ten",
           "Eleven",
+          "Ten",
           "Twelve"
         ],
-        "correctIndex": 2,
+        "correctIndex": 1,
         "explanation": {
           "en": "The speaker says 「十一時です」 — eleven o'clock.",
           "bn": "বক্তা বলেন 「十一時です」 — এগারোটা।"

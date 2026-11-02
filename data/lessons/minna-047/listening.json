@@ -79,12 +79,12 @@
           "bn": "পূর্বাভাস অনুযায়ী আগামীকালের আবহাওয়া কেমন হবে?"
         },
         "options": [
-          "Heavy rain",
           "Snow",
           "Sunny all day",
-          "Strong wind"
+          "Strong wind",
+          "Heavy rain"
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "explanation": {
           "en": "The speaker says 「あしたは 大雨に なる そうです」 — heavy rain tomorrow.",
           "bn": "বক্তা বলেন 「あしたは 大雨に なる そうです」 — আগামীকাল ভারী বৃষ্টি।"
@@ -98,12 +98,12 @@
           "bn": "বিকেলে আবহাওয়া নাকি কেমন হবে?"
         },
         "options": [
-          "It will clear up",
           "It will snow",
+          "It will clear up",
           "It will get colder",
           "It will rain more"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "explanation": {
           "en": "The speaker says 「午後は 晴れる らしいです」 — apparently it will clear up in the afternoon.",
           "bn": "বক্তা বলেন 「午後は 晴れる らしいです」 — নাকি বিকেলে রোদ উঠবে।"
@@ -117,12 +117,12 @@
           "bn": "দ্বিতীয় বক্তা ছাতা সম্পর্কে কী পরামর্শ দেন?"
         },
         "options": [
-          "Take one, since it will rain in the morning",
           "Leave it at home",
           "Buy a new one",
+          "Take one, since it will rain in the morning",
           "Borrow one from the school"
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "explanation": {
           "en": "The speaker says it seems it will rain in the morning, so you had better take one.",
           "bn": "বক্তা বলেন সকালে বৃষ্টি হবে বলে মনে হয়, তাই ছাতা নিয়ে যাওয়াই ভালো।"

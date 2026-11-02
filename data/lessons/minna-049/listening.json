@@ -79,12 +79,12 @@
           "bn": "কলকারীর নাম কী?"
         },
         "options": [
-          "Tanaka",
           "Yamada",
+          "Tanaka",
           "Suzuki",
           "Sato"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "explanation": {
           "en": "The caller says 「田中と 申します」 — my name is Tanaka.",
           "bn": "কলকারী বলেন 「田中と 申します」 — আমার নাম তানাকা।"
@@ -98,12 +98,12 @@
           "bn": "প্রেসিডেন্ট কেন ফোনে আসতে পারছেন না?"
         },
         "options": [
-          "He is in a meeting",
           "He is out of the office",
           "He is on a business trip",
+          "He is in a meeting",
           "He is sick"
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "explanation": {
           "en": "The receptionist says 「社長は ただ今 会議中で いらっしゃいます」 — he is in a meeting now.",
           "bn": "রিসেপশনিস্ট বলেন 「社長は ただ今 会議中で いらっしゃいます」 — তিনি এখন সভায় আছেন।"

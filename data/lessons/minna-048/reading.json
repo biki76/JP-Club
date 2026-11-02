@@ -72,12 +72,12 @@
           "bn": "শিশুকালে মা লেখককে প্রতিদিন কী করতে বাধ্য করতেন?"
         },
         "options": [
-          "Read books for one hour",
           "Practice the piano",
           "Run in the park",
+          "Read books for one hour",
           "Cook dinner"
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "explanation": {
           "en": "The text says the mother made the writer read books for one hour every day.",
           "bn": "পাঠে বলা হয়েছে মা লেখককে প্রতিদিন এক ঘণ্টা বই পড়তে বাধ্য করতেন।"
@@ -91,12 +91,12 @@
           "bn": "এখন মা সম্পর্কে লেখকের অনুভূতি কী?"
         },
         "options": [
-          "Angry",
           "Grateful",
+          "Angry",
           "Afraid",
           "Indifferent"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": {
           "en": "The text says 「今は 母に 心から 感謝して います」 — sincerely grateful.",
           "bn": "পাঠে বলা হয়েছে 「今は 母に 心から 感謝して います」 — হৃদয় থেকে কৃতজ্ঞ।"
@@ -110,12 +110,12 @@
           "bn": "ছোট বোন ফোনে কী বলেছিল?"
         },
         "options": [
-          "Mother makes her go to cram school every day",
           "Mother is sick",
           "She wants to study abroad",
-          "She lost her book"
+          "She lost her book",
+          "Mother makes her go to cram school every day"
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "explanation": {
           "en": "The sister said 「お母さんは 毎日 わたしに 塾へ 行かせるの」 — mother makes her go to cram school daily.",
           "bn": "বোন বলেছিল 「お母さんは 毎日 わたしに 塾へ 行かせるの」 — মা তাকে প্রতিদিন কোচিং যেতে বাধ্য করেন।"
