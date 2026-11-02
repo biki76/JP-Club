@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mimikara Oboeru</title>
+  <script>
+    (function() {
+      const theme = localStorage.getItem('nihongo_theme') || 'light';
+      const lang = localStorage.getItem('nihongo_lang') || 'en';
+      document.documentElement.classList.toggle('dark', theme === 'dark');
+      document.documentElement.lang = lang;
+    })();
+  </script>
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/design-system.css">
   <link rel="stylesheet" href="css/shell.css">
@@ -11,7 +19,12 @@
 </head>
 <body class="shell-body">
   <header data-shell-header></header>
-  <div class="shell-frame"><main class="shell-main" id="mimikara-main" style="padding:2rem"><h1>Mimikara Oboeru</h1><p>Loading themes...</p></main></div>
+  <div class="shell-frame">
+    <main class="shell-main" id="mimikara-main" style="padding: 2rem;">
+      <h1 data-en="Mimikara Oboeru" data-bn="মিমিকারা ওবোয়ারু">Mimikara Oboeru</h1>
+      <div id="mimikara-themes" class="book-grid"></div>
+    </main>
+  </div>
   <nav class="shell-bottomnav" data-shell-bottomnav></nav>
   <script src="js/shell.js" defer></script>
   <script src="js/mimikara.js" defer></script>

@@ -123,7 +123,7 @@
       subtitle: { en: 'Themed readings', bn: 'বিষয়ভিত্তিক পড়া' },
       desc: { en: 'Short bilingual essays with grammar notes.',
               bn: 'ব্যাকরণ নোটসহ সংক্ষিপ্ত দ্বিভাষিক রচনা।' },
-      levels: ['N4', 'N3'], href: 'temabetsu.html'
+      levels: ['N4', 'N3'], soon: true, href: 'temabetsu.html'
     },
     {
       key: 'mimikara', icon: 'practice',
@@ -132,7 +132,7 @@
       desc: { en: 'Grouped vocabulary for memory efficiency.',
               bn: 'স্মৃতি-দক্ষতার জন্য দলবদ্ধ শব্দভাণ্ডার।' },
       levels: ['N3'], href: 'mimikara.html',
-      levels: ['N3'], soon: true
+      levels: ['N3'], href: 'mimikara.html'
     },
     {
       key: 'shinkanzen', icon: 'book',
@@ -140,7 +140,7 @@
       subtitle: { en: 'Grammar · Reading · Listening', bn: 'ব্যাকরণ · পড়া · শোনা' },
       desc: { en: 'JLPT-focused skill drills for N3 and beyond.',
               bn: 'N3 এবং তার পরের জন্য JLPT-কেন্দ্রিক দক্ষতা অনুশীলন।' },
-      levels: ['N3'], href: 'shinkanzen.html', soon: true
+      levels: ['N3'], href: 'shinkanzen.html'
     },
     {
       key: 'kanji', icon: 'kanji',

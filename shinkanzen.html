@@ -1,31 +1,32 @@
-<!doctype html>
-<!-- qwen: tracks -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shin Kanzen Master · JP-Club</title>
-<link rel="stylesheet" href="css/tokens.css">
-<link rel="stylesheet" href="css/tokens-extra.css">
-<link rel="stylesheet" href="css/design-system.css">
-<link rel="stylesheet" href="css/a11y.css">
-<link rel="stylesheet" href="css/theme-v2.css">
-<link rel="stylesheet" href="css/typography-jp.css">
-<link rel="stylesheet" href="css/tracks.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shin Kanzen Master</title>
+  <script>
+    (function() {
+      const theme = localStorage.getItem('nihongo_theme') || 'light';
+      const lang = localStorage.getItem('nihongo_lang') || 'en';
+      document.documentElement.classList.toggle('dark', theme === 'dark');
+      document.documentElement.lang = lang;
+    })();
+  </script>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/design-system.css">
+  <link rel="stylesheet" href="css/shell.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
-<body data-track="shinkanzen">
-<a class="skip-link" href="#main" data-en="Skip to content" data-bn="মূল অংশে যান">Skip to content</a>
-<header class="tr-header">
-  <a href="home.html" class="tr-back" data-en="← Home" data-bn="← হোম">← Home</a>
-  <h1 data-en="Shin Kanzen Master" data-bn="শিন কানজেন মাস্টার">Shin Kanzen Master</h1>
-  <p class="tr-sub" data-en="Grammar & reading · N3" data-bn="ব্যাকরণ ও পাঠ · N3">Grammar & reading · N3</p>
-</header>
-<main id="main">
-  <p id="track-status" class="tr-status"></p>
-  <div id="track-list" class="tr-list"></div>
-</main>
-<script src="js/i18n.js" defer></script>
-<script src="js/tracks.js" defer></script>
-<script src="js/microcopy.js" defer></script>
+<body class="shell-body">
+  <header data-shell-header></header>
+  <div class="shell-frame">
+    <main class="shell-main" id="shinkanzen-main" style="padding: 2rem;">
+      <h1 data-en="Shin Kanzen Master" data-bn="শিন কানজেন মাস্টার">Shin Kanzen Master</h1>
+      <div id="shinkanzen-tracks" class="book-grid"></div>
+    </main>
+  </div>
+  <nav class="shell-bottomnav" data-shell-bottomnav></nav>
+  <script src="js/shell.js" defer></script>
+  <script src="js/shinkanzen.js" defer></script>
 </body>
 </html>
