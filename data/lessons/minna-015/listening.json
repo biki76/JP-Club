@@ -14,6 +14,65 @@
         "en": "What is put?",
         "bn": "put কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-015-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে?"
+        },
+        "options": [
+          "おきます",
+          "うります",
+          "つくります",
+          "すみます"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The transcript is 「おきます は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「おきます は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-015-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「おきます」 mean here?",
+          "bn": "এখানে পাঠ অনুযায়ী 「おきます」 এর অর্থ কী?"
+        },
+        "options": [
+          "sell",
+          "make",
+          "put",
+          "live"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「おきます」 as 'put'.",
+          "bn": "পাঠে 「おきます」 এর অর্থ 'put' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-015-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the question asking for?",
+          "bn": "প্রশ্নটি কী জানতে চাইছে?"
+        },
+        "options": [
+          "The meaning of a word",
+          "A place",
+          "A time",
+          "A price"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「何 ですか」 asks for the meaning of the word.",
+          "bn": "「何 ですか」 শব্দটির অর্থ জানতে চাইছে।"
+        }
+      }
     ]
   }
 ]

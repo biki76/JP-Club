@@ -13,6 +13,65 @@
         "en": "This is easy, simple.",
         "bn": "এটি easy, simple।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-012-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "Difficult",
+          "Easy",
+          "Expensive",
+          "Far"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「かんたん［な］」 as 'easy, simple'.",
+          "bn": "পাঠে 「かんたん［な］」 এর অর্থ 'easy, simple' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-012-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'easy'?",
+          "bn": "কোন শব্দের অর্থ 'সহজ'?"
+        },
+        "options": [
+          "かんたん",
+          "むずかしい",
+          "たかい",
+          "とおい"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「かんたん［な］」 means 'easy, simple'.",
+          "bn": "「かんたん［な］」 অর্থ 'সহজ'।"
+        }
+      },
+      {
+        "id": "minna-012-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is difficult.",
+          "This is far.",
+          "This is easy.",
+          "This is busy."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは かんたん［な］ です。」 as 'This is easy, simple'.",
+          "bn": "পাঠে 「これは かんたん［な］ です。」 এর অর্থ 'This is easy' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

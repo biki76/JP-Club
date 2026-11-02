@@ -13,6 +13,65 @@
         "en": "This is turn on.",
         "bn": "এটি turn on।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-014-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'turn off'",
+          "A verb meaning 'turn on'",
+          "A verb meaning 'open'",
+          "A verb meaning 'close'"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「つけます」 as 'turn on'.",
+          "bn": "পাঠে 「つけます」 এর অর্থ 'turn on' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-014-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'turn on'?",
+          "bn": "কোন শব্দের অর্থ 'চালু করা'?"
+        },
+        "options": [
+          "けします",
+          "つけます",
+          "あけます",
+          "しめます"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「つけます」 means 'turn on'; 「けします」 is 'turn off'.",
+          "bn": "「つけます」 অর্থ 'চালু করা'; 「けします」 অর্থ 'নেভানো'।"
+        }
+      },
+      {
+        "id": "minna-014-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is turn off.",
+          "This is open.",
+          "This is turn on.",
+          "This is close."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは つけます です。」 as 'This is turn on'.",
+          "bn": "পাঠে 「これは つけます です。」 এর অর্থ 'This is turn on' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

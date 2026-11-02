@@ -14,6 +14,65 @@
         "en": "What is turn on?",
         "bn": "turn on কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-014-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is being asked about?",
+          "bn": "কোন শব্দ সম্পর্কে জিজ্ঞাসা করা হচ্ছে?"
+        },
+        "options": [
+          "けします",
+          "つけます",
+          "あけます",
+          "しめます"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The transcript is 「つけます は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「つけます は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-014-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「つけます」 mean?",
+          "bn": "পাঠ অনুযায়ী 「つけます」 এর অর্থ কী?"
+        },
+        "options": [
+          "turn off",
+          "open",
+          "turn on",
+          "close"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「つけます」 as 'turn on'.",
+          "bn": "পাঠে 「つけます」 এর অর্থ 'turn on' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-014-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What kind of question is it?",
+          "bn": "এটি কোন ধরনের প্রশ্ন?"
+        },
+        "options": [
+          "A 'where' question",
+          "A 'what' question",
+          "A 'when' question",
+          "A 'who' question"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "It uses 「何」, so it is a 'what' question.",
+          "bn": "এতে 「何」 ব্যবহৃত হয়েছে, তাই এটি 'কী' ধরনের প্রশ্ন।"
+        }
+      }
     ]
   }
 ]

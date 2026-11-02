@@ -13,6 +13,65 @@
         "en": "This is enjoy oneself, play.",
         "bn": "এটি enjoy oneself, play।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-013-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'play, enjoy oneself'",
+          "A noun meaning 'park'",
+          "A verb meaning 'swim'",
+          "A place"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「あそびます」 as 'enjoy oneself, play'.",
+          "bn": "পাঠে 「あそびます」 এর অর্থ 'enjoy oneself, play' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-013-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'play'?",
+          "bn": "কোন শব্দের অর্থ 'খেলা করা'?"
+        },
+        "options": [
+          "およぎます",
+          "あそびます",
+          "はしります",
+          "たべます"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「あそびます」 means 'play'.",
+          "bn": "「あそびます」 অর্থ 'খেলা করা'।"
+        }
+      },
+      {
+        "id": "minna-013-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is swim.",
+          "This is eat.",
+          "This is play.",
+          "This is read."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは あそびます です。」 as 'This is enjoy oneself, play'.",
+          "bn": "পাঠে 「これは あそびます です。」 এর অর্থ 'This is play' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

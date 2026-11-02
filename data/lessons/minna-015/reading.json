@@ -13,6 +13,65 @@
         "en": "This is put.",
         "bn": "এটি put।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-015-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'put'",
+          "A verb meaning 'sell'",
+          "A verb meaning 'make'",
+          "A verb meaning 'live'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「おきます」 as 'put'.",
+          "bn": "পাঠে 「おきます」 এর অর্থ 'put' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-015-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'put'?",
+          "bn": "কোন শব্দের অর্থ 'রাখা'?"
+        },
+        "options": [
+          "うります",
+          "つくります",
+          "おきます",
+          "すみます"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「おきます」 (here) means 'put, place'.",
+          "bn": "এখানে 「おきます」 অর্থ 'রাখা'।"
+        }
+      },
+      {
+        "id": "minna-015-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is sell.",
+          "This is make.",
+          "This is put.",
+          "This is live."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは おきます です。」 as 'This is put'.",
+          "bn": "পাঠে 「これは おきます です。」 এর অর্থ 'This is put' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

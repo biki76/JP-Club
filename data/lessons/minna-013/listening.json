@@ -14,6 +14,65 @@
         "en": "What is enjoy oneself, play?",
         "bn": "enjoy oneself, play কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-013-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে?"
+        },
+        "options": [
+          "およぎます",
+          "あそびます",
+          "はしります",
+          "たべます"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The transcript is 「あそびます は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「あそびます は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-013-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「あそびます」 mean?",
+          "bn": "পাঠ অনুযায়ী 「あそびます」 এর অর্থ কী?"
+        },
+        "options": [
+          "swim",
+          "run",
+          "eat",
+          "play"
+        ],
+        "correctIndex": 3,
+        "explanation": {
+          "en": "The text gives 「あそびます」 as 'enjoy oneself, play'.",
+          "bn": "পাঠে 「あそびます」 এর অর্থ 'play' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-013-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the question ask for?",
+          "bn": "প্রশ্নটি কী জানতে চাইছে?"
+        },
+        "options": [
+          "A meaning",
+          "A place",
+          "A time",
+          "A number"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「何 ですか」 asks for the meaning of the word.",
+          "bn": "「何 ですか」 শব্দটির অর্থ জানতে চাইছে।"
+        }
+      }
     ]
   }
 ]

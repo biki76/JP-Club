@@ -13,6 +13,65 @@
         "en": "This is have [a child].",
         "bn": "এটি have [a child]।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-011-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'have [a child]'",
+          "A place",
+          "A time",
+          "An adjective meaning 'busy'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「います［こどもが～］」 as 'have [a child]'.",
+          "bn": "পাঠে 「います［こどもが～］」 এর অর্থ 'have [a child]' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-011-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is go.",
+          "This is have [a child].",
+          "This is eat.",
+          "This is understand."
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「これは います［こどもが～］ です。」 as 'This is have [a child]'.",
+          "bn": "পাঠে 「これは います［こどもが～］ です。」 এর অর্থ 'This is have [a child]' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-011-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word refers to having a child?",
+          "bn": "কোন শব্দটি সন্তান থাকা বোঝায়?"
+        },
+        "options": [
+          "たべます",
+          "いきます",
+          "います",
+          "きます"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「います［こどもが～］」 means 'have [a child]'.",
+          "bn": "「います［こどもが～］」 অর্থ 'সন্তান থাকা'।"
+        }
+      }
     ]
   }
 ]
