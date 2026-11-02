@@ -11,6 +11,20 @@
         "bn": "দয়া করে এখানে ঢুকবেন না।",
         "furigana": "ここに はいらないでください।",
         "romaji": "koko ni hairanaide kudasai."
+      },
+      {
+        "jp": "ここで たばこを 吸わないで ください。",
+        "en": "Please do not smoke here.",
+        "furigana": "ここで たばこを すわないで ください。",
+        "romaji": "koko de tabako o suwanaide kudasai.",
+        "bn": "এখানে ধূমপান করবেন না।"
+      },
+      {
+        "jp": "この 部屋に 入らないで ください。",
+        "en": "Please do not enter this room.",
+        "furigana": "この へやに はいらないで ください。",
+        "romaji": "kono heya ni hairanaide kudasai.",
+        "bn": "এই ঘরে ঢুকবেন না।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "আগামীকাল আমাকে তাড়াতাড়ি উঠতে হবে।",
         "furigana": "あした はやく おきなければなりません।",
         "romaji": "ashita hayaku okinakereba narimasen."
+      },
+      {
+        "jp": "毎日 薬を 飲まなければ なりません。",
+        "en": "I must take medicine every day.",
+        "furigana": "まいにち くすりを のまなければ なりません。",
+        "romaji": "mainichi kusuri o nomanakereba narimasen.",
+        "bn": "আমাকে প্রতিদিন ঔষধ খেতে হয়।"
+      },
+      {
+        "jp": "明日 早く 起きなければ なりません。",
+        "en": "I must get up early tomorrow.",
+        "furigana": "あした はやく おきなければ なりません。",
+        "romaji": "ashita hayaku okinakereba narimasen.",
+        "bn": "আগামীকাল আমাকে তাড়াতাড়ি উঠতে হবে।"
       }
     ],
     "tags": [

@@ -11,6 +11,20 @@
         "bn": "আমি মাউন্ট ফুজিতে উঠেছি (অভিজ্ঞতা আছে)।",
         "furigana": "ふじさんに のぼったことが あります।",
         "romaji": "fujisan ni nobotta koto ga arimasu."
+      },
+      {
+        "jp": "富士山に 登った ことが あります。",
+        "en": "I have climbed Mt. Fuji.",
+        "furigana": "ふじさんに のぼった ことが あります。",
+        "romaji": "fujisan ni nobotta koto ga arimasu.",
+        "bn": "আমি একবার ফুজি পর্বতে উঠেছি।"
+      },
+      {
+        "jp": "日本へ 行った ことが あります。",
+        "en": "I have been to Japan.",
+        "furigana": "にほんへ いった ことが あります。",
+        "romaji": "nihon e itta koto ga arimasu.",
+        "bn": "আমি জাপানে গিয়েছি।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "সাপ্তাহিক ছুটিতে পরিষ্কার করি, কাপড় ধুই ইত্যাদি।",
         "furigana": "しゅうまつは そうじしたり せんたくしたり します।",
         "romaji": "shuumatsu wa souji shitari sentaku shitari shimasu."
+      },
+      {
+        "jp": "日曜日に 映画を 見たり、買い物を したり します。",
+        "en": "On Sundays I do things like watch movies and go shopping.",
+        "furigana": "にちようびに えいがを みたり、かいものを したり します。",
+        "romaji": "nichiyoubi ni eiga o mitari, kaimono o shitari shimasu.",
+        "bn": "রবিবার আমি সিনেমা দেখা, কেনাকাটা ইত্যাদি করি।"
+      },
+      {
+        "jp": "週末に 掃除を したり、洗濯を したり します。",
+        "en": "On weekends I do things like cleaning and laundry.",
+        "furigana": "しゅうまつに そうじを したり、せんたくを したり します。",
+        "romaji": "shuumatsu ni souji o shitari, sentaku o shitari shimasu.",
+        "bn": "সপ্তাহান্তে আমি পরিষ্কার করা, কাপড় ধোয়া ইত্যাদি করি।"
       }
     ],
     "tags": [

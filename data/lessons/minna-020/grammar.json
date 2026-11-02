@@ -11,6 +11,20 @@
         "bn": "আগামীকাল টোকিওতে যাব।",
         "furigana": "あした とうきょうへ いく।",
         "romaji": "ashita toukyou e iku."
+      },
+      {
+        "jp": "明日 学校へ 行く。",
+        "en": "I'll go to school tomorrow. (casual)",
+        "furigana": "あした がっこうへ いく。",
+        "romaji": "ashita gakkou e iku.",
+        "bn": "আগামীকাল স্কুলে যাব। (সাধারণ রূপ)"
+      },
+      {
+        "jp": "昨日 映画を 見た。",
+        "en": "I watched a movie yesterday. (casual)",
+        "furigana": "きのう えいがを みた。",
+        "romaji": "kinou eiga o mita.",
+        "bn": "গতকাল সিনেমা দেখেছিলাম। (সাধারণ রূপ)"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "আমি ছাত্র নই।",
         "furigana": "ぼくは がくせいじゃない।",
         "romaji": "boku wa gakusei ja nai."
+      },
+      {
+        "jp": "これは 私の 本だ。",
+        "en": "This is my book. (casual)",
+        "furigana": "これは わたしの ほんだ。",
+        "romaji": "kore wa watashi no hon da.",
+        "bn": "এটি আমার বই। (সাধারণ রূপ)"
+      },
+      {
+        "jp": "それは 私の 本じゃない。",
+        "en": "That is not my book. (casual)",
+        "furigana": "それは わたしの ほんじゃない。",
+        "romaji": "sore wa watashi no hon ja nai.",
+        "bn": "ওটি আমার বই নয়। (সাধারণ রূপ)"
       }
     ],
     "tags": [

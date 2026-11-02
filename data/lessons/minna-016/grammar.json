@@ -11,6 +11,20 @@
         "bn": "সকালে উঠে মুখ ধুই।",
         "furigana": "あさ おきて、かおを あらいます।",
         "romaji": "asa okite, kao o araimasu."
+      },
+      {
+        "jp": "朝 ご飯を 食べて、学校へ 行きます。",
+        "en": "I eat breakfast and then go to school.",
+        "furigana": "あさ ごはんを たべて、がっこうへ いきます。",
+        "romaji": "asa gohan o tabete, gakkou e ikimasu.",
+        "bn": "সকালে ভাত খেয়ে স্কুলে যাই।"
+      },
+      {
+        "jp": "家へ 帰って、宿題を します。",
+        "en": "I go home and then do my homework.",
+        "furigana": "いえへ かえって、しゅくだいを します。",
+        "romaji": "ie e kaette, shukudai o shimasu.",
+        "bn": "বাড়ি ফিরে বাড়ির কাজ করি।"
       }
     ],
     "tags": [
@@ -29,6 +43,20 @@
         "bn": "পড়াশোনা করার পর টিভি দেখি।",
         "furigana": "しゅくだいを してから、テレビを みます।",
         "romaji": "shukudai o shite kara, terebi o mimasu."
+      },
+      {
+        "jp": "朝 起きてから、勉強します。",
+        "en": "After I get up in the morning, I study.",
+        "furigana": "あさ おきてから、べんきょうします。",
+        "romaji": "asa okite kara, benkyou shimasu.",
+        "bn": "সকালে উঠে পড়াশোনা করি।"
+      },
+      {
+        "jp": "仕事が 終わってから、家へ 帰ります。",
+        "en": "After work finishes, I go home.",
+        "furigana": "しごとが おわってから、いえへ かえります。",
+        "romaji": "shigoto ga owatte kara, ie e kaerimasu.",
+        "bn": "কাজ শেষ হলে বাড়ি ফিরি।"
       }
     ],
     "tags": [
