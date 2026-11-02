@@ -13,6 +13,65 @@
         "en": "This is get up, wake up.",
         "bn": "এটি get up, wake up।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-004-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A noun meaning 'time'",
+          "A verb meaning 'eat'",
+          "A verb meaning 'get up'",
+          "An adjective meaning 'hot'"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「おきます」 as 'get up, wake up'.",
+          "bn": "পাঠে 「おきます」 এর অর্থ 'get up, wake up' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-004-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is eat.",
+          "This is get up.",
+          "This is go.",
+          "This is cut."
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「これは おきます です。」 as 'This is get up, wake up'.",
+          "bn": "পাঠে 「これは おきます です。」 এর অর্থ 'This is get up' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-004-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'get up'?",
+          "bn": "কোন শব্দের অর্থ 'ওঠা'?"
+        },
+        "options": [
+          "たべます",
+          "いきます",
+          "おきます",
+          "きります"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「おきます」 means 'get up, wake up'.",
+          "bn": "「おきます」 অর্থ 'ওঠা / ঘুম থেকে ওঠা'।"
+        }
+      }
     ]
   }
 ]

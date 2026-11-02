@@ -13,6 +13,65 @@
         "en": "This is this (thing here).",
         "bn": "এটি this (thing here)।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-002-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "That thing over there",
+          "This thing here",
+          "A person",
+          "A place"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「これは これ です。」 as 'This is this (thing here)'.",
+          "bn": "পাঠে 「これは これ です。」 এর অর্থ 'This is this (thing here)' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-002-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "The sentence is about…",
+          "bn": "বাক্যটি কী সম্পর্কে?"
+        },
+        "options": [
+          "a place",
+          "a time",
+          "a thing",
+          "a person"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「これ」 points to a thing, not a person or a place.",
+          "bn": "「これ」 একটি বস্তুকে বোঝায়, ব্যক্তি বা স্থান নয়।"
+        }
+      },
+      {
+        "id": "minna-002-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'this (thing here)'?",
+          "bn": "কোন শব্দের অর্থ 'এই বস্তুটি'?"
+        },
+        "options": [
+          "そこ",
+          "あそこ",
+          "これ",
+          "どこ"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「これ」 is the word for 'this thing here'.",
+          "bn": "「これ」 হলো 'এই বস্তুটি' বোঝানোর শব্দ।"
+        }
+      }
     ]
   }
 ]

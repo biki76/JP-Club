@@ -14,6 +14,65 @@
         "en": "What is go?",
         "bn": "go কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-005-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে?"
+        },
+        "options": [
+          "たべます",
+          "いきます",
+          "きます",
+          "のみます"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The transcript is 「いきます は 何 ですか。」, so it asks about 「いきます」.",
+          "bn": "প্রশ্নটি হলো 「いきます は 何 ですか。」, তাই এটি 「いきます」 সম্পর্কে জিজ্ঞাসা করছে।"
+        }
+      },
+      {
+        "id": "minna-005-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「いきます」 mean?",
+          "bn": "পাঠ অনুযায়ী 「いきます」 এর অর্থ কী?"
+        },
+        "options": [
+          "come",
+          "eat",
+          "go",
+          "read"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「いきます」 as 'go'.",
+          "bn": "পাঠে 「いきます」 এর অর্থ 'go' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-005-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the question asking for?",
+          "bn": "প্রশ্নটি কী জানতে চাইছে?"
+        },
+        "options": [
+          "The meaning of a word",
+          "The place of a thing",
+          "The time of an event",
+          "The price of a thing"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「何 ですか」 here asks what the word means.",
+          "bn": "এখানে 「何 ですか」 শব্দটির অর্থ কী তা জিজ্ঞাসা করছে।"
+        }
+      }
     ]
   }
 ]

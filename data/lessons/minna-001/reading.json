@@ -13,6 +13,65 @@
         "en": "This is I.",
         "bn": "এটি I।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-001-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "Me",
+          "My mother",
+          "A teacher",
+          "A book"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The sentence is 「これは わたし です。」 — 'this is me'.",
+          "bn": "বাক্যটি হলো 「これは わたし です。」 অর্থাৎ 'এটি আমি'।"
+        }
+      },
+      {
+        "id": "minna-001-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word in the sentence means 'this'?",
+          "bn": "বাক্যের কোন শব্দটির অর্থ 'এটি'?"
+        },
+        "options": [
+          "これ",
+          "わたし",
+          "です",
+          "は"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「これ」 means 'this'.",
+          "bn": "「これ」 অর্থ 'এটি'।"
+        }
+      },
+      {
+        "id": "minna-001-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Is the sentence about a person or a thing?",
+          "bn": "বাক্যটি একজন ব্যক্তি সম্পর্কে, না একটি বস্তু সম্পর্কে?"
+        },
+        "options": [
+          "A person",
+          "A place",
+          "A thing",
+          "A time"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「わたし」 means 'I/me', so the sentence is about a person.",
+          "bn": "「わたし」 অর্থ 'আমি', তাই বাক্যটি একজন ব্যক্তি সম্পর্কে।"
+        }
+      }
     ]
   }
 ]

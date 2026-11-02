@@ -13,6 +13,65 @@
         "en": "This is go.",
         "bn": "এটি go।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-005-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence say this is?",
+          "bn": "বাক্যটি অনুযায়ী এটি কী?"
+        },
+        "options": [
+          "A verb meaning 'go'",
+          "A verb meaning 'come'",
+          "A noun meaning 'station'",
+          "A verb meaning 'eat'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The text gives 「いきます」 as 'go'.",
+          "bn": "পাঠে 「いきます」 এর অর্থ 'go' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-005-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'go'?",
+          "bn": "কোন শব্দের অর্থ 'যাওয়া'?"
+        },
+        "options": [
+          "たべます",
+          "いきます",
+          "おきます",
+          "きります"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「いきます」 means 'go'.",
+          "bn": "「いきます」 অর্থ 'যাওয়া'।"
+        }
+      },
+      {
+        "id": "minna-005-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is eat.",
+          "This is cut.",
+          "This is go.",
+          "This is get up."
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「これは いきます です。」 as 'This is go'.",
+          "bn": "পাঠে 「これは いきます です。」 এর অর্থ 'This is go' বলা হয়েছে।"
+        }
+      }
     ]
   }
 ]

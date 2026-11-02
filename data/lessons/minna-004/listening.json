@@ -14,6 +14,65 @@
         "en": "What is get up, wake up?",
         "bn": "get up, wake up কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-004-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "The question asks about the meaning of…",
+          "bn": "প্রশ্নটি কীসের অর্থ সম্পর্কে জিজ্ঞাসা করছে?"
+        },
+        "options": [
+          "おきます",
+          "たべます",
+          "いきます",
+          "きます"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The transcript is 「おきます は 何 ですか。」",
+          "bn": "প্রশ্নটি হলো 「おきます は 何 ですか。」"
+        }
+      },
+      {
+        "id": "minna-004-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "According to the text, what does 「おきます」 mean?",
+          "bn": "পাঠ অনুযায়ী 「おきます」 এর অর্থ কী?"
+        },
+        "options": [
+          "eat",
+          "go",
+          "get up",
+          "cut"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "The text gives 「おきます」 as 'get up, wake up'.",
+          "bn": "পাঠে 「おきます」 এর অর্থ 'get up, wake up' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-004-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What kind of question is it?",
+          "bn": "এটি কোন ধরনের প্রশ্ন?"
+        },
+        "options": [
+          "A 'where' question",
+          "A 'when' question",
+          "A 'what' question",
+          "A 'how much' question"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "It uses 「何」, so it is a 'what' question.",
+          "bn": "এতে 「何」 ব্যবহৃত হয়েছে, তাই এটি 'কী' ধরনের প্রশ্ন।"
+        }
+      }
     ]
   }
 ]

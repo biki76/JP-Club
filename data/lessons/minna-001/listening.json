@@ -14,6 +14,65 @@
         "en": "What is I?",
         "bn": "I কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-001-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the question asking about?",
+          "bn": "প্রশ্নটি কী সম্পর্কে জিজ্ঞাসা করছে?"
+        },
+        "options": [
+          "What 'watashi' is",
+          "Where 'watashi' is",
+          "When 'watashi' is",
+          "Who likes 'watashi'"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The transcript is 「わたし は 何 ですか。」 — it asks what 'watashi' is.",
+          "bn": "প্রশ্নটি হলো 「わたし は 何 ですか。」 — এটি জিজ্ঞাসা করে 'わたし' কী।"
+        }
+      },
+      {
+        "id": "minna-001-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is the question asking about?",
+          "bn": "প্রশ্নটি কোন শব্দ সম্পর্কে জিজ্ঞাসা করছে?"
+        },
+        "options": [
+          "わたし",
+          "これ",
+          "です",
+          "か"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The word before 「は」 is 「わたし」, and that is what is asked about.",
+          "bn": "「は」 এর আগের শব্দটি 「わたし」, এবং সেই সম্পর্কেই জিজ্ঞাসা করা হচ্ছে।"
+        }
+      },
+      {
+        "id": "minna-001-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What kind of question word is used?",
+          "bn": "কোন ধরনের প্রশ্নবোধক শব্দ ব্যবহৃত হয়েছে?"
+        },
+        "options": [
+          "'Where'",
+          "'When'",
+          "'What'",
+          "'How much'"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「何」 means 'what'.",
+          "bn": "「何」 অর্থ 'কী'।"
+        }
+      }
     ]
   }
 ]

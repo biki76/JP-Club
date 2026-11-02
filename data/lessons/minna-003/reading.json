@@ -13,6 +13,65 @@
         "en": "This is here, this place.",
         "bn": "এটি here, this place।"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-003-r001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What does the sentence describe?",
+          "bn": "বাক্যটি কী বর্ণনা করছে?"
+        },
+        "options": [
+          "A place",
+          "A person",
+          "A time",
+          "A price"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "「ここ」 means 'here', a place, so the sentence describes a place.",
+          "bn": "「ここ」 অর্থ 'এখানে', অর্থাৎ একটি স্থান; তাই বাক্যটি একটি স্থান বর্ণনা করছে।"
+        }
+      },
+      {
+        "id": "minna-003-r001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which English matches the sentence?",
+          "bn": "কোন ইংরেজি বাক্যটির অর্থের সাথে মেলে?"
+        },
+        "options": [
+          "This is there.",
+          "This is here.",
+          "That is here.",
+          "This is a person."
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The text gives 「これは ここ です。」 as 'This is here, this place'.",
+          "bn": "পাঠে 「これは ここ です。」 এর অর্থ 'This is here' বলা হয়েছে।"
+        }
+      },
+      {
+        "id": "minna-003-r001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word means 'here'?",
+          "bn": "কোন শব্দের অর্থ 'এখানে'?"
+        },
+        "options": [
+          "これ",
+          "です",
+          "ここ",
+          "は"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "en": "「ここ」 means 'here'.",
+          "bn": "「ここ」 অর্থ 'এখানে'।"
+        }
+      }
     ]
   }
 ]

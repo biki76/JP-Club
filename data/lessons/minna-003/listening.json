@@ -14,6 +14,65 @@
         "en": "What is here, this place?",
         "bn": "here, this place কী?"
       }
+    ],
+    "questions": [
+      {
+        "id": "minna-003-l001-q1",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What is the question asking about?",
+          "bn": "প্রশ্নটি কী সম্পর্কে জিজ্ঞাসা করছে?"
+        },
+        "options": [
+          "What this place is",
+          "Where this is",
+          "Who is here",
+          "How much this is"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "en": "The transcript is 「ここ は 何 ですか。」 — it asks what this place is.",
+          "bn": "প্রশ্নটি হলো 「ここ は 何 ですか。」 — এটি জিজ্ঞাসা করে এই স্থানটি কী।"
+        }
+      },
+      {
+        "id": "minna-003-l001-q2",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "Which word is being asked about?",
+          "bn": "কোন শব্দ সম্পর্কে জিজ্ঞাসা করা হচ্ছে?"
+        },
+        "options": [
+          "これ",
+          "ここ",
+          "です",
+          "か"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "The topic word is 「ここ」 ('here').",
+          "bn": "বিষয়বাচক শব্দটি হলো 「ここ」 ('এখানে')।"
+        }
+      },
+      {
+        "id": "minna-003-l001-q3",
+        "type": "multiple-choice",
+        "prompt": {
+          "en": "What kind of question word is used?",
+          "bn": "কোন ধরনের প্রশ্নবোধক শব্দ ব্যবহৃত হয়েছে?"
+        },
+        "options": [
+          "'Where'",
+          "'What'",
+          "'Who'",
+          "'How much'"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "en": "「何」 means 'what'.",
+          "bn": "「何」 অর্থ 'কী'।"
+        }
+      }
     ]
   }
 ]
