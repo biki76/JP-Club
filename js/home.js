@@ -164,7 +164,7 @@
         : ' class="book book--link" href="' + esc(b.href) + '"';
       html += '<' + wrap + attrs + '>';
       var tk = /begin/.test(b.key) ? 'beginner' : /inter/.test(b.key) ? 'intermediate' : /tema/.test(b.key) ? 'temabetsu' : /mimi/.test(b.key) ? 'mimikara' : /shin/.test(b.key) ? 'shinkanzen' : /kanji/.test(b.key) ? 'kanji' : 'default';
-      html += '<img class="book__img" src="images/tracks/' + tk + '.webp" alt="" onerror="this.remove()" width="96" height="96" loading="lazy">';
+      html += '<img class="book__img" src="images/lessons/' + ({beginner:'minna-001',intermediate:'minna-010',temabetsu:'minna-005',mimikara:'minna-008',shinkanzen:'minna-012',kanji:'minna-003'}[tk]||'minna-001') + '.webp" alt="" onerror="this.remove()" width="96" height="96" loading="lazy">';
       html += '<div class="book__body">';
       html += '<h3 class="book__title">' + txt(b.title.en, b.title.bn) + '</h3>';
       html += '<p class="book__subtitle">' + txt(b.subtitle.en, b.subtitle.bn) + '</p>';
