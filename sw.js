@@ -111,7 +111,8 @@ const PRECACHE = [
   'js/ai-tutor/voice.js',
   'js/ai-tutor/chat.js',
   'js/ai-tutor/widget.js',
-  'js/ai-tutor/init.js', 'css/cloud.css', 'css/content-status.css',
+  'js/ai-tutor/init.js',
+  'js/ai-tutor/storage.js', 'css/cloud.css', 'css/content-status.css',
 
   'js/theme.js', 'js/i18n.js', 'js/main.js', 'js/shell.js', 'js/phase13-shell.js', 'js/home.js',
   'js/data-schemas.js', 'js/data-loader.js', 'js/lessons.js',

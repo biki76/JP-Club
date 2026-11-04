@@ -1,4 +1,3 @@
-/* AI Tutor API Communication */
 (function() {
   'use strict';
 
@@ -7,22 +6,14 @@
 
   async function getAuthToken() {
     const user = window.CloudSync?.getUser();
-    if (!user) {
-      throw new Error('Authentication required. Please sign in to use AI Tutor.');
-    }
-    
-    // Get fresh session
+    if (!user) throw new Error('Authentication required');
     const { data: { session } } = await window.supabase.auth.getSession();
-    if (!session) {
-      throw new Error('Session expired. Please sign in again.');
-    }
-    
+    if (!session) throw new Error('Session expired');
     return session.access_token;
   }
 
   async function callEdgeFunction(action, payload) {
     const token = await getAuthToken();
-    
     const response = await fetch(`${SUPABASE_URL}/functions/v1/ai-tutor`, {
       method: 'POST',
       headers: {
@@ -39,32 +30,16 @@
     }
 
     const result = await response.json();
-    if (!result.success) {
-      throw new Error(result.error || 'Request failed');
-    }
-
+    if (!result.success) throw new Error(result.error || 'Request failed');
     return result.data;
   }
 
   window.AITutorAPI = {
-    sendMessage: async function(message, level, sessionId) {
-      return await callEdgeFunction('send_message', {
-        message,
-        level,
-        sessionId
-      });
-    },
-
-    createSession: async function(level) {
-      return await callEdgeFunction('create_session', { level });
-    },
-
-    getSessions: async function() {
-      return await callEdgeFunction('get_sessions', {});
-    },
-
-    isAuthenticated: function() {
-      return !!window.CloudSync?.getUser();
-    }
+    sendMessage: (message, level, sessionId) => callEdgeFunction('send_message', { message, level, sessionId }),
+    createSession: (level) => callEdgeFunction('create_session', { level }),
+    getSessions: () => callEdgeFunction('get_sessions', {}),
+    getHistory: (sessionId) => callEdgeFunction('get_history', { sessionId }),
+    updateProfile: (level) => callEdgeFunction('update_profile', { level }),
+    isAuthenticated: () => !!window.CloudSync?.getUser()
   };
 })();

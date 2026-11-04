@@ -1,4 +1,3 @@
-/* AI Tutor Voice Features */
 (function() {
   'use strict';
 
@@ -8,55 +7,38 @@
 
   let recognition = null;
   let isListening = false;
+  let currentUtterance = null;
 
   function initRecognition() {
     if (!isRecognitionSupported) return null;
-
     recognition = new SpeechRecognition();
     recognition.lang = 'ja-JP';
     recognition.continuous = false;
     recognition.interimResults = false;
-
     return recognition;
   }
 
   window.AITutorVoice = {
-    isSupported: {
-      recognition: isRecognitionSupported,
-      synthesis: isSynthesisSupported
-    },
-
+    isSupported: { recognition: isRecognitionSupported, synthesis: isSynthesisSupported },
+    
     startListening: function(onResult, onError) {
-      if (!isRecognitionSupported) {
-        onError(new Error('Speech recognition not supported in this browser'));
-        return;
-      }
+      if (!isRecognitionSupported) { onError(new Error('Not supported')); return; }
+      if (!recognition) recognition = initRecognition();
 
-      if (!recognition) {
-        recognition = initRecognition();
-      }
-
-      recognition.onresult = function(event) {
-        const transcript = event.results[0][0].transcript;
-        onResult(transcript);
+      recognition.onresult = (event) => {
+        onResult(event.results[0][0].transcript);
         isListening = false;
       };
-
-      recognition.onerror = function(event) {
-        onError(new Error(`Speech recognition error: ${event.error}`));
+      recognition.onerror = (event) => {
+        onError(new Error(event.error));
         isListening = false;
       };
-
-      recognition.onend = function() {
-        isListening = false;
-      };
+      recognition.onend = () => { isListening = false; };
 
       try {
         recognition.start();
         isListening = true;
-      } catch (error) {
-        onError(error);
-      }
+      } catch (error) { onError(error); }
     },
 
     stopListening: function() {
@@ -66,39 +48,30 @@
       }
     },
 
-    isListening: function() {
-      return isListening;
-    },
+    isListening: () => isListening,
 
     speak: function(text, onEnd) {
-      if (!isSynthesisSupported) {
-        console.warn('Speech synthesis not supported');
-        return;
-      }
-
-      // Cancel any ongoing speech
+      if (!isSynthesisSupported) return;
       window.speechSynthesis.cancel();
-
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'ja-JP';
-      utterance.rate = 0.9;
-      utterance.pitch = 1;
-
-      // Try to find a Japanese voice
+      
+      currentUtterance = new SpeechSynthesisUtterance(text);
+      currentUtterance.lang = 'ja-JP';
+      currentUtterance.rate = 0.9;
+      
       const voices = window.speechSynthesis.getVoices();
-      const japaneseVoice = voices.find(v => v.lang.startsWith('ja'));
-      if (japaneseVoice) {
-        utterance.voice = japaneseVoice;
-      }
+      const jpVoice = voices.find(v => v.lang.startsWith('ja'));
+      if (jpVoice) currentUtterance.voice = jpVoice;
 
-      utterance.onend = onEnd;
-      window.speechSynthesis.speak(utterance);
+      currentUtterance.onend = onEnd;
+      window.speechSynthesis.speak(currentUtterance);
     },
 
     stopSpeaking: function() {
-      if (isSynthesisSupported) {
-        window.speechSynthesis.cancel();
-      }
+      if (isSynthesisSupported) window.speechSynthesis.cancel();
+    },
+
+    isSpeaking: function() {
+      return isSynthesisSupported && window.speechSynthesis.speaking;
     }
   };
 })();

@@ -1,43 +1,72 @@
-/* AI Tutor Chat Management */
 (function() {
   'use strict';
 
   let currentSessionId = null;
   let currentLevel = 'N5';
-  let messages = [];
 
-  function createMessageElement(role, content, correction, suggestion) {
+  function createMessageElement(role, content, correction, suggestion, id) {
     const messageDiv = document.createElement('div');
     messageDiv.className = `ai-tutor-message ai-tutor-message--${role}`;
+    messageDiv.dataset.msgId = id;
+
+    const bubbleRow = document.createElement('div');
+    bubbleRow.style.display = 'flex';
+    bubbleRow.style.alignItems = 'flex-end';
+    bubbleRow.style.gap = '8px';
 
     const bubble = document.createElement('div');
     bubble.className = 'ai-tutor-message-bubble';
     bubble.textContent = content;
-    messageDiv.appendChild(bubble);
+    bubbleRow.appendChild(bubble);
 
-    // Add correction card if present
+    // Add play button for assistant messages
+    if (role === 'assistant' && window.AITutorVoice.isSupported.synthesis) {
+      const playBtn = document.createElement('button');
+      playBtn.className = 'ai-tutor-btn ai-tutor-btn-mic';
+      playBtn.style.width = '32px';
+      playBtn.style.height = '32px';
+      playBtn.style.flexShrink = '0';
+      playBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>`;
+      playBtn.title = 'Play audio';
+      playBtn.setAttribute('aria-label', 'Play audio');
+      
+      playBtn.addEventListener('click', () => {
+        if (window.AITutorVoice.isSpeaking()) {
+          window.AITutorVoice.stopSpeaking();
+          playBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>`;
+        } else {
+          window.AITutorVoice.speak(content, () => {
+            playBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>`;
+          });
+          playBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>`;
+        }
+      });
+      bubbleRow.appendChild(playBtn);
+    }
+
+    messageDiv.appendChild(bubbleRow);
+
     if (correction) {
-      const correctionCard = document.createElement('div');
-      correctionCard.className = 'ai-tutor-feedback ai-tutor-correction';
-      correctionCard.innerHTML = `
+      const card = document.createElement('div');
+      card.className = 'ai-tutor-feedback ai-tutor-correction';
+      card.innerHTML = `
         <span class="ai-tutor-feedback-label">Correction:</span>
         <div class="ai-tutor-feedback-original">${window.AITutorUtils.safeText(correction.original)}</div>
         <div class="ai-tutor-feedback-corrected">${window.AITutorUtils.safeText(correction.corrected)}</div>
         <div class="ai-tutor-feedback-explanation">${window.AITutorUtils.safeText(correction.explanation)}</div>
       `;
-      messageDiv.appendChild(correctionCard);
+      messageDiv.appendChild(card);
     }
 
-    // Add suggestion card if present
     if (suggestion) {
-      const suggestionCard = document.createElement('div');
-      suggestionCard.className = 'ai-tutor-feedback ai-tutor-suggestion';
-      suggestionCard.innerHTML = `
+      const card = document.createElement('div');
+      card.className = 'ai-tutor-feedback ai-tutor-suggestion';
+      card.innerHTML = `
         <span class="ai-tutor-feedback-label">Suggestion:</span>
         <div class="ai-tutor-feedback-corrected">${window.AITutorUtils.safeText(suggestion.text)}</div>
         <div class="ai-tutor-feedback-explanation">${window.AITutorUtils.safeText(suggestion.explanation)}</div>
       `;
-      messageDiv.appendChild(suggestionCard);
+      messageDiv.appendChild(card);
     }
 
     return messageDiv;
@@ -47,11 +76,7 @@
     const loading = document.createElement('div');
     loading.className = 'ai-tutor-loading';
     loading.id = 'ai-tutor-loading';
-    loading.innerHTML = `
-      <div class="ai-tutor-loading-dot"></div>
-      <div class="ai-tutor-loading-dot"></div>
-      <div class="ai-tutor-loading-dot"></div>
-    `;
+    loading.innerHTML = `<div class="ai-tutor-loading-dot"></div><div class="ai-tutor-loading-dot"></div><div class="ai-tutor-loading-dot"></div>`;
     return loading;
   }
 
@@ -59,13 +84,7 @@
     const empty = document.createElement('div');
     empty.className = 'ai-tutor-empty';
     empty.id = 'ai-tutor-empty';
-    empty.innerHTML = `
-      <div class="ai-tutor-empty-icon">🎓</div>
-      <div class="ai-tutor-empty-text">
-        Start practicing Japanese!<br>
-        Type a message or use the microphone to speak.
-      </div>
-    `;
+    empty.innerHTML = `<div class="ai-tutor-empty-icon">🎓</div><div class="ai-tutor-empty-text">Start practicing Japanese!<br>Type a message or use the microphone.</div>`;
     return empty;
   }
 
@@ -75,7 +94,6 @@
     errorDiv.className = 'ai-tutor-error';
     errorDiv.textContent = message;
     chat.appendChild(errorDiv);
-
     setTimeout(() => errorDiv.remove(), 5000);
   }
 
@@ -88,45 +106,38 @@
         chat.appendChild(createEmptyState());
       }
     },
-
-    setLevel: function(level) {
-      currentLevel = level;
-    },
-
-    getLevel: function() {
-      return currentLevel;
-    },
-
-    getSessionId: function() {
-      return currentSessionId;
-    },
-
-    setSessionId: function(sessionId) {
-      currentSessionId = sessionId;
-    },
-
+    setLevel: (level) => { currentLevel = level; },
+    getLevel: () => currentLevel,
+    getSessionId: () => currentSessionId,
+    setSessionId: (sessionId) => { currentSessionId = sessionId; },
+    
     addUserMessage: function(content) {
       const chat = document.getElementById('ai-tutor-chat');
       const empty = document.getElementById('ai-tutor-empty');
       if (empty) empty.remove();
-
-      const messageEl = createMessageElement('user', content);
-      chat.appendChild(messageEl);
+      chat.appendChild(createMessageElement('user', content));
       chat.scrollTop = chat.scrollHeight;
-
-      messages.push({ role: 'user', content });
     },
-
-    addAssistantMessage: function(content, correction, suggestion) {
+    
+    addAssistantMessage: function(content, correction, suggestion, id) {
       const chat = document.getElementById('ai-tutor-chat');
       const loading = document.getElementById('ai-tutor-loading');
       if (loading) loading.remove();
-
-      const messageEl = createMessageElement('assistant', content, correction, suggestion);
-      chat.appendChild(messageEl);
+      chat.appendChild(createMessageElement('assistant', content, correction, suggestion, id));
       chat.scrollTop = chat.scrollHeight;
+    },
 
-      messages.push({ role: 'assistant', content, correction, suggestion });
+    renderHistory: function(messages) {
+      const chat = document.getElementById('ai-tutor-chat');
+      chat.innerHTML = '';
+      if (!messages || messages.length === 0) {
+        chat.appendChild(createEmptyState());
+        return;
+      }
+      messages.forEach(msg => {
+        chat.appendChild(createMessageElement(msg.role, msg.content, msg.correction, msg.suggestion, msg.id));
+      });
+      chat.scrollTop = chat.scrollHeight;
     },
 
     showLoading: function() {
@@ -134,12 +145,9 @@
       chat.appendChild(createLoadingElement());
       chat.scrollTop = chat.scrollHeight;
     },
-
     showError: showError,
-
     clear: function() {
       currentSessionId = null;
-      messages = [];
       const chat = document.getElementById('ai-tutor-chat');
       if (chat) {
         chat.innerHTML = '';
