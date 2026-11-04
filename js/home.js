@@ -172,7 +172,7 @@
       html += '<div class="book__levels">' + levels + '</div>';
       html += '</div>';
       html += b.soon
-        ? '<span class="book__soon">' + txt('', 'শীঘ্রই আসছে') + '</span>'
+        ? '<span class="book__soon">' + txt('Coming soon', 'শীঘ্রই আসছে') + '</span>'
         : '<span class="book__arrow" aria-hidden="true">→</span>';
       html += '</' + wrap + '>';
     });
