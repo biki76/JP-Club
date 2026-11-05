@@ -1,0 +1,98 @@
+/* typography.css - Global Typography System for JP-Club */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+:root {
+  /* Font Families */
+  --font-brand: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans JP", "MS Gothic", sans-serif;
+
+  /* Font Scale (1.25 Minor Third) */
+  --text-xs: 0.75rem;   /* Tiny Track Labels */
+  --text-sm: 0.875rem;  
+  --text-base: 1rem;    
+  --text-lg: 1.25rem;   
+  --text-xl: 1.4rem;    /* H2 / Lesson Titles */
+  --text-2xl: clamp(1.8rem, 1.5rem + 1.5vw, 2rem); /* Fluid H1 */
+  --text-3xl: clamp(2rem, 1.6rem + 2vw, 2.44rem); 
+
+  /* Font Weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  /* Spacing & Layout */
+  --lh-tight: 1.2;      
+  --lh-normal: 1.6;     
+  --tracking-wide: 0.05em;
+  --measure-readable: 65ch; 
+}
+
+body, .btn, input, select, textarea, button {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--lh-normal);
+  font-weight: var(--fw-regular);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6, .heading-brand {
+  font-family: var(--font-brand);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: var(--lh-tight);
+}
+
+h1 {
+  font-size: var(--text-2xl);
+  font-weight: var(--fw-extrabold);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: var(--text-xl);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: var(--text-lg);
+  font-weight: var(--fw-bold);
+}
+
+@media (max-width: 768px) {
+  h1 { font-weight: var(--fw-semibold); }
+}
+
+p, li, .reading-text { line-height: var(--lh-normal); }
+
+.reading-section, .card, .explanation-container, .text-block, p.max-measure, .prose {
+  max-width: var(--measure-readable);
+  margin-inline: auto;
+}
+
+.label-track, .text-track, .level-indicator {
+  font-size: var(--text-xs);
+  font-weight: var(--fw-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--color-accent-muted, #64748b);
+}
+
+ruby rt {
+  font-size: 0.65em;
+  font-weight: var(--fw-regular);
+  line-height: 1;
+  padding: 0.25em 0;
+  text-align: center;
+}
+
+html[data-furigana="off"] ruby rt { display: none; }
+
+:lang(ja), [lang="ja"], .jp-text {
+  line-height: var(--lh-normal);
+  word-break: break-all;
+}
