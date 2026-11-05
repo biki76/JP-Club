@@ -189,7 +189,7 @@
     client = window.supabase.createClient(c.url, c.anonKey || c.publishableKey, {
       auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true }
     });
-    return client;
+    window.__sb = client; return client;
   }
 
   function setUser(u) {

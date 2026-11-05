@@ -5,26 +5,15 @@
   const SUPABASE_KEY = window.SUPABASE_CONFIG?.publishableKey;
 
   async function getAuthToken() {
-    // Defensive check: Ensure Supabase client is fully loaded
-    if (!window.supabase || !window.supabase.auth) {
-      throw new Error('Supabase client not ready. Please refresh the page.');
+    var client = window.__sb || (window.CloudSync && window.CloudSync.client);
+    for (var i = 0; i < 20 && !(client && client.auth); i++) {
+      await new Promise(function (r) { setTimeout(r, 150); });
+      client = window.__sb || (window.CloudSync && window.CloudSync.client);
     }
-
-    const user = window.CloudSync?.getUser();
-    if (!user) {
-      throw new Error('Authentication required. Please sign in to use AI Tutor.');
-    }
-    
-    try {
-      const { data: { session }, error } = await window.supabase.auth.getSession();
-      if (error || !session) {
-        throw new Error('Session expired. Please sign in again.');
-      }
-      return session.access_token;
-    } catch (err) {
-      console.error('Auth token retrieval error:', err);
-      throw new Error('Authentication failed. Please refresh the page and try again.');
-    }
+    if (!client || !client.auth) throw new Error('Supabase client not ready. Please refresh the page.');
+    var res = await client.auth.getSession();
+    if (res.error || !res.data || !res.data.session) throw new Error('Please sign in to use AI Tutor.');
+    return res.data.session.access_token;
   }
 
   async function callEdgeFunction(action, payload) {
@@ -37,7 +26,7 @@
     const response = await fetch(`${SUPABASE_URL}/functions/v1/ai-tutor`, {
       method: 'POST',
       headers: {
-        'Authorization': Bearer ${token},
+        'Authorization': `Bearer ${token}`,
         'Content-Type': 'application/json',
         'apikey': SUPABASE_KEY || ''
       },
@@ -45,7 +34,7 @@
     });
 
     if (!response.ok) {
-      let errorMsg = HTTP ${response.status};
+      let errorMsg = `HTTP ${response.status}`;
       try {
         const error = await response.json();
         errorMsg = error.error || errorMsg;
