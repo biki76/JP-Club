@@ -1,0 +1,16 @@
+.ai-tutor-page .ai-tutor-toggle,
+.ai-tutor-page #ai-tutor-close { display: none !important; }
+.tutor-head { max-width: 760px; margin: 0 auto 16px; }
+.tutor-head h1 { margin: 0 0 4px; }
+.tutor-head p { margin: 0; color: var(--text-muted, inherit); opacity: .8; }
+.tutor-host { max-width: 760px; margin: 0 auto; }
+.ai-tutor-page .tutor-host .ai-tutor-window {
+  position: static !important; inset: auto !important; transform: none !important;
+  width: 100% !important; max-width: 100% !important;
+  height: calc(100dvh - 260px) !important; min-height: 480px;
+  display: flex !important; flex-direction: column;
+  opacity: 1 !important; visibility: visible !important;
+}
+@media (max-width: 1023px) {
+  .ai-tutor-page .tutor-host .ai-tutor-window { height: calc(100dvh - 240px) !important; }
+}

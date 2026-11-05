@@ -6,7 +6,7 @@
 
   function initAITutor() {
     // Check if Supabase client is fully loaded
-    if (!window.supabase || !window.supabase.auth) {
+    if (!window.supabase) {
       if (retries < MAX_RETRIES) {
         console.warn(`AI Tutor init delayed (${retries + 1}/${MAX_RETRIES}): Waiting for window.supabase...`);
         retries++;
