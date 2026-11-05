@@ -22,6 +22,7 @@
       { title: { en: 'Learn', bn: 'শিখুন' }, items: [
         { key: 'home', icon: 'home', href: 'home.html', label: { en: 'Home', bn: 'হোম' } },
         { key: 'lesson', icon: 'book', href: 'lesson.html?lesson=minna-001', label: { en: 'Lessons', bn: 'পাঠ' } },
+        { key: 'tutor', icon: 'practice', href: 'tutor.html', label: { en: 'AI Tutor', bn: 'এআই টিউটর' } },
         { key: 'flashcards', icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
         { key: 'quiz', icon: 'practice', href: 'quiz.html', label: { en: 'Quiz', bn: 'কুইজ' } },
         { key: 'kanji', icon: 'kanji', href: 'kanji.html', label: { en: 'Kanji', bn: 'কাঞ্জি' } }
