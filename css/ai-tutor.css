@@ -56,3 +56,56 @@
 [data-theme="dark"] .ai-tutor-btn-mic { background: #374151; color: #9ca3af; }
 [data-theme="dark"] .ai-tutor-correction { background: #78350f; color: #fef3c7; }
 [data-theme="dark"] .ai-tutor-suggestion { background: #1e3a8a; color: #dbeafe; }
+
+/* Phase 3 Additions: History, Replay, and Active States */
+.ai-tutor-header-btn.is-active { background: rgba(255, 255, 255, 0.4); }
+[data-theme="dark"] .ai-tutor-header-btn.is-active { background: rgba(255, 255, 255, 0.2); }
+
+.ai-tutor-replay-btn {
+  position: absolute;
+  bottom: -24px;
+  right: 0;
+  background: transparent;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s, background 0.2s;
+}
+.ai-tutor-replay-btn:hover { color: #667eea; background: rgba(102, 126, 234, 0.1); }
+[data-theme="dark"] .ai-tutor-replay-btn { color: #9ca3af; }
+[data-theme="dark"] .ai-tutor-replay-btn:hover { color: #818cf8; background: rgba(129, 140, 248, 0.1); }
+
+.ai-tutor-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+}
+.ai-tutor-history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  color: #1f2937;
+  transition: background 0.2s, border-color 0.2s;
+}
+.ai-tutor-history-item:hover { background: #e5e7eb; border-color: #667eea; }
+.ai-tutor-history-level { font-weight: 700; color: #667eea; }
+.ai-tutor-history-date { font-size: 12px; color: #6b7280; }
+
+[data-theme="dark"] .ai-tutor-history-item { background: #374151; border-color: #4b5563; color: #f9fafb; }
+[data-theme="dark"] .ai-tutor-history-item:hover { background: #4b5563; border-color: #818cf8; }
+[data-theme="dark"] .ai-tutor-history-level { color: #818cf8; }
+[data-theme="dark"] .ai-tutor-history-date { color: #9ca3af; }

@@ -1,24 +1,16 @@
-/* AI Tutor Utilities */
 (function() {
   'use strict';
 
   window.AITutorUtils = {
-    // Safe text insertion (prevents XSS)
-    safeText: function(text) {
-      const div = document.createElement('div');
-      div.textContent = text;
-      return div.innerHTML;
+    // XSS-Safe text rendering: creates a text node, never uses innerHTML for user/LLM data
+    createTextElement: function(tagName, text, className = '') {
+      const el = document.createElement(tagName);
+      if (className) el.className = className;
+      el.textContent = text || '';
+      return el;
     },
 
-    // Format timestamp
-    formatTime: function(date) {
-      return new Date(date).toLocaleTimeString('en-US', { 
-        hour: '2-digit', 
-        minute: '2-digit' 
-      });
-    },
-
-    // Debounce function
+    // Debounce function to prevent rapid-fire API calls
     debounce: function(func, wait) {
       let timeout;
       return function executedFunction(...args) {
@@ -31,18 +23,9 @@
       };
     },
 
-    // Generate UUID
-    generateUUID: function() {
-      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-        const r = Math.random() * 16 | 0;
-        const v = c === 'x' ? r : (r & 0x3 | 0x8);
-        return v.toString(16);
-      });
-    },
-
-    // Check if device is mobile
-    isMobile: function() {
-      return window.innerWidth <= 480;
+    // Generate a simple UUID for guest sessions
+    generateGuestId: function() {
+      return 'guest_' + Math.random().toString(36).substring(2, 15);
     }
   };
 })();

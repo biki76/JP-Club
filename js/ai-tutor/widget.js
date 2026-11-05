@@ -2,6 +2,7 @@
   'use strict';
 
   let isOpen = false;
+  let isSending = false;
 
   function createWidget() {
     const toggle = document.createElement('button');
@@ -24,6 +25,12 @@
           <option value="N3">N3</option>
         </select>
         <div class="ai-tutor-header-actions">
+          <button class="ai-tutor-header-btn" id="ai-tutor-history" title="History" aria-label="Conversation History">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </button>
+          <button class="ai-tutor-header-btn" id="ai-tutor-speaker" title="Toggle Auto-Speak" aria-label="Toggle Auto-Speak">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+          </button>
           <button class="ai-tutor-header-btn" id="ai-tutor-new" title="New Conversation" aria-label="New Conversation">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
           </button>
@@ -53,6 +60,8 @@
     const win = document.getElementById('ai-tutor-window');
     const closeBtn = document.getElementById('ai-tutor-close');
     const newBtn = document.getElementById('ai-tutor-new');
+    const historyBtn = document.getElementById('ai-tutor-history');
+    const speakerBtn = document.getElementById('ai-tutor-speaker');
     const levelSelect = document.getElementById('ai-tutor-level');
     const input = document.getElementById('ai-tutor-input');
     const sendBtn = document.getElementById('ai-tutor-send');
@@ -81,82 +90,92 @@
       }
     });
 
+    historyBtn.addEventListener('click', async function() {
+      if (!window.AITutorAPI || !window.AITutorAPI.isAuthenticated()) {
+        window.AITutorChat.showError('Please sign in to view history.');
+        return;
+      }
+      if (window.AITutorChat) window.AITutorChat.showLoading();
+      try {
+        const sessions = await window.AITutorAPI.getSessions();
+        if (window.AITutorChat) window.AITutorChat.renderHistoryList(sessions);
+      } catch (error) {
+        console.error('Failed to load sessions:', error);
+        if (window.AITutorChat) window.AITutorChat.showError('Failed to load history.');
+      }
+    });
+
+    speakerBtn.addEventListener('click', function() {
+      if (window.AITutorVoice) {
+        window.AITutorVoice.autoSpeakEnabled = !window.AITutorVoice.autoSpeakEnabled;
+        if (window.AITutorStorage) window.AITutorStorage.setAutoSpeak(window.AITutorVoice.autoSpeakEnabled);
+        speakerBtn.classList.toggle('is-active', window.AITutorVoice.autoSpeakEnabled);
+      }
+    });
+
     levelSelect.addEventListener('change', function(e) {
       const level = e.target.value;
-      if (window.AITutorChat) window.AITutorChat.setLevel(level);
       if (window.AITutorStorage) window.AITutorStorage.setLevel(level);
       if (window.AITutorAPI && window.AITutorAPI.isAuthenticated()) {
         window.AITutorAPI.updateProfile(level).catch(function() {});
       }
     });
 
-    function sendMessage() {
+    async function handleSend() {
+      if (isSending) return;
       const message = input.value.trim();
       if (!message) return;
-      if (!window.AITutorAPI || !window.AITutorAPI.isAuthenticated()) {
-        if (window.AITutorChat) window.AITutorChat.showError('Please sign in to use AI Tutor');
-        return;
+
+      const level = levelSelect.value;
+      const sessionId = window.AITutorStorage ? window.AITutorStorage.getLastSessionId() : null;
+      const isAuth = window.AITutorAPI && window.AITutorAPI.isAuthenticated();
+
+      if (!isAuth) {
+        window.AITutorChat.showError('Please sign in to save your chat history.');
       }
 
-      input.value = '';
-      input.disabled = true;
+      isSending = true;
       sendBtn.disabled = true;
-      if (window.AITutorChat) {
-        window.AITutorChat.addUserMessage(message);
-        window.AITutorChat.showLoading();
-      }
+      input.disabled = true;
+      input.value = ''; 
 
-      const level = window.AITutorChat ? window.AITutorChat.getLevel() : 'N5';
-      const sessionId = window.AITutorChat ? window.AITutorChat.getSessionId() : null;
+      window.AITutorChat.appendUserMessage(message);
+      window.AITutorChat.showLoading();
 
-      window.AITutorAPI.sendMessage(message, level, sessionId).then(function(response) {
-        if (window.AITutorChat) {
-          window.AITutorChat.setSessionId(response.sessionId);
-          if (window.AITutorStorage) window.AITutorStorage.setLastSessionId(response.sessionId);
-          window.AITutorChat.addAssistantMessage(response.reply, response.correction, response.suggestion);
+      try {
+        const response = await window.AITutorAPI.sendMessage(message, level, sessionId);
+        
+        if (response.sessionId && window.AITutorStorage) {
+          window.AITutorStorage.setLastSessionId(response.sessionId);
         }
-      }).catch(function(error) {
-        if (window.AITutorChat) {
-          window.AITutorChat.showError(error.message || 'Failed to get response');
+
+        window.AITutorChat.appendAssistantMessage(response);
+
+        if (!isAuth && window.AITutorStorage) {
+          window.AITutorStorage.saveGuestMessage({ role: 'user', content: message });
+          window.AITutorStorage.saveGuestMessage({ role: 'assistant', content: response.reply, correction: response.correction, suggestion: response.suggestion });
         }
-      }).finally(function() {
-        input.disabled = false;
+      } catch (error) {
+        console.error('AI Tutor API Error:', error);
+        window.AITutorChat.showError(error.message || 'Failed to get a response. Please try again.');
+        input.value = message; 
+      } finally {
+        isSending = false;
         sendBtn.disabled = false;
+        input.disabled = false;
         input.focus();
-      });
+      }
     }
 
-    sendBtn.addEventListener('click', sendMessage);
+    sendBtn.addEventListener('click', handleSend);
     input.addEventListener('keypress', function(e) {
-      if (e.key === 'Enter') sendMessage();
+      if (e.key === 'Enter') handleSend();
     });
 
-    micBtn.addEventListener('click', function() {
-      if (!window.AITutorVoice || !window.AITutorVoice.isSupported.recognition) {
-        if (window.AITutorChat) window.AITutorChat.showError('Speech recognition not supported');
-        return;
-      }
-      if (window.AITutorVoice.isListening()) {
-        window.AITutorVoice.stopListening();
-        micBtn.classList.remove('is-listening');
-      } else {
-        micBtn.classList.add('is-listening');
-        window.AITutorVoice.startListening(
-          function(transcript) {
-            input.value = transcript;
-            micBtn.classList.remove('is-listening');
-          },
-          function(error) {
-            if (window.AITutorChat) window.AITutorChat.showError('Voice input failed');
-            micBtn.classList.remove('is-listening');
-          }
-        );
-      }
-    });
-
-    if (window.AITutorVoice && !window.AITutorVoice.isSupported.recognition) {
-      micBtn.disabled = true;
-      micBtn.title = 'Speech recognition not supported';
+    if (micBtn) {
+      micBtn.addEventListener('click', function() {
+        if (window.AITutorVoice) window.AITutorVoice.toggleListening();
+      });
     }
   }
 
@@ -164,17 +183,20 @@
     init: function() {
       createWidget();
       bindEvents();
+      if (window.AITutorChat) window.AITutorChat.init();
+      if (window.AITutorVoice) window.AITutorVoice.init();
+      
+      const savedLevel = window.AITutorStorage ? window.AITutorStorage.getLevel() : 'N5';
+      const levelSelect = document.getElementById('ai-tutor-level');
+      if (levelSelect) levelSelect.value = savedLevel;
 
-      if (window.AITutorStorage) {
-        const savedLevel = window.AITutorStorage.getLevel();
-        const levelSelect = document.getElementById('ai-tutor-level');
-        if (levelSelect) levelSelect.value = savedLevel;
+      if (window.AITutorVoice && window.AITutorStorage) {
+        window.AITutorVoice.autoSpeakEnabled = window.AITutorStorage.getAutoSpeak();
+        const speakerBtn = document.getElementById('ai-tutor-speaker');
+        if (speakerBtn) speakerBtn.classList.toggle('is-active', window.AITutorVoice.autoSpeakEnabled);
       }
 
-      if (window.AITutorChat) {
-        const savedLevel = window.AITutorStorage ? window.AITutorStorage.getLevel() : 'N5';
-        window.AITutorChat.init(savedLevel);
-      }
+      if (window.AITutorChat) window.AITutorChat.renderEmptyState();
     }
   };
 })();

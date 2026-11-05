@@ -1,30 +1,48 @@
 (function() {
   'use strict';
-  const PREFS_KEY = 'ai_tutor_prefs';
+
+  const STORAGE_KEYS = {
+    LEVEL: 'ai_tutor_jlpt_level',
+    SESSION_ID: 'ai_tutor_current_session_id',
+    GUEST_HISTORY: 'ai_tutor_guest_history',
+    AUTO_SPEAK: 'ai_tutor_auto_speak'
+  };
+
   window.AITutorStorage = {
-    getPrefs: function() {
-      try { return JSON.parse(localStorage.getItem(PREFS_KEY)) || {}; } catch(e) { return {}; }
+    getLevel: function() {
+      try { return localStorage.getItem(STORAGE_KEYS.LEVEL) || 'N5'; } catch (e) { return 'N5'; }
     },
-    savePrefs: function(prefs) {
-      localStorage.setItem(PREFS_KEY, JSON.stringify(prefs));
-    },
-    getLevel: function() { return this.getPrefs().level || 'N5'; },
     setLevel: function(level) {
-      const prefs = this.getPrefs();
-      prefs.level = level;
-      this.savePrefs(prefs);
+      try { localStorage.setItem(STORAGE_KEYS.LEVEL, level); } catch (e) {}
     },
-    getLastSessionId: function() { return this.getPrefs().lastSessionId || null; },
-    setLastSessionId: function(id) {
-      const prefs = this.getPrefs();
-      prefs.lastSessionId = id;
-      this.savePrefs(prefs);
+    getLastSessionId: function() {
+      try { return localStorage.getItem(STORAGE_KEYS.SESSION_ID); } catch (e) { return null; }
     },
-    getHistorySessions: function() { return this.getPrefs().sessions || []; },
-    setHistorySessions: function(sessions) {
-      const prefs = this.getPrefs();
-      prefs.sessions = sessions;
-      this.savePrefs(prefs);
+    setLastSessionId: function(sessionId) {
+      try {
+        if (sessionId) localStorage.setItem(STORAGE_KEYS.SESSION_ID, sessionId);
+        else localStorage.removeItem(STORAGE_KEYS.SESSION_ID);
+      } catch (e) {}
+    },
+    getAutoSpeak: function() {
+      try { return localStorage.getItem(STORAGE_KEYS.AUTO_SPEAK) === 'true'; } catch (e) { return false; }
+    },
+    setAutoSpeak: function(enabled) {
+      try { localStorage.setItem(STORAGE_KEYS.AUTO_SPEAK, enabled ? 'true' : 'false'); } catch (e) {}
+    },
+    saveGuestMessage: function(messageObj) {
+      try {
+        const history = JSON.parse(localStorage.getItem(STORAGE_KEYS.GUEST_HISTORY) || '[]');
+        history.push(messageObj);
+        if (history.length > 20) history.shift();
+        localStorage.setItem(STORAGE_KEYS.GUEST_HISTORY, JSON.stringify(history));
+      } catch (e) {}
+    },
+    getGuestHistory: function() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEYS.GUEST_HISTORY) || '[]'); } catch (e) { return []; }
+    },
+    clearGuestHistory: function() {
+      try { localStorage.removeItem(STORAGE_KEYS.GUEST_HISTORY); } catch (e) {}
     }
   };
 })();
