@@ -12,38 +12,46 @@
         var t = localStorage.getItem('nihongo_theme');
         if (t) document.documentElement.setAttribute('data-theme', t);
         var l = localStorage.getItem('nihongo_lang');
-        if (l) document.documentElement.setAttribute('lang', l === 'bn' ? 'bn' : 'en');
+        document.documentElement.setAttribute('lang', l === 'bn' ? 'bn' : 'en');
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="css/fonts.css">
 
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
+  <link rel="stylesheet" href="css/fonts.css" />
   <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/design-system.css" />
   <link rel="stylesheet" href="css/a11y.css" />
 
   <style>
+    /* Self-contained: every token has a fallback so the page still looks right
+       even if a token is renamed or a stylesheet is missing from the cache. */
     body {
+      margin: 0;
       min-height: 100vh;
+      min-height: 100dvh;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: var(--s-5);
-      background: var(--bg);
-      color: var(--ink);
-      font-family: var(--font-en);
-      line-height: var(--lh-en);
+      box-sizing: border-box;
+      padding: 20px;
+      background: var(--bg, #fbfaf7);
+      color: var(--ink, #15161a);
+      font-family: var(--font-en, system-ui, sans-serif);
+      line-height: var(--lh-en, 1.6);
     }
-    html[lang="bn"] body { font-family: var(--font-bn); line-height: var(--lh-bn); }
+    html[lang="bn"] body { font-family: var(--font-bn, system-ui, sans-serif); line-height: var(--lh-bn, 1.85); }
+
     .offline-card {
+      box-sizing: border-box;
       max-width: 460px;
       width: 100%;
       text-align: center;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r-lg);
-      padding: var(--s-7) var(--s-5);
-      box-shadow: var(--shadow-md);
+      background: var(--surface, #fff);
+      border: 1px solid var(--border, #e5e5ea);
+      border-radius: var(--r-lg, 20px);
+      padding: 32px 24px;
+      box-shadow: var(--shadow-md, 0 8px 24px rgba(0,0,0,.08));
     }
     .offline-icon {
       display: inline-flex;
@@ -51,21 +59,42 @@
       height: 64px;
       align-items: center;
       justify-content: center;
-      border-radius: var(--r-full);
-      background: color-mix(in srgb, var(--primary) 12%, var(--surface));
-      color: var(--primary);
-      margin-bottom: var(--s-4);
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--primary, #5b5bf0) 12%, var(--surface, #fff));
+      color: var(--primary, #5b5bf0);
+      margin-bottom: 16px;
     }
-    .offline-card h1 { font-size: var(--fs-2xl); margin: 0 0 var(--s-3); }
-    .offline-card p { color: var(--ink-muted); margin: 0 0 var(--s-5); }
-    .offline-actions { display: flex; gap: var(--s-2); justify-content: center; flex-wrap: wrap; }
+    .offline-card h1 { font-size: var(--fs-2xl, 1.75rem); margin: 0 0 12px; }
+    .offline-card p { color: var(--ink-muted, #5b5f6b); margin: 0 0 24px; }
+
+    .offline-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .offline-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 20px;
+      border-radius: var(--r-md, 12px);
+      font: inherit;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid transparent;
+    }
+    .offline-btn--primary {
+      background: var(--primary, #5b5bf0);
+      color: #fff;
+    }
+    .offline-btn--secondary {
+      background: transparent;
+      color: var(--ink, #15161a);
+      border-color: var(--border-strong, var(--border, #c9c9d1));
+    }
+    .offline-btn:focus-visible {
+      outline: 2px solid var(--focus, #5b5bf0);
+      outline-offset: 2px;
+    }
   </style>
-  <link rel="stylesheet" href="css/phase13.css">
-<link rel="stylesheet" href="css/toasts.css">
-<link rel="stylesheet" href="css/streak-prompt.css">
-<link rel="stylesheet" href="css/perf.css">
-<meta property="og:image" content="og.png">
-<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 </head>
 <body>
   <main class="offline-card">
@@ -77,7 +106,7 @@
         <path d="M2 8.82a15 15 0 0 1 4.17-2.65"></path>
         <path d="M10.66 5c4.01-.36 8.14.9 11.34 3.76"></path>
         <path d="M16.85 11.25a10 10 0 0 1 2.22 1.68"></path>
-        <line x1="5" y1="12.5" x2="5" y2="12.5"></line>
+        <line x1="12" y1="20" x2="12.01" y2="20"></line>
       </svg>
     </div>
     <h1>
@@ -90,16 +119,25 @@
       </span>
     </p>
     <div class="offline-actions">
-      <button class="btn btn--primary" type="button" onclick="location.reload()">
+      <button class="offline-btn offline-btn--primary" type="button" onclick="location.reload()">
         <span data-en="Try again" data-bn="আবার চেষ্টা করুন">Try again</span>
       </button>
-      <a class="btn btn--secondary" href="home.html">
+      <a class="offline-btn offline-btn--secondary" href="home.html">
         <span data-en="Go to home" data-bn="হোমে যান">Go to home</span>
       </a>
     </div>
   </main>
 
   <script>
+    // Show the right language (this page loads no shell/i18n scripts).
+    (function () {
+      var lang = document.documentElement.getAttribute('lang') === 'bn' ? 'bn' : 'en';
+      document.querySelectorAll('[data-en]').forEach(function (el) {
+        var v = el.getAttribute('data-' + lang);
+        if (v) el.textContent = v;
+      });
+    })();
+
     // Auto-recover when the connection returns.
     window.addEventListener('online', function () {
       var target = document.referrer && document.referrer.indexOf(location.origin) === 0
@@ -108,11 +146,5 @@
       location.replace(target);
     });
   </script>
-<script src="js/toasts.js" defer></script>
-<script src="js/streak-prompt.js" defer></script>
-<script src="js/tabs-memory.js" defer></script>
-<script src="js/cmd-palette.js" defer></script>
-<script src="js/a11y-hooks.js" defer></script>
-<script src="js/microcopy.js" defer></script>
 </body>
 </html>
