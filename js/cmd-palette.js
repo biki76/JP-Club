@@ -3,10 +3,11 @@
   var PAGES = [
     { href: 'lessons.html', en: 'All lessons', bn: 'সব পাঠ' },
     { href: 'flashcards.html', en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' },
+    { href: 'tutor.html', en: 'AI Tutor', bn: 'এআই টিউটর' },
     { href: 'quiz.html', en: 'Quiz', bn: 'কুইজ' },
     { href: 'kanji.html', en: 'Kanji', bn: 'কানজি' },
     { href: 'progress.html', en: 'Progress', bn: 'অগ্রগতি' },
-    { href: 'placement.html', en: 'Placement test', bn: 'প্লেসমেন্ট টেস্ট' }
+    { href: 'placement.html', en: 'Placement test', bn: 'প্লেসমেন্ট টেস্ট' },
     { href: 'mimikara.html', en: 'Mimikara Oboeru', bn: 'মিমিকারা ওবোয়েরু' },
     { href: 'shinkanzen.html', en: 'Shin Kanzen Master', bn: 'শিন কানজেন মাস্টার' },
   ];
