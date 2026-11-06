@@ -56,7 +56,7 @@
   }
   function openLive() {
     var l = TOPIC_LABEL[topic] || TOPIC_LABEL.free;
-    $('tl-topic').innerHTML = T(l[0], l[1]);
+    $('tl-topic').innerHTML = 'Moon · ' + T(l[0], l[1]);
     live.hidden = false;
     document.documentElement.style.overflow = 'hidden';
     $('tl-mic').focus();
@@ -82,7 +82,7 @@
     var keep = localStorage.getItem('nihongo_tutor_voice') || 'n:female';
     voiceEl.innerHTML = '';
     var g1 = document.createElement('optgroup'); g1.label = 'Natural (recommended)';
-    [['n:female', 'Female - Aoede'], ['n:female2', 'Female - Sulafat'], ['n:male', 'Male - Charon'], ['n:male2', 'Male - Achird']].forEach(function (x) {
+    [['n:female', 'Natural - Moon']].forEach(function (x) {
       var o = document.createElement('option'); o.value = x[0]; o.textContent = x[1]; g1.appendChild(o);
     });
     voiceEl.appendChild(g1);
@@ -219,6 +219,7 @@
     fetchSpeech(text).then(function (b64) {
       if (mySid !== speakId) return;
       var a = new Audio('data:audio/mp3;base64,' + b64);
+      a.playbackRate = Math.min(1.25, Math.max(0.7, (parseFloat(rateEl.value) || 0.9) / 0.9));
       var fin = false;
       player = a;
       function finish() { if (fin) return; fin = true; stopReveal(); revealAll(); if (player === a) player = null; done(); }

@@ -1,6 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const BUILD = "v4";
+const BUILD = "v5";
 const MODEL = "openai/gpt-oss-120b";
 const CORS = {
   "Access-Control-Allow-Origin": "*",
@@ -71,7 +71,7 @@ Deno.serve(async (req) => {
     const lang = body.lang === "bn" ? "Bengali" : "English";
 
     const system =
-      "You are Yuki, a warm, easygoing native Japanese speaker having a casual voice chat with a learner at level " + level + ". " +
+      "You are Moon (ムーン), a warm, easygoing native Japanese speaker having a casual voice chat with a learner at level " + level + ". " +
       LEVELS[level] + "\n" +
       "Topic: " + TOPICS[topic] + " Gently steer toward it.\n" +
       "How to talk:\n" +
@@ -79,7 +79,7 @@ Deno.serve(async (req) => {
       "- React first the way people do (あ、そうなんですね。/ いいですね。/ へえ。/ ほんとですか？), vary your reactions, and sometimes comment instead of asking. Never say things like \"Good job\" or \"Great sentence\". Never repeat the learner's sentence back.\n" +
       "- Match the learner's pace: if they answer slowly, briefly or with mistakes, use simpler words and shorter sentences. If they are fluent, raise difficulty slightly but stay within the level.\n" +
       "- If the learner writes in " + lang + " or seems stuck, offer one very simple Japanese phrase they can say.\n" +
-      "- If the learner sincerely asks whether you are an AI, say yes briefly, then carry on.\n" +
+      "- Identity: your name is Moon (ムーン). You are the AI speaking tutor of JP-Club by Nihonsync, a site that helps Bengali-speaking learners practice Japanese. When asked who you are, your name, who made you or what you are, say you are Moon, JP-Club's AI tutor from Nihonsync, in Japanese at the learner's level. Never call yourself ChatGPT, GPT, OpenAI, Claude, Gemini or any other model or company name. If asked which AI model or company is behind you, say you are JP-Club's tutor and do not know the technical details. If asked whether you are an AI, say yes briefly. Never claim to be human.\n" +
       (body.interrupted ? "- The learner just interrupted you mid-sentence. Respond directly to what they said now. Do not finish your earlier sentence.\n" : "") +
       "Corrections: if the learner's last message has a clear grammar, particle or word mistake, give the corrected version and a one-sentence reason in " + lang + ". Fix only the single most important mistake. If it was fine, FIX is none.\n" +
       "The learner's text comes from speech recognition: ignore punctuation, spacing and kanji/kana choice, and treat likely mishearings as recognition errors, not mistakes.\n" +
@@ -101,7 +101,7 @@ Deno.serve(async (req) => {
     const text = typeof body.text === "string" ? body.text.slice(0, 500) : "";
     messages.push({
       role: "user",
-      content: body.start ? "(Start: greet me casually in one short sentence and ask one easy question.)" : text,
+      content: body.start ? "(Start: greet me casually in one short sentence, tell me you are Moon, and ask one easy question.)" : text,
     });
 
     const r = await fetch("https://api.groq.com/openai/v1/chat/completions", {

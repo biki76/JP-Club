@@ -1,15 +1,9 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const BUILD = "s1";
+const BUILD = "s2";
 const CORS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
-};
-const VOICES: Record<string, string> = {
-  female: "ja-JP-Chirp3-HD-Aoede",
-  female2: "ja-JP-Chirp3-HD-Sulafat",
-  male: "ja-JP-Chirp3-HD-Charon",
-  male2: "ja-JP-Chirp3-HD-Achird",
 };
 
 function json(body: unknown, status = 200) {
@@ -33,23 +27,29 @@ Deno.serve(async (req) => {
     const body = await req.json();
     const text = String(body.text ?? "").replace(/\s+/g, " ").trim().slice(0, 300);
     if (!text) return json({ error: "[" + BUILD + "] No text." }, 400);
-    const name = VOICES[body.voice] ?? VOICES.female;
-    const rate = Math.min(1.3, Math.max(0.7, Number(body.rate) || 1));
-    const key = Deno.env.get("GOOGLE_TTS_KEY");
-    if (!key) return json({ error: "[" + BUILD + "] GOOGLE_TTS_KEY secret is missing." }, 500);
 
-    const r = await fetch("https://texttospeech.googleapis.com/v1/text:synthesize", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", "X-Goog-Api-Key": key },
-      body: JSON.stringify({
-        input: { text },
-        voice: { languageCode: "ja-JP", name },
-        audioConfig: { audioEncoding: "MP3", speakingRate: rate },
-      }),
-    });
-    const raw = await r.text();
-    if (!r.ok) return json({ error: "[" + BUILD + "] Google " + r.status + ": " + raw.slice(0, 300) }, 502);
-    return json({ build: BUILD, audio: JSON.parse(raw).audioContent });
+    const acct = Deno.env.get("CF_ACCOUNT_ID");
+    const tok = Deno.env.get("CF_API_TOKEN");
+    if (!acct || !tok) return json({ error: "[" + BUILD + "] CF_ACCOUNT_ID / CF_API_TOKEN secrets are missing." }, 500);
+
+    const url = "https://api.cloudflare.com/client/v4/accounts/" + acct + "/ai/run/@cf/myshell-ai/melotts";
+    let last = "";
+    for (const lang of ["jp", "ja"]) {
+      const r = await fetch(url, {
+        method: "POST",
+        headers: { Authorization: "Bearer " + tok, "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt: text, lang }),
+      });
+      const raw = await r.text();
+      if (r.ok) {
+        const audio = JSON.parse(raw)?.result?.audio;
+        if (audio) return json({ build: BUILD, audio });
+        last = "no audio in response: " + raw.slice(0, 200);
+      } else {
+        last = r.status + ": " + raw.slice(0, 200);
+      }
+    }
+    return json({ error: "[" + BUILD + "] Cloudflare " + last }, 502);
   } catch (e) {
     return json({ error: "[" + BUILD + "] " + String((e as Error)?.message ?? e) }, 500);
   }
