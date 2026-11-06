@@ -12,6 +12,13 @@ const LEVELS: Record<string, string> = {
   N2: "Upper-intermediate. Natural Japanese with varied grammar and abstract topics.",
   N1: "Advanced. Fully natural Japanese including nuance, keigo and idioms.",
 };
+const TOPICS: Record<string, string> = {
+  free: "Free conversation about everyday life.",
+  intro: "Self-introductions: name, where from, job or school, hobbies. Role-play meeting someone new.",
+  food: "Food and restaurants: ordering, likes and dislikes. Role-play as restaurant staff when natural.",
+  travel: "Travel: directions, trains, hotels, sightseeing. Role-play as station staff or a hotel clerk when natural.",
+  shop: "Shopping: prices, sizes, colors, paying. Role-play as a shop clerk when natural.",
+};
 
 function json(body: unknown, status = 200) {
   return new Response(JSON.stringify(body), {
@@ -33,19 +40,22 @@ Deno.serve(async (req) => {
 
     const body = await req.json();
     const level = LEVELS[body.level] ? body.level : "N5";
+    const topic = TOPICS[body.topic] ? body.topic : "free";
     const lang = body.lang === "bn" ? "Bengali" : "English";
 
     const system =
       "You are a friendly Japanese speaking partner for a learner at level " + level + ". " +
       LEVELS[level] + "\n" +
+      "Topic: " + TOPICS[topic] + " Keep steering the conversation toward this goal.\n" +
       "Rules:\n" +
       "- Talk like a real conversation. Your reply is spoken aloud: 1-2 short Japanese sentences, then ONE easy follow-up question.\n" +
       "- Match the learner's pace. If they answer slowly, briefly or with mistakes, simplify and slow down. If they answer fluently, raise difficulty slightly, never beyond the level.\n" +
       "- If the learner writes in " + lang + " or seems stuck, give one very simple Japanese phrase they can repeat.\n" +
       "- Correct gently. If the learner's last message has a grammar, particle or word mistake, fill correction with what they said, a better version, and a one-sentence reason in " + lang + ". Correct only the most important mistake. If it was fine, correction is null.\n" +
       "- The learner text comes from speech recognition: ignore punctuation, spacing and kanji/kana choice, and treat likely mishearings as recognition errors, not mistakes.\n" +
+      "- segments splits reply into words in order. Joining every t must give reply exactly. r is the hiragana reading only for a segment that contains kanji, otherwise an empty string.\n" +
       "- No romaji, no markdown.\n" +
-      "Respond ONLY as JSON: {\"reply\":\"Japanese\",\"translation\":\"" + lang + " translation of reply\",\"correction\":null or {\"said\":\"...\",\"better\":\"...\",\"why\":\"...\"}}";
+      'Respond ONLY as JSON: {"reply":"Japanese","segments":[{"t":"word","r":"reading or empty"}],"translation":"' + lang + ' translation of reply","correction":null or {"said":"...","better":"...","why":"..."}}';
 
     const messages: { role: string; content: string }[] = [{ role: "system", content: system }];
     const history = Array.isArray(body.history) ? body.history.slice(-10) : [];
@@ -69,7 +79,7 @@ Deno.serve(async (req) => {
       body: JSON.stringify({
         model: MODEL,
         temperature: 0.6,
-        max_tokens: 2000,
+        max_tokens: 3000,
         response_format: { type: "json_object" },
         reasoning_effort: "low",
         messages,
@@ -81,8 +91,18 @@ Deno.serve(async (req) => {
     const content = JSON.parse(raw).choices?.[0]?.message?.content ?? "{}";
     let out: any;
     try { out = JSON.parse(content); } catch { out = { reply: content }; }
+
+    const reply = String(out.reply ?? "");
+    let segs: { t: string; r: string }[] = [];
+    if (Array.isArray(out.segments)) {
+      segs = out.segments
+        .filter((s: any) => s && typeof s.t === "string")
+        .map((s: any) => ({ t: s.t, r: typeof s.r === "string" ? s.r : "" }));
+      if (segs.map((s) => s.t).join("") !== reply) segs = [];
+    }
     return json({
-      reply: String(out.reply ?? ""),
+      reply,
+      segments: segs,
       translation: String(out.translation ?? ""),
       correction: out.correction ?? null,
     });
