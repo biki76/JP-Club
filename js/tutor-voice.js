@@ -185,6 +185,7 @@
       if (my !== epoch) return;
       if (!start) history.push({ role: 'user', content: text });
       history.push({ role: 'assistant', content: r.reply });
+      if (history.length > 10) history = history.slice(-10);
       lastReply = r.reply;
       addLine('bot', r.reply, r.translation, r.correction, r.segments);
       busy = false;
