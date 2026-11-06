@@ -79,18 +79,29 @@
     return ('speechSynthesis' in window ? speechSynthesis.getVoices() : []).filter(function (v) { return /^ja/i.test(v.lang); });
   }
   function fillVoices() {
-    var keep = localStorage.getItem('nihongo_tutor_voice') || '';
+    var keep = localStorage.getItem('nihongo_tutor_voice') || 'n:female';
     voiceEl.innerHTML = '';
-    var auto = document.createElement('option'); auto.value = ''; auto.textContent = 'Auto'; voiceEl.appendChild(auto);
-    jaVoices().forEach(function (v) {
-      var o = document.createElement('option'); o.value = v.voiceURI; o.textContent = v.name; voiceEl.appendChild(o);
+    var g1 = document.createElement('optgroup'); g1.label = 'Natural (recommended)';
+    [['n:female', 'Female - Aoede'], ['n:female2', 'Female - Sulafat'], ['n:male', 'Male - Charon'], ['n:male2', 'Male - Achird']].forEach(function (x) {
+      var o = document.createElement('option'); o.value = x[0]; o.textContent = x[1]; g1.appendChild(o);
     });
+    voiceEl.appendChild(g1);
+    var g2 = document.createElement('optgroup'); g2.label = 'This device';
+    var auto = document.createElement('option'); auto.value = 'b:'; auto.textContent = 'Device voice (auto)'; g2.appendChild(auto);
+    jaVoices().forEach(function (v) { var o = document.createElement('option'); o.value = 'b:' + v.voiceURI; o.textContent = v.name; g2.appendChild(o); });
+    voiceEl.appendChild(g2);
     voiceEl.value = keep;
+    if (voiceEl.value !== keep) voiceEl.value = 'n:female';
   }
-  if ('speechSynthesis' in window) { fillVoices(); speechSynthesis.addEventListener('voiceschanged', fillVoices); }
-  voiceEl.addEventListener('change', function () { localStorage.setItem('nihongo_tutor_voice', voiceEl.value); });
+  fillVoices();
+  if ('speechSynthesis' in window) speechSynthesis.addEventListener('voiceschanged', fillVoices);
+  voiceEl.addEventListener('change', function () {
+    localStorage.setItem('nihongo_tutor_voice', voiceEl.value);
+    speakId++; cancelVoice(); botSpans = [];
+    speakBot('こんにちは。よろしくお願いします。', function () {});
+  });
   function pickVoice() {
-    var list = jaVoices(), sel = voiceEl.value, i;
+    var list = jaVoices(), sel = voiceEl.value.indexOf('b:') === 0 ? voiceEl.value.slice(2) : '', i;
     if (sel) { for (i = 0; i < list.length; i++) { if (list[i].voiceURI === sel) return list[i]; } }
     var best = null, score = -1;
     list.forEach(function (v) {
@@ -183,7 +194,54 @@
   }
   function revealAll() { revealTo(1e9); }
   function stopReveal() { if (revealTimer) { clearInterval(revealTimer); revealTimer = null; } }
+  var player = null, neuralWarned = false;
+  function neuralKey() { var v = voiceEl.value; return v.indexOf('n:') === 0 ? v.slice(2) : ''; }
+  function cancelVoice() {
+    if (player) { player.onended = null; player.onerror = null; try { player.pause(); } catch (e) {} player = null; }
+    if ('speechSynthesis' in window) speechSynthesis.cancel();
+  }
+  async function fetchSpeech(text) {
+    var cfg = window.SUPABASE_CONFIG || {};
+    var tk = await token();
+    var res = await fetch(cfg.url + '/functions/v1/voice-speak', {
+      method: 'POST',
+      headers: { 'Authorization': 'Bearer ' + tk, 'apikey': cfg.publishableKey || '', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: text, voice: neuralKey(), rate: parseFloat(rateEl.value) || 0.9 })
+    });
+    var data = await res.json().catch(function () { return {}; });
+    if (!res.ok || !data.audio) throw new Error(data.error || ('HTTP ' + res.status));
+    return data.audio;
+  }
   function speakBot(text, done) {
+    if (!neuralKey()) { speakBrowser(text, done); return; }
+    var mySid = speakId;
+    stopReveal();
+    fetchSpeech(text).then(function (b64) {
+      if (mySid !== speakId) return;
+      var a = new Audio('data:audio/mp3;base64,' + b64);
+      var fin = false;
+      player = a;
+      function finish() { if (fin) return; fin = true; stopReveal(); revealAll(); if (player === a) player = null; done(); }
+      function fallback() { if (fin) return; fin = true; stopReveal(); if (player === a) player = null; speakBrowser(text, done); }
+      a.onended = finish;
+      a.onerror = fallback;
+      a.onplay = function () {
+        stopReveal();
+        revealTimer = setInterval(function () { if (a.duration > 0) revealTo(Math.floor(a.currentTime / a.duration * text.length * 1.03)); }, 80);
+      };
+      var pr = a.play();
+      if (pr && pr.catch) pr.catch(fallback);
+    }).catch(function (e) {
+      if (mySid !== speakId) return;
+      if (!neuralWarned) {
+        neuralWarned = true;
+        console.warn('Natural voice failed: ' + e.message);
+        setState('speaking', 'Natural voice unavailable - using device voice', 'ন্যাচারাল ভয়েস পাওয়া যায়নি - ডিভাইস ভয়েস ব্যবহার হচ্ছে');
+      }
+      speakBrowser(text, done);
+    });
+  }
+  function speakBrowser(text, done) {
     var rate = parseFloat(rateEl.value) || 0.85, gotB = false, fin = false;
     stopReveal();
     speakText(text, rate,
@@ -374,7 +432,7 @@
   }
   function cutSpeech() {
     speakId++; stopReveal(); barging = false;
-    if ('speechSynthesis' in window) speechSynthesis.cancel();markInterrupted(); revealAll();
+    cancelVoice();markInterrupted(); revealAll();
     if (navigator.vibrate) navigator.vibrate(20);
     setState('listening', 'Your turn \u2014 speak now', 'আপনার পালা \u2014 এখন বলুন');
   }
@@ -489,7 +547,7 @@
   function stopAll() {
     epoch++; speakId++; active = false; busy = false; retries = 0;
     stopRec();
-    if ('speechSynthesis' in window) speechSynthesis.cancel();
+    cancelVoice();
     stopReveal(); revealAll();
     flush(); keepAwake(false);
     setState('idle', 'Tap the mic to talk', 'কথা বলতে মাইক চাপুন');
@@ -502,7 +560,7 @@
   function endSession() { stopAll(); closeLive(); }
   function interrupt() {
     speakId++; stopReveal();
-    if ('speechSynthesis' in window) speechSynthesis.cancel();
+    cancelVoice();
     markInterrupted(); revealAll();
     active = true; keepAwake(true); retries = 0;
     listen(false);
@@ -534,7 +592,7 @@
     if (!t.trim()) return;
     el.value = '';
     speakId++; stopReveal(); stopRec();
-    if ('speechSynthesis' in window) speechSynthesis.cancel();
+    cancelVoice();
     revealAll();
     send(t);
   }
