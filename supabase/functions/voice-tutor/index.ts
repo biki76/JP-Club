@@ -1,6 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const MODEL = "llama-3.3-70b-versatile"; // fallback: "llama-3.1-8b-instant"
+const MODEL = "openai/gpt-oss-120b";
 const CORS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
@@ -43,6 +43,7 @@ Deno.serve(async (req) => {
       "- Match the learner's pace. If they answer slowly, briefly or with mistakes, simplify and slow down. If they answer fluently, raise difficulty slightly, never beyond the level.\n" +
       "- If the learner writes in " + lang + " or seems stuck, give one very simple Japanese phrase they can repeat.\n" +
       "- Correct gently. If the learner's last message has a grammar, particle or word mistake, fill correction with what they said, a better version, and a one-sentence reason in " + lang + ". Correct only the most important mistake. If it was fine, correction is null.\n" +
+      "- The learner text comes from speech recognition: ignore punctuation, spacing and kanji/kana choice, and treat likely mishearings as recognition errors, not mistakes.\n" +
       "- No romaji, no markdown.\n" +
       "Respond ONLY as JSON: {\"reply\":\"Japanese\",\"translation\":\"" + lang + " translation of reply\",\"correction\":null or {\"said\":\"...\",\"better\":\"...\",\"why\":\"...\"}}";
 
@@ -70,6 +71,7 @@ Deno.serve(async (req) => {
         temperature: 0.6,
         max_tokens: 400,
         response_format: { type: "json_object" },
+        reasoning_effort: "low",
         messages,
       }),
     });
