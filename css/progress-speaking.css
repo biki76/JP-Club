@@ -1,0 +1,13 @@
+.pg-speak { margin: 24px 0; padding: 16px; border-radius: 16px;
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent); }
+.pg-speak h2 { margin: 0 0 12px; }
+.pg-speak__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px; }
+.pg-speak__stat { padding: 10px 12px; border-radius: 12px; background: color-mix(in srgb, currentColor 7%, transparent); }
+.pg-speak__stat strong { display: block; font-size: 1.6em; line-height: 1.2; }
+.pg-speak__stat span { opacity: .75; font-size: .9em; }
+.pg-speak__bars { display: flex; gap: 8px; align-items: stretch; height: 96px; margin-top: 16px; }
+.pg-speak__bar { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: .75em; }
+.pg-speak__track { flex: 1; width: 100%; display: flex; align-items: flex-end; }
+.pg-speak__fill { width: 100%; border-radius: 6px 6px 0 0; background: currentColor; opacity: .55; }
+.pg-speak__go { display: inline-block; margin-top: 14px; padding: 8px 14px; border-radius: 12px; font-weight: 600;
+  text-decoration: none; color: inherit; border: 1px solid color-mix(in srgb, currentColor 30%, transparent); }

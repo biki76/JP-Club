@@ -7,7 +7,7 @@
 
   var SYNC_KEYS = [
     'nihongo_progress', 'nihongo_bookmarks',
-    'nihongo_srs_cards', 'nihongo_srs_log', 'nihongo_srs_prefs', 'nihongo_srs_meta',
+    'nihongo_srs_cards', 'nihongo_srs_log', 'nihongo_srs_prefs', 'nihongo_srs_meta', 'nihongo_speak_log', 'nihongo_speak_meta',
     'nihongo_quiz_prefs', 'nihongo_quiz_history', 'nihongo_quiz_last_lesson',
     'nihongo_kanji_prefs', 'nihongo_kanji_quiz_history',
     'nihongo_placement_result'
@@ -115,6 +115,26 @@
     });
     return o;
   }
+    function mergeSpeakLog(l, r) {
+    l = (l && typeof l === "object") ? l : {};
+    r = (r && typeof r === "object") ? r : {};
+    var out = {}, k;
+    for (k in l) out[k] = l[k];
+    for (k in r) out[k] = Math.max(out[k] || 0, r[k] || 0);
+    return out;
+  }
+  function mergeSpeakMeta(l, r) {
+    l = l || {}; r = r || {};
+    var ld = l.streakLastDay || "", rd = r.streakLastDay || "";
+    var cur = ld === rd ? Math.max(l.streakCurrent || 0, r.streakCurrent || 0) : (rd > ld ? (r.streakCurrent || 0) : (l.streakCurrent || 0));
+    return {
+      totalSeconds: Math.max(l.totalSeconds || 0, r.totalSeconds || 0),
+      streakLongest: Math.max(l.streakLongest || 0, r.streakLongest || 0, cur),
+      streakCurrent: cur,
+      streakLastDay: rd > ld ? rd : ld
+    };
+  }
+
   function mergeSrsLog(l, r) {
     var o = {};
     [l || {}, r || {}].forEach(function (m) {
@@ -170,6 +190,8 @@
       case 'nihongo_bookmarks': return mergeBookmarks(l, r);
       case 'nihongo_srs_cards': return mergeSrsCards(l, r);
       case 'nihongo_srs_log': return mergeSrsLog(l, r);
+      case 'nihongo_speak_log': return mergeSpeakLog(l, r);
+      case 'nihongo_speak_meta': return mergeSpeakMeta(l, r);
       case 'nihongo_srs_meta': return mergeSrsMeta(l, r, la, ra);
       case 'nihongo_quiz_history': return mergeQuizHistory(l, r);
       default: return mergeLWW(l, r, la, ra);
