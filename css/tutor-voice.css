@@ -34,3 +34,15 @@
 .tv-input { flex: 1; min-width: 0; }
 .tv-btn { cursor: pointer; }
 .tv-err a { font-weight: 600; text-decoration: underline; }
+
+.tv-topics { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+.tv-topic { font: inherit; color: inherit; background: transparent; cursor: pointer;
+  padding: 8px 14px; border-radius: 999px; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); }
+.tv-topic[aria-pressed="true"] { border-color: currentColor; font-weight: 600;
+  background: color-mix(in srgb, currentColor 10%, transparent); }
+.tv-stats { margin: 8px 0 0; opacity: .8; font-size: .95em; }
+.tv-word { cursor: pointer; border-radius: 4px; }
+.tv-word:hover, .tv-word:focus-visible { background: color-mix(in srgb, currentColor 14%, transparent); outline: none; }
+.tv-jp { line-height: 2.1; }
+.tv-orb[data-state="listening"] { box-shadow: 0 0 0 12px color-mix(in srgb, currentColor 14%, transparent); }
+.tv-orb[data-state="listening"] + .tv-status { font-weight: 700; opacity: 1; }

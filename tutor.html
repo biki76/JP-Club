@@ -89,6 +89,14 @@
           <label><span data-en="Speed" data-bn="গতি">Speed</span>
             <input type="range" id="tv-rate" min="0.6" max="1.1" step="0.05" value="0.85"></label>
         </div>
+        <div class="tv-topics" role="group" aria-label="Topic">
+          <button class="tv-topic" data-topic="free" aria-pressed="true"><span data-en="Free talk" data-bn="ফ্রি আলাপ">Free talk</span></button>
+          <button class="tv-topic" data-topic="intro" aria-pressed="false"><span data-en="Introductions" data-bn="পরিচয়">Introductions</span></button>
+          <button class="tv-topic" data-topic="food" aria-pressed="false"><span data-en="Food" data-bn="খাবার">Food</span></button>
+          <button class="tv-topic" data-topic="travel" aria-pressed="false"><span data-en="Travel" data-bn="ভ্রমণ">Travel</span></button>
+          <button class="tv-topic" data-topic="shop" aria-pressed="false"><span data-en="Shopping" data-bn="কেনাকাটা">Shopping</span></button>
+        </div>
+        <p class="tv-stats"><span id="tv-today"></span> &middot; <span id="tv-streak"></span></p>
         <div class="tv-stage">
           <button id="tv-orb" class="tv-orb" data-state="idle" aria-label="Start or stop talking">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4"/></svg>
