@@ -46,3 +46,25 @@
 .tv-jp { line-height: 2.1; }
 .tv-orb[data-state="listening"] { box-shadow: 0 0 0 12px color-mix(in srgb, currentColor 14%, transparent); }
 .tv-orb[data-state="listening"] + .tv-status { font-weight: 700; opacity: 1; }
+
+.tv-tabs { display: flex; gap: 8px; margin: 12px 0 16px; }
+.tv-tab { font: inherit; color: inherit; background: transparent; cursor: pointer; padding: 10px 18px;
+  border-radius: 999px; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); }
+.tv-tab[aria-selected="true"] { border-color: currentColor; font-weight: 700; background: color-mix(in srgb, currentColor 10%, transparent); }
+.tv-panel[hidden] { display: none; }
+.tv-controls select { max-width: 190px; }
+.tv-check { display: flex; gap: 8px; align-items: center; margin: 4px 0 8px; font-size: .95em; opacity: .85; }
+.tv-hist-head { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+.tv-hist { display: flex; flex-direction: column; gap: 10px; }
+.tv-hist-item { border-radius: 14px; overflow: hidden; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); }
+.tv-hist-top { display: flex; align-items: center; }
+.tv-hist-open { flex: 1; min-width: 0; text-align: left; font: inherit; color: inherit; background: transparent; border: 0;
+  cursor: pointer; padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; }
+.tv-hist-meta { opacity: .65; font-size: .88em; }
+.tv-hist-prev { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tv-hist-del { flex: none; width: 44px; height: 44px; margin-right: 6px; font-size: 1.4em; line-height: 1; cursor: pointer;
+  color: inherit; background: transparent; border: 0; border-radius: 50%; opacity: .7; }
+.tv-hist-body { padding: 0 14px 14px; display: flex; flex-direction: column; gap: 10px; }
+.tv-hist-body[hidden] { display: none; }
+.tv-empty { opacity: .7; padding: 16px 0; }
+.tv-tab:focus-visible, .tv-hist-open:focus-visible, .tv-hist-del:focus-visible { outline: 2px solid var(--focus, currentColor); outline-offset: 2px; }
