@@ -1,0 +1,36 @@
+.tv { max-width: 640px; margin: 0 auto; padding-bottom: 120px; }
+.tv h1 { margin: 0 0 4px; }
+.tv-sub { margin: 0 0 16px; opacity: .8; }
+.tv-controls { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+.tv-controls label { display: flex; gap: 8px; align-items: center; }
+.tv-controls select, .tv-input, .tv-btn {
+  font: inherit; color: inherit; background: transparent; padding: 8px 12px; border-radius: 12px;
+  border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+}
+.tv-stage { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 24px 0; }
+.tv-orb {
+  width: 132px; height: 132px; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--accent, var(--primary, CanvasText)); color: var(--on-accent, Canvas);
+  display: grid; place-items: center; transition: transform .2s, opacity .2s;
+}
+.tv-orb svg { width: 48px; height: 48px; }
+.tv-orb:focus-visible { outline: 2px solid var(--focus, currentColor); outline-offset: 4px; }
+.tv-orb[data-state="listening"] { animation: tv-pulse 1.2s ease-in-out infinite; }
+.tv-orb[data-state="thinking"] { opacity: .55; }
+.tv-orb[data-state="speaking"] { animation: tv-pulse 2s ease-in-out infinite; }
+@keyframes tv-pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+@media (prefers-reduced-motion: reduce) { .tv-orb { animation: none !important; } }
+.tv-status { min-height: 1.5em; margin: 0; opacity: .8; }
+.tv-log { display: flex; flex-direction: column; gap: 12px; }
+.tv-line { padding: 12px 14px; border-radius: 14px; max-width: 92%; }
+.tv-line.me { align-self: flex-end; background: color-mix(in srgb, currentColor 10%, transparent); }
+.tv-line.bot { align-self: flex-start; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); }
+.tv-jp { font-size: 1.15em; }
+.tv-tr { font-size: .9em; opacity: .7; margin-top: 4px; }
+.tv-fix { margin-top: 8px; padding: 8px 10px; border-radius: 10px; font-size: .92em;
+  border-left: 3px solid currentColor; background: color-mix(in srgb, currentColor 8%, transparent); }
+.tv-fix s { opacity: .65; }
+.tv-row { display: flex; gap: 8px; margin-top: 16px; }
+.tv-input { flex: 1; min-width: 0; }
+.tv-btn { cursor: pointer; }
+.tv-err a { font-weight: 600; text-decoration: underline; }
