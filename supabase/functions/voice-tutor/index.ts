@@ -55,7 +55,7 @@ Deno.serve(async (req) => {
       "- The learner text comes from speech recognition: ignore punctuation, spacing and kanji/kana choice, and treat likely mishearings as recognition errors, not mistakes.\n" +
       "- segments splits reply into words in order. Joining every t must give reply exactly. r is the hiragana reading only for a segment that contains kanji, otherwise an empty string.\n" +
       "- No romaji, no markdown.\n" +
-      'Respond ONLY as JSON: {"reply":"Japanese","segments":[{"t":"word","r":"reading or empty"}],"translation":"' + lang + ' translation of reply","correction":null or {"said":"...","better":"...","why":"..."}}';
+      'Always answer with exactly one JSON object, never plain text. Respond ONLY as JSON: {"reply":"Japanese","segments":[{"t":"word","r":"reading or empty"}],"translation":"' + lang + ' translation of reply","correction":null or {"said":"...","better":"...","why":"..."}}';
 
     const messages: { role: string; content: string }[] = [{ role: "system", content: system }];
     const history = Array.isArray(body.history) ? body.history.slice(-10) : [];
@@ -70,26 +70,45 @@ Deno.serve(async (req) => {
       content: body.start ? "(Start: greet me briefly and ask one easy question.)" : text,
     });
 
-    const r = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        Authorization: "Bearer " + Deno.env.get("GROQ_API_KEY"),
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        temperature: 0.6,
-        max_tokens: 3000,
-        response_format: { type: "json_object" },
-        reasoning_effort: "low",
-        messages,
-      }),
+    const payload = JSON.stringify({
+      model: MODEL,
+      temperature: 0.6,
+      max_tokens: 3000,
+      response_format: { type: "json_object" },
+      reasoning_effort: "low",
+      messages,
     });
-    const raw = await r.text();
-    if (!r.ok) return json({ error: "Groq " + r.status + ": " + raw.slice(0, 300) }, 502);
-
-    const content = JSON.parse(raw).choices?.[0]?.message?.content ?? "{}";
-    let out: any;
+    let raw = "";
+    let fallback = "";
+    let ok = false;
+    for (let attempt = 0; attempt < 2 && !ok; attempt++) {
+      const r = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+        method: "POST",
+        headers: {
+          Authorization: "Bearer " + Deno.env.get("GROQ_API_KEY"),
+          "Content-Type": "application/json",
+        },
+        body: payload,
+      });
+      raw = await r.text();
+      if (r.ok) { ok = true; break; }
+      if (r.status === 400 && raw.includes("json_validate_failed")) {
+        try { fallback = String(JSON.parse(raw)?.error?.failed_generation ?? ""); } catch { fallback = ""; }
+        continue;
+      }
+      return json({ error: "Groq " + r.status + ": " + raw.slice(0, 300) }, 502);
+    }
+    let content = "{}";
+    if (ok) {
+      content = JSON.parse(raw).choices?.[0]?.message?.content ?? "{}";
+    } else if (fallback) {
+      const m = fallback.match(/"reply"\s*:\s*"([^"]*)/);
+      content = JSON.stringify({ reply: m ? m[1] : fallback.replace(/^[\s{"]+|[\s\\"}]+$/g, "") });
+    } else {
+      return json({ error: "Groq 400: " + raw.slice(0, 300) }, 502);
+    }
+    
+let out: any;
     try { out = JSON.parse(content); } catch { out = { reply: content }; }
 
     const reply = String(out.reply ?? "");
