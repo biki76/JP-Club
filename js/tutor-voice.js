@@ -5,7 +5,7 @@
   var levelEl = $('tv-level'), rateEl = $('tv-rate'), voiceEl = $('tv-voice'), bargeEl = $('tv-barge');
   var history = [], rec = null, barging = false, active = false, busy = false, lastReply = '';
   var epoch = 0, speakId = 0, retries = 0, wake = null, pending = 0, revealTimer = null, botSpans = [];
-  var lastInterim = '', spokenIdx = 0, interrupted = false, session = null;
+  var lastInterim = '', spokenIdx = 0, interrupted = false, session = null, speechEndedAt = 0;
   var topic = localStorage.getItem('nihongo_tutor_topic') || 'free';
   var LOGK = 'nihongo_speak_log', METAK = 'nihongo_speak_meta', SESK = 'nihongo_tutor_sessions', GOAL = 60;
   var TOPIC_LABEL = {
@@ -71,7 +71,7 @@
   /* ---------- prefs + voices ---------- */
   levelEl.value = localStorage.getItem('nihongo_tutor_level') || 'N5';
   rateEl.value = localStorage.getItem('nihongo_tutor_rate') || '0.85';
-  bargeEl.checked = localStorage.getItem('nihongo_tutor_barge') !== 'off';
+  bargeEl.checked = localStorage.getItem('nihongo_tutor_barge') === 'on';
   levelEl.addEventListener('change', function () { localStorage.setItem('nihongo_tutor_level', levelEl.value); });
   rateEl.addEventListener('change', function () { localStorage.setItem('nihongo_tutor_rate', rateEl.value); });
   bargeEl.addEventListener('change', function () { localStorage.setItem('nihongo_tutor_barge', bargeEl.checked ? 'on' : 'off'); });
@@ -420,8 +420,12 @@
   function isEcho(heard) {
     var h = norm(heard), r = norm(lastReply);
     if (h.length < 2 || !r) return false;
-    return r.indexOf(h) >= 0 || (h.length >= 4 && r.indexOf(h.slice(0, 4)) >= 0);
+    if (r.indexOf(h) >= 0 || h.indexOf(r) >= 0) return true;
+    var hit = 0, n = 0, i;
+    for (i = 0; i + 1 < h.length; i++) { n++; if (r.indexOf(h.slice(i, i + 2)) >= 0) hit++; }
+    return n > 0 && hit / n >= 0.7;
   }
+  function echoWindow() { return stateOf() === 'speaking' || (Date.now() - speechEndedAt) < 2500; }
   function stopRec() {
     barging = false;
     if (rec) { rec.onresult = rec.onerror = rec.onend = null; try { rec.abort(); } catch (e) {} rec = null; }
@@ -444,7 +448,7 @@
       return;
     }
     stopRec();
-    var got = false, my = epoch;
+    var got = false, ignored = false, my = epoch;
     lastInterim = '';
     if (!barge) showMe('');
     rec = new SR(); rec.lang = 'ja-JP'; rec.interimResults = true; rec.maxAlternatives = 1;
@@ -456,6 +460,7 @@
         if (e.results[i].isFinal) fin += e.results[i][0].transcript; else interim += e.results[i][0].transcript;
       }
       var heard = (fin || interim).trim();
+      if (stateOf() !== 'speaking' && (heard.length < 2 || (echoWindow() && isEcho(heard)))) { ignored = true; return; }
       if (stateOf() === 'speaking') {
         if (heard.length < 2 || isEcho(heard)) return;
         cutSpeech();
@@ -491,7 +496,12 @@
         return;
       }
       if (st !== 'listening') return;
-      if (!got && lastInterim) { got = true; send(lastInterim); return; }
+      if (!got && lastInterim && lastInterim.trim().length >= 3 && !(echoWindow() && isEcho(lastInterim))) { got = true; send(lastInterim); return; }
+      if (!got && ignored && active && retries < 4) {
+        retries++;
+        setTimeout(function () { if (my === epoch && active && stateOf() === 'listening') listen(false); }, 400);
+        return;
+      }
       if (!got && active && !busy) {
         active = false; keepAwake(false); flush();
         setState('idle', 'Tap the mic to continue', 'চালিয়ে যেতে মাইক চাপুন');
@@ -506,12 +516,13 @@
 
   /* ---------- conversation loop ---------- */
   function afterSpeech() {
+    speechEndedAt = Date.now();
     if (!active) { setState('idle', 'Tap the mic to talk', 'কথা বলতে মাইক চাপুন'); return; }
-    if (barging && rec) {
-      showMe(''); lastInterim = '';
-      if (navigator.vibrate) navigator.vibrate(40);
-      setState('listening', 'Your turn \u2014 speak now', 'আপনার পালা \u2014 এখন বলুন');
-    } else { listen(false); }
+    stopRec();
+    var my = epoch, sid = speakId;
+    setTimeout(function () {
+      if (my === epoch && sid === speakId && active && !busy) listen(false);
+    }, 600);
   }
   async function turn(text, start) {
     var my = epoch;
