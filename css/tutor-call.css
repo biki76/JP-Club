@@ -1,0 +1,60 @@
+/* Moon · Speaking Partner: topics, phrase cards, history box, call status + glow */
+.tv-h { margin: 18px 0 8px; font-size: 1rem; opacity: .8; }
+.tv-topics { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+.tv-card { margin: 16px 0; padding: 14px 16px; border-radius: 16px;
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent); }
+.tv-card h2 { margin: 0 0 10px; font-size: 1.05rem; }
+.tv-phrases, .tv-tips { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.tv-phrases { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.tv-phrase { width: 100%; text-align: left; font: inherit; color: inherit; cursor: pointer; border: 0;
+  border-radius: 12px; padding: 10px 12px; display: flex; flex-direction: column; gap: 2px;
+  background: color-mix(in srgb, currentColor 6%, transparent); }
+.tv-phrase-jp { font-size: 1.1rem; font-weight: 600; }
+.tv-phrase-en { opacity: .7; font-size: .9rem; }
+.tv-phrase:focus-visible { outline: 2px solid var(--focus, currentColor); outline-offset: 2px; }
+.tv-tips li { position: relative; padding-left: 1.2em; }
+.tv-tips li::before { content: "\30FB"; position: absolute; left: 0; }
+
+/* practice history container */
+.tv-histbox { padding: 14px 16px; border-radius: 16px;
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent); }
+.tv-histbox-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.tv-histbox-head h2 { margin: 0; font-size: 1.1rem; }
+.tv-btn[hidden] { display: none; }
+.tv-btn:disabled { opacity: .45; cursor: not-allowed; }
+.tv-btn-danger { border-color: color-mix(in srgb, currentColor 40%, transparent); }
+
+/* call status bar */
+.tl-top { opacity: 1; display: flex; flex-direction: column; gap: 4px; align-items: center; }
+.tl-call { display: flex; align-items: center; justify-content: center; gap: 10px; font-weight: 700; }
+.tl-topic { opacity: .65; font-weight: 500; font-size: .95rem; }
+.tl-time { font-variant-numeric: tabular-nums; opacity: .65; font-weight: 500; }
+.tl-dot { width: 10px; height: 10px; border-radius: 50%;
+  background: color-mix(in srgb, currentColor 35%, transparent); }
+.tl[data-state="listening"] .tl-dot,
+.tl[data-state="thinking"] .tl-dot,
+.tl[data-state="speaking"] .tl-dot { background: var(--accent, var(--primary, Highlight)); animation: tl-dot 1.2s ease-in-out infinite; }
+.tl[data-state="thinking"] .tl-dot { animation-duration: 2s; }
+@keyframes tl-dot { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.6); opacity: .55; } }
+
+/* glowing pulse: Listening / Thinking / Speaking */
+@keyframes tl-glow {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent, var(--primary, Highlight)) 55%, transparent),
+                         0 0 16px 2px color-mix(in srgb, var(--accent, var(--primary, Highlight)) 35%, transparent); }
+  50%      { box-shadow: 0 0 0 14px transparent,
+                         0 0 34px 8px color-mix(in srgb, var(--accent, var(--primary, Highlight)) 55%, transparent); }
+}
+.tl[data-state="listening"] .tl-orb { opacity: 1; animation: tl-flow 1.6s ease-in-out infinite, tl-glow 1.4s ease-in-out infinite; }
+.tl[data-state="thinking"]  .tl-orb { opacity: .8; animation: tl-flow 2.6s ease-in-out infinite, tl-glow 2.4s ease-in-out infinite; }
+.tl[data-state="speaking"]  .tl-orb { opacity: 1; animation: tl-flow 1.1s ease-in-out infinite, tl-glow 1s ease-in-out infinite; }
+.tv-orb[data-state="listening"], .tv-orb[data-state="thinking"], .tv-orb[data-state="speaking"] { animation: tl-glow 1.4s ease-in-out infinite; }
+.tv-orb[data-state="thinking"] { opacity: .8; }
+
+@media (max-width: 380px) {
+  .tl-icon { width: 48px; height: 48px; }
+  .tl-bar { gap: 6px; }
+  .tl-bot { font-size: 1.7rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tl-dot, .tl-orb, .tv-orb { animation: none !important; }
+}
