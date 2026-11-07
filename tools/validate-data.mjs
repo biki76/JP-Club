@@ -57,7 +57,8 @@ async function main() {
   const seenManifests = new Set();
   const seenSlugs     = new Set();
 
-  for (const mPath0 of index.manifests) { const mPath = mPath0.endsWith('.json') ? mPath0 : mPath0 + '/manifest.json';
+  for (const mPath0 of index.manifests) { 
+    const mPath = mPath0.endsWith('.json') ? mPath0 : mPath0 + '/manifest.json';
     seenManifests.add(mPath);
     const full = join(DATA_ROOT, mPath);
     console.log(`\n▸ ${mPath}`);
@@ -72,17 +73,19 @@ async function main() {
     const dir = dirname(full);
     const df  = manifest.dataFiles || {};
 
-    for (const [kind, relPath] of [
-      ['vocabulary', df.vocabulary],
-      ['grammar',    df.grammar],
-      ['kanji',      df.kanji]
+    // Added isCollection flag (3rd element) because honsatsuAudio is an object, not an array
+    for (const [kind, relPath, isCollection] of [
+      ['vocabulary',    df.vocabulary,    true],
+      ['grammar',       df.grammar,       true],
+      ['kanji',         df.kanji,         true],
+      ['honsatsuAudio', df.honsatsuAudio, false]
     ]) {
       if (!relPath) continue;
       const p = join(dir, relPath);
       try { await stat(p); }
       catch { fail(`${rel(p)}: declared in manifest but not found`); continue; }
 
-      const data = await validateFile(p, kind, true);
+      const data = await validateFile(p, kind, isCollection);
       if (!data) continue;
 
       if (kind === 'kanji') {
@@ -100,6 +103,22 @@ async function main() {
           if (item.id && !item.id.startsWith(manifest.slug))
             warn(`${rel(p)}[${i}].id "${item.id}" does not start with "${manifest.slug}-"`);
         });
+      }
+
+      if (kind === 'honsatsuAudio' && manifest.slug) {
+        // Check for duplicate track IDs
+        const trackIds = new Set();
+        data.tracks.forEach((track, i) => {
+          if (trackIds.has(track.id)) {
+            fail(`${rel(p)}: duplicate track id "${track.id}" at tracks[${i}]`);
+          }
+          trackIds.add(track.id);
+        });
+
+        // Ensure the lessonSlug inside the file matches the manifest slug
+        if (data.lessonSlug !== manifest.slug) {
+          warn(`${rel(p)}: lessonSlug "${data.lessonSlug}" does not match manifest slug "${manifest.slug}"`);
+        }
       }
     }
   }
