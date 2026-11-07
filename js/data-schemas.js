@@ -42,7 +42,7 @@
       jp:       nonEmptyString,
       furigana: { type: 'string' },
       romaji:   { type: 'string' },
-      audio_url: { type: 'string' },   // Phase 6 restore
+      audio_url: { type: 'string' },
       en:       nonEmptyString,
       bn:       nonEmptyString
     },
@@ -97,10 +97,11 @@
         type: 'object',
         required: [],
         properties: {
-          vocabulary: nonEmptyString,
-          grammar:    nonEmptyString,
-          kanji:      nonEmptyString,
-          practice:   nonEmptyString
+          vocabulary:     nonEmptyString,
+          grammar:        nonEmptyString,
+          kanji:          nonEmptyString,
+          practice:       nonEmptyString,
+          honsatsuAudio:  nonEmptyString  // <-- ADDED
         },
         additionalProperties: false
       },
@@ -114,9 +115,44 @@
     type: 'object',
     required: ['courseId', 'manifests'],
     properties: {
-      courseId:  nonEmptyString,
+      courseId:     nonEmptyString,
       totalLessons: { type: 'integer', minimum: 0 },
-      manifests: { type: 'array', items: nonEmptyString, minItems: 0 }
+      manifests:    { type: 'array', items: nonEmptyString, minItems: 0 }
+    },
+    additionalProperties: false
+  };
+
+  /* ── Honsatsu Audio entry ───────────────────────────── */
+  const trackTitle = {
+    type: 'object',
+    required: ['en'],
+    properties: {
+      en: nonEmptyString,
+      bn: { type: 'string' } // Optional, since you don't have Bengali translations yet
+    },
+    additionalProperties: false
+  };
+
+  const honsatsuAudio = {
+    type: 'object',
+    required: ['lessonSlug', 'tracks'],
+    properties: {
+      lessonSlug: { type: 'string', pattern: '^minna-\\d{3}$' },
+      tracks: {
+        type: 'array',
+        minItems: 1,
+        items: {
+          type: 'object',
+          required: ['id', 'type', 'title', 'audioUrl'],
+          properties: {
+            id:       nonEmptyString,
+            type:     { type: 'string', enum: ['sentence-patterns', 'exercise-c', 'conversation'] },
+            title:    trackTitle,
+            audioUrl: nonEmptyString
+          },
+          additionalProperties: false
+        }
+      }
     },
     additionalProperties: false
   };
@@ -251,7 +287,7 @@
   }
 
   return {
-    schemas: { vocabulary, grammar, kanji, manifest, index },
+    schemas: { vocabulary, grammar, kanji, manifest, index, honsatsuAudio },
     validate,
     validateCollection
   };
