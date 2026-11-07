@@ -23,7 +23,7 @@ const SUPABASE_ANON_KEY = keyMatch[1];
 const BUCKET = 'nihongo-audio';
 
 // Source directory
-const SOURCE_DIR = process.env.AUDIO_SOURCE_DIR || 'C:\\Users\\ie01\\Downloads\\minna-no-nihongo-master';
+   const SOURCE_DIR = process.env.AUDIO_SOURCE_DIR || '/storage/emulated/0/Download/minna-no-nihongo-master';
 
 if (!existsSync(SOURCE_DIR)) {
   console.error(`❌ Source directory not found: ${SOURCE_DIR}`);
