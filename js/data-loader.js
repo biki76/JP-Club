@@ -83,6 +83,17 @@
     return { slug, manifest, vocabulary, grammar, kanji };
   }
 
+  async function loadHonsatsuAudio(slug) {
+    const manifestUrl = `${base()}${slug}/manifest.json`;
+    const manifest = check('manifest', await fetchJson(manifestUrl), manifestUrl);
+    const df = manifest.dataFiles || {};
+
+    if (!df.honsatsuAudio) return null;
+
+    const url = `${base()}${slug}/${df.honsatsuAudio}`;
+    return check('honsatsu-audio', await fetchJson(url), url);
+  }
+
   async function loadCourse() {
     const index = await loadIndex();
     const lessons = await Promise.all(
@@ -99,6 +110,7 @@
     loadIndex,
     loadManifest,
     loadLesson,
+    loadHonsatsuAudio,
     loadCourse,
     clearCache,
     get BASE() { return base(); }
