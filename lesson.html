@@ -49,6 +49,14 @@
     .lv-empty { color: var(--ink-muted); padding: var(--s-6); text-align: center; background: var(--surface); border: 1px dashed var(--border); border-radius: var(--r-md); }
     .lv-nav { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); padding-top: var(--s-5); border-top: 1px solid var(--border); margin-top: var(--s-6); }
     .lv-grammar-pattern { font-family: var(--font-jp); font-size: var(--fs-lg); font-weight: 600; color: var(--primary); margin: 0 0 var(--s-1); }
+    
+    /* Textbook Audio Specific Styles */
+    .textbook-audio-section { margin-bottom: var(--s-5); }
+    .textbook-audio-item { flex-direction: row !important; align-items: center !important; gap: var(--s-3) !important; padding: var(--s-3) !important; }
+    .textbook-audio-play-btn { width: 40px; height: 40px; padding: 0; display: flex; align-items: center; justify-content: center; border-radius: 50%; flex-shrink: 0; }
+    .textbook-audio-info { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+    .textbook-audio-title { font-size: var(--fs-md); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .textbook-audio-type { font-size: var(--fs-sm); color: var(--ink-subtle); font-style: normal; text-transform: capitalize; }
   </style>
   <script>
     window.SHELL_CONFIG = {
@@ -78,13 +86,13 @@
   <link rel="stylesheet" href="css/phase13.css">
   <link rel="stylesheet" href="css/theme-v2.css">
   <link rel="stylesheet" href="css/lesson-questions.css">
-<link rel="stylesheet" href="css/cmd-palette.css">
-<link rel="stylesheet" href="css/typography-jp.css">
-<link rel="stylesheet" href="css/toasts.css">
-<link rel="stylesheet" href="css/streak-prompt.css">
-<link rel="stylesheet" href="css/perf.css">
-<meta property="og:image" content="og.png">
-<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/cmd-palette.css">
+  <link rel="stylesheet" href="css/typography-jp.css">
+  <link rel="stylesheet" href="css/toasts.css">
+  <link rel="stylesheet" href="css/streak-prompt.css">
+  <link rel="stylesheet" href="css/perf.css">
+  <meta property="og:image" content="og.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
   <script src="js/ui-lang-init.js"></script>
   <link rel="stylesheet" href="css/ui-lang.css">
 </head>
@@ -117,7 +125,6 @@
   <script src="js/i18n.js" defer></script>
   <script src="js/nav-force.js" defer></script>
   <script src="js/shell.js" defer></script>
-  <!-- DISABLED: <script src="js/phase13-shell.js" defer></script> -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="js/supabase-config.js" defer></script>
   <script src="js/cloud.js" defer></script>
@@ -142,28 +149,55 @@
       { id: 'listening',  en: 'Listening',  bn: 'শ্রবণ' },
       { id: 'practice',   en: 'Practice',   bn: 'অনুশীলন' }
     ];
+
     function numFromURL() {
       const p = new URLSearchParams(location.search);
       const v = p.get('lesson') || p.get('id') || '1';
       const n = parseInt(String(v).replace(/\D/g, ''), 10);
       return (n >= 1 && n <= 50) ? n : 1;
     }
+
     async function fetchJSON(url) {
       const r = await fetch(url, { cache: 'no-cache' });
       if (!r.ok) throw new Error(url);
       return r.json();
     }
+
     const jpMain = v => (v && v.kanji && v.furigana)
       ? `<ruby>${esc(v.kanji)}<rt>${esc(v.furigana)}</rt></ruby>`
       : esc((v && (v.furigana || v.kanji || v.romaji)) || '');
+
     function bilingual(en, bn) {
       const l = lang();
       return `<span data-en="${esc(en || '')}" data-bn="${esc(bn || en || '')}">${esc(l === 'bn' ? (bn || en || '') : (en || ''))}</span>`;
     }
+
     function audioTag(url) {
       if (!url) return '';
       return `<audio controls preload="none" src="${esc(url)}" style="margin-top:var(--s-2);width:100%"></audio>`;
     }
+
+    function formatTrackType(type) {
+      const map = {
+        'sentence-patterns': { en: 'Sentence Patterns', bn: 'বাক্য গঠন' },
+        'exercise-c': { en: 'Exercise C', bn: 'অনুশীলনী C' },
+        'conversation': { en: 'Conversation', bn: 'কথোপকথন' }
+      };
+      const t = map[type] || { en: type, bn: type };
+      return bilingual(t.en, t.bn);
+    }
+
+    window.playLessonAudio = function(url) {
+      if (!url) return;
+      if (window._currentLessonAudio) {
+        window._currentLessonAudio.pause();
+        window._currentLessonAudio = null;
+      }
+      const audio = new Audio(url);
+      window._currentLessonAudio = audio;
+      audio.play().catch(e => console.error('Audio play failed:', e));
+    };
+
     function renderHead(m) {
       const t = (m && m.title) ? m.title : null;
       $('#lv-kicker').innerHTML = bilingual('Lesson ' + state.n, 'পাঠ ' + state.n);
@@ -177,6 +211,7 @@
       if ((c.grammar || []).length) b.push(`<span class="badge badge--success">${bilingual(c.grammar.length + ' grammar', c.grammar.length + ' ব্যাকরণ')}</span>`);
       $('#lv-badges').innerHTML = b.join('');
     }
+
     function renderTabs() {
       const el = $('#lv-tabs');
       el.innerHTML = TABS.filter(t => (state.data[t.id] || []).length).map(t => {
@@ -192,6 +227,7 @@
         renderTabs(); renderPanel();
       }));
     }
+
     function renderVocab(list) {
       return '<div class="lv-list">' + list.map(v =>
         `<article class="lv-item">
@@ -202,6 +238,7 @@
            ${(v.tags || []).length ? `<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:4px">${v.tags.map(t => `<span class="badge badge--outline">${esc(t)}</span>`).join('')}</div>` : ''}
          </article>`).join('') + '</div>';
     }
+
     function renderGrammar(list) {
       return '<div class="lv-list">' + list.map(g =>
         `<article class="lv-item">
@@ -217,6 +254,7 @@
               </li>`).join('')}</ul>` : ''}
          </article>`).join('') + '</div>';
     }
+
     function renderKanji(list) {
       return '<div class="lv-kanji-grid">' + list.map(k => {
         const m = k.meanings || {};
@@ -232,6 +270,7 @@
          </article>`;
       }).join('') + '</div>';
     }
+
     function renderReading(list) {
       return '<div class="lv-list">' + list.map((r, i) => {
         const title = r.title || {};
@@ -250,8 +289,41 @@
         </article>`;
       }).join('') + '</div>';
     }
+
     function renderListening(list) {
-      return '<div class="lv-list">' + list.map((l, i) => {
+      const honsatsu = state.data.honsatsuAudio;
+      let honsatsuHtml = '';
+      
+      if (honsatsu && honsatsu.tracks && honsatsu.tracks.length > 0) {
+        honsatsuHtml = `
+          <div class="textbook-audio-section">
+            <h2 class="lv-grammar-pattern" style="margin-bottom: var(--s-3); font-size: var(--fs-lg);">
+              ${bilingual('Textbook Audio', 'পাঠ্যপুস্তক অডিও')}
+            </h2>
+            <div class="lv-list">
+              ${honsatsu.tracks.map(track => `
+                <article class="lv-item textbook-audio-item">
+                  <button class="btn btn--primary textbook-audio-play-btn" 
+                          onclick="window.playLessonAudio('${esc(track.audioUrl)}')" 
+                          aria-label="Play ${esc(track.title.en)}">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                  <div class="textbook-audio-info">
+                    <p class="lv-meaning textbook-audio-title">
+                      ${bilingual(track.title.en, track.title.bn || track.title.en)}
+                    </p>
+                    <p class="lv-romaji textbook-audio-type">
+                      ${formatTrackType(track.type)}
+                    </p>
+                  </div>
+                </article>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      const listHtml = '<div class="lv-list">' + list.map((l, i) => {
         const title = l.title || {};
         const transcript = Array.isArray(l.transcript) ? l.transcript
                          : (Array.isArray(l.lines) ? l.lines : []);
@@ -266,7 +338,10 @@
             </div>`).join('')}
         </article>`;
       }).join('') + '</div>';
+
+      return honsatsuHtml + listHtml;
     }
+
     function renderPractice(list) {
       return '<div class="lv-list">' + list.map((q, qi) => {
         const prompt = q.prompt || {};
@@ -288,6 +363,7 @@
         </article>`;
       }).join('') + '</div>';
     }
+
     function attachPracticeHandlers() {
       document.querySelectorAll('.lv-item[data-q]').forEach(card => {
         const buttons = card.querySelectorAll('[data-opt]');
@@ -307,10 +383,11 @@
         });
       });
     }
+
     function renderPanel() {
       const list = state.data[state.tab] || [];
       const el = $('#lv-panel');
-      if (!list.length) {
+      if (!list.length && state.tab !== 'listening') {
         el.innerHTML = `<p class="lv-empty">${bilingual('No content in this section yet.', 'এই অংশে এখনো কন্টেন্ট নেই।')}</p>`;
         return;
       }
@@ -323,6 +400,7 @@
         case 'practice':   el.innerHTML = renderPractice(list); attachPracticeHandlers(); break;
       }
     }
+
     function renderNav(m) {
       const n = Number(m && m.lessonNumber) || state.n;
       const prev = n > 1 ? slug(n - 1) : null;
@@ -331,6 +409,7 @@
         (prev ? `<a class="btn btn--secondary" href="lesson.html?lesson=${prev}">${bilingual('← Previous', '← পূর্ববর্তী')}</a>` : '<span></span>') +
         (next ? `<a class="btn btn--primary" href="lesson.html?lesson=${next}">${bilingual('Next →', 'পরবর্তী →')}</a>` : '<span></span>');
     }
+
     async function boot() {
       state.n = numFromURL();
       state.slug = slug(state.n);
@@ -341,10 +420,23 @@
         try { m = await fetchJSON('data/lessons/' + state.slug + '/manifest.json'); }
         catch (e) { m = {}; }
         state.data.manifest = m;
+        
         for (const f of ['vocabulary', 'grammar', 'kanji', 'reading', 'listening', 'practice']) {
           try { state.data[f] = await fetchJSON('data/lessons/' + state.slug + '/' + f + '.json'); }
           catch (e) { state.data[f] = []; }
         }
+        
+        // Fetch honsatsu audio if specified in manifest
+        if (m && m.dataFiles && m.dataFiles.honsatsuAudio) {
+          try {
+            state.data.honsatsuAudio = await fetchJSON('data/lessons/' + state.slug + '/' + m.dataFiles.honsatsuAudio);
+          } catch (e) {
+            state.data.honsatsuAudio = null;
+          }
+        } else {
+          state.data.honsatsuAudio = null;
+        }
+
         const saved = window.Store && window.Store.getLessonSection(state.slug);
         if (saved && saved.tab && (state.data[saved.tab] || []).length) {
           state.tab = saved.tab;
@@ -352,10 +444,12 @@
           const first = TABS.find(t => (state.data[t.id] || []).length);
           if (first) state.tab = first.id;
         }
+        
         renderHead(state.data.manifest);
         renderTabs();
         renderPanel();
         renderNav(state.data.manifest);
+        
         if (window.I18n && typeof window.I18n.apply === 'function') {
           try { window.I18n.apply(window.I18n.get ? window.I18n.get() : undefined); } catch (e) {}
         }
@@ -364,6 +458,7 @@
         $('#lv-panel').innerHTML = `<p class="lv-empty">${bilingual('This lesson is not available yet.', 'এই পাঠটি এখনো আসেনি।')}</p>`;
       }
     }
+
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true });
     else boot();
   </script>
@@ -371,14 +466,14 @@
   <script src="js/nav-extra.js" defer></script>
   <script src="js/study-btn.js" defer></script>
   <script src="js/toast.js" defer></script>
-<script src="js/toasts.js" defer></script>
-<script src="js/streak-prompt.js" defer></script>
-<script src="js/tabs-memory.js" defer></script>
-<script src="js/cmd-palette.js" defer></script>
-<script src="js/a11y-hooks.js" defer></script>
-<script src="js/empty-states.js" defer></script>
-<script src="js/bookmark-toasts.js" defer></script>
-<script src="js/microcopy.js" defer></script>
+  <script src="js/toasts.js" defer></script>
+  <script src="js/streak-prompt.js" defer></script>
+  <script src="js/tabs-memory.js" defer></script>
+  <script src="js/cmd-palette.js" defer></script>
+  <script src="js/a11y-hooks.js" defer></script>
+  <script src="js/empty-states.js" defer></script>
+  <script src="js/bookmark-toasts.js" defer></script>
+  <script src="js/microcopy.js" defer></script>
   <script src="js/lesson-cover.js" defer></script>
   <script src="js/lesson-questions.js" defer></script>
   <script src="js/lesson-practice.js" defer></script>
