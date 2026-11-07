@@ -1,25 +1,42 @@
+/* Moon · Speaking Partner — engine + UI.
+   Content lives in tutor-data.js, styles in tutor-voice.css / tutor-live.css / tutor-call.css. */
 (function () {
+  'use strict';
+
+  /* ===== 0. Setup ===== */
+  var DATA = window.TUTOR_DATA || { topics: {}, tips: [], naturalVoices: [] };
   var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var SYNTH = ('speechSynthesis' in window) ? window.speechSynthesis : null;
   var $ = function (id) { return document.getElementById(id); };
-  var orb = $('tv-orb'), statusEl = $('tv-status');
+  var orb = $('tv-orb'), pageStatus = $('tv-status');
   var levelEl = $('tv-level'), rateEl = $('tv-rate'), voiceEl = $('tv-voice'), bargeEl = $('tv-barge');
+  if (!orb || !levelEl || !rateEl || !voiceEl || !bargeEl || !pageStatus) { console.warn('Tutor UI elements are missing.'); return; }
+
+  var K = {
+    log: 'nihongo_speak_log', meta: 'nihongo_speak_meta', sessions: 'nihongo_tutor_sessions',
+    topic: 'nihongo_tutor_topic', level: 'nihongo_tutor_level', rate: 'nihongo_tutor_rate',
+    voice: 'nihongo_tutor_voice', barge: 'nihongo_tutor_barge'
+  };
+  var GOAL = 60;
   var history = [], rec = null, barging = false, active = false, busy = false, lastReply = '';
   var epoch = 0, speakId = 0, retries = 0, wake = null, pending = 0, revealTimer = null, botSpans = [];
   var lastInterim = '', spokenIdx = 0, interrupted = false, session = null, speechEndedAt = 0;
-  var topic = localStorage.getItem('nihongo_tutor_topic') || 'free';
-  var LOGK = 'nihongo_speak_log', METAK = 'nihongo_speak_meta', SESK = 'nihongo_tutor_sessions', GOAL = 60;
-  var TOPIC_LABEL = {
-    free: ['Free talk', 'ফ্রি আলাপ'], intro: ['Introductions', 'পরিচয়'], food: ['Food', 'খাবার'],
-    travel: ['Travel', 'ভ্রমণ'], shop: ['Shopping', 'কেনাকাটা']
-  };
+  var callStart = 0, timerId = null, player = null, neuralWarned = false;
+  var topic = localStorage.getItem(K.topic) || 'free';
+  if (!DATA.topics[topic]) topic = ({ shop: 'daily', travel: 'free' })[topic] || 'free';
 
+  /* ===== 1. Helpers ===== */
   function lang() { return localStorage.getItem('nihongo_lang') === 'bn' ? 'bn' : 'en'; }
   function T(en, bn) {
     return '<span data-en="' + en + '" data-bn="' + bn + '">' + (lang() === 'bn' ? bn : en) + '</span>';
   }
   function jget(k, def) { try { return JSON.parse(localStorage.getItem(k)) || def; } catch (e) { return def; } }
+  function dayStr(d) {
+    d = d || new Date();
+    return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  }
 
-  /* ---------- live overlay ---------- */
+  /* ===== 2. Live call screen (built here so the page HTML stays small) ===== */
   function ICON(p) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + p + '</svg>'; }
   var I_KB = ICON('<rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/>');
   var I_REPLAY = ICON('<path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/>');
@@ -33,7 +50,10 @@
   live.className = 'tl'; live.id = 'tl'; live.hidden = true; live.setAttribute('data-state', 'idle');
   live.setAttribute('role', 'dialog'); live.setAttribute('aria-modal', 'true'); live.setAttribute('aria-label', 'Live conversation');
   live.innerHTML =
-    '<div class="tl-top" id="tl-topic"></div>' +
+    '<div class="tl-top">' +
+      '<div class="tl-call" role="status" aria-live="polite"><span class="tl-dot" aria-hidden="true"></span><span id="tl-call"></span><span class="tl-time" id="tl-timer">00:00</span></div>' +
+      '<div class="tl-topic" id="tl-topic"></div>' +
+    '</div>' +
     '<div class="tl-stage" aria-live="polite"><div class="tl-bot" id="tl-bot" lang="ja"></div><div class="tl-tr" id="tl-tr"></div><div class="tl-fix" id="tl-fix" hidden></div></div>' +
     '<div class="tl-hint"><span class="tl-status" id="tl-status"></span><button type="button" class="tl-pill" id="tl-pill" hidden>' + T('Tap to interrupt', 'থামিয়ে বলতে ট্যাপ করুন') + '</button></div>' +
     '<div class="tl-me" id="tl-me" lang="ja" hidden></div>' +
@@ -43,20 +63,35 @@
     btn('tl-mic', I_MIC, 'Microphone', 'মাইক্রোফোন') + btn('tl-end', I_X, 'End conversation', 'শেষ করুন') + '</div>';
   document.body.appendChild(live);
 
+  /* ===== 3. Call state: Listening / Thinking / Speaking ===== */
+  var CALL = {
+    idle: ['Ready', 'প্রস্তুত'],
+    listening: ['Listening...', 'শুনছি...'],
+    thinking: ['Thinking...', 'ভাবছি...'],
+    speaking: ['Speaking...', 'বলছি...']
+  };
   function stateOf() { return live.getAttribute('data-state'); }
   function setState(s, en, bn) {
+    var c = CALL[s] || CALL.idle;
     orb.setAttribute('data-state', s);
     live.setAttribute('data-state', s);
-    var html = en ? T(en, bn) : '';
-    statusEl.innerHTML = html;
-    $('tl-status').innerHTML = html;
-    $('tl-status').hidden = s === 'speaking';
+    $('tl-call').innerHTML = T(c[0], c[1]);
+    pageStatus.innerHTML = en ? T(en, bn) : T(c[0], c[1]);
+    $('tl-status').innerHTML = en ? T(en, bn) : '';
+    $('tl-status').hidden = (s === 'speaking') || !en;
     $('tl-pill').hidden = s !== 'speaking';
     $('tl-mic').setAttribute('aria-pressed', s === 'listening' ? 'true' : 'false');
   }
+  function tick() {
+    var t = Math.max(0, Math.floor((Date.now() - callStart) / 1000));
+    $('tl-timer').textContent = ('0' + Math.floor(t / 60)).slice(-2) + ':' + ('0' + (t % 60)).slice(-2);
+  }
+  function startTimer() { callStart = Date.now(); tick(); clearInterval(timerId); timerId = setInterval(tick, 1000); }
+  function stopTimer() { clearInterval(timerId); timerId = null; }
   function openLive() {
-    var l = TOPIC_LABEL[topic] || TOPIC_LABEL.free;
-    $('tl-topic').innerHTML = 'Moon · ' + T(l[0], l[1]);
+    var t = DATA.topics[topic] || DATA.topics.free || { en: 'Free talk', bn: 'ফ্রি আলাপ' };
+    $('tl-topic').innerHTML = T('Moon \u00b7 ' + t.en, 'Moon \u00b7 ' + (t.bn || t.en));
+    if (!SR) $('tl-typebox').hidden = false;
     live.hidden = false;
     document.documentElement.style.overflow = 'hidden';
     $('tl-mic').focus();
@@ -64,42 +99,51 @@
   function closeLive() { live.hidden = true; document.documentElement.style.overflow = ''; }
   function showMe(t) { var m = $('tl-me'); m.textContent = t || ''; m.hidden = !t; }
   function clearOverlay() {
-    $('tl-bot').innerHTML = ''; $('tl-tr').textContent = ''; $('tl-fix').hidden = true; $('tl-fix').innerHTML = '';
+    $('tl-bot').innerHTML = ''; $('tl-tr').textContent = ''; $('tl-fix').innerHTML = ''; $('tl-fix').hidden = true;
     botSpans = []; showMe('');
   }
 
-  /* ---------- prefs + voices ---------- */
-  levelEl.value = localStorage.getItem('nihongo_tutor_level') || 'N5';
-  rateEl.value = localStorage.getItem('nihongo_tutor_rate') || '0.85';
-  bargeEl.checked = localStorage.getItem('nihongo_tutor_barge') === 'on';
-  levelEl.addEventListener('change', function () { localStorage.setItem('nihongo_tutor_level', levelEl.value); });
-  rateEl.addEventListener('change', function () { localStorage.setItem('nihongo_tutor_rate', rateEl.value); });
-  bargeEl.addEventListener('change', function () { localStorage.setItem('nihongo_tutor_barge', bargeEl.checked ? 'on' : 'off'); });
+  /* ===== 4. Preferences ===== */
+  levelEl.value = localStorage.getItem(K.level) || 'N5';
+  rateEl.value = localStorage.getItem(K.rate) || '0.85';
+  bargeEl.checked = localStorage.getItem(K.barge) === 'on';
+  levelEl.addEventListener('change', function () { localStorage.setItem(K.level, levelEl.value); });
+  rateEl.addEventListener('change', function () { localStorage.setItem(K.rate, rateEl.value); });
+  bargeEl.addEventListener('change', function () { localStorage.setItem(K.barge, bargeEl.checked ? 'on' : 'off'); });
+
+  /* ===== 5. Voice list (async-safe) ===== */
   function jaVoices() {
-    return ('speechSynthesis' in window ? speechSynthesis.getVoices() : []).filter(function (v) { return /^ja/i.test(v.lang); });
+    if (!SYNTH) return [];
+    try { return SYNTH.getVoices().filter(function (v) { return /^ja/i.test(v.lang); }); } catch (e) { return []; }
   }
-  function fillVoices() {
-    var keep = localStorage.getItem('nihongo_tutor_voice') || 'n:female';
+  function opt(value, label) { var o = document.createElement('option'); o.value = value; o.textContent = label; return o; }
+  function renderVoices() {
+    var keep = voiceEl.value || localStorage.getItem(K.voice) || '';
+    var natural = DATA.naturalVoices || [];
     voiceEl.innerHTML = '';
-    var g1 = document.createElement('optgroup'); g1.label = 'Natural (recommended)';
-    [['n:female', 'Natural - Moon']].forEach(function (x) {
-      var o = document.createElement('option'); o.value = x[0]; o.textContent = x[1]; g1.appendChild(o);
-    });
-    voiceEl.appendChild(g1);
+    if (natural.length) {
+      var g1 = document.createElement('optgroup'); g1.label = 'Natural (recommended)';
+      natural.forEach(function (v) { g1.appendChild(opt('n:' + v.id, v.label)); });
+      voiceEl.appendChild(g1);
+    }
     var g2 = document.createElement('optgroup'); g2.label = 'This device';
-    var auto = document.createElement('option'); auto.value = 'b:'; auto.textContent = 'Device voice (auto)'; g2.appendChild(auto);
-    jaVoices().forEach(function (v) { var o = document.createElement('option'); o.value = 'b:' + v.voiceURI; o.textContent = v.name; g2.appendChild(o); });
+    g2.appendChild(opt('b:', 'Device voice (auto)'));
+    jaVoices().forEach(function (v) { g2.appendChild(opt('b:' + v.voiceURI, v.name)); });
     voiceEl.appendChild(g2);
     voiceEl.value = keep;
-    if (voiceEl.value !== keep) voiceEl.value = 'n:female';
+    if (voiceEl.value !== keep) voiceEl.value = natural.length ? ('n:' + natural[0].id) : 'b:';
   }
-  fillVoices();
-  if ('speechSynthesis' in window) speechSynthesis.addEventListener('voiceschanged', fillVoices);
-  voiceEl.addEventListener('change', function () {
-    localStorage.setItem('nihongo_tutor_voice', voiceEl.value);
-    speakId++; cancelVoice(); botSpans = [];
-    speakBot('こんにちは。よろしくお願いします。', function () {});
-  });
+  function initVoices() {
+    renderVoices();
+    if (!SYNTH) return;
+    if (SYNTH.addEventListener) SYNTH.addEventListener('voiceschanged', renderVoices);
+    else SYNTH.onvoiceschanged = renderVoices;
+    var tries = 0;
+    (function poll() {
+      if (jaVoices().length || tries++ > 12) return;
+      setTimeout(function () { renderVoices(); poll(); }, 250);
+    })();
+  }
   function pickVoice() {
     var list = jaVoices(), sel = voiceEl.value.indexOf('b:') === 0 ? voiceEl.value.slice(2) : '', i;
     if (sel) { for (i = 0; i < list.length; i++) { if (list[i].voiceURI === sel) return list[i]; } }
@@ -110,83 +154,12 @@
     });
     return best;
   }
+  function neuralKey() { var v = voiceEl.value; return v.indexOf('n:') === 0 ? v.slice(2) : ''; }
 
-  /* ---------- speaking time + streak ---------- */
-  function dayStr(d) {
-    d = d || new Date();
-    return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
-  }
-  function addSeconds(n) {
-    var lg = jget(LOGK, {});
-    var meta = jget(METAK, { totalSeconds: 0, streakCurrent: 0, streakLongest: 0, streakLastDay: '' });
-    var t = dayStr(), before = lg[t] || 0;
-    lg[t] = before + n;
-    meta.totalSeconds = (meta.totalSeconds || 0) + n;
-    if (before < GOAL && lg[t] >= GOAL) {
-      var y = new Date(); y.setDate(y.getDate() - 1);
-      if (meta.streakLastDay === dayStr(y)) meta.streakCurrent = (meta.streakCurrent || 0) + 1;
-      else if (meta.streakLastDay !== t) meta.streakCurrent = 1;
-      meta.streakLastDay = t;
-      meta.streakLongest = Math.max(meta.streakLongest || 0, meta.streakCurrent);
-    }
-    localStorage.setItem(LOGK, JSON.stringify(lg));
-    localStorage.setItem(METAK, JSON.stringify(meta));
-    renderStats();
-  }
-  function flush() { if (pending > 0) { var n = pending; pending = 0; addSeconds(n); } }
-  function renderStats() {
-    var lg = jget(LOGK, {});
-    var meta = jget(METAK, { streakCurrent: 0, streakLastDay: '' });
-    var t = dayStr(), y = new Date(); y.setDate(y.getDate() - 1);
-    var mins = Math.floor(((lg[t] || 0) + pending) / 60);
-    var cur = (meta.streakLastDay === t || meta.streakLastDay === dayStr(y)) ? (meta.streakCurrent || 0) : 0;
-    var today = $('tv-today'), st = $('tv-streak');
-    if (today) today.innerHTML = T('Today: ' + mins + ' min', 'আজ: ' + mins + ' মিনিট');
-    if (st) st.innerHTML = T('Streak: ' + cur + ' day' + (cur === 1 ? '' : 's'), 'ধারা: ' + cur + ' দিন');
-  }
-  setInterval(function () { if (active && !document.hidden) { pending++; if (pending >= 10) flush(); } }, 1000);
-  window.addEventListener('pagehide', flush);
-  document.addEventListener('visibilitychange', function () { if (document.hidden) flush(); });
-
-  /* ---------- screen wake lock ---------- */
-  async function keepAwake(on) {
-    try {
-      if (on && navigator.wakeLock && !wake) {
-        wake = await navigator.wakeLock.request('screen');
-        wake.addEventListener('release', function () { wake = null; });
-      } else if (!on && wake) { await wake.release(); wake = null; }
-    } catch (e) {}
-  }
-
-  /* ---------- saved conversations ---------- */
-  function loadSessions() { var a = jget(SESK, []); return Array.isArray(a) ? a : []; }
-  function saveSessions(a) { try { localStorage.setItem(SESK, JSON.stringify(a.slice(0, 40))); } catch (e) {} }
-  function persistSession() {
-    var all = loadSessions(), i;
-    for (i = 0; i < all.length; i++) { if (all[i].id === session.id) break; }
-    if (i === all.length) all.unshift(session); else all[i] = session;
-    saveSessions(all);
-  }
-  function addTurn(t) {
-    if (!session) session = { id: Date.now(), at: Date.now(), topic: topic, level: levelEl.value, turns: [] };
-    session.turns.push(t);
-    if (session.turns.length > 80) session.turns.shift();
-    persistSession();
-  }
-
-  /* ---------- speech out (with word reveal) ---------- */
-  function speakText(text, rate, done, onBoundary, onStart) {
-    done = done || function () {};
-    if (!('speechSynthesis' in window)) { done(); return; }
-    speechSynthesis.cancel();
-    var u = new SpeechSynthesisUtterance(text);
-    u.lang = 'ja-JP'; u.rate = rate; u.pitch = 1;
-    var v = pickVoice();
-    if (v) u.voice = v;
-    if (onBoundary) u.onboundary = onBoundary;
-    if (onStart) u.onstart = onStart;
-    u.onend = done; u.onerror = done;
-    speechSynthesis.speak(u);
+  /* ===== 6. Speech output (natural server voice, device voice fallback) ===== */
+  function cancelVoice() {
+    if (player) { player.onended = null; player.onerror = null; try { player.pause(); } catch (e) {} player = null; }
+    if (SYNTH) { try { SYNTH.cancel(); } catch (e) {} }
   }
   function revealTo(ci) {
     if (ci < 1e8 && ci > spokenIdx) spokenIdx = ci;
@@ -194,11 +167,33 @@
   }
   function revealAll() { revealTo(1e9); }
   function stopReveal() { if (revealTimer) { clearInterval(revealTimer); revealTimer = null; } }
-  var player = null, neuralWarned = false;
-  function neuralKey() { var v = voiceEl.value; return v.indexOf('n:') === 0 ? v.slice(2) : ''; }
-  function cancelVoice() {
-    if (player) { player.onended = null; player.onerror = null; try { player.pause(); } catch (e) {} player = null; }
-    if ('speechSynthesis' in window) speechSynthesis.cancel();
+  /* Echo protection: the microphone is switched off the moment the tutor starts to speak. */
+  function onSpeechStart() { if (!bargeEl.checked) stopRec(); }
+
+  function speakText(text, rate, done, onBoundary) {
+    done = done || function () {};
+    if (!SYNTH) { done(); return; }
+    try { SYNTH.cancel(); SYNTH.resume(); } catch (e) {}
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = 'ja-JP'; u.rate = rate; u.pitch = 1;
+    var v = pickVoice();
+    if (v) u.voice = v;
+    u.onstart = onSpeechStart;
+    if (onBoundary) u.onboundary = onBoundary;
+    u.onend = done; u.onerror = done;
+    try { SYNTH.speak(u); } catch (e) { done(); }
+  }
+  function speakBrowser(text, done) {
+    var rate = parseFloat(rateEl.value) || 0.85, gotB = false, fin = false;
+    stopReveal();
+    speakText(text, rate,
+      function () { fin = true; stopReveal(); revealAll(); done(); },
+      function (e) { gotB = true; revealTo(e.charIndex || 0); });
+    var t0 = Date.now(), total = Math.max(1200, text.length * 190 / rate);
+    setTimeout(function () {
+      if (gotB || fin || revealTimer) return;
+      revealTimer = setInterval(function () { revealTo(Math.floor((Date.now() - t0) / total * text.length)); }, 90);
+    }, 700);
   }
   async function fetchSpeech(text) {
     var cfg = window.SUPABASE_CONFIG || {};
@@ -213,6 +208,7 @@
     return data.audio;
   }
   function speakBot(text, done) {
+    onSpeechStart();
     if (!neuralKey()) { speakBrowser(text, done); return; }
     var mySid = speakId;
     stopReveal();
@@ -227,8 +223,11 @@
       a.onended = finish;
       a.onerror = fallback;
       a.onplay = function () {
+        onSpeechStart();
         stopReveal();
-        revealTimer = setInterval(function () { if (a.duration > 0) revealTo(Math.floor(a.currentTime / a.duration * text.length * 1.03)); }, 80);
+        revealTimer = setInterval(function () {
+          if (a.duration > 0) revealTo(Math.floor(a.currentTime / a.duration * text.length * 1.03));
+        }, 80);
       };
       var pr = a.play();
       if (pr && pr.catch) pr.catch(fallback);
@@ -242,22 +241,13 @@
       speakBrowser(text, done);
     });
   }
-  function speakBrowser(text, done) {
-    var rate = parseFloat(rateEl.value) || 0.85, gotB = false, fin = false;
-    stopReveal();
-    speakText(text, rate,
-      function () { fin = true; stopReveal(); revealAll(); done(); },
-      function (e) { gotB = true; revealTo(e.charIndex || 0); },
-      function () {
-        var t0 = Date.now(), total = Math.max(1200, text.length * 190 / rate);
-        setTimeout(function () {
-          if (gotB || fin || revealTimer) return;
-          revealTimer = setInterval(function () { revealTo(Math.floor((Date.now() - t0) / total * text.length)); }, 90);
-        }, 700);
-      });
-  }
+  voiceEl.addEventListener('change', function () {
+    localStorage.setItem(K.voice, voiceEl.value);
+    speakId++; cancelVoice(); botSpans = [];
+    speakBot('\u3053\u3093\u306b\u3061\u306f\u3002\u30e0\u30fc\u30f3\u3067\u3059\u3002', function () {});
+  });
 
-  /* ---------- word rendering (tap to hear + furigana via <ruby>) ---------- */
+  /* ===== 7. Words: furigana via <ruby>, tap to hear ===== */
   function hasKanji(s) { return /[\u4e00-\u9fff]/.test(s); }
   function isWord(s) { try { return /[\p{L}\p{N}]/u.test(s); } catch (e) { return /\S/.test(s); } }
   function plainSegs(text) {
@@ -325,7 +315,117 @@
     bot.parentNode.scrollTop = 0;
   }
 
-  /* ---------- history tab ---------- */
+  /* ===== 8. Topics, key phrases, tips (rendered from tutor-data.js) ===== */
+  function markTopic() {
+    var btns = document.querySelectorAll('.tv-topic');
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].setAttribute('aria-pressed', btns[i].getAttribute('data-topic') === topic ? 'true' : 'false');
+    }
+  }
+  function renderTopics() {
+    var box = $('tv-topics'); if (!box) return;
+    box.innerHTML = '';
+    Object.keys(DATA.topics).forEach(function (k) {
+      var t = DATA.topics[k];
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'tv-topic'; b.setAttribute('data-topic', k);
+      b.innerHTML = T(t.en, t.bn || t.en);
+      b.addEventListener('click', function () { selectTopic(k); });
+      box.appendChild(b);
+    });
+    markTopic();
+  }
+  function renderPhrases() {
+    var title = $('tv-phrases-title'), ul = $('tv-phrases'), t = DATA.topics[topic];
+    if (!title || !ul || !t) return;
+    title.innerHTML = T('Key phrases: ' + t.en, 'প্রয়োজনীয় বাক্য: ' + (t.bn || t.en));
+    ul.innerHTML = '';
+    (t.phrases || []).forEach(function (p) {
+      var li = document.createElement('li');
+      var b = document.createElement('button'); b.type = 'button'; b.className = 'tv-phrase';
+      var j = document.createElement('span'); j.className = 'tv-phrase-jp'; j.lang = 'ja'; j.textContent = p.jp;
+      var m = document.createElement('span'); m.className = 'tv-phrase-en'; m.innerHTML = T(p.en, p.bn || p.en);
+      b.appendChild(j); b.appendChild(m);
+      b.addEventListener('click', function () { stopAll(); botSpans = []; speakBot(p.say || p.jp, function () {}); });
+      li.appendChild(b); ul.appendChild(li);
+    });
+  }
+  function renderTips() {
+    var ul = $('tv-tips'); if (!ul) return;
+    ul.innerHTML = '';
+    (DATA.tips || []).forEach(function (t) {
+      var li = document.createElement('li'); li.innerHTML = T(t.en, t.bn || t.en); ul.appendChild(li);
+    });
+  }
+  function selectTopic(k) {
+    if (!DATA.topics[k]) return;
+    topic = k; localStorage.setItem(K.topic, topic);
+    markTopic(); renderPhrases();
+    resetConversation();
+  }
+
+  /* ===== 9. Speaking time + streak ===== */
+  function addSeconds(n) {
+    var lg = jget(K.log, {});
+    var meta = jget(K.meta, { totalSeconds: 0, streakCurrent: 0, streakLongest: 0, streakLastDay: '' });
+    var t = dayStr(), before = lg[t] || 0;
+    lg[t] = before + n;
+    meta.totalSeconds = (meta.totalSeconds || 0) + n;
+    if (before < GOAL && lg[t] >= GOAL) {
+      var y = new Date(); y.setDate(y.getDate() - 1);
+      if (meta.streakLastDay === dayStr(y)) meta.streakCurrent = (meta.streakCurrent || 0) + 1;
+      else if (meta.streakLastDay !== t) meta.streakCurrent = 1;
+      meta.streakLastDay = t;
+      meta.streakLongest = Math.max(meta.streakLongest || 0, meta.streakCurrent);
+    }
+    localStorage.setItem(K.log, JSON.stringify(lg));
+    localStorage.setItem(K.meta, JSON.stringify(meta));
+    renderStats();
+  }
+  function flush() { if (pending > 0) { var n = pending; pending = 0; addSeconds(n); } }
+  function renderStats() {
+    var lg = jget(K.log, {});
+    var meta = jget(K.meta, { streakCurrent: 0, streakLastDay: '' });
+    var t = dayStr(), y = new Date(); y.setDate(y.getDate() - 1);
+    var mins = Math.floor(((lg[t] || 0) + pending) / 60);
+    var cur = (meta.streakLastDay === t || meta.streakLastDay === dayStr(y)) ? (meta.streakCurrent || 0) : 0;
+    var today = $('tv-today'), st = $('tv-streak');
+    if (today) today.innerHTML = T('Today: ' + mins + ' min', 'আজ: ' + mins + ' মিনিট');
+    if (st) st.innerHTML = T('Streak: ' + cur + ' day' + (cur === 1 ? '' : 's'), 'ধারা: ' + cur + ' দিন');
+  }
+  setInterval(function () { if (active && !document.hidden) { pending++; if (pending >= 10) flush(); } }, 1000);
+  window.addEventListener('pagehide', flush);
+  document.addEventListener('visibilitychange', function () { if (document.hidden) flush(); });
+
+  async function keepAwake(on) {
+    try {
+      if (on && navigator.wakeLock && !wake) {
+        wake = await navigator.wakeLock.request('screen');
+        wake.addEventListener('release', function () { wake = null; });
+      } else if (!on && wake) { await wake.release(); wake = null; }
+    } catch (e) {}
+  }
+
+  /* ===== 10. Practice history (separate container, Clear button follows its state) ===== */
+  function loadSessions() { var a = jget(K.sessions, []); return Array.isArray(a) ? a : []; }
+  function saveSessions(a) { try { localStorage.setItem(K.sessions, JSON.stringify(a.slice(0, 40))); } catch (e) {} syncHistoryChrome(); }
+  function syncHistoryChrome() {
+    var n = loadSessions().length, clr = $('tv-hist-clear'), cnt = $('tv-hist-count');
+    if (cnt) cnt.textContent = n ? '(' + n + ')' : '';
+    if (clr) { clr.hidden = n === 0; clr.disabled = n === 0; }
+  }
+  function persistSession() {
+    var all = loadSessions(), i;
+    for (i = 0; i < all.length; i++) { if (all[i].id === session.id) break; }
+    if (i === all.length) all.unshift(session); else all[i] = session;
+    saveSessions(all);
+  }
+  function addTurn(t) {
+    if (!session) session = { id: Date.now(), at: Date.now(), topic: topic, level: levelEl.value, turns: [] };
+    session.turns.push(t);
+    if (session.turns.length > 80) session.turns.shift();
+    persistSession();
+  }
   function fillBody(body, s) {
     s.turns.forEach(function (t) {
       var d = document.createElement('div'); d.className = 'tv-line ' + (t.r === 'me' ? 'me' : 'bot');
@@ -338,24 +438,26 @@
     });
   }
   function renderHistory() {
-    var box = $('tv-hist'); box.innerHTML = '';
+    var box = $('tv-hist'); if (!box) return;
+    box.innerHTML = '';
     var all = loadSessions();
+    syncHistoryChrome();
     if (!all.length) {
-      box.innerHTML = '<p class="tv-empty">' + T('No conversations yet. Start talking in Practice.', 'এখনও কোনো কথোপকথন নেই। অনুশীলন ট্যাবে কথা বলা শুরু করুন।') + '</p>';
+      box.innerHTML = '<p class="tv-empty">' + T('No practice yet. Start talking in the Practice tab.', 'এখনও কোনো অনুশীলন নেই। অনুশীলন ট্যাবে কথা বলা শুরু করুন।') + '</p>';
       return;
     }
     all.forEach(function (s) {
       var item = document.createElement('div'); item.className = 'tv-hist-item';
       var top = document.createElement('div'); top.className = 'tv-hist-top';
       var open = document.createElement('button'); open.type = 'button'; open.className = 'tv-hist-open'; open.setAttribute('aria-expanded', 'false');
-      var l = TOPIC_LABEL[s.topic] || TOPIC_LABEL.free;
+      var tp = DATA.topics[s.topic] || DATA.topics.free;
       var when = new Date(s.at).toLocaleString(lang() === 'bn' ? 'bn-BD' : 'en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
-      open.innerHTML = '<strong>' + T(l[0], l[1]) + ' \u00b7 ' + String(s.level).replace(/[^N0-9]/g, '') + '</strong><span class="tv-hist-meta">' + when + ' \u00b7 ' + s.turns.length + ' ' + T('messages', 'বার্তা') + '</span>';
+      open.innerHTML = '<strong>' + T(tp.en, tp.bn || tp.en) + ' \u00b7 ' + String(s.level).replace(/[^N0-9]/g, '') + '</strong><span class="tv-hist-meta">' + when + ' \u00b7 ' + s.turns.length + ' ' + T('messages', 'বার্তা') + '</span>';
       var prev = '';
       for (var i = 0; i < s.turns.length; i++) { if (s.turns[i].r === 'me') { prev = s.turns[i].jp; break; } }
       if (prev) { var p = document.createElement('span'); p.className = 'tv-hist-prev'; p.lang = 'ja'; p.textContent = prev; open.appendChild(p); }
       var del = document.createElement('button'); del.type = 'button'; del.className = 'tv-hist-del'; del.textContent = '\u00d7';
-      del.setAttribute('aria-label', 'Delete conversation'); del.setAttribute('data-aria-label-en', 'Delete conversation'); del.setAttribute('data-aria-label-bn', 'কথোপকথন মুছুন');
+      del.setAttribute('aria-label', 'Delete this conversation'); del.setAttribute('data-aria-label-en', 'Delete this conversation'); del.setAttribute('data-aria-label-bn', 'এই কথোপকথন মুছুন');
       var body = document.createElement('div'); body.className = 'tv-hist-body'; body.hidden = true;
       open.addEventListener('click', function () {
         var show = body.hidden;
@@ -383,7 +485,7 @@
     if (name === 'history') renderHistory();
   }
 
-  /* ---------- backend ---------- */
+  /* ===== 11. Backend ===== */
   async function token() {
     var c = window.__sb, n = 0;
     while (!(c && c.auth) && n++ < 30) { await new Promise(function (r) { setTimeout(r, 150); }); c = window.__sb; }
@@ -415,7 +517,14 @@
     else tr.textContent = e.message;
   }
 
-  /* ---------- recognition ---------- */
+  /* ===== 12. Speech recognition (robust) ===== */
+  var SR_ERR = {
+    'not-allowed': ['Microphone is blocked. Allow it in your browser settings.', 'মাইক ব্লক করা আছে। ব্রাউজার সেটিংসে অনুমতি দিন।'],
+    'service-not-allowed': ['Microphone is blocked. Allow it in your browser settings.', 'মাইক ব্লক করা আছে। ব্রাউজার সেটিংসে অনুমতি দিন।'],
+    'audio-capture': ['No microphone was found.', 'কোনো মাইক্রোফোন পাওয়া যায়নি।'],
+    'network': ['Speech recognition needs an internet connection.', 'স্পিচ রিকগনিশনের জন্য ইন্টারনেট দরকার।'],
+    'language-not-supported': ['Japanese speech recognition is not available on this device.', 'এই ডিভাইসে জাপানি স্পিচ রিকগনিশন নেই।']
+  };
   function norm(s) { return String(s).replace(/[\s\u3000\u3001\u3002\uff1f\uff01?!,.]/g, ''); }
   function isEcho(heard) {
     var h = norm(heard), r = norm(lastReply);
@@ -428,7 +537,11 @@
   function echoWindow() { return stateOf() === 'speaking' || (Date.now() - speechEndedAt) < 2500; }
   function stopRec() {
     barging = false;
-    if (rec) { rec.onresult = rec.onerror = rec.onend = null; try { rec.abort(); } catch (e) {} rec = null; }
+    if (rec) {
+      rec.onresult = rec.onerror = rec.onend = null;
+      try { rec.stop(); } catch (e) { try { rec.abort(); } catch (e2) {} }
+      rec = null;
+    }
   }
   function markInterrupted() {
     interrupted = true;
@@ -437,14 +550,16 @@
   }
   function cutSpeech() {
     speakId++; stopReveal(); barging = false;
-    cancelVoice();markInterrupted(); revealAll();
+    cancelVoice();
+    markInterrupted(); revealAll();
     if (navigator.vibrate) navigator.vibrate(20);
     setState('listening', 'Your turn \u2014 speak now', 'আপনার পালা \u2014 এখন বলুন');
   }
   function listen(barge) {
     if (!SR) {
       active = false; keepAwake(false);
-      setState('idle', 'Voice input is not supported in this browser. Tap the keyboard to type.', 'এই ব্রাউজারে ভয়েস ইনপুট নেই। টাইপ করতে কিবোর্ড চাপুন।');
+      setState('idle', 'Voice input is not supported in this browser. Use the keyboard button to type.', 'এই ব্রাউজারে ভয়েস ইনপুট নেই। টাইপ করতে কিবোর্ড বাটন চাপুন।');
+      $('tl-typebox').hidden = false;
       return;
     }
     stopRec();
@@ -470,13 +585,14 @@
     };
     rec.onerror = function (e) {
       if (my !== epoch) return;
-      if (e.error === 'not-allowed' || e.error === 'service-not-allowed') {
+      var known = SR_ERR[e.error];
+      if (known) {
         active = false; keepAwake(false); flush();
-        setState('idle', 'Microphone is blocked. Allow it in your browser settings.', 'মাইক ব্লক করা আছে। ব্রাউজার সেটিংসে অনুমতি দিন।');
+        setState('idle', known[0], known[1]);
         return;
       }
       barging = false;
-      if (stateOf() === 'speaking') return;
+      if (e.error === 'aborted' || stateOf() === 'speaking') return;
       if (e.error === 'no-speech' && active && retries < 2) {
         retries++; got = true;
         setTimeout(function () { if (my === epoch && active) listen(false); }, 300);
@@ -511,15 +627,19 @@
       if (navigator.vibrate) navigator.vibrate(40);
       setState('listening', 'Your turn \u2014 speak now', 'আপনার পালা \u2014 এখন বলুন');
     }
-    try { rec.start(); } catch (e) { active = false; }
+    try { rec.start(); } catch (e) {
+      active = false; keepAwake(false);
+      setState('idle', 'Could not start the microphone. Tap the mic to try again.', 'মাইক চালু করা যায়নি। আবার মাইক চাপুন।');
+    }
   }
 
-  /* ---------- conversation loop ---------- */
+  /* ===== 13. Conversation loop ===== */
   function afterSpeech() {
     speechEndedAt = Date.now();
     if (!active) { setState('idle', 'Tap the mic to talk', 'কথা বলতে মাইক চাপুন'); return; }
     stopRec();
     var my = epoch, sid = speakId;
+    /* restart the microphone only after the tutor audio has fully ended */
     setTimeout(function () {
       if (my === epoch && sid === speakId && active && !busy) listen(false);
     }, 600);
@@ -527,7 +647,7 @@
   async function turn(text, start) {
     var my = epoch;
     busy = true;
-    setState('thinking', 'Thinking\u2026', 'ভাবছি\u2026');
+    setState('thinking');
     try {
       var r = await ask(text, start);
       if (my !== epoch) return;
@@ -540,9 +660,9 @@
       addTurn({ r: 'bot', jp: plain, m: r.markup || '', tr: r.translation || '', fix: r.correction || null });
       setBot(segs, r.translation, r.correction);
       busy = false;
-      setState('speaking', 'Speaking\u2026', 'বলছি\u2026');
+      setState('speaking');
       var sid = ++speakId;
-      if (active && bargeEl.checked) listen(true);
+      if (bargeEl.checked) { if (active) listen(true); } else { stopRec(); }
       speakBot(plain, function () {
         if (my !== epoch || sid !== speakId) return;
         afterSpeech();
@@ -558,21 +678,24 @@
 
   function stopAll() {
     epoch++; speakId++; active = false; busy = false; retries = 0;
-    stopRec();
-    cancelVoice();
+    stopRec(); cancelVoice();
     stopReveal(); revealAll();
     flush(); keepAwake(false);
     setState('idle', 'Tap the mic to talk', 'কথা বলতে মাইক চাপুন');
   }
+  function resetConversation() {
+    stopAll(); history = []; lastReply = ''; session = null; interrupted = false; clearOverlay();
+  }
   function startSession() {
+    var fresh = live.hidden;
     openLive();
+    if (fresh) startTimer();
     active = true; retries = 0; keepAwake(true);
     if (history.length === 0) turn('', true); else listen(false);
   }
-  function endSession() { stopAll(); closeLive(); }
+  function endSession() { stopAll(); stopTimer(); closeLive(); }
   function interrupt() {
-    speakId++; stopReveal();
-    cancelVoice();
+    speakId++; stopReveal(); cancelVoice();
     markInterrupted(); revealAll();
     active = true; keepAwake(true); retries = 0;
     listen(false);
@@ -592,27 +715,23 @@
     if (!lastReply) return;
     stopAll();
     botSpans.forEach(function (s) { s.classList.remove('on'); });
-    setState('speaking', 'Speaking\u2026', 'বলছি\u2026');
+    setState('speaking');
     var sid = ++speakId;
     speakBot(lastReply, function () {
       if (sid === speakId) setState('idle', 'Tap the mic to talk', 'কথা বলতে মাইক চাপুন');
     });
   }
-  function sendFrom(el) {
+  function sendTyped() {
+    var el = $('tl-input');
     if (busy) return;
     var t = el.value;
     if (!t.trim()) return;
     el.value = '';
-    speakId++; stopReveal(); stopRec();
-    cancelVoice();
-    revealAll();
+    speakId++; stopReveal(); stopRec(); cancelVoice(); revealAll();
     send(t);
   }
-  function resetConversation() {
-    stopAll(); history = []; lastReply = ''; session = null; interrupted = false; clearOverlay();
-  }
 
-  /* ---------- controls ---------- */
+  /* ===== 14. Wiring ===== */
   orb.addEventListener('click', function () {
     if (active) { stopAll(); return; }
     if (busy) return;
@@ -626,34 +745,25 @@
     var tb = $('tl-typebox'); tb.hidden = !tb.hidden;
     if (!tb.hidden) $('tl-input').focus();
   });
-  $('tl-send').addEventListener('click', function () { sendFrom($('tl-input')); });
-  $('tl-input').addEventListener('keydown', function (e) { if (e.key === 'Enter') sendFrom($('tl-input')); });
+  $('tl-send').addEventListener('click', sendTyped);
+  $('tl-input').addEventListener('keydown', function (e) { if (e.key === 'Enter') sendTyped(); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !live.hidden) endSession(); });
 
   $('tv-tab-practice').addEventListener('click', function () { showTab('practice'); });
   $('tv-tab-history').addEventListener('click', function () { showTab('history'); });
   $('tv-hist-clear').addEventListener('click', function () {
-    if (!window.confirm(lang() === 'bn' ? 'সব কথোপকথন মুছবেন?' : 'Delete all conversations?')) return;
+    if (loadSessions().length === 0) return;
+    if (!window.confirm(lang() === 'bn' ? 'সব অনুশীলনের ইতিহাস মুছবেন?' : 'Delete all practice history?')) return;
     saveSessions([]); session = null; renderHistory();
   });
 
-  var topicBtns = document.querySelectorAll('.tv-topic');
-  function markTopic() {
-    for (var i = 0; i < topicBtns.length; i++) {
-      topicBtns[i].setAttribute('aria-pressed', topicBtns[i].getAttribute('data-topic') === topic ? 'true' : 'false');
-    }
-  }
-  for (var i = 0; i < topicBtns.length; i++) {
-    topicBtns[i].addEventListener('click', function () {
-      topic = this.getAttribute('data-topic');
-      localStorage.setItem('nihongo_tutor_topic', topic);
-      markTopic();
-      resetConversation();
-      startSession();
-    });
-  }
-  markTopic();
+  /* ===== 15. Init ===== */
+  renderTopics();
+  renderPhrases();
+  renderTips();
+  initVoices();
   renderStats();
+  syncHistoryChrome();
   showTab('practice');
   setState('idle', 'Tap the mic to talk', 'কথা বলতে মাইক চাপুন');
 })();
