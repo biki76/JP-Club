@@ -9,6 +9,220 @@
 (function () {
   'use strict';
 
+  /* ---- CSS is embedded so a single file is enough (no separate slimo.css needed) ---- */
+  if (!document.getElementById('slimo-style')) {
+    var st = document.createElement('style');
+    st.id = 'slimo-style';
+    st.textContent = `/* ==========================================================
+   Moon Moon (Slimo) mascot + CTA shimmer — additive, home.html
+   ========================================================== */
+
+.slimo-wrap {
+  --slimo-body: #a96cf5;
+  --slimo-dark: #8a55c9;
+  --slimo-ink: #351a6b;
+  --slimo-blush: #ffa8dd;
+  --slimo-tongue: #6b3fb0;
+  --slimo-shadow: rgba(53, 26, 107, 0.18);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  flex: 0 0 auto;
+  width: 170px;
+}
+
+/* ---------- layout row around "Today's phrase" ---------- */
+.slimo-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.5rem;
+}
+.slimo-row > :first-child { flex: 1 1 300px; min-width: 0; }
+
+.slimo-wrap--float {
+  position: fixed;
+  right: 1rem;
+  bottom: 5rem;
+  width: 120px;
+  z-index: 40;
+}
+
+@media (max-width: 640px) {
+  .slimo-wrap { width: 130px; margin-inline: auto; }
+}
+
+/* ---------- speech bubble ---------- */
+.slimo-bubble {
+  position: relative;
+  max-width: 100%;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.9rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  text-align: center;
+  background: var(--surface, Canvas);
+  color: var(--text, CanvasText);
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+}
+.slimo-bubble::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 10px;
+  height: 10px;
+  background: inherit;
+  border-right: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+/* ---------- character button ---------- */
+.slimo {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 1rem;
+}
+.slimo:focus-visible { outline: 2px solid var(--focus, currentColor); outline-offset: 2px; }
+.slimo__svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+/* ---------- SVG paint classes ---------- */
+.s-shadow { fill: var(--slimo-shadow); }
+.s-body   { fill: var(--slimo-body); }
+.s-dark   { fill: var(--slimo-dark); }
+.s-stem   { stroke: var(--slimo-body); stroke-width: 6; stroke-linecap: round; fill: none; }
+.s-hi     { fill: #fff; opacity: 0.5; }
+.s-white  { fill: #fff; }
+.s-blush  { fill: var(--slimo-blush); }
+.s-ink    { fill: var(--slimo-ink); }
+.s-tongue { fill: var(--slimo-tongue); }
+.s-heart  { fill: #ff5fa2; }
+.s-tear   { fill: #8fd3ff; }
+.s-line   { fill: none; stroke: var(--slimo-ink); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.s-text   { fill: var(--slimo-body); font: 800 20px "Inter", system-ui, sans-serif; }
+
+/* ---------- state visibility ---------- */
+.slimo .f { display: none; }
+.slimo[data-state="idle"]      .f--idle,
+.slimo[data-state="confused"]  .f--confused,
+.slimo[data-state="happy"]     .f--happy,
+.slimo[data-state="sad"]       .f--sad,
+.slimo[data-state="sleepy"]    .f--sleepy,
+.slimo[data-state="love"]      .f--love,
+.slimo[data-state="surprised"] .f--surprised,
+.slimo[data-state="wink"]      .f--wink { display: inline; }
+
+/* ---------- animations ---------- */
+.slimo__body,
+.slimo__svg .s-shadow { transform-box: fill-box; transform-origin: 50% 100%; }
+
+.slimo__body { animation: slimo-breathe 3.2s ease-in-out infinite; }
+.slimo[data-state="sleepy"] .slimo__body { animation-duration: 6.5s; }
+.slimo[data-state="happy"]  .slimo__body { animation: slimo-wiggle 0.55s ease-in-out infinite; }
+.slimo[data-state="love"]   .slimo__body { animation-duration: 1.6s; }
+.slimo[data-state="surprised"] .slimo__body { animation: slimo-jump 0.5s ease-out 1; }
+.slimo[data-state="sad"]    .slimo__body { animation-duration: 5s; }
+.slimo.is-squish .slimo__body { animation: slimo-squish 0.55s ease-out 1; }
+
+.slimo__svg .s-shadow { animation: slimo-shadow 3.2s ease-in-out infinite; }
+
+.f--idle .eyes { transform-box: fill-box; transform-origin: 50% 50%; animation: slimo-blink 4.6s infinite; }
+.f--love .heart { transform-box: fill-box; transform-origin: 50% 50%; animation: slimo-pulse 0.8s ease-in-out infinite; }
+.f--confused .q { transform-box: fill-box; transform-origin: 50% 100%; animation: slimo-pop 0.5s cubic-bezier(0.3, 1.6, 0.5, 1) both, slimo-bob 2s ease-in-out 0.5s infinite; }
+.f--sad .tear { animation: slimo-tear 2.2s ease-in infinite; }
+.f--sleepy .z { animation: slimo-zzz 2.6s ease-in-out infinite; opacity: 0; }
+.f--sleepy .z2 { animation-delay: 0.8s; }
+.f--sleepy .z3 { animation-delay: 1.6s; }
+
+@keyframes slimo-breathe {
+  0%, 100% { transform: scale(1, 1); }
+  50%      { transform: scale(1.03, 0.955); }
+}
+@keyframes slimo-shadow {
+  0%, 100% { transform: scaleX(1); }
+  50%      { transform: scaleX(1.05); }
+}
+@keyframes slimo-wiggle {
+  0%, 100% { transform: rotate(-3deg) scale(1.02, 0.98); }
+  50%      { transform: rotate(3deg) scale(0.98, 1.03); }
+}
+@keyframes slimo-squish {
+  0%   { transform: scale(1, 1); }
+  25%  { transform: scale(1.14, 0.78); }
+  55%  { transform: scale(0.92, 1.12); }
+  80%  { transform: scale(1.03, 0.97); }
+  100% { transform: scale(1, 1); }
+}
+@keyframes slimo-jump {
+  0%   { transform: scale(1, 1); }
+  35%  { transform: translateY(-10px) scale(0.94, 1.1); }
+  100% { transform: translateY(0) scale(1, 1); }
+}
+@keyframes slimo-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95%           { transform: scaleY(0.1); }
+}
+@keyframes slimo-pulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.2); }
+}
+@keyframes slimo-pop {
+  from { transform: scale(0) rotate(-20deg); opacity: 0; }
+  to   { transform: scale(1) rotate(0); opacity: 1; }
+}
+@keyframes slimo-bob {
+  0%, 100% { transform: translateY(0) rotate(-4deg); }
+  50%      { transform: translateY(-4px) rotate(4deg); }
+}
+@keyframes slimo-tear {
+  0%   { transform: translateY(0); opacity: 0; }
+  20%  { opacity: 1; }
+  100% { transform: translateY(14px); opacity: 0; }
+}
+@keyframes slimo-zzz {
+  0%   { transform: translate(0, 8px); opacity: 0; }
+  30%  { opacity: 1; }
+  100% { transform: translate(8px, -14px); opacity: 0; }
+}
+
+/* ---------- CTA shimmer ---------- */
+.slimo-shimmer { position: relative; overflow: hidden; isolation: isolate; }
+.slimo-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.5) 50%, transparent 70%);
+  transform: translateX(-120%);
+  animation: slimo-shine 3.2s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+@keyframes slimo-shine {
+  0%        { transform: translateX(-120%); }
+  55%, 100% { transform: translateX(120%); }
+}
+
+/* ---------- reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .slimo__body, .slimo__svg .s-shadow, .slimo *, .slimo-shimmer::after {
+    animation: none !important;
+  }
+  .f--sleepy .z { opacity: 1; }
+}
+`;
+    document.head.appendChild(st);
+  }
+
+
   var IDLE_MS = 30000;
   var CYCLE = ['idle', 'confused', 'happy', 'sad', 'sleepy', 'love', 'surprised', 'wink'];
 
