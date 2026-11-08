@@ -1,30 +1,50 @@
 {
   "lessonSlug": "minna-022",
+  "lesson": {
+    "no": 22,
+    "jp": "どんな部屋をお探しですか",
+    "en": "What kind of room are you looking for?"
+  },
   "tracks": [
     {
       "id": "honsatsu-74",
+      "trackNo": 74,
       "type": "sentence-patterns",
       "title": {
-        "en": "Lesson 22: Sentence Patterns & Examples",
-        "bn": "Lesson 22: Sentence Patterns & Examples"
+        "en": "Sentence Patterns & Examples",
+        "bn": "Sentence Patterns & Examples"
+      },
+      "jp": "第22課 — 文型・例文",
+      "desc": {
+        "en": "Constructing complex relative clauses (using full sentences to modify a noun)."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-022/track-74.mp3"
     },
     {
       "id": "honsatsu-75",
+      "trackNo": 75,
       "type": "exercise-c",
       "title": {
-        "en": "Lesson 22: Exercise C",
-        "bn": "Lesson 22: Exercise C"
+        "en": "Practice C",
+        "bn": "Practice C"
+      },
+      "jp": "第22課 — 練習C",
+      "desc": {
+        "en": "Describing specific types of items owned or people met using detailed descriptions."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-022/track-75.mp3"
     },
     {
       "id": "honsatsu-76",
+      "trackNo": 76,
       "type": "conversation",
       "title": {
-        "en": "Lesson 22: Conversation (Kaiwa)",
-        "bn": "Lesson 22: Conversation (Kaiwa)"
+        "en": "Conversation: What kind of room are you looking for?",
+        "bn": "Conversation: What kind of room are you looking for?"
+      },
+      "jp": "第22課 — 会話：どんな部屋をお探しですか",
+      "desc": {
+        "en": "Visiting a housing real estate office to find a specific apartment layout."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-022/track-76.mp3"
     }

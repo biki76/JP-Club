@@ -1,30 +1,50 @@
 {
   "lessonSlug": "minna-008",
+  "lesson": {
+    "no": 8,
+    "jp": "そろそろ失礼します",
+    "en": "It's time I should be leaving"
+  },
   "tracks": [
     {
       "id": "honsatsu-32",
+      "trackNo": 32,
       "type": "sentence-patterns",
       "title": {
-        "en": "Lesson 8: Sentence Patterns & Examples",
-        "bn": "Lesson 8: Sentence Patterns & Examples"
+        "en": "Sentence Patterns & Examples",
+        "bn": "Sentence Patterns & Examples"
+      },
+      "jp": "第8課 — 文型・例文",
+      "desc": {
+        "en": "Introduction to い-adjectives and な-adjectives modifying nouns."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-008/track-32.mp3"
     },
     {
       "id": "honsatsu-33",
+      "trackNo": 33,
       "type": "exercise-c",
       "title": {
-        "en": "Lesson 8: Exercise C",
-        "bn": "Lesson 8: Exercise C"
+        "en": "Practice C",
+        "bn": "Practice C"
+      },
+      "jp": "第8課 — 練習C",
+      "desc": {
+        "en": "Describing everyday items, local weather, and general impressions."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-008/track-33.mp3"
     },
     {
       "id": "honsatsu-34",
+      "trackNo": 34,
       "type": "conversation",
       "title": {
-        "en": "Lesson 8: Conversation (Kaiwa)",
-        "bn": "Lesson 8: Conversation (Kaiwa)"
+        "en": "Conversation: It's time I should be leaving",
+        "bn": "Conversation: It's time I should be leaving"
+      },
+      "jp": "第8課 — 会話：そろそろ失礼します",
+      "desc": {
+        "en": "Politely wrapping up a social visit and thanking the host."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-008/track-34.mp3"
     }

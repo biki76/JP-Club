@@ -1,30 +1,50 @@
 {
   "lessonSlug": "minna-023",
+  "lesson": {
+    "no": 23,
+    "jp": "どうやって行きますか",
+    "en": "How do I get there?"
+  },
   "tracks": [
     {
       "id": "honsatsu-77",
+      "trackNo": 77,
       "type": "sentence-patterns",
       "title": {
-        "en": "Lesson 23: Sentence Patterns & Examples",
-        "bn": "Lesson 23: Sentence Patterns & Examples"
+        "en": "Sentence Patterns & Examples",
+        "bn": "Sentence Patterns & Examples"
+      },
+      "jp": "第23課 — 文型・例文",
+      "desc": {
+        "en": "Expressing timing factors using 〜とき and conditional cause-and-effect natural laws using 〜と."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-023/track-77.mp3"
     },
     {
       "id": "honsatsu-78",
+      "trackNo": 78,
       "type": "exercise-c",
       "title": {
-        "en": "Lesson 23: Exercise C",
-        "bn": "Lesson 23: Exercise C"
+        "en": "Practice C",
+        "bn": "Practice C"
+      },
+      "jp": "第23課 — 練習C",
+      "desc": {
+        "en": "Giving road directions or advising on how to run devices."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-023/track-78.mp3"
     },
     {
       "id": "honsatsu-79",
+      "trackNo": 79,
       "type": "conversation",
       "title": {
-        "en": "Lesson 23: Conversation (Kaiwa)",
-        "bn": "Lesson 23: Conversation (Kaiwa)"
+        "en": "Conversation: How do I get there?",
+        "bn": "Conversation: How do I get there?"
+      },
+      "jp": "第23課 — 会話：どうやって行きますか",
+      "desc": {
+        "en": "Asking a resident for step-by-step navigation instructions to a nearby landmark."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-023/track-79.mp3"
     }

@@ -1,30 +1,50 @@
 {
   "lessonSlug": "minna-021",
+  "lesson": {
+    "no": 21,
+    "jp": "私もそう思います",
+    "en": "I think so, too"
+  },
   "tracks": [
     {
       "id": "honsatsu-71",
+      "trackNo": 71,
       "type": "sentence-patterns",
       "title": {
-        "en": "Lesson 21: Sentence Patterns & Examples",
-        "bn": "Lesson 21: Sentence Patterns & Examples"
+        "en": "Sentence Patterns & Examples",
+        "bn": "Sentence Patterns & Examples"
+      },
+      "jp": "第21課 — 文型・例文",
+      "desc": {
+        "en": "Expressing personal thoughts (〜と思います) and quoting spoken statements (〜と言いました)."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-021/track-71.mp3"
     },
     {
       "id": "honsatsu-72",
+      "trackNo": 72,
       "type": "exercise-c",
       "title": {
-        "en": "Lesson 21: Exercise C",
-        "bn": "Lesson 21: Exercise C"
+        "en": "Practice C",
+        "bn": "Practice C"
+      },
+      "jp": "第21課 — 練習C",
+      "desc": {
+        "en": "Exchanging viewpoints on social topics or current events."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-021/track-72.mp3"
     },
     {
       "id": "honsatsu-73",
+      "trackNo": 73,
       "type": "conversation",
       "title": {
-        "en": "Lesson 21: Conversation (Kaiwa)",
-        "bn": "Lesson 21: Conversation (Kaiwa)"
+        "en": "Conversation: I think so, too",
+        "bn": "Conversation: I think so, too"
+      },
+      "jp": "第21課 — 会話：私もそう思います",
+      "desc": {
+        "en": "Coworkers discussing meeting outcomes and verifying agreements."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-021/track-73.mp3"
     }

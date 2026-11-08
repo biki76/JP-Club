@@ -1,30 +1,50 @@
 {
   "lessonSlug": "minna-024",
+  "lesson": {
+    "no": 24,
+    "jp": "手伝ってくれますか",
+    "en": "Could you help me out?"
+  },
   "tracks": [
     {
       "id": "honsatsu-80",
+      "trackNo": 80,
       "type": "sentence-patterns",
       "title": {
-        "en": "Lesson 24: Sentence Patterns & Examples",
-        "bn": "Lesson 24: Sentence Patterns & Examples"
+        "en": "Sentence Patterns & Examples",
+        "bn": "Sentence Patterns & Examples"
+      },
+      "jp": "第24課 — 文型・例文",
+      "desc": {
+        "en": "Mastering directional verbs of giving and receiving favors (〜てくれます / 〜てもらいます / 〜てあげます)."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-024/track-80.mp3"
     },
     {
       "id": "honsatsu-81",
+      "trackNo": 81,
       "type": "exercise-c",
       "title": {
-        "en": "Lesson 24: Exercise C",
-        "bn": "Lesson 24: Exercise C"
+        "en": "Practice C",
+        "bn": "Practice C"
+      },
+      "jp": "第24課 — 練習C",
+      "desc": {
+        "en": "Expressing gratitude for helpful actions performed by friends or peers."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-024/track-81.mp3"
     },
     {
       "id": "honsatsu-82",
+      "trackNo": 82,
       "type": "conversation",
       "title": {
-        "en": "Lesson 24: Conversation (Kaiwa)",
-        "bn": "Lesson 24: Conversation (Kaiwa)"
+        "en": "Conversation: Could you help me out?",
+        "bn": "Conversation: Could you help me out?"
+      },
+      "jp": "第24課 — 会話：手伝ってくれますか",
+      "desc": {
+        "en": "Asking a friend to assist with home tasks or moving logistics."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-024/track-82.mp3"
     }

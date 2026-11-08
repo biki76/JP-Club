@@ -95,6 +95,21 @@
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
   <script src="js/ui-lang-init.js"></script>
   <link rel="stylesheet" href="css/ui-lang.css">
+<style id="honsatsu-ui-css">
+    .hs-title { margin-bottom: var(--s-3); font-size: var(--fs-lg); }
+    .hs-section { margin-bottom: var(--s-5); }
+    .hs-head-jp { font-family: var(--font-jp); font-size: var(--fs-sm); color: var(--ink-muted); margin: 0; }
+    .hs-head { font-size: var(--fs-md); font-weight: 700; color: var(--ink); margin: 0 0 var(--s-3); }
+    .hs-track { display: flex; align-items: center; gap: var(--s-3); padding: var(--s-3); background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); }
+    .hs-thumb { width: 72px; height: 72px; object-fit: cover; border-radius: var(--r-sm); flex-shrink: 0; background: var(--bg); }
+    .hs-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: var(--s-1); }
+    .hs-top { display: flex; align-items: center; gap: var(--s-2); }
+    .hs-no { font-size: var(--fs-xs); font-weight: 700; color: var(--primary); font-variant-numeric: tabular-nums; }
+    .hs-jp { font-family: var(--font-jp); font-size: var(--fs-md); font-weight: 600; color: var(--ink); margin: 0; }
+    .hs-en { font-size: var(--fs-sm); font-weight: 600; color: var(--ink); margin: 0; }
+    .hs-desc { font-size: var(--fs-sm); color: var(--ink-muted); margin: 0; }
+    .hs-play { align-self: center; }
+  </style>
 </head>
 <body class="shell-body">
   <header data-shell-header></header>
@@ -181,7 +196,9 @@
       const map = {
         'sentence-patterns': { en: 'Sentence Patterns', bn: 'বাক্য গঠন' },
         'exercise-c': { en: 'Exercise C', bn: 'অনুশীলনী C' },
-        'conversation': { en: 'Conversation', bn: 'কথোপকথন' }
+        'conversation': { en: 'Conversation', bn: 'কথোপকথন' },
+        'intro': { en: 'Introduction', bn: 'ভূমিকা' },
+        'review': { en: 'Review', bn: 'পুনরালোচনা' }
       };
       const t = map[type] || { en: type, bn: type };
       return bilingual(t.en, t.bn);
@@ -290,38 +307,41 @@
       }).join('') + '</div>';
     }
 
-    function renderListening(list) {
-      const honsatsu = state.data.honsatsuAudio;
-      let honsatsuHtml = '';
-      
-      if (honsatsu && honsatsu.tracks && honsatsu.tracks.length > 0) {
-        honsatsuHtml = `
-          <div class="textbook-audio-section">
-            <h2 class="lv-grammar-pattern" style="margin-bottom: var(--s-3); font-size: var(--fs-lg);">
-              ${bilingual('Textbook Audio', 'পাঠ্যপুস্তক অডিও')}
-            </h2>
-            <div class="lv-list">
-              ${honsatsu.tracks.map(track => `
-                <article class="lv-item textbook-audio-item">
-                  <button class="btn btn--primary textbook-audio-play-btn" 
-                          onclick="window.playLessonAudio('${esc(track.audioUrl)}')" 
-                          aria-label="Play ${esc(track.title.en)}">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="textbook-audio-info">
-                    <p class="lv-meaning textbook-audio-title">
-                      ${bilingual(track.title.en, track.title.bn || track.title.en)}
-                    </p>
-                    <p class="lv-romaji textbook-audio-type">
-                      ${formatTrackType(track.type)}
-                    </p>
-                  </div>
-                </article>
-              `).join('')}
-            </div>
+        function renderHonsatsu(h) {
+      if (!h || !Array.isArray(h.tracks) || !h.tracks.length) return '';
+      const groups = { intro: [], lesson: [], review: [] };
+      h.tracks.slice().sort((a, b) => (a.trackNo || 0) - (b.trackNo || 0)).forEach(t => {
+        (groups[t.type === 'intro' ? 'intro' : t.type === 'review' ? 'review' : 'lesson']).push(t);
+      });
+      const L = h.lesson;
+      const heads = {
+        intro: `<p class="hs-head-jp" lang="ja">はじめに</p><h3 class="hs-head">${bilingual('Introduction: Pronunciation & Basics', 'ভূমিকা: উচ্চারণ ও মৌলিক বিষয়')}</h3>`,
+        lesson: L ? `<p class="hs-head-jp" lang="ja">第${esc(L.no)}課　${esc(L.jp)}</p><h3 class="hs-head">${bilingual('Lesson ' + L.no + ': ' + L.en, 'পাঠ ' + L.no + ': ' + L.en)}</h3>` : `<h3 class="hs-head">${bilingual('Lesson Tracks', 'পাঠের ট্র্যাক')}</h3>`,
+        review: `<p class="hs-head-jp" lang="ja">総復習</p><h3 class="hs-head">${bilingual('General Review', 'সাধারণ পুনরালোচনা')}</h3>`
+      };
+      const card = t => {
+        const ti = t.title || {};
+        const no = t.trackNo ? String(t.trackNo).padStart(2, '0') : '';
+        return `<article class="hs-track">
+          ${t.image ? `<img class="hs-thumb" src="${esc(t.image)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
+          <div class="hs-body">
+            <div class="hs-top">${no ? `<span class="hs-no">${no}</span>` : ''}<span class="badge badge--outline">${formatTrackType(t.type)}</span></div>
+            ${t.jp ? `<p class="hs-jp" lang="ja">${esc(t.jp)}</p>` : ''}
+            <p class="hs-en">${bilingual(ti.en, ti.bn || ti.en)}</p>
+            ${t.desc && t.desc.en ? `<p class="hs-desc">${bilingual(t.desc.en, t.desc.bn || t.desc.en)}</p>` : ''}
           </div>
-        `;
-      }
+          <button type="button" class="btn btn--primary textbook-audio-play-btn hs-play" onclick="window.playLessonAudio('${esc(t.audioUrl)}')" aria-label="Play ${esc(ti.en)}">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </article>`;
+      };
+      const sec = key => groups[key].length
+        ? `<section class="hs-section">${heads[key]}<div class="lv-list">${groups[key].map(card).join('')}</div></section>` : '';
+      return `<div class="textbook-audio-section"><h2 class="lv-grammar-pattern hs-title">${bilingual('Textbook Audio', 'পাঠ্যপুস্তক অডিও')}</h2>${sec('intro')}${sec('lesson')}${sec('review')}</div>`;
+    }
+
+    function renderListening(list) {
+      const honsatsuHtml = renderHonsatsu(state.data.honsatsuAudio);
 
       const listHtml = '<div class="lv-list">' + list.map((l, i) => {
         const title = l.title || {};

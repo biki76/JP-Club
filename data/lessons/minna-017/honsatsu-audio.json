@@ -1,30 +1,50 @@
 {
   "lessonSlug": "minna-017",
+  "lesson": {
+    "no": 17,
+    "jp": "どうしましたか",
+    "en": "What's the matter? / What's wrong?"
+  },
   "tracks": [
     {
       "id": "honsatsu-59",
+      "trackNo": 59,
       "type": "sentence-patterns",
       "title": {
-        "en": "Lesson 17: Sentence Patterns & Examples",
-        "bn": "Lesson 17: Sentence Patterns & Examples"
+        "en": "Sentence Patterns & Examples",
+        "bn": "Sentence Patterns & Examples"
+      },
+      "jp": "第17課 — 文型・例文",
+      "desc": {
+        "en": "Introduction to Nai-form verbs, negative requests (〜ないでください), and obligations."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-017/track-59.mp3"
     },
     {
       "id": "honsatsu-60",
+      "trackNo": 60,
       "type": "exercise-c",
       "title": {
-        "en": "Lesson 17: Exercise C",
-        "bn": "Lesson 17: Exercise C"
+        "en": "Practice C",
+        "bn": "Practice C"
+      },
+      "jp": "第17課 — 練習C",
+      "desc": {
+        "en": "Discussing schedules, required document deadlines, and medical routines."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-017/track-60.mp3"
     },
     {
       "id": "honsatsu-61",
+      "trackNo": 61,
       "type": "conversation",
       "title": {
-        "en": "Lesson 17: Conversation (Kaiwa)",
-        "bn": "Lesson 17: Conversation (Kaiwa)"
+        "en": "Conversation: What's the matter? / What's wrong?",
+        "bn": "Conversation: What's the matter? / What's wrong?"
+      },
+      "jp": "第17課 — 会話：どうしましたか",
+      "desc": {
+        "en": "Visiting a medical practitioner to explain physical sickness symptoms."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-017/track-61.mp3"
     }

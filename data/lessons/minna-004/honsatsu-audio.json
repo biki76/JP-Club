@@ -1,30 +1,50 @@
 {
   "lessonSlug": "minna-004",
+  "lesson": {
+    "no": 4,
+    "jp": "そちらは何時から何時までですか",
+    "en": "What time are you open from and until?"
+  },
   "tracks": [
     {
       "id": "honsatsu-20",
+      "trackNo": 20,
       "type": "sentence-patterns",
       "title": {
-        "en": "Lesson 4: Sentence Patterns & Examples",
-        "bn": "Lesson 4: Sentence Patterns & Examples"
+        "en": "Sentence Patterns & Examples",
+        "bn": "Sentence Patterns & Examples"
+      },
+      "jp": "第4課 — 文型・例文",
+      "desc": {
+        "en": "Telling specific hours/minutes, days of the week, and past/present verb conjugations."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-004/track-20.mp3"
     },
     {
       "id": "honsatsu-21",
+      "trackNo": 21,
       "type": "exercise-c",
       "title": {
-        "en": "Lesson 4: Exercise C",
-        "bn": "Lesson 4: Exercise C"
+        "en": "Practice C",
+        "bn": "Practice C"
+      },
+      "jp": "第4課 — 練習C",
+      "desc": {
+        "en": "Drills setting appointments and verifying operational hours."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-004/track-21.mp3"
     },
     {
       "id": "honsatsu-22",
+      "trackNo": 22,
       "type": "conversation",
       "title": {
-        "en": "Lesson 4: Conversation (Kaiwa)",
-        "bn": "Lesson 4: Conversation (Kaiwa)"
+        "en": "Conversation: What time are you open from and until?",
+        "bn": "Conversation: What time are you open from and until?"
+      },
+      "jp": "第4課 — 会話：そちらは何時から何時までですか",
+      "desc": {
+        "en": "Calling an institution to check its business operating hours."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-004/track-22.mp3"
     }

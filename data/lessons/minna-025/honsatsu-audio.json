@@ -1,39 +1,64 @@
 {
   "lessonSlug": "minna-025",
+  "lesson": {
+    "no": 25,
+    "jp": "いろいろお世話になりました",
+    "en": "Thank you for everything you've done for me"
+  },
   "tracks": [
     {
       "id": "honsatsu-83",
+      "trackNo": 83,
       "type": "sentence-patterns",
       "title": {
-        "en": "Lesson 25: Sentence Patterns & Examples",
-        "bn": "Lesson 25: Sentence Patterns & Examples"
+        "en": "Sentence Patterns & Examples",
+        "bn": "Sentence Patterns & Examples"
+      },
+      "jp": "第25課 — 文型・例文",
+      "desc": {
+        "en": "Constructing past conditional clauses using 〜たら and concessive patterns using 〜ても."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-025/track-83.mp3"
     },
     {
       "id": "honsatsu-84",
+      "trackNo": 84,
       "type": "exercise-c",
       "title": {
-        "en": "Lesson 25: Exercise C",
-        "bn": "Lesson 25: Exercise C"
+        "en": "Practice C",
+        "bn": "Practice C"
+      },
+      "jp": "第25課 — 練習C",
+      "desc": {
+        "en": "Discussing future life options, career paths, and complex conditional events."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-025/track-84.mp3"
     },
     {
       "id": "honsatsu-85",
+      "trackNo": 85,
       "type": "conversation",
       "title": {
-        "en": "Lesson 25: Conversation (Kaiwa)",
-        "bn": "Lesson 25: Conversation (Kaiwa)"
+        "en": "Conversation: Thank you for everything you've done for me",
+        "bn": "Conversation: Thank you for everything you've done for me"
+      },
+      "jp": "第25課 — 会話：いろいろお世話になりました",
+      "desc": {
+        "en": "A heartfelt final farewell conversation as Mr. Miller prepares to leave his assignment."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-025/track-85.mp3"
     },
     {
       "id": "honsatsu-87",
+      "trackNo": 87,
       "type": "review",
       "title": {
-        "en": "General Review 2",
-        "bn": "General Review 2"
+        "en": "General Review / Comprehensive Drill 2",
+        "bn": "General Review / Comprehensive Drill 2"
+      },
+      "jp": "総復習 — 2",
+      "desc": {
+        "en": "Cumulative listening evaluation covering structural units from Lessons 13 through 25."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-025/track-87.mp3"
     }

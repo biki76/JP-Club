@@ -138,6 +138,7 @@
     required: ['lessonSlug', 'tracks'],
     properties: {
       lessonSlug: { type: 'string', pattern: '^minna-\\d{3}$' },
+      lesson: { type: 'object', required: ['no', 'jp', 'en'], properties: { no: { type: 'number', integer: true, min: 1 }, jp: nonEmptyString, en: nonEmptyString }, additionalProperties: false },
       tracks: {
         type: 'array',
         minItems: 1,
@@ -148,7 +149,11 @@
             id:       nonEmptyString,
             type:     { type: 'string', enum: ['sentence-patterns', 'exercise-c', 'conversation', 'intro', 'review'] },
             title:    trackTitle,
-            audioUrl: nonEmptyString
+            audioUrl: nonEmptyString,
+            trackNo:  { type: 'number', integer: true, min: 1, max: 87 },
+            jp:       nonEmptyString,
+            desc:     { type: 'object', required: ['en'], properties: { en: nonEmptyString, bn: { type: 'string' } }, additionalProperties: false },
+            image:    { type: 'string' }
           },
           additionalProperties: false
         }

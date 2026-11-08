@@ -1,30 +1,50 @@
 {
   "lessonSlug": "minna-011",
+  "lesson": {
+    "no": 11,
+    "jp": "これ、お願いします",
+    "en": "Please send this, please"
+  },
   "tracks": [
     {
       "id": "honsatsu-41",
+      "trackNo": 41,
       "type": "sentence-patterns",
       "title": {
-        "en": "Lesson 11: Sentence Patterns & Examples",
-        "bn": "Lesson 11: Sentence Patterns & Examples"
+        "en": "Sentence Patterns & Examples",
+        "bn": "Sentence Patterns & Examples"
+      },
+      "jp": "第11課 — 文型・例文",
+      "desc": {
+        "en": "Counting generic objects, people, durations, and computing operational frequencies."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-011/track-41.mp3"
     },
     {
       "id": "honsatsu-42",
+      "trackNo": 42,
       "type": "exercise-c",
       "title": {
-        "en": "Lesson 11: Exercise C",
-        "bn": "Lesson 11: Exercise C"
+        "en": "Practice C",
+        "bn": "Practice C"
+      },
+      "jp": "第11課 — 練習C",
+      "desc": {
+        "en": "Ordering food at an establishment or detailing time spent on tasks."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-011/track-42.mp3"
     },
     {
       "id": "honsatsu-43",
+      "trackNo": 43,
       "type": "conversation",
       "title": {
-        "en": "Lesson 11: Conversation (Kaiwa)",
-        "bn": "Lesson 11: Conversation (Kaiwa)"
+        "en": "Conversation: Please send this, please",
+        "bn": "Conversation: Please send this, please"
+      },
+      "jp": "第11課 — 会話：これ、お願いします",
+      "desc": {
+        "en": "Sending a package overseas via specific mail streams at a post office counter."
       },
       "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-011/track-43.mp3"
     }
