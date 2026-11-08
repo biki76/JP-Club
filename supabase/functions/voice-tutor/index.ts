@@ -1,6 +1,6 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const BUILD = "v5";
+const BUILD = "v6";
 const MODEL = "openai/gpt-oss-120b";
 const CORS = {
   "Access-Control-Allow-Origin": "*",
@@ -14,11 +14,15 @@ const LEVELS: Record<string, string> = {
   N1: "Advanced. Fully natural Japanese including nuance, keigo and idioms.",
 };
 const TOPICS: Record<string, string> = {
-  free: "Free conversation about everyday life.",
-  intro: "Self-introductions: name, where from, job or school, hobbies. Act like someone meeting them for the first time.",
-  food: "Food and restaurants: ordering, likes and dislikes. Role-play restaurant staff when natural.",
-  travel: "Travel: directions, trains, hotels, sightseeing. Role-play station staff or a hotel clerk when natural.",
-  shop: "Shopping: prices, sizes, colors, paying. Role-play a shop clerk when natural.",
+  free: "Free conversation about everyday life at the learner's level.",
+  intro: "Self-introduction practice: name, country (〜から来ました), whether they are a student, 〜です. Act like someone meeting them for the first time.",
+  hobby: "Hobbies and weekends: simple likes (〜が好きです) and weekend activities (〜をします).",
+  food: "Food: asking what something is (これ、何ですか), ordering, and simple opinions (おいしいです). Role-play restaurant staff when natural.",
+  daily: "Daily needs: asking prices (いくらですか), where things are (どこですか) and asking for help in shops (〜をお願いします). Role-play a shop clerk when natural.",
+  weather: "Weather small talk as a safe icebreaker (暑いですね、雨ですね、いい天気ですね).",
+  interview: "Part-time job interview. You are the friendly manager of a shop or restaurant interviewing the learner. Go step by step, one question at a time: greeting and entering the room (失礼します), their name (〜と申します), visa type and school hours (学生ビザです、〜から〜まで), days they can work (〜曜日に働けます) and commute time (電車で〜分), experience or willingness (経験があります、頑張ります). Stay polite and encouraging, and finish by thanking them.",
+  travel: "Travel: directions, trains, hotels and sightseeing. Role-play station staff or a hotel clerk when natural.",
+  shop: "Shopping: prices, sizes, colors and paying. Role-play a shop clerk when natural.",
 };
 
 function json(body: unknown, status = 200) {
@@ -75,6 +79,9 @@ Deno.serve(async (req) => {
       LEVELS[level] + "\n" +
       "Topic: " + TOPICS[topic] + " Gently steer toward it.\n" +
       "How to talk:\n" +
+      "- Use aizuchi like a real Japanese listener: begin most replies with a short backchannel such as はい、 / そうですか。 / へえー。 / なるほど。 / いいですね。 and vary it.\n" +
+      "- Keep sentences short and simple, subject + object + verb (私は寿司を食べます). Use easy positive adjectives like 楽しい、おいしい、すごい. Always stay polite (です/ます).\n" +
+      "- If the learner says もう一度お願いします or seems not to understand, repeat your last sentence once, slower and simpler.\n" +
       "- Sound like a real person on a phone call, not a teacher or an assistant. Casual-polite (です/ます). Short: one sentence, two at most, usually ending with one short question.\n" +
       "- React first the way people do (あ、そうなんですね。/ いいですね。/ へえ。/ ほんとですか？), vary your reactions, and sometimes comment instead of asking. Never say things like \"Good job\" or \"Great sentence\". Never repeat the learner's sentence back.\n" +
       "- Match the learner's pace: if they answer slowly, briefly or with mistakes, use simpler words and shorter sentences. If they are fluent, raise difficulty slightly but stay within the level.\n" +
