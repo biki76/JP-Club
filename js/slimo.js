@@ -1,8 +1,8 @@
 /* ==========================================================
-   Moon Moon (Slimo) mascot — home.html
+   Slimo mascot — home.html
    - injects itself next to the "Today's phrase" card
    - states: idle, confused, happy, sad, sleepy, love, surprised, wink
-   - hover → happy · click → next mood + squish · 30s idle → sleepy
+   - auto-changes mood every 5s · tap/click → next mood + squish · hover → happy
    - adds shimmer class to the main CTA
    API: Slimo.set('happy') · Slimo.react('love', 2000)
    ========================================================== */
@@ -14,7 +14,7 @@
     var st = document.createElement('style');
     st.id = 'slimo-style';
     st.textContent = `/* ==========================================================
-   Moon Moon (Slimo) mascot + CTA shimmer — additive, home.html
+   Slimo mascot + CTA shimmer — additive, home.html
    ========================================================== */
 
 .slimo-wrap {
@@ -30,17 +30,17 @@
   align-items: center;
   gap: 0.35rem;
   flex: 0 0 auto;
-  width: 170px;
+  width: 124px;
 }
 
 /* ---------- layout row around "Today's phrase" ---------- */
 .slimo-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 1rem 1.5rem;
+  gap: 0.75rem 1.25rem;
 }
-.slimo-row > :first-child { flex: 1 1 300px; min-width: 0; }
+.slimo-row > :first-child { flex: 1 1 0; min-width: 0; }
 
 .slimo-wrap--float {
   position: fixed;
@@ -51,16 +51,19 @@
 }
 
 @media (max-width: 640px) {
-  .slimo-wrap { width: 130px; margin-inline: auto; }
+  .slimo-row { gap: 0.5rem; }
+  .slimo-wrap { width: 92px; }
+  .slimo-bubble { font-size: 0.7rem; padding: 0.3rem 0.5rem; width: max-content; max-width: 108px; }
 }
 
 /* ---------- speech bubble ---------- */
 .slimo-bubble {
   position: relative;
-  max-width: 100%;
-  padding: 0.4rem 0.75rem;
+  width: max-content;
+  max-width: 150px;
+  padding: 0.35rem 0.65rem;
   border-radius: 0.9rem;
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   line-height: 1.5;
   text-align: center;
   background: var(--surface, Canvas);
@@ -223,11 +226,10 @@
   }
 
 
-  var IDLE_MS = 30000;
-  var CYCLE = ['idle', 'confused', 'happy', 'sad', 'sleepy', 'love', 'surprised', 'wink'];
+    var CYCLE = ['idle', 'confused', 'happy', 'sad', 'sleepy', 'love', 'surprised', 'wink'];
 
   var SAY = {
-    idle:      ['Hi! I’m Moon Moon 👋',          'হাই! আমি মুন মুন 👋'],
+    idle:      ['Hi! I’m Slimo 👋',               'হাই! আমি স্লিমো 👋'],
     confused:  ['Hmm… what does that mean?',     'হুম… এর মানে কী?'],
     happy:     ['Yay! Keep going!',              'ইয়ে! চালিয়ে যাও!'],
     sad:       ['I miss studying with you…',     'তোমার সাথে পড়তে মিস করছি…'],
@@ -350,9 +352,10 @@
   ].join('');
 
   /* ---------------- build + behaviour ---------------- */
+  var AUTO_MS = 5000;
   var wrap, btn, bubbleText;
-  var base = 'idle', shown = 'idle', locked = false, asleepByIdle = false;
-  var idleT, flashT, squishT, lastAct = 0;
+  var base = 'idle', shown = 'idle', hovering = false;
+  var autoT, flashT, squishT;
 
   function build() {
     wrap = document.createElement('div');
@@ -360,28 +363,26 @@
     wrap.innerHTML =
       '<div class="slimo-bubble" aria-live="polite"><span></span></div>' +
       '<button type="button" class="slimo" data-state="idle" ' +
-      'data-aria-label-en="Moon Moon mascot. Press to change mood." ' +
-      'data-aria-label-bn="মুন মুন মাসকট। মুড বদলাতে চাপুন।">' + SVG + '</button>';
+      'data-aria-label-en="Slimo mascot. Press to change mood." ' +
+      'data-aria-label-bn="স্লিমো মাসকট। মুড বদলাতে চাপুন।">' + SVG + '</button>';
     btn = wrap.querySelector('.slimo');
     bubbleText = wrap.querySelector('.slimo-bubble span');
     refreshLang();
 
     btn.addEventListener('pointerenter', function (e) {
-      if (e.pointerType !== 'mouse' || locked) return;
+      if (e.pointerType !== 'mouse') return;
+      hovering = true;
       show(base === 'sleepy' ? 'surprised' : 'happy');
     });
     btn.addEventListener('pointerleave', function (e) {
       if (e.pointerType !== 'mouse') return;
-      locked = false;
+      hovering = false;
       show(base);
     });
     btn.addEventListener('click', function () {
-      asleepByIdle = false;
-      base = CYCLE[(CYCLE.indexOf(base) + 1) % CYCLE.length];
-      locked = true;
-      show(base);
+      next();
       squish();
-      resetIdle();
+      startAuto(); /* restart the 5s timer after a tap */
     });
   }
 
@@ -408,41 +409,21 @@
     squishT = setTimeout(function () { btn.classList.remove('is-squish'); }, 600);
   }
 
-  /* idle → sleepy */
-  function resetIdle() {
-    clearTimeout(idleT);
-    idleT = setTimeout(function () {
-      if (base !== 'sleepy') { asleepByIdle = true; base = 'sleepy'; show('sleepy'); }
-    }, IDLE_MS);
+  /* advance to the next mood */
+  function next() {
+    base = CYCLE[(CYCLE.indexOf(base) + 1) % CYCLE.length];
+    show(base);
   }
 
-  function onActivity() {
-    var now = Date.now();
-    if (!asleepByIdle && now - lastAct < 500) return; /* throttle */
-    lastAct = now;
-    resetIdle();
-    if (asleepByIdle) {
-      asleepByIdle = false;
-      base = 'idle';
-      show('surprised');
-      clearTimeout(flashT);
-      flashT = setTimeout(function () { show(base); }, 900);
-    }
+  /* auto-change every 5 seconds */
+  function startAuto() {
+    clearInterval(autoT);
+    autoT = setInterval(function () {
+      if (document.hidden || hovering) return;
+      next();
+      squish();
+    }, AUTO_MS);
   }
-
-  /* ---------------- public API ---------------- */
-  window.Slimo = {
-    set: function (s) {
-      if (CYCLE.indexOf(s) < 0 || !btn) return;
-      asleepByIdle = false; base = s; show(s); resetIdle();
-    },
-    react: function (s, ms) {
-      if (CYCLE.indexOf(s) < 0 || !btn) return;
-      clearTimeout(flashT);
-      show(s); squish();
-      flashT = setTimeout(function () { show(base); }, ms || 2000);
-    }
-  };
 
   /* ---------------- mounting ---------------- */
   function findLabel() {
@@ -488,10 +469,7 @@
       document.body.appendChild(wrap);
     }
     show('idle');
-    ['pointermove', 'pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
-      window.addEventListener(ev, onActivity, { passive: true });
-    });
-    resetIdle();
+    startAuto();
 
     new MutationObserver(refreshLang).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
     window.addEventListener('storage', function (e) { if (e.key === 'nihongo_lang') refreshLang(); });
