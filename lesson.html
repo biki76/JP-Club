@@ -109,6 +109,11 @@
     .hs-en { font-size: var(--fs-sm); font-weight: 600; color: var(--ink); margin: 0; }
     .hs-desc { font-size: var(--fs-sm); color: var(--ink-muted); margin: 0; }
     .hs-play { align-self: center; }
+    .hs-track { flex-wrap: wrap; }
+    .hs-seekrow { display: none; flex: 0 0 100%; order: 3; align-items: center; gap: var(--s-3); }
+    .hs-track[data-active="true"] .hs-seekrow { display: flex; }
+    .hs-seek { flex: 1; min-width: 0; accent-color: var(--primary); }
+    .hs-time { font-size: var(--fs-xs); color: var(--ink-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
   </style>
 </head>
 <body class="shell-body">
@@ -204,15 +209,67 @@
       return bilingual(t.en, t.bn);
     }
 
-    window.playLessonAudio = function(url) {
+        const HS_PLAY = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+    const HS_PAUSE = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>';
+    function hsFmt(s) {
+      if (!isFinite(s)) return '0:00';
+      s = Math.floor(s);
+      return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
+    }
+    function hsUi(a) {
+      const btn = a && a._btn;
+      if (!btn || !btn.closest) return;
+      const card = btn.closest('.hs-track');
+      if (!card) return;
+      btn.innerHTML = a.paused ? HS_PLAY : HS_PAUSE;
+      btn.setAttribute('aria-pressed', a.paused ? 'false' : 'true');
+      const seek = card.querySelector('.hs-seek');
+      const time = card.querySelector('.hs-time');
+      if (seek && isFinite(a.duration) && a.duration > 0) seek.value = Math.round(a.currentTime / a.duration * 1000);
+      if (time) time.textContent = hsFmt(a.currentTime) + ' / ' + hsFmt(a.duration);
+    }
+    function hsReset(a) {
+      const btn = a && a._btn;
+      if (!btn || !btn.closest) return;
+      const card = btn.closest('.hs-track');
+      btn.innerHTML = HS_PLAY;
+      btn.setAttribute('aria-pressed', 'false');
+      if (!card) return;
+      card.removeAttribute('data-active');
+      const seek = card.querySelector('.hs-seek');
+      const time = card.querySelector('.hs-time');
+      if (seek) seek.value = 0;
+      if (time) time.textContent = '0:00';
+    }
+    window.hsSeek = function(input) {
+      const a = window._currentLessonAudio;
+      if (!a || !a._btn || !a._btn.closest || a._btn.closest('.hs-track') !== input.closest('.hs-track')) return;
+      if (isFinite(a.duration) && a.duration > 0) a.currentTime = input.value / 1000 * a.duration;
+    };
+    window.playLessonAudio = function(url, btn) {
       if (!url) return;
-      if (window._currentLessonAudio) {
-        window._currentLessonAudio.pause();
-        window._currentLessonAudio = null;
+      const cur = window._currentLessonAudio;
+      if (cur && cur._url === url) {
+        if (btn) cur._btn = btn;
+        if (cur.paused) cur.play().catch(e => console.error('Audio play failed:', e));
+        else cur.pause();
+        hsUi(cur);
+        return;
       }
-      const audio = new Audio(url);
-      window._currentLessonAudio = audio;
-      audio.play().catch(e => console.error('Audio play failed:', e));
+      if (cur) { cur.pause(); hsReset(cur); }
+      const a = new Audio(url);
+      a._url = url;
+      a._btn = btn;
+      window._currentLessonAudio = a;
+      const card = btn && btn.closest ? btn.closest('.hs-track') : null;
+      if (card) card.setAttribute('data-active', 'true');
+      a.addEventListener('play', () => hsUi(a));
+      a.addEventListener('pause', () => hsUi(a));
+      a.addEventListener('timeupdate', () => hsUi(a));
+      a.addEventListener('loadedmetadata', () => hsUi(a));
+      a.addEventListener('ended', () => hsReset(a));
+      a.addEventListener('error', () => hsReset(a));
+      a.play().catch(e => { console.error('Audio play failed:', e); hsReset(a); });
     };
 
     function renderHead(m) {
@@ -330,9 +387,10 @@
             <p class="hs-en">${bilingual(ti.en, ti.bn || ti.en)}</p>
             ${t.desc && t.desc.en ? `<p class="hs-desc">${bilingual(t.desc.en, t.desc.bn || t.desc.en)}</p>` : ''}
           </div>
-          <button type="button" class="btn btn--primary textbook-audio-play-btn hs-play" onclick="window.playLessonAudio('${esc(t.audioUrl)}')" aria-label="Play ${esc(ti.en)}">
+          <button type="button" class="btn btn--primary textbook-audio-play-btn hs-play" onclick="window.playLessonAudio('${esc(t.audioUrl)}', this)" aria-label="Play ${esc(ti.en)}">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
           </button>
+          <div class="hs-seekrow"><input type="range" class="hs-seek" min="0" max="1000" value="0" aria-label="Seek" oninput="window.hsSeek(this)"><span class="hs-time">0:00</span></div>
         </article>`;
       };
       const sec = key => groups[key].length
