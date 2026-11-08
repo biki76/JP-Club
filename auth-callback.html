@@ -1,55 +1,69 @@
+<!doctype html>
+<html lang="en">
 <head>
-  <script>/* pre-paint: theme, furigana, lang */</script>
-
-  <!-- PWA (Phase 11) -->
-  <link rel="manifest" href="manifest.webmanifest">
-  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#15161a" media="(prefers-color-scheme: dark)">
-  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
-  <link rel="apple-touch-icon" href="icons/icon.svg">
-
-  <!-- Fonts + preconnects (jsDelivr + Tailwind added Phase 11) -->
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
-  <link rel="stylesheet" href="css/fonts.css">
-
-  <!-- SEO (Phase 11) — canonical, description, og:*, twitter:*, JSON-LD -->
-
-  <link rel="stylesheet" href="css/tailwind.css">
-
-  <!-- Phase 12 head -->
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link rel="stylesheet" href="css/cloud.css">
-
-  <link rel="stylesheet" href="css/tokens.css">
-  <link rel="stylesheet" href="css/tokens-extra.css">
-  <link rel="stylesheet" href="css/design-system.css">
-  <link rel="stylesheet" href="css/shell.css">
-  <link rel="stylesheet" href="css/a11y.css">
-  <link rel="stylesheet" href="css/pwa.css">
-  <link rel="stylesheet" href="css/<page>.css">
-  <script src="js/ui-lang-init.js"></script>
-  <link rel="stylesheet" href="css/ui-lang.css">
+<meta charset="utf-8">
+<title data-en="Signing in…" data-bn="সাইন ইন হচ্ছে…">Signing in…</title>
+<script>
+(function(){
+  var t = localStorage.getItem('nihongo_theme') || 'light';
+  var l = localStorage.getItem('nihongo_lang') || 'en';
+  document.documentElement.classList.toggle('dark', t === 'dark');
+  document.documentElement.lang = l;
+})();
+</script>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/design-system.css">
+<style>
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+         background:var(--bg); color:var(--text); font-family:var(--font-en); }
+  .spin { width:40px; height:40px; border:3px solid var(--border);
+          border-top-color:var(--accent); border-radius:50%; animation:sp 0.8s linear infinite; }
+  @keyframes sp { to { transform: rotate(360deg); } }
+  .wrap { text-align:center; }
+  .err { color:var(--danger,#c0392b); margin-top:1rem; font-size:0.9rem; }
+</style>
 </head>
-<body class="shell-body">
-  <header data-shell-header></header>
-  <div class="shell-frame">
-    <aside class="shell-sidebar" data-shell-sidebar></aside>
-    <main class="shell-main">…</main>
-  </div>
-  <nav class="shell-bottomnav" data-shell-bottomnav></nav>
-  <footer class="shell-footer" data-shell-footer></footer>
-  <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
+<body>
+<div class="wrap">
+  <div class="spin"></div>
+  <p data-en="Finishing sign in…" data-bn="সাইন ইন শেষ হচ্ছে…">Finishing sign in…</p>
+  <p class="err" id="err" hidden></p>
+</div>
 
-  <script src="js/data-schemas.js" defer></script>
-  <script src="js/data-loader.js" defer></script>
-  <script src="js/nav-force.js" defer></script>
-  <script src="js/shell.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
-  <script src="js/supabase-config.js" defer></script>
-  <script src="js/cloud.js" defer></script>
-  <script src="js/a11y.js" defer></script>
-  <script src="js/pwa.js" defer></script>
-  <script src="js/<page>.js" defer></script>
-  <script src="js/ui-lang.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+<script src="js/supabase-config.js" defer></script>
+<script src="js/cloud.js" defer></script>
+<script defer>
+window.addEventListener('load', async () => {
+  const errEl = document.getElementById('err');
+  try {
+    const { data: { session }, error } = await window.supabase.auth.getSession();
+    if (error) throw error;
+    if (!session) { errEl.textContent = 'No session. Try signing in again.'; errEl.hidden = false; return; }
+
+    // If profile row missing, create it from user_metadata (OAuth case)
+    const meta = session.user.user_metadata || {};
+    const { data: existing } = await window.supabase
+      .from('profiles').select('id').eq('id', session.user.id).single();
+
+    if (!existing) {
+      await window.supabase.from('profiles').upsert({
+        id: session.user.id,
+        email: session.user.email,
+        display_name: meta.full_name || meta.name || session.user.email,
+        updated_at: new Date().toISOString()
+      });
+    }
+
+    // Restore local prefs and redirect
+    localStorage.setItem('nihongo_sync_user', session.user.id);
+    if (window.CloudSync) await window.CloudSync.pull();
+    window.location.href = '/home.html';
+  } catch (e) {
+    errEl.textContent = e.message || 'Something went wrong.';
+    errEl.hidden = false;
+  }
+});
+</script>
 </body>
+</html>
