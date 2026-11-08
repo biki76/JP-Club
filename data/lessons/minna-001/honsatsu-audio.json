@@ -1,0 +1,122 @@
+{
+  "lessonSlug": "minna-001",
+  "tracks": [
+    {
+      "id": "honsatsu-01",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Pronunciation 1: Kana & Mora",
+        "bn": "Intro: Pronunciation 1: Kana & Mora"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-01.mp3"
+    },
+    {
+      "id": "honsatsu-02",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Pronunciation 2: Long Vowels",
+        "bn": "Intro: Pronunciation 2: Long Vowels"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-02.mp3"
+    },
+    {
+      "id": "honsatsu-03",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Pronunciation 3: The n Sound",
+        "bn": "Intro: Pronunciation 3: The n Sound"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-03.mp3"
+    },
+    {
+      "id": "honsatsu-04",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Pronunciation 4: Double Consonants",
+        "bn": "Intro: Pronunciation 4: Double Consonants"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-04.mp3"
+    },
+    {
+      "id": "honsatsu-05",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Pronunciation 5: Contracted Sounds",
+        "bn": "Intro: Pronunciation 5: Contracted Sounds"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-05.mp3"
+    },
+    {
+      "id": "honsatsu-06",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Pronunciation 6: Pitch Accent",
+        "bn": "Intro: Pronunciation 6: Pitch Accent"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-06.mp3"
+    },
+    {
+      "id": "honsatsu-07",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Pronunciation 7: Intonation",
+        "bn": "Intro: Pronunciation 7: Intonation"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-07.mp3"
+    },
+    {
+      "id": "honsatsu-08",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Classroom Commands",
+        "bn": "Intro: Classroom Commands"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-08.mp3"
+    },
+    {
+      "id": "honsatsu-09",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Everyday Greetings",
+        "bn": "Intro: Everyday Greetings"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-09.mp3"
+    },
+    {
+      "id": "honsatsu-10",
+      "type": "intro",
+      "title": {
+        "en": "Intro: Numbers",
+        "bn": "Intro: Numbers"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-10.mp3"
+    },
+    {
+      "id": "honsatsu-11",
+      "type": "sentence-patterns",
+      "title": {
+        "en": "Lesson 1: Sentence Patterns & Examples",
+        "bn": "Lesson 1: Sentence Patterns & Examples"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-11.mp3"
+    },
+    {
+      "id": "honsatsu-12",
+      "type": "exercise-c",
+      "title": {
+        "en": "Lesson 1: Exercise C",
+        "bn": "Lesson 1: Exercise C"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-12.mp3"
+    },
+    {
+      "id": "honsatsu-13",
+      "type": "conversation",
+      "title": {
+        "en": "Lesson 1: Conversation (Kaiwa)",
+        "bn": "Lesson 1: Conversation (Kaiwa)"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-001/track-13.mp3"
+    }
+  ]
+}

@@ -16,7 +16,8 @@
     "vocabulary": "vocabulary.json",
     "grammar": "grammar.json",
     "kanji": "kanji.json",
-    "practice": "practice.json"
+    "practice": "practice.json",
+    "honsatsuAudio": "honsatsu-audio.json"
   },
   "tags": [
     "minna",

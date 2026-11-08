@@ -1,272 +1,87 @@
-#!/usr/bin/env node
-import { createClient } from '@supabase/supabase-js';
-import { readFileSync, readdirSync, existsSync, writeFileSync, mkdirSync } from 'fs';
-import { join } from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 
-// Use process.cwd() to reliably get the project root (e.g., ~/JP-Club)
-const ROOT = process.cwd();
-
-// Load Supabase config
-const configPath = join(ROOT, 'js/supabase-config.js');
-
-if (!existsSync(configPath)) {
-console.error('❌ Could not find js/supabase-config.js');
-console.error('Please ensure you have created this file with your Supabase credentials.');
-process.exit(1);
-}
-
-const configContent = readFileSync(configPath, 'utf-8');
-const urlMatch = configContent.match(/SUPABASE_URL\s*[:=]\s*['"]([^'"]+)['"]/);
-const keyMatch = configContent.match(/SUPABASE_ANON_KEY\s*[:=]\s*['"]([^'"]+)['"]/);
-
-if (!urlMatch || !keyMatch) {
-console.error('❌ Could not parse Supabase config from js/supabase-config.js');
-console.error('Ensure it contains SUPABASE_URL and SUPABASE_ANON_KEY variables.');
-process.exit(1);
-}
-
-const SUPABASE_URL = urlMatch[1];
-const SUPABASE_ANON_KEY = keyMatch[1];
+const SRC = process.env.AUDIO_SOURCE_DIR;
 const BUCKET = 'nihongo-audio';
+const DRY = process.env.DRY === '1';
+if (!SRC || !fs.existsSync(SRC)) { console.error('Set AUDIO_SOURCE_DIR to the MP3 folder'); process.exit(1); }
 
-// Source directory (Termux Android path, overridable via env var)
-const SOURCE_DIR = process.env.AUDIO_SOURCE_DIR || '/storage/emulated/0/Download/minna-no-nihongo-master';
+const cfg = fs.readFileSync('js/supabase-config.js', 'utf8');
+const BASE = process.env.SUPABASE_URL || (cfg.match(/https:\/\/[a-z0-9-]+\.supabase\.co/) || [])[0];
+const KEY = process.env.SUPABASE_KEY || (cfg.match(/eyJ[\w-]+\.[\w-]+\.[\w-]+|sb_publishable_[\w-]+/) || [])[0];
+if (!BASE || !KEY) { console.error('Could not read Supabase URL/key from js/supabase-config.js'); process.exit(1); }
 
-if (!existsSync(SOURCE_DIR)) {
-  console.error(`❌ Source directory not found: ${SOURCE_DIR}`);
-console.error('Set AUDIO_SOURCE_DIR env var or update the default path in this script.');
-process.exit(1);
+const INTRO = ['Pronunciation 1: Kana & Mora', 'Pronunciation 2: Long Vowels', 'Pronunciation 3: The n Sound',
+  'Pronunciation 4: Double Consonants', 'Pronunciation 5: Contracted Sounds', 'Pronunciation 6: Pitch Accent',
+  'Pronunciation 7: Intonation', 'Classroom Commands', 'Everyday Greetings', 'Numbers'];
+const KINDS = [['sentence-patterns', 'Sentence Patterns & Examples'], ['exercise-c', 'Exercise C'], ['conversation', 'Conversation (Kaiwa)']];
+const pad = (n, w) => String(n).padStart(w, '0');
+
+function info(n) {
+  if (n <= 10) return { slug: 'minna-001', type: 'intro', en: 'Intro: ' + INTRO[n - 1] };
+  if (n >= 86) return { slug: n === 86 ? 'minna-012' : 'minna-025', type: 'review', en: 'General Review ' + (n - 85) };
+  const i = n - 11, L = Math.floor(i / 3) + 1, k = KINDS[i % 3];
+  return { slug: 'minna-' + pad(L, 3), type: k[0], en: 'Lesson ' + L + ': ' + k[1] };
 }
 
-// Track mapping (all 87 tracks)
-const TRACK_MAP = {
-// Intro tracks (1-10)
-1: { category: 'intro', title: 'Japanese Pronunciation — 1. Kana & Mora' },
-2: { category: 'intro', title: 'Japanese Pronunciation — 2. Long Vowels' },
-3: { category: 'intro', title: 'Japanese Pronunciation — 3. The "n" Sound' },
-4: { category: 'intro', title: 'Japanese Pronunciation — 4. Double Consonants' },
-5: { category: 'intro', title: 'Japanese Pronunciation — 5. Contracted Sounds' },
-6: { category: 'intro', title: 'Japanese Pronunciation — 6. Pitch Accent' },
-7: { category: 'intro', title: 'Japanese Pronunciation — 7. Intonation' },
-8: { category: 'intro', title: 'Classroom Commands & Instructions' },
-9: { category: 'intro', title: 'Everyday Greetings & Conversational Expressions' },
-10: { category: 'intro', title: 'Numerals / Counting Numbers' },
-
-// Lesson 1-25 tracks (11-85)
-11: { lesson: 'minna-001', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-12: { lesson: 'minna-001', type: 'exercise-c', title: 'Practice Exercises C' },
-13: { lesson: 'minna-001', type: 'conversation', title: 'Conversation: Nice to meet you' },
-14: { lesson: 'minna-002', type: 'sentence-patterns', title: 'Writing Styles and Examples' },
-15: { lesson: 'minna-002', type: 'exercise-c', title: 'Exercise C' },
-16: { lesson: 'minna-002', type: 'conversation', title: 'Conversation: A token of my appreciation' },
-17: { lesson: 'minna-003', type: 'sentence-patterns', title: 'Writing Styles and Examples' },
-18: { lesson: 'minna-003', type: 'exercise-c', title: 'Exercise C' },
-19: { lesson: 'minna-003', type: 'conversation', title: 'Conversation: Give me this one, please' },
-20: { lesson: 'minna-004', type: 'sentence-patterns', title: 'Writing Styles and Examples' },
-21: { lesson: 'minna-004', type: 'exercise-c', title: 'Exercise C' },
-22: { lesson: 'minna-004', type: 'conversation', title: 'Conversation: What time are you open?' },
-23: { lesson: 'minna-005', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-24: { lesson: 'minna-005', type: 'exercise-c', title: 'Exercise C' },
-25: { lesson: 'minna-005', type: 'conversation', title: 'Conversation: Are you going to Koshien?' },
-26: { lesson: 'minna-006', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-
-Eren:
-27: { lesson: 'minna-006', type: 'exercise-c', title: 'Exercise C' },
-28: { lesson: 'minna-006', type: 'conversation', title: 'Conversation: Won\'t you come with us?' },
-29: { lesson: 'minna-007', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-30: { lesson: 'minna-007', type: 'exercise-c', title: 'Exercise C' },
-31: { lesson: 'minna-007', type: 'conversation', title: 'Conversation: Excuse me, anyone home?' },
-32: { lesson: 'minna-008', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-33: { lesson: 'minna-008', type: 'exercise-c', title: 'Exercise C' },
-34: { lesson: 'minna-008', type: 'conversation', title: 'Conversation: It\'s time I should be leaving' },
-35: { lesson: 'minna-009', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-36: { lesson: 'minna-009', type: 'exercise-c', title: 'Exercise C' },
-37: { lesson: 'minna-009', type: 'conversation', title: 'Conversation: That\'s a pity' },
-38: { lesson: 'minna-010', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-39: { lesson: 'minna-010', type: 'exercise-c', title: 'Exercise C' },
-40: { lesson: 'minna-010', type: 'conversation', title: 'Conversation: Do you have fish sauce?' },
-41: { lesson: 'minna-011', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-42: { lesson: 'minna-011', type: 'exercise-c', title: 'Exercise C' },
-43: { lesson: 'minna-011', type: 'conversation', title: 'Conversation: Please send this' },
-44: { lesson: 'minna-012', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-45: { lesson: 'minna-012', type: 'exercise-c', title: 'Exercise C' },
-46: { lesson: 'minna-012', type: 'conversation', title: 'Conversation: How was the Gion Festival?' },
-47: { lesson: 'minna-013', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-48: { lesson: 'minna-013', type: 'exercise-c', title: 'Exercise C' },
-49: { lesson: 'minna-013', type: 'conversation', title: 'Conversation: Separate checks, please' },
-50: { lesson: 'minna-014', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-51: { lesson: 'minna-014', type: 'exercise-c', title: 'Exercise C' },
-52: { lesson: 'minna-014', type: 'conversation', title: 'Conversation: Please take me to Umeda' },
-53: { lesson: 'minna-015', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-54: { lesson: 'minna-015', type: 'exercise-c', title: 'Exercise C' },
-55: { lesson: 'minna-015', type: 'conversation', title: 'Conversation: What about your family?' },
-56: { lesson: 'minna-016', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-57: { lesson: 'minna-016', type: 'exercise-c', title: 'Exercise C' },
-58: { lesson: 'minna-016', type: 'conversation', title: 'Conversation: Please tell me how to use it' },
-59: { lesson: 'minna-017', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-60: { lesson: 'minna-017', type: 'exercise-c', title: 'Exercise C' },
-61: { lesson: 'minna-017', type: 'conversation', title: 'Conversation: What\'s the matter?' },
-62: { lesson: 'minna-018', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-63: { lesson: 'minna-018', type: 'exercise-c', title: 'Exercise C' },
-64: { lesson: 'minna-018', type: 'conversation', title: 'Conversation: What is your hobby?' },
-65: { lesson: 'minna-019', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-66: { lesson: 'minna-019', type: 'exercise-c', title: 'Exercise C' },
-67: { lesson: 'minna-019', type: 'conversation', title: 'Conversation: I\'ll start my diet tomorrow' },
-
-Eren:
-68: { lesson: 'minna-020', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-69: { lesson: 'minna-020', type: 'exercise-c', title: 'Exercise C' },
-70: { lesson: 'minna-020', type: 'conversation', title: 'Conversation: Won\'t you come with us? (Casual)' },
-71: { lesson: 'minna-021', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-72: { lesson: 'minna-021', type: 'exercise-c', title: 'Exercise C' },
-73: { lesson: 'minna-021', type: 'conversation', title: 'Conversation: I think so, too' },
-74: { lesson: 'minna-022', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-75: { lesson: 'minna-022', type: 'exercise-c', title: 'Exercise C' },
-76: { lesson: 'minna-022', type: 'conversation', title: 'Conversation: What kind of room are you looking for?' },
-77: { lesson: 'minna-023', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-78: { lesson: 'minna-023', type: 'exercise-c', title: 'Exercise C' },
-79: { lesson: 'minna-023', type: 'conversation', title: 'Conversation: How do I get there?' },
-80: { lesson: 'minna-024', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-81: { lesson: 'minna-024', type: 'exercise-c', title: 'Exercise C' },
-82: { lesson: 'minna-024', type: 'conversation', title: 'Conversation: Could you help me out?' },
-83: { lesson: 'minna-025', type: 'sentence-patterns', title: 'Sentence Patterns & Example Sentences' },
-84: { lesson: 'minna-025', type: 'exercise-c', title: 'Exercise C' },
-85: { lesson: 'minna-025', type: 'conversation', title: 'Conversation: Thank you for everything' },
-
-// Review tracks (86-87)
-86: { category: 'review', title: 'General Review 1' },
-87: { category: 'review', title: 'General Review 2' },
-};
-
-// Initialize Supabase client
-const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-
-async function uploadAudio() {
-console.log('🚀 Starting Honsatsu audio upload...\n');
-
-// Find all MP3 files
-const files = readdirSync(SOURCE_DIR).filter(f => /^MP3_\d+\.mp3$/i.test(f));
-console.log(Found ${files.length} MP3 files in ${SOURCE_DIR}\n);
-
-if (files.length !== 87) {
-console.warn(⚠️  Expected 87 files, found ${files.length});
+function walk(dir, out) {
+  for (const f of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, f.name);
+    if (f.isDirectory()) walk(p, out);
+    else if (/\.mp3$/i.test(f.name)) out.push(p);
+  }
+  return out;
 }
 
-// Group tracks by lesson/category
-const lessonTracks = {};
-const introTracks = [];
-const reviewTracks = [];
+const files = {};
+for (const p of walk(SRC, [])) {
+  const m = path.basename(p, path.extname(p)).match(/(\d{1,3})(?!.*\d)/);
+  const n = m ? parseInt(m[0], 10) : 0;
+  if (n < 1 || n > 87) { console.warn('skip (no track 1-87):', p); continue; }
+  if (files[n]) { console.warn('duplicate track ' + n + ', keeping first:', p); continue; }
+  files[n] = p;
+}
+const nums = Object.keys(files).map(Number).sort((a, b) => a - b);
+console.log('Found ' + nums.length + ' of 87 tracks');
+const missing = [];
+for (let n = 1; n <= 87; n++) if (!files[n]) missing.push(n);
+if (missing.length) console.warn('Missing tracks:', missing.join(', '));
 
-for (const file of files) {
-const trackNum = parseInt(file.match(/MP3_(\d+)/i)[1]);
-const mapping = TRACK_MAP[trackNum];
-
-if (!mapping) {
-console.warn(⚠️  No mapping for track ${trackNum} (${file}));
-continue;
+const bySlug = {};
+let ok = 0, fail = 0;
+for (const n of nums) {
+  const meta = info(n);
+  const objPath = meta.slug + '/track-' + pad(n, 2) + '.mp3';
+  const url = BASE + '/storage/v1/object/public/' + BUCKET + '/' + objPath;
+  if (!DRY) {
+    const res = await fetch(BASE + '/storage/v1/object/' + BUCKET + '/' + objPath, {
+      method: 'POST',
+      headers: { apikey: KEY, Authorization: 'Bearer ' + KEY, 'Content-Type': 'audio/mpeg', 'x-upsert': 'true' },
+      body: fs.readFileSync(files[n])
+    });
+    if (!res.ok) { fail++; console.error('FAIL track ' + n + ': ' + res.status + ' ' + (await res.text())); continue; }
+  }
+  ok++;
+  console.log((DRY ? 'dry ' : 'up   ') + pad(n, 2) + ' -> ' + objPath);
+  (bySlug[meta.slug] = bySlug[meta.slug] || []).push({
+    id: 'honsatsu-' + pad(n, 2), type: meta.type,
+    title: { en: meta.en, bn: meta.en }, audioUrl: url
+  });
 }
 
-const filePath = join(SOURCE_DIR, file);
-const fileBuffer = readFileSync(filePath);
-
-let storagePath;
-if (mapping.category === 'intro') {
-storagePath = honsatsu/intro/${file};
-introTracks.push({ track: trackNum, file, ...mapping });
-} else if (mapping.category === 'review') {
-storagePath = honsatsu/review/${file};
-reviewTracks.push({ track: trackNum, file, ...mapping });
-} else {
-storagePath = honsatsu/lessons/${mapping.lesson}/${file};
-if (!lessonTracks[mapping.lesson]) lessonTracks[mapping.lesson] = [];
-lessonTracks[mapping.lesson].push({ track: trackNum, file, ...mapping });
+for (const slug of Object.keys(bySlug)) {
+  const dir = path.join('data', 'lessons', slug);
+  fs.mkdirSync(dir, { recursive: true });
+  const doc = { lessonSlug: slug, tracks: bySlug[slug] };
+  if (!DRY) fs.writeFileSync(path.join(dir, 'honsatsu-audio.json'), JSON.stringify(doc, null, 2) + '\n');
+  const mf = path.join(dir, 'manifest.json');
+  if (fs.existsSync(mf)) {
+    const man = JSON.parse(fs.readFileSync(mf, 'utf8'));
+    man.dataFiles = man.dataFiles || {};
+    man.dataFiles.honsatsuAudio = 'honsatsu-audio.json';
+    if (!DRY) fs.writeFileSync(mf, JSON.stringify(man, null, 2) + '\n');
+  } else {
+    console.warn('no manifest for ' + slug + ' (JSON written, manifest not updated)');
+  }
 }
-
-// Upload to Supabase Storage
-const { error } = await supabase.storage
-.from(BUCKET)
-.upload(storagePath, fileBuffer, {
-contentType: 'audio/mpeg',
-upsert: true
-});
-
-if (error) {
-console.error(❌ Failed to upload ${file}:, error.message);
-} else {
-console.log(✅ Uploaded ${file} → ${storagePath});
-}
-}
-
-// Generate honsatsu-audio.json for each lesson
-console.log('\n📝 Generating lesson audio data files...\n');
-
-Eren:
-for (const [lessonSlug, tracks] of Object.entries(lessonTracks)) {
-const audioData = {
-lessonSlug,
-tracks: tracks.map(t => ({
-id: ${lessonSlug}-${t.type},
-type: t.type,
-title: { en: t.title },
-audioUrl: ${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/honsatsu/lessons/${lessonSlug}/${t.file}
-}))
-};
-
-const lessonDir = join(ROOT, 'data/lessons', lessonSlug);
-
-// Ensure directory exists (safety check)
-if (!existsSync(lessonDir)) {
-mkdirSync(lessonDir, { recursive: true });
-}
-
-const dataPath = join(lessonDir, 'honsatsu-audio.json');
-writeFileSync(dataPath, JSON.stringify(audioData, null, 2));
-console.log(✅ Generated ${dataPath});
-
-// Update manifest to include honsatsuAudio
-const manifestPath = join(lessonDir, 'manifest.json');
-if (existsSync(manifestPath)) {
-const manifest = JSON.parse(readFileSync(manifestPath, 'utf-8'));
-if (!manifest.dataFiles) manifest.dataFiles = {};
-manifest.dataFiles.honsatsuAudio = 'honsatsu-audio.json';
-writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
-console.log(✅ Updated manifest for ${lessonSlug});
-} else {
-console.warn(⚠️  Manifest not found for ${lessonSlug}, skipping manifest update.);
-}
-}
-
-// Generate intro and review data files
-if (introTracks.length > 0) {
-const introData = {
-category: 'intro',
-tracks: introTracks.map(t => ({
-id: intro-${t.track},
-title: { en: t.title },
-audioUrl: ${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/honsatsu/intro/${t.file}
-}))
-};
-writeFileSync(join(ROOT, 'data/honsatsu-intro.json'), JSON.stringify(introData, null, 2));
-console.log('✅ Generated data/honsatsu-intro.json');
-}
-
-if (reviewTracks.length > 0) {
-const reviewData = {
-category: 'review',
-tracks: reviewTracks.map(t => ({
-id: review-${t.track},
-title: { en: t.title },
-audioUrl: ${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/honsatsu/review/${t.file}
-}))
-};
-writeFileSync(join(ROOT, 'data/honsatsu-review.json'), JSON.stringify(reviewData, null, 2));
-console.log('✅ Generated data/honsatsu-review.json');
-}
-
-console.log('\n✨ Upload complete!');
-}
-
-uploadAudio().catch(err => {
-console.error('❌ Upload failed:', err);
-process.exit(1);
-});
+console.log('Done. uploaded=' + ok + ' failed=' + fail);

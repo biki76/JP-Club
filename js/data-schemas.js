@@ -146,7 +146,7 @@
           required: ['id', 'type', 'title', 'audioUrl'],
           properties: {
             id:       nonEmptyString,
-            type:     { type: 'string', enum: ['sentence-patterns', 'exercise-c', 'conversation'] },
+            type:     { type: 'string', enum: ['sentence-patterns', 'exercise-c', 'conversation', 'intro', 'review'] },
             title:    trackTitle,
             audioUrl: nonEmptyString
           },

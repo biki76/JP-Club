@@ -1,0 +1,41 @@
+{
+  "lessonSlug": "minna-025",
+  "tracks": [
+    {
+      "id": "honsatsu-83",
+      "type": "sentence-patterns",
+      "title": {
+        "en": "Lesson 25: Sentence Patterns & Examples",
+        "bn": "Lesson 25: Sentence Patterns & Examples"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-025/track-83.mp3"
+    },
+    {
+      "id": "honsatsu-84",
+      "type": "exercise-c",
+      "title": {
+        "en": "Lesson 25: Exercise C",
+        "bn": "Lesson 25: Exercise C"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-025/track-84.mp3"
+    },
+    {
+      "id": "honsatsu-85",
+      "type": "conversation",
+      "title": {
+        "en": "Lesson 25: Conversation (Kaiwa)",
+        "bn": "Lesson 25: Conversation (Kaiwa)"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-025/track-85.mp3"
+    },
+    {
+      "id": "honsatsu-87",
+      "type": "review",
+      "title": {
+        "en": "General Review 2",
+        "bn": "General Review 2"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-025/track-87.mp3"
+    }
+  ]
+}

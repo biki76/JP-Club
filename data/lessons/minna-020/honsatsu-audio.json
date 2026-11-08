@@ -1,0 +1,32 @@
+{
+  "lessonSlug": "minna-020",
+  "tracks": [
+    {
+      "id": "honsatsu-68",
+      "type": "sentence-patterns",
+      "title": {
+        "en": "Lesson 20: Sentence Patterns & Examples",
+        "bn": "Lesson 20: Sentence Patterns & Examples"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-020/track-68.mp3"
+    },
+    {
+      "id": "honsatsu-69",
+      "type": "exercise-c",
+      "title": {
+        "en": "Lesson 20: Exercise C",
+        "bn": "Lesson 20: Exercise C"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-020/track-69.mp3"
+    },
+    {
+      "id": "honsatsu-70",
+      "type": "conversation",
+      "title": {
+        "en": "Lesson 20: Conversation (Kaiwa)",
+        "bn": "Lesson 20: Conversation (Kaiwa)"
+      },
+      "audioUrl": "https://ojphbocroiqgbgzxrmwx.supabase.co/storage/v1/object/public/nihongo-audio/minna-020/track-70.mp3"
+    }
+  ]
+}
