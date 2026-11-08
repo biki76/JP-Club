@@ -1,10 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-en data-bn="0">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sign in · Nihongo</title>
+<title data-en="Sign in · Nihongo" data-bn="সাইন ইন · নিহঙ্গো">Sign in · Nihongo</title>
+<meta name="description" content="Sign in or create your Nihongo account.">
 
+<!-- Pre-paint (theme/lang) -->
 <script>
 (function(){
   var t = localStorage.getItem('nihongo_theme') || 'light';
@@ -18,142 +20,169 @@
 
 <link rel="stylesheet" href="css/tokens.css">
 <link rel="stylesheet" href="css/design-system.css">
+<link rel="stylesheet" href="css/a11y.css">
 <link rel="stylesheet" href="css/auth.css">
 </head>
-<body>
+<body class="auth-body">
 
 <div class="auth-shell">
-  <aside class="auth-brand">
+  <!-- Brand column -->
+  <aside class="auth-brand" aria-hidden="true">
     <div class="auth-brand-inner">
-      <div class="auth-logo">に</div>
-      <h1>Learn Japanese, in বাংলা</h1>
-      <p>Minna no Nihongo · Kanji · Mimikara · Shin Kanzen</p>
+      <div class="auth-logo" aria-label="Nihongo">に</div>
+      <h1 data-en="Learn Japanese, in বাংলা" data-bn="বাংলায় জাপানিজ শিখুন">Learn Japanese, in বাংলা</h1>
+      <p data-en="Minna no Nihongo · Kanji · Mimikara · Shin Kanzen"
+         data-bn="মিন্না নো নিহঙ্গো · কানজি · মিমিকারা · শিন কানজেন">
+        Minna no Nihongo · Kanji · Mimikara · Shin Kanzen
+      </p>
     </div>
   </aside>
 
+  <!-- Form column -->
   <main class="auth-form-wrap">
     <div class="auth-card">
 
-      <div class="auth-tabs">
-        <button class="auth-tab is-active" data-tab="signin">Sign in</button>
-        <button class="auth-tab" data-tab="signup">Create account</button>
+      <!-- Tabs -->
+      <div class="auth-tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-tab="signin"
+                data-en="Sign in" data-bn="সাইন ইন">Sign in</button>
+        <button role="tab" aria-selected="false" data-tab="signup"
+                data-en="Create account" data-bn="অ্যাকাউন্ট তৈরি করুন">Create account</button>
       </div>
 
+      <!-- Social buttons -->
       <div class="auth-social">
-        <button type="button" class="auth-social-btn auth-facebook" data-provider="facebook">
-          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M13.5 21v-7.5h2.5l.5-3h-3V8.5c0-.9.25-1.5 1.5-1.5H17V4.3c-.3-.04-1.3-.13-2.45-.13-2.4 0-4.05 1.47-4.05 4.17V10.5H8v3h2.5V21h3z"/></svg>
-          <span>Continue with Facebook</span>
+        <button type="button" class="auth-social-btn auth-facebook"
+                data-provider="facebook"
+                data-aria-label-en="Continue with Facebook"
+                data-aria-label-bn="ফেসবুক দিয়ে চালিয়ে যান">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 21v-7.5h2.5l.5-3h-3V8.5c0-.9.25-1.5 1.5-1.5H17V4.3c-.3-.04-1.3-.13-2.45-.13-2.4 0-4.05 1.47-4.05 4.17V10.5H8v3h2.5V21h3z"/></svg>
+          <span data-en="Continue with Facebook" data-bn="ফেসবুক দিয়ে চালিয়ে যান">Continue with Facebook</span>
         </button>
-        <button type="button" class="auth-social-btn auth-google" data-provider="google">
-          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M21.35 12.19c0-.82-.07-1.61-.2-2.37H12v4.48h5.23a4.48 4.48 0 0 1-1.94 2.94v2.43h3.13c1.83-1.68 2.93-4.16 2.93-7.48z"/><path fill="currentColor" d="M12 22c2.61 0 4.8-.87 6.4-2.35l-3.13-2.43c-.87.58-1.98.93-3.27.93-2.51 0-4.64-1.7-5.4-3.98H3.38v2.51A9.99 9.99 0 0 0 12 22z"/><path fill="currentColor" d="M6.6 14.17a5.97 5.97 0 0 1 0-4.34V7.32H3.38a10 10 0 0 0 0 9.36l3.22-2.51z"/><path fill="currentColor" d="M12 5.85c1.42 0 2.69.49 3.69 1.44l2.76-2.76A9.96 9.96 0 0 0 12 2 9.99 9.99 0 0 0 3.38 7.32L6.6 9.83C7.36 7.55 9.49 5.85 12 5.85z"/></svg>
-          <span>Continue with Google</span>
+        <button type="button" class="auth-social-btn auth-google"
+                data-provider="google"
+                data-aria-label-en="Continue with Google"
+                data-aria-label-bn="গুগল দিয়ে চালিয়ে যান">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.35 12.19c0-.82-.07-1.61-.2-2.37H12v4.48h5.23a4.48 4.48 0 0 1-1.94 2.94v2.43h3.13c1.83-1.68 2.93-4.16 2.93-7.48z"/><path fill="currentColor" d="M12 22c2.61 0 4.8-.87 6.4-2.35l-3.13-2.43c-.87.58-1.98.93-3.27.93-2.51 0-4.64-1.7-5.4-3.98H3.38v2.51A9.99 9.99 0 0 0 12 22z"/><path fill="currentColor" d="M6.6 14.17a5.97 5.97 0 0 1 0-4.34V7.32H3.38a10 10 0 0 0 0 9.36l3.22-2.51z"/><path fill="currentColor" d="M12 5.85c1.42 0 2.69.49 3.69 1.44l2.76-2.76A9.96 9.96 0 0 0 12 2 9.99 9.99 0 0 0 3.38 7.32L6.6 9.83C7.36 7.55 9.49 5.85 12 5.85z"/></svg>
+          <span data-en="Continue with Google" data-bn="গুগল দিয়ে চালিয়ে যান">Continue with Google</span>
         </button>
       </div>
 
-      <div class="auth-divider">or</div>
+      <div class="auth-divider" data-en="or" data-bn="অথবা">or</div>
 
-      <!-- SIGN IN -->
-      <form id="form-signin" class="auth-form">
+      <!-- SIGN IN form -->
+      <form id="form-signin" class="auth-form" novalidate>
         <label class="auth-field">
-          <span>Email</span>
-          <input type="email" name="email" required>
+          <span data-en="Email" data-bn="ইমেইল">Email</span>
+          <input type="email" name="email" autocomplete="email" required>
         </label>
         <label class="auth-field">
-          <span>Password</span>
-          <input type="password" name="password" required minlength="6">
+          <span data-en="Password" data-bn="পাসওয়ার্ড">Password</span>
+          <input type="password" name="password" autocomplete="current-password" required minlength="6">
         </label>
         <div class="auth-row">
           <label class="auth-check">
             <input type="checkbox" name="remember">
-            <span>Remember me</span>
+            <span data-en="Remember me" data-bn="আমাকে মনে রাখুন">Remember me</span>
           </label>
-          <button type="button" id="btn-magic" class="auth-link">Email me a magic link</button>
+          <button type="button" id="btn-magic" class="auth-link"
+                  data-en="Email me a magic link" data-bn="ম্যাজিক লিংক ইমেইল করুন">Email me a magic link</button>
         </div>
-        <button type="submit" class="auth-submit">Sign in</button>
-        <p class="auth-msg" role="status"></p>
+        <button type="submit" class="auth-submit" data-en="Sign in" data-bn="সাইন ইন">Sign in</button>
+        <p class="auth-msg" role="status" aria-live="polite"></p>
       </form>
 
-      <!-- SIGN UP -->
-      <form id="form-signup" class="auth-form" style="display:none">
+      <!-- SIGN UP form (multi-step) -->
+      <form id="form-signup" class="auth-form auth-form--hidden" novalidate>
 
-        <ol class="auth-steps">
-          <li class="auth-step is-active" data-step="1"><span>1</span><small>Account</small></li>
-          <li class="auth-step" data-step="2"><span>2</span><small>About you</small></li>
-          <li class="auth-step" data-step="3"><span>3</span><small>Nihongo level</small></li>
+        <!-- Step indicator -->
+        <ol class="auth-steps" aria-label="Signup progress">
+          <li class="auth-step is-active" data-step="1"><span>1</span><small data-en="Account" data-bn="অ্যাকাউন্ট">Account</small></li>
+          <li class="auth-step" data-step="2"><span>2</span><small data-en="About you" data-bn="আপনার সম্পর্কে">About you</small></li>
+          <li class="auth-step" data-step="3"><span>3</span><small data-en="Nihongo level" data-bn="নিহঙ্গো লেভেল">Nihongo level</small></li>
         </ol>
 
-        <fieldset class="auth-pane" data-pane="1">
+        <!-- Step 1: credentials -->
+        <fieldset class="auth-step-pane" data-pane="1">
           <label class="auth-field">
-            <span>Email</span>
-            <input type="email" name="email" required>
+            <span data-en="Email" data-bn="ইমেইল">Email</span>
+            <input type="email" name="email" autocomplete="email" required>
           </label>
           <label class="auth-field">
-            <span>Password</span>
-            <input type="password" name="password" required minlength="6">
-            <small>At least 6 characters</small>
+            <span data-en="Password" data-bn="পাসওয়ার্ড">Password</span>
+            <input type="password" name="password" autocomplete="new-password" required minlength="6">
+            <small data-en="At least 6 characters" data-bn="কমপক্ষে ৬টি অক্ষর">At least 6 characters</small>
           </label>
           <label class="auth-field">
-            <span>Confirm password</span>
-            <input type="password" name="password2" required minlength="6">
+            <span data-en="Confirm password" data-bn="পাসওয়ার্ড নিশ্চিত করুন">Confirm password</span>
+            <input type="password" name="password2" autocomplete="new-password" required minlength="6">
           </label>
         </fieldset>
 
-        <fieldset class="auth-pane" data-pane="2" style="display:none">
+        <!-- Step 2: personal -->
+        <fieldset class="auth-step-pane auth-step-pane--hidden" data-pane="2">
           <label class="auth-field">
-            <span>Display name</span>
-            <input type="text" name="display_name" required>
+            <span data-en="Display name" data-bn="প্রদর্শন নাম">Display name</span>
+            <input type="text" name="display_name" autocomplete="name" required>
           </label>
           <label class="auth-field">
-            <span>Date of birth</span>
+            <span data-en="Date of birth" data-bn="জন্ম তারিখ">Date of birth</span>
             <input type="date" name="date_of_birth" required>
           </label>
           <label class="auth-field">
-            <span>Gender</span>
+            <span data-en="Gender" data-bn="লিঙ্গ">Gender</span>
             <select name="gender" required>
               <option value="">—</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-              <option value="non_binary">Non-binary</option>
-              <option value="prefer_not_to_say">Prefer not to say</option>
+              <option value="male" data-en="Male" data-bn="পুরুষ">Male</option>
+              <option value="female" data-en="Female" data-bn="নারী">Female</option>
+              <option value="non_binary" data-en="Non-binary" data-bn="নন-বাইনারি">Non-binary</option>
+              <option value="prefer_not_to_say" data-en="Prefer not to say" data-bn="বলতে চাই না">Prefer not to say</option>
             </select>
           </label>
         </fieldset>
 
-        <fieldset class="auth-pane" data-pane="3" style="display:none">
+        <!-- Step 3: learning -->
+        <fieldset class="auth-step-pane auth-step-pane--hidden" data-pane="3">
           <label class="auth-field">
-            <span>Your Nihongo level</span>
+            <span data-en="Your Nihongo level" data-bn="আপনার নিহঙ্গো লেভেল">Your Nihongo level</span>
             <select name="nihongo_level" required>
               <option value="">—</option>
-              <option value="absolute_beginner">Absolute beginner</option>
-              <option value="n5">N5</option>
-              <option value="n4">N4</option>
-              <option value="n3">N3</option>
-              <option value="n2">N2</option>
-              <option value="n1">N1</option>
+              <option value="absolute_beginner" data-en="Absolute beginner (start from Lesson 1)" data-bn="একদম শুরু (লেসন ১ থেকে)">Absolute beginner</option>
+              <option value="n5" data-en="N5 — basic hiragana/katakana" data-bn="N5 — হিরাগানা/কাতাকানা">N5</option>
+              <option value="n4" data-en="N4 — elementary grammar" data-bn="N4 — প্রাথমিক ব্যাকরণ">N4</option>
+              <option value="n3" data-en="N3 — intermediate" data-bn="N3 — মধ্যবর্তী">N3</option>
+              <option value="n2" data-en="N2 — upper intermediate" data-bn="N2 — উচ্চ মধ্যবর্তী">N2</option>
+              <option value="n1" data-en="N1 — advanced" data-bn="N1 — উন্নত">N1</option>
             </select>
           </label>
           <label class="auth-field">
-            <span>Learning goal (optional)</span>
-            <textarea name="learning_goal" rows="3" maxlength="240"></textarea>
+            <span data-en="Learning goal (optional)" data-bn="শেখার লক্ষ্য (ঐচ্ছিক)">Learning goal (optional)</span>
+            <textarea name="learning_goal" rows="3" maxlength="240"
+                      data-en-placeholder="e.g. Read manga, pass N3, travel to Japan"
+                      data-bn-placeholder="যেমন: মাঙ্গা পড়া, N3 পাস, জাপান ভ্রমণ"></textarea>
           </label>
         </fieldset>
 
         <div class="auth-step-nav">
-          <button type="button" class="auth-back" style="display:none">Back</button>
-          <button type="button" class="auth-next">Next</button>
-          <button type="submit" class="auth-submit" style="display:none">Create account</button>
+          <button type="button" class="auth-back auth-step-nav--hidden" data-en="Back" data-bn="পেছনে">Back</button>
+          <button type="button" class="auth-next" data-en="Next" data-bn="পরবর্তী">Next</button>
+          <button type="submit" class="auth-submit auth-step-nav--hidden"
+                  data-en="Create account" data-bn="অ্যাকাউন্ট তৈরি করুন">Create account</button>
         </div>
-        <p class="auth-msg" role="status"></p>
+        <p class="auth-msg" role="status" aria-live="polite"></p>
       </form>
 
     </div>
-    <p class="auth-foot">By continuing you agree to our Terms.</p>
+    <p class="auth-foot" data-en="By continuing you agree to our Terms."
+       data-bn="চালিয়ে যাওয়ার মাধ্যমে আপনি আমাদের শর্তাবলীতে সম্মত হচ্ছেন।">
+      By continuing you agree to our Terms.
+    </p>
   </main>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/supabase-config.js"></script>
-<script src="js/cloud.js"></script>
-<script src="js/auth-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+<script src="js/supabase-config.js" defer></script>
+<script src="js/cloud.js" defer></script>
+<script src="js/auth-ui.js" defer></script>
 </body>
 </html>
