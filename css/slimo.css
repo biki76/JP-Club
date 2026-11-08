@@ -1,0 +1,36 @@
+}
+@keyframes slimo-tear {
+  0%   { transform: translateY(0); opacity: 0; }
+  20%  { opacity: 1; }
+  100% { transform: translateY(14px); opacity: 0; }
+}
+@keyframes slimo-zzz {
+  0%   { transform: translate(0, 8px); opacity: 0; }
+  30%  { opacity: 1; }
+  100% { transform: translate(8px, -14px); opacity: 0; }
+}
+
+/* ---------- CTA shimmer ---------- */
+.slimo-shimmer { position: relative; overflow: hidden; isolation: isolate; }
+.slimo-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.5) 50%, transparent 70%);
+  transform: translateX(-120%);
+  animation: slimo-shine 3.2s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+@keyframes slimo-shine {
+  0%        { transform: translateX(-120%); }
+  55%, 100% { transform: translateX(120%); }
+}
+
+/* ---------- reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .slimo__body, .slimo__svg .s-shadow, .slimo *, .slimo-shimmer::after {
+    animation: none !important;
+  }
+  .f--sleepy .z { opacity: 1; }
+}
