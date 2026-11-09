@@ -72,7 +72,7 @@
       window.supabase.auth.signInWithOAuth({
         provider: provider,
         options: {
-          redirectTo: window.location.origin + '/auth-callback.html',
+          redirectTo: new URL('auth-callback.html', window.location.href).href,
           queryParams: provider === 'facebook' ? { auth_type: 'rerequest' } : {}
         }
       }).then(({ error }) => {
@@ -162,7 +162,7 @@
           } else {
             msg('Signed in successfully! Redirecting...', 'success');
             setTimeout(() => { 
-              window.location.href = '/home.html'; 
+              window.location.href = new URL('home.html', window.location.href).href; 
             }, 800);
           }
         }).catch(err => {
