@@ -4,33 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Terms of Service · JP-Club</title>
-  <meta name="description" content="Terms of Service for JP-Club, the interactive Japanese language learning platform." />
+  <meta name="description" content="Terms of Service for JP-Club and ビキ先生 Studio." />
   
-  <!-- Link to existing repo styles for baseline consistency (optional but recommended) -->
-  <link rel="stylesheet" href="css/tokens.css" />
-  <link rel="stylesheet" href="css/typography-jp.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 
   <style>
-    /* --- DESIGN TOKENS & RESET --- */
+    /* --- JP-Club Design System Bridge --- */
     :root {
-      --bg-primary: #0b0f19;
-      --bg-surface: rgba(17, 24, 39, 0.75);
-      --border-color: rgba(255, 255, 255, 0.1);
-      --text-main: #f3f4f6;
-      --text-muted: #9ca3af;
-      --accent-primary: #6366f1;
+      --bg: #0b0f19;
+      --surface: rgba(17, 24, 39, 0.75);
+      --surface-glass: rgba(17, 24, 39, 0.85);
+      --border: rgba(255, 255, 255, 0.1);
+      --ink: #f3f4f6;
+      --ink-muted: #9ca3af;
+      --ink-subtle: #6b7280;
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
+      --primary-glow: rgba(99, 102, 241, 0.2);
       --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
-      --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      --radius-lg: 1rem;
-      --radius-md: 0.75rem;
+      --font-en: 'Inter', system-ui, sans-serif;
+      --font-jp: 'Noto Sans JP', sans-serif;
+      --fs-xs: 0.75rem; --fs-sm: 0.875rem; --fs-md: 1rem; --fs-lg: 1.125rem; 
+      --fs-xl: 1.25rem; --fs-2xl: 1.5rem; --fs-3xl: 2rem;
+      --r-sm: 0.5rem; --r-md: 0.75rem; --r-lg: 1rem; --r-full: 9999px;
+      --s-1: 0.25rem; --s-2: 0.5rem; --s-3: 0.75rem; --s-4: 1rem; --s-5: 1.25rem; --s-6: 1.5rem;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+    html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
     body {
-      background-color: var(--bg-primary);
-      color: var(--text-main);
-      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-en);
+      font-size: var(--fs-md);
       line-height: 1.6;
       min-height: 100vh;
       display: flex;
@@ -38,281 +48,213 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* --- STICKY GLASSMORPHISM HEADER --- */
-    .legal-header {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: rgba(11, 15, 25, 0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      padding: 1rem 1.5rem;
+    /* --- Shell Header (Matches home.html exactly) --- */
+    .shell-header {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--surface-glass);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
     }
-
     .header-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
+      max-width: 1280px; margin: 0 auto; padding: 0 var(--s-6);
+      height: 64px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .brand {
+      display: flex; align-items: center; gap: var(--s-3); text-decoration: none; color: var(--ink);
+      font-weight: 700; font-size: var(--fs-xl); letter-spacing: -0.02em;
+    }
+    .brand svg { color: var(--primary); }
+    .main-nav { display: flex; gap: var(--s-1); }
+    .nav-link {
+      display: inline-flex; align-items: center; gap: var(--s-2); text-decoration: none;
+      color: var(--ink-muted); font-size: var(--fs-sm); font-weight: 500;
+      padding: var(--s-2) var(--s-3); border-radius: var(--r-md); transition: all 0.2s;
+    }
+    .nav-link:hover { color: var(--ink); background: rgba(255,255,255,0.05); }
+    .nav-link.active { color: var(--primary); background: rgba(99, 102, 241, 0.1); }
+    .header-controls { display: flex; align-items: center; gap: var(--s-3); }
+    .ctrl {
+      display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px;
+      border: 1px solid var(--border); border-radius: var(--r-md); background: transparent;
+      color: var(--ink-muted); cursor: pointer; transition: all 0.2s;
+    }
+    .ctrl:hover { color: var(--ink); border-color: var(--primary); }
+    .lang-toggle {
+      display: inline-flex; border: 1px solid var(--border); border-radius: var(--r-full); overflow: hidden; background: transparent;
+    }
+    .lang-toggle button {
+      appearance: none; border: none; background: none; padding: var(--s-1) var(--s-3);
+      font: inherit; font-size: var(--fs-xs); font-weight: 600; color: var(--ink-muted); cursor: pointer;
+    }
+    .lang-toggle button[aria-pressed="true"] { background: var(--primary); color: #fff; }
+
+    @media (max-width: 860px) {
+      .main-nav { display: none; }
     }
 
-    .brand-link {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      text-decoration: none;
-      color: var(--text-main);
-      font-weight: 700;
-      font-size: 1.25rem;
-      letter-spacing: -0.02em;
-    }
-
-    .brand-link:hover { color: var(--accent-primary); }
-
-    .back-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      color: var(--text-muted);
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 500;
-      padding: 0.5rem 1rem;
-      border-radius: var(--radius-md);
-      border: 1px solid var(--border-color);
-      background: var(--bg-surface);
-      transition: all 0.2s ease;
-    }
-
-    .back-link:hover {
-      color: var(--text-main);
-      border-color: var(--accent-primary);
-      background: rgba(99, 102, 241, 0.1);
-    }
-
-    /* --- MAIN LAYOUT & BENTO GRID --- */
-    .legal-main {
-      flex: 1;
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
-    }
-
+    /* --- Main Content & Bento Grid --- */
+    .legal-main { flex: 1; width: 100%; max-width: 1280px; margin: 0 auto; padding: var(--s-6); }
+    .page-hero { margin-bottom: var(--s-6); }
     .page-title {
-      font-size: clamp(2rem, 5vw, 3rem);
-      font-weight: 800;
-      letter-spacing: -0.03em;
-      margin-bottom: 0.5rem;
-      background: var(--accent-gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; margin-bottom: var(--s-3);
+      background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
     }
-
-    .page-subtitle {
-      color: var(--text-muted);
-      font-size: 1.1rem;
-      margin-bottom: 2.5rem;
-      max-width: 600px;
-    }
-
+    .page-subtitle { color: var(--ink-muted); font-size: var(--fs-lg); max-width: 600px; }
     .bento-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 1.5rem;
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--s-6);
     }
+    .span-2 { grid-column: span 2; }
+    @media (max-width: 768px) { .span-2 { grid-column: span 1; } }
 
-    /* Span 2 columns on larger screens for important sections */
-    .bento-grid .span-2 {
-      grid-column: span 2;
-    }
-
-    @media (max-width: 768px) {
-      .bento-grid .span-2 { grid-column: span 1; }
-    }
-
-    /* --- GLASSMORPHISM CARDS --- */
     .bento-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 1.75rem;
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg);
+      padding: var(--s-6); backdrop-filter: blur(8px); transition: all 0.25s ease;
     }
-
-    .bento-card:hover {
-      transform: translateY(-3px);
-      border-color: rgba(99, 102, 241, 0.4);
-      box-shadow: 0 10px 30px -10px rgba(99, 102, 241, 0.15);
-    }
-
+    .bento-card:hover { transform: translateY(-3px); border-color: rgba(99, 102, 241, 0.4); box-shadow: 0 10px 30px -10px var(--primary-glow); }
     .card-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: var(--radius-md);
-      background: var(--accent-gradient);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 1rem;
-      font-size: 1.25rem;
+      width: 44px; height: 44px; border-radius: var(--r-md); background: rgba(99, 102, 241, 0.15);
+      color: var(--primary); display: flex; align-items: center; justify-content: center; margin-bottom: var(--s-4);
     }
+    .bento-card h2 { font-size: var(--fs-xl); font-weight: 700; margin-bottom: var(--s-3); color: var(--ink); }
+    .bento-card p, .bento-card li { color: var(--ink-muted); font-size: var(--fs-md); line-height: 1.7; }
+    .bento-card ul { padding-left: var(--s-5); margin-top: var(--s-3); }
+    .bento-card li { margin-bottom: var(--s-2); }
+    .bento-card li::marker { color: var(--primary); }
 
-    .bento-card h2 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      margin-bottom: 0.75rem;
-      color: var(--text-main);
+    /* --- Shell Footer (Matches NihonSync exactly) --- */
+    .shell-footer {
+      border-top: 1px solid var(--border); background: var(--surface-glass); backdrop-filter: blur(12px);
+      padding: var(--s-6) 0; margin-top: auto;
     }
-
-    .bento-card p, .bento-card ul {
-      color: var(--text-muted);
-      font-size: 0.95rem;
-      line-height: 1.7;
-    }
-
-    .bento-card ul {
-      padding-left: 1.25rem;
-      margin-top: 0.75rem;
-    }
-
-    .bento-card li {
-      margin-bottom: 0.5rem;
-    }
-
-    .bento-card li::marker {
-      color: var(--accent-primary);
-    }
-
-    /* --- FOOTER --- */
-    .legal-footer {
-      border-top: 1px solid var(--border-color);
-      background: rgba(11, 15, 25, 0.9);
-      backdrop-filter: blur(12px);
-      padding: 2rem 1.5rem;
-      margin-top: auto;
-    }
-
     .footer-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-      text-align: center;
+      max-width: 1280px; margin: 0 auto; padding: 0 var(--s-6);
+      display: flex; flex-direction: column; gap: var(--s-6); align-items: center; text-align: center;
     }
-
-    @media (min-width: 640px) {
-      .footer-inner {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: left;
-      }
+    @media (min-width: 768px) {
+      .footer-inner { flex-direction: row; justify-content: space-between; text-align: left; }
     }
-
-    .footer-text {
-      color: var(--text-muted);
-      font-size: 0.875rem;
+    .footer-brand p { font-size: var(--fs-sm); color: var(--ink-muted); }
+    .footer-brand .studio-name { color: var(--ink); font-weight: 600; }
+    .footer-links { display: flex; gap: var(--s-5); }
+    .footer-links a { color: var(--ink-muted); text-decoration: none; font-size: var(--fs-sm); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--primary); }
+    .footer-social { display: flex; gap: var(--s-3); }
+    .social-icon {
+      width: 36px; height: 36px; border-radius: var(--r-md); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center; color: var(--ink-muted); transition: all 0.2s;
     }
-
-    .footer-links {
-      display: flex;
-      gap: 1.5rem;
-    }
-
-    .footer-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      font-size: 0.875rem;
-      transition: color 0.2s ease;
-    }
-
-    .footer-links a:hover {
-      color: var(--accent-primary);
-    }
+    .social-icon:hover { color: var(--primary); border-color: var(--primary); background: rgba(99, 102, 241, 0.1); }
   </style>
 </head>
 <body>
 
-  <!-- Sticky Glassmorphism Header -->
-  <header class="legal-header">
+  <header class="shell-header">
     <div class="header-inner">
-      <a href="home.html" class="brand-link">
+      <a href="home.html" class="brand">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-        JP-Club
+        <span>JP-Club</span>
       </a>
-      <a href="home.html" class="back-link">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-        Back to Home
-      </a>
+      <nav class="main-nav">
+        <a href="home.html" class="nav-link active">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          Home
+        </a>
+        <a href="lessons.html" class="nav-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          Lessons
+        </a>
+        <a href="flashcards.html" class="nav-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          Flashcards
+        </a>
+        <a href="quiz.html" class="nav-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          Quiz
+        </a>
+        <a href="kanji.html" class="nav-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+          Kanji
+        </a>
+      </nav>
+      <div class="header-controls">
+        <button class="ctrl" aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <div class="lang-toggle">
+          <button aria-pressed="true">EN</button>
+          <button aria-pressed="false">BN</button>
+        </div>
+      </div>
     </div>
   </header>
 
-  <!-- Main Content -->
   <main class="legal-main">
-    <h1 class="page-title">Terms of Service</h1>
-    <p class="page-subtitle">Last updated: November 2026. Please read these terms carefully before using the JP-Club interactive learning platform.</p>
+    <div class="page-hero">
+      <h1 class="page-title">Terms of Service</h1>
+      <p class="page-subtitle">Last Updated: November 2026 · ビキ先生 Studio · Biki Akram. By using JP-Club, you agree to these terms.</p>
+    </div>
 
     <div class="bento-grid">
-      <!-- Card 1: Acceptance -->
       <article class="bento-card span-2">
-        <div class="card-icon">📜</div>
-        <h2>1. Acceptance of Terms</h2>
-        <p>By accessing or using the JP-Club platform (located at https://biki76.github.io/JP-Club/), you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions, you must not access or use the platform. These terms apply to all visitors, users, and learners engaging with our Japanese language curriculum.</p>
+        <div class="card-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <h2>1. Acceptance & Educational Use</h2>
+        <p>JP-Club is provided as a free educational tool. By accessing this platform, you agree to use it fairly and respect the developer's work. It is designed to be used as a supplementary study resource alongside official JLPT preparation materials and textbooks.</p>
       </article>
 
-      <!-- Card 2: User Accounts & Conduct -->
       <article class="bento-card">
-        <div class="card-icon">👤</div>
+        <div class="card-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
         <h2>2. User Conduct</h2>
-        <p>JP-Club is an educational community. You agree not to:</p>
-        <ul>
-          <li>Use the platform for any unlawful purpose.</li>
-          <li>Attempt to gain unauthorized access to any part of the site or its servers.</li>
-          <li>Interfere with the proper working of the platform or disrupt the learning experience of others.</li>
-        </ul>
+        <p>You agree not to use the platform for any unlawful purpose, attempt to gain unauthorized access to our systems, or interfere with the learning experience of the community. We reserve the right to restrict access for violations.</p>
       </article>
 
-      <!-- Card 3: Intellectual Property -->
       <article class="bento-card span-2">
-        <div class="card-icon">💡</div>
-        <h2>3. Intellectual Property Rights</h2>
-        <p>All content on JP-Club, including but not limited to structured lesson databases, JLPT practice content, custom UI designs, audio assets, flashcards, and the "NihonSync" interactive features, is the exclusive property of JP-Club or its content licensors. You are granted a limited, non-exclusive, non-transferable license to access and use the materials for personal, non-commercial educational purposes only. Reproduction, distribution, or creation of derivative works without explicit written permission is strictly prohibited.</p>
+        <div class="card-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h2>3. Intellectual Property</h2>
+        <p>All content within JP-Club — including structured lesson databases, JLPT practice content, text, graphics, kanji explanations, custom UI designs, and Bengali-language translations — is the exclusive intellectual property of Biki Akram / ビキ先生 Studio. The specific compilation, explanation, and translation of Japanese language content in Bengali is protected under copyright and the laws of Bangladesh. Reproduction without explicit permission is strictly prohibited.</p>
       </article>
 
-      <!-- Card 4: Limitation of Liability -->
       <article class="bento-card">
-        <div class="card-icon">⚖️</div>
+        <div class="card-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </div>
         <h2>4. Limitation of Liability</h2>
-        <p>JP-Club is provided on an "as is" and "as available" basis. We do not guarantee that the platform will be uninterrupted, secure, or error-free. We shall not be liable for any indirect, incidental, or consequential damages arising from your use of the platform or inability to access it.</p>
+        <p>JP-Club is provided "as is". We do not guarantee that the platform will be uninterrupted or error-free. We shall not be liable for any indirect or consequential damages arising from your use of the platform or reliance on its educational content.</p>
       </article>
 
-      <!-- Card 5: Account Termination -->
       <article class="bento-card">
-        <div class="card-icon">🚫</div>
-        <h2>5. Modifications & Termination</h2>
-        <p>We reserve the right to modify these terms at any time. Continued use of the platform after changes constitutes acceptance. We also reserve the right to terminate or suspend access to our service immediately, without prior notice, for conduct that we believe violates these Terms.</p>
+        <div class="card-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+        </div>
+        <h2>5. Modifications</h2>
+        <p>We reserve the right to modify these terms at any time. Continued use of the platform after changes constitutes acceptance. We may terminate or suspend access immediately for conduct that violates these Terms.</p>
       </article>
     </div>
   </main>
 
-  <!-- Standard Footer -->
-  <footer class="legal-footer">
+  <footer class="shell-footer">
     <div class="footer-inner">
-      <p class="footer-text">© 2026 JP-Club. All rights reserved. <br/>Contact: support@jp-club.example.com</p>
+      <div class="footer-brand">
+        <p><span class="studio-name">© 2026 ビキ先生 Studio · Biki Akram</span></p>
+        <p>Making Japanese accessible to every Bengali speaker.</p>
+      </div>
       <nav class="footer-links">
         <a href="terms.html">Terms of Service</a>
         <a href="privacy.html">Privacy Policy</a>
-        <a href="home.html">Home</a>
       </nav>
-    </div is>
+      <div class="footer-social">
+        <a href="https://wa.me/" class="social-icon" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+        <a href="https://facebook.com/" class="social-icon" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="https://instagram.com/bikiakram7" class="social-icon" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+        <a href="https://twitter.com/vickyakram7" class="social-icon" aria-label="Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="https://github.com/biki76" class="social-icon" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+      </div>
+    </div>
   </footer>
 
 </body>
