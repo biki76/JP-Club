@@ -8,6 +8,8 @@
 
   // Wait for Supabase SDK to load
   function initSupabase() {
+    window.SUPABASE_CONFIG = { url: SUPABASE_URL, anonKey: SUPABASE_ANON_KEY };
+    if (window.supabase && window.supabase.auth) return true;
     if (typeof window.supabase === 'undefined') {
       console.error('Supabase SDK not loaded');
       return false;

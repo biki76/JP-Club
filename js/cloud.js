@@ -207,6 +207,7 @@
   function initClient() {
     if (client) return client;
     if (!isConfigured() || !window.supabase) return null;
+    if (window.supabase.auth && !window.supabase.createClient) { client = window.supabase; window.__sb = client; return client; }
     var c = window.SUPABASE_CONFIG;
     client = window.supabase.createClient(c.url, c.anonKey || c.publishableKey, {
       auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true }

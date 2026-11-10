@@ -58,7 +58,7 @@ window.addEventListener('load', async () => {
     // Restore local prefs and redirect
     localStorage.setItem('nihongo_sync_user', session.user.id);
     if (window.CloudSync) await window.CloudSync.pull();
-    window.location.href = '/home.html';
+    window.location.href = new URL('home.html', window.location.href).href;
   } catch (e) {
     errEl.textContent = e.message || 'Something went wrong.';
     errEl.hidden = false;
