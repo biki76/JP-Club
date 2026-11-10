@@ -1,20 +1,19 @@
 <!doctype html>
-<html lang="en" data-en data-bn="0">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title data-en="Sign in · Nihongo" data-bn="সাইন ইন · নিহঙ্গো">Sign in · Nihongo</title>
+<title data-en="Sign in · JP-Club" data-bn="সাইন ইন · JP-Club">Sign in · JP-Club</title>
 <meta name="description" content="Sign in or create your Nihongo account.">
 
 <!-- Pre-paint (theme/lang) -->
 <script>
 (function(){
+  var r = document.documentElement;
   var t = localStorage.getItem('nihongo_theme') || 'light';
   var l = localStorage.getItem('nihongo_lang') || 'en';
-  document.documentElement.classList.toggle('dark', t === 'dark');
-  document.documentElement.setAttribute('data-en', l === 'en' ? '' : '0');
-  document.documentElement.setAttribute('data-bn', l === 'bn' ? '' : '0');
-  document.documentElement.lang = l;
+  if (t === 'dark') r.setAttribute('data-theme', 'dark');
+  r.lang = l;
 })();
 </script>
 
@@ -24,23 +23,52 @@
 <link rel="stylesheet" href="css/auth.css">
 </head>
 <body class="auth-body">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="slimo" viewBox="0 0 120 124">
+    <ellipse cx="60" cy="114" rx="40" ry="5" fill="#351a6b" opacity=".16"/>
+    <path d="M18 98C18 98 26 64 44 44C50 38 54 32 60 32C66 32 70 38 76 44C94 64 102 98 102 98C102 105 94 107 60 107C26 107 18 105 18 98Z" fill="#a96cf5"/>
+    <path d="M18 98C18 105 26 107 60 107C94 107 102 105 102 98C102 93 94 95 60 95C26 95 18 93 18 98Z" fill="#8a55c9"/>
+    <path d="M60 32V20" stroke="#a96cf5" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="14" r="7" fill="#c08cff"/>
+    <ellipse cx="44" cy="60" rx="5" ry="3" transform="rotate(-35 44 60)" fill="#fff" opacity=".5"/>
+    <circle cx="48" cy="76" r="5" fill="#351a6b"/><circle cx="72" cy="76" r="5" fill="#351a6b"/>
+    <circle cx="46.5" cy="74.5" r="1.6" fill="#fff"/><circle cx="70.5" cy="74.5" r="1.6" fill="#fff"/>
+    <ellipse cx="37" cy="86" rx="7" ry="4.5" fill="#ffa8dd"/><ellipse cx="83" cy="86" rx="7" ry="4.5" fill="#ffa8dd"/>
+    <ellipse cx="60" cy="87" rx="3" ry="2.4" fill="#351a6b"/>
+  </symbol>
+</svg>
 
 <div class="auth-shell">
   <!-- Brand column -->
   <aside class="auth-brand" aria-hidden="true">
     <div class="auth-brand-inner">
-      <div class="auth-logo" aria-label="Nihongo">に</div>
+      <div class="auth-bubble" data-en="Hi! I'm Slimo 👋" data-bn="হ্যালো! আমি স্লিমো 👋">Hi! I'm Slimo 👋</div>
+      <svg class="auth-slimo" viewBox="0 0 120 124"><use href="#slimo"/></svg>
       <h1 data-en="Learn Japanese, in বাংলা" data-bn="বাংলায় জাপানিজ শিখুন">Learn Japanese, in বাংলা</h1>
       <p data-en="Minna no Nihongo · Kanji · Mimikara · Shin Kanzen"
-         data-bn="মিন্না নো নিহঙ্গো · কানজি · মিমিকারা · শিন কানজেন">
-        Minna no Nihongo · Kanji · Mimikara · Shin Kanzen
-      </p>
+         data-bn="মিন্না নো নিহঙ্গো · কানজি · মিমিকারা · শিন কানজেন">Minna no Nihongo · Kanji · Mimikara · Shin Kanzen</p>
     </div>
   </aside>
 
   <!-- Form column -->
   <main class="auth-form-wrap">
     <div class="auth-card">
+      <header class="auth-head">
+        <a class="auth-home" href="home.html" aria-label="JP-Club">
+          <span class="auth-mark" aria-hidden="true">日</span><span class="auth-name">JP-Club</span>
+        </a>
+        <div class="auth-tools">
+          <button type="button" id="auth-lang" class="auth-tool" aria-label="Language">বাং</button>
+          <button type="button" id="auth-theme" class="auth-tool" aria-label="Dark mode">◐</button>
+        </div>
+      </header>
+      <div class="auth-hello">
+        <svg class="auth-slimo-sm" viewBox="0 0 120 124" aria-hidden="true"><use href="#slimo"/></svg>
+        <div>
+          <p class="auth-hello-title" data-en="Welcome to JP-Club" data-bn="JP-Club-এ স্বাগতম">Welcome to JP-Club</p>
+          <p class="auth-hello-sub" data-en="Save your progress and learn on any device." data-bn="আপনার অগ্রগতি সংরক্ষণ করুন, যেকোনো ডিভাইসে শিখুন।">Save your progress and learn on any device.</p>
+        </div>
+      </div>
 
       <!-- Tabs -->
       <div class="auth-tabs" role="tablist">
@@ -173,13 +201,46 @@
       </form>
 
     </div>
-    <p class="auth-foot" data-en="By continuing you agree to our Terms."
-       data-bn="চালিয়ে যাওয়ার মাধ্যমে আপনি আমাদের শর্তাবলীতে সম্মত হচ্ছেন।">
-      By continuing you agree to our Terms.
+    <p class="auth-foot">
+      <span data-en="By continuing you agree to our" data-bn="চালিয়ে গেলে আপনি সম্মত হচ্ছেন আমাদের">By continuing you agree to our</span>
+      <a href="terms.html" data-en="Terms" data-bn="শর্তাবলী">Terms</a>
+      <span data-en="and" data-bn="ও">and</span>
+      <a href="privacy.html" data-en="Privacy Policy" data-bn="গোপনীয়তা নীতি">Privacy Policy</a>.
     </p>
   </main>
 </div>
 
+<script>
+(function(){
+  var R = document.documentElement, D = document;
+  function apply(l){
+    R.lang = l;
+    D.querySelectorAll('[data-en][data-bn]').forEach(function(el){
+      if (el === R) return;
+      var t = el.getAttribute('data-' + l); if (t !== null) el.textContent = t;
+    });
+    D.querySelectorAll('[data-en-placeholder]').forEach(function(el){
+      el.setAttribute('placeholder', el.getAttribute('data-' + l + '-placeholder') || '');
+    });
+    D.querySelectorAll('[data-aria-label-en]').forEach(function(el){
+      el.setAttribute('aria-label', el.getAttribute('data-aria-label-' + l) || '');
+    });
+    var b = D.getElementById('auth-lang'); if (b) b.textContent = l === 'bn' ? 'EN' : 'বাং';
+    D.title = l === 'bn' ? 'সাইন ইন · JP-Club' : 'Sign in · JP-Club';
+  }
+  apply(localStorage.getItem('nihongo_lang') || 'en');
+  D.getElementById('auth-lang').addEventListener('click', function(){
+    var n = R.lang === 'bn' ? 'en' : 'bn';
+    try { localStorage.setItem('nihongo_lang', n); } catch(e){}
+    apply(n);
+  });
+  D.getElementById('auth-theme').addEventListener('click', function(){
+    var dark = R.getAttribute('data-theme') !== 'dark';
+    if (dark) R.setAttribute('data-theme', 'dark'); else R.removeAttribute('data-theme');
+    try { localStorage.setItem('nihongo_theme', dark ? 'dark' : 'light'); } catch(e){}
+  });
+})();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
 <script src="js/supabase-config.js" defer></script>
 <script src="js/cloud.js" defer></script>
