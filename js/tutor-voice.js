@@ -126,6 +126,9 @@
       natural.forEach(function (v) { g1.appendChild(opt('n:' + v.id, v.label)); });
       voiceEl.appendChild(g1);
     }
+    var gP = document.createElement('optgroup'); gP.label = 'Free AI voice (downloads once)';
+    (window.TutorPiper ? window.TutorPiper.voices : []).forEach(function (v) { gP.appendChild(opt('p:' + v.id, v.label)); });
+    if (gP.childNodes.length) voiceEl.appendChild(gP);
     var g2 = document.createElement('optgroup'); g2.label = 'This device';
     var seenName = {}, uniq = jaVoices().filter(function (v) { if (seenName[v.name]) return false; seenName[v.name] = 1; return true; });
     var autoName = (function () {
@@ -214,8 +217,37 @@
     if (!res.ok || !data.audio) throw new Error(data.error || ('HTTP ' + res.status));
     return data.audio;
   }
+  /* Free in-browser Piper voice. Any failure falls back to the device voice. */
+  function speakPiper(text, done) {
+    onSpeechStart();
+    var mySid = speakId;
+    stopReveal();
+    window.TutorPiper.speak(text, parseFloat(rateEl.value) || 0.9).then(function (a) {
+      if (mySid !== speakId) return;
+      var fin = false;
+      player = a;
+      function finish() { if (fin) return; fin = true; stopReveal(); revealAll(); if (player === a) player = null; done(); }
+      function fallback() { if (fin) return; fin = true; stopReveal(); if (player === a) player = null; speakBrowser(text, done); }
+      a.onended = finish;
+      a.onerror = fallback;
+      a.onplay = function () {
+        onSpeechStart();
+        stopReveal();
+        revealTimer = setInterval(function () {
+          if (a.duration > 0) revealTo(Math.floor(a.currentTime / a.duration * text.length * 1.03));
+        }, 80);
+      };
+      var pr = a.play();
+      if (pr && pr.catch) pr.catch(fallback);
+    }).catch(function (e) {
+      if (mySid !== speakId) return;
+      console.warn('Piper voice unavailable, using device voice: ' + (e && e.message));
+      speakBrowser(text, done);
+    });
+  }
   function speakBot(text, done) {
     onSpeechStart();
+    if (voiceEl.value.indexOf('p:') === 0) { speakPiper(text, done); return; }
     if (!neuralKey()) { speakBrowser(text, done); return; }
     var mySid = speakId;
     stopReveal();
