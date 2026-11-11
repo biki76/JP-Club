@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light" data-furigana="on">
+<html lang="en" data-theme="light" data-furigana="on" data-auth-required>
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: data:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cdn.jsdelivr.net; worker-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Speaking Partner — JP-Club</title>
   <script>
@@ -65,6 +67,7 @@
   <link rel="stylesheet" href="css/tutor-voice.css?v=6">
   <link rel="stylesheet" href="css/tutor-live.css?v=6">
   <link rel="stylesheet" href="css/tutor-call.css?v=6">
+  <style>html[data-auth-required]:not([data-auth="ok"]):not([data-auth="offline"]) body{visibility:hidden}</style>
 </head>
 <body class="shell-body">
 <noscript data-noscript-fallback>
@@ -134,6 +137,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="js/supabase-config.js" defer></script>
   <script src="js/cloud.js" defer></script>
+  <script src="js/security/sanitize.js" defer></script>
+  <script src="js/security/jp-auth.js" defer></script>
   <script src="js/a11y.js" defer></script>
   <script src="js/pwa.js" defer></script>
   <script src="js/v2-motion.js" defer></script>

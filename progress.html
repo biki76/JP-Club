@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light" data-furigana="on">
+<html lang="en" data-theme="light" data-furigana="on" data-auth-required>
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: data:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cdn.jsdelivr.net; worker-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Progress · JP-Club</title>
 
@@ -69,6 +71,7 @@
   <script src="js/ui-lang-init.js"></script>
   <link rel="stylesheet" href="css/ui-lang.css">
   <link rel="stylesheet" href="css/progress-speaking.css">
+  <style>html[data-auth-required]:not([data-auth="ok"]):not([data-auth="offline"]) body{visibility:hidden}</style>
 </head>
 <body class="shell-body">
   <header data-shell-header></header>

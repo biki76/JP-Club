@@ -1,88 +1,71 @@
 #!/usr/bin/env node
-/* Phase 12 — deploy-time config generator.
+/* scripts/gen-config.mjs — writes js/supabase-config.js from environment variables.
  *
- * Reads Supabase credentials from environment variables and writes
- * js/supabase-config.js. Run before deploy; commit the script, not the output.
- *
- * Usage:
  *   node --env-file=.env scripts/gen-config.mjs
- *   SUPABASE_URL=... SUPABASE_PUBLISHABLE_KEY=... node scripts/gen-config.mjs
+ *   node --env-file=.env scripts/gen-config.mjs --check     # verify the committed file matches .env
  *
- * Supabase is now on "publishable" API keys (sb_publishable_*). They replace
- * the legacy anon JWT keys and are accepted by supabase-js in the same slot.
- * Both `anonKey` and `publishableKey` are written to the config so existing
- * Phase 12 code (cloud.js reads `.anonKey`) keeps working unchanged.
+ * What goes in .env (see .env.example):
+ *   SUPABASE_URL=https://<ref>.supabase.co
+ *   SUPABASE_PUBLISHABLE_KEY=sb_publishable_...
  *
- * The JWKS URL is emitted into the config for future server-side verification.
- * Client-side supabase-js does not use it — JWTs are verified by Supabase's
- * server, not by the browser.
+ * IMPORTANT — what this does and does not protect:
+ *  - A GitHub Pages site is static, so the publishable (anon) key MUST end up in the
+ *    shipped JS. That is by design; its power is limited by Row Level Security.
+ *    Keeping it in .env only keeps it out of hand-edited source and out of git history
+ *    churn — it does not make it secret.
+ *  - NEVER put service_role, GROQ_API_KEY, GEMINI_API_KEY or any sk-* key here. Those
+ *    live only in Supabase (`supabase secrets set …`). This script refuses them.
+ *  - Commit js/supabase-config.js: Pages does not run build steps, so it must be in the repo.
  */
-
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT      = resolve(__dirname, '..');
-const OUT_PATH  = resolve(ROOT, 'js/supabase-config.js');
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const OUT = resolve(ROOT, 'js/supabase-config.js');
+const check = process.argv.includes('--check');
 
-// ---------- read env ----------
-const url            = (process.env.SUPABASE_URL || '').trim().replace(/\/+$/, '');
-const publishableKey = (process.env.SUPABASE_PUBLISHABLE_KEY || '').trim();
-const jwksUrl        = (process.env.SUPABASE_JWKS_URL || '').trim();
+const url = (process.env.SUPABASE_URL || '').trim().replace(/\/+$/, '');
+const key = (process.env.SUPABASE_PUBLISHABLE_KEY || '').trim();
 
-// ---------- validate ----------
 const errors = [];
-if (!url)            errors.push('SUPABASE_URL is required');
-if (!publishableKey) errors.push('SUPABASE_PUBLISHABLE_KEY is required');
-
-if (url && !/^https:\/\/[a-z0-9-]+\.supabase\.co$/i.test(url)) {
-  errors.push(`SUPABASE_URL does not look like a Supabase project URL: ${url}`);
+if (!url) errors.push('SUPABASE_URL is required');
+if (!key) errors.push('SUPABASE_PUBLISHABLE_KEY is required');
+if (url && !/^https:\/\/[a-z0-9-]+\.supabase\.co$/i.test(url)) errors.push('SUPABASE_URL must look like https://<ref>.supabase.co');
+if (key && !(key.startsWith('sb_publishable_') || /^eyJ[\w-]+\.[\w-]+\.[\w-]+$/.test(key))) {
+  errors.push('SUPABASE_PUBLISHABLE_KEY must start with "sb_publishable_" (or be the legacy anon JWT)');
 }
-
-if (publishableKey &&
-    !publishableKey.startsWith('sb_publishable_') &&
-    !publishableKey.startsWith('eyJ')) {
-  errors.push('SUPABASE_PUBLISHABLE_KEY must start with "sb_publishable_" (new format) or "eyJ" (legacy anon JWT)');
+if (key.startsWith('sb_secret_') || /service_role/i.test(key)) errors.push('That is a SECRET key. Refusing to write it into frontend code.');
+if (/^eyJ/.test(key)) {
+  try {
+    const role = JSON.parse(Buffer.from(key.split('.')[1], 'base64url').toString()).role;
+    if (role && role !== 'anon') errors.push(`JWT role is "${role}", expected "anon". Refusing.`);
+  } catch { errors.push('Legacy key is not a decodable JWT'); }
 }
-
-if (errors.length) {
-  console.error('✗ Configuration error:');
-  errors.forEach((e) => console.error('  - ' + e));
-  console.error('\nSet these in .env and re-run with:');
-  console.error('  node --env-file=.env scripts/gen-config.mjs');
-  process.exit(1);
+for (const [k, v] of Object.entries(process.env)) {
+  if (/^(GROQ|GEMINI|OPENAI|ANTHROPIC)_/.test(k) && v) console.warn(`⚠ ${k} is set in this environment — it is ignored here and must stay server-side.`);
 }
+if (errors.length) { console.error('✗ ' + errors.join('\n✗ ')); process.exit(1); }
 
-// ---------- warnings (non-fatal) ----------
-if (!jwksUrl) {
-  console.warn('⚠ SUPABASE_JWKS_URL is not set — server-side JWT verification will need it later.');
-} else if (!/\/auth\/v1\/\.well-known\/jwks\.json$/.test(jwksUrl)) {
-  console.warn(`⚠ SUPABASE_JWKS_URL does not look like a standard JWKS endpoint: ${jwksUrl}`);
-} else if (url && !jwksUrl.startsWith(url)) {
-  console.warn(`⚠ SUPABASE_JWKS_URL host does not match SUPABASE_URL host.`);
-}
-
-// ---------- emit ----------
-const keyLine = (k) => `'${k.replace(/'/g, "\\'")}'`;
-
-const out = `/* Auto-generated by scripts/gen-config.mjs — do not edit by hand.
- * Source of truth: environment variables at build time.
- * This file is gitignored; regenerate it after cloning.
- */
+const q = (s) => `'${s.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`;
+const out = `/* Generated by scripts/gen-config.mjs — edit .env, then re-run. Safe to commit:
+ * the publishable key is public by design; access is enforced by RLS (sql/hardening.sql). */
 window.SUPABASE_CONFIG = {
-  url:            ${keyLine(url)},
-  anonKey:        ${keyLine(publishableKey)},   // legacy field — cloud.js reads this
-  publishableKey: ${keyLine(publishableKey)},   // new format, same value
-  jwksUrl:        ${keyLine(jwksUrl)},          // for future server-side JWT verification
-  redirectTo:     window.location.origin + '/auth-callback.html',
+  url:            ${q(url)},
+  publishableKey: ${q(key)},
+  anonKey:        ${q(key)},   // legacy alias read by cloud.js
+  // Resolved against the current folder so it works under /JP-Club/ on GitHub Pages.
+  redirectTo:     new URL('auth-callback.html', window.location.href).href,
   providers:      { password: true, magicLink: true, google: true }
 };
 `;
 
-await writeFile(OUT_PATH, out, 'utf8');
-
-console.log('✓ Wrote js/supabase-config.js');
-console.log('  url:            ' + url);
-console.log('  publishableKey: ' + publishableKey.slice(0, 24) + '…' + publishableKey.slice(-6));
-console.log('  jwksUrl:        ' + (jwksUrl || '(not set)'));
+if (check) {
+  const cur = await readFile(OUT, 'utf8').catch(() => '');
+  if (cur !== out) { console.error('✗ js/supabase-config.js does not match .env — run without --check'); process.exit(1); }
+  console.log('✓ js/supabase-config.js matches .env'); process.exit(0);
+}
+await writeFile(OUT, out, 'utf8');
+console.log('✓ wrote js/supabase-config.js');
+console.log('  url: ' + url);
+console.log('  key: ' + key.slice(0, 20) + '…' + key.slice(-4));

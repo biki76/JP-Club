@@ -1,0 +1,50 @@
+/* css/ai-tutor-stream.css — additions for streaming, status banner, translation line. Tokens only. */
+.ai-tutor-message-bubble.is-streaming::after {
+  content: '';
+  display: inline-block;
+  width: .5ch; height: 1.05em;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  background: currentColor;
+  opacity: .55;
+  animation: ai-tutor-caret 1s steps(2, start) infinite;
+}
+.ai-tutor-message-bubble.is-incomplete { opacity: .75; border-style: dashed; }
+.ai-tutor-message-bubble.is-incomplete::after { content: ' …'; }
+@keyframes ai-tutor-caret { to { visibility: hidden; } }
+@media (prefers-reduced-motion: reduce) {
+  .ai-tutor-message-bubble.is-streaming::after { animation: none; }
+}
+
+.ai-tutor-translation {
+  margin: 4px 4px 0;
+  font-size: .85em;
+  color: var(--ink-muted);
+  line-height: var(--lh-bn, 1.85);
+}
+
+.ai-tutor-status {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+  margin: 8px 0; padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: .9em;
+}
+.ai-tutor-status--error   { border-color: var(--danger); }
+.ai-tutor-status--offline { border-color: var(--warning); }
+.ai-tutor-status-text { flex: 1 1 14ch; overflow-wrap: anywhere; }
+.ai-tutor-status-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--tutor-accent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--tutor-accent);
+  font: inherit; cursor: pointer;
+  min-height: 36px;
+}
+.ai-tutor-status-btn:hover { background: var(--tutor-soft); }
+.ai-tutor-status-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+#ai-tutor-mode { max-width: 9.5rem; }

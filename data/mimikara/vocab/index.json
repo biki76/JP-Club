@@ -1,0 +1,113 @@
+{
+ "generated": true,
+ "version": 1,
+ "source": {
+  "file": "data/mimikara/vocabulary.json",
+  "sha": "15de7b0a2c29"
+ },
+ "total": 1659,
+ "chunkSize": 200,
+ "levels": {
+  "N3": {
+   "count": 1659,
+   "chunks": [
+    {
+     "id": "n3-001",
+     "file": "vocab-n3-001.json",
+     "bytes": 33333,
+     "gzip": 7047,
+     "sha": "49cc4b45ff7e",
+     "count": 200,
+     "first": "mimikara-n3-0001",
+     "last": "mimikara-n3-0200"
+    },
+    {
+     "id": "n3-002",
+     "file": "vocab-n3-002.json",
+     "bytes": 34256,
+     "gzip": 7217,
+     "sha": "58f53f5c8ec8",
+     "count": 200,
+     "first": "mimikara-n3-0201",
+     "last": "mimikara-n3-0400"
+    },
+    {
+     "id": "n3-003",
+     "file": "vocab-n3-003.json",
+     "bytes": 33161,
+     "gzip": 6945,
+     "sha": "dc3e55bf1e58",
+     "count": 200,
+     "first": "mimikara-n3-0401",
+     "last": "mimikara-n3-0600"
+    },
+    {
+     "id": "n3-004",
+     "file": "vocab-n3-004.json",
+     "bytes": 33770,
+     "gzip": 6953,
+     "sha": "c74d50d535bd",
+     "count": 200,
+     "first": "mimikara-n3-0601",
+     "last": "mimikara-n3-0800"
+    },
+    {
+     "id": "n3-005",
+     "file": "vocab-n3-005.json",
+     "bytes": 33863,
+     "gzip": 7205,
+     "sha": "eb37a2f952ec",
+     "count": 200,
+     "first": "mimikara-n3-0801",
+     "last": "mimikara-n3-1000"
+    },
+    {
+     "id": "n3-006",
+     "file": "vocab-n3-006.json",
+     "bytes": 33367,
+     "gzip": 6961,
+     "sha": "3bd51cade3eb",
+     "count": 200,
+     "first": "mimikara-n3-1001",
+     "last": "mimikara-n3-1200"
+    },
+    {
+     "id": "n3-007",
+     "file": "vocab-n3-007.json",
+     "bytes": 33200,
+     "gzip": 7032,
+     "sha": "90f91779f50d",
+     "count": 200,
+     "first": "mimikara-n3-1201",
+     "last": "mimikara-n3-1400"
+    },
+    {
+     "id": "n3-008",
+     "file": "vocab-n3-008.json",
+     "bytes": 33112,
+     "gzip": 7089,
+     "sha": "9d6afa5ff9a1",
+     "count": 200,
+     "first": "mimikara-n3-1401",
+     "last": "mimikara-n3-1600"
+    },
+    {
+     "id": "n3-009",
+     "file": "vocab-n3-009.json",
+     "bytes": 9849,
+     "gzip": 2309,
+     "sha": "f3a0dd0ee339",
+     "count": 59,
+     "first": "mimikara-n3-1601",
+     "last": "mimikara-n3-1659"
+    }
+   ]
+  }
+ },
+ "search": {
+  "file": "search.json",
+  "bytes": 148316,
+  "gzip": 47761,
+  "sha": "e2808ae3cb52"
+ }
+}

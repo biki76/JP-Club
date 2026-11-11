@@ -15,3 +15,11 @@
 .gr-en { margin: 0; color: var(--text-2); }
 .gr-ex { margin: 0; color: var(--text-1); }
 .gr-empty { color: var(--text-2); text-align: center; padding: 24px; }
+
+/* hardening: gr-more */
+.gr-more { margin: .5rem 0; padding: .5rem 1rem; min-height: 40px; border: 1px solid var(--border); border-radius: 999px;
+  background: var(--surface); color: var(--ink); font: inherit; cursor: pointer; }
+.gr-more:hover { background: var(--surface-2, var(--surface)); }
+.gr-more:disabled { opacity: .6; cursor: progress; }
+.gr-more:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.gr-more--page { display: block; margin: 1rem auto; }
