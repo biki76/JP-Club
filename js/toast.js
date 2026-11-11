@@ -1,38 +1,63 @@
-(function () {
+/**
+ * Unified Accessible Toast Notification System for JP-Club
+ */
+(function (global) {
   'use strict';
-  var host;
-  function isBn() { return (localStorage.getItem('nihongo_lang') || document.documentElement.lang) === 'bn'; }
-  function ensure() {
-    if (host) return host;
-    host = document.createElement('div');
-    host.className = 'v2-toasts';
-    host.setAttribute('role', 'status');
-    host.setAttribute('aria-live', 'polite');
-    document.body.appendChild(host);
-    return host;
+
+  const MAX_TOASTS = 3;
+  let container = null;
+
+  function getContainer() {
+    if (container && document.body.contains(container)) return container;
+    container = document.getElementById('jp-toast-container') || document.querySelector('.toast-container');
+    if (!container) {
+      container = document.createElement('div');
+      container.id = 'jp-toast-container';
+      container.className = 'toast-container';
+      container.setAttribute('role', 'status');
+      container.setAttribute('aria-live', 'polite');
+      container.setAttribute('aria-atomic', 'true');
+      document.body.appendChild(container);
+    }
+    return container;
   }
-  function show(en, bn, opts) {
-    opts = opts || {};
-    var el = document.createElement('div');
-    el.className = 'v2-toast v2-toast--' + (opts.type || 'info');
-    var icon = { ok: '\u2713', err: '!', info: 'i' }[opts.type || 'info'];
-    var i = document.createElement('span');
-    i.className = 'v2-toast__icon'; i.setAttribute('aria-hidden', 'true'); i.textContent = icon;
-    var s = document.createElement('span');
-    s.setAttribute('data-en', en); s.setAttribute('data-bn', bn); s.textContent = isBn() ? bn : en;
-    el.appendChild(i); el.appendChild(s);
-    ensure().appendChild(el);
-    requestAnimationFrame(function () { el.classList.add('is-in'); });
-    setTimeout(function () {
-      el.classList.remove('is-in');
-      setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 260);
-    }, opts.ms || 3800);
+
+  function showToast(message, typeOrOpts = 'info', duration = 3200) {
+    if (!message || typeof document === 'undefined' || !document.body) return null;
+
+    let type = 'info';
+    let ms = duration;
+    if (typeof typeOrOpts === 'object' && typeOrOpts !== null) {
+      type = typeOrOpts.type || 'info';
+      ms = typeOrOpts.duration || duration;
+    } else if (typeof typeOrOpts === 'string') {
+      type = typeOrOpts;
+    }
+
+    const host = getContainer();
+    while (host.children.length >= MAX_TOASTS) {
+      host.firstElementChild.remove();
+    }
+
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type} is-visible`;
+    toast.textContent = String(message);
+    host.appendChild(toast);
+
+    const timer = setTimeout(() => {
+      toast.classList.remove('is-visible');
+      setTimeout(() => toast.remove(), 220);
+    }, ms);
+
+    toast.addEventListener('click', () => {
+      clearTimeout(timer);
+      toast.remove();
+    }, { once: true });
+
+    return toast;
   }
-  window.Toast = { show: show };
-  window.addEventListener('offline', function () {
-    show("You're offline. Your progress is saved and will sync later.", 'আপনি অফলাইনে। অগ্রগতি সংরক্ষিত আছে, পরে সিঙ্ক হবে।', { type: 'info', ms: 5000 });
-  });
-  window.addEventListener('online', function () {
-    show('Back online.', 'আবার অনলাইনে।', { type: 'ok' });
-  });
-})();
+
+  global.showToast = showToast;
+  global.toast = showToast;
+  global.JPToast = { show: showToast, info: (m) => showToast(m, 'info'), success: (m) => showToast(m, 'success'), error: (m) => showToast(m, 'error') };
+})(typeof window !== 'undefined' ? window : globalThis);

@@ -1,35 +1,77 @@
-// qwen: kanji-audio — TTS speak buttons on kanji entries
-(function () {
-  if (!('speechSynthesis' in window)) return;
-  function speak(text) {
+/**
+ * Kanji Audio Controller + Global Audio Mutex (Prevents overlapping playback & Blob leaks)
+ */
+(function (global) {
+  'use strict';
+
+  let activeAudio = null;
+  let activeBlobUrl = null;
+
+  function stopAllAudio() {
     try {
-      var u = new SpeechSynthesisUtterance(text);
-      u.lang = 'ja-JP';
-      u.rate = 0.85;
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(u);
-    } catch (e) {}
-  }
-  function ensure() {
-    document.querySelectorAll('[lang="ja"]').forEach(function (el) {
-      if (el.closest('rt') || el.dataset.speakDone) return;
-      el.dataset.speakDone = '1';
-      var b = document.createElement('button');
-      b.type = 'button';
-      b.className = 'speak-btn';
-      b.setAttribute('data-speak', '1');
-      b.setAttribute('data-en', 'Play audio');
-      b.setAttribute('data-bn', 'অডিও শুনুন');
-      b.setAttribute('aria-label', 'Play audio');
-      b.textContent = '\uD83D\uDD0A';
-      b.addEventListener('click', function (ev) {
-        ev.stopPropagation();
-        ev.preventDefault();
-        speak((el.textContent || '').replace(/\uD83D\uDD0A/g, '').trim().slice(0, 40));
-      });
-      el.appendChild(b);
+      if (global.speechSynthesis && global.speechSynthesis.speaking) {
+        global.speechSynthesis.cancel();
+      }
+    } catch (_) {}
+
+    if (activeAudio) {
+      try {
+        activeAudio.pause();
+        activeAudio.currentTime = 0;
+      } catch (_) {}
+      activeAudio = null;
+    }
+
+    if (activeBlobUrl) {
+      try {
+        URL.revokeObjectURL(activeBlobUrl);
+      } catch (_) {}
+      activeBlobUrl = null;
+    }
+
+    document.querySelectorAll('audio').forEach((el) => {
+      try { el.pause(); } catch (_) {}
     });
   }
-  ensure();
-  new MutationObserver(ensure).observe(document.body, { childList: true, subtree: true });
-})();
+
+  function registerAudioInstance(audioEl, blobUrl = null) {
+    stopAllAudio();
+    activeAudio = audioEl;
+    activeBlobUrl = blobUrl;
+    if (audioEl) {
+      audioEl.addEventListener('ended', () => {
+        if (activeBlobUrl) {
+          try { URL.revokeObjectURL(activeBlobUrl); } catch (_) {}
+          activeBlobUrl = null;
+        }
+      }, { once: true });
+    }
+  }
+
+  function speakJapanese(text, rate = 0.92) {
+    if (!text) return;
+    stopAllAudio();
+
+    if (!('speechSynthesis' in global)) return;
+    const utter = new SpeechSynthesisUtterance(String(text).trim());
+    utter.lang = 'ja-JP';
+    utter.rate = rate;
+
+    const voices = global.speechSynthesis.getVoices();
+    const jpVoice = voices.find((v) => v.lang && v.lang.toLowerCase().startsWith('ja'));
+    if (jpVoice) utter.voice = jpVoice;
+
+    global.speechSynthesis.speak(utter);
+  }
+
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-kanji-speak], [data-speak-jp], .kanji-audio-btn');
+    if (!btn) return;
+    e.preventDefault();
+    const text = btn.getAttribute('data-kanji-speak') || btn.getAttribute('data-speak-jp') || btn.getAttribute('data-reading') || btn.textContent;
+    speakJapanese(text);
+  });
+
+  global.JPAudioMutex = { stopAll: stopAllAudio, register: registerAudioInstance, speak: speakJapanese };
+  global.speakJapanese = speakJapanese;
+})(typeof window !== 'undefined' ? window : globalThis);

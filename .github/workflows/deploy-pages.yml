@@ -1,0 +1,43 @@
+name: Deploy Hardened Static Site to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Stage clean public build directory
+        run: |
+          mkdir -p _site
+          cp -r *.html manifest.webmanifest sw.js og.svg .nojekyll _site/ 2>/dev/null || true
+          for dir in css js data content fonts icons images audio; do
+            [ -d "$dir" ] && cp -r "$dir" _site/
+          done
+          rm -rf _site/.env* _site/.bak-tw
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

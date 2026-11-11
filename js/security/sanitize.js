@@ -1,82 +1,99 @@
-/* js/security/sanitize.js — input hygiene helpers (no dependencies).
- * Exposes window.Sanitize. Client-side checks are UX + defence in depth;
- * the server (RLS + edge functions) is the real authority.
+/**
+ * Hardened DOM Sanitizer for JP-Club (Furigana <ruby>/<rt> + AI Tutor Markdown safe)
  */
-(function (root) {
+(function (global) {
   'use strict';
 
-  var CTRL = /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\u200B-\u200F\u202A-\u202E\u2066-\u2069]/g;
-  var ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;', '`': '&#96;' };
+  const ALLOWED_TAGS = new Set([
+    'RUBY', 'RT', 'RP', 'SPAN', 'B', 'STRONG', 'I', 'EM', 'U', 'BR',
+    'P', 'DIV', 'UL', 'OL', 'LI', 'CODE', 'PRE', 'BLOCKQUOTE',
+    'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'TABLE', 'THEAD', 'TBODY', 'TR', 'TH', 'TD', 'HR', 'A', 'SUP', 'SUB'
+  ]);
 
-  function escapeHtml(s) {
-    return String(s == null ? '' : s).replace(/[&<>"'`]/g, function (c) { return ESC[c]; });
+  const ALLOWED_ATTRS = new Set([
+    'class', 'id', 'lang', 'dir', 'title', 'role',
+    'aria-label', 'aria-hidden', 'aria-live', 'aria-expanded',
+    'data-reading', 'data-romaji', 'data-lesson', 'data-id', 'data-tab', 'data-lang',
+    'href', 'target', 'rel'
+  ]);
+
+  const SAFE_URL_RE = /^(?:https?:\/\/|mailto:|\/|\.\/|\.\.\/|#)/i;
+
+  function escapeHtml(str) {
+    return String(str ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
-  /* Free text: NFC, strip control + bidi-override chars, trim, cap length. */
-  function text(s, max) {
-    s = String(s == null ? '' : s);
-    try { s = s.normalize('NFC'); } catch (e) {}
-    s = s.replace(CTRL, '').trim();
-    var cap = max > 0 ? max : 500;
-    return s.length > cap ? s.slice(0, cap) : s;
+  function sanitizeHtml(dirty) {
+    if (dirty == null) return '';
+    const input = String(dirty);
+    if (typeof document === 'undefined') {
+      return escapeHtml(input);
+    }
+
+    const template = document.createElement('template');
+    template.innerHTML = input;
+
+    const walker = document.createTreeWalker(template.content, NodeFilter.SHOW_ELEMENT, null);
+    const nodesToRemove = [];
+
+    while (walker.nextNode()) {
+      const el = walker.currentNode;
+      const tag = el.tagName.toUpperCase();
+
+      if (!ALLOWED_TAGS.has(tag)) {
+        nodesToRemove.push({ el, unwrap: tag !== 'SCRIPT' && tag !== 'STYLE' && tag !== 'IFRAME' && tag !== 'OBJECT' && tag !== 'EMBED' && tag !== 'SVG' });
+        continue;
+      }
+
+      const attrs = Array.from(el.attributes);
+      for (const attr of attrs) {
+        const name = attr.name.toLowerCase();
+        const val = attr.value.trim().replace(/[\u0000-\u001F\u007F-\u009F\s]+/g, '');
+
+        if (name.startsWith('on') || !ALLOWED_ATTRS.has(name)) {
+          el.removeAttribute(attr.name);
+          continue;
+        }
+
+        if (name === 'href') {
+          if (!SAFE_URL_RE.test(val)) {
+            el.removeAttribute('href');
+          } else if (/^https?:\/\//i.test(val)) {
+            el.setAttribute('rel', 'noopener noreferrer');
+          }
+        }
+      }
+    }
+
+    for (const item of nodesToRemove) {
+      if (item.unwrap) {
+        const text = document.createTextNode(item.el.textContent || '');
+        item.el.replaceWith(text);
+      } else {
+        item.el.remove();
+      }
+    }
+
+    return template.innerHTML;
   }
 
-  /* Returns a normalised address or '' when invalid. */
-  function email(s) {
-    s = text(s, 254).toLowerCase();
-    return /^[a-z0-9._%+\-]+@[a-z0-9\-]+(\.[a-z0-9\-]+)*\.[a-z]{2,}$/.test(s) ? s : '';
+  function setSafeHTML(el, html) {
+    if (!el) return;
+    el.innerHTML = sanitizeHtml(html);
   }
 
-  /* Letters / marks / digits / space . ' - _ (Bengali + Japanese safe). */
-  function displayName(s) {
-    s = text(s, 200).replace(/\s+/g, ' ');
-    if (s.length < 1 || s.length > 40) return '';
-    try { return /^[\p{L}\p{M}\p{N} .'_\-]+$/u.test(s) ? s : ''; }
-    catch (e) { return /^[^<>&"`\\\/]+$/.test(s) ? s : ''; }
-  }
+  const API = { sanitizeHtml, sanitizeHTML: sanitizeHtml, escapeHtml, setSafeHTML };
+  global.JPSanitize = API;
+  global.sanitizeHtml = sanitizeHtml;
+  global.sanitizeHTML = sanitizeHtml;
+  global.escapeHtml = escapeHtml;
 
-  /* Returns an error key or null. bcrypt truncates at 72 bytes, so cap it. */
-  function passwordIssue(pw) {
-    pw = String(pw == null ? '' : pw);
-    if (pw.length < 8) return 'short';
-    if (pw.length > 72) return 'long';
-    if (!pw.trim()) return 'blank';
-    if (/^(.)\1+$/.test(pw)) return 'repeat';
-    return null;
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = API;
   }
-
-  function oneOf(v, list, fallback) {
-    return list.indexOf(v) > -1 ? v : (fallback === undefined ? '' : fallback);
-  }
-
-  /* ISO date between 1900-01-01 and (today - minAge years). '' when invalid. */
-  function birthDate(s, minAge) {
-    s = text(s, 10);
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(s)) return '';
-    var d = new Date(s + 'T00:00:00Z');
-    if (isNaN(d.getTime()) || d.toISOString().slice(0, 10) !== s) return '';
-    var max = new Date(); max.setUTCFullYear(max.getUTCFullYear() - (minAge || 0));
-    return d >= new Date('1900-01-01T00:00:00Z') && d <= max ? s : '';
-  }
-
-  /* Open-redirect guard: only same-folder *.html pages, optional ?query / #hash. */
-  var NEXT_OK = /^[a-z0-9][a-z0-9_\-]*\.html(\?[A-Za-z0-9_=&%.\-]{0,200})?(#[A-Za-z0-9_\-]{0,60})?$/i;
-  function safeNext(raw, fallback) {
-    fallback = fallback || 'home.html';
-    raw = String(raw == null ? '' : raw).trim();
-    return NEXT_OK.test(raw) ? raw : fallback;
-  }
-
-  /* Resolve a page name against the *current folder* — works on a GitHub
-   * Pages project site (/JP-Club/…) where a leading "/" would be wrong. */
-  function appUrl(rel) {
-    return new URL(String(rel), root.location.href).href;
-  }
-
-  root.Sanitize = {
-    escapeHtml: escapeHtml, text: text, email: email, displayName: displayName,
-    passwordIssue: passwordIssue, oneOf: oneOf, birthDate: birthDate,
-    safeNext: safeNext, appUrl: appUrl
-  };
-  if (typeof module !== 'undefined' && module.exports) module.exports = root.Sanitize;
 })(typeof window !== 'undefined' ? window : globalThis);

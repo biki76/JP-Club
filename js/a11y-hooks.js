@@ -1,27 +1,37 @@
-// qwen: a11y-hooks — reduced motion flag & audio keyboard shortcuts
-(function () {
-  var prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var localReduced = localStorage.getItem('NIHONGO_REDUCED_MOTION') === '1';
-  if (prefersReduced || localReduced) {
-    document.documentElement.classList.add('reduce-motion');
-    window.NIHONGO_REDUCED_MOTION = true;
-    window.dispatchEvent(new CustomEvent('nihongo:reduced-motion', { detail: true }));
+/**
+ * Singleton Accessibility Hooks (Prevents duplicate keydown listeners & skip links)
+ */
+(function (global) {
+  'use strict';
+  if (global.__JP_A11Y_HOOKS_BOUND__) return;
+  global.__JP_A11Y_HOOKS_BOUND__ = true;
+
+  function ensureSkipLink() {
+    if (!document.body || document.querySelector('.skip-to-main, .skip-link')) return;
+    const main = document.querySelector('main') || document.getElementById('main-content');
+    if (!main) return;
+    if (!main.id) main.id = 'main-content';
+
+    const skip = document.createElement('a');
+    skip.href = `#${main.id}`;
+    skip.className = 'skip-link sr-only focus:not-sr-only';
+    skip.textContent = 'Skip to main content';
+    document.body.insertBefore(skip, document.body.firstChild);
   }
-  document.addEventListener('keydown', function (e) {
-    var tag = e.target && e.target.tagName;
-    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target.isContentEditable) return;
-    if (e.code === 'Space' || e.key === 'a' || e.key === 'A') {
-      var btn = document.querySelector(
-        'button[data-action="play"]' +
-        ', button[data-audio]' +
-        ', .audio-btn:not([disabled])' +
-        ', button[aria-label*="audio" i]' +
-        ', button[aria-label*="play" i]'
-      );
-      if (btn) {
-        e.preventDefault();
-        btn.click();
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const openModal = document.querySelector('.modal.is-open, [role="dialog"]:not([hidden])');
+      if (openModal) {
+        const closeBtn = openModal.querySelector('[data-close], .modal-close, .close-btn');
+        if (closeBtn) closeBtn.click();
       }
     }
   });
-})();
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', ensureSkipLink, { once: true });
+  } else {
+    ensureSkipLink();
+  }
+})(typeof window !== 'undefined' ? window : globalThis);

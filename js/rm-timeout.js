@@ -1,16 +1,22 @@
-// qwen: rm-timeout — under reduced motion, mid-range delays (auto-advance) run instantly
+/**
+ * Fail-safe skeleton/loader cleanup without continuous DOM polling
+ */
 (function () {
-  var prefers = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var local = localStorage.getItem('NIHONGO_REDUCED_MOTION') === '1';
-  if (!prefers && !local) return;
-  var orig = window.setTimeout;
-  window.setTimeout = function (fn, ms) {
-    var args = arguments;
-    if (typeof ms === 'number' && ms >= 500 && ms <= 2500) {
-      var rest = [fn, 0];
-      for (var i = 2; i < args.length; i++) rest.push(args[i]);
-      return orig.apply(window, rest);
-    }
-    return orig.apply(window, args);
-  };
+  'use strict';
+
+  function clearStuckLoaders() {
+    const loaders = document.querySelectorAll('.is-loading, .skeleton-loader, [data-loading="true"]');
+    loaders.forEach((el) => {
+      el.classList.remove('is-loading', 'skeleton-loader');
+      el.removeAttribute('data-loading');
+      el.setAttribute('aria-busy', 'false');
+    });
+  }
+
+  // Run once after initial load + 4.5s timeout fallback, then stop completely
+  if (document.readyState === 'complete') {
+    setTimeout(clearStuckLoaders, 4500);
+  } else {
+    window.addEventListener('load', () => setTimeout(clearStuckLoaders, 4500), { once: true });
+  }
 })();
