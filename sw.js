@@ -1,4 +1,4 @@
-/* Service worker v134
+/* Service worker v136
  *  - Never caches *.supabase.co (per-user JWTs).
  *  - Precaches the app shell (pages, css, js, offline page) so the site works
  *    offline from the very first visit, under any base path (e.g. /JP-Club/).
@@ -67,7 +67,9 @@ const PRECACHE = [
   'js/home.js',
   'js/data-schemas.js',
   'js/data-loader.js',
-  'js/lesson.js',
+  'js/lesson-cover.js',
+  'js/lesson-questions.js',
+  'js/lesson-practice.js',
   'js/audio-engine.js',
   'js/audio-ui.js',
   'js/srs.js',
