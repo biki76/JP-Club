@@ -106,7 +106,7 @@ Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
   if (req.method !== "POST") return json({ error: "Method not allowed.", code: "method" }, 405);
   const origin = req.headers.get("Origin");
-  if (origin && !allowedOrigins().includes(origin)) return json({ error: "Origin not allowed.", code: "origin" }, 403);
+  if (origin && !allowedOrigins().includes(origin)) { console.warn("[voice-tutor " + requestId + "] rejected origin " + String(origin).slice(0, 100)); return json({ error: "Origin not allowed.", code: "origin" }, 403); }
 
   try {
     const header = req.headers.get("Authorization") ?? "";
@@ -117,9 +117,9 @@ Deno.serve(async (req) => {
       auth: { persistSession: false, autoRefreshToken: false },
     });
     const { data } = await sb.auth.getUser(token);
-    if (!data?.user) return json({ error: "Please sign in to use AI Tutor.", code: "unauthorized" }, 401);
+    if (!data?.user) { console.warn("[voice-tutor " + requestId + "] unauthenticated request"); return json({ error: "Please sign in to use AI Tutor.", code: "unauthorized" }, 401); }
 
-    if (limited(data.user.id)) return json({ error: "Too many requests. Please wait a moment.", code: "rate_limited" }, 429, { "Retry-After": "30" });
+    if (limited(data.user.id)) { console.warn("[voice-tutor " + requestId + "] rate limited user " + data.user.id); return json({ error: "Too many requests. Please wait a moment.", code: "rate_limited" }, 429, { "Retry-After": "30" }); }
 
     const rawBody = await req.text();
     if (rawBody.length > MAX_BODY) return json({ error: "Request too large.", code: "too_large" }, 413);
@@ -127,16 +127,24 @@ Deno.serve(async (req) => {
     try { body = JSON.parse(rawBody); } catch { return json({ error: "Invalid request.", code: "bad_json" }, 400); }
     if (!body || typeof body !== "object" || Array.isArray(body)) return json({ error: "Invalid request.", code: "bad_body" }, 400);
 
+    // FIXED_GREETING: the very first line is a checked sentence, not model output.
+    // The model used to read ムーン wrongly and say きょう… at the start.
+    if (body.start === true) {
+      const greet = "こんにちは、ムーンです。よろしくお願いします。お名前は何ですか。";
+      const tr = body.lang === "en" ? "Hello, I am Moon. Nice to meet you. What is your name?" : "নমস্কার, আমি মুন। আপনার সাথে পরিচিত হয়ে ভালো লাগছে। আপনার নাম কী?";
+      return json({ build: BUILD, markup: greet, reply: greet, translation: tr, correction: null });
+    }
     const level = LEVELS[body.level] ? body.level : "N5";
     const topic = TOPICS[body.topic] ? body.topic : "free";
     const lang = body.lang === "bn" ? "Bengali" : "English";
 
     const system =
-      "You are Moon (ムーン), a warm, easygoing native Japanese speaker having a casual voice chat with a learner at level " + level + ". " +
+      "You are Moon (ムーン), a mature, articulate and warm native Japanese speaker having a natural voice conversation with a learner at level " + level + ". Speak like an educated adult in Tokyo: calm, clear, never childish. " +
       LEVELS[level] + "\n" +
       "Topic: " + TOPICS[topic] + " Gently steer toward it.\n" +
       "How to talk:\n" +
-      "- Use aizuchi like a real Japanese listener: begin most replies with a short backchannel such as はい、 / そうですか。 / へえー。 / なるほど。 / いいですね。 and vary it.\n" +
+      "- Your name is ムーン (Moon). Always read it as ムーン. Never read it as きょう or any other word. When you introduce yourself, say ムーンです.\n" +
+      "- Use a short backchannel (そうですか。/ なるほど。/ いいですね。) only when it fits naturally, not in every reply.\n" +
       "- Keep sentences short and simple, subject + object + verb (私は寿司を食べます). Use easy positive adjectives like 楽しい、おいしい、すごい. Always stay polite (です/ます).\n" +
       "- If the learner says もう一度お願いします or seems not to understand, repeat your last sentence once, slower and simpler.\n" +
       "- Sound like a real person on a phone call, not a teacher or an assistant. Casual-polite (です/ます). Short: one sentence, two at most, usually ending with one short question.\n" +

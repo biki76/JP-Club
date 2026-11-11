@@ -127,8 +127,15 @@
       voiceEl.appendChild(g1);
     }
     var g2 = document.createElement('optgroup'); g2.label = 'This device';
-    g2.appendChild(opt('b:', 'Device voice (auto)'));
-    jaVoices().forEach(function (v) { g2.appendChild(opt('b:' + v.voiceURI, v.name)); });
+    var seenName = {}, uniq = jaVoices().filter(function (v) { if (seenName[v.name]) return false; seenName[v.name] = 1; return true; });
+    var autoName = (function () {
+      var l = jaVoices(), best = null, score = -1;   // autoVoiceName: same rule as pickVoice()
+      l.forEach(function (v) { var s = /natural|neural|online|premium|enhanced/i.test(v.name) ? 3 : (/google/i.test(v.name) ? 2 : 1); if (s > score) { score = s; best = v; } });
+      return best ? best.name : '';
+    })();
+    g2.label = 'This device \u2014 ' + uniq.length + ' Japanese voice' + (uniq.length === 1 ? '' : 's') + ' installed';
+    g2.appendChild(opt('b:', autoName ? 'Auto \u2014 ' + autoName : 'Auto (no Japanese voice on this device)'));
+    uniq.forEach(function (v) { g2.appendChild(opt('b:' + v.voiceURI, v.name)); });
     voiceEl.appendChild(g2);
     voiceEl.value = keep;
     if (voiceEl.value !== keep) voiceEl.value = natural.length ? ('n:' + natural[0].id) : 'b:';
