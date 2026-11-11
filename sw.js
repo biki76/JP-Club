@@ -10,7 +10,7 @@
  */
 'use strict';
 
-const VERSION    = 'v134';
+const VERSION    = 'v135';
 const APP_CACHE  = `nihongo-${VERSION}-app`;
 const DATA_CACHE = `nihongo-${VERSION}-data`;
 const EXT_CACHE  = `nihongo-${VERSION}-ext`;
@@ -82,6 +82,9 @@ const PRECACHE = [
   'js/pwa.js',
   'js/supabase-config.js',
   'js/cloud.js',
+  'js/security/sanitize.js',
+  'js/security/jp-auth.js',
+  'js/data-chunks.js',
   'js/auth-ui.js',
   'js/toasts.js',
   'js/streak-prompt.js',

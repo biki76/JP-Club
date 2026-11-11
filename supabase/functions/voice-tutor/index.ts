@@ -1,11 +1,54 @@
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+// supabase/functions/voice-tutor/index.ts — spoken-conversation tutor (Groq).
+//
+// Single file on purpose: paste it into the dashboard editor (Edge Functions → voice-tutor → Code).
+// Secrets:  GROQ_API_KEY, optional ALLOWED_ORIGINS="https://biki76.github.io,http://localhost:8000"
+// Keep "Verify JWT" ON.
+//
+// What changed vs the old version (prompt/parse logic is untouched):
+//  - Groq/upstream errors are logged on the server only; the browser gets a generic message + requestId
+//  - CORS allow-list instead of "*"
+//  - per-user rate limit (best effort, in-memory), request timeout, input validation
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2.45.4";
 
-const BUILD = "v6";
+const BUILD = "v7";
 const MODEL = "openai/gpt-oss-120b";
-const CORS = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
-};
+const DEFAULT_ORIGINS = ["https://biki76.github.io", "http://localhost:8000", "http://127.0.0.1:8000"];
+const PER_MINUTE = 12;          // per user, per function instance
+const UPSTREAM_TIMEOUT_MS = 30_000;
+const MAX_BODY = 16 * 1024;
+
+function allowedOrigins(): string[] {
+  const list = (Deno.env.get("ALLOWED_ORIGINS") ?? "").split(",").map((s) => s.trim().replace(/\/+$/, "")).filter(Boolean);
+  return list.length ? list : DEFAULT_ORIGINS;
+}
+function corsFor(req: Request): Record<string, string> {
+  const origin = req.headers.get("Origin");
+  const h: Record<string, string> = {
+    "Vary": "Origin",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+    "Access-Control-Max-Age": "86400",
+  };
+  if (origin && allowedOrigins().includes(origin)) h["Access-Control-Allow-Origin"] = origin;
+  return h;
+}
+
+// best-effort limiter: instances are short-lived, so this blunts bursts, it is not a hard quota
+const hits = new Map<string, number[]>();
+function limited(userId: string): boolean {
+  const now = Date.now();
+  const recent = (hits.get(userId) ?? []).filter((t) => now - t < 60_000);
+  if (recent.length >= PER_MINUTE) { hits.set(userId, recent); return true; }
+  recent.push(now); hits.set(userId, recent);
+  if (hits.size > 5000) for (const [k, v] of hits) if (!v.some((t) => now - t < 60_000)) hits.delete(k);
+  return false;
+}
+
+// control chars, zero-width + bidi overrides
+const CTRL = /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\u200B-\u200F\u202A-\u202E\u2066-\u2069]/g;
+function clean(v: unknown, max: number): string {
+  return (typeof v === "string" ? v : "").normalize("NFC").replace(CTRL, "").trim().slice(0, max);
+}
 const LEVELS: Record<string, string> = {
   N5: "Complete beginner. Use only very simple Japanese (です/ます, basic words, mostly hiragana), one short sentence.",
   N4: "Elementary. Simple sentences, common te-form and basic grammar, everyday topics.",
@@ -24,13 +67,6 @@ const TOPICS: Record<string, string> = {
   travel: "Travel: directions, trains, hotels and sightseeing. Role-play station staff or a hotel clerk when natural.",
   shop: "Shopping: prices, sizes, colors and paying. Role-play a shop clerk when natural.",
 };
-
-function json(body: unknown, status = 200) {
-  return new Response(JSON.stringify(body), {
-    status,
-    headers: { ...CORS, "Content-Type": "application/json" },
-  });
-}
 
 function strip(s: string) {
   return s.replace(/\{([^|{}]*)\|[^{}]*\}/g, "$1").replace(/[{}|]/g, "").trim();
@@ -59,17 +95,38 @@ function parse(content: string) {
 }
 
 Deno.serve(async (req) => {
-  if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
-  try {
-    const sb = createClient(
-      Deno.env.get("SUPABASE_URL")!,
-      Deno.env.get("SUPABASE_ANON_KEY")!,
-      { global: { headers: { Authorization: req.headers.get("Authorization") ?? "" } } },
-    );
-    const { data } = await sb.auth.getUser();
-    if (!data?.user) return json({ error: "Please sign in to use AI Tutor." }, 401);
+  const requestId = crypto.randomUUID().slice(0, 8);
+  const cors = corsFor(req);
+  const json = (body: Record<string, unknown>, status = 200, extra: Record<string, string> = {}) =>
+    new Response(JSON.stringify(status >= 400 ? { ...body, requestId } : body), {
+      status,
+      headers: { ...cors, ...extra, "Content-Type": "application/json", "Cache-Control": "no-store", "X-Content-Type-Options": "nosniff" },
+    });
 
-    const body = await req.json();
+  if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
+  if (req.method !== "POST") return json({ error: "Method not allowed.", code: "method" }, 405);
+  const origin = req.headers.get("Origin");
+  if (origin && !allowedOrigins().includes(origin)) return json({ error: "Origin not allowed.", code: "origin" }, 403);
+
+  try {
+    const header = req.headers.get("Authorization") ?? "";
+    const token = header.startsWith("Bearer ") ? header.slice(7).trim() : "";
+    if (!token) return json({ error: "Please sign in to use AI Tutor.", code: "unauthorized" }, 401);
+    const sb = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_ANON_KEY")!, {
+      global: { headers: { Authorization: `Bearer ${token}` } },
+      auth: { persistSession: false, autoRefreshToken: false },
+    });
+    const { data } = await sb.auth.getUser(token);
+    if (!data?.user) return json({ error: "Please sign in to use AI Tutor.", code: "unauthorized" }, 401);
+
+    if (limited(data.user.id)) return json({ error: "Too many requests. Please wait a moment.", code: "rate_limited" }, 429, { "Retry-After": "30" });
+
+    const rawBody = await req.text();
+    if (rawBody.length > MAX_BODY) return json({ error: "Request too large.", code: "too_large" }, 413);
+    let body: any;
+    try { body = JSON.parse(rawBody); } catch { return json({ error: "Invalid request.", code: "bad_json" }, 400); }
+    if (!body || typeof body !== "object" || Array.isArray(body)) return json({ error: "Invalid request.", code: "bad_body" }, 400);
+
     const level = LEVELS[body.level] ? body.level : "N5";
     const topic = TOPICS[body.topic] ? body.topic : "free";
     const lang = body.lang === "bn" ? "Bengali" : "English";
@@ -87,7 +144,7 @@ Deno.serve(async (req) => {
       "- Match the learner's pace: if they answer slowly, briefly or with mistakes, use simpler words and shorter sentences. If they are fluent, raise difficulty slightly but stay within the level.\n" +
       "- If the learner writes in " + lang + " or seems stuck, offer one very simple Japanese phrase they can say.\n" +
       "- Identity: your name is Moon (ムーン). You are the AI speaking tutor of JP-Club by Nihonsync, a site that helps Bengali-speaking learners practice Japanese. When asked who you are, your name, who made you or what you are, say you are Moon, JP-Club's AI tutor from Nihonsync, in Japanese at the learner's level. Never call yourself ChatGPT, GPT, OpenAI, Claude, Gemini or any other model or company name. If asked which AI model or company is behind you, say you are JP-Club's tutor and do not know the technical details. If asked whether you are an AI, say yes briefly. Never claim to be human.\n" +
-      (body.interrupted ? "- The learner just interrupted you mid-sentence. Respond directly to what they said now. Do not finish your earlier sentence.\n" : "") +
+      (body.interrupted === true ? "- The learner just interrupted you mid-sentence. Respond directly to what they said now. Do not finish your earlier sentence.\n" : "") +
       "Corrections: if the learner's last message has a clear grammar, particle or word mistake, give the corrected version and a one-sentence reason in " + lang + ". Fix only the single most important mistake. If it was fine, FIX is none.\n" +
       "The learner's text comes from speech recognition: ignore punctuation, spacing and kanji/kana choice, and treat likely mishearings as recognition errors, not mistakes.\n" +
       "Output exactly these three lines, plain text, no markdown, no romaji:\n" +
@@ -100,39 +157,53 @@ Deno.serve(async (req) => {
     const messages: { role: string; content: string }[] = [{ role: "system", content: system }];
     const history = Array.isArray(body.history) ? body.history.slice(-10) : [];
     for (const m of history) {
-      if ((m.role === "user" || m.role === "assistant") && typeof m.content === "string") {
-        const c = m.content.slice(0, 500);
+      if (m && (m.role === "user" || m.role === "assistant") && typeof m.content === "string") {
+        const c = clean(m.content, 500);
+        if (!c) continue;
         messages.push({ role: m.role, content: m.role === "assistant" ? "JP: " + c : c });
       }
     }
-    const text = typeof body.text === "string" ? body.text.slice(0, 500) : "";
+    const text = clean(body.text, 500);
     messages.push({
       role: "user",
-      content: body.start ? "(Start: greet me casually in one short sentence, tell me you are Moon, and ask one easy question.)" : text,
+      content: body.start === true ? "(Start: greet me casually in one short sentence, tell me you are Moon, and ask one easy question.)" : text,
     });
 
-    const r = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        Authorization: "Bearer " + Deno.env.get("GROQ_API_KEY"),
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        temperature: 0.7,
-        max_tokens: 3000,
-        reasoning_effort: "low",
-        messages,
-      }),
-    });
+    const groqKey = Deno.env.get("GROQ_API_KEY");
+    if (!groqKey) {
+      console.error(`[voice-tutor ${requestId}] GROQ_API_KEY secret missing`);
+      return json({ error: "The tutor is unavailable right now.", code: "unavailable" }, 503);
+    }
+
+    let r: Response;
+    try {
+      r = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+        method: "POST",
+        headers: { Authorization: "Bearer " + groqKey, "Content-Type": "application/json" },
+        body: JSON.stringify({ model: MODEL, temperature: 0.7, max_tokens: 3000, reasoning_effort: "low", messages }),
+        signal: AbortSignal.timeout(UPSTREAM_TIMEOUT_MS),
+      });
+    } catch (e) {
+      console.error(`[voice-tutor ${requestId}] groq request failed:`, e);
+      return json({ error: "The tutor took too long to answer. Please try again.", code: "timeout" }, 504);
+    }
     const raw = await r.text();
-    if (!r.ok) return json({ error: "[" + BUILD + "] Groq " + r.status + ": " + raw.slice(0, 300) }, 502);
+    if (!r.ok) {
+      console.error(`[voice-tutor ${requestId}] groq ${r.status}: ${raw.slice(0, 300)}`);
+      return json({ error: "The tutor is busy right now. Please try again.", code: r.status === 429 ? "busy" : "upstream" }, r.status === 429 ? 429 : 502);
+    }
 
-    const content = String(JSON.parse(raw).choices?.[0]?.message?.content ?? "");
+    let content = "";
+    try { content = String(JSON.parse(raw).choices?.[0]?.message?.content ?? ""); }
+    catch { console.error(`[voice-tutor ${requestId}] groq returned non-JSON: ${raw.slice(0, 200)}`); }
     const out = parse(content);
-    if (!out.reply) return json({ error: "[" + BUILD + "] Empty reply, please try again." }, 502);
+    if (!out.reply) {
+      console.error(`[voice-tutor ${requestId}] empty reply from model`);
+      return json({ error: "The tutor did not answer. Please try again.", code: "empty" }, 502);
+    }
     return json({ build: BUILD, ...out });
   } catch (e) {
-    return json({ error: "[" + BUILD + "] " + String((e as Error)?.message ?? e) }, 500);
+    console.error(`[voice-tutor ${requestId}]`, e);
+    return json({ error: "Something went wrong. Please try again.", code: "internal" }, 500);
   }
 });

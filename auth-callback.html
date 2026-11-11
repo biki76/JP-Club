@@ -2,13 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: data:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cdn.jsdelivr.net; worker-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
 <title data-en="Signing in…" data-bn="সাইন ইন হচ্ছে…">Signing in…</title>
 <script>
 (function(){
-  var t = localStorage.getItem('nihongo_theme') || 'light';
-  var l = localStorage.getItem('nihongo_lang') || 'en';
-  document.documentElement.classList.toggle('dark', t === 'dark');
-  document.documentElement.lang = l;
+  try {
+    var t = localStorage.getItem('nihongo_theme') || 'light';
+    var l = localStorage.getItem('nihongo_lang') || 'en';
+    document.documentElement.classList.toggle('dark', t === 'dark');
+    document.documentElement.lang = l === 'bn' ? 'bn' : 'en';
+  } catch (e) {}
 })();
 </script>
 <link rel="stylesheet" href="css/tokens.css">
@@ -17,51 +24,72 @@
   body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
          background:var(--bg); color:var(--text); font-family:var(--font-en); }
   .spin { width:40px; height:40px; border:3px solid var(--border);
-          border-top-color:var(--accent); border-radius:50%; animation:sp 0.8s linear infinite; }
+          border-top-color:var(--accent); border-radius:50%; animation:sp .8s linear infinite; }
   @keyframes sp { to { transform: rotate(360deg); } }
-  .wrap { text-align:center; }
-  .err { color:var(--danger,#c0392b); margin-top:1rem; font-size:0.9rem; }
+  @media (prefers-reduced-motion: reduce) { .spin { animation-duration: 3s; } }
+  .wrap { text-align:center; padding:1rem; }
+  .err { color:var(--danger,#c0392b); margin-top:1rem; font-size:.9rem; }
+  .back { display:inline-block; margin-top:1rem; }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <div class="spin"></div>
-  <p data-en="Finishing sign in…" data-bn="সাইন ইন শেষ হচ্ছে…">Finishing sign in…</p>
+<div class="wrap" role="status" aria-live="polite">
+  <div class="spin" id="spin"></div>
+  <p id="msg" data-en="Finishing sign in…" data-bn="সাইন ইন শেষ হচ্ছে…">Finishing sign in…</p>
   <p class="err" id="err" hidden></p>
+  <a class="back" id="back" href="auth.html" hidden data-en="Back to sign in" data-bn="সাইন ইনে ফিরে যান">Back to sign in</a>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
 <script src="js/supabase-config.js" defer></script>
+<script src="js/security/sanitize.js" defer></script>
+<script src="js/security/jp-auth.js" defer></script>
 <script src="js/cloud.js" defer></script>
 <script defer>
-window.addEventListener('load', async () => {
-  const errEl = document.getElementById('err');
-  try {
-    const { data: { session }, error } = await window.supabase.auth.getSession();
-    if (error) throw error;
-    if (!session) { errEl.textContent = 'No session. Try signing in again.'; errEl.hidden = false; return; }
-
-    // If profile row missing, create it from user_metadata (OAuth case)
-    const meta = session.user.user_metadata || {};
-    const { data: existing } = await window.supabase
-      .from('profiles').select('id').eq('id', session.user.id).single();
-
-    if (!existing) {
-      await window.supabase.from('profiles').upsert({
-        id: session.user.id,
-        email: session.user.email,
-        display_name: meta.full_name || meta.name || session.user.email,
-        updated_at: new Date().toISOString()
-      });
-    }
-
-    // Restore local prefs and redirect
-    localStorage.setItem('nihongo_sync_user', session.user.id);
-    if (window.CloudSync) await window.CloudSync.pull();
-    window.location.href = new URL('home.html', window.location.href).href;
-  } catch (e) {
-    errEl.textContent = e.message || 'Something went wrong.';
+window.addEventListener('load', async function () {
+  var bn = document.documentElement.lang === 'bn';
+  var errEl = document.getElementById('err');
+  function fail(en, bnText) {
+    document.getElementById('spin').hidden = true;
+    document.getElementById('msg').hidden = true;
+    errEl.textContent = bn ? bnText : en;
     errEl.hidden = false;
+    document.getElementById('back').hidden = false;
+  }
+
+  // Provider errors arrive as ?error=… or #error=… — show a generic message, never the raw text.
+  var qs = new URLSearchParams(location.search), hs = new URLSearchParams(location.hash.slice(1));
+  if (qs.get('error') || hs.get('error')) {
+    return fail('Sign in was cancelled or failed. Please try again.', 'সাইন ইন বাতিল বা ব্যর্থ হয়েছে। আবার চেষ্টা করুন।');
+  }
+
+  try {
+    var client = await window.JPAuth.ready(8000);   // detectSessionInUrl exchanges ?code= (PKCE)
+
+    // Wait (max ~6 s) for the code exchange to produce a session.
+    var session = null;
+    for (var i = 0; i < 30 && !session; i++) {
+      var r = await client.auth.getSession();
+      session = r && r.data && r.data.session;
+      if (!session) await new Promise(function (res) { setTimeout(res, 200); });
+    }
+    if (!session) return fail('No session found. Try signing in again.', 'সেশন পাওয়া যায়নি। আবার সাইন ইন করুন।');
+
+    // Server-validate the JWT before trusting it.
+    var v = await window.JPAuth.verifiedUser();
+    if (!v.user) return fail('Could not verify your session. Try again.', 'সেশন যাচাই করা যায়নি। আবার চেষ্টা করুন।');
+
+    // Profile row is created by the DB trigger (sql/hardening.sql); nothing to upsert here.
+    try { localStorage.setItem('nihongo_sync_user', v.user.id); } catch (e) {}
+    if (window.CloudSync && window.CloudSync.pull) { try { await window.CloudSync.pull(); } catch (e) {} }
+
+    var next = 'home.html';
+    try { next = window.Sanitize.safeNext(sessionStorage.getItem('jp_auth_next'), 'home.html'); sessionStorage.removeItem('jp_auth_next'); } catch (e) {}
+    // Strip ?code= / tokens from history before leaving.
+    history.replaceState(null, '', location.pathname);
+    location.replace(window.Sanitize.appUrl(next));
+  } catch (e) {
+    fail('Sign-in service unavailable. Please try again.', 'সাইন-ইন সেবা পাওয়া যাচ্ছে না। আবার চেষ্টা করুন।');
   }
 });
 </script>

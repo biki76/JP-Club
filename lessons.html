@@ -6,6 +6,8 @@
   if(t)d.setAttribute('data-theme',t);if(f)d.setAttribute('data-furigana',f);if(l)d.setAttribute('lang',l);}catch(e){}})();
   </script>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: data:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://cdn.jsdelivr.net; worker-src 'self'; manifest-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lessons · JP-Club</title>
   <meta name="description" content="All 50 Minna no Nihongo lessons with progress, JLPT levels and resume.">
@@ -72,6 +74,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="js/supabase-config.js" defer></script>
   <script src="js/cloud.js" defer></script>
+  <script src="js/security/sanitize.js" defer></script>
+  <script src="js/security/jp-auth.js" defer></script>
   <script src="js/a11y.js" defer></script>
   <script src="js/pwa.js" defer></script>
   <script src="js/v2-motion.js" defer></script>
