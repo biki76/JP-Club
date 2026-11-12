@@ -70,3 +70,26 @@
 
   window.TutorPiper = { speak: speak, voices: VOICES.slice() };
 })();
+
+
+// Diagnostic notice when Piper falls back to device voice + free native male voice detector
+window.notifyPiperFallback = function(reason) {
+  const msg = 'Piper voice fallback (' + (reason || 'model unavailable') + ') — using device Japanese voice.';
+  console.warn('[Piper TTS]', msg);
+  const banner = document.getElementById('voice-fallback-notice') || document.querySelector('.voice-fallback-notice');
+  if (banner) {
+    banner.textContent = msg;
+    banner.hidden = false;
+  } else if (typeof window.showToast === 'function') {
+    window.showToast(msg, 'info', 4000);
+  }
+  window.dispatchEvent(new CustomEvent('jp:piper-fallback-notice', { detail: { reason: msg } }));
+};
+
+window.getFreeJapaneseDeviceVoices = function() {
+  if (!('speechSynthesis' in window)) return { female: null, male: null, all: [] };
+  const jaVoices = window.speechSynthesis.getVoices().filter(v => /^ja(-|_|$)/i.test(v.lang));
+  const male = jaVoices.find(v => /ichiro|keita|otoya|male|takumi|kenji/i.test(v.name)) || jaVoices[1] || jaVoices[0] || null;
+  const female = jaVoices.find(v => /haruka|ayumi|nanami|kyoko|female|sayaka|hikari/i.test(v.name)) || jaVoices[0] || null;
+  return { female, male, all: jaVoices };
+};

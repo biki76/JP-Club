@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'jp-club-v14.2';
+const CACHE_VERSION = 'jp-club-v14.3';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
 
@@ -20,7 +20,13 @@ const CORE_ASSETS = [
   './js/security/sanitize.js',
   './js/security/jp-auth.js',
   './js/store.js',
-  './js/data-loader.js'
+  './js/data-loader.js",
+  "./js/lesson-cover.js",
+  "./js/lesson-questions.js",
+  "./js/lesson-practice.js",
+  "./js/srs-engine.js",
+  "./js/offline-db.js",
+  "./js/sync-queue.js'
 ];
 
 self.addEventListener('install', (event) => {
