@@ -64,7 +64,16 @@
   <link rel="stylesheet" href="css/slimo.css">
   <script src="js/ui-lang-init.js"></script>
   <link rel="stylesheet" href="css/ui-lang.css">
-</head>
+<script>
+    if("serviceWorker" in navigator) {
+      navigator.serviceWorker.getRegistrations().then(regs => {
+        for(let reg of regs) {
+          reg.unregister();
+          console.log("Service Worker forcefully wiped");
+        }
+      });
+    }
+  </script></head>
 <body class="shell-body">
 <noscript data-noscript-fallback>
   <nav style="padding:16px;font-family:sans-serif">
