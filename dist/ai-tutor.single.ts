@@ -2,31 +2,31 @@
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.45.4';
 
 // ───── _shared/cors.ts ─────
-// _shared/cors.ts — origin allow-list instead of `Access-Control-Allow-Origin: *`.
-// Configure with:  supabase secrets set ALLOWED_ORIGINS="https://biki76.github.io,http://localhost:8000"
-// (An origin is scheme+host+port only — no path. The Pages project path /JP-Club/ is NOT part of it.)
+const ALLOWED_ORIGINS = new Set([
+  'https://biki76.github.io',
+  'http://localhost:3000',
+  'http://localhost:5173',
+  'http://127.0.0.1:5500',
+  'http://localhost:8080'
+]);
 
-const DEFAULTS = ['https://biki76.github.io', 'http://localhost:8000', 'http://127.0.0.1:8000'];
+const corsHeaders = {
+  'Access-Control-Allow-Origin': 'https://biki76.github.io',
+  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+  'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
+  'Access-Control-Max-Age': '86400',
+  'Vary': 'Origin'
+};
 
-function allowedOrigins(raw: string | undefined | null): string[] {
-  const list = (raw || '').split(',').map((s) => s.trim().replace(/\/+$/, '')).filter(Boolean);
-  return list.length ? list : DEFAULTS;
-}
-
-function isAllowed(origin: string | null, allowed: string[]): boolean {
-  return !!origin && allowed.includes(origin);
-}
-
-function corsHeaders(origin: string | null, allowed: string[]): Record<string, string> {
-  const h: Record<string, string> = {
-    'Vary': 'Origin',
-    'Access-Control-Allow-Methods': 'POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'authorization, apikey, content-type, x-client-info',
-    'Access-Control-Expose-Headers': 'Retry-After',
-    'Access-Control-Max-Age': '86400',
+function getDynamicCorsHeaders(req?: Request): Record<string, string> {
+  if (!req) return corsHeaders;
+  const origin = req.headers.get('origin') || '';
+  return {
+    ...corsHeaders,
+    'Access-Control-Allow-Origin': ALLOWED_ORIGINS.has(origin)
+      ? origin
+      : 'https://biki76.github.io'
   };
-  if (isAllowed(origin, allowed)) h['Access-Control-Allow-Origin'] = origin as string;
-  return h;
 }
 
 // ───── ai-tutor/lib/validate.ts ─────
@@ -208,6 +208,7 @@ interface PromptOptions {
 }
 
 function buildSystemPrompt(o: PromptOptions): string {
+  const __ttsRules = NATURAL_SPEECH_RULES;
   const spec = LEVEL_SPEC[o.level];
   const lang = o.lang === 'bn' ? 'Bengali (বাংলা)' : 'English';
   const lines = [
@@ -247,6 +248,17 @@ const OFFLINE_PRACTICE: Record<Level, string[]> = {
   N4: ['きのう ともだちと えいがを みました。', 'にほんへ いったことが ありますか。', 'あした あめが ふったら、うちに います。'],
   N3: ['日本語が上手になるように、毎日練習しています。', '来月から引っ越すことになりました。', '電車が遅れたせいで、会議に間に合わなかった。'],
 };
+
+
+const NATURAL_SPEECH_RULES = `
+【音声出力・話し言葉の厳守ルール】
+1. 自然な話し言葉（話し言葉）で話し、硬い書き言葉は使わないでください。長い文は短く区切ってください。
+2. 丁寧語（です・ます調）と一人称「わたし」を一貫して使ってください。
+3. 自然な温かみを出すために、文末に「ね」「よ」「かな」などの終助詞を控えめに添えてください。
+4. 音声合成が自然な間（ポーズ）を取れるよう、読点「、」と句点「。」を適切に入れてください。
+5. 難読漢字、読み間違いやすい言葉（きょう、わたし、いちにち、なに、〜つ、〜人など）、珍しい固有名詞は、ひらがな・カタカナで表記してください。
+6. 落ち着いた優しいトーンで、一度に1〜2文以内で簡潔に返答してください。
+`;
 
 // ───── ai-tutor/lib/parser.ts ─────
 // lib/parser.ts — incremental parser for the tutor's line protocol.

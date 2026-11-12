@@ -71,6 +71,7 @@ export interface PromptOptions {
 }
 
 export function buildSystemPrompt(o: PromptOptions): string {
+  const __ttsRules = NATURAL_SPEECH_RULES;
   const spec = LEVEL_SPEC[o.level];
   const lang = o.lang === 'bn' ? 'Bengali (বাংলা)' : 'English';
   const lines = [
@@ -110,3 +111,14 @@ export const OFFLINE_PRACTICE: Record<Level, string[]> = {
   N4: ['きのう ともだちと えいがを みました。', 'にほんへ いったことが ありますか。', 'あした あめが ふったら、うちに います。'],
   N3: ['日本語が上手になるように、毎日練習しています。', '来月から引っ越すことになりました。', '電車が遅れたせいで、会議に間に合わなかった。'],
 };
+
+
+export const NATURAL_SPEECH_RULES = `
+【音声出力・話し言葉の厳守ルール】
+1. 自然な話し言葉（話し言葉）で話し、硬い書き言葉は使わないでください。長い文は短く区切ってください。
+2. 丁寧語（です・ます調）と一人称「わたし」を一貫して使ってください。
+3. 自然な温かみを出すために、文末に「ね」「よ」「かな」などの終助詞を控えめに添えてください。
+4. 音声合成が自然な間（ポーズ）を取れるよう、読点「、」と句点「。」を適切に入れてください。
+5. 難読漢字、読み間違いやすい言葉（きょう、わたし、いちにち、なに、〜つ、〜人など）、珍しい固有名詞は、ひらがな・カタカナで表記してください。
+6. 落ち着いた優しいトーンで、一度に1〜2文以内で簡潔に返答してください。
+`;
