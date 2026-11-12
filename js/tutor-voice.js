@@ -126,7 +126,7 @@
       natural.forEach(function (v) { g1.appendChild(opt('n:' + v.id, v.label)); });
       voiceEl.appendChild(g1);
     }
-    var gP = document.createElement('optgroup'); gP.label = 'Free AI voice (downloads once)';
+    var gP = document.createElement('optgroup'); gP.label = 'Free AI';
     (window.TutorPiper ? window.TutorPiper.voices : []).forEach(function (v) { gP.appendChild(opt('p:' + v.id, v.label)); });
     if (gP.childNodes.length) voiceEl.appendChild(gP);
     var g2 = document.createElement('optgroup'); g2.label = 'This device';
@@ -136,7 +136,7 @@
       l.forEach(function (v) { var s = /natural|neural|online|premium|enhanced/i.test(v.name) ? 3 : (/google/i.test(v.name) ? 2 : 1); if (s > score) { score = s; best = v; } });
       return best ? best.name : '';
     })();
-    g2.label = 'This device \u2014 ' + uniq.length + ' Japanese voice' + (uniq.length === 1 ? '' : 's') + ' installed';
+    g2.label = 'Device';
     g2.appendChild(opt('b:', autoName ? 'Auto \u2014 ' + autoName : 'Auto (no Japanese voice on this device)'));
     uniq.forEach(function (v) { g2.appendChild(opt('b:' + v.voiceURI, v.name)); });
     voiceEl.appendChild(g2);
@@ -217,6 +217,20 @@
     if (!res.ok || !data.audio) throw new Error(data.error || ('HTTP ' + res.status));
     return data.audio;
   }
+  /* Visible, auto-hiding notice so a silent fallback to the device voice is never mistaken for the free voice. */
+  function showVoiceNotice(msg) {
+    var n = document.getElementById('tutor-voice-notice');
+    if (!n) {
+      n = document.createElement('div');
+      n.id = 'tutor-voice-notice';
+      n.setAttribute('role', 'status');
+      n.style.cssText = 'position:fixed;left:12px;right:12px;bottom:96px;z-index:9999;padding:10px 12px;border-radius:10px;background:#1f2937;color:#fff;font-size:14px;line-height:1.4;';
+      document.body.appendChild(n);
+    }
+    n.textContent = msg;
+    clearTimeout(n._t);
+    n._t = setTimeout(function () { n.textContent = ''; }, 7000);
+  }
   /* Free in-browser Piper voice. Any failure falls back to the device voice. */
   function speakPiper(text, done) {
     onSpeechStart();
@@ -227,7 +241,7 @@
       var fin = false;
       player = a;
       function finish() { if (fin) return; fin = true; stopReveal(); revealAll(); if (player === a) player = null; done(); }
-      function fallback() { if (fin) return; fin = true; stopReveal(); if (player === a) player = null; speakBrowser(text, done); }
+      function fallback() { if (fin) return; fin = true; stopReveal(); if (player === a) player = null; showVoiceNotice('Free voice could not play. Using device voice.'); speakBrowser(text, done); }
       a.onended = finish;
       a.onerror = fallback;
       a.onplay = function () {
@@ -242,6 +256,7 @@
     }).catch(function (e) {
       if (mySid !== speakId) return;
       console.warn('Piper voice unavailable, using device voice: ' + (e && e.message));
+      showVoiceNotice('Free voice unavailable (' + ((e && e.message) || 'unknown') + '). Using device voice.');
       speakBrowser(text, done);
     });
   }

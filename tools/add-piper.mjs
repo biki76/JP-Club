@@ -75,7 +75,7 @@ await edit('tutor.html', 'importmap + engine script + cache bump + CSP', (s) => 
 
 /* ── tutor-voice.js ── */
 await edit('js/tutor-voice.js', 'free AI voice menu entry', (s) => {
-  if (s.includes("'p:tsukuyomi'")) return { text: s };
+  if (s.includes("var gP = document.createElement('optgroup')")) return { text: s };   // already applied
   return replaceOnce(s,
     "    var g2 = document.createElement('optgroup'); g2.label = 'This device';",
     "    var gP = document.createElement('optgroup'); gP.label = 'Free AI voice (downloads once)';\n" +

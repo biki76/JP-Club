@@ -14,7 +14,7 @@
   'use strict';
 
   var VOICES = [
-    { id: 'tsukuyomi', label: 'Tsukuyomi — Piper (free)' }
+    { id: 'tsukuyomi', label: 'Tsukuyomi (Piper, free)' }
   ];
   var modPromise = null;
   var initPromise = null;
