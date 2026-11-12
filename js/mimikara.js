@@ -41,7 +41,7 @@
           var count = theme.words ? theme.words.length : 0;
           var level = theme.level || 'N3';
           
-          html += '<div class="book book--link" style="text-decoration:none; cursor:default;">';
+          html += '<div class="book book--link" style="text-decoration:none; cursor:default;"><div class="book__cover" style="background:linear-gradient(135deg, #E4C1F9 0%, #BDE0FE 100%); display:flex; align-items:center; justify-content:center; font-size:2rem; font-weight:bold; color:#3b2f2a;">語</div>';';
           html += '<div class="book__body">';
           html += '<h3 class="book__title">' + title + '</h3>';
           html += '<p class="book__desc">' + count + ' words</p>';

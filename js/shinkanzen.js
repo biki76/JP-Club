@@ -17,8 +17,7 @@
       
       tracks.forEach(track => {
         const title = localStorage.getItem('nihongo_lang') === 'bn' ? track.title.bn : track.title.en;
-        html += `
-          <div class="book book--link" style="text-decoration:none; cursor:default;">
+        html += `<div class="book book--link" style="text-decoration:none; cursor:default;"><div class="book__cover" style="background:linear-gradient(135deg, #CDEAC0 0%, #8FE3CF 100%); display:flex; align-items:center; justify-content:center; font-size:2rem; font-weight:bold; color:#3b2f2a;">文</div>`;
             <div class="book__body">
               <h3 class="book__title">${title}</h3>
               <p class="book__desc">${track.count} items</p>

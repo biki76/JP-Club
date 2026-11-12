@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'jp-club-v14.3';
+const CACHE_VERSION = 'jp-club-v14.4';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
 
