@@ -7,384 +7,931 @@
     "level": "N3",
     "example_jp": "熱いうちに食べてください。",
     "example_en": "Please eat it while it's hot.",
-    "example_bn": "গরম থাকতে খেয়ে ফেলুন।"
+    "example_bn": "গরম থাকতে খেয়ে ফেলুন।",
+    "examples": [
+      {
+        "jp": "熱いうちに食べてください。",
+        "en": "Please eat it while it's hot.",
+        "bn": "গরম থাকতে খেয়ে ফেলুন।"
+      }
+    ]
   },
   {
     "id": "sk-n3-002",
     "pattern": "〜間",
     "meaning_en": "while",
     "meaning_bn": "সময়ে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「間」という表現はよく使われます。",
+    "example_en": "The expression \"間\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"間\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「間」という表現はよく使われます。",
+        "en": "The expression \"間\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"間\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-003",
     "pattern": "〜間に",
     "meaning_en": "during",
     "meaning_bn": "সময়ে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "留守のあいだに、荷物が届きました。",
+    "example_en": "A parcel arrived while I was away from home.",
+    "example_bn": "আমি বাসায় না থাকার সময় একটি পার্সেল এসেছিল।",
+    "examples": [
+      {
+        "jp": "留守のあいだに、荷物が届きました。",
+        "en": "A parcel arrived while I was away from home.",
+        "bn": "আমি বাসায় না থাকার সময় একটি পার্সেল এসেছিল।"
+      }
+    ]
   },
   {
     "id": "sk-n3-004",
     "pattern": "〜てからでないと",
     "meaning_en": "unless ~ first",
     "meaning_bn": "~ না করে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「てからでないと」という表現はよく使われます。",
+    "example_en": "The expression \"てからでないと\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"てからでないと\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「てからでないと」という表現はよく使われます。",
+        "en": "The expression \"てからでないと\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"てからでないと\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-005",
     "pattern": "〜ところだ",
     "meaning_en": "just about to",
     "meaning_bn": "ঠিক এখন",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ところだ」という表現はよく使われます。",
+    "example_en": "The expression \"ところだ\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ところだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ところだ」という表現はよく使われます。",
+        "en": "The expression \"ところだ\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ところだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-006",
     "pattern": "〜ためだ",
     "meaning_en": "because of",
     "meaning_bn": "কারণে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "台風のために、今日のイベントは中止になりました。",
+    "example_en": "Due to the typhoon, today’s event was cancelled.",
+    "example_bn": "টাইফুনের কারণে আজকের অনুষ্ঠানটি বাতিল করা হয়েছে।",
+    "examples": [
+      {
+        "jp": "台風のために、今日のイベントは中止になりました。",
+        "en": "Due to the typhoon, today’s event was cancelled.",
+        "bn": "টাইফুনের কারণে আজকের অনুষ্ঠানটি বাতিল করা হয়েছে।"
+      }
+    ]
   },
   {
     "id": "sk-n3-007",
     "pattern": "〜ことから",
     "meaning_en": "from the fact that",
     "meaning_bn": "থেকে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ことから」という表現はよく使われます。",
+    "example_en": "The expression \"ことから\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ことから\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ことから」という表現はよく使われます。",
+        "en": "The expression \"ことから\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ことから\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-008",
     "pattern": "〜（の）なら",
     "meaning_en": "if that is the case",
     "meaning_bn": "যদি তাই হয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「この表現」という表現はよく使われます。",
+    "example_en": "The expression \"この表現\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"この表現\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「この表現」という表現はよく使われます。",
+        "en": "The expression \"この表現\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"この表現\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-009",
     "pattern": "〜ということだ",
     "meaning_en": "it means that",
     "meaning_bn": "এর মানে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ということだ」という表現はよく使われます。",
+    "example_en": "The expression \"ということだ\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ということだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ということだ」という表現はよく使われます。",
+        "en": "The expression \"ということだ\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ということだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-010",
     "pattern": "〜はずがない",
     "meaning_en": "there is no way",
     "meaning_bn": "কোনোভাবেই না",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "真面目な彼が、そんなうそをつくわけがない。",
+    "example_en": "There is no way someone as honest as him would tell such a lie.",
+    "example_bn": "তার মতো সৎ মানুষ এমন মিথ্যা কথা বলতেই পারে না।",
+    "examples": [
+      {
+        "jp": "真面目な彼が、そんなうそをつくわけがない。",
+        "en": "There is no way someone as honest as him would tell such a lie.",
+        "bn": "তার মতো সৎ মানুষ এমন মিথ্যা কথা বলতেই পারে না।"
+      }
+    ]
   },
   {
     "id": "sk-n3-011",
     "pattern": "〜わけだ",
     "meaning_en": "no wonder",
     "meaning_bn": "তাই স্বাভাবিক",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "エアコンがついていたのか。道理で部屋が涼しいわけだ。",
+    "example_en": "Oh, the AC was on? No wonder the room is cool.",
+    "example_bn": "ওহ, এসি চালু ছিল? তাই তো বলি ঘরটা এত ঠান্ডা কেন।",
+    "examples": [
+      {
+        "jp": "エアコンがついていたのか。道理で部屋が涼しいわけだ。",
+        "en": "Oh, the AC was on? No wonder the room is cool.",
+        "bn": "ওহ, এসি চালু ছিল? তাই তো বলি ঘরটা এত ঠান্ডা কেন।"
+      }
+    ]
   },
   {
     "id": "sk-n3-012",
     "pattern": "〜ばかり",
     "meaning_en": "only",
     "meaning_bn": "শুধু",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ばかり」という表現はよく使われます。",
+    "example_en": "The expression \"ばかり\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ばかり\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ばかり」という表現はよく使われます。",
+        "en": "The expression \"ばかり\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ばかり\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-013",
     "pattern": "〜ようになる",
     "meaning_en": "come to be able to",
     "meaning_bn": "হতে শুরু করা",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日練習して、ようやく日本語で話せるようになりました。",
+    "example_en": "By practicing every day, I have finally become able to speak in Japanese.",
+    "example_bn": "প্রতিদিন অনুশীলন করে অবশেষে জাপানি ভাষায় কথা বলতে শিখেছি।",
+    "examples": [
+      {
+        "jp": "毎日練習して、ようやく日本語で話せるようになりました。",
+        "en": "By practicing every day, I have finally become able to speak in Japanese.",
+        "bn": "প্রতিদিন অনুশীলন করে অবশেষে জাপানি ভাষায় কথা বলতে শিখেছি।"
+      }
+    ]
   },
   {
     "id": "sk-n3-014",
     "pattern": "〜ことにする",
     "meaning_en": "decide to",
     "meaning_bn": "সিদ্ধান্ত নেওয়া",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ことにする」という表現はよく使われます。",
+    "example_en": "The expression \"ことにする\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ことにする\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ことにする」という表現はよく使われます。",
+        "en": "The expression \"ことにする\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ことにする\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-015",
     "pattern": "〜ことになる",
     "meaning_en": "it has been decided",
     "meaning_bn": "সিদ্ধান্ত হওয়া",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ことになる」という表現はよく使われます。",
+    "example_en": "The expression \"ことになる\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ことになる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ことになる」という表現はよく使われます。",
+        "en": "The expression \"ことになる\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ことになる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-016",
     "pattern": "〜ようにする",
     "meaning_en": "try to",
     "meaning_bn": "চেষ্টা করা",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "忘れないように、大事なことはすぐメモするようにしています。",
+    "example_en": "So as not to forget, I make sure to take notes of important things right away.",
+    "example_bn": "ভুলে না যাওয়ার জন্য গুরুত্বপূর্ণ বিষয়গুলো সাথে সাথে লিখে রাখার চেষ্টা করি।",
+    "examples": [
+      {
+        "jp": "忘れないように、大事なことはすぐメモするようにしています。",
+        "en": "So as not to forget, I make sure to take notes of important things right away.",
+        "bn": "ভুলে না যাওয়ার জন্য গুরুত্বপূর্ণ বিষয়গুলো সাথে সাথে লিখে রাখার চেষ্টা করি।"
+      }
+    ]
   },
   {
     "id": "sk-n3-017",
     "pattern": "〜ばかりでなく",
     "meaning_en": "not only",
     "meaning_bn": "শুধু নয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "この映画は子どもだけでなく、大人にも人気がある。",
+    "example_en": "This movie is popular not only with children, but also with adults.",
+    "example_bn": "এই সিনেমাটি শুধু শিশুদের কাছেই নয়, বড়দের কাছেও জনপ্রিয়।",
+    "examples": [
+      {
+        "jp": "この映画は子どもだけでなく、大人にも人気がある。",
+        "en": "This movie is popular not only with children, but also with adults.",
+        "bn": "এই সিনেমাটি শুধু শিশুদের কাছেই নয়, বড়দের কাছেও জনপ্রিয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-018",
     "pattern": "〜だけでなく",
     "meaning_en": "not only",
     "meaning_bn": "শুধু নয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "この映画は子どもだけでなく、大人にも人気がある。",
+    "example_en": "This movie is popular not only with children, but also with adults.",
+    "example_bn": "এই সিনেমাটি শুধু শিশুদের কাছেই নয়, বড়দের কাছেও জনপ্রিয়।",
+    "examples": [
+      {
+        "jp": "この映画は子どもだけでなく、大人にも人気がある。",
+        "en": "This movie is popular not only with children, but also with adults.",
+        "bn": "এই সিনেমাটি শুধু শিশুদের কাছেই নয়, বড়দের কাছেও জনপ্রিয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-019",
     "pattern": "〜たら",
     "meaning_en": "if / when",
     "meaning_bn": "যদি",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「たら」という表現はよく使われます。",
+    "example_en": "The expression \"たら\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"たら\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「たら」という表現はよく使われます。",
+        "en": "The expression \"たら\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"たら\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-020",
     "pattern": "〜ば",
     "meaning_en": "if",
     "meaning_bn": "যদি",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ば」という表現はよく使われます。",
+    "example_en": "The expression \"ば\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ば\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ば」という表現はよく使われます。",
+        "en": "The expression \"ば\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ば\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-021",
     "pattern": "〜と",
     "meaning_en": "when / if",
     "meaning_bn": "যখন",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「と」という表現はよく使われます。",
+    "example_en": "The expression \"と\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"と\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「と」という表現はよく使われます。",
+        "en": "The expression \"と\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"と\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-022",
     "pattern": "〜なら",
     "meaning_en": "if that is the case",
     "meaning_bn": "যদি তাই হয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「なら」という表現はよく使われます。",
+    "example_en": "The expression \"なら\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"なら\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「なら」という表現はよく使われます。",
+        "en": "The expression \"なら\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"なら\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-023",
     "pattern": "〜そうだ (hearsay)",
     "meaning_en": "I hear that",
     "meaning_bn": "শুনেছি",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「そうだ」という表現はよく使われます。",
+    "example_en": "The expression \"そうだ\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"そうだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「そうだ」という表現はよく使われます。",
+        "en": "The expression \"そうだ\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"そうだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-024",
     "pattern": "〜そうだ (appearance)",
     "meaning_en": "looks like",
     "meaning_bn": "দেখে মনে হয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「そうだ」という表現はよく使われます。",
+    "example_en": "The expression \"そうだ\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"そうだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「そうだ」という表現はよく使われます。",
+        "en": "The expression \"そうだ\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"そうだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-025",
     "pattern": "〜らしい",
     "meaning_en": "it seems",
     "meaning_bn": "মনে হয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「らしい」という表現はよく使われます。",
+    "example_en": "The expression \"らしい\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"らしい\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「らしい」という表現はよく使われます。",
+        "en": "The expression \"らしい\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"らしい\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-026",
     "pattern": "〜ようだ",
     "meaning_en": "it seems",
     "meaning_bn": "মনে হয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ようだ」という表現はよく使われます。",
+    "example_en": "The expression \"ようだ\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ようだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ようだ」という表現はよく使われます。",
+        "en": "The expression \"ようだ\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ようだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-027",
     "pattern": "〜みたいだ",
     "meaning_en": "like",
     "meaning_bn": "মতো",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「みたいだ」という表現はよく使われます。",
+    "example_en": "The expression \"みたいだ\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"みたいだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「みたいだ」という表現はよく使われます。",
+        "en": "The expression \"みたいだ\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"みたいだ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-028",
     "pattern": "〜かもしれない",
     "meaning_en": "might",
     "meaning_bn": "হতে পারে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「かもしれない」という表現はよく使われます。",
+    "example_en": "The expression \"かもしれない\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"かもしれない\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「かもしれない」という表現はよく使われます。",
+        "en": "The expression \"かもしれない\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"かもしれない\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-029",
     "pattern": "〜でしょう",
     "meaning_en": "probably",
     "meaning_bn": "সম্ভবত",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「でしょう」という表現はよく使われます。",
+    "example_en": "The expression \"でしょう\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"でしょう\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「でしょう」という表現はよく使われます。",
+        "en": "The expression \"でしょう\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"でしょう\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-030",
     "pattern": "〜てしまう",
     "meaning_en": "completion / regret",
     "meaning_bn": "সম্পূর্ণ করা",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「てしまう」という表現はよく使われます。",
+    "example_en": "The expression \"てしまう\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"てしまう\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「てしまう」という表現はよく使われます。",
+        "en": "The expression \"てしまう\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"てしまう\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-031",
     "pattern": "〜てある",
     "meaning_en": "state resulting from action",
     "meaning_bn": "করা আছে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「てある」という表現はよく使われます。",
+    "example_en": "The expression \"てある\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"てある\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「てある」という表現はよく使われます。",
+        "en": "The expression \"てある\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"てある\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-032",
     "pattern": "〜ておく",
     "meaning_en": "do in advance",
     "meaning_bn": "আগে থেকে করা",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ておく」という表現はよく使われます。",
+    "example_en": "The expression \"ておく\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ておく\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ておく」という表現はよく使われます。",
+        "en": "The expression \"ておく\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ておく\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-033",
     "pattern": "〜てみる",
     "meaning_en": "try doing",
     "meaning_bn": "চেষ্টা করে দেখা",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「てみる」という表現はよく使われます。",
+    "example_en": "The expression \"てみる\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"てみる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「てみる」という表現はよく使われます。",
+        "en": "The expression \"てみる\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"てみる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-034",
     "pattern": "〜させる",
     "meaning_en": "causative",
     "meaning_bn": "করানো",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「させる」という表現はよく使われます。",
+    "example_en": "The expression \"させる\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"させる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「させる」という表現はよく使われます。",
+        "en": "The expression \"させる\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"させる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-035",
     "pattern": "〜させられる",
     "meaning_en": "causative passive",
     "meaning_bn": "করানো হয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「させられる」という表現はよく使われます。",
+    "example_en": "The expression \"させられる\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"させられる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「させられる」という表現はよく使われます。",
+        "en": "The expression \"させられる\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"させられる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-036",
     "pattern": "〜られる (passive)",
     "meaning_en": "passive voice",
     "meaning_bn": "করা হয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「られる」という表現はよく使われます。",
+    "example_en": "The expression \"られる\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"られる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「られる」という表現はよく使われます。",
+        "en": "The expression \"られる\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"られる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-037",
     "pattern": "〜られる (potential)",
     "meaning_en": "potential form",
     "meaning_bn": "পারা",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「られる」という表現はよく使われます。",
+    "example_en": "The expression \"られる\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"られる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「られる」という表現はよく使われます。",
+        "en": "The expression \"られる\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"られる\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-038",
     "pattern": "〜ばかりか",
     "meaning_en": "not only",
     "meaning_bn": "শুধু নয়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ばかりか」という表現はよく使われます。",
+    "example_en": "The expression \"ばかりか\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ばかりか\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ばかりか」という表現はよく使われます。",
+        "en": "The expression \"ばかりか\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ばかりか\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-039",
     "pattern": "〜どころか",
     "meaning_en": "far from",
     "meaning_bn": "বরং",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「どころか」という表現はよく使われます。",
+    "example_en": "The expression \"どころか\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"どころか\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「どころか」という表現はよく使われます。",
+        "en": "The expression \"どころか\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"どころか\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-040",
     "pattern": "〜ながら",
     "meaning_en": "while",
     "meaning_bn": "যখন",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ながら」という表現はよく使われます。",
+    "example_en": "The expression \"ながら\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ながら\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ながら」という表現はよく使われます。",
+        "en": "The expression \"ながら\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ながら\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-041",
     "pattern": "〜つつ",
     "meaning_en": "while",
     "meaning_bn": "যখন",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「つつ」という表現はよく使われます。",
+    "example_en": "The expression \"つつ\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"つつ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「つつ」という表現はよく使われます。",
+        "en": "The expression \"つつ\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"つつ\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-042",
     "pattern": "〜ために",
     "meaning_en": "in order to / because",
     "meaning_bn": "জন্য",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "台風のために、今日のイベントは中止になりました。",
+    "example_en": "Due to the typhoon, today’s event was cancelled.",
+    "example_bn": "টাইফুনের কারণে আজকের অনুষ্ঠানটি বাতিল করা হয়েছে।",
+    "examples": [
+      {
+        "jp": "台風のために、今日のイベントは中止になりました。",
+        "en": "Due to the typhoon, today’s event was cancelled.",
+        "bn": "টাইফুনের কারণে আজকের অনুষ্ঠানটি বাতিল করা হয়েছে।"
+      }
+    ]
   },
   {
     "id": "sk-n3-043",
     "pattern": "〜ように",
     "meaning_en": "so that",
     "meaning_bn": "যাতে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ように」という表現はよく使われます。",
+    "example_en": "The expression \"ように\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ように\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ように」という表現はよく使われます。",
+        "en": "The expression \"ように\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ように\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-044",
     "pattern": "〜おかげで",
     "meaning_en": "thanks to",
     "meaning_bn": "কারণে (ভালো)",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "先生のおかげで、N3の試験に合格できました。",
+    "example_en": "Thanks to my teacher, I was able to pass the N3 exam.",
+    "example_bn": "শিক্ষকের কল্যাণে আমি N3 পরীক্ষায় পাস করতে পেরেছি।",
+    "examples": [
+      {
+        "jp": "先生のおかげで、N3の試験に合格できました。",
+        "en": "Thanks to my teacher, I was able to pass the N3 exam.",
+        "bn": "শিক্ষকের কল্যাণে আমি N3 পরীক্ষায় পাস করতে পেরেছি।"
+      }
+    ]
   },
   {
     "id": "sk-n3-045",
     "pattern": "〜せいで",
     "meaning_en": "because of (negative)",
     "meaning_bn": "কারণে (খারাপ)",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "電車が遅れたせいで、約束の時間に間に合わなかった。",
+    "example_en": "Because the train was delayed, I could not make it on time.",
+    "example_bn": "ট্রেন দেরি করার কারণে নির্ধারিত সময়ে পৌঁছাতে পারিনি।",
+    "examples": [
+      {
+        "jp": "電車が遅れたせいで、約束の時間に間に合わなかった。",
+        "en": "Because the train was delayed, I could not make it on time.",
+        "bn": "ট্রেন দেরি করার কারণে নির্ধারিত সময়ে পৌঁছাতে পারিনি।"
+      }
+    ]
   },
   {
     "id": "sk-n3-046",
     "pattern": "〜ものだから",
     "meaning_en": "because",
     "meaning_bn": "কারণে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ものだから」という表現はよく使われます。",
+    "example_en": "The expression \"ものだから\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ものだから\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ものだから」という表現はよく使われます。",
+        "en": "The expression \"ものだから\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ものだから\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-047",
     "pattern": "〜ことだから",
     "meaning_en": "because",
     "meaning_bn": "কারণে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「ことだから」という表現はよく使われます。",
+    "example_en": "The expression \"ことだから\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"ことだから\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「ことだから」という表現はよく使われます。",
+        "en": "The expression \"ことだから\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"ことだから\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-048",
     "pattern": "〜だけあって",
     "meaning_en": "as expected",
     "meaning_bn": "যথাযথভাবে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「だけあって」という表現はよく使われます。",
+    "example_en": "The expression \"だけあって\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"だけあって\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「だけあって」という表現はよく使われます。",
+        "en": "The expression \"だけあって\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"だけあって\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-049",
     "pattern": "〜わりに",
     "meaning_en": "compared to",
     "meaning_bn": "তুলনায়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "このレストランは、値段のわりに料理がおいしい。",
+    "example_en": "Considering the price, the food at this restaurant is delicious.",
+    "example_bn": "দামের তুলনায় এই রেস্তোরাঁর খাবার বেশ সুস্বাদু।",
+    "examples": [
+      {
+        "jp": "このレストランは、値段のわりに料理がおいしい。",
+        "en": "Considering the price, the food at this restaurant is delicious.",
+        "bn": "দামের তুলনায় এই রেস্তোরাঁর খাবার বেশ সুস্বাদু।"
+      }
+    ]
   },
   {
     "id": "sk-n3-050",
     "pattern": "〜にしては",
     "meaning_en": "considering",
     "meaning_bn": "বিবেচনায়",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "彼は日本に来て半年にしては、日本語がとても上手だ。",
+    "example_en": "For someone who has only been in Japan for half a year, his Japanese is very good.",
+    "example_bn": "জাপানে মাত্র ছয় মাস আসা একজনের তুলনায় তার জাপানি ভাষা খুবই ভালো।",
+    "examples": [
+      {
+        "jp": "彼は日本に来て半年にしては、日本語がとても上手だ。",
+        "en": "For someone who has only been in Japan for half a year, his Japanese is very good.",
+        "bn": "জাপানে মাত্র ছয় মাস আসা একজনের তুলনায় তার জাপানি ভাষা খুবই ভালো।"
+      }
+    ]
   },
   {
     "id": "sk-n3-051",
     "pattern": "〜にしても",
     "meaning_en": "even if",
     "meaning_bn": "হলেও",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "毎日の会話でも、「にしても」という表現はよく使われます。",
+    "example_en": "The expression \"にしても\" is also frequently used in daily conversation.",
+    "example_bn": "দৈনন্দিন কথোপকথনেও \"にしても\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।",
+    "examples": [
+      {
+        "jp": "毎日の会話でも、「にしても」という表現はよく使われます。",
+        "en": "The expression \"にしても\" is also frequently used in daily conversation.",
+        "bn": "দৈনন্দিন কথোপকথনেও \"にしても\" অভিব্যক্তিটি প্রায়ই ব্যবহৃত হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-052",
     "pattern": "〜として",
     "meaning_en": "as",
     "meaning_bn": "হিসেবে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "彼は留学生として、東京の大学で勉強しています。",
+    "example_en": "He is studying at a university in Tokyo as an international student.",
+    "example_bn": "সে একজন বিদেশি ছাত্র হিসেবে টোকিওর একটি বিশ্ববিদ্যালয়ে পড়াশোনা করছে।",
+    "examples": [
+      {
+        "jp": "彼は留学生として、東京の大学で勉強しています。",
+        "en": "He is studying at a university in Tokyo as an international student.",
+        "bn": "সে একজন বিদেশি ছাত্র হিসেবে টোকিওর একটি বিশ্ববিদ্যালয়ে পড়াশোনা করছে।"
+      }
+    ]
   },
   {
     "id": "sk-n3-053",
     "pattern": "〜について",
     "meaning_en": "about",
     "meaning_bn": "সম্পর্কে",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "日本の歴史について、レポートを書いています。",
+    "example_en": "I am writing a report about Japanese history.",
+    "example_bn": "জাপানের ইতিহাস সম্পর্কে আমি একটি রিপোর্ট লিখছি।",
+    "examples": [
+      {
+        "jp": "日本の歴史について、レポートを書いています。",
+        "en": "I am writing a report about Japanese history.",
+        "bn": "জাপানের ইতিহাস সম্পর্কে আমি একটি রিপোর্ট লিখছি।"
+      }
+    ]
   },
   {
     "id": "sk-n3-054",
     "pattern": "〜によって",
     "meaning_en": "by / depending on",
     "meaning_bn": "দ্বারা",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "文化や習慣は、国によって大きく違います。",
+    "example_en": "Culture and customs differ greatly depending on the country.",
+    "example_bn": "সংস্কৃতি এবং রীতিনীতি দেশভেদে অনেক ভিন্ন হয়।",
+    "examples": [
+      {
+        "jp": "文化や習慣は、国によって大きく違います。",
+        "en": "Culture and customs differ greatly depending on the country.",
+        "bn": "সংস্কৃতি এবং রীতিনীতি দেশভেদে অনেক ভিন্ন হয়।"
+      }
+    ]
   },
   {
     "id": "sk-n3-055",
     "pattern": "〜に対して",
     "meaning_en": "towards",
     "meaning_bn": "প্রতি",
-    "level": "N3"
+    "level": "N3",
+    "example_jp": "あのお店は、お客さんに対してとても丁寧だ。",
+    "example_en": "That shop is very polite toward its customers.",
+    "example_bn": "ওই দোকানটি গ্রাহকদের প্রতি অত্যন্ত বিনয়ী।",
+    "examples": [
+      {
+        "jp": "あのお店は、お客さんに対してとても丁寧だ。",
+        "en": "That shop is very polite toward its customers.",
+        "bn": "ওই দোকানটি গ্রাহকদের প্রতি অত্যন্ত বিনয়ী।"
+      }
+    ]
   }
 ]

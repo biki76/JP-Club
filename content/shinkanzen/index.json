@@ -30,7 +30,10 @@
           "en": "His not coming is not because he dislikes it.",
           "bn": "সে আসছে না মানে সে অপছন্দ করে না।"
         }
-      ]
+      ],
+      "example_jp": "甘いものが嫌いなわけではないが、夜は食べないようにしている。",
+      "example_en": "It is not that I dislike sweets, but I try not to eat them at night.",
+      "example_bn": "মিষ্টি খাবার যে পছন্দ করি না তা নয়, তবে রাতে না খাওয়ার চেষ্টা করি।"
     },
     {
       "id": "sk-grammar-02",
@@ -62,7 +65,10 @@
           "en": "Despite effort, I failed.",
           "bn": "প্রচেষ্টা সত্ত্বেও ব্যর্থ।"
         }
-      ]
+      ],
+      "example_jp": "激しい雨にもかかわらず、多くの人が集まった。",
+      "example_en": "Despite the heavy rain, many people gathered.",
+      "example_bn": "প্রচণ্ড বৃষ্টি সত্ত্বেও অনেক মানুষ জড়ো হয়েছিল।"
     }
   ],
   "reading": [
