@@ -1,5 +1,5 @@
 /**
- * Hardened DOM Sanitizer for JP-Club (Furigana <ruby>/<rt> + AI Tutor Markdown safe)
+ * Unified Input Validation & Hardened DOM Sanitizer for JP-Club
  */
 (function (global) {
   'use strict';
@@ -18,6 +18,7 @@
   ]);
 
   const SAFE_URL_RE = /^(?:https?:\/\/|mailto:|\/|\.\/|\.\.\/|#)/i;
+  const CONTROL_BIDI_RE = /[\u0000-\u001F\u007F-\u009F\u200E\u200F\u202A-\u202E\u2066-\u2069]/g;
 
   function escapeHtml(str) {
     return String(str ?? '')
@@ -25,7 +26,99 @@
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#39;');
+      .replace(/'/g, '&#39;')
+      .replace(/`/g, '&#96;');
+  }
+
+  function text(val, maxLen = 200) {
+    if (val == null) return '';
+    const cleaned = String(val)
+      .normalize('NFC')
+      .replace(CONTROL_BIDI_RE, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    return cleaned.slice(0, maxLen);
+  }
+
+  function email(val) {
+    const cleaned = text(val, 255).toLowerCase();
+    if (!cleaned || cleaned.length > 254) return '';
+    if (!/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+$/.test(cleaned)) {
+      return '';
+    }
+    return cleaned;
+  }
+
+  function displayName(val) {
+    const cleaned = text(val, 100);
+    if (!cleaned || cleaned.length > 40) return '';
+    if (!/^[\p{L}\p{M}\p{N} .'\-]+$/u.test(cleaned)) return '';
+    return cleaned;
+  }
+
+  function passwordIssue(pw) {
+    const s = String(pw ?? '');
+    if (!s.trim()) return 'blank';
+    if (s.length < 8) return 'short';
+    if (s.length > 72) return 'long';
+    if (/^(.)\1+$/.test(s)) return 'repeat';
+    return null;
+  }
+
+  function birthDate(val, minAge = 5) {
+    const s = text(val, 20);
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s);
+    if (!m) return '';
+    const year = Number(m[1]);
+    const month = Number(m[2]);
+    const day = Number(m[3]);
+    if (year < 1900 || month < 1 || month > 12 || day < 1 || day > 31) return '';
+
+    const dt = new Date(Date.UTC(year, month - 1, day));
+    if (
+      dt.getUTCFullYear() !== year ||
+      dt.getUTCMonth() !== month - 1 ||
+      dt.getUTCDate() !== day
+    ) {
+      return '';
+    }
+
+    const now = new Date();
+    if (dt.getTime() > now.getTime()) return '';
+
+    let age = now.getUTCFullYear() - year;
+    const mDiff = now.getUTCMonth() + 1 - month;
+    if (mDiff < 0 || (mDiff === 0 && now.getUTCDate() < day)) {
+      age--;
+    }
+    if (age < minAge) return '';
+    return s;
+  }
+
+  function safeNext(raw, fallback = 'home.html') {
+    if (raw == null) return fallback;
+    const s = String(raw).trim();
+    if (!s || s.length > 200) return fallback;
+    if (/[\u0000-\u001F\u007F\\<>@]/.test(s)) return fallback;
+    if (s.startsWith('/') || s.startsWith('.') || /^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(s)) {
+      return fallback;
+    }
+    try {
+      const decoded = decodeURIComponent(s);
+      if (decoded.startsWith('//') || decoded.startsWith('/') || decoded.includes('\\') || /<|>/.test(decoded)) {
+        return fallback;
+      }
+    } catch (_) {
+      return fallback;
+    }
+    if (!/^[a-zA-Z0-9_-]+\.html(?:[?#][a-zA-Z0-9_=&%./:+#-]*)?$/.test(s)) {
+      return fallback;
+    }
+    return s;
+  }
+
+  function oneOf(val, allowed, fallback) {
+    return Array.isArray(allowed) && allowed.includes(val) ? val : fallback;
   }
 
   function sanitizeHtml(dirty) {
@@ -46,7 +139,10 @@
       const tag = el.tagName.toUpperCase();
 
       if (!ALLOWED_TAGS.has(tag)) {
-        nodesToRemove.push({ el, unwrap: tag !== 'SCRIPT' && tag !== 'STYLE' && tag !== 'IFRAME' && tag !== 'OBJECT' && tag !== 'EMBED' && tag !== 'SVG' });
+        nodesToRemove.push({
+          el,
+          unwrap: tag !== 'SCRIPT' && tag !== 'STYLE' && tag !== 'IFRAME' && tag !== 'OBJECT' && tag !== 'EMBED' && tag !== 'SVG'
+        });
         continue;
       }
 
@@ -72,8 +168,8 @@
 
     for (const item of nodesToRemove) {
       if (item.unwrap) {
-        const text = document.createTextNode(item.el.textContent || '');
-        item.el.replaceWith(text);
+        const textNode = document.createTextNode(item.el.textContent || '');
+        item.el.replaceWith(textNode);
       } else {
         item.el.remove();
       }
@@ -87,7 +183,20 @@
     el.innerHTML = sanitizeHtml(html);
   }
 
-  const API = { sanitizeHtml, sanitizeHTML: sanitizeHtml, escapeHtml, setSafeHTML };
+  const API = {
+    escapeHtml,
+    text,
+    email,
+    displayName,
+    passwordIssue,
+    birthDate,
+    safeNext,
+    oneOf,
+    sanitizeHtml,
+    sanitizeHTML: sanitizeHtml,
+    setSafeHTML
+  };
+
   global.JPSanitize = API;
   global.sanitizeHtml = sanitizeHtml;
   global.sanitizeHTML = sanitizeHtml;
