@@ -1,292 +1,278 @@
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+// supabase/functions/voice-tutor/index.ts
+// Moon (ムーン) voice tutor edge function.
 
-const BUILD = "v7";
-const MODEL = "openai/gpt-oss-120b";
+const FIXED_OPENER =
+  "こんにちは、ムーンです。よろしくお願いします。お名前は何ですか。";
 
-const OPENING = "こんにちは、ムーンです。よろしくお願いします。お名前は何ですか。";
+const ALLOWED_ORIGINS = (Deno.env.get("ALLOWED_ORIGINS") ?? "")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
 
-const CORS = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
-};
+const OPENER_EN =
+  "Hello, I'm Moon. Nice to meet you. What is your name?";
+const OPENER_BN =
+  "হ্যালো, আমি মুন। আপনার সাথে পরিচিত হয়ে ভালো লাগলো। আপনার নাম কি?";
 
-const LEVELS: Record<string, string> = {
-  N5: "Complete beginner. Use only very simple Japanese (です/ます, basic words, mostly hiragana), one short sentence.",
-  N4: "Elementary. Simple sentences, common te-form and basic grammar, everyday topics.",
-  N3: "Intermediate. Natural everyday Japanese, connected sentences, common idioms.",
-  N2: "Upper-intermediate. Natural Japanese with varied grammar and abstract topics.",
-  N1: "Advanced. Fully natural Japanese including nuance, keigo and idioms.",
-};
+interface Candidate {
+  jp: string;
+  furigana: string;
+  en: string;
+  bn: string;
+}
 
-const TOPICS: Record<string, string> = {
-  free: "Free conversation about everyday life at the learner's level.",
-  intro:
-    "Self-introduction practice: name, country (〜から来ました), whether they are a student, 〜です. Act like someone meeting them for the first time.",
-  hobby:
-    "Hobbies and weekends: simple likes (〜が好きです) and weekend activities (〜をします).",
-  food:
-    "Food: asking what something is (これ、何ですか), ordering, and simple opinions (おいしいです). Role-play restaurant staff when natural.",
-  daily:
-    "Daily needs: asking prices (いくらですか), where things are (どこですか) and asking for help in shops (〜をお願いします). Role-play a shop clerk when natural.",
-  weather: "Weather small talk as a safe icebreaker (暑いですね、雨ですね、いい天気ですね).",
-  interview:
-    "Part-time job interview. You are the friendly manager of a shop or restaurant interviewing the learner. Go step by step, one question at a time: greeting and entering the room (失礼します), their name (〜と申します), visa type and school hours (学生ビザです、〜から〜まで), days they can work (〜曜日に働けます) and commute time (電車で〜分), experience or willingness (経験があります、頑張ります). Stay polite and encouraging, and finish by thanking them.",
-  travel:
-    "Travel: directions, trains, hotels and sightseeing. Role-play station staff or a hotel clerk when natural.",
-  shop:
-    "Shopping: prices, sizes, colors and paying. Role-play a shop clerk when natural.",
-};
+interface Turn {
+  role: "user" | "moon";
+  text: string;
+}
 
-function json(body: unknown, status = 200) {
+function corsHeaders(origin: string): Record<string, string> {
+  const allowed = ALLOWED_ORIGINS.length === 0
+    ? (origin || "*")
+    : (ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0]);
+  return {
+    "Access-Control-Allow-Origin": allowed,
+    "Access-Control-Allow-Headers":
+      "authorization, content-type, apikey, x-client-info",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Vary": "Origin",
+  };
+}
+
+function jsonResponse(
+  body: unknown,
+  status: number,
+  cors: Record<string, string>,
+): Response {
   return new Response(JSON.stringify(body), {
     status,
-    headers: { ...CORS, "Content-Type": "application/json" },
+    headers: { ...cors, "content-type": "application/json" },
   });
 }
 
-function strip(s: string) {
-  return s.replace(/\{([^|{}]*)\|[^{}]*\}/g, "$1").replace(/[{}|]/g, "").trim();
+// ---------- Pure helpers (kept in sync with js/tutor-voice.js) ----------
+
+export function applyOpenerPostCheck(text: string, hasPrior: boolean): string {
+  if (!hasPrior) return FIXED_OPENER;
+  if (typeof text !== "string") return "";
+  if (text.indexOf("きょうは") === 0) {
+    return "こんにちは、" + text.slice("きょうは".length);
+  }
+  return text;
 }
 
-/** Rule 1: never open with きょうは. Replace that opening with こんにちは、. */
-function fixOpening(text: string): string {
-  return String(text).replace(/^\s*きょうは[、,\s]*/, "こんにちは、");
+export function correctSelfIntro(text: string): string {
+  if (typeof text !== "string") return "";
+  const re =
+    /(わたしは|私は|ぼくは|僕は)([^。、\n]+?)(です|といいます|と言います|っていいます)。?/g;
+  return text.replace(re, (m: string, _p1: string, p2: string) => {
+    const name = String(p2).trim();
+    if (name === "ムーン") return m;
+    return "わたしはムーンです。";
+  });
 }
 
-/** Rule 2: pull a likely learner name out of a short self-introduction. */
-function extractName(text: string): string {
-  const s = String(text || "");
-  let m = s.match(/(?:わたしは|私は|ぼくは|僕は)\s*([^\s、。です]+)\s*です/);
-  if (m) return m[1];
-  m = s.match(/^([^\s、。です]+)\s*です[。]?$/);
-  if (m) return m[1];
+export function prepareSpeech(text: string): string {
+  if (typeof text !== "string") return "";
+  let out = text;
+  out = out.replace(/Moon/g, "ムーン").replace(/moon/g, "ムーン");
+  out = out.replace(/ムン(?!ー)/g, "ムーン");
+  out = out.replace(/\*\*(.+?)\*\*/g, "$1");
+  out = out.replace(/\*(.+?)\*/g, "$1");
+  out = out.replace(/`([^`]+)`/g, "$1");
+  out = out.replace(/。{2,}/g, "。");
+  return out.trim();
+}
+
+export function parseCandidates(raw: string): Candidate[] {
+  const fallback: Candidate[] = [{
+    jp: "すみません、うまく聞き取れませんでした。もう一度お願いします。",
+    furigana: "すみません、うまくききとれませんでした。もういちどおねがいします。",
+    en: "Sorry, I could not catch that. Please try again.",
+    bn: "দুঃখিত, আমি বুঝতে পারিনি। আবার বলুন।",
+  }];
+  if (typeof raw !== "string" || !raw.trim()) return fallback;
+  let s = raw.trim();
+  s = s.replace(/^```[a-zA-Z]*\s*\n?/, "").replace(/\n?```\s*$/, "").trim();
+  const start = s.indexOf("[");
+  const end = s.lastIndexOf("]");
+  if (start >= 0 && end > start) s = s.slice(start, end + 1);
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(s);
+  } catch {
+    return fallback;
+  }
+  if (!Array.isArray(parsed)) return fallback;
+  const out: Candidate[] = [];
+  for (const item of parsed) {
+    if (out.length >= 3) break;
+    if (!item || typeof item !== "object") continue;
+    const o = item as Record<string, unknown>;
+    const jp = typeof o.jp === "string" ? o.jp : "";
+    if (!jp) continue;
+    out.push({
+      jp,
+      furigana: typeof o.furigana === "string" ? o.furigana : jp,
+      en: typeof o.en === "string" ? o.en : "",
+      bn: typeof o.bn === "string" ? o.bn : "",
+    });
+  }
+  return out.length ? out : fallback;
+}
+
+export function interruptionReply(): string {
+  return "あ、すみません。どうぞ。";
+}
+
+export function nameAcknowledgement(name: string): string {
+  const n = String(name || "").trim();
+  if (!n) return "お名前を教えていただけますか。";
+  return `はじめまして、${n}さん。よろしくお願いします。`;
+}
+
+// ---------- Model call ----------
+
+const SYSTEM_PROMPT = [
+  "You are Moon (ムーン), a warm, mature, intelligent Japanese teacher",
+  "talking with an adult learner.",
+  "Reply in natural spoken Japanese using です/ます.",
+  "Use casual forms only if the learner uses them first.",
+  "Keep sentences short. Acknowledge what the learner said first.",
+  "Use natural spoken fillers where they fit: えーと, うーん, そうですね,",
+  "ああ, なるほど.",
+  "No excessive praise. No childish phrasing.",
+  "Never introduce yourself with any name other than ムーン.",
+  "When the learner gives their name, acknowledge it as the learner's name,",
+  "never as yours. Never echo the learner's name as your own.",
+  "Never open a reply with きょうは.",
+  "Every reply must answer the learner's most recent message specifically,",
+  "then ask exactly one natural follow-up question.",
+  "Generic filler replies are not allowed.",
+  "Return ONLY a JSON array of exactly three candidate replies.",
+  "Each element is an object with keys: jp, furigana, en, bn.",
+  "jp is Japanese. furigana is the same Japanese with readings.",
+  "en is English. bn is Bengali.",
+  "Do not include Markdown fences. Do not include prose outside the array.",
+].join("\n");
+
+async function callModel(history: Turn[], message: string): Promise<string> {
+  const url = Deno.env.get("LLM_API_URL") ?? "";
+  const key = Deno.env.get("LLM_API_KEY") ?? "";
+  const model = Deno.env.get("LLM_MODEL") ?? "";
+  if (!url || !key || !model) return "";
+  const lines: string[] = [];
+  for (const t of history.slice(-8)) {
+    const tag = t.role === "user" ? "Learner" : "Moon";
+    lines.push(`${tag}: ${t.text}`);
+  }
+  lines.push(`Learner: ${message}`);
+  const userContent = lines.join("\n");
+  const resp = await fetch(url, {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      authorization: `Bearer ${key}`,
+    },
+    body: JSON.stringify({
+      model,
+      messages: [
+        { role: "system", content: SYSTEM_PROMPT },
+        { role: "user", content: userContent },
+      ],
+      temperature: 0.8,
+    }),
+  });
+  if (!resp.ok) return "";
+  const data = await resp.json();
+  const content = data?.choices?.[0]?.message?.content;
+  if (typeof content === "string") return content;
+  if (typeof data?.text === "string") return data.text;
   return "";
 }
 
-/** Rule 2: true when Moon introduces itself using a name that is not ムーン. */
-function nameEcho(reply: string, learnerName: string): boolean {
-  if (!learnerName || learnerName === "ムーン") return false;
-  const n = learnerName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const s = String(reply || "");
-  if (new RegExp("(?:わたしは|私は|ぼくは|僕は)\\s*" + n + "\\s*です").test(s)) return true;
-  if (new RegExp("^\\s*" + n + "\\s*です[。]?").test(s)) return true;
-  return false;
-}
+// ---------- Handler ----------
 
-type Candidate = { jp: string; furigana: string; en: string; bn: string };
+Deno.serve(async (req: Request) => {
+  const origin = req.headers.get("origin") ?? "";
+  const cors = corsHeaders(origin);
 
-function normalizeCandidate(x: any): Candidate | null {
-  if (!x || typeof x !== "object") return null;
-  const jp = String(x.jp ?? x.reply ?? x.text ?? "").trim();
-  if (!jp) return null;
-  return {
-    jp: fixOpening(jp),
-    furigana: String(x.furigana ?? x.reading ?? jp).trim(),
-    en: String(x.en ?? x.translation ?? x.gloss ?? "").trim(),
-    bn: String(x.bn ?? "").trim(),
-  };
-}
+  if (req.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: cors });
+  }
+  if (req.method !== "POST") {
+    return jsonResponse({ error: "method not allowed" }, 405, cors);
+  }
 
-function parseCandidates(content: string): Candidate[] {
-  let text = String(content || "").replace(/[\s\S]*?<\/think>/gi, "").trim();
-  text = text.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "").trim();
+  const auth = req.headers.get("authorization") ?? "";
+  const token = auth.toLowerCase().startsWith("bearer ") ? auth.slice(7) : "";
+  if (!token) {
+    return jsonResponse({ error: "missing bearer token" }, 401, cors);
+  }
 
+  let body: Record<string, unknown>;
   try {
-    const arr = JSON.parse(text);
-    if (Array.isArray(arr)) {
-      const out = arr.map(normalizeCandidate).filter(Boolean) as Candidate[];
-      if (out.length) return out;
-    }
-    if (arr && Array.isArray(arr.candidates)) {
-      const out = arr.candidates.map(normalizeCandidate).filter(Boolean) as Candidate[];
-      if (out.length) return out;
-    }
-    if (arr && typeof arr === "object" && (arr.jp || arr.reply)) {
-      const one = normalizeCandidate(arr);
-      if (one) return [one];
-    }
-  } catch (_) {
-    // fall through to the legacy JP/TR/FIX parser
+    body = await req.json();
+  } catch {
+    return jsonResponse({ error: "invalid json" }, 400, cors);
   }
 
-  const grab = (tag: string) => {
-    const m = text.match(new RegExp("^\\s*" + tag + ":\\s*(.+)$", "mi"));
-    return m ? m[1].trim() : "";
-  };
-  let jp = grab("JP");
-  if (!jp) {
-    const line =
-      text.split("\n").find((l) => l.trim() && !/^\s*(TR|FIX):/i.test(l)) ?? "";
-    jp = line.replace(/^\s*JP:\s*/i, "").trim();
+  const history: Turn[] = Array.isArray(body.history)
+    ? (body.history as unknown[])
+      .filter((t): t is Turn =>
+        !!t && typeof t === "object" &&
+        (((t as Turn).role === "user") || ((t as Turn).role === "moon")) &&
+        typeof (t as Turn).text === "string"
+      )
+      .slice(-8)
+    : [];
+  const message = typeof body.message === "string" ? body.message.trim() : "";
+  const interrupted = body.interrupted === true;
+  const turnId = crypto.randomUUID();
+  const hasPrior = history.length > 0;
+
+  if (interrupted) {
+    const jp = interruptionReply();
+    const cand: Candidate = {
+      jp,
+      furigana: jp,
+      en: "Ah, sorry. Please go ahead.",
+      bn: "আহ, দুঃখিত। অনুগ্রহ করে বলুন।",
+    };
+    return jsonResponse({
+      candidates: [cand, cand, cand],
+      speech: prepareSpeech(jp),
+      turnId,
+    }, 200, cors);
   }
-  if (jp) {
-    return [
-      {
-        jp: fixOpening(strip(jp)),
-        furigana: strip(jp),
-        en: grab("TR"),
-        bn: "",
-      },
-    ];
+
+  if (!hasPrior) {
+    const cand: Candidate = {
+      jp: FIXED_OPENER,
+      furigana: FIXED_OPENER,
+      en: OPENER_EN,
+      bn: OPENER_BN,
+    };
+    return jsonResponse({
+      candidates: [cand, cand, cand],
+      speech: prepareSpeech(FIXED_OPENER),
+      turnId,
+    }, 200, cors);
   }
-  return [];
-}
 
-const SAFE: Candidate = {
-  jp: "すみません、もう一度お願いします。",
-  furigana: "すみません、もういちどおねがいします。",
-  en: "Sorry, could you say that again?",
-  bn: "দুঃখিত, আবার বলবেন?",
-};
+  const raw = await callModel(history, message);
+  let candidates = parseCandidates(raw);
 
-Deno.serve(async (req) => {
-  if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
+  candidates = candidates.map((c) => {
+    const jp = correctSelfIntro(applyOpenerPostCheck(c.jp, true));
+    const furigana = correctSelfIntro(applyOpenerPostCheck(c.furigana, true));
+    return { jp, furigana, en: c.en, bn: c.bn };
+  });
 
-  try {
-    const sb = createClient(
-      Deno.env.get("SUPABASE_URL")!,
-      Deno.env.get("SUPABASE_ANON_KEY")!,
-      { global: { headers: { Authorization: req.headers.get("Authorization") ?? "" } } },
-    );
-    const { data } = await sb.auth.getUser();
-    if (!data?.user) return json({ error: "Please sign in to use AI Tutor." }, 401);
-
-    const body = await req.json();
-    const level = LEVELS[body.level] ? body.level : "N5";
-    const topic = TOPICS[body.topic] ? body.topic : "free";
-    const lang = body.lang === "bn" ? "Bengali" : "English";
-
-    const system =
-      "You are Moon (ムーン), a calm, warm, mature native Japanese speaker having a natural conversation with an adult learner at level " +
-      level +
-      ". " +
-      LEVELS[level] +
-      "\n" +
-      "Topic: " +
-      TOPICS[topic] +
-      " Gently steer toward it.\n" +
-      "How to talk:\n" +
-      "- Sound like a skilled teacher talking with an adult: calm, warm, assured. Short sentences. No childish phrasing. No excessive praise.\n" +
-      "- Acknowledge what the learner said before moving on. React specifically to their last message.\n" +
-      "- Answer the specific thing the learner just said, then ask exactly one natural follow-up question. Never use a generic line that could fit any message.\n" +
-      "- Always stay polite (です/ます). Keep vocabulary and grammar at roughly JLPT N5–N4.\n" +
-      "- It is fine to begin with a short natural aizuchi such as はい、 / そうですか。 / なるほど。 / いいですね。 Vary it.\n" +
-      "- If the learner says もう一度お願いします or seems not to understand, repeat your last sentence once, slower and simpler.\n" +
-      "- Never say things like \"Good job\" or \"Great sentence\". Never repeat the learner's sentence back.\n" +
-      "- Match the learner's pace: simpler words and shorter sentences if they struggle; slightly more natural Japanese if they are fluent.\n" +
-      "- If the learner writes in " +
-      lang +
-      " or seems stuck, offer one very simple Japanese phrase they can say.\n" +
-      "- Identity: your name is Moon (ムーン). You are the AI speaking tutor of JP-Club by Nihonsync. Never call yourself ChatGPT, GPT, OpenAI, Claude, Gemini or any other model or company name. If asked which AI model or company is behind you, say you are JP-Club's tutor and do not know the technical details. If asked whether you are an AI, say yes briefly. Never claim to be human.\n" +
-      "- Name rule: when the learner gives their name (e.g. わたしはビキです, or just ビキ), acknowledge it as the LEARNER'S name, e.g. はじめまして、ビキさん。よろしくお願いします。 Never repeat the learner's name as if it were your own name. Never introduce yourself with any name other than ムーン.\n" +
-      "- Never open a new session with きょうは or わたしは. A new session opens with こんにちは.\n" +
-      (body.interrupted
-        ? "- The learner just interrupted you mid-sentence. Respond directly to what they said now. Do not finish your earlier sentence.\n"
-        : "") +
-      "\nOutput rules:\n" +
-      "Return JSON only. No preamble, no Markdown fences, no commentary.\n" +
-      "Return an array of exactly 3 candidate replies. Each candidate must be a complete, sensible reply to the learner's last message.\n" +
-      'Each object: {"jp":"...","furigana":"...","en":"...","bn":"..."}\n' +
-      "- jp: the reply in polite です/ます Japanese, roughly N5–N4.\n" +
-      "- furigana: the same reply with {kanji|reading} markup, or full kana.\n" +
-      "- en: an English gloss.\n" +
-      "- bn: a Bengali gloss.\n" +
-      "Keep candidates natural and different from each other, but all must answer the same learner message.\n" +
-      (body.start
-        ? "This is the first turn of a new session. The FIRST candidate's jp must be exactly: " +
-          OPENING +
-          "\n"
-        : "");
-
-    const messages: { role: string; content: string }[] = [
-      { role: "system", content: system },
-    ];
-
-    // Rule 3: pass the last 6 turns (up to 12 messages) of history.
-    const history = Array.isArray(body.history) ? body.history.slice(-12) : [];
-    for (const m of history) {
-      if (
-        (m.role === "user" || m.role === "assistant") &&
-        typeof m.content === "string"
-      ) {
-        const c = m.content.slice(0, 500);
-        messages.push({
-          role: m.role,
-          content: m.role === "assistant" ? "JP: " + c : c,
-        });
-      }
-    }
-
-    const text = typeof body.text === "string" ? body.text.slice(0, 500) : "";
-    messages.push({
-      role: "user",
-      content: body.start
-        ? "(Start: greet the learner with exactly: " +
-          OPENING +
-          " Return the JSON array of 3 candidates. The first candidate must be exactly this opening.)"
-        : text,
-    });
-
-    const r = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        Authorization: "Bearer " + Deno.env.get("GROQ_API_KEY"),
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        temperature: 0.7,
-        max_tokens: 3000,
-        reasoning_effort: "low",
-        messages,
-      }),
-    });
-
-    const raw = await r.text();
-    if (!r.ok) {
-      return json({ error: "[" + BUILD + "] Groq " + r.status + ": " + raw.slice(0, 300) }, 502);
-    }
-
-    const content = String(JSON.parse(raw).choices?.[0]?.message?.content ?? "");
-    let candidates = parseCandidates(content);
-
-    // Rule 1 + Rule 4: make sure a new session always opens exactly right.
-    if (body.start) {
-      if (!candidates.length) candidates = [{ ...SAFE }];
-      candidates[0] = {
-        ...candidates[0],
-        jp: OPENING,
-        furigana: OPENING,
-      };
-    }
-
-    // Rule 2: drop any candidate where Moon introduces itself with the learner's name.
-    const learnerName = extractName(body.text || "");
-    const filtered = candidates.filter((c) => !nameEcho(c.jp, learnerName));
-
-    if (!filtered.length) {
-      return json({
-        build: BUILD,
-        candidates: [SAFE],
-        reply: SAFE.jp,
-        markup: SAFE.furigana,
-        translation: SAFE.en,
-      });
-    }
-
-    const final = filtered.slice(0, 3);
-
-    return json({
-      build: BUILD,
-      candidates: final,
-      reply: final[0].jp,
-      markup: final[0].furigana,
-      translation: final[0].en,
-    });
-  } catch (e) {
-    return json(
-      { error: "[" + BUILD + "] " + String((e as Error)?.message ?? e) },
-      500,
-    );
-  }
+  const top = candidates[0];
+  return jsonResponse({
+    candidates,
+    speech: prepareSpeech(top.jp),
+    turnId,
+  }, 200, cors);
 });
