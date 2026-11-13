@@ -1,66 +1,148 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en" data-theme="light" data-furigana="on">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Moon — AI Tutor</title>
-<link rel="stylesheet" href="css/tutor.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speaking Partner — JP-Club</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('nihongo_theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+        var f = localStorage.getItem('nihongo_furigana');
+        if (f) document.documentElement.setAttribute('data-furigana', f);
+        var l = localStorage.getItem('nihongo_lang');
+        if (l) document.documentElement.setAttribute('lang', l === 'bn' ? 'bn' : 'en');
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#15161a" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
+  <link rel="apple-touch-icon" href="icons/icon.svg" />
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="canonical" href="https://biki76.github.io/JP-Club/tutor.html" />
+  <meta name="description" content="Learn Japanese from Bengali with Minna no Nihongo, spaced-repetition flashcards, kanji stroke order, and quizzes. JLPT N5/N4." />
+  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="css/cloud.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/shell.css" />
+  <link rel="stylesheet" href="css/a11y.css" />
+  <link rel="stylesheet" href="css/pwa.css" />
+  <script>
+    window.SHELL_CONFIG = {
+      navGroups: [
+        { title: { en: 'Learn', bn: 'শিখুন' }, items: [
+          { key: 'home',       icon: 'home',     href: 'home.html',       label: { en: 'Home',       bn: 'হোম' } },
+          { key: 'lesson',     icon: 'book',     href: 'lessons.html',    label: { en: 'Lessons',    bn: 'পাঠ' } },
+          { key: 'flashcards', icon: 'practice', href: 'flashcards.html', label: { en: 'Flashcards', bn: 'ফ্ল্যাশকার্ড' } },
+          { key: 'quiz',       icon: 'practice', href: 'quiz.html',       label: { en: 'Quiz',       bn: 'কুইজ' } },
+          { key: 'kanji',      icon: 'kanji',    href: 'kanji.html',      label: { en: 'Kanji',      bn: 'কাঞ্জি' } }
+        ]},
+        { title: { en: 'Explore', bn: 'অন্বেষণ' }, items: [
+          { key: 'search',    icon: 'search',   href: 'search.html',    label: { en: 'Search',    bn: 'অনুসন্ধান' } },
+          { key: 'progress',  icon: 'practice', href: 'progress.html',  label: { en: 'Progress',  bn: 'অগ্রগতি' } },
+          { key: 'placement', icon: 'book',     href: 'placement.html', label: { en: 'Placement', bn: 'প্লেসমেন্ট' } }
+        ]}
+      ],
+      bottomNav: [
+        { href: 'home.html',       icon: 'home',     label: { en: 'Home',     bn: 'হোম' } },
+        { href: 'flashcards.html', icon: 'practice', label: { en: 'Cards',    bn: 'কার্ড' } },
+        { href: 'search.html',     icon: 'search',   label: { en: 'Search',   bn: 'অনুসন্ধান' } },
+        { href: 'progress.html',   icon: 'practice', label: { en: 'Progress', bn: 'অগ্রগতি' } }
+      ],
+      searchEnabled: true
+    };
+  </script>
+  <link rel="stylesheet" href="css/phase13.css">
+  <link rel="stylesheet" href="css/theme-v2.css">
+<link rel="stylesheet" href="css/typography-jp.css">
+  <link rel="stylesheet" href="css/home-fix.css">
+  <script src="js/ui-lang-init.js"></script>
+  <link rel="stylesheet" href="css/ui-lang.css">
+  <link rel="stylesheet" href="css/tutor-voice.css?v=6">
+  <link rel="stylesheet" href="css/tutor-live.css?v=6">
+  <link rel="stylesheet" href="css/tutor-call.css?v=6">
 </head>
-<body>
-<div class="tutor-app" id="tutorApp" data-state="idle">
-  <header class="tutor-header">
-    <h1 class="tutor-name">
-      Moon
-      <span class="tutor-name-jp">ムーン</span>
-    </h1>
-    <div class="status-pill" id="statusPill" data-state="idle" aria-live="polite">
-      <span class="status-dot" aria-hidden="true"></span>
-      <span class="status-text" id="statusText">Idle</span>
+<body class="shell-body">
+<noscript data-noscript-fallback>
+  <nav style="padding:16px;font-family:sans-serif">
+    <p>JavaScript is required for lessons. / লেসন চালাতে JavaScript প্রয়োজন।</p>
+    <ul>
+      <li><a href="lessons.html">Lessons / পাঠ</a></li>
+      <li><a href="flashcards.html">Flashcards / ফ্ল্যাশকার্ড</a></li>
+      <li><a href="quiz.html">Quiz / কুইজ</a></li>
+      <li><a href="kanji.html">Kanji / কাঞ্জি</a></li>
+    </ul>
+  </nav>
+</noscript>
+  <header data-shell-header></header>
+  <div class="shell-frame">
+    <aside class="shell-sidebar" data-shell-sidebar></aside>
+    <main class="shell-main" id="main">
+      <section class="tv">
+  <h1><span data-en="Moon · Speaking Partner" data-bn="মুন · স্পিকিং পার্টনার">Moon · Speaking Partner</span></h1>
+  <p class="tv-sub"><span data-en="Talk in Japanese like a real call. I match your level and pace, and gently correct you." data-bn="সত্যিকারের কলের মতো জাপানিতে কথা বলুন। আমি আপনার লেভেল ও গতির সাথে মিলিয়ে চলব এবং ভুল শুধরে দেব।">Talk in Japanese like a real call. I match your level and pace, and gently correct you.</span></p>
+  <div class="tv-tabs" role="tablist">
+    <button type="button" class="tv-tab" role="tab" id="tv-tab-practice" aria-selected="true" aria-controls="tv-panel-practice"><span data-en="Practice" data-bn="অনুশীলন">Practice</span></button>
+    <button type="button" class="tv-tab" role="tab" id="tv-tab-history" aria-selected="false" aria-controls="tv-panel-history"><span data-en="History" data-bn="ইতিহাস">History</span></button>
+  </div>
+  <div class="tv-panel" id="tv-panel-practice" role="tabpanel" aria-labelledby="tv-tab-practice">
+    <div class="tv-controls">
+      <label><span data-en="Level" data-bn="লেভেল">Level</span> <select id="tv-level"><option>N5</option><option>N4</option><option>N3</option><option>N2</option><option>N1</option></select></label>
+      <label><span data-en="Speed" data-bn="গতি">Speed</span> <input type="range" id="tv-rate" min="0.6" max="1.1" step="0.05" value="0.85"></label>
+      <label><span data-en="Voice" data-bn="কণ্ঠ">Voice</span> <select id="tv-voice"><option>Loading voices...</option></select></label>
     </div>
-  </header>
-
-  <main class="tutor-main">
-    <section class="avatar-panel" aria-label="Moon avatar">
-      <div class="avatar-wrap" id="avatarWrap" data-state="idle">
-        <img class="avatar-img" id="moonAvatar" src="assets/moon.png"
-             alt="Moon, the AI tutor">
-        <div class="avatar-ring" aria-hidden="true"></div>
+    <label class="tv-check"><input type="checkbox" id="tv-barge"> <span data-en="Headphones mode: talk over the tutor (leave off on speakers)" data-bn="হেডফোন মোড: টিউটরের কথার ওপর বলুন (স্পিকারে বন্ধ রাখুন)">Headphones mode: talk over the tutor (leave off on speakers)</span></label>
+    <h2 class="tv-h"><span data-en="Topic" data-bn="বিষয়">Topic</span></h2>
+    <div class="tv-topics" id="tv-topics" role="group" aria-label="Topic"></div>
+    <p class="tv-stats"><span id="tv-today"></span> &middot; <span id="tv-streak"></span></p>
+    <div class="tv-stage">
+      <button type="button" id="tv-orb" class="tv-orb" data-state="idle" aria-label="Start talking" data-aria-label-en="Start talking" data-aria-label-bn="কথা বলা শুরু করুন">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4"/></svg>
+      </button>
+      <p id="tv-status" class="tv-status" aria-live="polite"></p>
+    </div>
+    <div class="tv-card"><h2 id="tv-phrases-title"></h2><ul class="tv-phrases" id="tv-phrases"></ul></div>
+    <div class="tv-card"><h2><span data-en="Survival tips" data-bn="সার্ভাইভাল টিপস">Survival tips</span></h2><ul class="tv-tips" id="tv-tips"></ul></div>
+  </div>
+  <div class="tv-panel" id="tv-panel-history" role="tabpanel" aria-labelledby="tv-tab-history" hidden>
+    <div class="tv-histbox" role="region" aria-labelledby="tv-hist-title">
+      <div class="tv-histbox-head">
+        <h2 id="tv-hist-title"><span data-en="Practice history" data-bn="অনুশীলনের ইতিহাস">Practice history</span> <span id="tv-hist-count"></span></h2>
+        <button type="button" class="tv-btn tv-btn-danger" id="tv-hist-clear" hidden disabled><span data-en="Clear all history" data-bn="সব ইতিহাস মুছুন">Clear all history</span></button>
       </div>
-    </section>
-
-    <section class="conversation-panel" aria-label="Conversation">
-      <div class="conversation" id="conversation" role="log" aria-live="polite"></div>
-      <div class="candidate-area" id="candidateArea"
-           aria-label="Suggested replies"></div>
-    </section>
-  </main>
-
-  <footer class="control-bar">
-    <button class="settings-btn" id="settingsBtn" type="button"
-            aria-label="Settings">⚙</button>
-
-    <button class="mic-btn" id="micBtn" type="button"
-            aria-label="Microphone">
-      <span class="mic-icon" aria-hidden="true">●</span>
-    </button>
-
-    <button class="furigana-toggle" id="furiganaToggle" type="button"
-            aria-pressed="true">ふりがな</button>
-
-    <div class="settings-panel" id="settingsPanel" hidden>
-      <label class="setting-row">
-        <span>Voice</span>
-        <select id="voiceSelect" aria-label="Voice"></select>
-      </label>
-      <label class="setting-row">
-        <span>Speed</span>
-        <input id="speedRange" type="range" min="0.6" max="1.4"
-               step="0.05" value="1" aria-label="Speed">
-      </label>
-      <p class="voice-notice" id="voiceNotice" hidden></p>
+      <div class="tv-hist" id="tv-hist"></div>
     </div>
-  </footer>
-</div>
-<script src="js/tutor-voice.js"></script>
+  </div>
+</section>
+    </main>
+  </div>
+  <nav class="shell-bottomnav" data-shell-bottomnav></nav>
+  <footer class="shell-footer" data-shell-footer></footer>
+  <aside class="shell-drawer" data-shell-drawer data-open="false"></aside>
+
+  <script src="js/data-schemas.js" defer></script>
+  <script src="js/data-loader.js" defer></script>
+  <script src="js/theme.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/nav-force.js" defer></script>
+  <script src="js/shell.js" defer></script>
+  <!-- DISABLED: <script src="js/phase13-shell.js" defer></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="js/supabase-config.js" defer></script>
+  <script src="js/cloud.js" defer></script>
+  <script src="js/a11y.js" defer></script>
+  <script src="js/pwa.js" defer></script>
+  <script src="js/v2-motion.js" defer></script>
+  <script src="js/nav-extra.js" defer></script>
+  <script src="js/home-hero.js" defer></script>
+  <script src="js/study-btn.js" defer></script>
+  <script src="js/toast.js" defer></script>
+  <script src="js/ui-lang.js" defer></script>
+  <script src="js/tutor-data.js?v=6" defer></script>
+  <script src="js/tutor-voice.js?v=6" defer></script>
 </body>
 </html>
