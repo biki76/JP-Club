@@ -1,36 +1,267 @@
-}
-@keyframes slimo-tear {
-  0%   { transform: translateY(0); opacity: 0; }
-  20%  { opacity: 1; }
-  100% { transform: translateY(14px); opacity: 0; }
-}
-@keyframes slimo-zzz {
-  0%   { transform: translate(0, 8px); opacity: 0; }
-  30%  { opacity: 1; }
-  100% { transform: translate(8px, -14px); opacity: 0; }
+/* ==========================================================
+   Slimo mascot — tokens, layout, bubble, widget
+   Additive only. Scoped to .slimo-* / [data-slimo-anchor].
+   ========================================================== */
+
+:root {
+  /* Art palette (single source of truth) */
+  --slimo-body:       #A66CF5;
+  --slimo-body-dark:  #8A57C9;
+  --slimo-hi:         #C9A4FF;
+  --slimo-eye:        #34196B;
+  --slimo-blush:      #FFA9DD;
+  --slimo-ground:     #D8D0E6;
+  --slimo-tongue:     #7A46C9;
+  --slimo-mouth:      #2A1457;
+
+  /* Widget chrome */
+  --slimo-size:       140px;
+  --slimo-size-mobile:96px;
+  --slimo-z:          60;
+  --slimo-ease:       cubic-bezier(.34,1.56,.64,1);
+  --focus:            #A66CF5;
 }
 
-/* ---------- CTA shimmer ---------- */
-.slimo-shimmer { position: relative; overflow: hidden; isolation: isolate; }
-.slimo-shimmer::after {
-  content: "";
+@media (prefers-color-scheme: dark) {
+  :root {
+    --slimo-body:      #B27CFF;
+    --slimo-body-dark: #9362D6;
+    --slimo-hi:        #D4B5FF;
+    --slimo-ground:    #2A2440;
+  }
+}
+html[data-theme="dark"] {
+  --slimo-body:      #B27CFF;
+  --slimo-body-dark: #9362D6;
+  --slimo-hi:        #D4B5FF;
+  --slimo-ground:    #2A2440;
+}
+
+/* ---------- widget shell ---------- */
+.slimo-widget {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: calc(64px + env(safe-area-inset-bottom) + 12px);
+  width: var(--slimo-size);
+  height: var(--slimo-size);
+  z-index: var(--slimo-z);
+  pointer-events: none;            /* only the body is interactive */
+  user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  transform: translateZ(0);
+  transition: opacity .25s ease;
+}
+.slimo-widget[hidden] { display: none; }
+.slimo-widget--above-nav {
+  bottom: calc(96px + env(safe-area-inset-bottom) + 16px);
+}
+@media (max-width: 640px) {
+  .slimo-widget {
+    width: var(--slimo-size-mobile);
+    height: var(--slimo-size-mobile);
+    bottom: calc(72px + env(safe-area-inset-bottom) + 10px);
+    right: max(12px, env(safe-area-inset-right));
+  }
+  .slimo-widget--above-nav {
+    bottom: calc(96px + env(safe-area-inset-bottom) + 12px);
+  }
+}
+
+/* ---------- button ---------- */
+.slimo-button {
   position: absolute;
   inset: 0;
-  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.5) 50%, transparent 70%);
-  transform: translateX(-120%);
-  animation: slimo-shine 3.2s ease-in-out infinite;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  cursor: grab;
+  pointer-events: auto;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 50%;
+  outline: none;
+}
+.slimo-button:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 50%;
+}
+.slimo-button:active { cursor: grabbing; }
+
+.slimo-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
   pointer-events: none;
+}
+
+/* ---------- SVG paint helpers ---------- */
+.slimo-body        { fill: var(--slimo-body); }
+.slimo-dark        { fill: var(--slimo-body-dark); }
+.slimo-hi          { fill: var(--slimo-hi); }
+.slimo-hi-strong   { fill: #fff; opacity: .85; }
+.slimo-eye         { fill: var(--slimo-eye); }
+.slimo-eye-hi      { fill: #fff; }
+.slimo-blush       { fill: var(--slimo-blush); opacity: .9; }
+.slimo-mouth       { fill: var(--slimo-mouth); }
+.slimo-tongue      { fill: var(--slimo-tongue); }
+.slimo-ground      { fill: var(--slimo-ground); opacity: .55; }
+.slimo-stroke      { fill: none; stroke: var(--slimo-eye); stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+.slimo-stroke-thin { fill: none; stroke: var(--slimo-eye); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.slimo-rim         { fill: none; stroke: #fff; stroke-opacity: .28; stroke-width: 4; }
+.slimo-text        { fill: var(--slimo-body); font: 800 44px "Inter", system-ui, sans-serif; }
+.slimo-confetti-1  { fill: #FF5FA2; }
+.slimo-confetti-2  { fill: #4ECDC4; }
+.slimo-confetti-3  { fill: #FFD84D; }
+.slimo-confetti-4  { fill: #A66CF5; }
+
+/* ---------- face visibility ---------- */
+.slimo-face { display: none; }
+.slimo-button[data-face="idle"]      .slimo-face--idle,
+.slimo-button[data-face="talk"]      .slimo-face--talk,
+.slimo-button[data-face="think"]     .slimo-face--think,
+.slimo-button[data-face="curious"]   .slimo-face--curious,
+.slimo-button[data-face="joy"]       .slimo-face--joy,
+.slimo-button[data-face="sad"]       .slimo-face--sad,
+.slimo-button[data-face="sleep"]     .slimo-face--sleep,
+.slimo-button[data-face="tired"]     .slimo-face--tired,
+.slimo-button[data-face="wink"]      .slimo-face--wink,
+.slimo-button[data-face="surprised"] .slimo-face--surprised,
+.slimo-button[data-face="love"]      .slimo-face--love,
+.slimo-button[data-face="proud"]     .slimo-face--proud,
+.slimo-button[data-face="celebrate"] .slimo-face--celebrate { display: inline; }
+
+/* ---------- antenna ---------- */
+.slimo-q-mark { display: none; }
+.slimo-button[data-face="curious"] .slimo-q-mark       { display: inline; }
+.slimo-button[data-face="curious"] .slimo-antenna-blob { display: none; }
+
+/* ---------- Zzz ---------- */
+.slimo-zzz { display: none; }
+.slimo-button[data-face="sleep"] .slimo-zzz,
+.slimo-button[data-face="tired"] .slimo-zzz { display: inline; }
+
+/* ---------- blink ---------- */
+.slimo-blink .slimo-eye,
+.slimo-blink .slimo-eye-hi {
+  animation: slimo-blink .15s ease-in-out;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+@keyframes slimo-blink {
+  0%, 100% { transform: scaleY(1); }
+  50%      { transform: scaleY(.05); }
+}
+
+/* ---------- talk mouth ---------- */
+.slimo-talking .slimo-mouth,
+.slimo-talking .slimo-mouth--talk {
+  animation: slimo-talk-mouth .24s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: 50% 30%;
+}
+@keyframes slimo-talk-mouth {
+  from { transform: scaleY(.55); }
+  to   { transform: scaleY(1.15); }
+}
+
+/* ---------- Zzz float ---------- */
+.slimo-z { animation: slimo-z 2.6s ease-in-out infinite; opacity: 0; }
+.slimo-z2 { animation-delay: .8s; }
+.slimo-z3 { animation-delay: 1.6s; }
+@keyframes slimo-z {
+  0%   { transform: translate(0, 10px); opacity: 0; }
+  30%  { opacity: 1; }
+  100% { transform: translate(10px, -20px); opacity: 0; }
+}
+
+/* ---------- bubble ---------- */
+.slimo-bubble {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 6px);
+  transform: translateX(-50%) translateY(6px);
+  min-width: 110px;
+  max-width: 240px;
+  padding: 8px 12px;
+  border-radius: 14px;
+  background: var(--surface, #fff);
+  color: var(--text, #1f1733);
+  border: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  box-shadow: 0 8px 24px -10px rgba(0,0,0,.35);
+  font: 500 13px/1.45 "Inter", system-ui, sans-serif;
+  text-align: center;
+  pointer-events: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .22s ease, transform .22s var(--slimo-ease), visibility 0s linear .22s;
   z-index: 1;
 }
-@keyframes slimo-shine {
-  0%        { transform: translateX(-120%); }
-  55%, 100% { transform: translateX(120%); }
+.slimo-bubble::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -7px;
+  width: 12px;
+  height: 12px;
+  background: inherit;
+  border-right: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  transform: translateX(-50%) rotate(45deg);
+}
+.slimo-bubble[data-open="true"] {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+  transition: opacity .22s ease, transform .22s var(--slimo-ease), visibility 0s;
+}
+.slimo-bubble__bn { display: none; }
+html[lang="bn"] .slimo-bubble__en { display: none; }
+html[lang="bn"] .slimo-bubble__bn { display: inline; }
+.slimo-bubble[data-open="false"] { pointer-events: none; }
+
+/* ---------- mini menu ---------- */
+.slimo-menu {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 8px);
+  min-width: 148px;
+  padding: 6px;
+  border-radius: 12px;
+  background: var(--surface, #fff);
+  color: var(--text, #1f1733);
+  border: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  box-shadow: 0 12px 32px -12px rgba(0,0,0,.4);
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+  pointer-events: auto;
+  z-index: 2;
+}
+.slimo-menu[data-open="true"] { display: flex; }
+.slimo-menu button {
+  all: unset;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font: 500 13px/1.2 "Inter", system-ui, sans-serif;
+  cursor: pointer;
+  text-align: left;
+}
+.slimo-menu button:hover,
+.slimo-menu button:focus-visible {
+  background: color-mix(in srgb, currentColor 8%, transparent);
+  outline: none;
 }
 
 /* ---------- reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
-  .slimo__body, .slimo__svg .s-shadow, .slimo *, .slimo-shimmer::after {
-    animation: none !important;
+  .slimo-widget, .slimo-bubble, .slimo-bubble::after {
+    transition: none !important;
   }
-  .f--sleepy .z { opacity: 1; }
+  .slimo-talking .slimo-mouth,
+  .slimo-mouth--talk,
+  .slimo-z { animation: none !important; }
+  /* blink + fade of expressions + small breathing are still allowed */
 }
